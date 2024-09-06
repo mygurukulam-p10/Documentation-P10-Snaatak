@@ -297,7 +297,9 @@ http://localhost:8080/swagger/index.html
 
 
 ## Architecture
-![employee](https://github.com/user-attachments/assets/4d879b38-6380-4ee8-83ce-cc8eaf260e84)
+
+![Employee_API Architecture drawio](https://github.com/user-attachments/assets/baecdfb0-8c23-4c02-8803-d0bfee23a8e1)
+
 
 
 
