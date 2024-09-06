@@ -8,11 +8,11 @@
 
 ## Table of Contents
 
-- [Gitops Tools](#gitops-tools)
-- [Comparison of GitOps Tools](#comparison-of-gitops-tools)
-- [Conclusion](#conclusion)
-- [Contact Information](#contact-information)
-- [References](#references)
+1. [Gitops Tools](#gitops-tools)
+2. [Comparison of GitOps Tools](#comparison-of-gitops-tools)
+3. [Conclusion](#conclusion)
+4. [Contact Information](#contact-information)
+5. [References](#references)
 
 
 ## GitOps Tools
