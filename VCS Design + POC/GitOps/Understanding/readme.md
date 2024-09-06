@@ -88,6 +88,15 @@ To effectively implement GitOps, consider the following best practices:
 - **Use Branches and Tags Wisely**: Utilize branches and tags in Git to manage different environments and stages of deployment.
 - **Document Processes**: Document workflows, procedures, and best practices to ensure clarity and consistency across teams.
 
+## FAQs
+
+- **What is the difference between GitOps and traditional DevOps?**:
+
+GitOps is a subset of DevOps that specifically focuses on using Git as the single source of truth for operations and deployment. While DevOps encompasses a broad range of practices for improving collaboration between development and operations, GitOps emphasizes declarative configurations and automated deployments managed through Git.
+
+- **How does GitOps handle secrets and sensitive information?**
+
+Secrets management can be integrated into GitOps workflows using specialized tools and techniques. For example, Kubernetes secrets, HashiCorp Vault, or other secrets management solutions can be used to handle sensitive information securely while maintaining GitOps principles.
 
 ## Contact Information
 
@@ -100,8 +109,6 @@ For further reading and resources on GitOps, check out the following:
 
 | Links | Descriptions|
 |------|---------------------|
-| https://argo-cd.readthedocs.io/en/stable/ | Argo CD Documentation |
-| https://fluxcd.io/docs/ | Flux Documentation |
 | https://jenkins-x.io/docs/ | Jenkins X Documentation |
+| https://fluxcd.io/docs/ | Flux Documentation |
 | https://www.terraform.io/docs/index.html | Terraform Documentation |
-| https://kustomize.io/ | Kustomize Documentation |
