@@ -38,7 +38,7 @@ Here are some popular GitOps tools:
 | **Customization** | High                       | Medium                     | High                       | Medium                     | High                       |
 
 ## Conclusion
-- ** Selecting the right GitOps tool depends on your specific requirements, including the complexity of your deployments, integration needs, and familiarity with the tool. Argo CD and Flux are excellent choices for Kubernetes-centric environments, offering robust features for continuous delivery and synchronization. Jenkins X integrates well with existing Jenkins workflows and supports GitOps practices. Kustomize and Helm are valuable for configuration management and package management, respectively, and can be used in conjunction with GitOps workflows.
+- Selecting the right GitOps tool depends on your specific requirements, including the complexity of your deployments, integration needs, and familiarity with the tool. Argo CD and Flux are excellent choices for Kubernetes-centric environments, offering robust features for continuous delivery and synchronization. Jenkins X integrates well with existing Jenkins workflows and supports GitOps practices. Kustomize and Helm are valuable for configuration management and package management, respectively, and can be used in conjunction with GitOps workflows.
 
 
 ## Contact Information
