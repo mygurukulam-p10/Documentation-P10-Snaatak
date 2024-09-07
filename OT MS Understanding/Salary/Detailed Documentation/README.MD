@@ -51,7 +51,6 @@ The Salary API application have some database, cache manager and package depende
 
 ## Architecture 
 
-! 
 
 ## Data Flow 
 
