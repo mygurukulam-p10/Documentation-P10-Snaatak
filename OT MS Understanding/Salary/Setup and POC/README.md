@@ -142,7 +142,6 @@ mvn --version
 ```
 ![image](https://github.com/user-attachments/assets/ac672659-3a30-46c6-b006-05a7bbeac9a5)
 
-```
 
 ### 2. Edit two files ```application.yml``` and ``` migration.json ```
 In ```application.yml```
@@ -160,20 +159,13 @@ In ```migration.json```
 ### 1. For building the Salary API application, we can use make commands
 ```
 make build
-
 ```
-
-![image (4)](https://github.com/user-attachments/assets/f40ed408-9e52-4851-9a14-7016253e9191)
-
-```
+![image](https://github.com/user-attachments/assets/1c59ce2a-a505-417e-a819-365a72a5a24d)
 
 ### 2. To automate the process of applying database migrations in a project, Use this command
 ```
 make run-migrations
 ```
-![image](https://github.com/user-attachments/assets/49f028e4-1522-4e0e-8860-f417bef2a16f)
-
-
 ### 3. start our application using java runtime
 ```
 ![image](https://github.com/user-attachments/assets/fee622fd-b174-44fb-a168-eb16e2a7f940)
@@ -182,5 +174,3 @@ make run-migrations
 java -jar target/salary-0.1.0-RELEASE.jar
 ```
 ![image](https://github.com/user-attachments/assets/4242ad6d-eba5-495d-a244-dcce7f1c47cb)
-
-```
