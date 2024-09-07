@@ -144,15 +144,7 @@ To run the Java application, navigate to the project directory and use the follo
 ```
 java -jar target/salary-api.jar
 ```
-## High Availability
-To make the salary-api service highly available, you can implement the following strategies:
 
-**Load Balancing**: Deploy multiple instances of the microservice and use a load balancer to distribute incoming traffic evenly.
-
-**Auto-Scaling**: Set up auto-scaling policies to automatically adjust the number of service instances based on traffic and load using tools like AWS Auto Scaling.
-
-
- By integrating these practices, you can enhance the availability and reliability of your salary-api service.
 
 ## Conclusion
 Following these steps, you will set up the necessary environment for the Salary API, build the project, and run the application. Ensure that all commands are executed in the correct order and in a terminal with sufficient privileges.
