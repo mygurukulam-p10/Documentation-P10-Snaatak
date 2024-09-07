@@ -10,6 +10,7 @@
 - [Run-Time Dependency](#Run-Time-Dependency)
 - [Important Ports](#important-ports)
 - [Architecture ](#Architecture)
+- [Step-by-step installation ](#Step-by-step installation)
 
 ## Purpose
 The Salary API project is a Java-based microservice designed to manage and process employee salary data. This Application is must be independent and can be run on multiple operating system. JAVA RUNTIME would be required to run this application.
@@ -176,6 +177,11 @@ make run-migrations
 java -jar target/salary-0.1.0-RELEASE.jar
 ```
 ![image](https://github.com/user-attachments/assets/7cd020bd-198a-4f6d-920a-b615753bdeaf)
+
+### The swagger page will be accessible on
+```
+http://localhost:8080/salary-documentation
+```
 
 ![image (8)](https://github.com/user-attachments/assets/303dcf10-d0d5-4820-8cfe-b4215509582b)
 
