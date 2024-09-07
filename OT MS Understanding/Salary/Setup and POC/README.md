@@ -79,7 +79,6 @@ sudo apt-get install scylla
 ```
 sudo scylla_setup
 ```
-#image
 ### 4. Start ScyllaDB & Verify the Installation
 ```
 sudo systemctl start scylla-server
