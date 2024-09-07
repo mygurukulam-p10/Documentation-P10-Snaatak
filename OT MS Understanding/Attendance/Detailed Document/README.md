@@ -1,6 +1,6 @@
 # Attendance API Technology Stack
 
-This README provides an overview of the technology stack used in our Attendance API project. Each section includes features, pros and cons, alternative solutions, reasons for choosing the technology, and relevant resources.
+This README provides an overview of the technology stack used in our Attendance API project. Each section includes features, pros and cons, reasons for choosing the technology, and relevant resources.
 
 ## Table of Contents
 1. [PostgreSQL](#1-postgresql)
@@ -10,6 +10,7 @@ This README provides an overview of the technology stack used in our Attendance 
 5. [Poetry](#5-poetry)
 6. [Java](#6-java)
 7. [Python](#7-python)
+8. [Swagger UI](#8-swagger-ui)
 
 ## 1. PostgreSQL
 
@@ -29,11 +30,6 @@ This README provides an overview of the technology stack used in our Attendance 
 | Active community and extensive documentation   | Slower for simple read operations compared to some NoSQL solutions |
 | Scalable for large datasets                    |                                                           |
 | Supports JSON and other NoSQL-like features    |                                                           |
-
-### Alternative Solutions
-- **MySQL**: Open-source relational database, simpler but less feature-rich
-- **MongoDB**: NoSQL database, better for unstructured data and high read performance
-- **SQLite**: Lightweight database, suitable for smaller applications
 
 ### Why PostgreSQL for Attendance API
 - Ensures data integrity for critical attendance records
@@ -65,11 +61,6 @@ This README provides an overview of the technology stack used in our Attendance 
 | Lightweight and easy to set up            |                                           |
 | Versatile for various use cases           |                                           |
 
-### Alternative Solutions
-- **Memcached**: Simple key-value store, faster for basic operations but less feature-rich
-- **Hazelcast**: In-memory data grid, offers more distributed computing features
-- **Apache Ignite**: In-memory computing platform with more advanced SQL capabilities
-
 ### Why Redis for Attendance API
 - Caches frequently accessed attendance data for faster retrieval
 - Manages user sessions efficiently
@@ -98,11 +89,6 @@ This README provides an overview of the technology stack used in our Attendance 
 | Enables easy rollback of database changes   | May require additional setup and learning curve |
 | Improves collaboration among developers     | Limited compared to more comprehensive tools |
 | Helps maintain consistency between environments |                                           |
-
-### Alternative Solutions
-- **Flyway**: Java-based, supports more databases and has a more extensive feature set
-- **Alembic**: Python-based, integrates well with SQLAlchemy ORM
-- **Knex.js**: JavaScript-based, good for Node.js applications
 
 ### Why Migrate for Attendance API
 - Manages database schema changes systematically
@@ -133,11 +119,6 @@ This README provides an overview of the technology stack used in our Attendance 
 | Enables easier collaboration among teams     | Performance can be an issue with large change sets |
 | Supports complex migration scenarios         |                                           |
 
-### Alternative Solutions
-- **Flyway**: Simpler to use but less flexible for complex scenarios
-- **DBMate**: Language-agnostic, simpler alternative
-- **Prisma Migrate**: Tailored for Prisma ORM users, offers declarative schema definition
-
 ### Why Liquibase for Attendance API
 - Provides robust version control for database schemas
 - Supports multiple environments and database types if needed
@@ -166,11 +147,6 @@ This README provides an overview of the technology stack used in our Attendance 
 | Ensures consistent environments              | Some compatibility issues with older Python versions |
 | Improves project reproducibility             | Limited support in some CI/CD platforms   |
 | Offers an intuitive CLI                      |                                           |
-
-### Alternative Solutions
-- **Pipenv**: Similar features, but with a different workflow
-- **pip + venv**: Traditional approach, more manual but widely understood
-- **Conda**: More suitable for data science projects and managing non-Python dependencies
 
 ### Why Poetry for Attendance API
 - Manages Python dependencies efficiently
@@ -201,11 +177,6 @@ This README provides an overview of the technology stack used in our Attendance 
 | Excellent tools for testing and debugging    | Higher memory usage compared to lower-level languages |
 | Well-suited for backend services             |                                           |
 
-### Alternative Solutions
-- **Kotlin**: Modern JVM language, more concise and null-safe
-- **Python**: Easier to learn and faster to develop, but generally slower execution
-- **Go**: Faster compilation and execution, but less extensive ecosystem
-
 ### Why Java for Attendance API
 - Provides a robust and scalable backend for handling complex business logic
 - Offers excellent performance for handling concurrent requests
@@ -235,11 +206,6 @@ This README provides an overview of the technology stack used in our Attendance 
 | Highly readable and maintainable code        | Dynamic typing can lead to runtime errors |
 | Excellent for scripting, automation, and data analysis |                                           |
 
-### Alternative Solutions
-- **Ruby**: Similar ease of use, but less popular in the data science community
-- **Go**: Better performance and concurrency, but steeper learning curve
-- **JavaScript (Node.js)**: Faster for web APIs, but not as strong in data science
-
 ### Why Python for Attendance API
 - Provides rapid development and prototyping capabilities
 - Offers powerful libraries for data processing and analysis
@@ -250,3 +216,32 @@ This README provides an overview of the technology stack used in our Attendance 
 - [Python Official Documentation](https://docs.python.org/3/)
 - [Python Tutorials and Resources](https://realpython.com/)
 - [Awesome Python GitHub](https://github.com/vinta/awesome-python)
+
+## 8. Swagger UI
+
+### Features
+- Interactive API documentation tool
+- Allows developers to visualize and interact with the API’s resources
+- Supports OpenAPI specifications
+- Provides a user-friendly interface for testing endpoints
+- Automatically generates documentation from API annotations
+
+### Pros and Cons
+
+| Pros                                         | Cons                                      |
+|----------------------------------------------|-------------------------------------------|
+| Enhances API documentation and usability     | May require additional setup and configuration |
+| Allows testing of API endpoints directly     | Can expose endpoints to unauthorized testing if not secured |
+| Improves communication between developers and stakeholders | May have compatibility issues with older OpenAPI specs |
+| Supports auto-generation of API docs         |                                           |
+
+### Why Swagger UI for Attendance API
+- Provides clear, interactive documentation for API consumers
+- Simplifies API testing and debugging during development
+- Encourages better API design and consistency
+- Easily integrates with existing OpenAPI specifications
+
+### Relevant Resources
+- [Swagger UI Official Documentation](https://swagger.io/tools/swagger-ui/)
+- [Swagger GitHub Repository](https://github.com/swagger-api/swagger-ui)
+- [Swagger UI Tutorials](https://www.tutorialspoint.com/swagger/index.htm)
