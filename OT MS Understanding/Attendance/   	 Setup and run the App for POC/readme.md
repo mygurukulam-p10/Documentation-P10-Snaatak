@@ -2,6 +2,18 @@
 |-------------|-------------|------------|-----------------|----------------|
 | Amit Nagar  | 06-09-24    | version 1  | Amit Nagar      | 06-09-24       |
 
+## Table of Contents
+1. [Pre-requisites](#pre-requisites)
+2. [System Requirements](#system-requirements)
+3. [Dependencies](#dependencies)
+   * [Run Time Dependencies](#run-time-dependency)
+   * [Build Dependencies](#build-dependency)
+4. [Important Ports](#important-ports)
+5. [Repo clone](#clone-the-git-repository-with-command) 
+6. [Step-by-step installation](#step-by-step-installation)
+7. [Application Build](#application-build)
+8. [Architecture](#architecture)
+
 ## Purpose
 Attendance Microservices is designed in Python to manage Attendance information.
 
@@ -43,6 +55,13 @@ This application requires no prerequisites except for database connectivity. Add
 | 6379            | Used by Redis      |
 | 5234            | Used by Post gres  |
 
+##clone-the-git-repository-with-command
+
+```
+git clone https://github.com/OT-MICROSERVICES/attendance-api.git
+```
+
+##Step-by-step installation
 
 ```
 # Update package list and upgrade existing packages
@@ -126,4 +145,10 @@ java -version
 python3 --version
 pip3 --version
 ```
+
+## Application Build
+
+
+## Architecture 
+![image](https://github.com/user-attachments/assets/42c73d72-2652-400f-89f3-bb78de2c8169)
 
