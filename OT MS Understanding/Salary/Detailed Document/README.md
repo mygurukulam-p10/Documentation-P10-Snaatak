@@ -54,7 +54,7 @@ The Salary API application have some database, cache manager and package depende
 ![Screenshot from 2024-09-07 15-24-03](https://github.com/user-attachments/assets/346eecc7-7b08-4ba1-b5f1-c07b9732a23e)
 
 
-## Data Flow 
+## DataFlow 
 
 #### Salary API Request:
 * When the Salary API needs data, it first checks the Redis cache (a fast, in-memory data store) to see if the data is already there.
