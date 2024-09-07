@@ -101,16 +101,13 @@ authorizer: CassandraAuthorizer
 ```
 cqlsh -u cassandra -p cassandra
 ```
-### 7. Create ScyllaDB user & give permission to create keyspace
+### 7. Now create a user in cqlsh with below command,
 ```
-CREATE ROLE scylladb WITH PASSWORD = 'cassandra' AND LOGIN = true;
-GRANT CREATE ON ALLKEYSPACE TO scylladb;
-exit
+CREATE USER scylla WITH PASSWORD 'password';
 ```
-#image
-### Login with scyllaDB User and create a keyspace
+### 8.give all permissions on keyspace employee_db to the scylla user with below command
 ```
-to add
+GRANT ALL PERMISSIONS ON KEYSPACE salary_db TO scylla;
 ```
 ## Step 3. Setup Redis Server
 ### 1. Install Redis and test
