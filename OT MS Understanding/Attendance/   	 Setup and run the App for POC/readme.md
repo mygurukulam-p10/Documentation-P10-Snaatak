@@ -129,11 +129,28 @@ pip3 --version
 
 echo "All installations completed successfully!"
 ```
-![Screenshot from 2024-09-07 13-07-34](https://github.com/user-attachments/assets/a6cc56e5-ec3a-4d0b-aa66-65b7fb1bcb1e)
 
+![Screenshot from 2024-09-07 13-07-34](https://github.com/user-attachments/assets/a6cc56e5-ec3a-4d0b-aa66-65b7fb1bcb1e)
 
 ![Screenshot from 2024-09-07 13-07-39](https://github.com/user-attachments/assets/9280d7ae-42b3-4ba2-8cc5-96b32dfecc3b)
 
+# Step 1 :- Go to Attendance Repository
+poetry shell ( Run Command )
+
+# Step 2 :- Run Command 
+sudo apt-get install build-essential libpq-dev
+
+A library required for developing applications that interact with PostgreSQL databases. It includes header files and the static library for libpq, which is the C application programmer's interface to PostgreSQL.
+
+# Step 3 :- Run the below command to install all dependencies required in this project 
+poetry Install
+
+# Step 4 :- Run Make migration command 
+make run-migrations
+
+# Step 5 :- Firstly install gunicorn and Now Run the Application
+pip3 install gunicorn
+gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 
 ![Screenshot from 2024-09-07 13-20-34](https://github.com/user-attachments/assets/25d94b66-ae7f-4255-bcad-f54b8336765b)
 
