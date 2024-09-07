@@ -129,6 +129,20 @@ pip3 --version
 
 echo "All installations completed successfully!"
 ```
+![Screenshot from 2024-09-07 13-07-34](https://github.com/user-attachments/assets/a6cc56e5-ec3a-4d0b-aa66-65b7fb1bcb1e)
+
+
+![Screenshot from 2024-09-07 13-07-39](https://github.com/user-attachments/assets/9280d7ae-42b3-4ba2-8cc5-96b32dfecc3b)
+
+
+![Screenshot from 2024-09-07 13-20-34](https://github.com/user-attachments/assets/25d94b66-ae7f-4255-bcad-f54b8336765b)
+
+![Screenshot from 2024-09-07 13-27-05](https://github.com/user-attachments/assets/7b109c86-527a-4336-9ae9-f0d3b46e295f)
+
+
+
+
+
 ## Application Build
 
 
