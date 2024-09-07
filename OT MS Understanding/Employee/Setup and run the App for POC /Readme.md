@@ -52,14 +52,18 @@ This application requires no prerequisites except for database connectivity. Add
 
 ## Install git
 
-```sudo apt install git```
+```
+sudo apt install git
+```
 
 
 ### Clone the git repository with command 
 
 
 
-```git clone https://github.com/OT-MICROSERVICES/employee-api.git```
+```
+git clone https://github.com/OT-MICROSERVICES/employee-api.git
+```
 
 
 ##  Step-by-step installation
@@ -68,11 +72,17 @@ This application requires no prerequisites except for database connectivity. Add
 
 #### Install a repo file and add the ScyllaDB APT repository to your system.
 
-  ```sudo mkdir -p /etc/apt/keyrings```
+  ```
+  sudo mkdir -p /etc/apt/keyrings
+```
   
-  ```sudo gpg --homedir /tmp --no-default-keyring --keyring /etc/apt/keyrings/scylladb.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 491c93b9de7496a7```
+  ```
+  sudo gpg --homedir /tmp --no-default-keyring --keyring /etc/apt/keyrings/scylladb.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 491c93b9de7496a7
+```
   
-  ```sudo wget -O /etc/apt/sources.list.d/scylla.list http://downloads.scylladb.com/deb/debian/scylla-6.1.list```
+  ```
+  sudo wget -O /etc/apt/sources.list.d/scylla.list http://downloads.scylladb.com/deb/debian/scylla-6.1.list
+```
 
 
 <img width="909" alt="ScyllaDB Installation" src="https://github.com/user-attachments/assets/4ce1011c-036d-4c1e-bb7b-035204bd0aad">
@@ -80,23 +90,31 @@ This application requires no prerequisites except for database connectivity. Add
 
 #### Install ScyllaDB packages.
 
-  ```sudo apt-get update```
+  ```
+  sudo apt-get update
+```
   
-  ```sudo apt-get install -y Scylla```
+  ```
+  sudo apt-get install -y Scylla
+```
 
 <img width="663" alt="ScyllaDB Package" src="https://github.com/user-attachments/assets/6d74d418-355e-444a-9668-40e6ec768000">
 
 
 #### Now Run the scylla_setup script to tune the system settings and determine the optimal configuration.
 
-  ```sudo scylla_setup```
+  ```
+  sudo scylla_setup
+```
 
 <img width="743" alt="ScyllaDB SETUP" src="https://github.com/user-attachments/assets/87535646-6bda-449a-bafd-83898ec58e0f">
 
 
 #### Run ScyllaDB as a service (if not already running).
 
- ```sudo systemctl start scylla-server```
+ ```
+ sudo systemctl start scylla-server
+```
     
 
      Run "cqlsh" to check if it connects.
@@ -126,37 +144,51 @@ CREATE KEYSPACE employee_db
 #### Restart scylla-server with below command
 
 
-```sudo systemctl restart scylla-server```
+```
+sudo systemctl restart scylla-server
+```
 
 
 #### firstly switch to by default super user of scylla with below command
 
 
-```cqlsh -u cassandra -p cassandra;```
+```
+cqlsh -u cassandra -p cassandra;
+```
 
 
 #### Now create a user in cqlsh with below command, 
 
 
-```CREATE USER scylla WITH PASSWORD 'password';```
+```
+CREATE USER scylla WITH PASSWORD 'password';
+```
 
 
 #### give all permissions on keyspace employee_db to the scylla user with below command
 
 
-```GRANT ALL PERMISSIONS ON KEYSPACE employee_db TO scylla;```
+```
+GRANT ALL PERMISSIONS ON KEYSPACE employee_db TO scylla;
+```
 
 
 ### 2.  Now need to install java 11 with below commands
    
 
-```sudo apt-get update```
+```
+sudo apt-get update
+```
 
 
-```sudo apt-get install -y openjdk-11-jre-headless```
+```
+sudo apt-get install -y openjdk-11-jre-headless
+```
 
 
-```sudo update-java-alternatives --jre-headless -s java-1.11.0-openjdk-amd64```
+```
+sudo update-java-alternatives --jre-headless -s java-1.11.0-openjdk-amd64
+```
 
 <img width="675" alt="JDK Installation" src="https://github.com/user-attachments/assets/f5ff6df0-e108-45a7-b90d-07587b878fb7">
 
@@ -165,9 +197,13 @@ CREATE KEYSPACE employee_db
 ### 3. Install redis on the server using below commands
 
 
-```sudo apt update```
+```
+sudo apt update
+```
 
-```sudo apt install -y redis-server```
+```
+sudo apt install -y redis-server
+```
 
 <img width="915" alt="Redis-Installation" src="https://github.com/user-attachments/assets/90b1667b-7e7f-46c5-bb37-6a37f745019f">
 
@@ -189,13 +225,17 @@ Also replace "# requirepass foobared" with "requirepass password"
 #### Restart redis service with below command
 
 
-```sudo systemctl restart redis.service```
+```
+sudo systemctl restart redis.service
+```
 
 
 #### Now Login to redis with below command
 
 
-```redis-cli```
+```
+redis-cli
+```
 
 <img width="365" alt="redis setup successfully" src="https://github.com/user-attachments/assets/5e0c5e0a-c9c6-42d4-b376-a9cc28c9599e">
 
@@ -204,14 +244,19 @@ Also replace "# requirepass foobared" with "requirepass password"
 #### now use below command to get access of the default user in redis
 
 
-```AUTH password```   (Here password should be same as we defined in requirepass field in redis conf file)
+```
+AUTH password
+```
+(Here password should be same as we defined in requirepass field in redis conf file)
 
 <img width="370" alt="image" src="https://github.com/user-attachments/assets/bee2a9e5-d314-420c-b946-fa85b1f66932">
 
 #### Now set a scylla user with all permissions using below command
 
 
-```ACL SETUSER scylla on >password ~* +@all```
+```
+ACL SETUSER scylla on >password ~* +@all
+```
 
 <img width="370" alt="image" src="https://github.com/user-attachments/assets/5e190a9d-644a-4fd2-bb5e-54d4820ef4c3">
 
@@ -220,7 +265,9 @@ Also replace "# requirepass foobared" with "requirepass password"
 
 1. #### Golang need to install for this application because Employee REST API is a golang based microservice
    
-```sudo apt install golang-go```
+```
+sudo apt install golang-go
+```
 
 <img width="352" alt="go version" src="https://github.com/user-attachments/assets/54f93d22-fbf6-491b-bcb5-0b254b5fb1cd">
 
@@ -240,8 +287,12 @@ Also replace "# requirepass foobared" with "requirepass password"
 
 3. #### Install jq Makefile and any associated scripts or configurations
    
-```sudo apt-get install jq -y```
-```jq --version```
+```
+sudo apt-get install jq -y
+```
+```
+jq --version
+```
 
 <img width="613" alt="jq installed" src="https://github.com/user-attachments/assets/e88eab96-a1ad-4b51-9122-3fa97a94c105">
 
@@ -251,7 +302,9 @@ Also replace "# requirepass foobared" with "requirepass password"
   #### Run the following command inside the directory to build your software artifact.
   #### Run the command, For building the application, we can use make command. 
 
- ```make build```
+ ```
+ make build
+```
 
  <img width="414" alt="Makebuild run successfully" src="https://github.com/user-attachments/assets/0e18fda8-8eaf-4b33-8e88-ddf15886acac">
 
@@ -268,7 +321,9 @@ Also replace "# requirepass foobared" with "requirepass password"
 
 #### To automate the process of applying database migrations in a project, use below mentioned command
 
-```make run-migrations```
+```
+make run-migrations
+```
 
 
 #### Once the keyspace and table is initialized, we can run the application by this command 
