@@ -155,13 +155,12 @@ In ```migration.json```
 ![image](https://github.com/user-attachments/assets/b7b752ce-081c-4944-be89-05bf804c5180)
 
 ## Step 6. Build Application
-
 ### 1. For building the Salary API application, we can use make commands
 ```
 make build
 ```
-
 ![image](https://github.com/user-attachments/assets/1c59ce2a-a505-417e-a819-365a72a5a24d)
+
 
 ### 2. To automate the process of applying database migrations in a project, Use this command
 ```
@@ -170,7 +169,7 @@ make run-migrations
 ### 3. start our application using java runtime
 ```
 ![image](https://github.com/user-attachments/assets/fee622fd-b174-44fb-a168-eb16e2a7f940)
-```
+
 
 java -jar target/salary-0.1.0-RELEASE.jar
 ```
