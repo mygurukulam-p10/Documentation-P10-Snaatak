@@ -1,4 +1,4 @@
-# Employee API Technology Stack
+# Employee API Detailed Document
 
 | Author      | Created on  | Version    | Last updated by | Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
