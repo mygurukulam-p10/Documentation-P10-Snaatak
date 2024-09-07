@@ -155,7 +155,7 @@ Set a password by uncommenting the line and replacing your_password with your de
 
 ![Screenshot from 2024-09-07 16-17-56](https://github.com/user-attachments/assets/b0c0a4ce-4e7f-4b58-8504-9565deee4d06)
 
-### Step 3 :- Go to Attendance Repository and Run command poetry install
+### Step 3 :- Go to Attendance Repository and run command poetry shell to create virtual env 
 ```
 poetry shell
 ``` 
