@@ -106,6 +106,11 @@ sudo apt install -y python3.11 python3.11-venv python3.11-dev
 sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.11 1
 sudo update-alternatives --set python3 /usr/bin/python3.11
 
+# Install Poetry
+curl -sSL https://install.python-poetry.org | python3 -
+export PATH="$HOME/.local/bin:$PATH"
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+
 # Install pip for Python 3.11
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3.11 get-pip.py
@@ -117,16 +122,12 @@ psql --version
 redis-server --version
 migrate -version
 liquibase --version
+poetry --version
 java -version
 python3 --version
 pip3 --version
 
 echo "All installations completed successfully!"
-```
-```
-# Installation of Poetry
-
-
 ```
 ## Application Build
 
