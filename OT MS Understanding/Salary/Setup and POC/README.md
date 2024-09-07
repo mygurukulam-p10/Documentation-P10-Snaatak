@@ -38,7 +38,9 @@ The Salary API application have some database, cache manager and package depende
 | 6379            | Used by Redis      |
 | 9042            | Used by ScyllaDB / migrate |
 ## Architecture
-![image](https://github.com/user-attachments/assets/ede77773-b8f7-49a2-b726-4715f51d50e1)
+
+![image](https://github.com/user-attachments/assets/3ceaca3c-6de1-4534-be4a-1570faf1f104)
+
 
 ## Install git
 ```
@@ -56,7 +58,8 @@ sudo mkdir -p /etc/apt/keyrings
 sudo gpg --homedir /tmp --no-default-keyring --keyring /etc/apt/keyrings/scylladb.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 491c93b9de7496a7
 sudo wget -O /etc/apt/sources.list.d/scylla.list http://downloads.scylladb.com/deb/debian/scylla-6.1.list
 ```
-![image](https://github.com/user-attachments/assets/32ed0bdd-03f9-4d1b-bf8e-052688344ea9)
+
+![image](https://github.com/user-attachments/assets/e79a2a78-de7e-4cf1-9711-e1c17b1f2d4e)
 
 
 ### 2. Now Install ScyllaDB
@@ -64,7 +67,8 @@ sudo wget -O /etc/apt/sources.list.d/scylla.list http://downloads.scylladb.com/d
 sudo apt-get update
 sudo apt-get install scylla
 ```
-![image](https://github.com/user-attachments/assets/e8c3890e-9c34-4f0a-829a-aa53d6929d86)
+![image](https://github.com/user-attachments/assets/6b17265a-4ea3-4064-ab3f-706b3761c412)
+
 
 ### 3. Configure ScyllaDB
 #### Run the ScyllaDB setup script to configure your installation
@@ -77,7 +81,8 @@ sudo scylla_setup
 sudo systemctl start scylla-server
 sudo systemctl status scylla-server
 ```
-![image (5)](https://github.com/user-attachments/assets/4dfdf899-abee-4354-be88-e388f82e355a)
+![image (5)](https://github.com/user-attachments/assets/931cad90-5d55-4029-b321-32177dd82741)
+
 
 
 ### 5. Configure user Scylla & Space
@@ -90,6 +95,8 @@ After entering, Edit these entries for security purpose
 authenticator: PasswordAuthenticator
 authorizer: CassandraAuthorizer
 ```
+![image](https://github.com/user-attachments/assets/6fc1c188-1f74-41ce-86cb-450dc5cca3b2)
+
 ### 6. Login as superuser (cassandra)
 ```
 cqlsh -u cassandra -p cassandra
@@ -114,7 +121,8 @@ sudo systemctl start redis-server
 sudo systemctl status redis-server
 redis-cli
 ```
-![image (6)](https://github.com/user-attachments/assets/edb58484-e14a-4be7-afff-fe9017d59d19)
+![image (6)](https://github.com/user-attachments/assets/6b4d5fc0-0a19-4e1c-baf5-a93ec1e13691)
+
 
 ## Step 4. Setup Migrate Tool
 ### 1. Install and check the version
@@ -125,30 +133,41 @@ sudo mv migrate.linux-amd64 /usr/local/bin/migrate
 sudo chmod +x /usr/local/bin/migrate
 migrate -version
 ```
-#image
+![Screenshot from 2024-09-07 15-58-08](https://github.com/user-attachments/assets/84905d23-6619-4065-a85f-075ceac2debf)
+
 ## Step 5. Seting up the API
 ### 1. Install JDK 17 & Maven
 ```
 sudo apt install openjdk-17-jdk
-java -version
+java --version
 sudo apt install maven
-mvn -version
+mvn --version
 ```
-#image
+![image](https://github.com/user-attachments/assets/ac672659-3a30-46c6-b006-05a7bbeac9a5)
+
+
 ### 2. Edit two files ```application.yml``` and ``` migration.json ```
 In ```application.yml```
-#image
+
+![image](https://github.com/user-attachments/assets/b657bf0c-0fd5-4376-8b59-64e32441d0a5)
+
+![image](https://github.com/user-attachments/assets/4250675d-adbb-4010-8e16-47b52449ee1b)
+
 In ```migration.json```
 ## Step 6. Build Application
 ### 1. For building the Salary API application, we can use make commands
 ```
 make build
 ```
-![image](https://github.com/user-attachments/assets/1c59ce2a-a505-417e-a819-365a72a5a24d)
+![image (4)](https://github.com/user-attachments/assets/f40ed408-9e52-4851-9a14-7016253e9191)
+
 
 ### 2. To automate the process of applying database migrations in a project, Use this command
 ```
 make run-migrations
+
+![image](https://github.com/user-attachments/assets/49f028e4-1522-4e0e-8860-f417bef2a16f)
+
 ```
 ### 3. start our application using java runtime
 ```
@@ -158,24 +177,3 @@ make run-migrations
 java -jar target/salary-0.1.0-RELEASE.jar
 ```
 ![image](https://github.com/user-attachments/assets/4242ad6d-eba5-495d-a244-dcce7f1c47cb)
-
-ScyllaDBScyllaDB
-Home
-ScyllaDB is the distributed database for data-intensive apps that require high performance and low latency. (79 kB)
-https://www.scylladb.com/
-
-RedisRedis
-Redis - The Real-time Data Platform
-Developers love Redis. Unlock the full potential of the Redis database with Redis Enterprise and start building blazing fast apps. (12 kB)
-https://redis.io/
-
-GitHubGitHub
-salary-api/static/salary.png at main · OT-MICROSERVICES/salary-api
-Java microservice for handling all attendance related data - OT-MICROSERVICES/salary-api (50 kB)
-https://github.com/OT-MICROSERVICES/salary-api/blob/main/static/salary.png
-
-GitHubGitHub
-GitHub - OT-MICROSERVICES/employee-api: A Golang based web microservice for handling all employee related data
-A Golang based web microservice for handling all employee related data - OT-MICROSERVICES/employee-api (54 kB)
-https://github.com/OT-MICROSERVICES/employee-api.git
-
