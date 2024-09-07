@@ -12,7 +12,7 @@
 - [Build-Time Dependency](#Build-Time-Dependency)
 - [Run-Time Dependency](#Run-Time-Dependency)
 - [Architecture ](#Architecture)
-- [ Dataflow ](#Dataflow )
+- [ Data Flow ](#Data Flow )
 - [ Setting Up the Environment](#Setting-Up-the-Environment)
 - [Building and Running the Salary API](#Bilding-and-Running-the-SalaryAPI)
 - [Conclusion](#Conclusion)
