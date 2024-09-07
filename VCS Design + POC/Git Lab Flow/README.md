@@ -93,6 +93,9 @@ While it may require some adjustment for teams used to other workflows, GitLab F
 4. [GitLab Flow | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) - Atlassian's perspective on GitLab Flow, providing a comparison with other workflows.
 5. [Git Workflow | GitLab](https://docs.gitlab.com/ee/topics/git/git_workflow.html) - Detailed explanation of Git workflows in GitLab, including GitLab Flow.
 
+![image](https://github.com/user-attachments/assets/77e1bb74-fad5-4199-97bd-823e2cde1d6e)
+
+
 ## Contact Information 
 |Name|Email Address|
 |:---:|:---:|
