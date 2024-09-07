@@ -137,33 +137,60 @@ echo "All installations completed successfully!"
 
 ![Screenshot from 2024-09-07 13-07-39](https://github.com/user-attachments/assets/9280d7ae-42b3-4ba2-8cc5-96b32dfecc3b)
 
-### Step 1 :- Go to Attendance Repository
+
+
+
+### Step 1 :- Run Below Command
+ A library required for developing applications that interact with PostgreSQL databases. It includes header files and the static library for libpq, which is the C application programmer's interface to PostgreSQL.
+
+sudo apt-get install build-essential libpq-dev
+
+### Step 2 :- Update the Redis Configuration (redis.conf)
+Open redis.conf configuration file (located at /etc/redis/redis.conf).
+Find the line that starts with # requirepass, which is commented out by default.
+Set a password by uncommenting the line and replacing your_password with your desired password:
+
+![Screenshot from 2024-09-07 16-17-56](https://github.com/user-attachments/assets/b0c0a4ce-4e7f-4b58-8504-9565deee4d06)
+
+### Step 3 :- Go to Attendance Repository
 poetry shell ( Run Command )
 ![Screenshot from 2024-09-07 14-53-39](https://github.com/user-attachments/assets/ec6c03a5-66d0-4eea-8994-4383a87d0f61)
 
+### Step 4:- Create database for attendance app and setup password for postgres user
+Create database attendence_db;
+ALTER USER postgres WITH PASSWORD 'password';
 
-### Step 2 :- Run Command 
-sudo apt-get install build-essential libpq-dev
 
-A library required for developing applications that interact with PostgreSQL databases. It includes header files and the static library for libpq, which is the C application programmer's interface to PostgreSQL.
+### Step 5: - Update pg_hba.conf
+The pg_hba.conf file controls client authentication and is where you specify the authentication method for different users and connections.
 
-### Step 3 :- Run the below command to install all dependencies required in this project 
+Locate the pg_hba.conf file: The location of this file may vary depending on installation. Common locations are /etc/postgresql/15/main/pg_hba.conf
+Edit the pg_hba.conf file:
+
+![Screenshot from 2024-09-07 16-22-31](https://github.com/user-attachments/assets/771865af-7b47-4e10-b254-f595485f680e)
+
+### Step 6: - Update config.yaml and liquibase.properties
+![Screenshot from 2024-09-07 16-24-36](https://github.com/user-attachments/assets/41edd2c8-a83e-42c9-ad00-9b5bdf138e79)
+
+![Screenshot from 2024-09-07 16-28-35](https://github.com/user-attachments/assets/7b331115-1538-42ce-989e-65a64ae7b3ea)
+
+### Step 7 :- Run the below command to install all dependencies required in this project 
 poetry Install
 ![Screenshot from 2024-09-07 14-53-49](https://github.com/user-attachments/assets/972d301e-68ba-4e36-bc54-ada0c6948e4e)
 
 
-### Step 4 :- Run Make migration command 
+### Step 8 :- Run Make migration command 
 make run-migrations
 ![Screenshot from 2024-09-07 14-54-22](https://github.com/user-attachments/assets/14e582b3-ef33-4db1-9433-88525720aa45)
 
 
-### Step 5 :- Firstly install gunicorn and Now Run the Application
+### Step 9 :- Firstly install gunicorn and Now Run the Application
 pip3 install gunicorn
 gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 ![Screenshot from 2024-09-07 14-54-32](https://github.com/user-attachments/assets/00fd81a3-9816-4cb5-806a-2f20329493ce)
 
 
-### Step 6 :- Now go to web browser and hit url http://<ip of the server>:8080/apidocs
+### Step 10 :- Now go to web browser and hit url http://<ip of the server>:8080/apidocs
 ![Screenshot from 2024-09-07 13-27-05](https://github.com/user-attachments/assets/7b109c86-527a-4336-9ae9-f0d3b46e295f)
 
 
