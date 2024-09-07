@@ -143,7 +143,10 @@ echo "All installations completed successfully!"
 ### Step 1 :- Run Below Command
  A library required for developing applications that interact with PostgreSQL databases. It includes header files and the static library for libpq, which is the C application programmer's interface to PostgreSQL.
 
+```
 sudo apt-get install build-essential libpq-dev
+```
+
 
 ### Step 2 :- Update the Redis Configuration (redis.conf)
 Open redis.conf configuration file (located at /etc/redis/redis.conf).
@@ -152,14 +155,20 @@ Set a password by uncommenting the line and replacing your_password with your de
 
 ![Screenshot from 2024-09-07 16-17-56](https://github.com/user-attachments/assets/b0c0a4ce-4e7f-4b58-8504-9565deee4d06)
 
-### Step 3 :- Go to Attendance Repository
-poetry shell ( Run Command )
+### Step 3 :- Go to Attendance Repository and Run command poetry install
+```
+poetry shell
+``` 
 ![Screenshot from 2024-09-07 14-53-39](https://github.com/user-attachments/assets/ec6c03a5-66d0-4eea-8994-4383a87d0f61)
 
 ### Step 4:- Create database for attendance app and setup password for postgres user
+```
 Create database attendence_db;
-ALTER USER postgres WITH PASSWORD 'password';
 
+```
+```
+ALTER USER postgres WITH PASSWORD 'password';
+```
 
 ### Step 5: - Update pg_hba.conf
 The pg_hba.conf file controls client authentication and is where you specify the authentication method for different users and connections.
@@ -175,18 +184,26 @@ Edit the pg_hba.conf file:
 ![Screenshot from 2024-09-07 16-28-35](https://github.com/user-attachments/assets/7b331115-1538-42ce-989e-65a64ae7b3ea)
 
 ### Step 7 :- Run the below command to install all dependencies required in this project 
+```
 poetry Install
+```
 ![Screenshot from 2024-09-07 14-53-49](https://github.com/user-attachments/assets/972d301e-68ba-4e36-bc54-ada0c6948e4e)
 
 
 ### Step 8 :- Run Make migration command 
+```
 make run-migrations
+```
 ![Screenshot from 2024-09-07 14-54-22](https://github.com/user-attachments/assets/14e582b3-ef33-4db1-9433-88525720aa45)
 
 
 ### Step 9 :- Firstly install gunicorn and Now Run the Application
+```
 pip3 install gunicorn
+```
+```
 gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
+```
 ![Screenshot from 2024-09-07 14-54-32](https://github.com/user-attachments/assets/00fd81a3-9816-4cb5-806a-2f20329493ce)
 
 
