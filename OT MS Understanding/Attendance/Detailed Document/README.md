@@ -1,6 +1,6 @@
 # Attendance API Technology Stack
 
-This README provides an overview of the technology stack used in our Attendance API project. Each section includes features, pros and cons, alternative solutions, and reasons for choosing the technology.
+In this Document we will see the the dependenciews we were downloading it's features etc.
 
 ## Table of Contents
 1. [PostgreSQL](#1-postgresql)
