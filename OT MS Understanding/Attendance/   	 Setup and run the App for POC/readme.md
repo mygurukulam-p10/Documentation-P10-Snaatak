@@ -147,5 +147,6 @@ echo "All installations completed successfully!"
 
 
 ## Architecture 
-![image](https://github.com/user-attachments/assets/42c73d72-2652-400f-89f3-bb78de2c8169)
+![image (1)](https://github.com/user-attachments/assets/09a7e5bf-7a95-4493-a192-3cc3e0e887d9)
+
 
