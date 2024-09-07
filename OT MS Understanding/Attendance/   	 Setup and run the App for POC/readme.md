@@ -12,10 +12,10 @@
    * [Run Time Dependencies](#run-time-dependency)
    * [Build Dependencies](#build-dependency)
 4. [Important Ports](#important-ports)
-5. [Repo clone](##clone-the-git-repository-with-command) 
-6. [Step-by-step installation](##step-by-step-installation)
-7. [Application Build](##application-build)
-8. [Architecture](##architecture)
+5. [Repo clone](#clone-the-git-repository-with-command) 
+6. [Step-by-step installation](#step-by-step-installation)
+7. [Application Build](#application-build)
+8. [Architecture](#architecture)
 
 ## Purpose
 Attendance Microservices is designed in Python to manage Attendance information.
