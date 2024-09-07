@@ -58,6 +58,9 @@ This application requires no prerequisites except for database connectivity. Add
 | 6379            | Used by Redis      |
 | 5432            | Used by Postgres  |
 
+
+# Step-by-step installation
+
 ## Clone-the-git-repository-with-command
 
 ```
