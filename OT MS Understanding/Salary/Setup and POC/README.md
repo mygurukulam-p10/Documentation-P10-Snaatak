@@ -168,6 +168,7 @@ make build
 make run-migrations
 ```
 ### 3. start our application using java runtime
+```
 ![image](https://github.com/user-attachments/assets/fee622fd-b174-44fb-a168-eb16e2a7f940)
 ```
 
