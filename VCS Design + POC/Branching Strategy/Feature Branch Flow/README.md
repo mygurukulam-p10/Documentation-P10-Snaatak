@@ -115,4 +115,4 @@ Explore these resources to deepen your understanding of Feature Branch Flow and 
 ## Contact Information
 |Name|Email Address|
 |:---:|:---:|
-|Amit Nagar |amit.nagar.snaatak@mygurukulam.co|
+|Amit  |amit.nagar.snaatak@mygurukulam.co|
