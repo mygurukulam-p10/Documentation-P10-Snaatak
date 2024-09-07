@@ -99,4 +99,4 @@ While it may require some adjustment for teams used to other workflows, GitLab F
 ## Contact Information 
 |Name|Email Address|
 |:---:|:---:|
-|Komal|komal.jaiswal.snaatak@mygurukulam.co|
+|Amit Nagar|amit.nagar.snaatak@mygurukulam.co|
