@@ -55,13 +55,13 @@ This application requires no prerequisites except for database connectivity. Add
 | 6379            | Used by Redis      |
 | 5234            | Used by Post gres  |
 
-##clone-the-git-repository-with-command
+## clone-the-git-repository-with-command
 
 ```
 git clone https://github.com/OT-MICROSERVICES/attendance-api.git
 ```
 
-##Step-by-step installation
+## Step-by-step installation
 
 ```
 # Update package list and upgrade existing packages
