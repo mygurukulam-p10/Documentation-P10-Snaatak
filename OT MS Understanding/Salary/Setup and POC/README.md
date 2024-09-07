@@ -10,6 +10,7 @@
 - [Run-Time Dependency](#Run-Time-Dependency)
 - [Important Ports](#important-ports)
 - [Architecture ](#Architecture)
+
 ## Purpose
 The Salary API project is a Java-based microservice designed to manage and process employee salary data. This Application is must be independent and can be run on multiple operating system. JAVA RUNTIME would be required to run this application.
 ## Pre-requisites
@@ -160,17 +161,21 @@ In ```migration.json```
  make build
 
 ```
-![image](https://github.com/user-attachments/assets/1c59ce2a-a505-417e-a819-365a72a5a24d)
+![image (4)](https://github.com/user-attachments/assets/f19a28fc-2260-4baf-bfed-ae713bb34aee)
+
+
 
 ### 2. To automate the process of applying database migrations in a project, Use this command
 ```
 make run-migrations
+```
+![image](https://github.com/user-attachments/assets/c8b5a5a1-7ed2-4ce3-89ac-25495ed9c9a2)
 
 ### 3. start our application using java runtime
 ```
-![image](https://github.com/user-attachments/assets/fee622fd-b174-44fb-a168-eb16e2a7f940)
-
-
 java -jar target/salary-0.1.0-RELEASE.jar
 ```
-![image](https://github.com/user-attachments/assets/4242ad6d-eba5-495d-a244-dcce7f1c47cb)
+![image](https://github.com/user-attachments/assets/7cd020bd-198a-4f6d-920a-b615753bdeaf)
+
+
+
