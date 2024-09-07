@@ -10,7 +10,7 @@
 6. [Best Practices](#best-practices)
 7. [Comparison with Other Workflows](#comparison-with-other-workflows)
 8. [Conclusion](#conclusion)
-9. [Additional Resources](#additional-resources)
+9. [References](#References)
 
 ## Introduction
 
@@ -120,7 +120,7 @@ While it introduces some complexity and requires disciplined branch management, 
 
 The key to success with Environment Branch Flow is consistent application of the workflow, clear communication within the team, and leveraging automation to streamline the process of promoting changes between environments.
 
-## Additional Resources
+## References
 
 1. **[Environment Branching Strategies](https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf)**  
    An overview of different branching strategies, including environment-based workflows.
