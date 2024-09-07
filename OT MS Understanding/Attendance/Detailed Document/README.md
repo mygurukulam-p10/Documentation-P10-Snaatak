@@ -1,6 +1,6 @@
 # Attendance API Technology Stack
 
-In this Document we will see the the dependenciews we were downloading it's features etc.
+This README provides an overview of the technology stack used in our Attendance API project. Each section includes features, pros and cons, alternative solutions, reasons for choosing the technology, and relevant resources.
 
 ## Table of Contents
 1. [PostgreSQL](#1-postgresql)
@@ -20,17 +20,15 @@ In this Document we will see the the dependenciews we were downloading it's feat
 - Provides excellent support for concurrent operations
 - Extensible with custom functions and data types
 
-### Pros
-- High performance for complex queries
-- Strong data consistency and reliability
-- Active community and extensive documentation
-- Scalable for large datasets
-- Supports JSON and other NoSQL-like features
+### Pros and Cons
 
-### Cons
-- Can be complex to set up and maintain
-- May require more resources compared to lighter databases
-- Slower for simple read operations compared to some NoSQL solutions
+| Pros                                           | Cons                                                      |
+|------------------------------------------------|-----------------------------------------------------------|
+| High performance for complex queries           | Can be complex to set up and maintain                     |
+| Strong data consistency and reliability        | May require more resources compared to lighter databases  |
+| Active community and extensive documentation   | Slower for simple read operations compared to some NoSQL solutions |
+| Scalable for large datasets                    |                                                           |
+| Supports JSON and other NoSQL-like features    |                                                           |
 
 ### Alternative Solutions
 - **MySQL**: Open-source relational database, simpler but less feature-rich
@@ -45,8 +43,8 @@ In this Document we will see the the dependenciews we were downloading it's feat
 
 ### Relevant Resources
 - [PostgreSQL Official Documentation](https://www.postgresql.org/docs/)
-- [Why You Should Choose PostgreSQL for Your Next Project](https://www.postgresqltutorial.com/postgresql-getting-started/why-postgresql/)
-- [PostgreSQL vs MySQL: Which is Better?](https://www.integrate.io/blog/postgresql-vs-mysql-which-one-is-better-for-your-use-case/)
+- [PostgreSQL Tutorials and Guides](https://www.postgresqltutorial.com/)
+- [Awesome PostgreSQL GitHub](https://github.com/dhamaniasad/awesome-postgres)
 
 ## 2. Redis
 
@@ -57,17 +55,15 @@ In this Document we will see the the dependenciews we were downloading it's feat
 - Offers data persistence options
 - Includes built-in replication and cluster mode
 
-### Pros
-- Extremely fast read/write operations
-- Reduces database load by caching frequently accessed data
-- Supports distributed locking and session management
-- Lightweight and easy to set up
-- Versatile for various use cases beyond caching
+### Pros and Cons
 
-### Cons
-- Limited storage capacity (bound by RAM)
-- Data can be lost if not configured for persistence
-- Less suitable for complex queries compared to relational databases
+| Pros                                      | Cons                                      |
+|-------------------------------------------|-------------------------------------------|
+| Extremely fast read/write operations      | Limited storage capacity (bound by RAM)   |
+| Reduces database load by caching data     | Data can be lost if not configured for persistence |
+| Supports distributed locking and sessions | Less suitable for complex queries         |
+| Lightweight and easy to set up            |                                           |
+| Versatile for various use cases           |                                           |
 
 ### Alternative Solutions
 - **Memcached**: Simple key-value store, faster for basic operations but less feature-rich
@@ -82,8 +78,8 @@ In this Document we will see the the dependenciews we were downloading it's feat
 
 ### Relevant Resources
 - [Redis Official Documentation](https://redis.io/documentation)
-- [Redis: Beyond Simple Caching](https://redis.com/blog/redis-beyond-caching/)
-- [Redis vs Memcached: Which One to Choose?](https://aws.amazon.com/elasticache/redis-vs-memcached/)
+- [Redis Tutorials and Courses](https://redis.com/learn/)
+- [Awesome Redis GitHub](https://github.com/JamzyWang/awesome-redis)
 
 ## 3. Migrate
 
@@ -94,16 +90,14 @@ In this Document we will see the the dependenciews we were downloading it's feat
 - Can be integrated into build and deployment processes
 - Supports multiple database drivers
 
-### Pros
-- Simplifies database schema management
-- Enables easy rollback of database changes
-- Improves collaboration among developers
-- Helps maintain consistency between development and production environments
+### Pros and Cons
 
-### Cons
-- Specific to Go language ecosystem
-- May require additional setup and learning curve
-- Limited compared to more comprehensive migration tools
+| Pros                                        | Cons                                      |
+|---------------------------------------------|-------------------------------------------|
+| Simplifies database schema management       | Specific to Go language ecosystem         |
+| Enables easy rollback of database changes   | May require additional setup and learning curve |
+| Improves collaboration among developers     | Limited compared to more comprehensive tools |
+| Helps maintain consistency between environments |                                           |
 
 ### Alternative Solutions
 - **Flyway**: Java-based, supports more databases and has a more extensive feature set
@@ -118,8 +112,8 @@ In this Document we will see the the dependenciews we were downloading it's feat
 
 ### Relevant Resources
 - [Migrate GitHub Repository](https://github.com/golang-migrate/migrate)
-- [Managing Database Migrations in Go](https://blog.jetbrains.com/go/2021/04/08/database-migrations-in-go/)
-- [Database Migration Strategies: Comparing Different Tools](https://www.prisma.io/dataguide/types/relational/comparing-database-migration-tools)
+- [Migrate Documentation](https://pkg.go.dev/github.com/golang-migrate/migrate/v4)
+- [Migrate Tutorials](https://www.digitalocean.com/community/tutorials/how-to-automate-database-migrations-in-go-applications)
 
 ## 4. Liquibase
 
@@ -130,17 +124,14 @@ In this Document we will see the the dependenciews we were downloading it's feat
 - Offers diff capabilities to compare database schemas
 - Integrates with various build and CI/CD tools
 
-### Pros
-- Database agnostic, supports a wide range of databases
-- Provides a clear history of database changes
-- Enables easier collaboration among team members
-- Supports complex migration scenarios
-- Offers both GUI and command-line interfaces
+### Pros and Cons
 
-### Cons
-- Can have a steeper learning curve compared to simpler tools
-- May add complexity to smaller projects
-- Performance can be an issue with very large change sets
+| Pros                                         | Cons                                      |
+|----------------------------------------------|-------------------------------------------|
+| Database agnostic, supports many databases   | Can have a steeper learning curve         |
+| Provides a clear history of database changes | May add complexity to smaller projects    |
+| Enables easier collaboration among teams     | Performance can be an issue with large change sets |
+| Supports complex migration scenarios         |                                           |
 
 ### Alternative Solutions
 - **Flyway**: Simpler to use but less flexible for complex scenarios
@@ -154,9 +145,9 @@ In this Document we will see the the dependenciews we were downloading it's feat
 - Integrates well with Java ecosystem (if parts of your API are in Java)
 
 ### Relevant Resources
-- [Liquibase Official Documentation](https://docs.liquibase.com/)
-- [Getting Started with Liquibase: A Beginner's Guide](https://www.liquibase.org/get-started/quickstart)
-- [Comparing Database Migration Tools: Liquibase vs Flyway](https://www.red-gate.com/blog/database-devops/liquibase-and-flyway-comparison)
+- [Liquibase Official Documentation](https://www.liquibase.org/documentation/index.html)
+- [Liquibase GitHub Repository](https://github.com/liquibase/liquibase)
+- [Liquibase Tutorials](https://www.baeldung.com/liquibase-refcard)
 
 ## 5. Poetry
 
@@ -167,16 +158,14 @@ In this Document we will see the the dependenciews we were downloading it's feat
 - Supports building and publishing packages
 - Integrates with pyproject.toml for project metadata
 
-### Pros
-- Simplifies Python project setup and dependency management
-- Ensures consistent environments across development and production
-- Improves project reproducibility
-- Offers an intuitive CLI for managing dependencies
+### Pros and Cons
 
-### Cons
-- May have a learning curve for developers used to pip and requirements.txt
-- Some compatibility issues with older Python versions
-- Limited support in some CI/CD platforms compared to pip
+| Pros                                         | Cons                                      |
+|----------------------------------------------|-------------------------------------------|
+| Simplifies Python project setup              | May have a learning curve for developers used to pip and requirements.txt |
+| Ensures consistent environments              | Some compatibility issues with older Python versions |
+| Improves project reproducibility             | Limited support in some CI/CD platforms   |
+| Offers an intuitive CLI                      |                                           |
 
 ### Alternative Solutions
 - **Pipenv**: Similar features, but with a different workflow
@@ -191,8 +180,8 @@ In this Document we will see the the dependenciews we were downloading it's feat
 
 ### Relevant Resources
 - [Poetry Official Documentation](https://python-poetry.org/docs/)
-- [Why You Should Use Poetry for Python Dependency Management](https://realpython.com/dependency-management-python-poetry/)
-- [Poetry vs Pipenv: Choosing the Right Python Dependency Management Tool](https://testdriven.io/blog/python-dependency-management/)
+- [Poetry GitHub Repository](https://github.com/python-poetry/poetry)
+- [Poetry Tutorials and Guides](https://realpython.com/dependency-management-python-poetry/)
 
 ## 6. Java
 
@@ -203,16 +192,14 @@ In this Document we will see the the dependenciews we were downloading it's feat
 - Extensive standard library and third-party ecosystem
 - Supports multithreading and concurrent programming
 
-### Pros
-- Highly scalable and performant for enterprise applications
-- Strong community support and extensive documentation
-- Excellent tools for testing, debugging, and profiling
-- Well-suited for building robust backend services
+### Pros and Cons
 
-### Cons
-- Can be verbose compared to some modern languages
-- Slower startup times compared to languages like Go or Node.js
-- Higher memory usage compared to lower-level languages
+| Pros                                         | Cons                                      |
+|----------------------------------------------|-------------------------------------------|
+| Highly scalable and performant               | Can be verbose compared to some modern languages |
+| Strong community support and documentation   | Slower startup times compared to Go or Node.js |
+| Excellent tools for testing and debugging    | Higher memory usage compared to lower-level languages |
+| Well-suited for backend services             |                                           |
 
 ### Alternative Solutions
 - **Kotlin**: Modern JVM language, more concise and null-safe
@@ -226,9 +213,9 @@ In this Document we will see the the dependenciews we were downloading it's feat
 - Ensures type safety and easier maintenance for large codebases
 
 ### Relevant Resources
-- [Java Official Documentation](https://docs.oracle.com/en/java/)
-- [Building RESTful APIs with Spring Boot](https://spring.io/guides/tutorials/rest/)
-- [Java vs Kotlin: Which is Better for Android App Development?](https://www.netguru.com/blog/java-vs-kotlin)
+- [Java Official Documentation](https://docs.oracle.com/javase/8/docs/)
+- [Java Tutorials by Oracle](https://docs.oracle.com/javase/tutorial/)
+- [Awesome Java GitHub](https://github.com/akullpp/awesome-java)
 
 ## 7. Python
 
@@ -239,31 +226,27 @@ In this Document we will see the the dependenciews we were downloading it's feat
 - Dynamic typing and easy-to-read syntax
 - Strong community and wide industry adoption
 
-### Pros
-- Fast development cycle and prototyping
-- Easy to learn and read, with a large talent pool
-- Extensive libraries for data manipulation, machine learning, web development, and more
-- Supports integration with other languages and technologies
+### Pros and Cons
 
-### Cons
-- Slower execution speed compared to compiled languages
-- Dynamic typing can lead to runtime errors
-- GIL (Global Interpreter Lock) can limit multithreaded performance
+| Pros                                         | Cons                                      |
+|----------------------------------------------|-------------------------------------------|
+| Fast development cycle and easy to learn     | Slower execution speed compared to compiled languages |
+| Rich set of libraries for various domains    | Less suited for performance-critical applications |
+| Highly readable and maintainable code        | Dynamic typing can lead to runtime errors |
+| Excellent for scripting, automation, and data analysis |                                           |
 
 ### Alternative Solutions
-- **JavaScript**: Full-stack development with Node.js, but not as robust for data-heavy applications
-- **Ruby**: Great for web development, but less popular for general-purpose scripting
-- **R**: Better for statistical analysis and data science, but less versatile overall
+- **Ruby**: Similar ease of use, but less popular in the data science community
+- **Go**: Better performance and concurrency, but steeper learning curve
+- **JavaScript (Node.js)**: Faster for web APIs, but not as strong in data science
 
 ### Why Python for Attendance API
-- Provides rapid development and iteration
-- Extensive libraries for handling data, integration, and automation tasks
-- Simplifies complex tasks with readable and maintainable code
-- Offers versatility for extending the API with machine learning or data analysis capabilities
+- Provides rapid development and prototyping capabilities
+- Offers powerful libraries for data processing and analysis
+- Suitable for scripting and automation tasks within the API
+- Integrates well with other tools like Redis and PostgreSQL
 
 ### Relevant Resources
 - [Python Official Documentation](https://docs.python.org/3/)
-- [Flask vs Django: Which Python Web Framework Should You Choose?](https://www.fullstackpython.com/flask-vs-django.html)
-- [Python Performance Tips: Speed Up Your Python Programs](https://realpython.com/python-performance-tips/)
-
-
+- [Python Tutorials and Resources](https://realpython.com/)
+- [Awesome Python GitHub](https://github.com/vinta/awesome-python)
