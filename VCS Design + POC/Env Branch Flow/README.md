@@ -82,35 +82,35 @@ git push origin production
 
 ## Advantages
 
-- **Clear Environment Representation**: Each branch directly corresponds to a deployment environment[^1].
-- **Controlled Promotions**: Changes must pass through each environment, ensuring thorough testing[^2].
-- **Easy Rollbacks**: If issues are found, it's easy to revert to a previous state for any environment[^4].
-- **Simplified Hotfix Process**: Critical fixes can be applied directly to production and then backported[^3].
-- **Supports Complex Deployment Scenarios**: Ideal for projects with multiple staging or testing environments[^2].
+- **Clear Environment Representation**: Each branch directly corresponds to a deployment environment.
+- **Controlled Promotions**: Changes must pass through each environment, ensuring thorough testing.
+- **Easy Rollbacks**: If issues are found, it's easy to revert to a previous state for any environment.
+- **Simplified Hotfix Process**: Critical fixes can be applied directly to production and then backported.
+- **Supports Complex Deployment Scenarios**: Ideal for projects with multiple staging or testing environments.
 
 ## Challenges
 
-- **Branch Maintenance**: Requires ongoing management of long-lived branches[^4].
-- **Potential for Drift**: Environment branches may diverge if not regularly synchronized[^1].
-- **Complexity**: More complex than simpler workflows like GitHub Flow[^3].
-- **Merge Conflicts**: Can occur when promoting changes between environment branches[^2].
-- **Learning Curve**: Team members need to understand and consistently follow the workflow[^4].
+- **Branch Maintenance**: Requires ongoing management of long-lived branches.
+- **Potential for Drift**: Environment branches may diverge if not regularly synchronized.
+- **Complexity**: More complex than simpler workflows like GitHub Flow.
+- **Merge Conflicts**: Can occur when promoting changes between environment branches.
+- **Learning Curve**: Team members need to understand and consistently follow the workflow.
 
 ## Best Practices
 
-- **Automate Deployments**: Use CI/CD pipelines to automate deployments to each environment[^5].
-- **Regular Synchronization**: Frequently merge changes upstream to prevent drift between branches[^1].
-- **Comprehensive Testing**: Implement thorough testing at each stage of promotion[^2].
-- **Clear Documentation**: Maintain clear guidelines for the team on how to use the workflow[^4].
-- **Use Merge Requests**: Enforce code reviews when promoting between environments[^3].
-- **Tag Releases**: Use tags to mark important points in each environment branch[^5].
-- **Monitor Branch Differences**: Regularly check for and resolve differences between environment branches[^2].
+- **Automate Deployments**: Use CI/CD pipelines to automate deployments to each environment.
+- **Regular Synchronization**: Frequently merge changes upstream to prevent drift between branches.
+- **Comprehensive Testing**: Implement thorough testing at each stage of promotion.
+- **Clear Documentation**: Maintain clear guidelines for the team on how to use the workflow.
+- **Use Merge Requests**: Enforce code reviews when promoting between environments.
+- **Tag Releases**: Use tags to mark important points in each environment branch.
+- **Monitor Branch Differences**: Regularly check for and resolve differences between environment branches.
 
 ## Comparison with Other Workflows
 
-- **vs. GitFlow**: Environment Branch Flow is similar but focuses more on deployment environments rather than release management[^6].
-- **vs. GitHub Flow**: More complex but offers greater control over deployments to multiple environments[^7].
-- **vs. GitLab Flow**: Shares some similarities, but Environment Branch Flow typically uses more long-lived branches[^8].
+- **vs. GitFlow**: Environment Branch Flow is similar but focuses more on deployment environments rather than release management.
+- **vs. GitHub Flow**: More complex but offers greater control over deployments to multiple environments.
+- **vs. GitLab Flow**: Shares some similarities, but Environment Branch Flow typically uses more long-lived branches.
 
 ## Conclusion
 
@@ -146,5 +146,4 @@ The key to success with Environment Branch Flow is consistent application of the
 8. **[Git Workflow | GitLab](https://docs.gitlab.com/ee/topics/git/git_workflow.html)**  
    GitLab's perspective on Git workflows, including concepts related to environment branches.
 
-
-
+![image](https://github.com/user-attachments/assets/ac10f2c7-7379-4943-bd3a-90ad10791d41)
