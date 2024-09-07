@@ -13,71 +13,71 @@
 
 ## Introduction
 
-GitLab Flow is a Git workflow designed to simplify and streamline the software development process. It was introduced by GitLab as an alternative to other Git workflows, aiming to address some of their limitations while maintaining simplicity and efficiency[^1].
+GitLab Flow is a Git workflow designed to simplify and streamline the software development process. It was introduced by GitLab as an alternative to other Git workflows, aiming to address some of their limitations while maintaining simplicity and efficiency.
 
-GitLab Flow combines feature-driven development with issue tracking, emphasizing a more straightforward approach to continuous delivery. It's particularly well-suited for web development and other projects with continuous deployment[^2].
+GitLab Flow combines feature-driven development with issue tracking, emphasizing a more straightforward approach to continuous delivery. It's particularly well-suited for web development and other projects with continuous deployment.
 
 ## Key Principles of GitLab Flow
 
-1. **Use feature branches**: All feature development should take place in dedicated branches[^3].
-2. **Main branch represents production**: The main branch should always reflect the production environment[^1].
-3. **Merge only when ready to deploy**: Features should only be merged when they're ready to be deployed to production[^2].
-4. **Use upstream branches**: For managing different environments or versions[^1].
-5. **Tag releases**: Use tags to mark release points for easier reference and rollback if needed[^3].
+1. **Use feature branches**: All feature development should take place in dedicated branches.
+2. **Main branch represents production**: The main branch should always reflect the production environment.
+3. **Merge only when ready to deploy**: Features should only be merged when they're ready to be deployed to production.
+4. **Use upstream branches**: For managing different environments or versions.
+5. **Tag releases**: Use tags to mark release points for easier reference and rollback if needed.
 
 ## GitLab Flow Process
 
-1. **Create a feature branch**: Branch off from the main branch for each new feature or bug fix[^4].
+1. **Create a feature branch**: Branch off from the main branch for each new feature or bug fix.
 
     ```bash
-    git checkout -b feature/new-feature main
+    git checkout -b feature/v2_snaatak main
     ```
 
-2. **Work on the feature**: Develop and commit changes to the feature branch[^4].
+2. **Work on the feature**: Develop and commit changes to the feature branch.
 
     ```bash
     git add .
-    git commit -m "Implement new feature"
+    git commit -m "My new version in Snaatak API"
     ```
 
-3. **Push the branch and create a merge request**: Share your work and initiate code review[^2].
+3. **Push the branch and create a merge request**: Share your work and initiate code review.
 
     ```bash
     git push origin feature/new-feature
     ```
 
-4. **Review and iterate**: Collaborate with team members to refine the feature[^3].
+4. **Review and iterate**: Collaborate with team members to refine the feature.
 
-5. **Merge to main when ready**: Once approved and tested, merge the feature into the main branch[^1].
+5. **Merge to main when ready**: Once approved and tested, merge the feature into the main branch.
 
-6. **Deploy to production**: Since the main branch represents the production state, deploy after merging[^2].
+6. **Deploy to production**: Since the main branch represents the production state, deploy after merging.
 
-7. **Use environment branches (optional)**: For projects that need more control over deployments, use branches like 'pre-production' and 'production'[^1].
+7. **Use environment branches (optional)**: For projects that need more control over deployments, use branches like 'pre-production' and 'production'.
 
 ## Advantages
 
-1. **Simplicity**: Easier to understand and implement compared to more complex workflows[^2].
-2. **Continuous Delivery friendly**: Supports rapid and frequent deployments[^1].
-3. **Better visibility**: Direct correlation between branches and environments[^3].
-4. **Flexible for different project needs**: Can be adapted for various deployment strategies[^1].
-5. **Integrated with GitLab features**: Works seamlessly with GitLab's issue tracking and CI/CD pipelines[^2].
+1. **Simplicity**: Easier to understand and implement compared to more complex workflows.
+2. **Continuous Delivery friendly**: Supports rapid and frequent deployments.
+3. **Better visibility**: Direct correlation between branches and environments.
+4. **Flexible for different project needs**: Can be adapted for various deployment strategies.
+5. **Integrated with GitLab features**: Works seamlessly with GitLab's issue tracking and CI/CD pipelines.
 
 ## Challenges
 
-1. **Requires discipline**: Team members must consistently follow the workflow[^4].
-2. **Potential for main branch instability**: If not carefully managed, the main branch can become unstable[^3].
-3. **Less suitable for projects with long release cycles**: May need adaptation for projects that don't deploy frequently[^1].
-4. **Learning curve**: Teams transitioning from other workflows may need time to adapt[^4].
+1. **Requires discipline**: Team members must consistently follow the workflow.
+2. **Potential for main branch instability**: If not carefully managed, the main branch can become unstable.
+3. **Less suitable for projects with long release cycles**: May need adaptation for projects that don't deploy frequently.
+4. **Learning curve**: Teams transitioning from other workflows may need time to adapt.
 
 ## Best Practices
 
-1. **Keep features small and focused**: This reduces merge conflicts and simplifies reviews[^3].
-2. **Use merge requests for code reviews**: Encourage thorough reviews before merging[^2].
-3. **Implement automated testing**: Ensure all tests pass before merging to main[^4].
-4. **Use GitLab's built-in CI/CD**: Automate your build, test, and deployment processes[^2].
-5. **Regularly update feature branches**: Merge or rebase from main to stay up-to-date[^1].
-6. **Use descriptive branch names**: Follow a consistent naming convention for clarity[^3].
-7. **Delete merged feature branches**: Keep your repository clean and manageable[^4].
+1. **Keep features small and focused**: This reduces merge conflicts and simplifies reviews.
+2. **Use merge requests for code reviews**: Encourage thorough reviews before merging.
+3. **Implement automated testing**: Ensure all tests pass before merging to main.
+4. **Use GitLab's built-in CI/CD**: Automate your build, test, and deployment processes.
+5. **Regularly update feature branches**: Merge or rebase from main to stay up-to-date.
+6. **Use descriptive branch names**: Follow a consistent naming convention for clarity.
+7. **Delete merged feature branches**: Keep your repository clean and manageable.
 
 ## Conclusion
 
