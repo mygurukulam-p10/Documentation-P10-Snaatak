@@ -110,6 +110,9 @@ Explore these resources to deepen your understanding of Feature Branch Flow and 
 5. [Feature Toggles (aka Feature Flags)](https://martinfowler.com/articles/feature-toggles.html)
    - By Pete Hodgson: Discusses feature toggles, which can complement Feature Branch Flow.
 
-These resources offer various perspectives on branching strategies and related concepts, helping you gain a deeper understanding of Feature Branch Flow's principles, best practices, and real-world applications.
-
 ![image](https://github.com/user-attachments/assets/fc161460-9311-43e4-ab89-1beaf6158fdb)
+
+## Contact Information
+|Name|Email Address|
+|:---:|:---:|
+|Amit Nagar |amit.nagar.snaatak@mygurukulam.co|
