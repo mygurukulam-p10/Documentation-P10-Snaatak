@@ -10,7 +10,7 @@
 - [Run-Time Dependency](#Run-Time-Dependency)
 - [Important Ports](#important-ports)
 - [Architecture ](#Architecture)
-
+- [Step-by-step installation ](#Step-by-step-installation)
 
 ## Purpose
 The Salary API project is a Java-based microservice designed to manage and process employee salary data. This Application is must be independent and can be run on multiple operating system. JAVA RUNTIME would be required to run this application.
@@ -44,6 +44,9 @@ The Salary API application have some database, cache manager and package depende
 ![image](https://github.com/user-attachments/assets/3ceaca3c-6de1-4534-be4a-1570faf1f104)
 
 
+
+###  Step-by-step installation
+
 ## Install git
 ```
 sudo apt install git
@@ -52,7 +55,6 @@ sudo apt install git
 ```
 git clone https://github.com/OT-MICROSERVICES/employee-api.git
 ```
-###  Step-by-step installation
 ## Step 2. Below Commands to setup scylla db
 #### 1. Install a repo file and add the ScyllaDB APT repository to your system.
   ```
