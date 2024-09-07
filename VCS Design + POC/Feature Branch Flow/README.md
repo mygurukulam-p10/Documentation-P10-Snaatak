@@ -7,7 +7,7 @@
 3. [Advantages](#advantages)
 4. [Disadvantages](#disadvantages)
 5. [Conclusion](#conclusion)
-6. [Additional Resources: Blog Links](#additional-resources-blog-links)
+6. [References](#References)
 
 ## Introduction
 
@@ -91,7 +91,7 @@ However, it's important to be aware of potential challenges:
 
 When implemented effectively, Feature Branch Flow can significantly improve the efficiency, quality, and organization of software development projects, particularly for teams working on complex applications with multiple concurrent features.
 
-## Additional Resources: Blog Links
+## References
 
 Explore these resources to deepen your understanding of Feature Branch Flow and related concepts:
 
