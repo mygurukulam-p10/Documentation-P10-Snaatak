@@ -173,14 +173,14 @@ make run-migrations
 ```
 ![image](https://github.com/user-attachments/assets/49f028e4-1522-4e0e-8860-f417bef2a16f)
 
-```
+
 ### 3. start our application using java runtime
 ```
 ![image](https://github.com/user-attachments/assets/fee622fd-b174-44fb-a168-eb16e2a7f940)
 
-```
 
 java -jar target/salary-0.1.0-RELEASE.jar
 ```
 ![image](https://github.com/user-attachments/assets/4242ad6d-eba5-495d-a244-dcce7f1c47cb)
+
 ```
