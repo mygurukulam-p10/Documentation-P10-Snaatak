@@ -42,18 +42,18 @@ This application requires no prerequisites except for database connectivity. Add
 | Name           | Version | Description                                                                                                                      |
 | -------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | Migrate        | 4.17.1  | These represent the data migration scripts or processes that ensure the data in ScyllaDB is up to date.
-| Liquibase      |   18    | A database schema change management tool, used during application deployment or setup.|
-| Poetry         |         | A dependency management and packaging tool for Python. Used during the build phase for installing Python dependencies.|
-| Java           |   17    | Required for Java-based build or runtime environments.|
-| Python         |  3.11   | Required for running Python applications.|
-| Pip            |  3.11   | Used for installing Python packages.|
+| Liquibase      | 4.29.2  | A database schema change management tool, used during application deployment or setup.|
+| Poetry         | 1.8.3   | A dependency management and packaging tool for Python. Used during the build phase for installing Python dependencies.|
+| Java           | 17.0.12 | Required for Java-based build or runtime environments.|
+| Python         | 3.11    | Required for running Python applications.|
+| Pip            | 3.11    | Used for installing Python packages.|
 
 
 ## Important Ports
 | Inbound Traffic | Description        |
 | --------------- | ------------------ |
 | 6379            | Used by Redis      |
-| 5234            | Used by Post gres  |
+| 5432            | Used by Postgres  |
 
 ## Clone-the-git-repository-with-command
 
