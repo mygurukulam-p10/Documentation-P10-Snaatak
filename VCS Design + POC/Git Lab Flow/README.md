@@ -9,7 +9,7 @@
 5. [Challenges](#challenges)
 6. [Best Practices](#best-practices)
 7. [Conclusion](#conclusion)
-8. [Additional Resources](#additional-resources)
+8. [References](#References)
 
 ## Introduction
 
@@ -85,7 +85,7 @@ GitLab Flow offers a streamlined approach to Git-based development that emphasiz
 
 While it may require some adjustment for teams used to other workflows, GitLab Flow's flexibility allows it to be adapted to various project needs. Its focus on simplicity and integration with CI/CD practices makes it particularly well-suited for teams aiming to implement or improve their continuous deployment processes.
 
-## Additional Resources
+## References
 
 1. [GitLab Flow | GitLab](https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/) - Official GitLab documentation on GitLab Flow.
 2. [Introduction to GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html) - Comprehensive guide to GitLab Flow from GitLab docs.
