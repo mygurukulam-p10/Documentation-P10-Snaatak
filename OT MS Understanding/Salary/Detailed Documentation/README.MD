@@ -51,7 +51,7 @@ The Salary API application have some database, cache manager and package depende
 
 ## Architecture 
 
-![Salary API](https://github.com/OT-MICROSERVICES/salary-api/blob/main/static/salary.png)
+! 
 
 ## Data Flow 
 
