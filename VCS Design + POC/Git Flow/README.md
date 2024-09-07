@@ -79,3 +79,7 @@ Remember, the key to success with any workflow is consistency and team buy-in. E
 
 ![image](https://github.com/user-attachments/assets/d5f531d7-9549-4f06-9cd1-35aaeb858412)
 
+## Contact Information 
+|Name|Email Address|
+|:---:|:---:|
+|Komal|komal.jaiswal.snaatak@mygurukulam.co|
