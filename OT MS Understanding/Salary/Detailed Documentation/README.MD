@@ -177,4 +177,4 @@ Other Endpoint are below
 ## Contact Information 
 |Name|Email Address|
 |:---:|:---:|
-|Aayush|aayush.gaur.snaatak@mygurukulam.co|
+|Aayush Gaur|aayush.gaur.snaatak@mygurukulam.co|
