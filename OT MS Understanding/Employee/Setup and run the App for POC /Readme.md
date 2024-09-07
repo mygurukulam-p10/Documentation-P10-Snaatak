@@ -204,7 +204,7 @@ Also replace "# requirepass foobared" with "requirepass password"
 #### now use below command to get access of the default user in redis
 
 
-```AUTH password```   (Here password should be same as we defined in requirepass fild in redis conf file)
+```AUTH password```   (Here password should be same as we defined in requirepass field in redis conf file)
 
 <img width="370" alt="image" src="https://github.com/user-attachments/assets/bee2a9e5-d314-420c-b946-fa85b1f66932">
 
