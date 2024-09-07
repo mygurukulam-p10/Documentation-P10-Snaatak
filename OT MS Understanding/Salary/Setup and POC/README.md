@@ -177,5 +177,9 @@ java -jar target/salary-0.1.0-RELEASE.jar
 ```
 ![image](https://github.com/user-attachments/assets/7cd020bd-198a-4f6d-920a-b615753bdeaf)
 
+![image (8)](https://github.com/user-attachments/assets/303dcf10-d0d5-4820-8cfe-b4215509582b)
+
+![image (7)](https://github.com/user-attachments/assets/d171fba0-28b0-4355-9ed8-c15c2150a01a)
+
 
 
