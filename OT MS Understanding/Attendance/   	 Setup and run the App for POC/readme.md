@@ -134,29 +134,34 @@ echo "All installations completed successfully!"
 
 ![Screenshot from 2024-09-07 13-07-39](https://github.com/user-attachments/assets/9280d7ae-42b3-4ba2-8cc5-96b32dfecc3b)
 
-# Step 1 :- Go to Attendance Repository
+### Step 1 :- Go to Attendance Repository
 poetry shell ( Run Command )
+![Screenshot from 2024-09-07 14-53-39](https://github.com/user-attachments/assets/ec6c03a5-66d0-4eea-8994-4383a87d0f61)
 
-# Step 2 :- Run Command 
+
+### Step 2 :- Run Command 
 sudo apt-get install build-essential libpq-dev
 
 A library required for developing applications that interact with PostgreSQL databases. It includes header files and the static library for libpq, which is the C application programmer's interface to PostgreSQL.
 
-# Step 3 :- Run the below command to install all dependencies required in this project 
+### Step 3 :- Run the below command to install all dependencies required in this project 
 poetry Install
+![Screenshot from 2024-09-07 14-53-49](https://github.com/user-attachments/assets/972d301e-68ba-4e36-bc54-ada0c6948e4e)
 
-# Step 4 :- Run Make migration command 
+
+### Step 4 :- Run Make migration command 
 make run-migrations
+![Screenshot from 2024-09-07 14-54-22](https://github.com/user-attachments/assets/14e582b3-ef33-4db1-9433-88525720aa45)
 
-# Step 5 :- Firstly install gunicorn and Now Run the Application
+
+### Step 5 :- Firstly install gunicorn and Now Run the Application
 pip3 install gunicorn
 gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
+![Screenshot from 2024-09-07 14-54-32](https://github.com/user-attachments/assets/00fd81a3-9816-4cb5-806a-2f20329493ce)
 
-![Screenshot from 2024-09-07 13-20-34](https://github.com/user-attachments/assets/25d94b66-ae7f-4255-bcad-f54b8336765b)
 
+### Step 6 :- Now go to web browser and hit url http://<ip of the server>:8080/apidocs
 ![Screenshot from 2024-09-07 13-27-05](https://github.com/user-attachments/assets/7b109c86-527a-4336-9ae9-f0d3b46e295f)
-
-
 
 
 
