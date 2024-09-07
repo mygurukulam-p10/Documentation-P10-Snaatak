@@ -107,7 +107,7 @@ CREATE USER scylla WITH PASSWORD 'password';
 ```
 ### 8.give all permissions on keyspace employee_db to the scylla user with below command
 ```
-GRANT ALL PERMISSIONS ON KEYSPACE salary_db TO scylla;
+GRANT ALL PERMISSIONS ON KEYSPACE salary TO scylla;
 ```
 ## Step 3. Setup Redis Server
 ### 1. Install Redis and test
@@ -142,6 +142,7 @@ mvn --version
 ```
 ![image](https://github.com/user-attachments/assets/ac672659-3a30-46c6-b006-05a7bbeac9a5)
 
+```
 
 ### 2. Edit two files ```application.yml``` and ``` migration.json ```
 In ```application.yml```
@@ -151,18 +152,25 @@ In ```application.yml```
 ![image](https://github.com/user-attachments/assets/4250675d-adbb-4010-8e16-47b52449ee1b)
 
 In ```migration.json```
+```
+![image](https://github.com/user-attachments/assets/b7b752ce-081c-4944-be89-05bf804c5180)
+
+```
 ## Step 6. Build Application
 ### 1. For building the Salary API application, we can use make commands
 ```
 make build
+
 ```
+
 ![image (4)](https://github.com/user-attachments/assets/f40ed408-9e52-4851-9a14-7016253e9191)
 
+```
 
 ### 2. To automate the process of applying database migrations in a project, Use this command
 ```
 make run-migrations
-
+```
 ![image](https://github.com/user-attachments/assets/49f028e4-1522-4e0e-8860-f417bef2a16f)
 
 ```
@@ -170,7 +178,9 @@ make run-migrations
 ```
 ![image](https://github.com/user-attachments/assets/fee622fd-b174-44fb-a168-eb16e2a7f940)
 
+```
 
 java -jar target/salary-0.1.0-RELEASE.jar
 ```
 ![image](https://github.com/user-attachments/assets/4242ad6d-eba5-495d-a244-dcce7f1c47cb)
+```
