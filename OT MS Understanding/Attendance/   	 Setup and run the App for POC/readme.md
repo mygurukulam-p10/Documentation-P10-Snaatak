@@ -60,9 +60,10 @@ This application requires no prerequisites except for database connectivity. Add
 ```
 git clone https://github.com/OT-MICROSERVICES/attendance-api.git
 ```
-```
+
 ## Script to install all dependencies at ones
 
+```
 #!/bin/bash
 
 # Update package list and upgrade existing packages
