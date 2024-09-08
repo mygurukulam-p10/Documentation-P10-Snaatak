@@ -56,8 +56,6 @@ GitLab CI/CD is an integral part of GitLab's DevOps platform, allowing for autom
    - GitLab Runner is an application used to execute jobs defined in the `.gitlab-ci.yml` file. It can be configured to run jobs on virtual machines, Docker containers, or physical machines.
 
 
-
-
 4. **Job:**
    - Each job in the pipeline performs a specific task, such as running tests or deploying to a server. Jobs are grouped into stages and executed sequentially or in parallel, based on the configuration.
 
