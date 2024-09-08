@@ -1,5 +1,13 @@
-
-# Micro Repo Features
+## Table of Contents
+- [Introduction](#introduction)
+- [Why Use a Micro Repo?](#why-use-a-micro-repo)
+- [Features](#features)
+- [Advantages](#advantages)
+- [Challenges/Disadvantages](#challengesdisadvantages)
+- [Best Practices for Micro Repo Management](#best-practices-for-micro-repo-management)
+- [Conclusion](#conclusion)
+- [Contact Information](#contact-information)
+- [References](#references)
 
 ## Introduction
 A **Micro Repo** is a development approach where a single repository is used to manage a small set of closely related projects or components. This contrasts with monorepos (which handle multiple large projects) or polyrepos (where every project has its own repository). Micro repos aim to balance complexity, manageability, and scalability in software development, particularly when working with small teams or tightly coupled projects.
@@ -43,13 +51,9 @@ Micro repos offer a pragmatic balance between the complexity of monorepos and th
 
 ## Contact Information
 For any queries or further information, feel free to contact:
-|Name|Email Address|
-|:---:|:---:|
-|Brij Singh|brij.singh.snaatak@mygurukulam.co|
-
-
-
-
+| Name        | Email Address                      |
+|-------------|------------------------------------|
+| Brij Singh  | brij.singh.snaatak@mygurukulam.co  |
 
 ## References
 - [The Case for Micro Repos](https://example.com/micro-repos-article)
