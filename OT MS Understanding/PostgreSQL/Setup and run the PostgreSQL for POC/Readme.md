@@ -3,19 +3,21 @@
 
 |  Author  | Created on |  Version  | Last updated by | Last edited on |
 |----------|------------|-----------|-----------------|----------------|
-| Abhinav  |   9-08-24  | version 1 |     Abhinav     |     9-08-24    |
+| Abhinav  |   07-09-24 | version 1 |     Abhinav     |     08-09-24   |
 
 
 ## Table of Contents
-1. [Pre-requisites](#pre-requisites)
-2. [System Requirements](#system-requirements)
-3. [Dependencies](#dependencies)
-4. [Important Ports](#important-ports)
-5. [Step-by-step installation](#step-by-step-installation)
-6. [Architecture](#architecture)
+1. [Introduction](#introduction)
+2. [Pre-requisites](#pre-requisites)
+3. [System Requirements](#system-requirements)
+4. [Dependencies](#dependencies)
+5. [Important Ports](#important-ports)
+6. [Step-by-step installation](#step-by-step-installation)
+7. [Architecture](#architecture)
 
-## Purpose
-PostgreSQL was created to provide a powerful, reliable, and scalable database solution that addresses the need for an open-source, enterprise-grade system capable of handling complex data requirements.
+## Introduction
+PostgreSQL is an open-source, advanced relational database management system known for its extensibility and standards compliance. It supports both SQL querying and features like JSON storage, making it versatile for modern applications.
+It was created to provide a powerful, reliable, and scalable database solution that addresses the need for an open-source, enterprise-grade system capable of handling complex data requirements.
 
 ## Pre-requisites
 This application requires no prerequisites except for remote connection to the server to install PostgreSQL on.
