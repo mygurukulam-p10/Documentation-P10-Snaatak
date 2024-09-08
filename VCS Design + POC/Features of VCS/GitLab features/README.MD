@@ -376,4 +376,4 @@ Whether you’re working on small-scale projects or managing a large enterprise,
 
 |Name|Email Address|
 |:---:|:---:|
-|brij.singh.snaatak@mygurukulam.co|
+|brij| |brij.singh.snaatak@mygurukulam.co|
