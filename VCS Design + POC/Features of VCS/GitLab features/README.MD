@@ -334,3 +334,8 @@ Whether you’re working on small-scale projects or managing a large enterprise,
 - [GitLab CI/CD Documentation](https://docs.gitlab.com/ee/ci/)
 - [GitLab API Documentation](https://docs.gitlab.com/ee/api/)
 - [GitLab Runner](https://docs.gitlab.com/runner/)
+## Contact Information 
+
+|Name|Email Address|
+|:---:|:---:|
+|Komal|brij.singh.snaatak@mygurukulam.co|
