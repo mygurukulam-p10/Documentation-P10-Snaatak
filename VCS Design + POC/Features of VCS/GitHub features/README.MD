@@ -127,15 +127,14 @@ git commit -m "Initial commit"
 
 Branches in GitHub are a way to develop features, fix bugs, or experiment without affecting the main codebase. Each branch is essentially a copy of the codebase at the point when the branch was created.
 
-- 1.Default Branch (main/master):
- - The default branch is the main branch where the source code of the HEAD is located. This is often named ```main``` (previously ```master``` was the convention).
--  It's the primary branch where the final and stable version of your code lives.
--  Other branches (feature, hotfix, etc.) are usually merged into this branch after they have been reviewed and tested.
+- i. Default Branch (main/master):
+   - The default branch is the main branch where the source code of the HEAD is located. This is often named ```main``` (previously ```master``` was the convention).
+   -  It's the primary branch where the final and stable version of your code lives.
+   -  Other branches (feature, hotfix, etc.) are usually merged into this branch after they have been reviewed and tested.
 
-- 2.Feature Branches:
-
-- Feature branches are created from the default branch (main or master) to develop new features, fix bugs, or do any experimental work.
-- These branches allow developers to work in isolation from the main codebase. When the work is completed, the branch is merged back into the main branch.
+- ii. Feature Branches:
+  - Feature branches are created from the default branch (main or master) to develop new features, fix bugs, or do any experimental work.
+  - These branches allow developers to work in isolation from the main codebase. When the work is completed, the branch is merged back into the main branch.
 
 ## 2. Creating and Managing Branches
 
