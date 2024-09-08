@@ -108,3 +108,7 @@ GRANT ALL PRIVILEGES ON DATABASE mydb TO myuser;
 ```
 psql -U myuser -d mydb -h 127.0.0.1 -W
 ```
+![image](https://github.com/user-attachments/assets/a0f5f198-bfbd-49e9-a6a9-0922c86abf31)
+
+## Architecture
+![image](https://github.com/user-attachments/assets/6847ab70-b4b3-4546-be08-981937551cc3)
