@@ -345,4 +345,4 @@ Whether you’re working on small-scale projects or managing a large enterprise,
 
 |Name|Email Address|
 |:---:|:---:|
-|Komal|brij.singh.snaatak@mygurukulam.co|
+|brij.singh.snaatak@mygurukulam.co|
