@@ -53,7 +53,7 @@ sudo apt install git
 ```
 ## Step 1. Clone the git repository with command
 ```
-git clone https://github.com/OT-MICROSERVICES/employee-api.git
+git clone https://github.com/OT-MICROSERVICES/salary-api.git
 ```
 ## Step 2. Below Commands to setup scylla db
 #### 1. Install a repo file and add the ScyllaDB APT repository to your system.
