@@ -8,16 +8,22 @@
 The Employee REST API is a Golang-based microservice that handles all employee-related transactions within the OT-Microservices. It is fully platform-independent and can be run on any platform. 
 
 ## Table of Contents
-1. [Pre-requisites](#pre-requisites)
-2. [System Requirements](#system-requirements)
-3. [Dependencies](#dependencies)
+1. [Architecture](#architecture)
+2. [Pre-requisites](#pre-requisites)
+3. [System Requirements](#system-requirements)
+4. [Dependencies](#dependencies)
    * [Run Time Dependencies](#run-time-dependency)
    * [Build Dependencies](#build-dependency)
-4. [Important Ports](#important-ports)
-5. [Repo clone](#clone-the-git-repository-with-command) 
-6. [Step-by-step installation](#step-by-step-installation)
-7. [Application Build](#application-build)
-8. [Architecture](#architecture)
+5. [Important Ports](#important-ports)
+6. [Repo clone](#clone-the-git-repository-with-command) 
+7. [Step-by-step installation](#step-by-step-installation)
+8. [Application Build](#application-build)
+
+
+## Architecture
+
+
+![Employee_API Architecture drawio](https://github.com/user-attachments/assets/baecdfb0-8c23-4c02-8803-d0bfee23a8e1)
 
 ## Pre-requisites
 This application requires no prerequisites except for database connectivity. Additionally, Redis can be added as a caching system.
@@ -149,7 +155,7 @@ sudo systemctl restart scylla-server
 ```
 
 
-#### firstly switch to by default super user of scylla with below command
+#### Firstly switch to by default super user of scylla with below command
 
 
 ```
@@ -165,7 +171,7 @@ CREATE USER scylla WITH PASSWORD 'password';
 ```
 
 
-#### give all permissions on keyspace employee_db to the scylla user with below command
+#### Give all permissions on keyspace employee_db to the scylla user with below command
 
 
 ```
@@ -241,7 +247,7 @@ redis-cli
 
 
 
-#### now use below command to get access of the default user in redis
+#### Now use below command to get access of the default user in redis
 
 
 ```
@@ -341,7 +347,7 @@ export GIN_MODE=release
 
 http://localhost:8080/swagger/index.html
 
-#### here is the dashboard comes when you hit this above mentioned link
+#### Here is the dashboard comes when you hit this above mentioned link
 
 <img width="920" alt="Employee-api deshboard" src="https://github.com/user-attachments/assets/aac263d6-6598-49d9-9f3b-f5ffa5e3a3e7">
 
@@ -349,12 +355,3 @@ http://localhost:8080/swagger/index.html
 #### For healthcheck,click on health check api to check application health and outcomes looks like below mentioned dashboard image
 
 <img width="782" alt="application health check" src="https://github.com/user-attachments/assets/336f569f-ba13-4a4a-aa58-a79390a54988">
-
-
-## Architecture
-
-![Employee_API Architecture drawio](https://github.com/user-attachments/assets/baecdfb0-8c23-4c02-8803-d0bfee23a8e1)
-
-
-
-
