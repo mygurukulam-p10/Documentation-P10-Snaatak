@@ -1,7 +1,9 @@
 # Pull Request in GitHub ![git-pull-request-fill-development](https://github.com/user-attachments/assets/047edfc3-5555-448c-ac53-ebb5d81207ba)
 
 ## Table of Content
-1. ### [Pull Request](#pull-request)
+1. ##### [Feature](#features-of-pull-requests)
+2. ##### [Why](#why-do-we-use-pull-requests)
+3. ##### [
 
 
 
