@@ -10,7 +10,7 @@ In this document, we will provide a comprehensive overview of the dependencies a
 
 ## Table of Contents
 1. [Employee-api](#employee-rest-api)
-2. [Arcitecture](#arcitecture)
+2. [Architecture](#architecture)
 3. [Pre-Requisites](#pre-requisites)
 4. [Build-Dependencies](#build-dependencies)
 5. [Golang](#golang)
@@ -24,7 +24,7 @@ In this document, we will provide a comprehensive overview of the dependencies a
 The Employee REST API is a Golang-based microservice designed to handle all employee-related transactions within the OT-Microservices ecosystem. It is fully platform-independent, capable of running on any platform. The API features Gin for efficient web transactions, ScyllaDB as its primary database for robust data storage, and Redis for quick cache management. Additionally, it integrates Swagger for comprehensive API documentation and supports Prometheus metrics to monitor application health and performance.
 
 
-### Arcitecture
+### Architecture
 ![Employee_API Architecture drawio](https://github.com/user-attachments/assets/5b87b48d-8399-4ac7-8d49-361de4189828)
 
 ###  Pre-Requisites 
