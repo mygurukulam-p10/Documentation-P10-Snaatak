@@ -190,3 +190,8 @@ http://localhost:8080/salary-documentation
 
 
 
+## Contact Information
+For any queries or further information, feel free to contact:
+|Name|Email Address|
+|:---:|:---:|
+|Brij Singh|brij.singh.snaatak@mygurukulam.co|
