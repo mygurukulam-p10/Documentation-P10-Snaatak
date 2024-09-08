@@ -1,7 +1,7 @@
 # Pull Request in GitHub ![git-pull-request-fill-development](https://github.com/user-attachments/assets/047edfc3-5555-448c-ac53-ebb5d81207ba)
 
 ## Table of Content
-1. ### [Pull Request] 
+1. ### [Pull Request](#pull-request)
 
 
 
@@ -165,10 +165,20 @@ A **Pull Request (PR)** is a way to propose changes to a repository in GitHub. I
     - Helps in avoiding potential vulnerabilities or bugs in outdated dependencies.
     - Ensures compatibility with newer tools, environments, or frameworks.
 
-  
+  ## Contact Information
+For more information, feedback, or assistance, feel free to contact us:
+| Name         | Email address          |
+|--------------|------------------------|
+| Megha Tyagi          | megha.tyagi.snaatak@mygurukulam.co  |
 
 
-- 
+## References
+| Links                                             | Descriptions                                                    |
+|---------------------------------------------------|-----------------------------------------------------------------|
+|https://www.gitkraken.com/learn/git/tutorials/what-is-a-pull-request-in-git |Pull Request |
+|https://axolo.co/blog/p/part-1-what-are-github-pull-requests| Github doc for pull request|
+
+ 
 
 
 
