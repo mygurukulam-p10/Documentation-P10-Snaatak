@@ -44,9 +44,11 @@ Micro repos offer a pragmatic balance between the complexity of monorepos and th
 ## Contact Information
 For any queries or further information, feel free to contact:
 
-|Name|Email Address|
-|:---:|:---:|
-|brij.singh.snaatak@mygurukulam.co|
+
+
+- **Name**: [Brij Singh]
+- **Email**: [brij.singh.snaatak@mygurukulam.co]
+
 
 ## References
 - [The Case for Micro Repos](https://example.com/micro-repos-article)
