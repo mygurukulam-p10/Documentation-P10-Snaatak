@@ -7,8 +7,8 @@
 1. [Introduction](#introduction)
 2. [Purpose of Commit Hooks](#purpose-of-commit-hooks)
 3. [Types of Commit Hooks](#types-of-commit-hooks)
-4. [Contact Information](#contact-information)
-5. [How to use Commit Hooks](#how-to-use-commit-hooks)
+4. [How to use Commit Hooks](#how-to-use-commit-hooks)
+5. [Contact Information](#contact-information)
 6. [References](#references)
 7. [Conclusion](#conclusion-of-commit-hooks)
 
