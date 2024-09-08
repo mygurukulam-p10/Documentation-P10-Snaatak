@@ -33,7 +33,6 @@ GitLab is a **DevOps platform** that provides tools for managing every stage of 
 - [📝 Conclusion](#-conclusion)
 - [🔗 Learn More](#-learn-more)
 - [Contact Information](#contact-information)
-- [Contact Information](#contact-information)
 
 
 # 🌟 GitLab Overview
