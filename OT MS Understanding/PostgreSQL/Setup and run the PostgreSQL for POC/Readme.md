@@ -1,9 +1,9 @@
 # PostgreSQL Database POC
 
 
-|  Author  | Created on |  Version  | Last updated by | Last edited on |
-|---------- |------------|-----------|-----------------|----------------|
-| Abhinav Singh  |   07-09-24 | version 1 |     Abhinav Singh    |     08-09-24   |
+|  Author        | Created on |  Version  | Last updated by  | Last edited on |
+|----------------|------------|-----------|------------------|----------------|
+| Abhinav Singh  |   07-09-24 | version 1 |   Abhinav Singh  |     08-09-24   |
 
 
 ## Table of Contents
