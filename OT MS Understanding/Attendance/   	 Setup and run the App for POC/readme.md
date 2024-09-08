@@ -211,7 +211,8 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 ![Screenshot from 2024-09-07 14-54-32](https://github.com/user-attachments/assets/00fd81a3-9816-4cb5-806a-2f20329493ce)
 
 
-### Step 10 :- Now go to web browser and hit url http://<ip of the server>:8080/apidocs
+### Step 10 :- Now go to web browser and hit url http://<IP_OF_SERVER>:8080/apidocs
+
 ![Screenshot from 2024-09-07 13-27-05](https://github.com/user-attachments/assets/7b109c86-527a-4336-9ae9-f0d3b46e295f)
 
 
