@@ -17,6 +17,7 @@
 
 ## Introduction
 PostgreSQL is an open-source, advanced relational database management system known for its extensibility and standards compliance. It supports both SQL querying and features like JSON storage, making it versatile for modern applications.
+
 It was created to provide a powerful, reliable, and scalable database solution that addresses the need for an open-source, enterprise-grade system capable of handling complex data requirements.
 
 ## Pre-requisites
