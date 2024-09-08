@@ -1,6 +1,4 @@
-# Understanding Commit Hooks in Git
-
-![th](https://github.com/user-attachments/assets/590423e5-ec5a-433a-bf5f-79031b79763b)
+# Understanding Commit Hooks in Git ![th](https://github.com/user-attachments/assets/590423e5-ec5a-433a-bf5f-79031b79763b)
 
 
 
