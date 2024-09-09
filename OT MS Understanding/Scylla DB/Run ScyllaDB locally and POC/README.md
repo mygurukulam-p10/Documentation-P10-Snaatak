@@ -181,12 +181,6 @@ Here are some basic CQL commands to get started with ScyllaDB:
 - **Does ScyllaDB support ACID transactions?**  
   ScyllaDB supports lightweight transactions and batch operations, but it's not a fully ACID-compliant database.
 
-## Contact Information
-
-| Name       | Email address     |
-|------------|-------------------|
-| Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
-
 ## References
 
 | Links                                                | Descriptions                             |
@@ -208,3 +202,9 @@ ScyllaDB represents a significant advancement in the world of NoSQL databases, o
 4. **Efficiency**: ScyllaDB's resource-efficient design helps organizations reduce their infrastructure costs while maintaining high performance.
 
 5. **Ease of Use**: Despite its powerful features, ScyllaDB maintains a relatively straightforward setup and operation process, as demonstrated in this documentation.
+
+## Contact Information
+
+| Name       | Email address     |
+|------------|-------------------|
+| Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
