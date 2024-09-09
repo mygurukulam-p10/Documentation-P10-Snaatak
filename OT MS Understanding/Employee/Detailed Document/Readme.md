@@ -16,6 +16,8 @@ In this document, we will provide a comprehensive overview of the dependencies a
 5. [Golang](#golang)
 6. [Swagger UI](#swagger-ui)
 7. [Conclusion](#conclusion)
+8. [Contact Information](#contact-information)
+9. [References](#references)
 
 
 
@@ -145,5 +147,29 @@ Swagger UI is an open-source tool that provides a visual interface for interacti
 - **[Getting Started with Swagger UI](https://swagger.io/docs/open-source-tools/swagger-ui/usage/installation/)**
 - **[Best Practices for Using Swagger UI](https://swagger.io/resources/articles/best-practices-in-api-documentation/)**
 
-## Conclusion
+#### Conclusion
 The Employee REST API, built using Go, leverages various dependencies to ensure robust, scalable, and high-performance employee data management. Key dependencies like ScyllaDB provide efficient data storage, Redis enhances caching and quick data access, jq facilitates JSON manipulation, and Swagger UI offers clear, interactive API documentation. Together, these components work seamlessly to handle employee-related transactions effectively, providing a reliable solution within the OT-Microservices ecosystem.
+
+#### Contact Information
+For more information, feedback, or assistance, feel free to contact us:
+| Name         | Email address                       |
+|--------------|-------------------------------------|
+| Megha Tyagi  | megha.tyagi.snaatak@mygurukulam.co  |
+
+#### References
+| Links | Descriptions|
+|-------|--------------|
+|(https://redis.io/documentation)|Redis Official Documentation|
+|(https://redis.com/blog/redis-beyond-caching/) | Redis: Beyond Simple Caching|
+|https://www.scylladb.com/|ScyllaDB Homepage Documentation|
+|https://stackoverflow.com/questions/tagged/scylla?tab=Newest|Stackoverflow|
+|https://stackoverflow.com/questions/tagged/migrate|Migrate:stackoverflow docs|
+|https://github.com/golang-migrate/migrate|Migrate Github Docs|
+|https://github.com/golang-migrate/migrate/blob/master/cmd/migrate/README.md|Migrate CLI|
+|https://en.wikipedia.org/wiki/Jq_(programming_language)|Jq|
+|https://www.digitalocean.com/community/tutorials/how-to-transform-json-data-with-jq|Jq Digital Ocean Doc|
+|https://go.dev/doc/|Go Official Documentation|
+|https://awesome-go.com/|Awesome Go|
+|https://swagger.io/tools/swagger-ui/|Swagger UI Documentation|
+|https://swagger.io/docs/open-source-tools/swagger-ui/usage/installation/|Getting Started with Swagger UI|
+|https://swagger.io/resources/articles/best-practices-in-api-documentation/|Best Practices for Using Swagger UI|
