@@ -13,7 +13,7 @@
 6. [GitHub Actions](#gitHub-actions)
 7. [Security & Compliance](#security-&-compliance)
 8. [Collaboration Tools](#collaboration-tools)
-9. [Insights & Analytics](#insights-&analytics)
+9. [Insights & Analytics](#insights-&-analytics)
 10. [Conclusion](#conclusion)
 11. [Refrences](#refrences)
 12. [Contact Information](#contact-information)
