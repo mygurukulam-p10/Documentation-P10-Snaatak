@@ -17,7 +17,7 @@
 10. [Code Review Tools](#code-review-tools)
 11. [Insights & Analytics](#insights-&-analytics)
 12. [Conclusion](#conclusion)
-13. [Learn More](#learn-more)
+13. [Refrences](#refrences)
 14. [Contact Information](#contact-information)
 
 
@@ -239,17 +239,6 @@ GitHub provides several features to enhance collaboration among developers worki
 - By subscribing to repositories, issues, or pull requests, you can stay informed about changes and discussions relevant to your work. Subscriptions help you follow specific conversations or track the progress of important issues or pull requests.
 - To subscribe to a repository, issue, or pull request, navigate to the relevant page and click on the "Subscribe" button. You will receive notifications about updates and discussions related to your subscriptions.
 
-# Integrations & APIs
-GitHub offers extensive integration options:
-- **Third-Party Services:** Integrate with tools like Slack, Jira, and Jenkins.
-- **APIs:** Use GitHub’s API to automate actions, retrieve data, or build custom tools.
-  
-# Code Review Tools
-GitHub provides powerful code review tools:
-- **Inline Comments:** Comment on specific lines of code.
-- **Review Requests:** Assign reviews to specific team members.
-- **Approval Workflows:** Require approvals before merging code.
-
 # Insights & Analytics
 GitHub provides project insights through:
 - **Contribution Graphs:** Visualize individual and team contributions over time.
@@ -259,7 +248,7 @@ GitHub provides project insights through:
 # Conclusion
 GitHub offers a robust suite of features that significantly enhance the software development process, from version control and collaboration to automation and security. By leveraging repositories, branches, pull requests, and GitHub Actions, teams can streamline their workflows, improve code quality, and foster efficient collaboration. The integration of GitHub Pages, GitHub Packages, and Discussions further enriches the development experience by providing tools for documentation, package management, and community engagement. Additionally, GitHub's security features and enterprise solutions offer powerful support for managing and protecting codebases.
 
-# Learn More
+# Refrences
 - [Official GitHub Documentation](https://docs.github.com)
 - [GitHub Actions](https://docs.github.com/en/actions)
 - [GitHub Enterprise](https://enterprise.github.com)
