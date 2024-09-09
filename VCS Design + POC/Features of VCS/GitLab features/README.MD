@@ -382,4 +382,4 @@ Whether you’re working on small-scale projects or managing a large enterprise,
 
 |Name|Email Address|
 |:---:|:---:|
-|brij|brij.singh.snaatak@mygurukulam.co|
+|Brij Singh|brij.singh.snaatak@mygurukulam.co|
