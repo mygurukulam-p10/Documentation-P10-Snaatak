@@ -124,7 +124,7 @@ Here are some basic CQL commands to get started with ScyllaDB:
 5. Insert 
    ```sql
    INSERT INTO users (user_id, username, email) 
-   VALUES (uuid(), 'johndoe', 'john@example.com');
+   VALUES (uuid(), 'amit', 'amit@example.com');
    ```
 
 6. Query 
