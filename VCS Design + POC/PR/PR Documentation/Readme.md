@@ -8,9 +8,10 @@
 5. [Steps to Create a Pull Request](#steps-to-create-a-pull-request)
 6. [Rules of Pull Requests](#rules-of-pull-requests)
 7. [Types of pull requests and their use cases](#types-of-pull-requests-and-their-use-cases)
-8. [Contact Information](#contact-information)
-9. [References](#references)
-10. [Conclusion](#conclusion)
+8. [Conclusion](#conclusion)
+9. [Contact Information](#contact-information)
+10. [References](#references)
+
 
 
 ### What is a Pull Request?
@@ -93,7 +94,10 @@ To ensure an effective and smooth PR process, follow these rules when creating a
 | **Performance Improvement Pull Request** | Optimizes the code for better performance.                                                   | Enhances speed, memory usage, and efficiency, making the application more scalable and resource-efficient.                                                      |
 | **Security Fix Pull Request** | Addresses security vulnerabilities in the codebase.                                                     | Protects the application and its users from potential security threats and ensures compliance with security standards.                                           |
 | **Design Update Pull Request** | Focuses on updating or improving the UI/UX design elements of the application.                          | Enhances visual appeal, usability, and ensures consistency in design for better user experience.                                                                |
-| **Dependency Update Pull Request** | Updates third-party libraries or dependencies used in the project.                                   | Ensures the project uses the latest versions, avoids vulnerabilities, and maintains compatibility with newer tools or environments.                              |
+| **Dependency Update Pull Request** | Updates third-party libraries or dependencies used in the project.                                   | Ensures the project uses the latest versions, avoids vulnerabilities, and maintains compatibility with newer tools or environments.  
+
+ ### Conclusion
+Pull requests (PRs) in GitHub are essential for managing contributions to a repository, offering a structured way to propose, review, and integrate changes. They come in various types, including feature, bug fix, hotfix, refactoring, documentation, chore, experimental, performance improvement, security fix, design update, and dependency update PRs. Each type serves a specific purpose, from adding new features and fixing bugs to optimizing performance and updating documentation. By using the appropriate type of PR, developers ensure that changes are effectively communicated, reviewed, and integrated, maintaining code quality and fostering collaboration. This systematic approach enhances both the development process and the overall health of the project.|
 
 ### Contact Information
 For more information, feedback, or assistance, feel free to contact us:
@@ -108,5 +112,4 @@ For more information, feedback, or assistance, feel free to contact us:
 |https://www.gitkraken.com/learn/git/tutorials/what-is-a-pull-request-in-git |Pull Request |
 |https://axolo.co/blog/p/part-1-what-are-github-pull-requests| Github doc for pull request|
 
- ### Conclusion
-Pull requests (PRs) in GitHub are essential for managing contributions to a repository, offering a structured way to propose, review, and integrate changes. They come in various types, including feature, bug fix, hotfix, refactoring, documentation, chore, experimental, performance improvement, security fix, design update, and dependency update PRs. Each type serves a specific purpose, from adding new features and fixing bugs to optimizing performance and updating documentation. By using the appropriate type of PR, developers ensure that changes are effectively communicated, reviewed, and integrated, maintaining code quality and fostering collaboration. This systematic approach enhances both the development process and the overall health of the project.
+
