@@ -5,10 +5,10 @@
 | Megha Tyagi | 09-09-24    | version 1  | Megha Tyagi     | 09-09-24       |
 
 ## Purpose
-The Employee REST API is a Golang-based microservice that handles all employee-related transactions within the OT-Microservices. It is fully platform-independent and can be run on any platform. 
+The purpose of this POC document is to outline the necessary steps and procedures for creating a Pull Request (PR). This document aims to provide a comprehensive understanding of the PR process, including the rationale behind the proposed changes, how to implement them effectively, and the benefits they bring to the project. 
 
 ## Table of Contents
-1. [Architecture](#architecture)
+1. [PR Work Flow](#pr-work-flow)
 2. [Pre-requisites](#pre-requisites)
 3. [System Requirements](#system-requirements)
 4. [Dependencies](#dependencies)
@@ -20,13 +20,13 @@ The Employee REST API is a Golang-based microservice that handles all employee-r
 8. [Application Build](#application-build)
 
 
-## Architecture
+## PR Work Flow
+![pull-request-flow](https://github.com/user-attachments/assets/b22e6c8e-dd66-4f03-9683-527d63ef8624)
 
-
-![Employee_API Architecture drawio](https://github.com/user-attachments/assets/baecdfb0-8c23-4c02-8803-d0bfee23a8e1)
 
 ## Pre-requisites
-This application requires no prerequisites except for database connectivity. Additionally, Redis can be added as a caching system.
+Before proceeding with the Proof of Concept (POC) for creating a Pull Request (PR), ensure the following prerequisites are met:
+**GitHub Account**: A GitHub account is required to create and manage Pull Requests. Ensure that you have an active GitHub account and necessary permissions for the repository you are working on.
 
 ## System Requirements
 | Hardware Specifications | Minimum Recommendation  |
