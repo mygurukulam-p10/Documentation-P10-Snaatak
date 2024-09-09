@@ -40,7 +40,7 @@ This proof of concept (POC) aims to demonstrate the capabilities of ScyllaDB, a 
 
 | Name    | Version | Description                                    |
 |---------|---------|------------------------------------------------|
-| java    | 11      | For running ScyllaDB driver and sample scripts |
+| java    | 11      | For running ScyllaDB driver                    |
 
 ### Important Ports
 
@@ -179,18 +179,6 @@ Here are some basic CQL commands to get started with ScyllaDB:
   ```bash
   sudo systemctl status scylla-server
   ```
-
-## FAQs
-
-- **Is ScyllaDB compatible with Cassandra?**  
-  Yes, ScyllaDB is API-compatible with Apache Cassandra.
-
-- **Can ScyllaDB be deployed on cloud platforms?**  
-  Yes, ScyllaDB can be deployed on major cloud platforms like AWS, GCP, and Azure.
-
-- **Does ScyllaDB support ACID transactions?**  
-  ScyllaDB supports lightweight transactions and batch operations, but it's not a fully ACID-compliant database.
-
 ## References
 
 | Links                                                | Descriptions                             |
