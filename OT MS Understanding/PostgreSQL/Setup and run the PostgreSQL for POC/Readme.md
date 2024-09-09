@@ -113,5 +113,24 @@ psql -U myuser -d mydb -h 127.0.0.1 -W
 ```
 ![image](https://github.com/user-attachments/assets/a0f5f198-bfbd-49e9-a6a9-0922c86abf31)
 
+### To create a table inside the created database mydb
+```
+CREATE TABLE mytable (ID SERIAL PRIMARY KEY,name VARCHAR(100),type VARCHAR(50));
+```
+![image](https://github.com/user-attachments/assets/5a48d1bf-2f82-4b60-8f27-8faada6410cb)
+
+### To insert values in the created table mytable
+```
+INSERT INTO mytable (ID, name, type) 
+VALUES (1, 'John Doe', 'Employee');
+```
+![image](https://github.com/user-attachments/assets/5822360b-4e9c-4dd0-83ed-d0cd58bb7c7f)
+
+### To fetch all values from table created
+```
+select * from mytable
+```
+![image](https://github.com/user-attachments/assets/a072e2de-05d0-4c15-83c2-5cdda75a24eb)
+
 ## Architecture
 ![image](https://github.com/user-attachments/assets/6847ab70-b4b3-4546-be08-981937551cc3)
