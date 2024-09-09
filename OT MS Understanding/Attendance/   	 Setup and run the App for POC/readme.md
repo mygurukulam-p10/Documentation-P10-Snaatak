@@ -219,4 +219,28 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 ## Architecture 
 ![image (1)](https://github.com/user-attachments/assets/09a7e5bf-7a95-4493-a192-3cc3e0e887d9)
 
+## Conclusion
+
+- **Attendance Microservices**: Designed in Python to manage attendance information efficiently.
+- **Pre-requisites**: Requires database connectivity; Redis optional for caching.
+- **System Requirements**: Minimum dual-core processor, 4GB RAM, 20GB Disk, Ubuntu 22.04.
+- **Dependencies**:
+  - **Run Time**: PostgreSQL 15 (primary database), Redis 6.0.16 (caching).
+  - **Build**: Migrate 4.17.1 (data migration), Liquibase 4.29.2 (schema management), Poetry 1.8.3 (Python dependencies), Java 17.0.12, Python 3.11, Pip 3.11.
+- **Important Ports**: Redis (6379), PostgreSQL (5432).
+- **Installation Steps**:
+  - Clone the repository.
+  - Run a provided script for dependencies.
+  - Install and configure PostgreSQL and Redis.
+  - Install Migrate, Liquibase, Java, Python, and Poetry.
+  - Set up the database, update configuration files, and install project dependencies.
+  - Run migrations and the application using Gunicorn.
+- **Access**: API documentation available via web browser.
+- **Architecture**: Includes a provided diagram illustrating the system setup.
+
+## Contact Information
+
+| Name       | Email address     |
+|------------|-------------------|
+| Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
 
