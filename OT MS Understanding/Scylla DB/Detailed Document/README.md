@@ -13,7 +13,7 @@
    - [Important Ports](#important-ports)
 3. [Architecture](#architecture)
 4. [Features](#Features)
-5. [ Detailed Explanation of ScyllaDB]( Detailed Explanation of ScyllaDB)
+5. [Detailed Explanation of ScyllaDB](#detailed-explanation-of-scylladb)
 6. [Step-by-step installation of ScyllaDB](#step-by-step-installation-of-scylladb)
 7. [Basic Operations](#basic-operations)
 8. [Troubleshooting](#troubleshooting)
