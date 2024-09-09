@@ -1,9 +1,23 @@
-
 # ScyllaDB Proof of Concept
 
 | Author | Created on | Version | Last updated by | Last edited on |
 |--------|------------|---------|----------------|----------------|
 | Amit Nagar | 09-09-2024 | 1.0 | Amit Nagar | 09-09-2024 |
+
+## Table of Contents
+
+1. [Purpose](#purpose)
+2. [Pre-requisites](#pre-requisites)
+   - [System Requirements](#system-requirements)
+   - [Dependencies](#dependencies)
+   - [Important Ports](#important-ports)
+3. [Architecture](#architecture)
+4. [Step-by-step installation of ScyllaDB](#step-by-step-installation-of-scylladb)
+5. [Basic Operations](#basic-operations)
+6. [Troubleshooting](#troubleshooting)
+7. [FAQs](#faqs)
+8. [Contact Information](#contact-information)
+9. [References](#references)
 
 ## Purpose
 
@@ -40,10 +54,7 @@ This proof of concept (POC) aims to demonstrate the capabilities of ScyllaDB, a 
 
 ScyllaDB follows a distributed architecture where data is automatically replicated across multiple nodes for fault tolerance and high availability.
 
-
 ![image](https://github.com/user-attachments/assets/96a58199-c89e-4d7c-8875-ade3bf95d98a)
-
-
 
 ## Step-by-step installation of ScyllaDB
 
@@ -158,7 +169,7 @@ Here are some basic CQL commands to get started with ScyllaDB:
 
 | Name       | Email address     |
 |------------|-------------------|
-| Amit Nagar | amit.nagar.snaatak@mygurukulam.com|
+| Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
 
 ## References
 
@@ -167,4 +178,3 @@ Here are some basic CQL commands to get started with ScyllaDB:
 | [ScyllaDB Documentation](https://docs.scylladb.com/) | Official ScyllaDB documentation          |
 | [ScyllaDB Installation Guide](https://docs.scylladb.com/stable/operating-scylla/procedures/install/install-ubuntu.html) | Official installation guide for Ubuntu |
 | [ScyllaDB University](https://university.scylladb.com/) | Free online courses on ScyllaDB       |
-```.
