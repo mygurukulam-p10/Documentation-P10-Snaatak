@@ -40,7 +40,7 @@ This proof of concept (POC) aims to demonstrate the capabilities of ScyllaDB, a 
 
 | Name    | Version | Description                                    |
 |---------|---------|------------------------------------------------|
-| Python  | 3.8+    | For running ScyllaDB driver and sample scripts |
+| java    | 11      | For running ScyllaDB driver and sample scripts |
 
 ### Important Ports
 
@@ -76,8 +76,18 @@ sudo apt-get update
 ```bash
 sudo apt-get install scylla
 ```
-
-### Step 4: Configure ScyllaDB
+### Step 4:  Now need to install java 11 with below commands
+   
+```
+sudo apt-get update
+```
+```
+sudo apt-get install -y openjdk-11-jre-headless
+```
+```
+sudo update-java-alternatives --jre-headless -s java-1.11.0-openjdk-amd64
+```
+### Step 5: Configure ScyllaDB
 
 ```bash
 sudo scylla_setup
@@ -85,7 +95,7 @@ sudo scylla_setup
 
 Follow the prompts to configure ScyllaDB according to your system specifications.
 
-### Step 5: Start ScyllaDB service
+### Step 6: Start ScyllaDB service
 
 ```bash
 sudo systemctl start scylla-server
@@ -93,12 +103,12 @@ sudo systemctl start scylla-server
 ![Screenshot from 2024-09-08 00-19-13](https://github.com/user-attachments/assets/6cd720b3-7429-42eb-b438-4ba814f4c168)
 
 
-### Step 6: Verify ScyllaDB Installation
+### Step 7: Verify ScyllaDB Installation
 
 ```bash
 nodetool status
 ```
-### Step 7. Configure user Scylla & Space
+### Step 8. Configure user Scylla & Space
 Path ` /etc/scylla/scylla.yaml `
 ```
 sudo vi /etc/scylla/scylla.yaml
