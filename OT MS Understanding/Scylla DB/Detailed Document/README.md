@@ -1,4 +1,4 @@
-# ScyllaDB Proof of Concept
+# ScyllaDB 
 
 | Author | Created on | Version | Last updated by | Last edited on |
 |--------|------------|---------|----------------|----------------|
