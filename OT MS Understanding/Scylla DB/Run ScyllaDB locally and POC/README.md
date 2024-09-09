@@ -90,6 +90,8 @@ Follow the prompts to configure ScyllaDB according to your system specifications
 ```bash
 sudo systemctl start scylla-server
 ```
+![Screenshot from 2024-09-08 00-19-13](https://github.com/user-attachments/assets/6cd720b3-7429-42eb-b438-4ba814f4c168)
+
 
 ### Step 6: Verify ScyllaDB Installation
 
@@ -105,6 +107,8 @@ Here are some basic CQL commands to get started with ScyllaDB:
    ```bash
    cqlsh
    ```
+   ![Screenshot from 2024-09-08 00-25-56](https://github.com/user-attachments/assets/e33f3204-f741-440b-a906-b250a7fbd42d)
+
 
 2. Create a keyspace:
    ```sql
