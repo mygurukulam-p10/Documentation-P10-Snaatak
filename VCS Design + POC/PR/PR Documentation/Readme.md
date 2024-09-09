@@ -48,53 +48,52 @@ A **Pull Request (PR)** is a way to propose changes to a repository in GitHub. I
 
 ### How Pull Requests Are Helpful
 
-| Benefit                     | Description                                                                                     |
-|-----------------------------|-------------------------------------------------------------------------------------------------|
-| **Promotes Team Collaboration** | Encourages multiple team members to review, suggest changes, and collaborate effectively.     |
-| **Improves Code Quality**       | By allowing multiple people to review the changes, potential bugs or improvements can be identified. |
-| **Tracks Changes**              | Helps maintain a record of what changes were made and why.                                      |
-| **Enforces Best Practices**     | Pull requests can be set up to enforce guidelines and best practices before merging code.       |
+| Benefit                             | Description                                                                                     |
+|-------------------------------------|-------------------------------------------------------------------------------------------------|
+| **Promotes Team Collaboration**     | Encourages multiple team members to review, suggest changes, and collaborate effectively.     |
+| **Improves Code Quality**           | By allowing multiple people to review the changes, potential bugs or improvements can be identified. |
+| **Tracks Changes**                  | Helps maintain a record of what changes were made and why.                                      |
+| **Enforces Best Practices**         | Pull requests can be set up to enforce guidelines and best practices before merging code.       |
 
 
 ### Steps to Create a Pull Request
 To contribute to the repository, follow these steps to create a pull request (PR).
 
-| **Step**                        | **Description**                                                                                             |
-|---------------------------------|-------------------------------------------------------------------------------------------------------------|
-| **Fork the Repository**         | Create a copy of the repository you want to contribute to by clicking the "Fork" button on the repository page.|
-| **Clone the Repository**        | Clone the forked repository to your local machine using `git clone` command.                                 |
-| **Create a New Branch**         | Make changes in a new branch instead of directly on the `main` or `master` branch.                          |
-| **Commit Your Changes**         | After making your changes, commit them with a clear and descriptive message.                                |
-| **Push the Changes**            | Push your changes to the new branch on your forked repository.                                               |
-| **Open a Pull Request**         | Go to the original repository, click on the "Pull Requests" tab, and create a new PR by selecting the appropriate branches, adding a title and description, and clicking "Create Pull Request". |
+| **Step**               | **Description**           |
+|------------------------|---------------------------|
+| **Fork the Repository**| Create a copy of the repository you want to contribute to by clicking the "Fork" button on the repository page.|
+| **Clone the Repository** | Clone the forked repository to your local machine using `git clone` command.|
+| **Create a New Branch** | Make changes in a new branch instead of directly on the `main` or `master` branch.|
+| **Commit Your Changes**| After making your changes, commit them with a clear and descriptive message.|
+| **Push the Changes** | Push your changes to the new branch on your forked repository.|
+| **Open a Pull Request**|Go to the original repository, click on the "Pull Requests" tab, and create a new PR by selecting the appropriate branches, adding a title and description, and clicking "Create Pull Request". |
 
 ### Rules of Pull Requests
 To ensure an effective and smooth PR process, follow these rules when creating and submitting a pull request.
 
-| **Rule**                         | **Description**                                                                                     |
-|----------------------------------|-----------------------------------------------------------------------------------------------------|
-| **Clear Description**            | Provide a clear and concise description of the changes made in the PR.                              |
-| **Follow Guidelines**            | Ensure that the PR adheres to the repository's contribution guidelines.                             |
-| **Proper Testing**               | Verify that all code changes are thoroughly tested before submitting the PR.                        |
-| **Small Changes**                | Break down large changes into smaller, manageable PRs to simplify the review process.               |
-| **Respond to Feedback**          | Be responsive to reviewers' feedback and make necessary revisions promptly.                        |
-| **Respect Branching Strategy**   | Adhere to the repository's defined branching strategy to maintain consistency and order.            |
+| **Rule** | **Description**  |
+|----------|------------------|
+| **Clear Description**| Provide a clear and concise description of the changes made in the PR.|
+| **Follow Guidelines** | Ensure that the PR adheres to the repository's contribution guidelines.|
+| **Proper Testing** | Verify that all code changes are thoroughly tested before submitting the PR.|
+| **Small Changes** | Break down large changes into smaller, manageable PRs to simplify the review process.|
+| **Respond to Feedback**| Be responsive to reviewers' feedback and make necessary revisions promptly.|
+| **Respect Branching Strategy** |Adhere to the repository's defined branching strategy to maintain consistency and order.            |
 
 ### Types of pull requests and their use cases
 
-| **PR Type**               | **Description**                                                                                           | **Why We Use It**                                                                                                                                               |
-|---------------------------|-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Feature Pull Request**  | Adds new features or functionality to the codebase.                                                       | Introduces new capabilities, maintains modular development, and isolates new features until fully developed and tested.                                         |
-| **Bug Fix Pull Request**  | Addresses specific bugs or issues reported in the codebase.                                               | Fixes defects to improve functionality or performance, ensures stability, and avoids blocking other development work.                                           |
-| **Hotfix Pull Request**   | Urgent bug fix or patch that addresses critical issues directly in the production branch.                 | Quickly resolves severe issues that require immediate attention, such as security vulnerabilities or critical bugs.                                             |
-| **Refactoring Pull Request** | Involves restructuring existing code without changing its external behavior.                             | Improves code readability, maintainability, performance, and reduces technical debt.                                                                            |
-| **Documentation Pull Request** | Focuses on improving or adding documentation.                                                         | Provides clear, up-to-date documentation for users and developers, and helps onboard new contributors.                                                          |
-| **Chore Pull Request**    | Includes non-functional changes like updating dependencies or fixing typos.                               | Keeps project dependencies up to date and maintains project health without affecting application behavior.                                                     |
-| **Experimental Pull Request** | Introduces experimental features or changes that are not yet ready for production.                      | Explores new ideas or approaches without impacting the main codebase, allows for innovation and testing.                                                        |
-| **Performance Improvement Pull Request** | Optimizes the code for better performance.                                                   | Enhances speed, memory usage, and efficiency, making the application more scalable and resource-efficient.                                                      |
-| **Security Fix Pull Request** | Addresses security vulnerabilities in the codebase.                                                     | Protects the application and its users from potential security threats and ensures compliance with security standards.                                           |
-| **Design Update Pull Request** | Focuses on updating or improving the UI/UX design elements of the application.                          | Enhances visual appeal, usability, and ensures consistency in design for better user experience.                                                                |
-| **Dependency Update Pull Request** | Updates third-party libraries or dependencies used in the project.                                   | Ensures the project uses the latest versions, avoids vulnerabilities, and maintains compatibility with newer tools or environments.  
+| **PR Type** | **Description**  | **Why We Use It** |
+|-------------|------------------|-------------------|
+| **Feature Pull Request**| Adds new features or functionality to the codebase.                                                       | Introduces new capabilities, maintains modular development, and isolates new features until fully developed and tested.|             | **Bug Fix Pull Request**  | Addresses specific bugs or issues reported in the codebase.                                              | Fixes defects to improve functionality or performance, ensures stability, and avoids blocking other development work.|
+| **Hotfix Pull Request**   | Urgent bug fix or patch that addresses critical issues directly in the production branch.| Quickly resolves severe issues that require immediate attention, such as security vulnerabilities or critical bugs.|
+| **Refactoring Pull Request** | Involves restructuring existing code without changing its external behavior.| Improves code readability, maintainability, performance, and reduces technical debt.|
+| **Documentation Pull Request** | Focuses on improving or adding documentation.| Provides clear, up-to-date documentation for users and developers, and helps onboard new contributors.|
+| **Chore Pull Request** | Includes non-functional changes like updating dependencies or fixing typos.| Keeps project dependencies up to date and maintains project health without affecting application behavior.|
+| **Experimental Pull Request** | Introduces experimental features or changes that are not yet ready for production.| Explores new ideas or approaches without impacting the main codebase, allows for innovation and testing.|
+| **Performance Improvement Pull Request** | Optimizes the code for better performance.| Enhances speed, memory usage, and efficiency, making the application more scalable and resource-efficient.|
+| **Security Fix Pull Request** | Addresses security vulnerabilities in the codebase.| Protects the application and its users from potential security threats and ensures compliance with security standards. |
+| **Design Update Pull Request** | Focuses on updating or improving the UI/UX design elements of the application. | Enhances visual appeal, usability, and ensures consistency in design for better user experience.|
+| **Dependency Update Pull Request** | Updates third-party libraries or dependencies used in the project.| Ensures the project uses the latest versions, avoids vulnerabilities, and maintains compatibility with newer tools or environments.  
 
  ### Conclusion
 Pull requests (PRs) in GitHub are essential for managing contributions to a repository, offering a structured way to propose, review, and integrate changes. They come in various types, including feature, bug fix, hotfix, refactoring, documentation, chore, experimental, performance improvement, security fix, design update, and dependency update PRs. Each type serves a specific purpose, from adding new features and fixing bugs to optimizing performance and updating documentation. By using the appropriate type of PR, developers ensure that changes are effectively communicated, reviewed, and integrated, maintaining code quality and fostering collaboration. This systematic approach enhances both the development process and the overall health of the project.|
