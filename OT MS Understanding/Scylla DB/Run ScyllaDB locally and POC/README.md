@@ -98,6 +98,18 @@ sudo systemctl start scylla-server
 ```bash
 nodetool status
 ```
+### Step 7. Configure user Scylla & Space
+Path ` /etc/scylla/scylla.yaml `
+```
+sudo vi /etc/scylla/scylla.yaml
+```
+After entering, Edit these entries for security purpose
+```
+authenticator: PasswordAuthenticator
+authorizer: CassandraAuthorizer
+```
+![Screenshot from 2024-09-08 00-23-44](https://github.com/user-attachments/assets/2cb523da-0921-42e3-a621-2cf4faabcb3e)
+
 
 ## Basic Operations
 
@@ -105,7 +117,7 @@ Here are some basic CQL commands to get started with ScyllaDB:
 
 1. Connect to ScyllaDB using cqlsh:
    ```bash
-   cqlsh
+   cqlsh -u cassandra -p cassandra
    ```
    ![Screenshot from 2024-09-08 00-25-56](https://github.com/user-attachments/assets/e33f3204-f741-440b-a906-b250a7fbd42d)
 
