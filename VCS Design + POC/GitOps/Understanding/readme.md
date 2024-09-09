@@ -31,28 +31,33 @@ GitOps is a modern operational model for managing and deploying applications and
 ## Why GitOps?
 GitOps simplifies and accelerates the deployment process by integrating Git-based version control with operational practices. It enables a consistent, reliable, and auditable approach to managing infrastructure and applications, addressing several common challenges in modern software delivery:
 
-- **Consistency**: Ensures that the desired state of the system is consistent across environments.
-- **Automation**: Reduces manual intervention by automating deployment and operational tasks.
-- **Visibility**: Provides clear visibility into changes and deployments through Git's history and audit trails.
-- **Reproducibility**: Facilitates the ability to reproduce environments and configurations easily.
+| **Name** | **Description** |
+|------------------------|------------------------------------------------------------------------------------------------------------------|
+| **Consistency** | Ensures that the desired state of the system is consistent across environments. |
+| **Automation** | Reduces manual intervention by automating deployment and operational tasks. |
+| **Visibility** | Provides clear visibility into changes and deployments through Git's history and audit trails. |
+| **Reproducibility** | Facilitates the ability to reproduce environments and configurations easily. |
+
 
 ## GitOps Principles
 GitOps is built on several core principles:
-
-- **Declarative Configuration**: The desired state of the system is described declaratively in Git repositories, making configurations clear and versioned.
-- **Versioned and Immutable**: All configuration and operational changes are versioned and immutable, providing a history of changes and enabling rollbacks.
-- **Automated Deployment**: Changes to configurations or code trigger automated deployment processes that align the actual state with the desired state.
-- **Self-Healing**: The system continuously monitors and corrects deviations from the desired state to maintain consistency.
-- **Auditability**: All changes and deployments are recorded in Git, providing an auditable trail of changes and actions.
+| **Feature** | **Description** |
+|----------------------|---------------------------------------------------------------------------------------------------------|
+| **Declarative Configuration** | The desired state of the system is described declaratively in Git repositories, making configurations clear and versioned. |
+| **Versioned and Immutable** | All configuration and operational changes are versioned and immutable, providing a history of changes and enabling rollbacks. |
+| **Automated Deployment** | Changes to configurations or code trigger automated deployment processes that align the actual state with the desired state. |
+| **Self-Healing** | The system continuously monitors and corrects deviations from the desired state to maintain consistency. |
+| **Auditability** | All changes and deployments are recorded in Git, providing an auditable trail of changes and actions. |
 
 ## GitOps Tools
 Several tools support GitOps practices:
-
-- **Argo CD**: A declarative, GitOps continuous delivery tool for Kubernetes that automates the deployment of applications.
-- **Flux**: A set of continuous delivery and GitOps tools for Kubernetes, allowing for automated deployment and synchronization.
-- **Jenkins X**: An extension of Jenkins for Kubernetes that integrates GitOps practices for continuous delivery.
-- **Terraform**: A tool for managing infrastructure as code, often used in conjunction with GitOps to manage infrastructure changes.
-- **Kustomize**: A Kubernetes-native configuration management tool that integrates well with GitOps workflows.
+| **Tool** | **Description** |
+|--------------|------------------------------------------------------------------------------------------------------------------------|
+| **Argo CD** | A declarative, GitOps continuous delivery tool for Kubernetes that automates the deployment of applications. |
+| **Flux** | A set of continuous delivery and GitOps tools for Kubernetes, allowing for automated deployment and synchronization. |
+| **Jenkins X**| An extension of Jenkins for Kubernetes that integrates GitOps practices for continuous delivery. |
+| **Terraform**| A tool for managing infrastructure as code, often used in conjunction with GitOps to manage infrastructure changes. |
+| **Kustomize**| A Kubernetes-native configuration management tool that integrates well with GitOps workflows. |
 
 ## GitOps Workflows and Procedures
 Implementing GitOps involves several key workflows:
@@ -66,28 +71,37 @@ Implementing GitOps involves several key workflows:
 ## Benefits of GitOps
 GitOps offers several advantages:
 
-- **Improved Developer Productivity**: Simplifies and automates deployment processes, allowing developers to focus on code rather than operational tasks.
-- **Increased Reliability**: Automates deployment and monitoring, reducing human error and improving system reliability.
-- **Enhanced Security**: Versioned and auditable changes ensure traceability and security, making it easier to track and respond to issues.
-- **Faster Recovery**: Quick rollbacks and recovery from failures using Git's version history.
-- **Consistency Across Environments**: Ensures that environments are consistently configured and managed, reducing discrepancies between development, staging, and production.
+| **Benefit** | **Description** |
+|-------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| **Improved Developer Productivity** | Simplifies and automates deployment processes, allowing developers to focus on code rather than operational tasks. |
+| **Increased Reliability** | Automates deployment and monitoring, reducing human error and improving system reliability. |
+| **Enhanced Security** | Versioned and auditable changes ensure traceability and security, making it easier to track and respond to issues. |
+| **Faster Recovery** | Quick rollbacks and recovery from failures using Git's version history. |
+| **Consistency Across Environments** | Ensures that environments are consistently configured and managed, reducing discrepancies between development, staging, and production. |
+
 
 ## Drawbacks of GitOps
 While GitOps provides many benefits, it also has some drawbacks:
 
-- **Complexity in Setup**: Initial setup and configuration can be complex and require a steep learning curve.
-- **Dependency on Git**: Reliance on Git for all operational changes can become a bottleneck if Git is unavailable or misconfigured.
-- **Performance Overhead**: Frequent synchronization and deployment processes can introduce performance overhead, particularly in large-scale environments.
-- **Tooling and Integration**: Requires careful selection and integration of tools to ensure compatibility and effective workflows.
+| **Challenge** | **Description** |
+|---------------------------|--------------------------------------------------------------------------------------------------------------------|
+| **Complexity in Setup** | Initial setup and configuration can be complex and require a steep learning curve. |
+| **Dependency on Git** | Reliance on Git for all operational changes can become a bottleneck if Git is unavailable or misconfigured. |
+| **Performance Overhead** | Frequent synchronization and deployment processes can introduce performance overhead, particularly in large-scale environments. |
+| **Tooling and Integration** | Requires careful selection and integration of tools to ensure compatibility and effective workflows. |
+
 
 ## GitOps Best Practices
 To effectively implement GitOps, consider the following best practices:
 
-- **Maintain Clear and Consistent Repositories**: Organize Git repositories logically and keep configurations consistent and up-to-date.
-- **Automate Testing**: Implement automated tests to validate configurations and deployments before applying changes.
-- **Monitor and Alert**: Set up monitoring and alerting to detect and respond to issues quickly.
-- **Use Branches and Tags Wisely**: Utilize branches and tags in Git to manage different environments and stages of deployment.
-- **Document Processes**: Document workflows, procedures, and best practices to ensure clarity and consistency across teams.
+| **Best Practice** | **Description** |
+|------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| **Maintain Clear and Consistent Repositories** | Organize Git repositories logically and keep configurations consistent and up-to-date. |
+| **Automate Testing** | Implement automated tests to validate configurations and deployments before applying changes. |
+| **Monitor and Alert** | Set up monitoring and alerting to detect and respond to issues quickly. |
+| **Use Branches and Tags Wisely** | Utilize branches and tags in Git to manage different environments and stages of deployment. |
+| **Document Processes** | Document workflows, procedures, and best practices to ensure clarity and consistency across teams. |
+
 
 ## Conclusion
 
@@ -114,6 +128,5 @@ For further reading and resources on GitOps, check out the following:
 
 | Links | Descriptions|
 |------|---------------------|
-| https://jenkins-x.io/docs/ | Jenkins X Documentation |
-| https://fluxcd.io/docs/ | Flux Documentation |
-| https://www.terraform.io/docs/index.html | Terraform Documentation |
+| https://about.gitlab.com/topics/gitops/ | Gitops |
+| https://shalb.com/blog/gitops-an-introduction-to-gitops-principles-and-practices/ | Gitops Principles |
