@@ -1,4 +1,4 @@
-```markdown
+
 # ScyllaDB Proof of Concept
 
 | Author | Created on | Version | Last updated by | Last edited on |
