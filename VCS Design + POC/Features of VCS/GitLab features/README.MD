@@ -372,7 +372,7 @@ Despite some potential challenges with resource usage and complexity, GitLab’s
 
 Whether you’re working on small-scale projects or managing a large enterprise, GitLab provides the tools you need to accelerate your DevOps journey.
 
-## 🔗 Learn More
+## 🔗 References
 
 - [GitLab Documentation](https://docs.gitlab.com)
 - [GitLab CI/CD Documentation](https://docs.gitlab.com/ee/ci/)
