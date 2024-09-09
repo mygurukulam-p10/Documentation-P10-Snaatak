@@ -1,11 +1,11 @@
 # Understanding GitOps: A Comprehensive Guide
 
+![gitops](https://github.com/user-attachments/assets/791f74c2-ebbd-446e-802b-0fd6d1b6ae6c)
+
   | Author        | Created on | Version | Last updated by | Last edited on |
   |-------------|---------|-------------|-------------|---------|
   | Vinay Bansal | 06-09-24 | version 1 | Vinay Bansal | Intial Commit |
 
-#
-![gitops](https://github.com/user-attachments/assets/791f74c2-ebbd-446e-802b-0fd6d1b6ae6c)
   
 ## Purpose
 GitOps is a way to manage and deploy applications by using Git as the main source of truth. It builds on DevOps and Infrastructure as Code principles, making it easier to keep everything in sync and automate updates by tracking changes in Git. Essentially, you use Git to control and manage all aspects of your application's deployment and operation.
