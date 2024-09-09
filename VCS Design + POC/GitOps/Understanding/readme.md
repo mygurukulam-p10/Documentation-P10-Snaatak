@@ -62,6 +62,8 @@ Several tools support GitOps practices:
 
 ## GitOps Workflows and Procedures
 Implementing GitOps involves several key workflows:
+![github-actions-terraform](https://github.com/user-attachments/assets/dffb7588-a7e9-430c-a242-1c0a367a58c5)
+
 
 - **Configuration Management**: Store infrastructure and application configurations in Git repositories. Define the desired state in declarative formats (YAML, JSON).
 - **Continuous Deployment**: Automate deployment processes triggered by Git commits or pull requests. Tools like Argo CD or Flux automatically apply changes.
