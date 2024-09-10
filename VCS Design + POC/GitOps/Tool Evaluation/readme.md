@@ -1,10 +1,10 @@
 # GitOps Tools Evaluation
+![gitops](https://github.com/user-attachments/assets/791f74c2-ebbd-446e-802b-0fd6d1b6ae6c)
 
   | Author        | Created on | Version | Last updated by | Last edited on |
   |-------------|---------|-------------|-------------|---------|
   | Vinay Bansal | 06-09-24 | version 1 | Vinay Bansal | Intial Commit |
 
-![gitops](https://github.com/user-attachments/assets/791f74c2-ebbd-446e-802b-0fd6d1b6ae6c)
 
 ## Table of Contents
 
