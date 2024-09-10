@@ -92,7 +92,7 @@ A monorepo offers significant benefits for large teams and organizations that re
 |Aayush|aayush.gaur.snaatak@mygurukulam.co|
 
 ## References 
-|links | Description |
-|-------|------------|
+|links | 
+|-------|
 |https://monorepo.tools |
 |https://www.atlassian.com/git/tutorials/monorepos|
