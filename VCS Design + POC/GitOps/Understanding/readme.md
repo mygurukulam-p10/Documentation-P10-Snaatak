@@ -62,15 +62,39 @@ Several tools support GitOps practices:
 ## GitOps Workflows and Procedures
 Implementing GitOps involves several key workflows:
 ![workflow](https://github.com/user-attachments/assets/4bf68ccb-dbce-4a90-81f5-acc242b2bfe4)
+### 1. Create Pull/Merge Request
 
+- **Action**: A developer makes code changes in their feature branch.
+- **Details**: The code includes Terraform configuration files that define infrastructure changes (e.g., resource creation, updates).
+- **PR Creation**: The developer creates a Pull Request (PR) to merge their feature branch into the main branch.
 
+### 2. Change/Change (CI Pipeline)
 
+- **Trigger**: The CI (Continuous Integration) Pipeline is triggered when the PR is opened.
+- **Pipeline Steps**:
+  - **Linting**: Check that Terraform code adheres to proper syntax and formatting conventions.
+  - **Unit Tests**: Execute tests to ensure the correctness of the Terraform configuration.
+  - **Terraform Plan**: Simulate the changes to preview the resources that will be added, modified, or destroyed. Review the output to ensure the changes are accurate and safe.
+- **Feedback Loop**: The changes may go through another round of validation if feedback is provided, either automatically or manually.
 
-- **Configuration Management**: Store infrastructure and application configurations in Git repositories. Define the desired state in declarative formats (YAML, JSON).
-- **Continuous Deployment**: Automate deployment processes triggered by Git commits or pull requests. Tools like Argo CD or Flux automatically apply changes.
-- **Monitoring and Self-Healing**: Implement monitoring tools to detect deviations from the desired state and automatically correct them.
-- **Rollback and Recovery**: Use Git history to roll back to previous states in case of failures or issues. Ensure that the rollback process is automated and reliable.
-- **Collaboration and Review**: Use Git workflows (pull requests, code reviews) to manage changes, ensuring peer review and collaborative decision-making.
+### 3. Approved Changes
+
+- **Review**: Changes are reviewed and approved by either automated systems or human reviewers.
+- **Action**: Once approved, the PR is marked as Approved.
+- **Merge**: The PR is merged into the main branch, signifying that the changes are ready for deployment.
+
+### 4. CD Pipeline (Continuous Deployment)
+
+- **Trigger**: The CD (Continuous Deployment) Pipeline is initiated after the merge.
+- **Pipeline Steps**:
+  - **Terraform Plan**: Run another Terraform Plan to confirm the final changes based on the merged code.
+  - **Terraform Apply**: Apply the changes to the infrastructure in AWS according to the approved plan.
+
+### 5. AWS Deployment
+
+- **Outcome**: Upon successful execution of Terraform Apply, the infrastructure changes are applied in AWS.
+- **Result**: AWS resources (e.g., EC2 instances, RDS databases, VPCs) are created, updated, or destroyed as specified in the Terraform configuration.             
+
 
 ## Benefits of GitOps
 GitOps offers several advantages:
