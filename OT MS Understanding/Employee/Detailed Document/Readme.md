@@ -45,10 +45,10 @@ The Employee REST API is a Golang-based microservice designed to handle all empl
 ##### Redis in Employee REST API
 | Features | Description  |
 |--------------------------|------------------------|
-| Caching  | Temporarily stores frequently accessed data in memory to reduce the need for repeated database queries.|
-| Data Storage| Acts as a high-speed, in-memory database for data accessed often but rarely changed.|
-| Session Management| Manages user sessions and authentication tokens for quick accessibility and reduced database load.|
-| Performance Improvement|Offloads read-heavy operations from ScyllaDB, improving overall system performance and scalability.|
+| **Caching**  | Temporarily stores frequently accessed data in memory to reduce the need for repeated database queries.|
+| **Data Storage**| Acts as a high-speed, in-memory database for data accessed often but rarely changed.|
+| S**ession Management**| Manages user sessions and authentication tokens for quick accessibility and reduced database load.|
+| **Performance Improvement**|Offloads read-heavy operations from ScyllaDB, improving overall system performance and scalability.|
 
    
 #### Relevant Resources:
@@ -63,10 +63,10 @@ ScyllaDB is a high-performance, distributed NoSQL database designed to handle la
 
 | Features | Description  |
 |--------------------------|------------------------|
-| Primary Database              | ScyllaDB serves as the primary database for storing employee-related data, such as profiles and transaction records.      |
-| High Throughput                 | Designed to handle high write and read throughput, making it suitable for managing large datasets efficiently.               |
-| Low Latency                 | Provides low-latency data access, ensuring quick response times for employee data retrieval and updates.                |
-|Scalability                      | Offers horizontal scalability to accommodate growing amounts of data and increased load as the application scales.     |
+| **Primary Database**              | ScyllaDB serves as the primary database for storing employee-related data, such as profiles and transaction records.      |
+| **High Throughput**  | Designed to handle high write and read throughput, making it suitable for managing large datasets efficiently.               |
+| **Low Latency**                 | Provides low-latency data access, ensuring quick response times for employee data retrieval and updates.                |
+|**Scalabilit**y                      | Offers horizontal scalability to accommodate growing amounts of data and increased load as the application scales.     |
 
 
 #### Relevant Resources:
@@ -87,10 +87,10 @@ ScyllaDB is a high-performance, distributed NoSQL database designed to handle la
 
 | Features | Description  |
 |--------------------------|------------------------|
-| Schema Evolution             | Migrations help manage changes to the database schema, such as adding new tables or columns for additional employee information or updating existing ones.     |
-| Version Control                 | Track and apply changes to the database schema in a version-controlled manner, ensuring that updates are applied consistently across different environments.             |
-| Data Integrity                |Ensure that schema changes do not disrupt existing data or application functionality, maintaining data integrity during updates.           |
-|Automated Updates                    | OFacilitate automated application of schema changes, reducing manual intervention and minimizing the risk of errors.    |
+| **Schema Evolution**             | Migrations help manage changes to the database schema, such as adding new tables or columns for additional employee information or updating existing ones.     |
+| **Version Control**                 | Track and apply changes to the database schema in a version-controlled manner, ensuring that updates are applied consistently across different environments.             |
+| **Data Integrity**                |Ensure that schema changes do not disrupt existing data or application functionality, maintaining data integrity during updates.           |
+|**Automated Updates**                    | OFacilitate automated application of schema changes, reducing manual intervention and minimizing the risk of errors.    |
 
 
 #### Relevant Resources:
@@ -105,10 +105,10 @@ Jq is a powerful command-line tool used for parsing, filtering, and manipulating
 ##### Jq in Employee REST API
 | Features | Description  |
 |--------------------------|------------------------|
-|JSON Parsing|jq is used to parse JSON responses from the Employee API, extracting and processing specific data elements, such as employee records or API status messages|
-|Data Filtering|Allows filtering of JSON data based on specific criteria, such as selecting employees based on their roles or statuses.|
-|Data Transformation|Enables transformation of JSON data into different formats or structures for further processing or integration with other systems.|
-|Debugging and Testing| Helps in debugging and testing API responses by allowing users to quickly inspect and validate JSON data returned by the Employee API.|
+|**JSON Parsing**|jq is used to parse JSON responses from the Employee API, extracting and processing specific data elements, such as employee records or API status messages|
+|**Data Filterin**g|Allows filtering of JSON data based on specific criteria, such as selecting employees based on their roles or statuses.|
+|**Data Transformatio**n|Enables transformation of JSON data into different formats or structures for further processing or integration with other systems.|
+|**Debugging and Testin**g| Helps in debugging and testing API responses by allowing users to quickly inspect and validate JSON data returned by the Employee API.|
 
 #### Relevant Resources:
 - **[Jq](https://en.wikipedia.org/wiki/Jq_(programming_language))**
@@ -122,11 +122,11 @@ Go (Golang) is a statically typed, compiled programming language designed by Goo
 ##### Golang in Employee REST API
 | Features | Description  |
 |--------------------------|------------------------|
-|Microservice Architecture|Go is employed to build the Employee REST API as a microservice, allowing it to handle employee-related transactions independently within the OT-Microservices ecosystem.|
-|Performance|Go’s efficient execution and low-latency performance contribute to the API's ability to handle high volumes of requests and data with minimal delay.|
-|Concurrency| Utilizes Go’s concurrency model (goroutines and channels) to manage multiple simultaneous API requests and background tasks efficiently.|
-|Scalability|Leverages Go’s performance features to ensure that the API can scale effectively as the number of employees or transactions grows.|
-|Integration|Facilitates easy integration with other services and databases, such as ScyllaDB and Redis, through Go’s robust standard library and third-party packages.|
+|**Microservice Architecture**|Go is employed to build the Employee REST API as a microservice, allowing it to handle employee-related transactions independently within the OT-Microservices ecosystem.|
+|**Performance**|Go’s efficient execution and low-latency performance contribute to the API's ability to handle high volumes of requests and data with minimal delay.|
+|**Concurrency**| Utilizes Go’s concurrency model (goroutines and channels) to manage multiple simultaneous API requests and background tasks efficiently.|
+|**Scalability**|Leverages Go’s performance features to ensure that the API can scale effectively as the number of employees or transactions grows.|
+|**Integration**|Facilitates easy integration with other services and databases, such as ScyllaDB and Redis, through Go’s robust standard library and third-party packages.|
 
 #### Relevant Resources:
 - **[Go Official Documentation](https://go.dev/doc/))**
@@ -138,9 +138,9 @@ Swagger UI is an open-source tool that provides a visual interface for interacti
 ##### Swagger UI in Employee REST API
 | Features | Description  |
 |--------------------------|------------------------|
-|API Documentation|Automatically generates and displays interactive documentation for the Employee API, detailing available endpoints, request parameters, and response formats.|
-|Interactive Testing|Allows users and developers to test API endpoints directly from the browser interface, sending requests and viewing responses in real-time.|
-|Improved Usability| Enhances the developer experience by providing a user-friendly interface for exploring and understanding the API’s functionality and behavior.|
+|**API Documentation**|Automatically generates and displays interactive documentation for the Employee API, detailing available endpoints, request parameters, and response formats.|
+|**Interactive Testing**|Allows users and developers to test API endpoints directly from the browser interface, sending requests and viewing responses in real-time.|
+|**Improved Usability**| Enhances the developer experience by providing a user-friendly interface for exploring and understanding the API’s functionality and behavior.|
 
 #### Relevant Resources:
 - **[Swagger UI Documentation](https://swagger.io/tools/swagger-ui/)**
