@@ -83,7 +83,7 @@ ScyllaDB is a high-performance, distributed NoSQL database designed to handle la
  structures are updated in a controlled and consistent manner.
 
 
-##### Migrations in Employee REST API
+#### **Migrations in Employee REST API**
 
 | Features | Description  |
 |--------------------------|------------------------|
