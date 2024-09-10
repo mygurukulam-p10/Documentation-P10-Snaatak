@@ -106,9 +106,9 @@ Jq is a powerful command-line tool used for parsing, filtering, and manipulating
 | Features | Description  |
 |--------------------------|------------------------|
 |**JSON Parsing**|jq is used to parse JSON responses from the Employee API, extracting and processing specific data elements, such as employee records or API status messages|
-|**Data Filterin**g|Allows filtering of JSON data based on specific criteria, such as selecting employees based on their roles or statuses.|
-|**Data Transformatio**n|Enables transformation of JSON data into different formats or structures for further processing or integration with other systems.|
-|**Debugging and Testin**g| Helps in debugging and testing API responses by allowing users to quickly inspect and validate JSON data returned by the Employee API.|
+|**Data Filtering**|Allows filtering of JSON data based on specific criteria, such as selecting employees based on their roles or statuses.|
+|**Data Transformation**|Enables transformation of JSON data into different formats or structures for further processing or integration with other systems.|
+|**Debugging and Testing**| Helps in debugging and testing API responses by allowing users to quickly inspect and validate JSON data returned by the Employee API.|
 
 #### Relevant Resources:
 - **[Jq](https://en.wikipedia.org/wiki/Jq_(programming_language))**
@@ -135,7 +135,7 @@ Go (Golang) is a statically typed, compiled programming language designed by Goo
 ### Swagger UI
 Swagger UI is an open-source tool that provides a visual interface for interacting with and exploring RESTful APIs. It generates interactive documentation from OpenAPI specifications, enabling developers and users to easily understand, test, and validate API endpoints without needing to write code manually.
 
-##### Swagger UI in Employee REST API
+#### Swagger UI in Employee REST API
 | Features | Description  |
 |--------------------------|------------------------|
 |**API Documentation**|Automatically generates and displays interactive documentation for the Employee API, detailing available endpoints, request parameters, and response formats.|
