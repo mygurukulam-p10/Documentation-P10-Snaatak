@@ -21,9 +21,8 @@ GitOps is a way to manage and deploy applications by using Git as the main sourc
 7. [Drawbacks of GitOps](#drawbacks-of-gitops)
 8. [GitOps Best Practices](#gitops-best-practices)
 9. [Conclusion](#conclusion)
-10. [FAQs](#faqs)
-11. [Contact Information](#contact-information)
-12. [References](#references)
+10. [Contact Information](#contact-information)
+11. [References](#references)
 
 
 ## Introduction
@@ -62,7 +61,9 @@ Several tools support GitOps practices:
 
 ## GitOps Workflows and Procedures
 Implementing GitOps involves several key workflows:
-![github-actions-terraform](https://github.com/user-attachments/assets/dffb7588-a7e9-430c-a242-1c0a367a58c5)
+![workflow](https://github.com/user-attachments/assets/4bf68ccb-dbce-4a90-81f5-acc242b2bfe4)
+
+
 
 
 - **Configuration Management**: Store infrastructure and application configurations in Git repositories. Define the desired state in declarative formats (YAML, JSON).
