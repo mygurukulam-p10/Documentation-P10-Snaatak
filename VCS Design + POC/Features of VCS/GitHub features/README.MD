@@ -15,8 +15,9 @@
 8. [Collaboration Tools](#collaboration-tools)
 9. [Insights & Analytics](#insights-&-analytics)
 10. [Conclusion](#conclusion)
-11. [Refrences](#refrences)
-12. [Contact Information](#contact-information)
+11. [Contact Information](#contact-information)
+12. [Refrences](#refrences)
+
 
 
 # Introduction
@@ -246,13 +247,14 @@ GitHub provides project insights through:
 # Conclusion
 GitHub offers a robust suite of features that significantly enhance the software development process, from version control and collaboration to automation and security. By leveraging repositories, branches, pull requests, and GitHub Actions, teams can streamline their workflows, improve code quality, and foster efficient collaboration. The integration of GitHub Pages, GitHub Packages, and Discussions further enriches the development experience by providing tools for documentation, package management, and community engagement. Additionally, GitHub's security features and enterprise solutions offer powerful support for managing and protecting codebases.
 
+# Contact Information 
+|Name|Email Address|
+|:---:|:---:|
+|Aayush|aayush.gaur.snaatak@mygurukulam.co|
+
+
 # Refrences
 - [Official GitHub Documentation](https://docs.github.com)
 - [GitHub Actions](https://docs.github.com/en/actions)
 - [GitHub Enterprise](https://enterprise.github.com)
 - [GitHub Codespaces](https://github.com/features/codespaces)
-
-# Contact Information 
-|Name|Email Address|
-|:---:|:---:|
-|Aayush|aayush.gaur.snaatak@mygurukulam.co|
