@@ -47,7 +47,7 @@ The Employee REST API is a Golang-based microservice designed to handle all empl
 |--------------------------|------------------------|
 | **Caching**  | Temporarily stores frequently accessed data in memory to reduce the need for repeated database queries.|
 | **Data Storage**| Acts as a high-speed, in-memory database for data accessed often but rarely changed.|
-| S**ession Management**| Manages user sessions and authentication tokens for quick accessibility and reduced database load.|
+| **Session Management**| Manages user sessions and authentication tokens for quick accessibility and reduced database load.|
 | **Performance Improvement**|Offloads read-heavy operations from ScyllaDB, improving overall system performance and scalability.|
 
    
@@ -59,14 +59,14 @@ The Employee REST API is a Golang-based microservice designed to handle all empl
  #### What is ScyllaDB:
 ScyllaDB is a high-performance, distributed NoSQL database designed to handle large volumes of data with low latency. It is compatible with Apache Cassandra but offers improved speed and efficiency due to its advanced architecture.
 
-##### ScyllaDB in Employee REST API
+#### ScyllaDB in Employee REST API
 
 | Features | Description  |
 |--------------------------|------------------------|
-| **Primary Database**              | ScyllaDB serves as the primary database for storing employee-related data, such as profiles and transaction records.      |
+| **Primary Database**  | ScyllaDB serves as the primary database for storing employee-related data, such as profiles and transaction records.      |
 | **High Throughput**  | Designed to handle high write and read throughput, making it suitable for managing large datasets efficiently.               |
-| **Low Latency**                 | Provides low-latency data access, ensuring quick response times for employee data retrieval and updates.                |
-|**Scalabilit**y                      | Offers horizontal scalability to accommodate growing amounts of data and increased load as the application scales.     |
+| **Low Latency** | Provides low-latency data access, ensuring quick response times for employee data retrieval and updates.                |
+|**Scalability**  | Offers horizontal scalability to accommodate growing amounts of data and increased load as the application scales.     |
 
 
 #### Relevant Resources:
@@ -87,10 +87,10 @@ ScyllaDB is a high-performance, distributed NoSQL database designed to handle la
 
 | Features | Description  |
 |--------------------------|------------------------|
-| **Schema Evolution**             | Migrations help manage changes to the database schema, such as adding new tables or columns for additional employee information or updating existing ones.     |
-| **Version Control**                 | Track and apply changes to the database schema in a version-controlled manner, ensuring that updates are applied consistently across different environments.             |
-| **Data Integrity**                |Ensure that schema changes do not disrupt existing data or application functionality, maintaining data integrity during updates.           |
-|**Automated Updates**                    | OFacilitate automated application of schema changes, reducing manual intervention and minimizing the risk of errors.    |
+| **Schema Evolution**  | Migrations help manage changes to the database schema, such as adding new tables or columns for additional employee information or updating existing ones.     |
+| **Version Control** | Track and apply changes to the database schema in a version-controlled manner, ensuring that updates are applied consistently across different environments.             |
+| **Data Integrity** |Ensure that schema changes do not disrupt existing data or application functionality, maintaining data integrity during updates.           |
+|**Automated Updates** | OFacilitate automated application of schema changes, reducing manual intervention and minimizing the risk of errors.    |
 
 
 #### Relevant Resources:
