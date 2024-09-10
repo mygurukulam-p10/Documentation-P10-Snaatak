@@ -2,7 +2,7 @@
 
 | Author      | Created on  | Version    | Last updated by | Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-| Megha Tyagi | 09-09-24    | version 1  | Megha Tyagi     | 09-09-24       |
+| Megha Tyagi | 09-09-24    | version 1  | Megha Tyagi     | 10-09-24       |
 
 ## Purpose
 The purpose of this POC document is to outline the necessary steps and procedures for creating a Pull Request (PR). This document aims to provide a comprehensive understanding of the PR process, including the rationale behind the proposed changes, how to implement them effectively, and the benefits they bring to the project. 
@@ -12,12 +12,9 @@ The purpose of this POC document is to outline the necessary steps and procedure
 2. [Pre-requisites](#pre-requisites)
 3. [System Requirements](#system-requirements)
 4. [Dependencies](#dependencies)
-   * [Run Time Dependencies](#run-time-dependency)
-   * [Build Dependencies](#build-dependency)
 5. [Important Ports](#important-ports)
-6. [Repo clone](#clone-the-git-repository-with-command) 
-7. [Step-by-step installation](#step-by-step-installation)
-8. [Application Build](#application-build)
+6. [Step-by-Step Guide to Create a Pull Request (PR)](#step-by-step-guide-to-create-a-pull-request-pr)
+
 
 
 ## PR Work Flow
@@ -29,330 +26,128 @@ Before proceeding with the Proof of Concept (POC) for creating a Pull Request (P
 **GitHub Account**: A GitHub account is required to create and manage Pull Requests. Ensure that you have an active GitHub account and necessary permissions for the repository you are working on.
 
 ## System Requirements
-| Hardware Specifications | Minimum Recommendation  |
-|--------------------------|------------------------|
-| Processor                | dual-core              |
-| RAM                      | 4GB                    |
-| Disk                     | 20GB                   |
-| OS                       | Ubuntu(22.04)          |
+| Hardware Specifications  | Minimum Recommendation                             |
+|--------------------------|----------------------------------------------------
+| Processor                | Dual-core processor (e.g., Intel i3 or equivalent)|
+| RAM                      | 4 GB (8 GB recommended for better performance)    |
+| Disk                     |10 GB free disk space (SSD recommended for faster read/write operations)|
+| OS                       |Windows 10 or later, macOS 10.13 (High Sierra) or later, Linux (any modern distribution like Ubuntu 20.04 or later)|
 
 ## Dependencies
 ### Run time Dependency
-| Name           | Version | Description                                                                                                                         |
-|----------------|---------|-------------------------------------------------------------------------------------------------------------------------------------|
-| ScyllaDB       | 6.1.1   |ScyllaDB is a NoSQL database being utilized as the primary database in the employee application                                      |
-| Redis          | 6.0.16  |Redis is an in-memory data structure store used for caching to enhance the performance and response time of the employee application.|
-
-
-## Build Dependency
-| Name           | Version    | Description        |
-| -------------- | ---------- | ------------------ |
-| Migrate        |  4.17.1    | These represent the data migration scripts or processes that ensure the data in ScyllaDB is up to date.Migrations are usually used when the database schema or structure changes.   |
-| Jq       | 1.6   | jq is likely being used to parse or manipulate JSON data related to the migration process. This could involve extracting configuration values, database connection strings, or other parameters that are stored in a JSON format.| 
+When working with Pull Requests (PRs), there are several runtime dependencies that you may need, depending on your development environment and the specific tools you are using.
+Here are some common runtime dependencies:
+1. Programming Language Runtime (based on project)
+2. Package Managers
+3. Depending on the project type, build tools may be required.
 
 ## Important Ports
-| Inbound Traffic | Description        |
-| --------------- | ------------------ |
-| 6379            | Used by Redis      |
-| 9042            | Used by ScyllaDB   |
+When working with Pull Requests (PRs), several network ports are often used, especially when interacting with version control systems, development servers, and CI/CD tools. Here are some of the important ports you may need to be aware of:
 
-## Install git
+| Port |Service/Protocol| Description        |
+| --------------- | ------------------ |------------------|
+| 22          |SSH (Secure Shell)| Used by git for secure communication with remote repositories over SSH. Essential for cloning, pushing, and pulling repositories securely.    |
+| 80           | HTTP|Standard web traffic port, used for accessing web-based tools or services (e.g., GitHub, GitLab, Bitbucket) over HTTP.   |
+|443|HTTPS|Secure web traffic port, used for securely accessing web-based tools or services (e.g., GitHub, GitLab, Bitbucket) over HTTPS. Required for secure data transfer and API communication.|
 
-```
-sudo apt install git
-```
+## Step-by-Step Guide to Create a Pull Request (PR)
+Creating a Pull Request (PR) involves several steps to propose changes to a repository. Here’s a detailed guide to help you through the process:
+1. Create Repository in git and add the project file
+   - Log in to your Git platform (e.g., GitHub).
+   - Navigate to the Repositories section and click on New.
+   - Enter a repository name, select its visibility (public or private), and add a description if needed.
+   - Click Create Repository. This initializes an empty repository on the Git platform.
 
-
-### Clone the git repository with command 
-
-
-
-```
-git clone https://github.com/OT-MICROSERVICES/employee-api.git
-```
-
-
-##  Step-by-step installation
-
-### 1. Below Commands to setup scylla db
-
-#### Install a repo file and add the ScyllaDB APT repository to your system.
-
-  ```
-  sudo mkdir -p /etc/apt/keyrings
-```
+  <img width="941" alt="create repo" src="https://github.com/user-attachments/assets/701c768b-a12a-4bcc-b603-bfe1c2f4113d">
   
-  ```
-  sudo gpg --homedir /tmp --no-default-keyring --keyring /etc/apt/keyrings/scylladb.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 491c93b9de7496a7
-```
-  
-  ```
-  sudo wget -O /etc/apt/sources.list.d/scylla.list http://downloads.scylladb.com/deb/debian/scylla-6.1.list
-```
+  ![create file](https://github.com/user-attachments/assets/57d34213-1ab9-40db-bad9-39260245bf98)
 
 
-<img width="909" alt="ScyllaDB Installation" src="https://github.com/user-attachments/assets/4ce1011c-036d-4c1e-bb7b-035204bd0aad">
+2.After adding the project files, clone the repository to your local system to continue with further development and version control 
+   activities.
+   ```
+   git clone https://github.com/mygurukulam-p10/PR-Demo-Repo.git
+   ```
+   <img width="595" alt="Git Clone repo in local machine" src="https://github.com/user-attachments/assets/fc447a26-5468-4053-a5d7-c9d6688fd6e5">
 
-
-#### Install ScyllaDB packages.
-
-  ```
-  sudo apt-get update
-```
-  
-  ```
-  sudo apt-get install -y Scylla
-```
-
-<img width="663" alt="ScyllaDB Package" src="https://github.com/user-attachments/assets/6d74d418-355e-444a-9668-40e6ec768000">
-
-
-#### Now Run the scylla_setup script to tune the system settings and determine the optimal configuration.
-
-  ```
-  sudo scylla_setup
-```
-
-<img width="743" alt="ScyllaDB SETUP" src="https://github.com/user-attachments/assets/87535646-6bda-449a-bafd-83898ec58e0f">
-
-
-#### Run ScyllaDB as a service (if not already running).
-
+3. Changes the directory into private.
+   ```
+   cd <directory name>
+   ```
+4. Create a new branch to implement changes in the project code using the command below.
  ```
- sudo systemctl start scylla-server
-```
+ git checkout -b new_branch
+ ```
+<img width="425" alt="Create a New branch" src="https://github.com/user-attachments/assets/b7086552-0c7f-499e-8789-f949036ef44c">
+
+
+5. Switch to the new branch using the `git branch` command.
+<img width="376" alt="switch to new branch" src="https://github.com/user-attachments/assets/d5bf80c3-892c-4fec-a9f3-b93390d42c1a">
+
+6. Make the changes in project file with command
+   ```
+   vi <file name>
+   ```
+<img width="651" alt="changes in file" src="https://github.com/user-attachments/assets/fe64a5ba-67d7-499d-bc6f-a58749eb1839">
+
+7. With the help of below mentioned command we can see the modified change in project file
+   ```
+   git status
+   ```
+   <img width="451" alt="git status" src="https://github.com/user-attachments/assets/e8f9ae39-2553-44bb-b528-414718c10f1e">
+
+8. Next, stage your changes using the command provided below.
+   ```
+   git add <file name"
+   ```
+   <img width="446" alt="git add " src="https://github.com/user-attachments/assets/a17530f4-e87a-43d4-a51d-63e4373ce8fe">
+
+9. Then commit our stage change with given command
+    ```
+    git commit -m "message of change file"
+    ```
+    <img width="521" alt="git commit with updated file" src="https://github.com/user-attachments/assets/c382ca63-1d05-410c-8094-e16308141add">
+
+10. Now push our code back to git hub with this command & Uploads the changes from your local new_branch to the remote repository.
+    ```
+    git push --set-upstream origin new_branch
+    ```
+   <img width="649" alt="git push new branch in git" src="https://github.com/user-attachments/assets/c9efce6d-c954-44b6-b5ec-4674b0898de7">
+
+11. Now go back to your GitHub repo and we can see that new branch is now recognized
+    ![see new branch](https://github.com/user-attachments/assets/ff55a79f-c14a-465e-8eaa-f6ae9f113f58)
+
+12. Firstly go the pull request and create new pull request
+   ![create new pull request](https://github.com/user-attachments/assets/5f363732-7038-4fda-aa82-f4ecda1e67f0)
+
+13. On the right side we select the branch which we gonna merge
+   ![base and comapre branch](https://github.com/user-attachments/assets/3f19c3bd-5429-46f3-8b67-7fe43f329d27)
+
+14. Create Pull request and at this tim you can update the name of the request and leave any comments
+    ![Leave comment](https://github.com/user-attachments/assets/078e929a-16f9-4651-97bd-d1e2590cb072)
+
+15. The check if any merge conflict after create the pull request, at this point out pull request is open and ready for review
+    ![check merge conflict](https://github.com/user-attachments/assets/732102cd-2522-4a2e-8a3b-3688265044da)
+    <img width="941" alt="code changes review" src="https://github.com/user-attachments/assets/da9e8bc8-1eaa-421c-9348-f6086f844e1a">
+
+16. At the time of review we can add comment in review, if we want
+    ![review comment](https://github.com/user-attachments/assets/8507318b-66d9-4036-8b3e-74ff7744fbc5)
+    
+17. After completing all the steps, the final task is to merge the code.
+    <img width="937" alt="merge the pull the request" src="https://github.com/user-attachments/assets/a4bfbf35-8001-4abc-b654-7e8c42c510d2">
+    <img width="948" alt="merge successfull" src="https://github.com/user-attachments/assets/9507c840-0a4e-4caf-a6d4-edaa383ed257">
+
+18. Additionally,Once the changes have been successfully merged and are no longer needed, you can delete the branch you created for these changes.
     
 
-     Run "cqlsh" to check if it connects.
-
-<img width="714" alt="ScyllaDB SETUP Successfully" src="https://github.com/user-attachments/assets/55093fe0-faba-4cb2-a47c-0975b389173e">
 
 
-#### then create database named employee_db using below command under cqlsh
-
-CREATE KEYSPACE employee_db 
-   WITH REPLICATION = {
-   'class' : 'SimpleStrategy', 
-   'replication_factor' : 3 
-   };
+    
 
 
-### check if db is created using command "describe keyspaces;"
 
-### make below changes in **/etc/scylla/scylla.yaml **and add below lines at the top of the file
+    
+     
 
-      authenticator: PasswordAuthenticator
-      authorizer: CassandraAuthorizer
-
-<img width="780" alt="scylla yaml file changes" src="https://github.com/user-attachments/assets/eaadcef5-0bf5-497a-8a23-4a5081884634">
-
-
-#### Restart scylla-server with below command
-
-
-```
-sudo systemctl restart scylla-server
-```
-
-
-#### Firstly switch to by default super user of scylla with below command
-
-
-```
-cqlsh -u cassandra -p cassandra;
-```
-
-
-#### Now create a user in cqlsh with below command, 
-
-
-```
-CREATE USER scylla WITH PASSWORD 'password';
-```
-
-
-#### Give all permissions on keyspace employee_db to the scylla user with below command
-
-
-```
-GRANT ALL PERMISSIONS ON KEYSPACE employee_db TO scylla;
-```
-
-
-### 2.  Now need to install java 11 with below commands
    
-
-```
-sudo apt-get update
-```
-
-
-```
-sudo apt-get install -y openjdk-11-jre-headless
-```
-
-
-```
-sudo update-java-alternatives --jre-headless -s java-1.11.0-openjdk-amd64
-```
-
-<img width="675" alt="JDK Installation" src="https://github.com/user-attachments/assets/f5ff6df0-e108-45a7-b90d-07587b878fb7">
-
-
-
-### 3. Install redis on the server using below commands
-
-
-```
-sudo apt update
-```
-
-```
-sudo apt install -y redis-server
-```
-
-<img width="915" alt="Redis-Installation" src="https://github.com/user-attachments/assets/90b1667b-7e7f-46c5-bb37-6a37f745019f">
-
-<img width="766" alt="Redis-Version" src="https://github.com/user-attachments/assets/72d14d25-4f0b-4c83-91d1-c057596e5e45">
-
-
-#### Make some changes to redis conf file  "/etc/redis/redis.conf"
-
-
-Look for "supervised no" and replace it with "supervised systemd"
-
-
-Also replace "# requirepass foobared" with "requirepass password"
-
-<img width="592" alt="Redis conf" src="https://github.com/user-attachments/assets/6457cf79-e91a-46da-9579-77e95c9ff081">
-
-
-
-#### Restart redis service with below command
-
-
-```
-sudo systemctl restart redis.service
-```
-
-
-#### Now Login to redis with below command
-
-
-```
-redis-cli
-```
-
-<img width="365" alt="redis setup successfully" src="https://github.com/user-attachments/assets/5e0c5e0a-c9c6-42d4-b376-a9cc28c9599e">
-
-
-
-#### Now use below command to get access of the default user in redis
-
-
-```
-AUTH password
-```
-(Here password should be same as we defined in requirepass field in redis conf file)
-
-<img width="370" alt="image" src="https://github.com/user-attachments/assets/bee2a9e5-d314-420c-b946-fa85b1f66932">
-
-#### Now set a scylla user with all permissions using below command
-
-
-```
-ACL SETUSER scylla on >password ~* +@all
-```
-
-<img width="370" alt="image" src="https://github.com/user-attachments/assets/5e190a9d-644a-4fd2-bb5e-54d4820ef4c3">
-
-
-## Run time Dependency
-
-1. #### Golang need to install for this application because Employee REST API is a golang based microservice
-   
-```
-sudo apt install golang-go
-```
-
-<img width="352" alt="go version" src="https://github.com/user-attachments/assets/54f93d22-fbf6-491b-bcb5-0b254b5fb1cd">
-
-
-2.  #### Migrate installation:V4.17.1
-   
-  export GOPATH=$HOME/go
-  export PATH=$PATH:$GOPATH/bin
-  source ~/.bashrc
-  go install github.com/golang-migrate/migrate/v4@v4.17.1
-
-
-<img width="923" alt="migrate installation" src="https://github.com/user-attachments/assets/84f3b907-e08d-4da3-b80c-c34aac801aff">
-
-<img width="398" alt="migrate installed successfully" src="https://github.com/user-attachments/assets/05c1bc74-d51f-4a5a-a188-d2ac53c6e1e9">
-
-
-3. #### Install jq Makefile and any associated scripts or configurations
-   
-```
-sudo apt-get install jq -y
-```
-```
-jq --version
-```
-
-<img width="613" alt="jq installed" src="https://github.com/user-attachments/assets/e88eab96-a1ad-4b51-9122-3fa97a94c105">
-
-
-## Application Build
-
-  #### Run the following command inside the directory to build your software artifact.
-  #### Run the command, For building the application, we can use make command. 
-
- ```
- make build
-```
-
- <img width="414" alt="Makebuild run successfully" src="https://github.com/user-attachments/assets/0e18fda8-8eaf-4b33-8e88-ddf15886acac">
-
-
-#### For execution of the unit test cases, code coverage reports, etc:
-
-   go test $(go list ./... | grep -v docs | grep -v model | grep -v main.go) -coverprofile cover.out
-   #For HTML report visualization
-   go tool cover -html=cover.out
-
-
-<img width="858" alt="test cases, code coverage reports run successfully" src="https://github.com/user-attachments/assets/7acd4fd8-0228-4047-9575-4917d3aca660">
-
-
-#### To automate the process of applying database migrations in a project, use below mentioned command
-
-```
-make run-migrations
-```
-
-
-#### Once the keyspace and table is initialized, we can run the application by this command 
-
-export GIN_MODE=release
- #For debugging set gin mode to development
-./employee-api
-
-
-<img width="910" alt="Run application Successfully" src="https://github.com/user-attachments/assets/b98ce091-c8ec-418b-9a79-d4a6dea08d77">
-
-
-
-#### For dev testing, the Swagger UI can be used for sample payload generation and requests. The swagger page will be accessible on
-
-http://localhost:8080/swagger/index.html
-
-#### Here is the dashboard comes when you hit this above mentioned link
-
-<img width="920" alt="Employee-api deshboard" src="https://github.com/user-attachments/assets/aac263d6-6598-49d9-9f3b-f5ffa5e3a3e7">
-
-
-#### For healthcheck,click on health check api to check application health and outcomes looks like below mentioned dashboard image
-
-<img width="782" alt="application health check" src="https://github.com/user-attachments/assets/336f569f-ba13-4a4a-aa58-a79390a54988">
 
