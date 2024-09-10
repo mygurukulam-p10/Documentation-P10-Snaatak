@@ -17,8 +17,9 @@
 - [Building and Running the Salary API](#Bilding-and-Running-the-SalaryAPI)
 - [Conclusion](#Conclusion)
 - [ Endpoints ](#Endpoints )
-- [ References ](#References ) 
 - [Contact Information ](#Contact-Information )
+- [ References ](#References ) 
+
      
 ## Purpose 
 The Salary API project is a Java-based microservice designed to manage and process employee salary data. This Application is must be independent and can be run on multiple operating system. JAVA RUNTIME would be required to run this application.
@@ -160,14 +161,14 @@ Other Endpoint are below
 |/actuator/health|GET|Endpoint for providing shallow healthcheck information about application|
 
 
+## Contact Information 
+|Name|Email Address|
+|:---:|:---:|
+|Aayush|aayush.gaur.snaatak@mygurukulam.co|
+
 ## References 
 |links | Description |
 |-------|------------|
 |https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/install-redis-on-linux/|For Redis |
 |https://opensource.docs.scylladb.com/stable/getting-started/install-scylla/install-on-linux.html| For Scylladb|
 |https://github.com/OT-MICROSERVICES/salary-api|For understanding the workflow of salary api|
-
-## Contact Information 
-|Name|Email Address|
-|:---:|:---:|
-|Aayush|aayush.gaur.snaatak@mygurukulam.co|
