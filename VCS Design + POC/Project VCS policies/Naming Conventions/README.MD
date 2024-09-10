@@ -71,11 +71,9 @@ Documentation can be found [here](link-to-detailed-docs).
 
 ## 📧 Contact Information
 
-For any questions or concerns regarding these VCS policies or how to apply them, please contact:
-
-- **Project Manager:** John Doe - [john.doe@example.com](mailto:john.doe@example.com)
-- **Development Lead:** Jane Smith - [jane.smith@example.com](mailto:jane.smith@example.com)
-
+|Name|Email Address|
+|:---:|:---:|
+|Brij Singh|brij.singh.snaatak@mygurukulam.co|
 
 
 ## 📚 References
