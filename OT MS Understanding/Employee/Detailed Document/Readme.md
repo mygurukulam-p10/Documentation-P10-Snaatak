@@ -102,7 +102,7 @@ ScyllaDB is a high-performance, distributed NoSQL database designed to handle la
 #### What is Jq
 Jq is a powerful command-line tool used for parsing, filtering, and manipulating JSON data. It allows users to perform complex operations on JSON structures with a simple and expressive syntax, making it an invaluable tool for working with JSON data in scripts and command-line interfaces.
 
-##### Jq in Employee REST API
+#### Jq in Employee REST API
 | Features | Description  |
 |--------------------------|------------------------|
 |**JSON Parsing**|jq is used to parse JSON responses from the Employee API, extracting and processing specific data elements, such as employee records or API status messages|
