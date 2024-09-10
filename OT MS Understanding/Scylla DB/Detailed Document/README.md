@@ -12,13 +12,15 @@
    - [Dependencies](#dependencies)
    - [Important Ports](#important-ports)
 3. [Architecture](#architecture)
-4. [Features](#Features)
+4. [Features](#features)
 5. [Detailed Explanation of ScyllaDB](#detailed-explanation-of-scylladb)
 6. [Step-by-step installation of ScyllaDB](#step-by-step-installation-of-scylladb)
 7. [Basic Operations](#basic-operations)
 8. [Troubleshooting](#troubleshooting)
-9. [Contact Information](#contact-information)
-10. [References](#references)
+9. [Conclusion](#conclusion)
+10. [Contact Information](#contact-information)
+11. [References](#references)
+    
 
 ## Purpose
 
@@ -59,7 +61,7 @@ ScyllaDB follows a distributed architecture where data is automatically replicat
 
 
 
-### Features:
+### Features
 - Distributed NoSQL database
 - API-compatible with Apache Cassandra
 - Supports high-throughput, low-latency operations
@@ -241,13 +243,6 @@ Here are some basic CQL commands to get started with ScyllaDB:
   ```bash
   sudo systemctl status scylla-server
   ```
-## References
-
-| Links                                                | Descriptions                             |
-|------------------------------------------------------|------------------------------------------|
-| [ScyllaDB Documentation](https://docs.scylladb.com/) | Official ScyllaDB documentation          |
-| [ScyllaDB Installation Guide](https://docs.scylladb.com/stable/operating-scylla/procedures/install/install-ubuntu.html) | Official installation guide for Ubuntu |
-| [ScyllaDB University](https://university.scylladb.com/) | Free online courses on ScyllaDB       |
 
 ## Conclusion
 
@@ -268,3 +263,12 @@ ScyllaDB represents a significant advancement in the world of NoSQL databases, o
 | Name       | Email address     |
 |------------|-------------------|
 | Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
+
+## References
+
+| Links                                                | Descriptions                             |
+|------------------------------------------------------|------------------------------------------|
+| [ScyllaDB Documentation](https://docs.scylladb.com/) | Official ScyllaDB documentation          |
+| [ScyllaDB Installation Guide](https://docs.scylladb.com/stable/operating-scylla/procedures/install/install-ubuntu.html) | Official installation guide for Ubuntu |
+| [ScyllaDB University](https://university.scylladb.com/) | Free online courses on ScyllaDB       |
+
