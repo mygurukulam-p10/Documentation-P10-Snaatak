@@ -37,7 +37,6 @@
 | **User Interface** | Web UI for visualization and management | Web UI (Flux UI) for visualization and management | Web-based dashboard, CLI tools | CLI-based tool, no native web UI | CLI-based tool, integrates with other tools for visualization |
 | **CLI Tools** | `argocd` CLI for management and operations | `flux` CLI for management and operations | `jx` CLI for managing Jenkins X operations | `terraform` CLI for managing infrastructure | `kubectl kustomize` for building and applying configurations |
 | **Extensibility** | Supports plugins and custom tooling through ApplicationSets and Hooks | Extensible through custom controllers and integrations | Extensible with Jenkins plugins and custom pipelines | Extensible with Terraform providers and modules | Extensible with custom patches and Kustomize functions |
-| **Integration with Other Tools** | Integrates well with CI tools, monitoring tools, and other GitOps tools | Integrates well with CI tools, monitoring tools, and other GitOps tools | Integrates with various CI/CD tools and Kubernetes services | Integrates with a wide range of cloud providers and services | Integrates with kubectl and other Kubernetes tools |
 | **Security** | Supports RBAC and role-based permissions | Supports RBAC and role-based permissions | CI/CD security features and integration with security tools | Security through state management and secret handling | Security through Kubernetes RBAC and configurations |
 
 ## GitOps Best Practices
