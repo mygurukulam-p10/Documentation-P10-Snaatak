@@ -66,7 +66,7 @@ Commit hooks (or Git hooks) are a powerful feature provided by Git that enables 
 For more information, feedback, or assistance, feel free to contact us:
 | Name         | Email address          |
 |--------------|------------------------|
-| Megha Tyagi          | megha.tyagi.snaatak@mygurukulam.co  |
+| **Megha Tyagi**          | megha.tyagi.snaatak@mygurukulam.co  |
 
 
 ## References
