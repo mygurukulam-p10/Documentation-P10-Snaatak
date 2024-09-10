@@ -176,6 +176,7 @@ This architecture allows Redis to provide high-speed data access while also offe
    - Single Redis instance.
    - Suitable for small-scale applications.
 
+![image](https://github.com/user-attachments/assets/a1e27646-e040-4168-bbc1-202df9b64701)
 
 2. **Sentinel:**
    - Provides high availability.
