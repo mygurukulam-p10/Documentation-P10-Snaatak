@@ -182,9 +182,13 @@ This architecture allows Redis to provide high-speed data access while also offe
    - Provides high availability.
    - Monitors Redis instances and performs automatic failover.
 
+![image](https://github.com/user-attachments/assets/bfebb03d-6215-44c6-b46f-45816eb05a6c)
+
 3. **Cluster:**
    - Horizontal scaling through sharding.
    - Distributes data across multiple nodes.
+
+![image](https://github.com/user-attachments/assets/95988c21-4932-4b0d-8d77-d45dd8c7abe7)
 
 ## 7. Services Redis Provides
 
