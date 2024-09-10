@@ -10,10 +10,7 @@ The purpose of this POC document is to outline the necessary steps and procedure
 ## Table of Contents
 1. [PR Work Flow](#pr-work-flow)
 2. [Pre-requisites](#pre-requisites)
-3. [System Requirements](#system-requirements)
-4. [Dependencies](#dependencies)
-5. [Important Ports](#important-ports)
-6. [Step-by-Step Guide to Create a Pull Request (PR)](#step-by-step-guide-to-create-a-pull-request-pr)
+3. [Step-by-Step Guide to Create a Pull Request (PR)](#step-by-step-guide-to-create-a-pull-request-pr)
 
 
 
@@ -24,31 +21,6 @@ The purpose of this POC document is to outline the necessary steps and procedure
 ## Pre-requisites
 Before proceeding with the Proof of Concept (POC) for creating a Pull Request (PR), ensure the following prerequisites are met:
 **GitHub Account**: A GitHub account is required to create and manage Pull Requests. Ensure that you have an active GitHub account and necessary permissions for the repository you are working on.
-
-## System Requirements
-| Hardware Specifications  | Minimum Recommendation                             |
-|--------------------------|----------------------------------------------------
-| Processor                | Dual-core processor (e.g., Intel i3 or equivalent)|
-| RAM                      | 4 GB (8 GB recommended for better performance)    |
-| Disk                     |10 GB free disk space (SSD recommended for faster read/write operations)|
-| OS                       |Windows 10 or later, macOS 10.13 (High Sierra) or later, Linux (any modern distribution like Ubuntu 20.04 or later)|
-
-## Dependencies
-### Run time Dependency
-When working with Pull Requests (PRs), there are several runtime dependencies that you may need, depending on your development environment and the specific tools you are using.
-Here are some common runtime dependencies:
-1. Programming Language Runtime (based on project)
-2. Package Managers
-3. Depending on the project type, build tools may be required.
-
-## Important Ports
-When working with Pull Requests (PRs), several network ports are often used, especially when interacting with version control systems, development servers, and CI/CD tools. Here are some of the important ports you may need to be aware of:
-
-| Port |Service/Protocol| Description        |
-| --------------- | ------------------ |------------------|
-| 22          |SSH (Secure Shell)| Used by git for secure communication with remote repositories over SSH. Essential for cloning, pushing, and pulling repositories securely.    |
-| 80           | HTTP|Standard web traffic port, used for accessing web-based tools or services (e.g., GitHub, GitLab, Bitbucket) over HTTP.   |
-|443|HTTPS|Secure web traffic port, used for securely accessing web-based tools or services (e.g., GitHub, GitLab, Bitbucket) over HTTPS. Required for secure data transfer and API communication.|
 
 ## Step-by-Step Guide to Create a Pull Request (PR)
 Creating a Pull Request (PR) involves several steps to propose changes to a repository. Here’s a detailed guide to help you through the process:
