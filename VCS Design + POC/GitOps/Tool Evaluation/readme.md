@@ -27,7 +27,7 @@
 
 ## Comparison of GitOps Tools
 
-| Feature/Tool  |![argocd](https://github.com/user-attachments/assets/d5e20c38-a20d-4df3-8531-0d2c9b4ca4ee)| ![fluxcd](https://github.com/user-attachments/assets/df069006-aa4b-4205-a36d-1b74fc450703)| Jenkins X | ![terraform](https://github.com/user-attachments/assets/815c92f9-3470-4b8b-9d25-0d5339e74322)| ![Kustomize](https://github.com/user-attachments/assets/137eab56-b223-46bd-9622-776b6ca99476)|
+| Feature/Tool  |![argocd](https://github.com/user-attachments/assets/d5e20c38-a20d-4df3-8531-0d2c9b4ca4ee)| ![fluxcd](https://github.com/user-attachments/assets/df069006-aa4b-4205-a36d-1b74fc450703)| ![jenkinsX](https://github.com/user-attachments/assets/328aa54f-66b8-4dc2-87d7-16226aaf62c5)| ![terraform](https://github.com/user-attachments/assets/815c92f9-3470-4b8b-9d25-0d5339e74322)| ![Kustomize](https://github.com/user-attachments/assets/137eab56-b223-46bd-9622-776b6ca99476)|
 |---------------|---------|------|-----------|-----------|-----------|
 | **Purpose**   | GitOps continuous delivery | GitOps continuous delivery | Kubernetes-native CI/CD | Infrastructure as Code (IaC) | Kubernetes-native configuration management |
 | **Primary Focus** | Deployment and synchronization of Kubernetes resources | Deployment and synchronization of Kubernetes resources | Full CI/CD pipeline for Kubernetes | Infrastructure provisioning and management | Customization and templating of Kubernetes manifests |
