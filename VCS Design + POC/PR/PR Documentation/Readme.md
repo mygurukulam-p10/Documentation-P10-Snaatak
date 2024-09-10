@@ -5,12 +5,11 @@
 2. [Features](#features-of-pull-requests)
 3. [Use of Pull Request](#why-do-we-use-pull-requests)
 4. [How Pull Requests Are Helpful](#how-pull-requests-are-helpful)
-5. [Steps to Create a Pull Request](#steps-to-create-a-pull-request)
-6. [Rules of Pull Requests](#rules-of-pull-requests)
-7. [Types of pull requests and their use cases](#types-of-pull-requests-and-their-use-cases)
-8. [Conclusion](#conclusion)
+5. [Rules of Pull Requests](#rules-of-pull-requests)
+6. [Types of pull requests and their use cases](#types-of-pull-requests-and-their-use-cases)
+7. [Conclusion](#conclusion)
 9. [Contact Information](#contact-information)
-10. [References](#references)
+9. [References](#references)
 
 
 
@@ -48,25 +47,12 @@ A **Pull Request (PR)** is a way to propose changes to a repository in GitHub. I
 
 ### How Pull Requests Are Helpful
 
-| Benefit                             | Description                                                                                     |
-|-------------------------------------|-------------------------------------------------------------------------------------------------|
-| **Promotes Team Collaboration**     | Encourages multiple team members to review, suggest changes, and collaborate effectively.     |
+| Benefit                             | Description |
+|-------------------------------------|-----------------------------------------------|
+| **Promotes Team Collaboration**     | Encourages multiple team members to review, suggest changes, and collaborate effectively.|
 | **Improves Code Quality**           | By allowing multiple people to review the changes, potential bugs or improvements can be identified. |
-| **Tracks Changes**                  | Helps maintain a record of what changes were made and why.                                      |
-| **Enforces Best Practices**         | Pull requests can be set up to enforce guidelines and best practices before merging code.       |
-
-
-### Steps to Create a Pull Request
-To contribute to the repository, follow these steps to create a pull request (PR).
-
-| **Step**               | **Description**           |
-|------------------------|---------------------------|
-| **Fork the Repository**| Create a copy of the repository you want to contribute to by clicking the "Fork" button on the repository page.|
-| **Clone the Repository** | Clone the forked repository to your local machine using `git clone` command.|
-| **Create a New Branch** | Make changes in a new branch instead of directly on the `main` or `master` branch.|
-| **Commit Your Changes**| After making your changes, commit them with a clear and descriptive message.|
-| **Push the Changes** | Push your changes to the new branch on your forked repository.|
-| **Open a Pull Request**|Go to the original repository, click on the "Pull Requests" tab, and create a new PR by selecting the appropriate branches, adding a title and description, and clicking "Create Pull Request". |
+| **Tracks Changes**                  | Helps maintain a record of what changes were made and why.  |
+| **Enforces Best Practices**         | Pull requests can be set up to enforce guidelines and best practices before merging code.  |
 
 ### Rules of Pull Requests
 To ensure an effective and smooth PR process, follow these rules when creating and submitting a pull request.
