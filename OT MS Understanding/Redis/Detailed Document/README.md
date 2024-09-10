@@ -105,19 +105,77 @@
 
 ## 5. Block Architecture of Redis
 
-1. **Client Handling:** Manages client connections and requests.
-2. **Command Parsing and Execution:** Interprets and executes Redis commands.
-3. **In-memory Data Store:** Manages data structures in memory.
-4. **Persistence Layer:** Handles RDB and AOF persistence mechanisms.
-5. **Replication Module:** Manages master-slave replication.
-6. **Cluster Management:** Handles sharding and cluster operations.
-7. **Event Loop:** Manages I/O operations efficiently.
+The Redis architecture can be divided into three main components: the Client, the Server, and the Storage. Let's examine each in detail:
+
+### 1. Redis Client
+
+- The Redis Client is the interface through which applications interact with Redis.
+- Examples of Redis clients include:
+  - `jedis`: A popular Java client for Redis
+  - `ioredis`: A robust, performance-focused Redis client for Node.js
+
+- Clients send commands to the Redis server and receive responses.
+- They handle connection management, command pipelining, and response parsing.
+
+### 2. Redis Server
+
+The Redis Server is the core of the Redis architecture and consists of several components:
+
+#### 2.1 Redis Engine
+
+- The Redis Engine is the central processing unit of Redis.
+- It handles:
+  - Command execution
+  - Data structure management
+  - Event loop for non-blocking I/O operations
+
+#### 2.2 Keyspace
+
+- The Keyspace is where Redis stores all its key-value pairs.
+- It's an in-memory dictionary that maps keys to their corresponding values.
+- The Keyspace is central to Redis's fast read and write operations.
+
+#### 2.3 Commands
+
+- This component represents the set of Redis commands available for data manipulation and management.
+- It includes operations for various data structures like strings, lists, sets, hashes, etc.
+- Examples: `GET`, `SET`, `LPUSH`, `HSET`, `ZADD`, etc.
+
+#### 2.4 RAM
+
+- Redis primarily operates in-memory, using RAM for data storage.
+- This is key to Redis's high-performance characteristics.
+- The image shows binary data (011101010111...) to represent data stored in RAM.
+
+#### 2.5 Device (CPU/GPU/TPU)
+
+- This represents the hardware resources used by Redis.
+- While Redis primarily uses CPU, some operations can be optimized for GPU or TPU in specialized setups.
+
+### 3. Storage
+
+- Although Redis is primarily an in-memory database, it offers persistence options:
+  - **AOF (Append-Only File):** Logs every write operation received by the server.
+  - **RDB (Redis Database):** Creates point-in-time snapshots of the dataset.
+- The Storage component represents the disk where these persistence files are stored.
+
+### Data Flow
+
+1. The Redis Client sends commands to the Server.
+2. The Redis Engine processes these commands, interacting with the Keyspace and executing the appropriate operations.
+3. Data is read from or written to RAM.
+4. If persistence is enabled, data changes are written to Storage using AOF or RDB methods.
+
+This architecture allows Redis to provide high-speed data access while also offering options for data durability and persistence.
+
+![Redis Architecture Original](https://github.com/user-attachments/assets/3ad7c849-87c6-4d05-8031-20b331454a82)
 
 ## 6. Types of Redis Architecture
 
 1. **Standalone:**
    - Single Redis instance.
    - Suitable for small-scale applications.
+
 
 2. **Sentinel:**
    - Provides high availability.
