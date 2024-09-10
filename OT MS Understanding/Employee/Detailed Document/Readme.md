@@ -30,11 +30,11 @@ The Employee REST API is a Golang-based microservice designed to handle all empl
 ![Employee_API Architecture drawio](https://github.com/user-attachments/assets/5b87b48d-8399-4ac7-8d49-361de4189828)
 
 ###  Pre-Requisites 
+
    - [Redis](#defination-of-redis)
 <img width="47" alt="Redis-Logo-768x480" src="https://github.com/user-attachments/assets/3095ec95-88a7-42f4-921e-91960ae90a9b">
 
-   
-   - [ScyllaDb](#what-is-scylladb)
+  - [ScyllaDb](#what-is-scylladb)
 <img width="43" alt="Scylla_the_sea_monster" src="https://github.com/user-attachments/assets/29e536f3-e1b7-4dfe-a607-18f3ddf840ec">
 
 
@@ -42,7 +42,7 @@ The Employee REST API is a Golang-based microservice designed to handle all empl
 #### Defination of Redis: 
 "Redis (which stands for REmote DIctionary Server)is an open-source in-memory data structure store that also can be used as a database as well as caching. It supports almost all types of data structures such as strings, hashes, lists, sets, sorted sets with range queries, bitmaps. Redis also can be used for messaging systems used as pub/sub".  
 
-##### Redis in Employee REST API
+#### Redis in Employee REST API
 | Features | Description  |
 |--------------------------|------------------------|
 | **Caching**  | Temporarily stores frequently accessed data in memory to reduce the need for repeated database queries.|
@@ -63,10 +63,10 @@ ScyllaDB is a high-performance, distributed NoSQL database designed to handle la
 
 | Features | Description  |
 |--------------------------|------------------------|
-| **Primary Database**  | ScyllaDB serves as the primary database for storing employee-related data, such as profiles and transaction records.      |
-| **High Throughput**  | Designed to handle high write and read throughput, making it suitable for managing large datasets efficiently.               |
-| **Low Latency** | Provides low-latency data access, ensuring quick response times for employee data retrieval and updates.                |
-|**Scalability**  | Offers horizontal scalability to accommodate growing amounts of data and increased load as the application scales.     |
+| **Primary Database** | ScyllaDB serves as the primary database for storing employee-related data, such as profiles and transaction records. |
+| **High Throughput** | Designed to handle high write and read throughput, making it suitable for managing large datasets efficiently. |
+| **Low Latency** | Provides low-latency data access, ensuring quick response times for employee data retrieval and updates.|
+|**Scalability**  | Offers horizontal scalability to accommodate growing amounts of data and increased load as the application scales.|
 
 
 #### Relevant Resources:
