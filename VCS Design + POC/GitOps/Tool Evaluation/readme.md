@@ -41,6 +41,8 @@
 
 ## GitOps Best Practices
 To effectively implement GitOps, consider the following best practices:
+![Best Practices](https://github.com/user-attachments/assets/23584660-b0b5-48dd-b2bd-94e6249d93bd)
+
 
 | **Best Practice** | **Description** |
 |------------------------------------|--------------------------------------------------------------------------------------------------------------------|
