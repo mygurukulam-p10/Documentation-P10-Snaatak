@@ -17,7 +17,7 @@
 
 ## GitOps Tools
 
-Here are some popular GitOps tools:
+**Here are some popular GitOps tools:**
 
 1. **Argo CD**
 2. **Flux**
