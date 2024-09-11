@@ -80,14 +80,13 @@ For any queries or further information, feel free to contact:
 |-------------|------------------------------------|
 | Brij Singh  | brij.singh.snaatak@mygurukulam.co  |
 
----
 
 ## References
 - [The Case for Micro Repos](https://example.com/micro-repos-article)
 - [Micro Repo vs Monorepo: Pros and Cons](https://example.com/pros-cons-microrepo)
 - [Managing Dependencies Across Micro Repos](https://example.com/dependencies-management)
 - [Scaling with Micro Repos](https://example.com/scaling-micro-repos)
-```
+
 
 ### Explanation of Changes:
 - The **Advantages** and **Challenges/Disadvantages** sections have been presented in table format for better readability and organization.
