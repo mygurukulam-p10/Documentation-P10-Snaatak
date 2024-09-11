@@ -122,17 +122,6 @@ rename-command FLUSHALL ""
 rename-command DEBUG ""
 ```
 
-#### Enable SSL/TLS (if needed)
-
-**Configure Redis to use SSL/TLS for secure connections:**
-
-```
-tls-port 6380
-tls-cert-file /path/to/cert.pem
-tls-key-file /path/to/key.pem
-tls-ca-cert-file /path/to/ca.pem
-```
-
 ### 1.4 Starting Redis
 
 **For Systems Using systemd:**
@@ -158,13 +147,175 @@ redis-cli -h localhost -p 6379 -a your_strong_password
 
 Redis strings are simple key-value pairs. Here are some common commands:
 ```
-SET user:1:name "John Doe"
+SET user:1:name "Komal Jaiswal"
 GET user:1:name
-MSET user:2:name "Jane Smith" user:2:email "jane@example.com"
+MSET user:2:name "Komal Jaiswal" user:2:email "komal.jaiswal.snaatak@mygurukulam.co"
 MGET user:2:name user:2:email
 INCR visitor_count
 EXPIRE user:1:session 3600
-TTL user:1:session
 ```
 
+### 2.3 List Operations
+
+Redis lists are ordered collections of elements:
+```
+LPUSH latest_products "iPhone" "MacBook" "iPad"
+RPUSH latest_products "AirPods"
+LRANGE latest_products 0 -1
+LPOP latest_products
+RPOP latest_products
+```
+
+### 2.4 Hash Operations
+
+Hashes are maps between string fields and string values:
+```
+HMSET user:3 username "Amit" email "amit.nagar.snaatak@mygurukulam.co" age 24
+HGET user:3 username
+HGETALL user:3
+HINCRBY user:3 age 20
+HDEL user:3 email
+```
+
+### 2.5 Set Operations
+
+Sets are collections of unique elements:
+```
+SADD popular_tags "technology" "programming" "database" "nosql"
+SMEMBERS popular_tags
+SISMEMBER popular_tags "nosql"
+SREM popular_tags "nosql"
+```
+
+### 2.6 Sorted Set Operations
+
+Sorted sets are like sets but with a score for each element:
+```
+ZADD leaderboard 1000 "player1" 985 "player2" 1200 "player3"
+ZRANGE leaderboard 0 -1 WITHSCORES
+ZRANK leaderboard "player2"
+ZINCRBY leaderboard 15 "player2"
+```
+
+## 3. Advanced Features
+
+### 3.1 Pub/Sub Messaging
+
+Redis Pub/Sub allows messaging between clients:
+
+**Publisher (Terminal 1):**
+```
+PUBLISH news_channel "Breaking news: Redis 7.0 released!"
+```
+**Subscriber (Terminal 2):**
+```
+SUBSCRIBE news_channel
+```
+
+### 3.2 Transactions
+
+Redis transactions ensure commands are executed as a batch:
+```
+MULTI
+SET account:1:balance 1000
+SET account:2:balance 500
+INCRBY account:1:balance -100
+INCRBY account:2:balance 100
+EXEC
+```
+
+### 3.3 Lua Scripting
+
+Use Lua scripts for complex operations:
+
+```
+EVAL "local key = KEYS[1]; local value = ARGV[1]; redis.call('SET', key, value); return redis.call('GET', key)" 1 mykey "Hello, Lua!"
+```
+
+### 3.4 Pipelining
+
+Pipelining allows sending multiple commands at once:
+```
+(echo -en "PING\r\nPING\r\nPING\r\n") | redis-cli -h localhost -p 6379 -a your_strong_password --pipe
+```
+
+### 3.5 Geospatial Operations
+
+Redis supports geospatial data for location-based queries:
+
+```
+GEOADD locations 13.361389 38.115556 "Palermo" 15.087269 37.502669 "Catania"
+GEODIST locations Palermo Catania km
+GEORADIUS locations 15 37 100 km
+```
+
+## 4. Persistence Configuration
+
+### 4.1 RDB (Redis Database)
+
+Configure RDB snapshots to create periodic backups:
+```
+save 900 1
+save 300 10
+save 60 10000
+dbfilename dump.rdb
+dir /var/lib/redis
+```
+
+### 4.2 AOF (Append-Only File)
+
+Enable AOF to log every write operation:
+
+```
+appendonly yes
+appendfilename "appendonly.aof"
+appendfsync everysec
+```
+
+## 5. Monitoring and Benchmarking
+
+### 5.1 Monitoring
+
+Monitor Redis operations and statistics:
+
+```
+redis-cli MONITOR
+redis-cli INFO
+```
+
+### 5.2 Benchmarking
+
+Benchmark Redis performance:
+```
+redis-benchmark -h localhost -p 6379 -a your_strong_password -t set,get -n 10000
+```
+
+## 6. Real-World Use Cases
+
+### 6.1 Caching
+Redis is often used to cache frequently accessed data to improve performance.
+
+### 6.2 Rate Limiting
+Redis can be used to implement rate limiting for APIs.
+
+### 6.3 Session Store
+Redis is commonly used to store user sessions due to its fast read/write operations.
+
+### 6.4 Leaderboard
+Redis is suitable for creating real-time leaderboards with sorted sets.
+
+## 7. Cleanup and Shutdown
+
+To clean up Redis, stop the server and remove any persistent files if needed:
+```
+sudo systemctl stop redis-server
+sudo rm /var/lib/redis/dump.rdb
+sudo rm /var/lib/redis/appendonly.aof
+```
+
+### 8. References
+
+- [Redis Documentation](https://redis.io/documentation)
+- [Redis Command Reference](https://redis.io/commands)
+- [Redis Community](https://redis.io/community)
 
