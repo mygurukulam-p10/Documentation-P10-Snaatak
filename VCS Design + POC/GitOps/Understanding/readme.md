@@ -101,11 +101,11 @@ GitOps offers several advantages:
 
 | **Benefit** | **Description** |
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| **Improved Developer Productivity** | Simplifies and automates deployment processes, allowing developers to focus on code rather than operational tasks. |
-| **Increased Reliability** | Automates deployment and monitoring, reducing human error and improving system reliability. |
+| **Improved Access Control** | There's no need to give credentials to all the application components since changes in the Git repo are automated (only CI/CD needs access). |
+| **Less Risk** | All new updates in the Git repo are tracked through merge requests, and changes can be rolled back to a previous state ensuring there are no risks. |
 | **Enhanced Security** | Versioned and auditable changes ensure traceability and security, making it easier to track and respond to issues. |
-| **Faster Recovery** | Quick rollbacks and recovery from failures using Git's version history. |
-| **Consistency Across Environments** | Ensures that environments are consistently configured and managed, reducing discrepancies between development, staging, and production. |
+| **Faster Time to Market** |Execution via code is faster than manual clicks. Test cases are automated, so stable and secured environments can be delivered rapidly. |
+| **Less Error-Prone** | With regular code reviews and collaboration in merge requests, errors can easily be identified and corrected, before production. |
 
 
 ## Drawbacks of GitOps
