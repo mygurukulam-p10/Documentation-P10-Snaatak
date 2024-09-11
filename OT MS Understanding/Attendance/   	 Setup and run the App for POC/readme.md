@@ -215,9 +215,6 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 ![Screenshot from 2024-09-07 13-27-05](https://github.com/user-attachments/assets/7b109c86-527a-4336-9ae9-f0d3b46e295f)
 
 
-## Architecture 
-![image (1)](https://github.com/user-attachments/assets/09a7e5bf-7a95-4493-a192-3cc3e0e887d9)
-
 ## Conclusion
 
 - **Attendance Microservices**: Designed in Python to manage attendance information efficiently.
