@@ -55,15 +55,14 @@ The monorepo approach provides several key advantages for large teams and organi
 
 ## Challenges/Disadvantages
 
-- **Scalability Issues**: As the codebase grows, managing everything in a single repository can become challenging. Without the right tools, it can be difficult to keep everything organized and running smoothly.
-
-- **Complex Tooling Requirements**: Special tooling (like `Bazel`, `Lerna`, or `Nx`) may be required to manage dependencies, builds, and testing within a monorepo. Setting up these tools can be complicated and require extra effort.
-
-- **Risk of Breaking Changes**: Since multiple projects share the same codebase, changes to shared libraries can potentially break dependent projects.
-
-- **Permissions Management**: Fine-grained permissions become more difficult, as different teams might need access to only parts of the repo, requiring careful management of access control.
-
-- **Merge Conflicts**: With many developers working in the same repository, the chance of running into conflicts when merging changes increases. This can make collaboration more challenging. 
+| **Challenges/Disadvantages**           | **Description**                                                                                                                                                 |
+|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Scalability Issues**                 | As the codebase grows, managing everything in a single repository can become challenging. Without the right tools, it can be difficult to keep everything organized and running smoothly. |
+| **Complex Tooling Requirements**       | Special tooling (like Bazel, Lerna, or Nx) may be required to manage dependencies, builds, and testing within a monorepo. Setting up these tools can be complicated and require extra effort. |
+| **Risk of Breaking Changes**           | Since multiple projects share the same codebase, changes to shared libraries can potentially break dependent projects.                                          |
+| **Permissions Management**             | Fine-grained permissions become more difficult, as different teams might need access to only parts of the repo, requiring careful management of access control.  |
+| **Merge Conflicts**                    | With many developers working in the same repository, the chance of running into conflicts when merging changes increases. This can make collaboration more challenging. |
+ 
 
 ## Best Practices for Monorepo Management
 
