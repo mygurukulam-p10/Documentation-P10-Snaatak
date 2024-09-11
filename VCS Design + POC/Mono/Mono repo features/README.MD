@@ -43,17 +43,14 @@ The monorepo approach provides several key advantages for large teams and organi
 
 ## Advantages
 
-- **Simplified Collaboration**: Working together on different parts of a project is easier because everything is in one place. This makes sharing code across different teams or projects straightforward.
+| Feature               | Description                                                                                                                                          |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Centralized Code Management | In a monorepo, all your code is stored in one big repository. This means you manage everything, like different projects or modules, from a single place. It’s like having all your tools in one big toolbox instead of separate boxes for each tool. |
+| Dependency Management | When different parts of your project rely on each other, managing these dependencies can get tricky. In a monorepo, since everything is in one place, it becomes easier to see and manage how different pieces of your project depend on each other. |
+| Atomic Changes        | Sometimes, you need to make a change that affects multiple projects or parts of your code at the same time. With a monorepo, you can make these changes in one go, ensuring everything works together smoothly, like updating ingredients in a recipe all at once instead of doing it step by step. |
+| Tooling Support       | Managing a large monorepo can be complex, so you might need special tools (like Bazel, Lerna, or Nx) to help. These tools make it easier to build, test, and manage your code, especially as it grows in size. |
+| Versioning            | When different projects share a single monorepo, keeping track of versions (like which features or fixes are in each project) is important. Monorepos allow you to manage and align these versions effectively, so you know what’s included in each release of your projects. |
 
-- **Consistency**: Since everyone is using the same coding standards, tools, and libraries, the code across all projects looks and works the same. This uniformity makes the development process smoother.
-
-- **Easier Refactoring**: When you need to change or improve the code, it's simpler because all related code is in one place. You can make updates across the entire project more efficiently.
-
-- **Single Source of Truth**: All the code and its history are in one place, making it easier to track changes, understand dependencies, and manage the overall project.
-
-- **Simplified Dependency Management**: Managing shared code or internal libraries is easier because everything is stored together. You don’t have to worry about keeping track of different versions across separate repositories.
-
-- **Reduced Duplication**: Since all projects are in one repository, there’s less need to copy and paste code across different places. This helps avoid duplicate code, making the codebase cleaner and more efficient.
 
 ## Challenges/Disadvantages
 
