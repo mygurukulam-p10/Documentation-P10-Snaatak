@@ -49,10 +49,12 @@ Here are some popular tools for managing database version control:
 
 ## Recommendations
 When choosing a database version control tool, consider:
-1. **Database Platform**: Ensure compatibility with your database.
-2. **Integration Needs**: Evaluate integration with your existing tools and workflows.
-3. **Migration Complexity**: Determine if you need advanced features or simple schema changes.
-4. **Budget**: Choose between open-source and commercial options based on your needs.
+| **Criteria**            | **Description** |
+|-------------------------|-----------------------------------------------------------------------------------------------------------|
+| **Compatibility**       | Ensure the database platform is compatible with your existing database systems and technology stack.     |
+| **Integration Needs**   | Evaluate how well the database integrates with your existing tools and workflows.                        | 
+| **Migration Complexity**| Determine the complexity of migrating to the new database, including schema changes and data transfer.    | Hybrid approaches |
+| **Budget**              | Choose a database platform based on your budget constraints, considering both initial and ongoing costs.  |
 
 For general use, **Flyway** and **Liquibase** are highly recommended. Flyway is noted for its simplicity, while Liquibase provides advanced features and flexibility.
 
