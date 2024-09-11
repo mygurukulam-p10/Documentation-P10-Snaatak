@@ -7,15 +7,21 @@
 This README provides an overview of the technology stack used in our Attendance API project. Each section includes features, pros and cons, and relevant resources.
 
 ## Table of Contents
-1. [PostgreSQL](#1-postgresql)
-2. [Redis](#2-redis)
-3. [Liquibase](#3-liquibase)
-4. [Poetry](#4-poetry)
-5. [Java](#5-java)
-6. [Python](#6-python)
-7. [Swagger UI](#7-swagger-ui)
+1. [Purpose](#1-purpose)
+2. [PostgreSQL](#2-postgresql)
+3. [Redis](#3-redis)
+4. [Liquibase](#4-liquibase)
+5. [Poetry](#5-poetry)
+6. [Swagger UI](#6-swagger-ui)
+7. [Conclusion](#7-conclusion)
+8. [Refrence](#8-reference)
+9. [Contact](#9-contact)
 
-## 1. PostgreSQL
+
+## 1. Purpose
+We are preparing this document so that you can get the detailed information about **Attendance Microservices** which is designed in Python to manage Attendance information.
+
+## 2. PostgreSQL
 
 ### Features:
 - ACID-compliant relational database management system
@@ -37,7 +43,7 @@ This README provides an overview of the technology stack used in our Attendance 
 - [Why You Should Choose PostgreSQL for Your Next Project](https://www.postgresqltutorial.com/postgresql-getting-started/why-postgresql/)
 - [PostgreSQL vs MySQL: Which is Better?](https://www.integrate.io/blog/postgresql-vs-mysql-which-one-is-better-for-your-use-case/)
 
-## 2. Redis
+## 3. Redis
 
 ### Features:
 - In-memory data structure store
@@ -59,7 +65,7 @@ This README provides an overview of the technology stack used in our Attendance 
 - [Redis: Beyond Simple Caching](https://redis.com/blog/redis-beyond-caching/)
 - [Redis vs Memcached: Which One to Choose?](https://aws.amazon.com/elasticache/redis-vs-memcached/)
 
-## 3. Liquibase
+## 4. Liquibase
 
 ### Features:
 - Database-independent library for tracking, managing, and applying database schema changes
@@ -81,7 +87,7 @@ This README provides an overview of the technology stack used in our Attendance 
 - [Getting Started with Liquibase: A Beginner's Guide](https://www.liquibase.org/get-started/quickstart)
 - [Comparing Database Migration Tools: Liquibase vs Flyway](https://www.red-gate.com/blog/database-devops/liquibase-and-flyway-comparison)
 
-## 4. Poetry
+## 5. Poetry
 
 ### Features:
 - Dependency management and packaging tool for Python
@@ -102,49 +108,8 @@ This README provides an overview of the technology stack used in our Attendance 
 - [Why You Should Use Poetry for Python Dependency Management](https://realpython.com/dependency-management-python-poetry/)
 - [Poetry vs Pipenv: Choosing the Right Python Dependency Management Tool](https://testdriven.io/blog/python-dependency-management/)
 
-## 5. Java
 
-### Features:
-- Object-oriented programming language
-- Platform-independent ("Write Once, Run Anywhere")
-- Strong typing and compile-time error checking
-- Extensive standard library and third-party ecosystem
-- Supports multithreading and concurrent programming
-
-| Pros                                         | Cons                                                 |
-|----------------------------------------------|------------------------------------------------------|
-| Highly scalable and performant for enterprise applications | Can be verbose compared to some modern languages      |
-| Strong community support and extensive documentation | Slower startup times compared to languages like Go or Node.js |
-| Excellent tools for testing, debugging, and profiling | Higher memory usage compared to lower-level languages |
-| Well-suited for building robust backend services |                                                      |
-
-### Relevant Resources:
-- [Java Official Documentation](https://docs.oracle.com/en/java/)
-- [Building RESTful APIs with Spring Boot](https://spring.io/guides/tutorials/rest/)
-- [Java vs Kotlin: Which is Better for Android App Development?](https://www.netguru.com/blog/java-vs-kotlin)
-
-## 6. Python
-
-### Features:
-- High-level, interpreted programming language
-- Emphasizes code readability and simplicity
-- Extensive standard library and third-party packages
-- Supports multiple programming paradigms (OOP, functional, etc.)
-- Dynamic typing and automatic memory management
-
-| Pros                                         | Cons                                             |
-|----------------------------------------------|--------------------------------------------------|
-| Rapid development and prototyping            | Generally slower execution compared to compiled languages |
-| Easy to learn and read, improving team productivity | Global Interpreter Lock (GIL) can limit concurrency in CPU-bound tasks |
-| Vast ecosystem of libraries for various functionalities | Dynamic typing can lead to runtime errors if not carefully managed |
-| Strong in data analysis, machine learning, and scripting tasks |                                                 |
-
-### Relevant Resources:
-- [Python Official Documentation](https://docs.python.org/3/)
-- [Building REST APIs with Python: A Comprehensive Guide](https://realpython.com/api-integration-in-python/)
-- [Python vs JavaScript: Which Should You Learn?](https://www.freecodecamp.org/news/python-vs-javascript-what-are-the-key-differences-between-the-two-popular-programming-languages/)
-
-## 7. Swagger UI
+## 6. Swagger UI
 
 ### Features:
 - Interactive API documentation and testing tool
@@ -167,7 +132,7 @@ This README provides an overview of the technology stack used in our Attendance 
 
 ![image](https://github.com/user-attachments/assets/35166bb1-44ed-4950-af79-4a4a32a964f9)
 
-## Conclusion
+## 7.Conclusion
 
 - **Robust Architecture**: The stack ensures high performance, reliability, and scalability, combining PostgreSQL for data persistence, Redis for caching, and Liquibase for managing database schema changes.
   
@@ -181,7 +146,14 @@ This README provides an overview of the technology stack used in our Attendance 
 
 - **Comprehensive Support**: Extensive documentation and active communities for each technology ensure ample support for continued development and troubleshooting.
 
-## Contact Information
+## 8. Reference
+
+| POC Name             | Description                                                | Link                                                                                                       |
+|----------------------|------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| Attendance API POC   | A detailed guide on setting up and running the Attendance API for proof of concept purposes. This document covers the steps required to configure, deploy, and test the API in a development environment. | [Setup and Run the App for POC](https://github.com/mygurukulam-p10/Documention/blob/main/OT%20MS%20Understanding/Attendance/%20%20%20%09%20Setup%20and%20run%20the%20App%20for%20POC/readme.md) |
+
+
+## 9. Contact Information
 |Name|Email Address|
 |:---:|:---:|
 |Komal|komal.jaiswal.snaatak@mygurukulam.co|
