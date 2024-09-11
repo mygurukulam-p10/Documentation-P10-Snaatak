@@ -88,6 +88,3 @@ For any queries or further information, feel free to contact:
 - [Scaling with Micro Repos](https://example.com/scaling-micro-repos)
 
 
-### Explanation of Changes:
-- The **Advantages** and **Challenges/Disadvantages** sections have been presented in table format for better readability and organization.
-- Each **Advantage** and **Challenge** has a concise description for easier comprehension.
