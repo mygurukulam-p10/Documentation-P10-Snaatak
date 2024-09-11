@@ -69,6 +69,7 @@ For further reading and resources on GitOps, check out the following:
 
 | Links | Descriptions|
 |------|---------------------|
+| https://buildpiper.io/documentation/docs/Gitops/gitopsmodel | BuildPiper Gitops |
 | https://fluxcd.io/docs/ | Flux Documentation |
 | https://jenkins-x.io/docs/ | Jenkins X Documentation |
 | https://www.terraform.io/docs/index.html | Terraform Documentation |
