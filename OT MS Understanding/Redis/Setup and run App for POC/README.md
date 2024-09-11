@@ -1,4 +1,8 @@
-# Detailed Redis Proof of Concept (POC) Guide
+# Redis Proof of Concept (POC) 
+
+| Author      | Created on  | Version    | Last updated by | Last edited on |
+|-------------|-------------|------------|-----------------|----------------|
+| Komal Jaiswal  | 10-09-24    | version 1  | Komal Jaiswal      | 11-09-24       |
 
 ## Table of Contents
 
@@ -85,6 +89,8 @@ Follow the [Redis installation guide](https://redis.io/download) for your platfo
 ```
 sudo nano /etc/redis/redis.conf
 ```
+![image](https://github.com/user-attachments/assets/c2feae73-a9f0-4c7e-bf41-b3a728a30f1c)
+
 #### Apply Configuration Changes
 
 Update the Redis configuration file with the following settings:
@@ -104,6 +110,7 @@ logfile /var/log/redis/redis-server.log
 databases 16
 always-show-logo yes
 ```
+![image](https://github.com/user-attachments/assets/cfa5c160-c3fb-4d6d-8a65-dd2c8569b1ed)
 
 ### 1.3 Security Setup
 
