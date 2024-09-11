@@ -49,6 +49,7 @@ To install Redis on Ubuntu or Debian-based systems:
 sudo apt update
 sudo apt install redis-server
 ```
+![image](https://github.com/user-attachments/assets/e7f0f4a7-3da0-41c4-8a93-d6d27068258b)
 
 #### CentOS/RHEL
 ```
