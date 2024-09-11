@@ -6,7 +6,18 @@
 
 ![database](https://github.com/user-attachments/assets/5102e5e4-1b85-4d77-9f41-5a3173005ff4)
 
-  
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Why Version Control for Databases?](#why-version-control-for-databases?)
+3. [Key Aspects of Database Version Control](#key-aspects-of-database-version-control)
+4. [Tools for Database Version Control](#tools-for-database-version-control)
+5. [Detailed Comparison](#detailed-comparison)
+6. [Recommendations](#recommendations)
+7. [Conclusion](#conclusion)
+8. [Contact Information](#contact-information)
+9. [References](#references)
+   
 ## Introduction
 Version control for databases is essential for managing changes to database schemas and data. This practice is akin to source code versioning and helps teams manage, track, and deploy database changes effectively. This guide covers the importance of database version control, available tools, detailed comparisons, best practices, and additional resources.
 
