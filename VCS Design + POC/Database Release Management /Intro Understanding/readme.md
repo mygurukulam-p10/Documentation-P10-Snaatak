@@ -9,7 +9,7 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Why Version Control for Databases?](#why-version-control-for-databases?)
+2. [Why Version Control for Databases?](#why-version-control-for-databases)
 3. [Key Aspects of Database Version Control](#key-aspects-of-database-version-control)
 4. [Tools for Database Version Control](#tools-for-database-version-control)
 5. [Detailed Comparison](#detailed-comparison)
