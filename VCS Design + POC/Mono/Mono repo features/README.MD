@@ -32,15 +32,13 @@ The monorepo approach provides several key advantages for large teams and organi
 
 ## Features
 
-- **Centralized Code Management**: In a monorepo, all your code is stored in one big repository. This means you manage everything, like different projects or modules, from a single place. It’s like having all your tools in one big toolbox instead of separate boxes for each tool.
-
-- **Dependency Management**: When different parts of your project rely on each other, managing these dependencies can get tricky. In a monorepo, since everything is in one place, it becomes easier to see and manage how different pieces of your project depend on each other.
-
-- **Atomic Changes**: Sometimes, you need to make a change that affects multiple projects or parts of your code at the same time. With a monorepo, you can make these changes in one go, ensuring everything works together smoothly, like updating ingredients in a recipe all at once instead of doing it step by step.
-
-- **Tooling Support**: Managing a large monorepo can be complex, so you might need special tools (like Bazel, Lerna, or Nx) to help. These tools make it easier to build, test, and manage your code, especially as it grows in size.
-
-- **Versioning**: When different projects share a single monorepo, keeping track of versions (like which features or fixes are in each project) is important. Monorepos allow you to manage and align these versions effectively, so you know what’s included in each release of your projects.
+| Feature               | Description                                                                                                                                          |
+|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Centralized Code Management | In a monorepo, all your code is stored in one big repository. This means you manage everything, like different projects or modules, from a single place. It’s like having all your tools in one big toolbox instead of separate boxes for each tool. |
+| Dependency Management | When different parts of your project rely on each other, managing these dependencies can get tricky. In a monorepo, since everything is in one place, it becomes easier to see and manage how different pieces of your project depend on each other. |
+| Atomic Changes        | Sometimes, you need to make a change that affects multiple projects or parts of your code at the same time. With a monorepo, you can make these changes in one go, ensuring everything works together smoothly, like updating ingredients in a recipe all at once instead of doing it step by step. |
+| Tooling Support       | Managing a large monorepo can be complex, so you might need special tools (like Bazel, Lerna, or Nx) to help. These tools make it easier to build, test, and manage your code, especially as it grows in size. |
+| Versioning            | When different projects share a single monorepo, keeping track of versions (like which features or fixes are in each project) is important. Monorepos allow you to manage and align these versions effectively, so you know what’s included in each release of your projects. |
 
 
 ## Advantages
