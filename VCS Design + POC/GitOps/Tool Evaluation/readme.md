@@ -23,8 +23,8 @@
 1. **Argo CD**
 2. **Flux**
 3. **Jenkins X**
-4. **Terraform**
-5. **Kustomize**
+4. **BuildPiper**
+5. **Fleet**
 
 ## Comparison of GitOps Tools
 
