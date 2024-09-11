@@ -40,7 +40,7 @@ This application requires no prerequisites except for database connectivity. Add
 | Postgres SQL   | 15      |Postgresis is that database being utilized as the primary database in the Attendance application.|
 | Redis          | 6.0.16  |Redis is an in-memory data structure store used for caching to enhance the performance and response time of the attendance application.|
 
-### Build Dependency
+## Build Dependency
 
 | Name           | Version | Description                                                                                                                      |
 | -------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------- |
@@ -61,13 +61,13 @@ This application requires no prerequisites except for database connectivity. Add
 
 # Step-by-step installation
 
-## Clone-the-git-repository-with-command
+## Step 1:- Clone-the-git-repository-with-command
 
 ```
 git clone https://github.com/OT-MICROSERVICES/attendance-api.git
 ```
 
-## Script to install all dependencies at ones
+## Step 2:- Script to install all dependencies at ones
 
 ```
 #!/bin/bash
@@ -143,7 +143,7 @@ echo "All installations completed successfully!"
 
 
 
-### Step 1 :- Run Below Command
+### Step 3 :- Run Below Command
  A library required for developing applications that interact with PostgreSQL databases. It includes header files and the static library for libpq, which is the C application programmer's interface to PostgreSQL.
 
 ```
@@ -151,20 +151,20 @@ sudo apt-get install build-essential libpq-dev
 ```
 
 
-### Step 2 :- Update the Redis Configuration (redis.conf)
+### Step 4 :- Update the Redis Configuration (redis.conf)
 Open redis.conf configuration file (located at /etc/redis/redis.conf).
 Find the line that starts with # requirepass, which is commented out by default.
 Set a password by uncommenting the line and replacing your_password with your desired password:
 
 ![Screenshot from 2024-09-07 16-17-56](https://github.com/user-attachments/assets/b0c0a4ce-4e7f-4b58-8504-9565deee4d06)
 
-### Step 3 :- Go to Attendance Repository and run command poetry shell to create virtual env 
+### Step 5 :- Go to Attendance Repository and run command poetry shell to create virtual env 
 ```
 poetry shell
 ``` 
 ![Screenshot from 2024-09-07 14-53-39](https://github.com/user-attachments/assets/ec6c03a5-66d0-4eea-8994-4383a87d0f61)
 
-### Step 4:- Create database for attendance app and setup password for postgres user
+### Step 6:- Create database for attendance app and setup password for postgres user
 ```
 Create database attendence_db;
 
@@ -173,7 +173,7 @@ Create database attendence_db;
 ALTER USER postgres WITH PASSWORD 'password';
 ```
 
-### Step 5: - Update pg_hba.conf
+### Step 7: - Update pg_hba.conf
 The pg_hba.conf file controls client authentication and is where you specify the authentication method for different users and connections.
 
 Locate the pg_hba.conf file: The location of this file may vary depending on installation. Common locations are /etc/postgresql/15/main/pg_hba.conf
@@ -181,12 +181,12 @@ Edit the pg_hba.conf file:
 
 ![Screenshot from 2024-09-07 16-22-31](https://github.com/user-attachments/assets/771865af-7b47-4e10-b254-f595485f680e)
 
-### Step 6: - Update config.yaml and liquibase.properties
+### Step 8: - Update config.yaml and liquibase.properties
 ![Screenshot from 2024-09-07 16-24-36](https://github.com/user-attachments/assets/41edd2c8-a83e-42c9-ad00-9b5bdf138e79)
 
 ![Screenshot from 2024-09-07 16-28-35](https://github.com/user-attachments/assets/7b331115-1538-42ce-989e-65a64ae7b3ea)
 
-### Step 7 :- Run the below command to install all dependencies required in this project 
+### Step 9 :- Run the below command to install all dependencies required in this project 
 ```
 poetry Install
 ```
@@ -194,14 +194,14 @@ poetry Install
 
 ## Application Build
 
-### Step 8 :- Run Make migration command 
+### Step 10 :- Run Make migration command 
 ```
 make run-migrations
 ```
 ![Screenshot from 2024-09-07 14-54-22](https://github.com/user-attachments/assets/14e582b3-ef33-4db1-9433-88525720aa45)
 
 
-### Step 9 :- Firstly install gunicorn and Now Run the Application
+### Step 11 :- Firstly install gunicorn and Now Run the Application
 ```
 pip3 install gunicorn
 ```
@@ -211,7 +211,7 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 ![Screenshot from 2024-09-07 14-54-32](https://github.com/user-attachments/assets/00fd81a3-9816-4cb5-806a-2f20329493ce)
 
 
-### Step 10 :- Now go to web browser and hit url http://<IP_OF_SERVER>:8080/apidocs
+### Step 12 :- Now go to web browser and hit url http://<IP_OF_SERVER>:8080/apidocs
 
 ![Screenshot from 2024-09-07 13-27-05](https://github.com/user-attachments/assets/7b109c86-527a-4336-9ae9-f0d3b46e295f)
 
@@ -236,7 +236,7 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
   - Set up the database, update configuration files, and install project dependencies.
   - Run migrations and the application using Gunicorn.
 - **Access**: API documentation available via web browser.
-- **Architecture**: Includes a provided diagram illustrating the system setup.
+
 
 ## Contact Information
 
