@@ -1,10 +1,5 @@
 
-
-
-
-
 # 🌟 GitLab Overview
-
 
 
 GitLab is a **DevOps platform** that provides tools for managing every stage of the software development lifecycle, including **Version Control**, **CI/CD**, **Collaboration**, **Project Management**, and **Security & Compliance**. It can be self-hosted or used as a cloud service on GitLab.com, offering flexibility for teams of all sizes.
