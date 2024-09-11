@@ -66,17 +66,14 @@ The monorepo approach provides several key advantages for large teams and organi
 
 ## Best Practices for Monorepo Management
 
-- **Modular Code Structure**: Organize the codebase in a modular fashion to minimize the complexity and impact of changes on unrelated parts of the system.
-
-- **Tooling for Scalability**: Use tools like `Bazel` or `Lerna` to handle the scalability challenges that arise from large monorepos, such as dependency management, incremental builds, and testing.
-
-- **Enforce Code Ownership**: Implement code ownership policies to ensure that specific teams or individuals are responsible for different parts of the repository.
-
-- **CI/CD Optimization**: Optimize your CI/CD pipelines for efficiency. Use incremental builds and selective testing to avoid unnecessary processing for unrelated changes.
-
-- **Clear Documentation**: Document each module or component thoroughly, so that developers can quickly understand the purpose and scope of various parts of the codebase.
-
-- **Versioning Strategy**: Consider a versioning strategy that suits your monorepo, such as tagging releases for the entire repository or versioning individual modules independently.
+| **Best Practices**          | **Description**                                                                                                                                                        |
+|-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Modular Code Structure**  | Organize the codebase in a modular fashion to minimize the complexity and impact of changes on unrelated parts of the system.                                            |
+| **Tooling for Scalability** | Use tools like Bazel or Lerna to handle the scalability challenges that arise from large monorepos, such as dependency management, incremental builds, and testing.      |
+| **Enforce Code Ownership**  | Implement code ownership policies to ensure that specific teams or individuals are responsible for different parts of the repository.                                    |
+| **CI/CD Optimization**      | Optimize your CI/CD pipelines for efficiency. Use incremental builds and selective testing to avoid unnecessary processing for unrelated changes.                        |
+| **Clear Documentation**     | Document each module or component thoroughly, so that developers can quickly understand the purpose and scope of various parts of the codebase.                          |
+| **Versioning Strategy**     | Consider a versioning strategy that suits your monorepo, such as tagging releases for the entire repository or versioning individual modules independently.               |
 
 ## Conclusion
 A monorepo offers significant benefits for large teams and organizations that rely on shared codebases and close collaboration between projects. By using best practices such as modularization, scalable tooling, and robust CI/CD pipelines, teams can manage the complexity of monorepos while benefiting from enhanced code reuse, visibility, and consistent deployment processes.
