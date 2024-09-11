@@ -134,17 +134,14 @@ We are preparing this document so that you can get the detailed information abou
 
 ## 7.Conclusion
 
-- **Robust Architecture**: The stack ensures high performance, reliability, and scalability, combining PostgreSQL for data persistence, Redis for caching, and Liquibase for managing database schema changes.
-  
-- **Streamlined Development**: Poetry simplifies Python dependency management, ensuring consistent environments and reproducible builds.
-  
-- **Balanced Language Choices**: Java provides stability for enterprise-level applications, while Python supports rapid development and integration.
-  
-- **Enhanced Developer Experience**: Swagger UI offers clear and interactive API documentation, improving testing and transparency.
-  
-- **Scalability and Future-Proofing**: The chosen technologies offer a solid foundation for future enhancements and scaling to accommodate growth.
+| Feature                | Description                                                                   |
+|------------------------|-------------------------------------------------------------------------------|
+| **Robust Stack**       | Combines PostgreSQL, Redis, and Liquibase for performance and scalability.    |
+| **Efficient Development** | Poetry manages dependencies; Java and Python offer stability and speed.        |
+| **User-Friendly**      | Swagger UI enhances API clarity and testing.                                  |
+| **Scalable**           | Technologies are suited for future growth.                                    |
+| **Great Support**      | Strong documentation and communities ensure reliable assistance.              |
 
-- **Comprehensive Support**: Extensive documentation and active communities for each technology ensure ample support for continued development and troubleshooting.
 
 ## 8. Reference
 
