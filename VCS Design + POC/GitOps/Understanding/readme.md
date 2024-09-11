@@ -56,8 +56,8 @@ Several tools support GitOps practices:
 | **Argo CD** | A declarative, GitOps continuous delivery tool for Kubernetes that automates the deployment of applications. |
 | **Flux** | A set of continuous delivery and GitOps tools for Kubernetes, allowing for automated deployment and synchronization. |
 | **Jenkins X**| An extension of Jenkins for Kubernetes that integrates GitOps practices for continuous delivery. |
-| **Terraform**| A tool for managing infrastructure as code, often used in conjunction with GitOps to manage infrastructure changes. |
-| **Kustomize**| A Kubernetes-native configuration management tool that integrates well with GitOps workflows. |
+| **BuildPiper** | A tool for managing continuous delivery pipelines with a focus on providing a unified approach for deploying applications across various environments, often used in conjunction with GitOps workflows. |
+| **Fleet** | A Kubernetes-native management tool designed for managing large fleets of clusters and applications, seamlessly integrating with GitOps practices. |
 
 ## GitOps Workflows and Procedures
 Implementing GitOps involves several key workflows:
