@@ -1,6 +1,4 @@
-Here’s the updated README with the **Advantages** and **Challenges/Disadvantages** sections presented in table format:
 
-```markdown
 # 🚀 Micro Repo Features        
 
 ## Table of Contents
@@ -14,12 +12,11 @@ Here’s the updated README with the **Advantages** and **Challenges/Disadvantag
 - [Contact Information](#contact-information)
 - [References](#references)
 
----
 
 ## Introduction
 A **Micro Repo** is a development approach where a single repository is used to manage a small set of closely related projects or components. This contrasts with monorepos (which handle multiple large projects) or polyrepos (where every project has its own repository). Micro repos aim to balance complexity, manageability, and scalability in software development, particularly when working with small teams or tightly coupled projects.
 
----
+
 
 ## Why Use a Micro Repo?
 Micro repos offer a middle ground between monorepos and polyrepos, providing:
