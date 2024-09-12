@@ -72,34 +72,6 @@ Pull requests are a critical part of the collaboration process, enabling code re
 
 A GitHub repository is essentially a storage space for your project, where you can keep track of all the files and changes. Here’s how to create a repository with the necessary components.
 
-### Steps to Create a New Repository
-
-**1. Log in to GitHub**:
-- Go to GitHub and log in with your credentials.
-
-**2. Navigate to Your Profile**:
-- Click on your profile icon in the top right corner and select ```Your repositories``` from the dropdown menu.
-
-**3. Create a New Repository**:
-- Click the ```New``` button (usually in green) on the repositories page, or you can directly go to GitHub's new repository page.
-
-**4. Fill in Repository Details**:
-- **Repository Name**: Provide a unique name for your repository. This name will be used in the repository’s URL.
-- **Description (optional)**: Write a short description of your project. This is helpful for others to understand the purpose of the repository.
-
-**5. Initialize with README**:
-- Check the box that says “Initialize this repository with a README.”
-- A README file provides an overview of your project. It’s the first file people see when they visit your repository.
-
-**6.Add a License**:
-- Choose a license for your repository from the “Add a license” dropdown. The license determines how others can use, modify, and distribute your code. Common licenses include MIT, GPL, and Apache 2.0.
-
-**7. Choose Repository Visibility**:
-- **Public**: Anyone on the internet can see this repository. You choose who can commit.
-- **Private**: You choose who can see and commit to this repository.
-
-**8. Create the Repository**:
-- Once everything is set, click the Create repository button.
 
 ### Creating a Repository Locally and Pushing to GitHub
 **1. Create a Local Repository**:
