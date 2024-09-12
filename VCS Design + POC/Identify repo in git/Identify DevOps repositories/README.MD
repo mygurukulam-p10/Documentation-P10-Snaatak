@@ -1,5 +1,5 @@
 #  DevOps Repositories
-## :bookmark_tabs: Table of Contents
+## Table of Contents
 - [Introduction](#-introduction)
 - [Why DevOps Repositories](#-why-devops-repositories)
 - [Types of DevOps Repositories](#-types-of-devops-repositories)
