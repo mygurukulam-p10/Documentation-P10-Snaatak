@@ -2,7 +2,7 @@
 
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
 |--------------------|------------|--------------|--------------------------------|
-| 06-09-2024         | 0.1        | Brij Singh   | Documentation on Salary API    |
+| 06-09-2024         | 0.2        | Brij Singh   | Documentation on Salary API    |
 
 
 
