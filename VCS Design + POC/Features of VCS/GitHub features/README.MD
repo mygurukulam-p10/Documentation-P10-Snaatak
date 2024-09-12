@@ -194,7 +194,7 @@ GitHub Issues is a powerful tool for tracking bugs, enhancements, tasks, and mor
 
 # GitHub Actions
 
-GitHub Actions is GitHub’s integrated CI/CD service that allows you to automate workflows directly within your repository. It helps automate the build, test, and deployment process, enabling continuous integration and continuous delivery (CI/CD). Workflows are defined in YAML files and can be triggered by events such as pushing code, opening a pull request, or scheduling a cron job.
+GitHub Actions is a tool that helps you automate your project’s workflows, like testing and deployment. It works by defining tasks in YAML files that are triggered by certain events (e.g., pushing code or opening a pull request).
 
 ## Key Features:
 
