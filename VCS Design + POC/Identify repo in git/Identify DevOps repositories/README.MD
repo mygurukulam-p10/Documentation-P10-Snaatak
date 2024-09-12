@@ -72,6 +72,6 @@ DevOps repositories are the foundation of modern software delivery pipelines. Th
 For any queries or further information, feel free to contact:
 | :office_worker: **Name**  | :email: **Email**                       |
 |-----------------|-----------------------------------|
-| **Brij Singh**  | brij.singh.snaatak@mygurukulam.co |
+| **aayush**  | aayush.gaur.snaatak@mygurukulam.co |
 ---
 ## :books: References
