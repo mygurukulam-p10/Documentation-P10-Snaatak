@@ -15,9 +15,9 @@
 4. [Step-by-step installation of ScyllaDB](#step-by-step-installation-of-scylladb)
 5. [Basic Operations](#basic-operations)
 6. [Troubleshooting](#troubleshooting)
-7. [References](#references)
-8. [Conclusion](#conclusion)
+7. [Conclusion](#conclusion)
 9. [Contact Information](#contact-information)
+10. [References](#references)
     
 
 ## Purpose
@@ -180,13 +180,6 @@ Here are some basic CQL commands to get started with ScyllaDB:
   ```bash
   sudo systemctl status scylla-server
   ```
-## References
-
-| Links                                                | Descriptions                             |
-|------------------------------------------------------|------------------------------------------|
-| [ScyllaDB Documentation](https://docs.scylladb.com/) | Official ScyllaDB documentation          |
-| [ScyllaDB Installation Guide](https://docs.scylladb.com/stable/operating-scylla/procedures/install/install-ubuntu.html) | Official installation guide for Ubuntu |
-| [ScyllaDB University](https://university.scylladb.com/) | Free online courses on ScyllaDB       |
 
 ## Conclusion
 
@@ -207,3 +200,11 @@ ScyllaDB represents a significant advancement in the world of NoSQL databases, o
 | Name       | Email address     |
 |------------|-------------------|
 | Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
+
+## References
+
+| Links                                                | Descriptions                             |
+|------------------------------------------------------|------------------------------------------|
+| [ScyllaDB Documentation](https://docs.scylladb.com/) | Official ScyllaDB documentation          |
+| [ScyllaDB Installation Guide](https://docs.scylladb.com/stable/operating-scylla/procedures/install/install-ubuntu.html) | Official installation guide for Ubuntu |
+| [ScyllaDB University](https://university.scylladb.com/) | Free online courses on ScyllaDB       |
