@@ -150,6 +150,10 @@ CREATE USER scylla WITH PASSWORD 'password';
 ```
 GRANT ALL PERMISSIONS ON KEYSPACE salary TO scylla;
 ```
+
+![image](https://github.com/user-attachments/assets/017ec23a-b09b-4109-93ce-c80ba6b02c9b)
+
+
 ### 💽 Step 3: Setting up Redis
 #### 1️⃣ Install Redis and Test
 ```
