@@ -11,12 +11,11 @@
 4. [Branches](#Branches)
 5. [Issues](#Issues)
 6. [GitHub Actions](#gitHub-actions)
-7. [Security & Compliance](#security-&-compliance)
-8. [Collaboration Tools](#collaboration-tools)
-9. [Insights & Analytics](#insights-&-analytics)
-10. [Conclusion](#conclusion)
-11. [Contact Information](#contact-information)
-12. [Refrences](#refrences)
+7. [Collaboration Tools](#collaboration-tools)
+8. [Insights & Analytics](#insights-&-analytics)
+9. [Conclusion](#conclusion)
+10. [Contact Information](#contact-information)
+11. [Refrences](#refrences)
 
 
 
@@ -202,13 +201,6 @@ GitHub Actions is a tool that helps you automate your project’s workflows, lik
 - **Event-Driven**: Trigger workflows based on various GitHub events.
 - **Custom Workflows**: Create customized workflows for different environments and processes.
 - **Extensibility**: Use actions from GitHub’s marketplace or create your own custom actions.
-
-# Security & Compliance
-GitHub offers robust security features:
-- **Code Scanning:** Identify vulnerabilities in your code.
-- **Dependabot Alerts:** Monitor for vulnerabilities in dependencies.
-- **Secret Scanning:** Detect exposed secrets in your codebase.
-- **Compliance:** Meet regulatory requirements with audit logs and advanced security controls.
 
 # Collaboration Tools
 
