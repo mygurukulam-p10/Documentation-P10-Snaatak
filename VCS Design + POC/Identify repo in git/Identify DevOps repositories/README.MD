@@ -1,4 +1,4 @@
-# :hammer_and_wrench: DevOps Repositories
+#  DevOps Repositories
 ## :bookmark_tabs: Table of Contents
 - [:rocket: Introduction](#-introduction)
 - [:question: Why DevOps Repositories](#-why-devops-repositories)
@@ -8,18 +8,18 @@
 - [:e-mail: Contact Information](#-contact-information)
 - [:books: References](#-references)
 ---
-## :rocket: Introduction
+## Introduction
 In the world of DevOps, **repositories** play a crucial role in bridging the gap between development and operations by providing a central location for storing and managing code, infrastructure, and configuration files. These repositories are essential for enabling collaboration, continuous integration, and continuous delivery (CI/CD) workflows in modern software development pipelines.
 A **DevOps repository** can store everything from source code to automation scripts, CI/CD pipeline definitions, and infrastructure-as-code (IaC) templates, ensuring that all parts of the system can be versioned, managed, and deployed efficiently.
 ---
-## :question: Why DevOps Repositories
+##  Why DevOps Repositories
 DevOps repositories are critical for several reasons:
 - **Version Control**: They allow versioning of code, infrastructure, and configurations, making it easy to track changes, roll back to previous versions, and collaborate with multiple teams.
 - **Collaboration**: Teams across different departments can work together by sharing code and configurations, enhancing communication and transparency.
 - **Automation**: Repositories integrate with CI/CD pipelines, enabling automation of testing, building, and deployment processes, which accelerates software delivery.
 - **Consistency**: DevOps repositories ensure consistent environments from development to production, reducing discrepancies between environments.
 ---
-## :open_file_folder: Types of DevOps Repositories
+##  Types of DevOps Repositories
 There are various types of repositories that cater to different aspects of DevOps:
 ### 1. **Source Code Repositories**
    - These store application source code and project-related files.
@@ -52,7 +52,7 @@ There are various types of repositories that cater to different aspects of DevOp
    - Features: Helm chart storage, version control, dependency management.
    - Example: `helmhub.com/company/helm-charts`.
 ---
-## :sparkles: Features of DevOps Repositories
+##  Features of DevOps Repositories
 | Feature                        | Description                                                                 |
 |---------------------------------|-----------------------------------------------------------------------------|
 | **Version Control**             | Track changes to code, infrastructure, and configurations over time.         |
@@ -65,13 +65,13 @@ There are various types of repositories that cater to different aspects of DevOp
 | **Dependency Management**       | Handle and manage code dependencies across projects efficiently.             |
 | **Scalability**                 | Support multiple teams and repositories with large-scale project management.  |
 ---
-## :end: Conclusion
+##  Conclusion
 DevOps repositories are the foundation of modern software delivery pipelines. They enable teams to work efficiently by providing tools for version control, collaboration, automation, and security. Whether you're managing source code, artifacts, infrastructure, or container images, a well-organized repository strategy is crucial for achieving smooth and scalable DevOps practices.
 ---
-## :e-mail: Contact Information
+##  Contact Information
 For any queries or further information, feel free to contact:
-| :office_worker: **Name**  | :email: **Email**                       |
+| **Name**  | **Email**                       |
 |-----------------|-----------------------------------|
 | **aayush**  | aayush.gaur.snaatak@mygurukulam.co |
 ---
-## :books: References
+##  References
