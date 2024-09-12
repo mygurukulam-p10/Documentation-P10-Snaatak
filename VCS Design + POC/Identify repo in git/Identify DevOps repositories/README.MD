@@ -1,12 +1,12 @@
 #  DevOps Repositories
 ## :bookmark_tabs: Table of Contents
-- [:rocket: Introduction](#-introduction)
-- [:question: Why DevOps Repositories](#-why-devops-repositories)
-- [:open_file_folder: Types of DevOps Repositories](#-types-of-devops-repositories)
-- [:sparkles: Features of DevOps Repositories](#-features-of-devops-repositories)
-- [:end: Conclusion](#-conclusion)
-- [:e-mail: Contact Information](#-contact-information)
-- [:books: References](#-references)
+- [Introduction](#-introduction)
+- [Why DevOps Repositories](#-why-devops-repositories)
+- [Types of DevOps Repositories](#-types-of-devops-repositories)
+- [Features of DevOps Repositories](#-features-of-devops-repositories)
+- [Conclusion](#-conclusion)
+- [Contact Information](#-contact-information)
+- [References](#-references)
 
 ## Introduction
 
