@@ -94,23 +94,14 @@ When implemented effectively, Feature Branch Flow can significantly improve the 
 ## References
 
 Explore these resources to deepen your understanding of Feature Branch Flow and related concepts:
+| **Link**               | **Description**                                                                                 |
+|-----------------------------|-----------------------------------------------------------------------------------------------|
+| [**Enhanced Collaboration**](https://nvie.com/posts/a-successful-git-branching-model/)  | A successful Git branching model |
+| **[Improved Code Quality](https://guides.github.com/introduction/flow/)**   | GitHub Flow|
+| **[Stable Main Branch](https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/)**      | GitLab Flow|
+| **[Feature-Centric Development](https://trunkbaseddevelopment.com/)** | ETrunk Based Development|
+| **[Flexible Feature Management](https://martinfowler.com/articles/feature-toggles.html)** | Feature Toggles (aka Feature Flags |
 
-1. [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
-   - By Vincent Driessen: Introduces Git Flow, which shares similarities with Feature Branch Flow.
-
-2. [GitHub Flow](https://guides.github.com/introduction/flow/)
-   - By GitHub: Describes a simplified branching model that aligns closely with Feature Branch Flow.
-
-3. [GitLab Flow](https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/)
-   - By GitLab: Discusses GitLab Flow, which builds upon Feature Branch Flow with additional considerations.
-
-4. [Trunk Based Development](https://trunkbaseddevelopment.com/)
-   - By Paul Hammant: Provides a contrast to Feature Branch Flow, useful for understanding trade-offs.
-
-5. [Feature Toggles (aka Feature Flags)](https://martinfowler.com/articles/feature-toggles.html)
-   - By Pete Hodgson: Discusses feature toggles, which can complement Feature Branch Flow.
-
-![image](https://github.com/user-attachments/assets/fc161460-9311-43e4-ab89-1beaf6158fdb)
 
 ## Contact Information
 |Name|Email Address|
