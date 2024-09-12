@@ -15,9 +15,10 @@
 4. [Step-by-step installation of ScyllaDB](#step-by-step-installation-of-scylladb)
 5. [Basic Operations](#basic-operations)
 6. [Troubleshooting](#troubleshooting)
-7. [FAQs](#faqs)
-8. [Contact Information](#contact-information)
-9. [References](#references)
+7. [References](#references)
+8. [Conclusion](#conclusion)
+9. [Contact Information](#contact-information)
+    
 
 ## Purpose
 
