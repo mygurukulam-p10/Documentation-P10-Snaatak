@@ -1,5 +1,11 @@
 # :star2: GitLab Overview
 GitLab is a comprehensive DevOps platform that offers tools for managing the entire software development lifecycle, including Version Control, CI/CD, Collaboration, Project Management, and Security & Compliance. It can be self-hosted or used as a cloud service on GitLab.com, providing flexibility for teams of all sizes.
+
+| 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
+|--------------------|------------|--------------|--------------------------------|
+| 06-09-2024         | 0.2        | Brij Singh   | Documentation on Salary API    |
+
+
 ## Table of Contents
 1. [What is GitLab?](#what-is-gitlab)
 2. [Why We Use GitLab](#why-we-use-gitlab)
@@ -65,3 +71,11 @@ GitLab CI/CD automates testing, building, and deploying code. Key components inc
 
 ## :memo: Conclusion
 GitLab is a versatile DevOps platform that combines development, operations, and security tools in one solution. Whether you're managing small projects or enterprise-level systems, GitLab helps streamline workflows and improve collaboration across teams, making it a powerful choice for accelerating your software development processes.
+
+## 📧 Contact Information
+
+For any queries or further information, feel free to contact:
+
+| 📛 Name       | ✉️ Email Address                    |
+|---------------|-------------------------------------|
+| **Brij Singh**| brij.singh.snaatak@mygurukulam.co   |
