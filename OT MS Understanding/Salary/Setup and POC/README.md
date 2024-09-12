@@ -157,8 +157,9 @@ redis-cli
 ![image (6)](https://github.com/user-attachments/assets/6b4d5fc0-0a19-4e1c-baf5-a93ec1e13691)
 
 
-## Step 4. Setup Migrate Tool
-### 1. Install and check the version
+### 💽 Step 4: Setup Migrate Tool
+
+#### 1️⃣ Install and Check Version
 ```
 curl -L https://github.com/golang-migrate/migrate/releases/download/v4.15.2/migrate.linux-amd64.tar.gz -o migrate.tar.gz
 tar -xvzf migrate.tar.gz
