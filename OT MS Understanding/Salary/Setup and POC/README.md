@@ -1,57 +1,90 @@
-# SALARY API
-|CREATED/UPDATED |VERSION|AUTHOR|COMMENT|
-|--------|-----------|-------|---------|
-|06-09-2024|0.1|Brij Singh|Documentation on Salary API|
-## Table of Content
-- [Purpose](#Purpose)
-- [Pre-reqisites](#Pre-requisites)
-- [System Requirement](#System-Requirement)
-- [Build-Time Dependency](#Build-Time-Dependency)
-- [Run-Time Dependency](#Run-Time-Dependency)
-- [Important Ports](#important-ports)
-- [Architecture ](#Architecture)
-- [Step-by-step installation ](#Step-by-step-installation)
+# 💼 Salary API
 
-## Purpose
-The Salary API project is a Java-based microservice designed to manage and process employee salary data. This Application is must be independent and can be run on multiple operating system. JAVA RUNTIME would be required to run this application.
-## Pre-requisites
-The Salary API application have some database, cache manager and package dependencies. Ensure you have the following on your system :
-* [ScyllaDB](https://www.scylladb.com/)
-* [Redis](https://redis.io/)
-* [Maven](https://maven.apache.org/)
-## System Requirements
-|Hardware Specification |Minimum Recommendation|
-|:-----------------------:|:----------------------:|
-|Processor              | Dual-core            |
-|RAM                    | 4GB                  |
-|Disk                   | 20GB                 |
-|OS                     |Ubuntu(22.04)         |
-## Build-Time Dependency
-| Name | Version | Description |
-|:-----:|:------:|:------------:|
-|Maven|3.+| It simplifies the management of build procedures, project documentation, and project dependencies.
-## Run-Time Dependency
-|Name  | Version | Description |
-|:------:|:-------:|:----------:|
-|JAVA|  17| Running the built Java application is required.|
-## Important Ports
-| Inbound Traffic | Description        |
-| --------------- | ------------------ |
-| 6379            | Used by Redis      |
-| 9042            | Used by ScyllaDB / migrate |
-## Architecture
+| 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
+|--------------------|------------|--------------|--------------------------------|
+| 06-09-2024         | 0.1        | Brij Singh   | Documentation on Salary API    |
+
+
+
+## 📑 Table of Contents
+
+- [🔍 Purpose](#-purpose)
+- [⚙️ Pre-requisites](#-pre-requisites)
+- [🖥️ System Requirements](#-system-requirements)
+- [🛠️ Build-Time Dependency](#-build-time-dependency)
+- [🚀 Run-Time Dependency](#-run-time-dependency)
+- [🌐 Important Ports](#-important-ports)
+- [🏗️ Architecture](#-architecture)
+- [📥 Step-by-step Installation](#-step-by-step-installation)
+- [📧 Contact Information](#-contact-information)
+
+---
+
+## 🔍 Purpose
+
+The **Salary API** is a Java-based microservice designed to manage and process employee salary data. The application is platform-independent and can run on multiple operating systems. The only requirement is that the **Java Runtime Environment (JRE)** is installed to run the application.
+
+---
+
+## ⚙️ Pre-requisites
+
+The Salary API requires the following dependencies for operation:
+
+- [ScyllaDB](https://www.scylladb.com/) - Database storage.
+- [Redis](https://redis.io/) - Cache manager.
+- [Maven](https://maven.apache.org/) - Build automation tool.
+
+---
+
+## 🖥️ System Requirements
+
+| 💻 Hardware Specification | ⚙️ Minimum Recommendation |
+|---------------------------|----------------------------|
+| **Processor**              | Dual-core                  |
+| **RAM**                    | 4GB                        |
+| **Disk**                   | 20GB                       |
+| **Operating System**       | Ubuntu 22.04               |
+
+---
+
+## 🛠️ Build-Time Dependency
+
+| 🛠️ Name | 📦 Version | 📄 Description |
+|---------|------------|----------------|
+| **Maven** | 3.+      | Simplifies build management, project documentation, and dependency management. |
+
+---
+
+## 🚀 Run-Time Dependency
+
+| 🚀 Name | 📦 Version | 📄 Description          |
+|---------|------------|--------------------------|
+| **Java** | 17        | Required to run the built Java application. |
+
+---
+
+## 🌐 Important Ports
+
+| 🔌 Inbound Traffic | 📄 Description           |
+|--------------------|--------------------------|
+| **6379**           | Used by Redis            |
+| **9042**           | Used by ScyllaDB / migrate |
+
+---
+
+## 🏗️ Architecture
 
 ![image](https://github.com/user-attachments/assets/3ceaca3c-6de1-4534-be4a-1570faf1f104)
 
 
 
-###  Step-by-step installation
+## 📥 Step-by-step Installation
 
 ## Install git
 ```
 sudo apt install git
 ```
-## Step 1. Clone the git repository with command
+### 📂 Step 1: Clone the Git Repository
 ```
 git clone https://github.com/OT-MICROSERVICES/salary-api.git
 ```
