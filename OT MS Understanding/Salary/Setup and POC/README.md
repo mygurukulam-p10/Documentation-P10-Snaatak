@@ -43,7 +43,7 @@ The Salary API requires the following dependencies for operation:
 | **Processor**              | Dual-core                  |
 | **RAM**                    | 4GB                        |
 | **Disk**                   | 20GB                       |
-| **Operating System**       | Ubuntu 22.04               |
+
 
 ---
 
