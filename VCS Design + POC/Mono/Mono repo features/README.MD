@@ -53,7 +53,7 @@ The monorepo approach provides several key advantages for large teams and organi
 | **Reduced Duplication**        | Since all projects are in one repository, there’s less need to copy and paste code across different places. This helps avoid duplicate code, making the codebase cleaner and more efficient. |
 
 
-## Challenges/Disadvantages
+## Challenges
 
 | **Challenges/Disadvantages**           | **Description**                                                                                                                                                 |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
