@@ -200,6 +200,6 @@ PostgreSQL is an open-source, feature-rich relational database that excels in va
 #### References
 | Links | Descriptions|
 |-------|--------------|
-|(https://www.postgresql.org/docs/)|PostgreSQL Official Documentation|
-|(https://www.w3schools.com/postgresql/) | PostgreSQL Tutorial|
-|(https://aws.amazon.com/rds/postgresql/what-is-postgresql/)|PostgreSQL Documentation|
+|https://www.postgresql.org/docs/|PostgreSQL Official Documentation|
+|https://www.w3schools.com/postgresql/| PostgreSQL Tutorial|
+|https://aws.amazon.com/rds/postgresql/what-is-postgresql/|What is PostgreSQL|
