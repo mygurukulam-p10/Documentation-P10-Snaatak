@@ -52,10 +52,7 @@ This proof of concept (POC) demonstrates the capabilities of PostgreSQL, a power
 ## Architecture
 
 PostgreSQL follows a client-server architecture, where each client connection is handled by a separate process. Data is stored in a structured format and can be accessed via SQL queries. PostgreSQL supports advanced features like MVCC (Multiversion Concurrency Control), foreign keys, and triggers.
-
-![Screenshot from 2024-09-09 13-38-40](https://github.com/user-attachments/assets/298f761e-0870-4dcd-bffe-c601f4dbc508)
-
-
+![image](https://github.com/user-attachments/assets/8bf267b4-6199-46d1-a0dd-a07fe6a64769)
 
 ### Features
 - Fully ACID-compliant transactions.
