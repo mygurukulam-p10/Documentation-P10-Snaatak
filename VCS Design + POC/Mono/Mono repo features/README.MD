@@ -9,7 +9,7 @@
 - [Why Use a Mono Repo?](#why-use-a-mono-repo)
 - [Features](#features)
 - [Advantages](#advantages)
-- [Challenges/Disadvantages](#challengesdisadvantages)
+- [Challenges](#challenges)
 - [Best Practices for Mono Repo Management](#best-practices-for-micro-repo-management)
 - [Conclusion](#conclusion)
 - [Contact Information](#contact-information)
