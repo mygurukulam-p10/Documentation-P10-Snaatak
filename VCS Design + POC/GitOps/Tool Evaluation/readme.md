@@ -56,8 +56,13 @@ To effectively implement GitOps, consider the following best practices:
 | **Document Processes** | Document workflows, procedures, and best practices to ensure clarity and consistency across teams. |
 
 ## Conclusion
-- When it comes to Terraform and GitOps, the main focus is on using Terraform's infrastructure-as-code capabilities to manage and automate your infrastructure. While tools like Argo CD, Flux, Jenkins X, Kustomize, and Helm are valuable for Kubernetes and application management, Terraform stands out for its infrastructure management. By integrating Terraform with GitOps practices, you can streamline your infrastructure workflows, ensure consistency, and enhance your deployment processes.
-
+| **Tool**       | **Purpose**                             | **Best For**                                                                 |
+|----------------|-----------------------------------------|--------------------------------------------------------------------------------|
+| **Argo CD**    | GitOps continuous delivery for Kubernetes | Teams needing a robust GitOps solution with a clear UI for Kubernetes deployments. |
+| **Flux**       | GitOps tool for Kubernetes               | Users preferring a more lightweight GitOps tool with flexibility and good Helm integration. |
+| **Jenkins X**  | Comprehensive CI/CD for Kubernetes       | Teams looking for an integrated CI/CD solution with built-in GitOps for Kubernetes. |
+| **BuildPiper** | Enterprise CI/CD tool                    | Large enterprises needing a customizable CI/CD solution with advanced features. |
+| **Fleet**      | Kubernetes management                    | Organizations managing numerous Kubernetes clusters needing centralized management. |
 
 ## Contact Information
 
