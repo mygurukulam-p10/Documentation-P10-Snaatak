@@ -148,8 +148,6 @@ git branch <branch-name>
 # Create a new branch and switch to it
 git checkout -b <branch-name>
 
-# Or using the new syntax (Git 2.23 and above)
-git switch -c <branch-name>
 ```
 
 **Switching Between Branches**
@@ -160,8 +158,6 @@ To switch between branches, you can use the ```git checkout``` or ```git switch`
 # Switch to an existing branch
 git checkout <branch-name>
 
-# Or using the new syntax
-git switch <branch-name>
 ```
 
 **Deleting Branches**
