@@ -143,6 +143,9 @@ cqlsh -u cassandra -p cassandra
 ```
 CREATE USER scylla WITH PASSWORD 'password';
 ```
+![image](https://github.com/user-attachments/assets/6c2b4611-fab3-49a7-ad92-66957bab98cc)
+
+
 ### 8.give all permissions on keyspace employee_db to the scylla user with below command
 ```
 GRANT ALL PERMISSIONS ON KEYSPACE salary TO scylla;
