@@ -188,7 +188,6 @@ GitHub Issues is a powerful tool for tracking bugs, enhancements, tasks, and mor
 - **Description**: Give a detailed description of the issue. You can use Markdown for formatting.
 - **Assignees**: Assign the issue to one or more team members by clicking on the "Assignees" section and selecting from the list.
 - **Labels**: Add labels to categorize the issue. Click on "Labels" and select relevant ones.
-- **Milestone**: If applicable, link the issue to a milestone by selecting one from the "Milestone" dropdown.
 - **Projects**: Link the issue to a project board by selecting the appropriate project.
 
 4. **Submit the Issue**: Once you have filled out all the details, click on the "Submit new issue" button.
