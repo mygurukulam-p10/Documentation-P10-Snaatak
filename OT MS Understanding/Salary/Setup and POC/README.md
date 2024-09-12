@@ -137,6 +137,8 @@ authorizer: CassandraAuthorizer
 ```
 cqlsh -u cassandra -p cassandra
 ```
+![Screenshot from 2024-09-13 02-40-46](https://github.com/user-attachments/assets/2d2148dc-efee-4a7f-aca2-79a4be459dc6)
+
 ### 7. Now create a user in cqlsh with below command,
 ```
 CREATE USER scylla WITH PASSWORD 'password';
