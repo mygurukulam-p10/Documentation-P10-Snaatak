@@ -3,7 +3,7 @@ GitLab is a comprehensive DevOps platform that offers tools for managing the ent
 
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
 |--------------------|------------|--------------|--------------------------------|
-| 06-09-2024         | 0.2        | Brij Singh   | Documentation on Salary API    |
+| 10-09-2024         | 0.2        | Brij Singh   | GitLab features                |
 
 
 ## Table of Contents
