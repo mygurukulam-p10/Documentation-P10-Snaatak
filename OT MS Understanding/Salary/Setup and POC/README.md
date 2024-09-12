@@ -99,7 +99,7 @@ sudo wget -O /etc/apt/sources.list.d/scylla.list http://downloads.scylladb.com/d
 ![image](https://github.com/user-attachments/assets/e79a2a78-de7e-4cf1-9711-e1c17b1f2d4e)
 
 
-### 2. Now Install ScyllaDB
+### 2️⃣ Install ScyllaDB
 ```
 sudo apt-get update
 sudo apt-get install scylla
@@ -107,12 +107,12 @@ sudo apt-get install scylla
 ![image](https://github.com/user-attachments/assets/6b17265a-4ea3-4064-ab3f-706b3761c412)
 
 
-### 3. Configure ScyllaDB
+#### 3️⃣ Configure ScyllaDB
 #### Run the ScyllaDB setup script to configure your installation
 ```
 sudo scylla_setup
 ```
-### 4. Start ScyllaDB & Verify the Installation
+#### 4️⃣ Start ScyllaDB & Verify Installation
 ```
 sudo systemctl start scylla-server
 sudo systemctl status scylla-server
@@ -121,7 +121,7 @@ sudo systemctl status scylla-server
 
 
 
-### 5. Configure user Scylla & Space
+#### 5️⃣ Configure User and Keyspace
 Path ` /etc/scylla/scylla.yaml `
 ```
 sudo vi /etc/scylla/scylla.yaml
@@ -133,7 +133,7 @@ authorizer: CassandraAuthorizer
 ```
 ![image](https://github.com/user-attachments/assets/6fc1c188-1f74-41ce-86cb-450dc5cca3b2)
 
-### 6. Login as superuser (cassandra)
+### 6️⃣ Login as superuser (cassandra)
 ```
 cqlsh -u cassandra -p cassandra
 ```
@@ -145,8 +145,8 @@ CREATE USER scylla WITH PASSWORD 'password';
 ```
 GRANT ALL PERMISSIONS ON KEYSPACE salary TO scylla;
 ```
-## Step 3. Setup Redis Server
-### 1. Install Redis and test
+### 💽 Step 3: Setting up Redis
+#### 1️⃣ Install Redis and Test
 ```
 sudo apt update
 sudo apt install -y redis-server
@@ -168,8 +168,8 @@ migrate -version
 ```
 ![Screenshot from 2024-09-07 15-58-08](https://github.com/user-attachments/assets/84905d23-6619-4065-a85f-075ceac2debf)
 
-## Step 5. Seting up the API
-### 1. Install JDK 17 & Maven
+### 💽 Step 5: Setup the API
+#### 1️⃣ Install JDK 17 and Maven
 ```
 sudo apt install openjdk-17-jdk
 java --version
@@ -179,7 +179,7 @@ mvn --version
 ![image](https://github.com/user-attachments/assets/ac672659-3a30-46c6-b006-05a7bbeac9a5)
 
 
-### 2. Edit two files ```application.yml``` and ``` migration.json ```
+#### 2️⃣ Configure `application.yml` and `migration.json`
 In ```application.yml```
 
 ![image](https://github.com/user-attachments/assets/b657bf0c-0fd5-4376-8b59-64e32441d0a5)
@@ -223,8 +223,10 @@ http://localhost:8080/salary-documentation
 
 
 
-## Contact Information
+## 📧 Contact Information
+
 For any queries or further information, feel free to contact:
-|Name|Email Address|
-|:---:|:---:|
-|Brij Singh|brij.singh.snaatak@mygurukulam.co|
+
+| 📛 Name       | ✉️ Email Address                    |
+|---------------|-------------------------------------|
+| **Brij Singh**| brij.singh.snaatak@mygurukulam.co   |
