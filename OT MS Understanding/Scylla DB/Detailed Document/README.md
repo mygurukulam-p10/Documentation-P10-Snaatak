@@ -14,50 +14,21 @@
 3. [Architecture](#architecture)
 4. [Features](#features)
 5. [Detailed Explanation of ScyllaDB](#detailed-explanation-of-scylladb)
-8. [Troubleshooting](#troubleshooting)
-9. [Conclusion](#conclusion)
-10. [Contact Information](#contact-information)
-11. [References](#references)
+6. [Conclusion](#conclusion)
+7. [Contact Information](#contact-information)
+8. [References](#references)
     
 
 ## Purpose
 
 This proof of concept (POC) aims to demonstrate the capabilities of ScyllaDB, a high-performance NoSQL database that is API-compatible with Apache Cassandra. ScyllaDB is designed to handle big data workloads with high throughput and low latency. This POC will showcase ScyllaDB's installation process, basic operations, and performance characteristics.
 
-## Pre-requisites
-
-### System Requirements
-
-| Hardware Specifications | Minimum Recommendation |
-|-------------------------|------------------------|
-| Processor               | 2 cores                |
-| RAM                     | 4GB                    |
-| Disk                    | 20GB SSD               |
-| OS                      | Ubuntu 22.04 LTS       |
-
-### Dependencies
-
-#### Run time Dependency
-
-| Name    | Version | Description                                    |
-|---------|---------|------------------------------------------------|
-| java    | 11      | For running ScyllaDB driver                    |
-
-### Important Ports
-
-| Inbound Traffic | Description                    |
-|-----------------|--------------------------------|
-| 9042            | CQL native transport port      |
-| 9160            | Thrift client API              |
-| 10000           | REST API                       |
 
 ## Architecture
 
 ScyllaDB follows a distributed architecture where data is automatically replicated across multiple nodes for fault tolerance and high availability.
 
 ![Screenshot from 2024-09-09 13-38-40](https://github.com/user-attachments/assets/298f761e-0870-4dcd-bffe-c601f4dbc508)
-
-
 
 ### Features
 - Distributed NoSQL database
