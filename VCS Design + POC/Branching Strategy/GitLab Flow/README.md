@@ -54,6 +54,9 @@ GitLab Flow combines feature-driven development with issue tracking, emphasizing
 
 7. **Use environment branches (optional)**: For projects that need more control over deployments, use branches like 'pre-production' and 'production'.
 
+![image](https://github.com/user-attachments/assets/7afe93c2-5efd-4578-b67c-9facc68dafcc)
+
+
 ## Advantages
 
 1. **Simplicity**: Easier to understand and implement compared to more complex workflows.
@@ -95,7 +98,7 @@ While it may require some adjustment for teams used to other workflows, GitLab F
 
 This table presents the information in a structured format, with columns for the title, description, and URL of each resource.
 
-![image](https://github.com/user-attachments/assets/7afe93c2-5efd-4578-b67c-9facc68dafcc)
+
 
 ## Contact Information 
 |Name|Email Address|
