@@ -216,13 +216,13 @@ Common issues and their solutions:
 
 ## 16. References
 
-| Reference                             | Description                                                                                             |
-|---------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Official Gunicorn Documentation        | Comprehensive guide on Gunicorn's features, configuration, and usage.                                  |
-| DigitalOcean Gunicorn Guide            | A step-by-step guide for deploying Flask apps with Gunicorn and Nginx on Ubuntu.                      |
-| Real Python Gunicorn Tutorial          | A practical tutorial for deploying Python apps with Gunicorn, including examples and performance tips. |
-| Gunicorn History                       | A brief history of Gunicorn and its development milestones.                                             |
-| Benchmarking uWSGI vs Gunicorn         | Comparison of Gunicorn with uWSGI in terms of performance and scalability.                             |
+| Reference                               | Description                                                                                         |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------|
+| [Official Gunicorn Documentation](https://docs.gunicorn.org/)            | Comprehensive guide on Gunicorn's features, configuration, and usage.                                 |
+| [DigitalOcean Gunicorn Guide](https://www.digitalocean.com/community/tutorials/how-to-serve-flask-applications-with-gunicorn-and-nginx-on-ubuntu-22-04) | A step-by-step guide for deploying Flask apps with Gunicorn and Nginx on Ubuntu.                      |
+| [Real Python Gunicorn Tutorial](https://realpython.com/flask-by-example-part-3-text-processing-with-redis-nokogiri-sinatra/) | A practical tutorial for deploying Python apps with Gunicorn, including examples and performance tips. |
+| [Gunicorn History](https://gunicorn.org/#history)                      | A brief history of Gunicorn and its development milestones.                                           |
+| [Benchmarking uWSGI vs Gunicorn](https://medium.com/@shubhayu7/benchmarking-uwsgi-vs-gunicorn-performance-4d82e2bf2e28) | Comparison of Gunicorn with uWSGI in terms of performance and scalability.                            |
 | App Repository                         | The repository from where the Gunicorn is working and the app is running: [Attendance API](https://github.com/OT-MICROSERVICES/attendance-api) |
 
 
