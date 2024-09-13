@@ -167,5 +167,6 @@ gunicorn --workers 3 --bind 0.0.0.0:8000 app:app
 | Links                                            | Descriptions                         |
 |--------------------------------------------------|--------------------------------------|
 | https://docs.gunicorn.org/                       | Official Gunicorn documentation      |
-| https://flask.palletsprojects.com/               | Flask documentation                  |
+| https://github.com/mygurukulam-p10/Documention/tree/main/VCS%20Design%20%2B%20POC/Gunicorn/Introduction/              | Documentation of Gunicorn                |
 | https://docs.python.org/3/library/venv.html      | Python virtual environments guide    |
+
