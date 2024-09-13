@@ -9,6 +9,8 @@ The purpose of this document is to provide a comprehensive understanding of **Mo
 
 ---
 
+
+
 ## **Introduction**
 
 ### **Monorepo**
@@ -55,8 +57,8 @@ When choosing between a **Monorepo** and a **Micro Repo** strategy, teams must c
 ## References 
 |links | 
 |-------|
-|https://monorepo.tools |
-|https://www.atlassian.com/git/tutorials/monorepos|
+|https://dev.to/mrizwanashiq/monorepo-vs-microrepo-m58 |
+|https://www.thoughtworks.com/en-in/insights/blog/agile-engineering-practices/monorepo-vs-multirepo|
 
 
 
