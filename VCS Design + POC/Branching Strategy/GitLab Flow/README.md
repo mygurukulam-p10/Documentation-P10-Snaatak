@@ -97,8 +97,7 @@ While it may require some adjustment for teams used to other workflows, GitLab F
 
 This table presents the information in a structured format, with columns for the title, description, and URL of each resource.
 
-![image](https://github.com/user-attachments/assets/77e1bb74-fad5-4199-97bd-823e2cde1d6e)
-
+![image](https://github.com/user-attachments/assets/7afe93c2-5efd-4578-b67c-9facc68dafcc)
 
 ## Contact Information 
 |Name|Email Address|
