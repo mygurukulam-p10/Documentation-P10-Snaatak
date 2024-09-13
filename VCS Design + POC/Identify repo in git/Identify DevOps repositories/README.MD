@@ -75,4 +75,3 @@ For any queries or further information, feel free to contact:
 - [GitHub Repositories Overview](https://github.com/features)
 - [GitLab Repositories Documentation](https://docs.gitlab.com/ee/user/project/repository/)
 - [Github repository best practices](https://dev.to/pwd9000/github-repository-best-practices-23ck)
-- 
