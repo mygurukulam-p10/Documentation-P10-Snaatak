@@ -1,4 +1,4 @@
-# Recomandation of Commit Hooks
+# Recommendations of Commit Hooks
 
   | Author        | Created on | Version | Last updated by | Last edited on |
   |-------------|---------|-------------|-------------|---------|
