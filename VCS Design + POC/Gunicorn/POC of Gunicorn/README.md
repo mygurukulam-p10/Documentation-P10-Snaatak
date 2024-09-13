@@ -164,9 +164,9 @@ gunicorn --workers 3 --bind 0.0.0.0:8000 app:app
 
 ## References
 
-| Links                                            | Descriptions                         |
+|Descriptions                                      | Links                                | 
 |--------------------------------------------------|--------------------------------------|
-| https://docs.gunicorn.org/                       | Official Gunicorn documentation      |
-| https://github.com/mygurukulam-p10/Documention/tree/main/VCS%20Design%20%2B%20POC/Gunicorn/Introduction/              | Documentation of Gunicorn                |
-| https://docs.python.org/3/library/venv.html      | Python virtual environments guide    |
+|       Official Gunicorn documentation            |    https://docs.gunicorn.org/        |
+|           Documentation of Gunicorn              |    https://github.com/mygurukulam-p10/Documention/tree/main/VCS%20Design%20%2B%20POC/Gunicorn/Introduction/                 |
+|   Python virtual environments guide              |   https://docs.python.org/3/library/venv.html   |
 
