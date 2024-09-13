@@ -330,10 +330,19 @@ sudo rm /var/lib/redis/appendonly.aof
 
 ### 8. References
 
-- [Redis Documentation](https://redis.io/documentation)
-- [Redis Command Reference](https://redis.io/commands)
-- [Redis Community](https://redis.io/community)
+| **Reference**                       | **Description**                                                  |
+|-------------------------------------|------------------------------------------------------------------|
+| [Redis Documentation](https://redis.io/documentation)        | Official Redis documentation covering features, setup, and usage. |
+| [Redis Command Reference](https://redis.io/commands)         | Comprehensive guide to Redis commands and their usage.            |
+| [Redis Community](https://redis.io/community)                | Community resources, forums, and discussions about Redis.         |
+| [Redis Detailed Document](https://github.com/mygurukulam-p10/Documention/blob/main/OT%20MS%20Understanding/Redis/Detailed%20Document/README.md) | In-depth Redis documentation and setup guide.                     |
+
 
 ## Conclusion
 
-Redis is a powerful in-memory data structure store that serves as a database, cache, and message broker. It is known for its high performance, versatility in supporting various data structures, and its ability to handle complex use cases like real-time analytics, session management, and message queuing. While it comes with certain limitations, such as memory constraints and a need for careful setup and security considerations, Redis remains a popular choice for applications that require low-latency and high-throughput data access. By following best practices in tuning and security, Redis can be a robust component of your technology stack, offering scalability and reliability for modern application needs.
+Redis is a popular choice for applications that require low-latency and high-throughput data access. By following best practices in tuning and security, Redis can be a robust component of your technology stack, offering scalability and reliability for modern application needs.
+
+## Contact Information 
+| Name | Email Address |
+|:---:|:---:|
+| Komal | komal.jaiswal.snaatak@mygurukulam.co |
