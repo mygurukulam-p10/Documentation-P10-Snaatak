@@ -81,7 +81,8 @@ git clone https://github.com/OT-MICROSERVICES/employee-api.git
 cat liquibase-keyring.gpg | sudo tee /usr/share/keyrings/liquibase-keyring.gpg > /dev/null && \
 echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/liquibase-keyring.gpg] https://repo.liquibase.com stable main' | sudo tee /etc/apt/sources.list.d/liquibase.list
 ```
-  ![Run the following command to import the Liquibase GPG key and add the Liquibase repository to the apt sources list](https://github.com/user-attachments/assets/49af7288-e3c1-4523-a1f3-93ddf2f3e9a5)
+  ![Run the following command to import the Liquibase GPG key and add the Liquibase repository to the apt sources list](https://github.com/user-attachments/assets/9f7d846e-4700-4a97-849a-bcdd5caa8c56)
+
 #### Install Liqibase packages.
   ```
   sudo apt-get update
@@ -94,19 +95,23 @@ echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/liquibase-keyring.gpg] https
 ```
 liquibase --version
 ```
-![liquibase version](https://github.com/user-attachments/assets/acf660d7-c612-45fa-ba60-c70b41e62294)
+![liquibase version](https://github.com/user-attachments/assets/71f06fdc-ebee-4ff7-845a-789d030fdb2e)
+
 
 #### Set Liquibase Properties File
 - liquibase.properties
 
-![liquibase p](https://github.com/user-attachments/assets/8966202f-df6c-4ca1-8ca7-93db5e0c0689)
+![liquibase p](https://github.com/user-attachments/assets/7f3187a1-a0f7-4216-b882-9342d77614c4)
+
 
 
 #### First Changeset
-![changeset](https://github.com/user-attachments/assets/0c40031d-4ebc-4cd2-9d49-fafad1d667f8)
+![changeset](https://github.com/user-attachments/assets/103babf4-9839-4873-ba8c-cf76f5353b7c)
+
 
 #### Integrate Liquibase into your build processes using Maven
-![maven pom file](https://github.com/user-attachments/assets/8d46ca81-fe53-41e8-8ffd-d2ed3ae4ea92)
+![maven pom file](https://github.com/user-attachments/assets/b7b65040-e280-4593-81ba-b780130d8f95)
+
 
 
 
@@ -115,41 +120,44 @@ liquibase --version
   ```
   mvn liquibase:update
 ```
-![liquibase u1](https://github.com/user-attachments/assets/1719f314-6ed4-49a6-b465-5bddfb609b91)
-![liquibase u2](https://github.com/user-attachments/assets/ede74da6-0a96-485e-8b89-d6a6dba1da1b)
+![liquibase u1](https://github.com/user-attachments/assets/38aac39b-7e99-44f0-8606-02dc513ba52b)
+![liquibase u2](https://github.com/user-attachments/assets/b171f236-339c-401a-9a6c-08fae43cb59f)
+
 
 #### Add tag 
   
   ```
   liquibase tag v1.0
 ```
-![liquibase t1](https://github.com/user-attachments/assets/0ae74428-6265-48e8-98fe-b9a96ec7db9e)
-![liquibase t2](https://github.com/user-attachments/assets/39156f58-9156-45a7-9aea-8f7278dc4925)
-
-
-
+![liquibase t1](https://github.com/user-attachments/assets/c070c5ae-72d3-4a35-80cb-e9a67ec209fe)
+![liquibase t2](https://github.com/user-attachments/assets/bd729c73-b8db-4d9e-b774-e6697c2d3771)
 
 
 #### similarly we create 2 changeset with tag v2.0 and v3.0
-![liquibase t3](https://github.com/user-attachments/assets/201b1afd-82a0-4d10-aed3-1f066d76b296)
+![liquibase t3](https://github.com/user-attachments/assets/af08bfa9-9f78-4906-8945-a3f166205a79)
+
 
 ## 1. **Rolling Back to a Tag**
   ```
   liquibase rollback v1.0
 ```
-![liquibase r](https://github.com/user-attachments/assets/a048f548-38d4-47de-88e1-eb0605acfb52)
+![liquibase r](https://github.com/user-attachments/assets/3a7770d3-1be7-43c0-878b-175dd60feeac)
+
 
  ```
  liquibase history
 ```
 By this we can see is rollback is successful or not
-![liquibase r1](https://github.com/user-attachments/assets/58c9112f-848e-47eb-add3-d72fd684985f)
+![liquibase r1](https://github.com/user-attachments/assets/b876e2a4-6e9d-4fa9-957b-ba7a962cd6f7)
+
 
 ## 2. **Rolling Back by Count**
 ```
 mvn liquibase:update
 ```
-![liquibase h](https://github.com/user-attachments/assets/7f0ad847-3f9a-48cc-bffa-1b9ed584bb59)
+![liquibase h](https://github.com/user-attachments/assets/99db5e35-0c7b-436c-bbb8-caeba0979863)
+
+
 
   ```
   liquibase rollbackCount 1
