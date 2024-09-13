@@ -34,9 +34,11 @@ Feature Branch Flow is a simple yet effective branching strategy where each new 
   - Ideal for small teams or projects with straightforward development needs.
   - Changes are merged back into the main branch once completed.
 
-Ref
-https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20%2B%20POC/Branching%20Strategy/Feature%20Branch%20Flow/README.md
+Reference
 
+```
+https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20%2B%20POC/Branching%20Strategy/Feature%20Branch%20Flow/README.md
+```
 ### Git Flow
 
 Git Flow is a more structured branching strategy with multiple branches for feature development, releases, and hotfixes. It is well-suited for projects with a formal release cycle.
@@ -46,8 +48,11 @@ Git Flow is a more structured branching strategy with multiple branches for feat
   - Uses feature branches for new features and hotfix branches for urgent fixes.
   - Provides clear separation between development, testing, and production-ready code.
 
-Ref
+Reference
+
+```
 https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20%2B%20POC/Branching%20Strategy/Git%20Flow/README.md
+```
 
 ### GitLab Flow
 
@@ -58,8 +63,11 @@ GitLab Flow combines aspects of Feature Branch Flow and Git Flow, focusing on de
   - Simplifies the merge and deployment process.
   - Supports continuous integration/continuous deployment (CI/CD) pipelines.
 
-Ref 
+Reference
+
+``` 
 https://github.com/mygurukulam-p10/Documention/tree/main/VCS%20Design%20%2B%20POC/Branching%20Strategy/GitLab%20Flow
+```
 
 ### Environment Branch Flow
 
@@ -70,8 +78,11 @@ Environment Branch Flow uses long-lived branches that correspond to deployment e
   - Code promotion flows upstream from less stable to more stable environments.
   - Supports complex deployment scenarios with multiple testing or staging environments.
 
-Ref
+Reference
+
+```
 https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20%2B%20POC/Branching%20Strategy/Env%20branch%20flow/README.md
+```
 
 ## How to Choose a Branching Strategy
 
