@@ -11,11 +11,11 @@
 - [Contact Information](#contact-information)
 - [References](#references)
 
-## :dart:Introduction
+## :bulb: Introduction
 A **Micro Repo** is a development approach where a single repository is used to manage a small set of closely related projects or components. This contrasts with monorepos (which handle multiple large projects) or polyrepos (where every project has its own repository). Micro repos aim to balance complexity, manageability, and scalability in software development, particularly when working with small teams or tightly coupled projects.
 
 
-## Why Use a Micro Repo?
+## :dart: Why Use a Micro Repo?
 Micro repos offer a middle ground between monorepos and polyrepos, providing:
 - **Simplified Project Management**: Each repo is small and manageable, reducing the overhead of complex tooling needed for larger repos.
 - **Focused Codebases**: Each repository handles a small, focused set of tasks or services, making it easier to maintain and test.
