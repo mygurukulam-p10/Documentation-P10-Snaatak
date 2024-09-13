@@ -20,19 +20,13 @@
 12. [Conclusion](#conclusion)
 13. [References](#references)
 
-## 1. What is a Database and Cache?
+## What is a Database and Cache?
 
-### Database
-- Persistent storage system for structured data.
-- Supports CRUD operations (Create, Read, Update, Delete).
-- Ensures data integrity and consistency.
-- **Examples:** MySQL, PostgreSQL, MongoDB.
+| **Concept** | **Description**                                                                                                                                                      | **Examples**                |
+|-------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|
+| **Database** | - Persistent storage system for structured data. <br> - Supports CRUD operations (Create, Read, Update, Delete). <br> - Ensures data integrity and consistency. | MySQL, PostgreSQL, MongoDB |
+| **Cache**   | - Temporary storage layer for frequently accessed data. <br> - Improves application performance by reducing database load. <br> - Typically stores data in memory for faster access. | Redis, Memcached           |
 
-### Cache
-- Temporary storage layer for frequently accessed data.
-- Improves application performance by reducing database load.
-- Typically stores data in memory for faster access.
-- **Examples:** Redis, Memcached.
 
 ## 2. Why We Are Learning Redis and the Problems It Addresses
 
@@ -66,42 +60,59 @@
 
 ## 3. Alternatives and Comparison
 
-### Redis vs Memcached
-- Both are in-memory key-value stores.
-- Redis supports more complex data structures.
-- Redis offers persistence and replication.
+## Redis vs Memcached
 
-### Redis vs MongoDB
-- MongoDB is a document-oriented database.
-- Redis is primarily an in-memory data store.
-- MongoDB is better for complex queries, Redis for fast read/write operations.
+| **Comparison**                | **Redis**                                             | **Memcached**                             |
+|-------------------------------|-------------------------------------------------------|-------------------------------------------|
+| **Type**                      | In-memory key-value store                             | In-memory key-value store                 |
+| **Data Structures**           | Supports more complex data structures (lists, sets)   | Primarily supports strings                |
+| **Persistence**               | Offers persistence                                    | No persistence                            |
+| **Replication**               | Supports replication                                  | No built-in replication                   |
 
-### Redis vs PostgreSQL
-- PostgreSQL is a relational database.
-- Redis is faster for simple operations.
-- PostgreSQL offers more advanced querying capabilities.
-- **Purpose with Redis:** Use Redis for caching and rapid data access, while PostgreSQL handles complex transactions and structured data storage.
+## Redis vs MongoDB
 
-### Redis vs MySQL
-- MySQL is a relational database.
-- Redis provides faster read/write for simpler data structures.
-- MySQL offers ACID compliance for complex transactions.
+| **Comparison**                | **Redis**                               | **MongoDB**                                   |
+|-------------------------------|-----------------------------------------|-----------------------------------------------|
+| **Type**                      | In-memory data store                   | Document-oriented database                    |
+| **Performance**               | Faster read/write operations           | Suitable for complex queries                  |
+| **Use Case**                  | Best for caching and simple data       | Better for handling complex data and queries  |
 
-### Redis vs ScyllaDB
-- ScyllaDB is a distributed NoSQL database.
-- Redis offers simpler setup and management.
-- ScyllaDB provides better scalability for large datasets.
-- **Purpose with Redis:** Leverage Redis for caching and real-time data access, while ScyllaDB handles large-scale, distributed data with low-latency access.
+## Redis vs PostgreSQL
+
+| **Comparison**                | **Redis**                               | **PostgreSQL**                               |
+|-------------------------------|-----------------------------------------|----------------------------------------------|
+| **Type**                      | In-memory key-value store              | Relational database                          |
+| **Performance**               | Faster for simple operations           | Offers advanced querying capabilities        |
+| **Use Case**                  | Caching and rapid data access          | Complex transactions and structured data     |
+
+## Redis vs MySQL
+
+| **Comparison**                | **Redis**                               | **MySQL**                                    |
+|-------------------------------|-----------------------------------------|----------------------------------------------|
+| **Type**                      | In-memory key-value store              | Relational database                          |
+| **Performance**               | Faster read/write for simpler data     | Offers ACID compliance for complex transactions |
+| **Use Case**                  | Best for simple data and caching       | Complex, structured data management          |
+
+## Redis vs ScyllaDB
+
+| **Comparison**                | **Redis**                               | **ScyllaDB**                                 |
+|-------------------------------|-----------------------------------------|----------------------------------------------|
+| **Type**                      | In-memory key-value store              | Distributed NoSQL database                   |
+| **Setup**                     | Simpler setup and management           | Provides better scalability for large datasets |
+| **Use Case**                  | Caching and real-time data access      | Handles large-scale, distributed data with low-latency access |
+
 
 ## 4. Key Features of Redis
 
-- **Data Structures Supported:** Strings, hashes, lists, sets, sorted sets, bitmaps, hyperloglogs, geospatial indexes, and streams.
-- **Pub/Sub Messaging:** Enables message communication between different parts of an application.
-- **Transactions:** Supports atomic operations using MULTI, EXEC, and DISCARD commands.
-- **Lua Scripting:** Allows execution of custom scripts.
-- **Replication:** Master-slave replication for high availability.
-- **Persistence:** Options for snapshots and append-only file persistence.
-- **Cluster Mode:** Supports horizontal scaling and sharding.
+| **Feature**                  | **Description**                                                                                   |
+|------------------------------|---------------------------------------------------------------------------------------------------|
+| **Data Structures Supported**| Strings, hashes, lists, sets, sorted sets, bitmaps, hyperloglogs, geospatial indexes, and streams. |
+| **Pub/Sub Messaging**        | Enables message communication between different parts of an application.                         |
+| **Transactions**             | Supports atomic operations using MULTI, EXEC, and DISCARD commands.                              |
+| **Lua Scripting**            | Allows execution of custom scripts.                                                              |
+| **Replication**              | Master-slave replication for high availability.                                                  |
+| **Persistence**              | Options for snapshots and append-only file persistence.                                          |
+| **Cluster Mode**             | Supports horizontal scaling and sharding.                                                        |
 
 ## 5. Block Architecture of Redis
 
@@ -269,35 +280,16 @@ This architecture allows Redis to provide high-speed data access while also offe
 
 ## Conclusion
 
-Redis is a powerful in-memory data structure store that serves as a database, cache, and message broker. It is known for its high performance, versatility in supporting various data structures, and its ability to handle complex use cases like real-time analytics, session management, and message queuing. While it comes with certain limitations, such as memory constraints and a need for careful setup and security considerations, Redis remains a popular choice for applications that require low-latency and high-throughput data access. By following best practices in tuning and security, Redis can be a robust component of your technology stack, offering scalability and reliability for modern application needs.
+Redis is a powerful in-memory data structure store that serves as a database, cache, and message broker. It is known for its high performance, versatility in supporting various data structures, and its ability to handle complex use cases like real-time analytics, session management, and message queuing. 
 
 ## References
 
-1. [Redis Official Documentation](https://redis.io/documentation)
-2. [Redis Commands Reference](https://redis.io/commands)
-3. [Redis Persistence](https://redis.io/topics/persistence)
-4. [Redis Replication](https://redis.io/topics/replication)
-5. [Redis Sentinel Documentation](https://redis.io/topics/sentinel)
-6. [Redis Cluster Specification](https://redis.io/topics/cluster-spec)
-7. [Redis Security](https://redis.io/topics/security)
-8. [Redis Pub/Sub](https://redis.io/topics/pubsub)
-9. [Redis Transactions](https://redis.io/topics/transactions)
-10. [Redis Lua Scripting](https://redis.io/commands/eval)
-11. [Redis Performance Optimization](https://redis.io/topics/latency)
-12. [Redis Memory Optimization](https://redis.io/topics/memory-optimization)
-13. [Redis Enterprise Documentation](https://docs.redis.com/latest/rs/)
-14. [Redis vs. Memcached](https://aws.amazon.com/elasticache/redis-vs-memcached/)
-15. [Redis vs. MongoDB](https://www.mongodb.com/compare/redis-vs-mongodb)
-16. [Redis vs. PostgreSQL](https://scalegrid.io/blog/redis-vs-postgresql-which-one-to-choose/)
-17. [Redis vs. MySQL](https://scalegrid.io/blog/redis-vs-mysql-a-comparison-of-features-performance-and-use-cases/)
-18. [Redis vs. ScyllaDB](https://www.scylladb.com/product/comparison/scylladb-vs-redis/)
-19. [Redis Best Practices](https://redislabs.com/redis-best-practices/)
-20. [Redis Observability](https://redis.com/redis-enterprise/redis-insight/)
-21. [Redis Use Cases](https://redis.com/solutions/use-cases/)
-22. [Redis Performance Benchmarks](https://redis.io/topics/benchmarks)
-23. [Redis Design Patterns](https://redis.com/redis-best-practices/introduction/)
-24. [Redis in Microservices Architecture](https://redislabs.com/blog/redis-microservices-patterns/)
-25. [Redis Data Modeling](https://redis.com/redis-best-practices/data-modeling/)
+| **Reference**                      | **Link**                                                                                                                             | **Description**                                    |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| Redis Official Documentation       | [Redis Documentation](https://redis.io/documentation)                                                                               | Comprehensive guide to Redis features and usage.   |
+| Redis Commands Reference           | [Redis Commands](https://redis.io/commands)                                                                                         | Detailed list and explanation of Redis commands.   |
+| Redis Persistence                  | [Redis Persistence](https://redis.io/topics/persistence)                                                                            | Information on Redis persistence options.          |
+| Redis POC                          | [Redis POC Guide](https://github.com/mygurukulam-p10/Documention/blob/main/OT%20MS%20Understanding/Redis/Setup%20and%20run%20App%20for%20POC/README.md) | Guide for setting up and running Redis POC.        |
 
 ## Presentation
 
