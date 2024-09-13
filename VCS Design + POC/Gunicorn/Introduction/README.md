@@ -95,7 +95,7 @@ E.g. ``` gunicorn myapp:app ```
 
 This command runs ```app``` object from ```myapp``` module.
 
-## 7. Condiguaration
+## 7. Configuaration
 
 Gunicorn can be configured via command-line arguments or a configuration file (`gunicorn.conf.py`). The configuration file path is typically located in the root of your project.
 
