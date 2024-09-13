@@ -36,18 +36,23 @@ Gunicorn was created by Benoit Chesneau and Paul J. Davis in 2010. Its name, "Gr
 ### Why Gunicorn is Used
 Gunicorn serves as a bridge between your web application and the web server. It's primarily used for:
 
-- **Production-Ready**: Capable of handling concurrent requests efficiently.
-- **Easy to Use**: Simple setup with minimal configuration.
-- **Process Management**: Automatically manages worker processes, improving stability and resource utilization.
-- **Compatibility**: Works with a wide range of web frameworks like Django, Flask, and Pyramid.
-- **Performance**: Handles a large number of simultaneous connections, suitable for high-traffic websites.
+| **Category**      | **Description**                                                                                     |
+|-------------------|-----------------------------------------------------------------------------------------------------|
+| **Production-Ready** | Capable of handling concurrent requests efficiently.                                               |
+| **Easy to Use**     | Simple setup with minimal configuration.                                                            |
+| **Process Management** | Automatically manages worker processes, improving stability and resource utilization.              |
+| **Compatibility**   | Works with a wide range of web frameworks like Django, Flask, and Pyramid.                          |
+| **Performance**     | Handles a large number of simultaneous connections, suitable for high-traffic websites.              |
 
 ### Benefits of Gunicorn
-- **Scalability**: Easily scale by adjusting the number of worker processes.
-- **Flexibility**: Supports various worker types (sync, async, gevent, etc.).
-- **Reliability**: Automatic worker process management ensures application uptime.
-- **Security**: Built-in protection against slowloris attacks and other vulnerabilities.
-- **Monitoring**: Hooks for integrating with monitoring tools to track application performance.
+
+| **Benefit**       | **Description**                                                                                     |
+|-------------------|-----------------------------------------------------------------------------------------------------|
+| **Scalability**   | Easily scale by adjusting the number of worker processes.                                            |
+| **Flexibility**   | Supports various worker types (sync, async, gevent, etc.).                                          |
+| **Reliability**   | Automatic worker process management ensures application uptime.                                      |
+| **Security**      | Built-in protection against slowloris attacks and other vulnerabilities.                             |
+| **Monitoring**    | Hooks for integrating with monitoring tools to track application performance.                        |
 
 ## 4. Advantages and Disadvantages
 
