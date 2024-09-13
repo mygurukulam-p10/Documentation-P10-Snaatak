@@ -48,11 +48,6 @@ There are various types of repositories that cater to different aspects of DevOp
    - Tools: **Ansible Galaxy**, **Puppet Forge**, **Chef Supermarket**.
    - Features: Versioning of configuration files, role/playbook management.
    - Example: `github.com/company/configurations`.
-### 6. **Helm Chart Repositories**
-   - Host Kubernetes Helm charts for deploying cloud-native applications.
-   - Tools: **Helm Hub**, **Azure Helm Repo**, **JFrog Helm Repository**.
-   - Features: Helm chart storage, version control, dependency management.
-   - Example: `helmhub.com/company/helm-charts`.
 ---
 ##  Features of DevOps Repositories
 | Feature                        | Description                                                                 |
@@ -66,10 +61,10 @@ There are various types of repositories that cater to different aspects of DevOp
 | **Collaboration**               | Enable cross-team collaboration with pull requests, code reviews, and comments. |
 | **Dependency Management**       | Handle and manage code dependencies across projects efficiently.             |
 | **Scalability**                 | Support multiple teams and repositories with large-scale project management.  |
----
+
 ##  Conclusion
 DevOps repositories are the foundation of modern software delivery pipelines. They enable teams to work efficiently by providing tools for version control, collaboration, automation, and security. Whether you're managing source code, artifacts, infrastructure, or container images, a well-organized repository strategy is crucial for achieving smooth and scalable DevOps practices.
----
+
 ##  Contact Information
 For any queries or further information, feel free to contact:
 | **Name**  | **Email**                       |
