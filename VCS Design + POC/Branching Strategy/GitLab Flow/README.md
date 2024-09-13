@@ -6,10 +6,10 @@
 2. [Key Principles of GitLab Flow](#key-principles-of-gitlab-flow)
 3. [GitLab Flow Process](#gitlab-flow-process)
 4. [Advantages](#advantages)
-5. [Challenges](#challenges)
+5. [Drawbacks](#drawbacks)
 6. [Best Practices](#best-practices)
 7. [Conclusion](#conclusion)
-8. [References](#References)
+8. [References](#references)
 
 ## Introduction
 
@@ -19,11 +19,13 @@ GitLab Flow combines feature-driven development with issue tracking, emphasizing
 
 ## Key Principles of GitLab Flow
 
-1. **Use feature branches**: All feature development should take place in dedicated branches.
-2. **Main branch represents production**: The main branch should always reflect the production environment.
-3. **Merge only when ready to deploy**: Features should only be merged when they're ready to be deployed to production.
-4. **Use upstream branches**: For managing different environments or versions.
-5. **Tag releases**: Use tags to mark release points for easier reference and rollback if needed.
+| Best Practice                               | Description                                                        |
+|---------------------------------------------|--------------------------------------------------------------------|
+| **Use Feature Branches**                   | All feature development should take place in dedicated branches to isolate changes and avoid conflicts. |
+| **Main Branch Represents Production**       | The main branch should always reflect the production environment, ensuring it is stable and deployable. |
+| **Merge Only When Ready to Deploy**         | Features should only be merged into the main branch when they are ready for production deployment. |
+| **Use Upstream Branches**                   | Manage different environments or versions by using upstream branches to organize and control deployments. |
+| **Tag Releases**                           | Use tags to mark release points for easier reference, versioning, and rollback if needed. |
 
 ## GitLab Flow Process
 
@@ -59,28 +61,34 @@ GitLab Flow combines feature-driven development with issue tracking, emphasizing
 
 ## Advantages
 
-1. **Simplicity**: Easier to understand and implement compared to more complex workflows.
-2. **Continuous Delivery friendly**: Supports rapid and frequent deployments.
-3. **Better visibility**: Direct correlation between branches and environments.
-4. **Flexible for different project needs**: Can be adapted for various deployment strategies.
-5. **Integrated with GitLab features**: Works seamlessly with GitLab's issue tracking and CI/CD pipelines.
+| Benefit                                  | Description                                                        |
+|------------------------------------------|--------------------------------------------------------------------|
+| **Simplicity**                           | Easier to understand and implement compared to more complex workflows. |
+| **Continuous Delivery Friendly**         | Supports rapid and frequent deployments, enabling efficient continuous delivery. |
+| **Better Visibility**                    | Provides direct correlation between branches and environments, enhancing tracking and management. |
+| **Flexible for Different Project Needs** | Can be adapted for various deployment strategies, catering to diverse project requirements. |
+| **Integrated with GitLab Features**      | Works seamlessly with GitLab's issue tracking and CI/CD pipelines, leveraging GitLab's built-in tools. |
 
-## Challenges
+## Drawbacks
 
-1. **Requires discipline**: Team members must consistently follow the workflow.
-2. **Potential for main branch instability**: If not carefully managed, the main branch can become unstable.
-3. **Less suitable for projects with long release cycles**: May need adaptation for projects that don't deploy frequently.
-4. **Learning curve**: Teams transitioning from other workflows may need time to adapt.
+| Drawback                                   | Description                                                        |
+|--------------------------------------------|--------------------------------------------------------------------|
+| **Requires Discipline**                   | Team members must consistently follow the workflow to ensure effectiveness. |
+| **Potential for Main Branch Instability**  | If not carefully managed, the main branch can become unstable, affecting overall project stability. |
+| **Less Suitable for Projects with Long Release Cycles** | May need adaptation for projects that do not deploy frequently, as the hooks are optimized for rapid deployments. |
+| **Learning Curve**                        | Teams transitioning from other workflows may need time to adapt to new practices and tools. |
 
 ## Best Practices
 
-1. **Keep features small and focused**: This reduces merge conflicts and simplifies reviews.
-2. **Use merge requests for code reviews**: Encourage thorough reviews before merging.
-3. **Implement automated testing**: Ensure all tests pass before merging to main.
-4. **Use GitLab's built-in CI/CD**: Automate your build, test, and deployment processes.
-5. **Regularly update feature branches**: Merge or rebase from main to stay up-to-date.
-6. **Use descriptive branch names**: Follow a consistent naming convention for clarity.
-7. **Delete merged feature branches**: Keep your repository clean and manageable.
+| Best Practice                               | Description                                                        |
+|---------------------------------------------|--------------------------------------------------------------------|
+| **Keep Features Small and Focused**        | Reduces merge conflicts and simplifies reviews by isolating changes. |
+| **Use Merge Requests for Code Reviews**    | Encourage thorough reviews before merging to ensure code quality. |
+| **Implement Automated Testing**            | Ensure all tests pass before merging into the main branch to maintain stability. |
+| **Use GitLab's Built-in CI/CD**             | Automate build, test, and deployment processes to streamline development. |
+| **Regularly Update Feature Branches**      | Merge or rebase from the main branch to stay current with changes. |
+| **Use Descriptive Branch Names**            | Follow a consistent naming convention for clarity and ease of understanding. |
+| **Delete Merged Feature Branches**         | Keep the repository clean and manageable by removing branches after they are merged. |
 
 ## Conclusion
 
@@ -97,8 +105,6 @@ While it may require some adjustment for teams used to other workflows, GitLab F
 | GitLab Flow vs. Other Git Workflows | Blog post comparing GitLab Flow to other popular Git workflows | https://about.gitlab.com/blog/2020/03/05/what-is-gitlab-flow/ |
 
 This table presents the information in a structured format, with columns for the title, description, and URL of each resource.
-
-
 
 ## Contact Information 
 |Name|Email Address|
