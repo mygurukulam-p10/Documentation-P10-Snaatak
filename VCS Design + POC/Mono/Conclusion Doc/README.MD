@@ -9,8 +9,8 @@
   | Aayush Gaur | 011-09-24 | version 1 | Aayush Gaur | Intial Commit |
 
 ## Table of Contents
+- [Purpose](#purpose)
 - [Introduction](#introduction)
-- [Why Use a Mono Repo?](#why-use-a-mono-repo)
 - [Features](#features)
 - [Advantages](#advantages)
 - [Challenges](#challenges)
