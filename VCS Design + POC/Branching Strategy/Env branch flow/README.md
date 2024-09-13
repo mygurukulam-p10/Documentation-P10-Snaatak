@@ -1,4 +1,4 @@
-# Environment Branch Flow:
+# Environment Branch Flow
 
 ## Table of Contents
 
@@ -29,6 +29,8 @@ The primary goal of Environment Branch Flow is to provide a clear and visual rep
 3. **Feature Branches**: Short-lived branches used for developing new features or fixes.
 4. **Merge Requests**: Used to move code between environment branches, facilitating code review and testing.
 5. **Hotfix Branches**: Special branches for critical fixes that may need to bypass the normal flow.
+
+![image](https://github.com/user-attachments/assets/ac10f2c7-7379-4943-bd3a-90ad10791d41)
 
 ## Implementing Environment Branch Flow
 
@@ -135,11 +137,8 @@ The key to success with Environment Branch Flow is consistent application of the
 | **Environment Branching Strategies**             | [An overview of different branching strategies, including environment-based workflows.](https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf) |
 | **Patterns for Managing Source Code Branches**   | [Martin Fowler's comprehensive guide to branching patterns, including environment branches.](https://martinfowler.com/articles/branching-patterns.html) |
 | **A successful Git branching model**             | [While focused on GitFlow, this article provides insights applicable to Environment Branch Flow.](https://nvie.com/posts/a-successful-git-branching-model/) |
-| **Trunk Based Development**                      | [A contrasting approach to Environment Branch Flow, useful for understanding trade-offs.](https://trunkbaseddevelopment.com/) |
-| **GitLab Flow**                                 | [GitLab's documentation on their flow, which shares some concepts with Environment Branch Flow.](https://docs.gitlab.com/ee/topics/gitlab_flow.html) |
-| **Comparing Workflows**                         | [Atlassian's comparison of different Git workflows, providing context for Environment Branch Flow.](https://www.atlassian.com/git/tutorials/comparing-workflows) |
-| **GitHub Flow**                                | [GitHub's simpler workflow, useful for understanding the differences with Environment Branch Flow.](https://guides.github.com/introduction/flow/) |
 
-
-
-![image](https://github.com/user-attachments/assets/ac10f2c7-7379-4943-bd3a-90ad10791d41)
+## Contact Information 
+| Name | Email Address |
+|:---:|:---:|
+| Komal | komal.jaiswal.snaatak@mygurukulam.co |
