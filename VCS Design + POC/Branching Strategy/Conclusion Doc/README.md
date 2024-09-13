@@ -12,8 +12,12 @@
 4. [Comparison of Branching Strategies](#comparison-of-branching-strategies)
 5. [When to Use Each Strategy](#when-to-use-each-strategy)
 6. [Conclusion](#conclusion)
-7. [Contact Information](#contact-information)
-8. [References](#references)
+7. [References](#references)
+8. [Contact Information](#contact-information)
+
+## Purpose
+
+The purpose of branching strategies is to organize and streamline the development workflow, allowing teams to work concurrently on different tasks, maintain code stability, and manage releases effectively by defining clear processes for branching, merging, and integrating code changes.
 
 ## Introduction
 
@@ -30,6 +34,9 @@ Feature Branch Flow is a simple yet effective branching strategy where each new 
   - Ideal for small teams or projects with straightforward development needs.
   - Changes are merged back into the main branch once completed.
 
+Ref
+https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20%2B%20POC/Branching%20Strategy/Feature%20Branch%20Flow/README.md
+
 ### Git Flow
 
 Git Flow is a more structured branching strategy with multiple branches for feature development, releases, and hotfixes. It is well-suited for projects with a formal release cycle.
@@ -38,6 +45,9 @@ Git Flow is a more structured branching strategy with multiple branches for feat
   - Long-lived branches for master, develop, and release.
   - Uses feature branches for new features and hotfix branches for urgent fixes.
   - Provides clear separation between development, testing, and production-ready code.
+
+Ref
+https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20%2B%20POC/Branching%20Strategy/Git%20Flow/README.md
 
 ### GitLab Flow
 
@@ -48,6 +58,9 @@ GitLab Flow combines aspects of Feature Branch Flow and Git Flow, focusing on de
   - Simplifies the merge and deployment process.
   - Supports continuous integration/continuous deployment (CI/CD) pipelines.
 
+Ref 
+https://github.com/mygurukulam-p10/Documention/tree/main/VCS%20Design%20%2B%20POC/Branching%20Strategy/GitLab%20Flow
+
 ### Environment Branch Flow
 
 Environment Branch Flow uses long-lived branches that correspond to deployment environments like development, staging, and production. This strategy provides clear visibility into what code is deployed where.
@@ -56,6 +69,9 @@ Environment Branch Flow uses long-lived branches that correspond to deployment e
   - Long-lived branches represent different environments.
   - Code promotion flows upstream from less stable to more stable environments.
   - Supports complex deployment scenarios with multiple testing or staging environments.
+
+Ref
+https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20%2B%20POC/Branching%20Strategy/Env%20branch%20flow/README.md
 
 ## How to Choose a Branching Strategy
 
@@ -90,17 +106,19 @@ Each branching strategy offers unique benefits and is suited to different projec
 
 Choosing the right strategy involves assessing your team’s workflow, project complexity, and release needs. Ultimately, the key to successful branching lies in consistency, clear communication, and adherence to best practices.
 
+## References
+
+| Reference Name                        | Link                                                                                     | Description                                                           |
+|---------------------------------------|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| Environment Branching Strategies      | [Environment Branching Strategies](https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf) | Article on various environment branching strategies for Git.          |
+| Patterns for Managing Source Code Branches | [Patterns for Managing Source Code Branches](https://martinfowler.com/articles/branching-patterns.html) | Martin Fowler's article on different branching patterns in source control. |
+| A Successful Git Branching Model      | [A Successful Git Branching Model](https://nvie.com/posts/a-successful-git-branching-model/) | A detailed explanation of the Gitflow branching model by Vincent Driessen. |
+| Trunk Based Development               | [Trunk Based Development](https://trunkbaseddevelopment.com/)                            | Overview of trunk-based development, focusing on continuous integration. |
+| GitLab Flow                           | [GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html)                        | Documentation on GitLab Flow, combining feature branching and CI/CD.  |
+| Comparing Workflows                   | [Comparing Workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)       | Atlassian's guide to comparing different Git workflows.               |
+| GitHub Flow                           | [GitHub Flow](https://guides.github.com/introduction/flow/)                              | Introduction to the GitHub Flow, a simplified branching strategy.     |
+
 ## Contact Information
 |Name|Email Address|
 |:---:|:---:|
 |Komal|komal.jaiswal.snaatak@mygurukulam.co|
-
-## References
-
-1. [Environment Branching Strategies](https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf)
-2. [Patterns for Managing Source Code Branches](https://martinfowler.com/articles/branching-patterns.html)
-3. [A Successful Git Branching Model](https://nvie.com/posts/a-successful-git-branching-model/)
-4. [Trunk Based Development](https://trunkbaseddevelopment.com/)
-5. [GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html)
-6. [Comparing Workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
-7. [GitHub Flow](https://guides.github.com/introduction/flow/)
