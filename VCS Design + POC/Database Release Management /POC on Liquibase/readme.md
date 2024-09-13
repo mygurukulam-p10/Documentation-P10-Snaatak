@@ -21,7 +21,8 @@ Liquibase is a tool designed to help manage and automate database schema changes
 7. [Step-by-step installation](#step-by-step-installation)
 
 ## Architecture
-![liquibase arch](https://github.com/user-attachments/assets/a425ba8e-1536-4b75-b06b-5759d9397311)
+![liquibase arch](https://github.com/user-attachments/assets/ffac290d-4ff9-405e-8a10-08d74d73abd4)
+
 
 
 
