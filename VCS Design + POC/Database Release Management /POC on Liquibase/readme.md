@@ -162,7 +162,8 @@ mvn liquibase:update
   ```
   liquibase rollbackCount 1
 ```
-![liquibase u2](https://github.com/user-attachments/assets/5c7886a1-acaa-4dbe-9a37-8d633cfdb3ba)
+![liquibase u2](https://github.com/user-attachments/assets/b726b188-b929-4d30-b93d-4dcb6bfefa38)
+
 
 ## 3. **Rolling Back to Date**
   ```
