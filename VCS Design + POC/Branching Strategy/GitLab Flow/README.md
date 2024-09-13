@@ -87,11 +87,15 @@ While it may require some adjustment for teams used to other workflows, GitLab F
 
 ## References
 
-1. [GitLab Flow | GitLab](https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/) - Official GitLab documentation on GitLab Flow.
-2. [Introduction to GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html) - Comprehensive guide to GitLab Flow from GitLab docs.
-3. [GitLab Flow vs. Other Git Workflows](https://about.gitlab.com/blog/2020/03/05/what-is-gitlab-flow/) - Blog post comparing GitLab Flow to other popular Git workflows.
-4. [GitLab Flow | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) - Atlassian's perspective on GitLab Flow, providing a comparison with other workflows.
-5. [Git Workflow | GitLab](https://docs.gitlab.com/ee/topics/git/git_workflow.html) - Detailed explanation of Git workflows in GitLab, including GitLab Flow.
+| Title | Description | URL |
+|-------|-------------|-----|
+| GitLab Flow \| GitLab | Official GitLab documentation on GitLab Flow | https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/ |
+| Introduction to GitLab Flow | Comprehensive guide to GitLab Flow from GitLab docs | https://docs.gitlab.com/ee/topics/gitlab_flow.html |
+| GitLab Flow vs. Other Git Workflows | Blog post comparing GitLab Flow to other popular Git workflows | https://about.gitlab.com/blog/2020/03/05/what-is-gitlab-flow/ |
+| GitLab Flow \| Atlassian Git Tutorial | Atlassian's perspective on GitLab Flow, providing a comparison with other workflows | https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow |
+| Git Workflow \| GitLab | Detailed explanation of Git workflows in GitLab, including GitLab Flow | https://docs.gitlab.com/ee/topics/git/git_workflow.html |
+
+This table presents the information in a structured format, with columns for the title, description, and URL of each resource.
 
 ![image](https://github.com/user-attachments/assets/77e1bb74-fad5-4199-97bd-823e2cde1d6e)
 
