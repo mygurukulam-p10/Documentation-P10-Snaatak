@@ -12,6 +12,10 @@
 8. [Conclusion](#conclusion)
 9. [References](#References)
 
+## Purpose 
+
+To manage different stages of development, staging and production environment.
+
 ## Introduction
 
 Environment Branch Flow is a Git workflow strategy that emphasizes the use of long-lived branches to represent different deployment environments. This approach is particularly useful for projects that require careful control over deployments across multiple environments, such as development, staging, and production.
@@ -82,19 +86,23 @@ git push origin production
 
 ## Advantages
 
-- **Clear Environment Representation**: Each branch directly corresponds to a deployment environment.
-- **Controlled Promotions**: Changes must pass through each environment, ensuring thorough testing.
-- **Easy Rollbacks**: If issues are found, it's easy to revert to a previous state for any environment.
-- **Simplified Hotfix Process**: Critical fixes can be applied directly to production and then backported.
-- **Supports Complex Deployment Scenarios**: Ideal for projects with multiple staging or testing environments.
+| Aspect                         | Description                                                                                     |
+|--------------------------------|-------------------------------------------------------------------------------------------------|
+| **Clear Environment Representation** | Each branch directly corresponds to a deployment environment, providing a clear structure.       |
+| **Controlled Promotions**           | Changes must pass through each environment, ensuring thorough testing and validation before deployment. |
+| **Easy Rollbacks**                  | Issues can be quickly addressed by reverting to a previous state in any environment.             |
+| **Simplified Hotfix Process**       | Critical fixes can be applied directly to production and then backported to other environments.  |
+| **Supports Complex Deployment Scenarios** | Ideal for projects with multiple staging or testing environments, handling complex deployment needs. |
 
 ## Challenges
 
-- **Branch Maintenance**: Requires ongoing management of long-lived branches.
-- **Potential for Drift**: Environment branches may diverge if not regularly synchronized.
-- **Complexity**: More complex than simpler workflows like GitHub Flow.
-- **Merge Conflicts**: Can occur when promoting changes between environment branches.
-- **Learning Curve**: Team members need to understand and consistently follow the workflow.
+| Aspect                         | Description                                                                                     |
+|--------------------------------|-------------------------------------------------------------------------------------------------|
+| **Branch Maintenance**            | Requires ongoing management and upkeep of long-lived branches to ensure they remain relevant and useful. |
+| **Potential for Drift**           | Environment branches may diverge over time if not regularly synchronized, leading to discrepancies. |
+| **Complexity**                   | More complex than simpler workflows like GitHub Flow, potentially increasing the learning curve and management overhead. |
+| **Merge Conflicts**              | Merge conflicts may arise when promoting changes between environment branches, requiring careful resolution. |
+| **Learning Curve**               | Team members need to understand and consistently follow the workflow, which may require additional training. |
 
 ## Best Practices
 
@@ -122,28 +130,16 @@ The key to success with Environment Branch Flow is consistent application of the
 
 ## References
 
-1. **[Environment Branching Strategies](https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf)**  
-   An overview of different branching strategies, including environment-based workflows.
+| Description                                      | Link                                                                                                    |
+|--------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| **Environment Branching Strategies**             | [An overview of different branching strategies, including environment-based workflows.](https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf) |
+| **Patterns for Managing Source Code Branches**   | [Martin Fowler's comprehensive guide to branching patterns, including environment branches.](https://martinfowler.com/articles/branching-patterns.html) |
+| **A successful Git branching model**             | [While focused on GitFlow, this article provides insights applicable to Environment Branch Flow.](https://nvie.com/posts/a-successful-git-branching-model/) |
+| **Trunk Based Development**                      | [A contrasting approach to Environment Branch Flow, useful for understanding trade-offs.](https://trunkbaseddevelopment.com/) |
+| **GitLab Flow**                                 | [GitLab's documentation on their flow, which shares some concepts with Environment Branch Flow.](https://docs.gitlab.com/ee/topics/gitlab_flow.html) |
+| **Comparing Workflows**                         | [Atlassian's comparison of different Git workflows, providing context for Environment Branch Flow.](https://www.atlassian.com/git/tutorials/comparing-workflows) |
+| **GitHub Flow**                                | [GitHub's simpler workflow, useful for understanding the differences with Environment Branch Flow.](https://guides.github.com/introduction/flow/) |
+| **Git Workflow | GitLab**                       | [GitLab's perspective on Git workflows, including concepts related to environment branches.](https://docs.gitlab.com/ee/topics/git/git_workflow.html) |
 
-2. **[Patterns for Managing Source Code Branches](https://martinfowler.com/articles/branching-patterns.html)**  
-   Martin Fowler's comprehensive guide to branching patterns, including environment branches.
-
-3. **[A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/)**  
-   While focused on GitFlow, this article provides insights applicable to Environment Branch Flow.
-
-4. **[Trunk Based Development](https://trunkbaseddevelopment.com/)**  
-   A contrasting approach to Environment Branch Flow, useful for understanding trade-offs.
-
-5. **[GitLab Flow](https://docs.gitlab.com/ee/topics/gitlab_flow.html)**  
-   GitLab's documentation on their flow, which shares some concepts with Environment Branch Flow.
-
-6. **[Comparing Workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)**  
-   Atlassian's comparison of different Git workflows, providing context for Environment Branch Flow.
-
-7. **[GitHub Flow](https://guides.github.com/introduction/flow/)**  
-   GitHub's simpler workflow, useful for understanding the differences with Environment Branch Flow.
-
-8. **[Git Workflow | GitLab](https://docs.gitlab.com/ee/topics/git/git_workflow.html)**  
-   GitLab's perspective on Git workflows, including concepts related to environment branches.
 
 ![image](https://github.com/user-attachments/assets/ac10f2c7-7379-4943-bd3a-90ad10791d41)
