@@ -88,10 +88,3 @@ Gitflow provides a structured approach to managing software development, especia
 |:---:|:---:|
 | Komal | komal.jaiswal.snaatak@mygurukulam.co |
 
-
-![image](https://github.com/user-attachments/assets/d5f531d7-9549-4f06-9cd1-35aaeb858412)
-
-## Contact Information 
-|Name|Email Address|
-|:---:|:---:|
-|Komal|komal.jaiswal.snaatak@mygurukulam.co|
