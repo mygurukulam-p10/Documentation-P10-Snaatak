@@ -5,20 +5,22 @@
 |----------------|------------|-----------|------------------|----------------|
 | Abhinav Singh  |   07-09-24 | version 1 |   Abhinav Singh  |     08-09-24   |
 
-
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Pre-requisites](#pre-requisites)
-3. [System Requirements](#system-requirements)
-4. [Dependencies](#dependencies)
-5. [Important Ports](#important-ports)
-6. [Step-by-step installation](#step-by-step-installation)
-7. [Architecture](#architecture)
+2. [Architecture](#architecture)
+3. [Pre-requisites](#pre-requisites)
+4. [System Requirements](#system-requirements)
+5. [Dependencies](#dependencies)
+6. [Important Ports](#important-ports)
+7. [Step-by-step installation](#step-by-step-installation)
 
 ## Introduction
 PostgreSQL is an open-source, advanced relational database management system known for its extensibility and standards compliance. It supports both SQL querying and features like JSON storage, making it versatile for modern applications.
 
 It was created to provide a powerful, reliable, and scalable database solution that addresses the need for an open-source, enterprise-grade system capable of handling complex data requirements.
+
+## Architecture
+![image](https://github.com/user-attachments/assets/6847ab70-b4b3-4546-be08-981937551cc3)
 
 ## Pre-requisites
 This application requires no prerequisites except for remote connection to the server to install PostgreSQL on.
@@ -34,7 +36,10 @@ This application requires no prerequisites except for remote connection to the s
 
 ## Dependencies
 
-Installing PostgreSQL on Ubuntu via apt automatically resolves dependencies.
+Installing PostgreSQL on Ubuntu via apt automatically resolves dependencies of PostgreSQL.
+|     Name   |  Version |                     Description                 |
+|------------|----------|-------------------------------------------------|
+| **Python** | 3.10.12  | Required to run pgadmin tool for PostgreSQL UI. |
 
 ## Important Ports
 | Inbound Traffic |   Description      |
@@ -52,26 +57,30 @@ sudo apt update && sudo apt upgrade -y
 ![image](https://github.com/user-attachments/assets/665c8501-5136-454e-b1bf-791a2d7230d3)
 
 ## Install PostgreSQL along with postgresql-contrib, which adds useful tools for database management.
-
+postgresql-contrib is a package of additional features, like extensions and modules, that enhance PostgreSQL's functionality.
 ```
 sudo apt install postgresql postgresql-contrib -y
 ```
 ![image](https://github.com/user-attachments/assets/d1a0851f-e54a-4a7e-99d1-5b2ca224e4de)
+It will install the latest version of postgres.
 
-### Start the PostgreSQL service and ensure it runs at startup
+### To install a specific version of Postgres we can specify version
+```
+sudo apt install postgresql-<version> postgresql-contrib-<version> -y
+```
+### Verify that PostgreSQL is running
+```
+sudo systemctl status postgresql
+```
+![image](https://github.com/user-attachments/assets/002c8516-966c-4955-baa8-c64359205967)
 
+### If not running then Start the PostgreSQL service and ensure it runs at startup
 ```
 sudo systemctl start postgresql
 sudo systemctl enable postgresql
 ```
 ![image](https://github.com/user-attachments/assets/1e23a3e4-232f-40a7-b8ff-6aba3332817f)
 
-### Verify that PostgreSQL is running
-
-```
-sudo systemctl status postgresql
-```
-![image](https://github.com/user-attachments/assets/002c8516-966c-4955-baa8-c64359205967)
 
 ### PostgreSQL creates a user named postgres by default. Switch to this user to interact with PostgreSQL
 
@@ -132,5 +141,3 @@ select * from mytable
 ```
 ![image](https://github.com/user-attachments/assets/a072e2de-05d0-4c15-83c2-5cdda75a24eb)
 
-## Architecture
-![image](https://github.com/user-attachments/assets/6847ab70-b4b3-4546-be08-981937551cc3)
