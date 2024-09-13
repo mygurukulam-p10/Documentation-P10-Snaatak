@@ -9,24 +9,16 @@ The purpose of this POC is to demonstrate the functionality and integration of t
 
 ## Table of Contents
 1. [Architecture](#architecture)
-2. [Pre-requisites](#pre-requisites)
-3. [System Requirements](#system-requirements)
-4. [Dependencies](#dependencies)
+2. [System Requirements](#system-requirements)
+3. [Dependencies](#dependencies)
    * [Run Time Dependencies](#run-time-dependency)
    * [Build Dependencies](#build-dependency)
-5. [Important Ports](#important-ports)
-6. [Repo clone](#clone-the-git-repository-with-command) 
-7. [Step-by-step installation](#step-by-step-installation)
-8. [Application Build](#application-build)
+4. [Step-by-step installation](#step-by-step-installation)
+
 
 
 ## Architecture
 
-
-![Employee_API Architecture drawio](https://github.com/user-attachments/assets/baecdfb0-8c23-4c02-8803-d0bfee23a8e1)
-
-## Pre-requisites
-This application requires no prerequisites except for database connectivity. Additionally, Redis can be added as a caching system.
 
 ## System Requirements
 | Hardware Specifications | Minimum Recommendation  |
@@ -37,24 +29,12 @@ This application requires no prerequisites except for database connectivity. Add
 | OS                       | Ubuntu(22.04)          |
 
 ## Dependencies
-### Run time Dependency
-| Name           | Version | Description                                                                                                                         |
-|----------------|---------|-------------------------------------------------------------------------------------------------------------------------------------|
-| ScyllaDB       | 6.1.1   |ScyllaDB is a NoSQL database being utilized as the primary database in the employee application                                      |
-| Redis          | 6.0.16  |Redis is an in-memory data structure store used for caching to enhance the performance and response time of the employee application.|
-
-
-## Build Dependency
+### Build Dependency
 | Name           | Version    | Description        |
 | -------------- | ---------- | ------------------ |
 | NVM 14        |  4.17.1    | These represent the data migration scripts or processes that ensure the data in ScyllaDB is up to date.Migrations are usually used when the database schema or structure changes.   |
 | Jq       | 1.6   | jq is likely being used to parse or manipulate JSON data related to the migration process. This could involve extracting configuration values, database connection strings, or other parameters that are stored in a JSON format.| 
 
-## Important Ports
-| Inbound Traffic | Description        |
-| --------------- | ------------------ |
-| 6379            | Used by Redis      |
-| 9042            | Used by ScyllaDB   |
 
 ```
 sudo apt install nodejs npm
