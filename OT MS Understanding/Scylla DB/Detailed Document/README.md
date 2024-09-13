@@ -97,10 +97,9 @@ ScyllaDB represents a significant advancement in the world of NoSQL databases, o
 | Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
 
 ## References
-
-| Links                                                | Descriptions                             |
-|------------------------------------------------------|------------------------------------------|
-| [ScyllaDB Documentation](https://docs.scylladb.com/) | Official ScyllaDB documentation          |
-| [ScyllaDB Installation Guide](https://docs.scylladb.com/stable/operating-scylla/procedures/install/install-ubuntu.html) | Official installation guide for Ubuntu |
-| [ScyllaDB University](https://university.scylladb.com/) | Free online courses on ScyllaDB       |
+| Links                                                                                                                | Descriptions                                     |
+|----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| [ScyllaDB Documentation](https://docs.scylladb.com/)                                                                  | Official ScyllaDB documentation                  |
+| [ScyllaDB Installation Guide](https://docs.scylladb.com/stable/operating-scylla/procedures/install/install-ubuntu.html) | Official installation guide for Ubuntu           |
+| [ScyllaDB POC](https://github.com/mygurukulam-p10/Documention/blob/main/OT%20MS%20Understanding/Scylla%20DB/Run%20ScyllaDB%20locally%20and%20POC/README.md) | ScyllaDB POC                                      |
 
