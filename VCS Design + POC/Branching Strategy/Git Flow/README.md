@@ -10,6 +10,10 @@
 7. [Conclusion](#conclusion)
 8. [References](#references)
 
+## Purpose
+
+The purpose of Gitflow is to provide a structured branching strategy that facilitates the development, testing, and deployment processes by clearly defining branch types and workflows for feature development, release management, and hotfix handling.
+
 ## Introduction
 
 Gitflow is a branching strategy that provides a structured approach to managing different aspects of a software project. It is built on Git’s branching system and is particularly useful for projects with scheduled releases and multiple developers.
