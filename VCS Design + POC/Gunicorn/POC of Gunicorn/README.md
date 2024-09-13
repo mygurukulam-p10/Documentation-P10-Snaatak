@@ -1,4 +1,4 @@
-![Screenshot from 2024-09-13 14-43-51](https://github.com/user-attachments/assets/a8f5fbec-515c-444b-b910-46c37009bffe)# Gunicorn: Simple Proof of Concept
+# Gunicorn: Simple Proof of Concept
 
 ## Table of Contents
 1. [Purpose](#purpose)
