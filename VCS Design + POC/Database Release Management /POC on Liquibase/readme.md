@@ -168,12 +168,14 @@ mvn liquibase:update
   ```
 liquibase history    
   ```
-![liquibase h1](https://github.com/user-attachments/assets/b80dd1c4-fe3e-4e4c-bf80-ee9371ce777c)
+![liquibase h1](https://github.com/user-attachments/assets/4a1ac51b-a5ee-4540-bf5b-2ec791d2fe74)
+
 
 ```
   liquibase rollbackToDate 2024-09-13T04:38:00
 ```
-![liquibase r3](https://github.com/user-attachments/assets/3bea279f-fbb9-4938-9297-74e962fe233c)
+![liquibase r3](https://github.com/user-attachments/assets/aee83771-6503-4c41-9809-10f0ca3d5202)
+
 
 
  ```
@@ -181,6 +183,7 @@ liquibase history
 ```
 By this we can see is rollback is successful or not
 
-![liquibase h2](https://github.com/user-attachments/assets/6cb284b5-7008-4549-8609-6adae4721273)
+![liquibase h2](https://github.com/user-attachments/assets/2e4563e3-df8e-476e-8717-cb48cb2bb5e2)
+
 
 
