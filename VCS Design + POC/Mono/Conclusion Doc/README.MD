@@ -47,8 +47,6 @@ When choosing between a **Monorepo** and a **Micro Repo** strategy, teams must c
   
 - **Micro Repo**, on the other hand, works best for teams that prefer **independence** in their projects, have **small, decoupled services**, and want **faster development cycles** with isolated codebases. However, managing multiple repos may lead to **complex dependencies** and **consistency challenges**.
 
-Ultimately, the decision depends on the organization's **team structure**, **development style**, and **project requirements**. For some, a **hybrid** approach (where shared code is in a Monorepo, and independent services are in Micro Repos) may offer the best of both worlds.
-
 ---
 
 ## **References**
@@ -59,4 +57,6 @@ Ultimately, the decision depends on the organization's **team structure**, **dev
 5. Bazel Build. "Best Practices for Large Codebases in Monorepos."
 
 ---
+
+
 
