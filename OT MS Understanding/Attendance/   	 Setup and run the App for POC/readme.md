@@ -134,13 +134,17 @@ pip3 --version
 
 echo "All installations completed successfully!"
 ```
+![Screenshot from 2024-09-13 09-30-17](https://github.com/user-attachments/assets/8f17900b-9123-43fe-a313-5f570ad30e2e)
 
-![Screenshot from 2024-09-07 13-07-34](https://github.com/user-attachments/assets/a6cc56e5-ec3a-4d0b-aa66-65b7fb1bcb1e)
+![Screenshot from 2024-09-13 09-30-55](https://github.com/user-attachments/assets/b583487a-ff33-4e44-a7df-42ca23b9dcdc)
 
-![Screenshot from 2024-09-07 13-07-39](https://github.com/user-attachments/assets/9280d7ae-42b3-4ba2-8cc5-96b32dfecc3b)
+![Screenshot from 2024-09-13 09-31-12](https://github.com/user-attachments/assets/e564b676-740b-48cf-bb7a-1675d69198bb)
 
+![Screenshot from 2024-09-13 09-31-24](https://github.com/user-attachments/assets/06b1d378-e4ea-4166-b23f-d22db54d4b91)
 
+![Screenshot from 2024-09-13 09-31-35](https://github.com/user-attachments/assets/bd798cb7-86b8-4d4a-a914-155ee9aa3df0)
 
+![Screenshot from 2024-09-13 09-31-44](https://github.com/user-attachments/assets/f2001b67-47d4-462c-84af-54bb67c0449e)
 
 ### Step 3 :- Run Below Command
  A library required for developing applications that interact with PostgreSQL databases. It includes header files and the static library for libpq, which is the C application programmer's interface to PostgreSQL.
