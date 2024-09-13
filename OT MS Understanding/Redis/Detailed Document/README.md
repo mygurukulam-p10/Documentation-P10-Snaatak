@@ -30,33 +30,16 @@
 
 ## 2. Why We Are Learning Redis and the Problems It Addresses
 
-1. **Performance Bottleneck:**
-   - Provides in-memory data storage for high-speed data access.
-   - Reduces latency in data retrieval operations.
+| **Problem Addressed**         | **Description**                                                                                   |
+|-------------------------------|---------------------------------------------------------------------------------------------------|
+| **Performance Bottleneck**    | Provides in-memory data storage for high-speed data access, reducing latency in data retrieval.   |
+| **Data Caching**              | Efficiently caches frequently accessed data, reducing load on primary databases.                  |
+| **Session Management**        | Stores and manages user session data, enabling quick retrieval of session information.            |
+| **Real-time Analytics**       | Supports real-time data processing and analysis with suitable data structures.                    |
+| **Scalability Challenges**    | Offers clustering and replication for horizontal scaling, supporting high throughput and low latency. |
+| **Message Queuing**           | Implements Pub/Sub messaging system to facilitate communication between different application parts. |
+| **Data Persistence and Reliability** | Provides data persistence options (RDB and AOF) and supports replication for high availability. |
 
-2. **Data Caching:**
-   - Efficiently caches frequently accessed data.
-   - Reduces load on primary databases.
-
-3. **Session Management:**
-   - Stores and manages user session data.
-   - Enables quick retrieval of session information.
-
-4. **Real-time Analytics:**
-   - Supports real-time data processing and analysis.
-   - Provides data structures suitable for analytics use cases.
-
-5. **Scalability Challenges:**
-   - Offers clustering and replication for horizontal scaling.
-   - Supports high throughput and low latency at scale.
-
-6. **Message Queuing:**
-   - Implements Pub/Sub messaging system.
-   - Facilitates communication between different parts of an application.
-
-7. **Data Persistence and Reliability:**
-   - Offers options for data persistence (RDB and AOF).
-   - Supports replication for high availability.
 
 ## 3. Alternatives and Comparison
 
