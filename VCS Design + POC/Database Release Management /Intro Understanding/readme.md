@@ -16,7 +16,6 @@ To provide an overview of version control for databases, including why it is imp
 4. [Tools for Database Version Control](#tools-for-database-version-control)
 5. [Detailed Comparison](#detailed-comparison)
 6. [Recommendations](#recommendations)
-7. [Conclusion](#conclusion)
 8. [Contact Information](#contact-information)
 9. [References](#references)
    
