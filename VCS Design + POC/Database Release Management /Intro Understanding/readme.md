@@ -40,18 +40,15 @@ Version control for databases involves managing:
 
 ## Tools for Database Version Control
 Here are some popular tools for managing database version control:
-| **Tool**                   | **Overview**                                                                                     | **Features**                                                                                       | **Website**                                     |
-|----------------------------|-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| ![Liquibase](https://github.com/user-attachments/assets/9a36fac6-e9ee-4579-9807-84065ca345fe) | Open-source tool for schema change management supporting multiple platforms.                    | - XML, YAML, JSON, SQL changelogs<br>- Rollbacks<br>- Database diffing<br>- CI/CD integration | [Liquibase](https://www.liquibase.com)          |
-| ![Flyway](https://github.com/user-attachments/assets/d98f1d01-be80-4b22-85ef-18eb2a8052de)   | Open-source tool for versioning and managing migrations known for its simplicity.               | - SQL-based and Java-based migrations<br>- Support for repeatable migrations<br>- Build tool integration | [Flyway](https://flywaydb.org)                  |
-| ![Redgate SQL Source Control](https://github.com/user-attachments/assets/1b0328cb-f6c8-4151-a9f0-7229c87bb962) | Commercial tool that integrates with SQL Server Management Studio (SSMS).                        | - Integration with Git and TFS<br>- Schema and data versioning<br>- Automated deployments | [Redgate SQL Source Control](https://www.red-gate.com/products/sql-development/sql-source-control/) |
-| ![Alembic](https://github.com/user-attachments/assets/ab82d360-d7b1-4d36-87e6-8678667d9239) | Lightweight migration tool for SQLAlchemy in Python.                                              | - Python-based migrations<br>- Support for multiple databases<br>- Integration with SQLAlchemy | [Alembic](https://alembic.sqlalchemy.org)       |
-| ![dbup](https://github.com/user-attachments/assets/6a7a0e9a-037d-44b3-a99c-b12b07afa33b)| .NET library for managing schema changes in .NET applications.                                  | - C#-based migrations<br>- Easy integration with .NET<br>- Support for SQL Server and PostgreSQL | [DbUp](https://dbup.readthedocs.io/en/latest/)            |
-
+1. **Liquibase**
+2. **Flyway**
+3. **Redgate SQL Source Control**
+4. **Alembic**
+5. **DbUp**
 
 ## Detailed Comparison
 
-| Feature                      | Liquibase | Flyway | Redgate SQL Source Control | Alembic | DbUp |
+| Feature                      | ![Liquibase](https://github.com/user-attachments/assets/9a36fac6-e9ee-4579-9807-84065ca345fe) | ![Flyway](https://github.com/user-attachments/assets/d98f1d01-be80-4b22-85ef-18eb2a8052de)  | ![Redgate SQL Source Control](https://github.com/user-attachments/assets/1b0328cb-f6c8-4151-a9f0-7229c87bb962) | ![Alembic](https://github.com/user-attachments/assets/ab82d360-d7b1-4d36-87e6-8678667d9239) | ![dbup](https://github.com/user-attachments/assets/6a7a0e9a-037d-44b3-a99c-b12b07afa33b) |
 |------------------------------|-----------|--------|----------------------------|---------|------|
 | **License**                  | Open Source | Open Source | Commercial                 | Open Source | Open Source |
 | **Supported Databases**      | Multiple   | Multiple | SQL Server                 | Multiple | SQL Server, PostgreSQL |
