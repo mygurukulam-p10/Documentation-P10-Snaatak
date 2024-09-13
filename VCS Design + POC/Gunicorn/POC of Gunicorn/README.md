@@ -1,4 +1,4 @@
-# Gunicorn: Simple Proof of Concept
+![Screenshot from 2024-09-13 14-43-51](https://github.com/user-attachments/assets/a8f5fbec-515c-444b-b910-46c37009bffe)# Gunicorn: Simple Proof of Concept
 
 ## Table of Contents
 1. [Purpose](#purpose)
@@ -33,8 +33,8 @@ This Proof of Concept (POC) demonstrates the basic setup and usage of Gunicorn, 
 |----------|---------|------------------------------------------|
 | Python   | 3.8+    | Programming language for the application |
 | pip      | 20.0+   | Package installer for Python             |
-| Gunicorn | 20.1.0  | WSGI HTTP Server                         |
-| Flask    | 2.0.1   | Web framework for Python                 |
+| Gunicorn | 23.0.0  | WSGI HTTP Server                         |
+| Flask    |^2.3.2   | Web framework for Python                 |
 
 ### Important Ports
 
