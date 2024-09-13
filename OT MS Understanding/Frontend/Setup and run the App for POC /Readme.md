@@ -56,3 +56,8 @@ This application requires no prerequisites except for database connectivity. Add
 | 6379            | Used by Redis      |
 | 9042            | Used by ScyllaDB   |
 
+```
+sudo apt install nodejs npm
+```
+<img width="959" alt="npm install" src="https://github.com/user-attachments/assets/a3eb0f6d-ebf3-4343-9d67-24c8538b57bf">
+
