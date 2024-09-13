@@ -47,7 +47,7 @@ This application requires no prerequisites except for database connectivity. Add
 ## Build Dependency
 | Name           | Version    | Description        |
 | -------------- | ---------- | ------------------ |
-| Migrate        |  4.17.1    | These represent the data migration scripts or processes that ensure the data in ScyllaDB is up to date.Migrations are usually used when the database schema or structure changes.   |
+| NVM 14        |  4.17.1    | These represent the data migration scripts or processes that ensure the data in ScyllaDB is up to date.Migrations are usually used when the database schema or structure changes.   |
 | Jq       | 1.6   | jq is likely being used to parse or manipulate JSON data related to the migration process. This could involve extracting configuration values, database connection strings, or other parameters that are stored in a JSON format.| 
 
 ## Important Ports
