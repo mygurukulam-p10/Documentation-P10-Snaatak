@@ -4,6 +4,22 @@
 
 # **Monorepo vs Micro Repo**
 
+| Author        | Created on | Version | Last updated by | Last edited on |
+  |-------------|---------|-------------|-------------|---------|
+  | Aayush Gaur | 011-09-24 | version 1 | Aayush Gaur | Intial Commit |
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Why Use a Mono Repo?](#why-use-a-mono-repo)
+- [Features](#features)
+- [Advantages](#advantages)
+- [Challenges](#challenges)
+- [Best Practices for Mono Repo Management](#best-practices-for-micro-repo-management)
+- [Conclusion](#conclusion)
+- [Contact Information](#contact-information)
+- [References](#references)
+
+
 ## **Purpose**
 The purpose of this document is to provide a comprehensive understanding of **Monorepo** and **Micro Repo** approaches in software development. This includes an introduction to both models, a comparison table highlighting their key differences, and a conclusion that helps teams choose the right strategy based on their needs. This document aims to guide organizations in adopting the most suitable repository management style for their software development lifecycle.
 
