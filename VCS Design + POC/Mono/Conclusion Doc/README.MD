@@ -60,12 +60,5 @@ When choosing between a **Monorepo** and a **Micro Repo** strategy, teams must c
 
 
 
----
-
-## **References**
-
----
-
-
 
 
