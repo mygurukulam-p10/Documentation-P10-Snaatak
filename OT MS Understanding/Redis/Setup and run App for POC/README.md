@@ -224,6 +224,7 @@ PUBLISH news_channel "Breaking news: Redis 7.0 released!"
 ```
 SUBSCRIBE news_channel
 ```
+![image](https://github.com/user-attachments/assets/26b9caf2-780c-44fa-af0b-b13193ef44e7)
 
 ### 3.2 Transactions
 
@@ -236,6 +237,7 @@ INCRBY account:1:balance -100
 INCRBY account:2:balance 100
 EXEC
 ```
+![image](https://github.com/user-attachments/assets/f16a1f1e-b61c-4119-98ad-ff5533b7d72d)
 
 ### 3.3 Lua Scripting
 
@@ -251,7 +253,8 @@ EVAL "local key = KEYS[1]; local value = ARGV[1]; redis.call('SET', key, value);
 
 Pipelining allows sending multiple commands at once:
 ```
-(echo -en "PING\r\nPING\r\nPING\r\n") | redis-cli -h localhost -p 6379 -a your_strong_password --pipe
+(echo -en "*1\r\n$4\r\nPING\r\n*1\r\n$4\r\nPING\r\n*1\r\n$4\r\nPING\r\n") | redis-cli -h localhost -p 6379 --pipe
+
 ```
 
 ### 3.5 Geospatial Operations
