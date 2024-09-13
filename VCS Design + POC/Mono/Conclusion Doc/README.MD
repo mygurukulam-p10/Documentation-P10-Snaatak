@@ -1,4 +1,4 @@
-### Detailed Documentation for **Monorepo vs Micro Repo**
+# Detailed Documentation for **Monorepo vs Micro Repo**
 
 ---
 
@@ -6,7 +6,7 @@
 
 | Author        | Created on | Version | Last updated by | Last edited on |
   |-------------|---------|-------------|-------------|---------|
-  | Aayush Gaur | 011-09-24 | version 1 | Aayush Gaur | Intial Commit |
+  | Aayush Gaur | 11-09-24 | version 1 | Aayush Gaur | Intial Commit |
 
 ## Table of Contents
 - [Purpose](#purpose)
@@ -73,13 +73,6 @@ When choosing between a **Monorepo** and a **Micro Repo** strategy, teams must c
 |-------|------------|
 |https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20+%20POC/Mono/Mono%20repo%20features/README.MD|For Mono |
 |https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20%2B%20POC/Mono/Micro%20Repo/Micro%20repo%20features/README.MD| For Micro|
-
-|links | 
-|-------|
-| https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20+%20POC/Mono/Mono%20repo%20features/README.MD |
-|https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20%2B%20POC/Mono/Micro%20Repo/Micro%20repo%20features/README.MD|
-
-
 
 
 ## References 
