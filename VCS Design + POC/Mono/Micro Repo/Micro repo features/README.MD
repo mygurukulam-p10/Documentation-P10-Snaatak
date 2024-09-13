@@ -65,7 +65,7 @@ Micro repos offer a middle ground between monorepos and polyrepos, providing:
 
 ---
 
-## Conclusion
+## :memo: Conclusion
 Micro repos offer a pragmatic balance between the complexity of monorepos and the isolation of polyrepos, allowing small, focused projects to scale efficiently. By leveraging best practices in versioning, dependency management, and automated deployment, teams can ensure smooth operations with micro repos while minimizing the common pitfalls.
 
 ---
