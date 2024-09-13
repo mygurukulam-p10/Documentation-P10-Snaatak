@@ -123,7 +123,7 @@ Gunicorn supports various worker types to handle different application needs:
 - **Async Workers**: Uses async libraries like `gevent` or `eventlet`.
 - **Tornado Workers**: Uses Tornado, suitable for applications needing non-blocking I/O.
 
-## 9. Real Life Example from Attendance API 
+## 9. Real-Life Example from Attendance API 
 
 ```
 """
