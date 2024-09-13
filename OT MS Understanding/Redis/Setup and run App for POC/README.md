@@ -36,8 +36,8 @@
    - [6.3 Session Store](#63-session-store)
    - [6.4 Leaderboard](#64-leaderboard)
 7. [Cleanup and Shutdown](#7-cleanup-and-shutdown)
-8. [References](#8-references)
-9. [Conclusion](#9-conclusion)
+8. [Conclusion](#8-conclusion)
+9. [References](#9-references)
 ---
 
 ## 1. Installation and Setup
@@ -331,7 +331,11 @@ sudo rm /var/lib/redis/dump.rdb
 sudo rm /var/lib/redis/appendonly.aof
 ```
 
-### 8. References
+## 8.Conclusion
+
+Redis is a popular choice for applications that require low-latency and high-throughput data access. By following best practices in tuning and security, Redis can be a robust component of your technology stack, offering scalability and reliability for modern application needs.
+
+### 9. References
 
 | **Reference**                       | **Description**                                                  |
 |-------------------------------------|------------------------------------------------------------------|
@@ -341,9 +345,6 @@ sudo rm /var/lib/redis/appendonly.aof
 | [Redis Detailed Document](https://github.com/mygurukulam-p10/Documention/blob/main/OT%20MS%20Understanding/Redis/Detailed%20Document/README.md) | In-depth Redis documentation and setup guide.                     |
 
 
-## Conclusion
-
-Redis is a popular choice for applications that require low-latency and high-throughput data access. By following best practices in tuning and security, Redis can be a robust component of your technology stack, offering scalability and reliability for modern application needs.
 
 ## Contact Information 
 | Name | Email Address |
