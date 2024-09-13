@@ -6,19 +6,20 @@
 1. [Introduction](#1-introduction)
 2. [History](#2-history)
 3. [Purpose and Benefits](#3-purpose-and-benefits)
-4. [Advantages and Disadvantages](#4-advantages-and-disadvantages)
-5. [Installation](#5-installation)
-6. [Basic Usage](#6-basic-usage)
-7. [Configuration](#7-configuration)
-8. [Worker Types](#8-worker-types)
-9. [Real-Life Example from Attendance API](#9-real-life-example-from-attendance-api)
-10. [Alternatives to Gunicorn](#10-alternatives-to-gunicorn)
-11. [Deployment Best Practices](#11-deployment-best-practices)
-12. [Monitoring](#12-monitoring)
-13. [Troubleshooting](#13-troubleshooting)
-14. [Security Considerations](#14-security-considerations)
-15. [Performance Tuning](#15-performance-tuning)
-16. [References](#16-references)
+4. [Architecture](#4-architecture)
+5. [Advantages and Disadvantages](#5-advantages-and-disadvantages)
+6. [Installation](#6-installation)
+7. [Basic Usage](#7-basic-usage)
+8. [Configuration](#8-configuration)
+9. [Worker Types](#9-worker-types)
+10. [Real-Life Example from Attendance API](#10-real-life-example-from-attendance-api)
+11. [Alternatives to Gunicorn](#11-alternatives-to-gunicorn)
+12. [Deployment Best Practices](#12-deployment-best-practices)
+13. [Monitoring](#13-monitoring)
+14. [Troubleshooting](#14-troubleshooting)
+15. [Security Considerations](#15-security-considerations)
+16. [Performance Tuning](#16-performance-tuning)
+17. [References](#17-references)
 
 ## 1. Introduction
 Gunicorn (Green Unicorn) is a Python Web Server Gateway Interface (WSGI) HTTP server for UNIX. It uses a pre-fork worker model, ported from Ruby's Unicorn project. Gunicorn is widely used to serve Python web applications due to its simplicity, performance, and flexibility.
@@ -54,7 +55,26 @@ Gunicorn serves as a bridge between your web application and the web server. It'
 | **Security**      | Built-in protection against slowloris attacks and other vulnerabilities.                             |
 | **Monitoring**    | Hooks for integrating with monitoring tools to track application performance.                        |
 
-## 4. Advantages and Disadvantages
+## 4. Architecture
+
+```mermaid
+graph TD
+    A[Client] -->|HTTP Request| B[Gunicorn]
+    B -->|Forward Request| C[Flask Application]
+    C -->|Process Request| D[Application Logic]
+    D -->|Generate Response| C
+    C -->|Return Response| B
+    B -->|HTTP Response| A
+```
+
+This simple architecture illustrates:
+1. Client sends an HTTP request to Gunicorn.
+2. Gunicorn forwards the request to the Flask application.
+3. The Flask application processes the request and generates a response.
+4. Gunicorn sends the response back to the client.
+
+
+## 5. Advantages and Disadvantages
 
 ### Advantages
 | Advantage           | Description                                                                                  |
@@ -78,7 +98,7 @@ Gunicorn serves as a bridge between your web application and the web server. It'
 | Potential for Slow Client Attacks | Vulnerable to certain types of slow client attacks if not properly configured.      |
 | Resource Intensive      | Running multiple worker processes can consume significant memory, especially for large apps. |
 
-## 5. Installation
+## 6. Installation
 
 To install Gunicorn, use the following command:
 
@@ -86,7 +106,7 @@ To install Gunicorn, use the following command:
 pip install gunicorn
 ```
 
-## 6. Basic Usage 
+## 7. Basic Usage 
 
 To run a Python web application with Gunicorn, use the command:
 
@@ -100,7 +120,7 @@ E.g. ``` gunicorn myapp:app ```
 
 This command runs ```app``` object from ```myapp``` module.
 
-## 7. Configuaration
+## 8. Configuaration
 
 Gunicorn can be configured via command-line arguments or a configuration file (`gunicorn.conf.py`). The configuration file path is typically located in the root of your project.
 
@@ -122,7 +142,7 @@ timeout = 30
 
 By default this conf file is not made we have to make that and if we want to use this configuartion file we have to define the path and use flag ```-c```.
 
-## 8. Worker Types
+## 9. Worker Types
 
 Gunicorn supports various worker types to handle different application needs:
 
@@ -130,7 +150,7 @@ Gunicorn supports various worker types to handle different application needs:
 - **Async Workers**: Uses async libraries like `gevent` or `eventlet`.
 - **Tornado Workers**: Uses Tornado, suitable for applications needing non-blocking I/O.
 
-## 9. Real-Life Example from Attendance API
+## 10. Real-Life Example from Attendance API
 
 ```
 """
@@ -184,7 +204,7 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
   - `0.0.0.0` means that the server will listen on all available network interfaces.
   - `8080` is the port on which the server will listen for incoming connections.
 
-## 10. Alternatives to Gunicorn
+## 11. Alternatives to Gunicorn
 
 While Gunicorn is popular, there are several alternatives:
 
@@ -194,34 +214,34 @@ While Gunicorn is popular, there are several alternatives:
 - **Tornado**: An asynchronous framework and WSGI server, good for long-lived connections.
 - **Daphne**: Supports HTTP, HTTP2, and WebSocket protocols for ASGI and WSGI.
 
-## 11. Deployment Best Practices
+## 12. Deployment Best Practices
 
 - **Use a Reverse Proxy**: Pair Gunicorn with Nginx or Apache for improved performance and security.
 - **Optimize Worker Count**: Adjust the number of workers based on CPU count and application load.
 - **Monitor Performance**: Utilize monitoring tools to keep an eye on Gunicorn's performance.
 
-## 12. Monitoring
+## 13. Monitoring
 
 Gunicorn provides hooks for integrating with various monitoring tools, allowing you to track metrics like request rates, response times, and error rates.
 
-## 13. Troubleshooting
+## 14. Troubleshooting
 
 Common issues and their solutions:
 
 - **Worker Timeouts**: Increase the timeout setting if workers are timing out.
 - **Memory Leaks**: Monitor memory usage; consider using `--preload` to identify memory leaks early.
 
-## 14. Security Considerations
+## 15. Security Considerations
 
 - **Run Gunicorn as a Non-Root User**: Avoid running Gunicorn as root for security reasons.
 - **Limit Worker Resources**: Set appropriate resource limits for workers to prevent abuse.
 
-## 15. Performance Tuning
+## 16. Performance Tuning
 
 - **Adjust Worker Type**: Use async workers for I/O-bound applications.
 - **Optimize Worker Count**: More workers can handle more requests but also consume more memory.
 
-## 16. References
+## 17. References
 
 | Reference                               | Description                                                                                         |
 |-----------------------------------------|-----------------------------------------------------------------------------------------------------|
