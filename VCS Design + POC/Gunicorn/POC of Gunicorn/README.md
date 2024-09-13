@@ -8,14 +8,10 @@
    - [Important Ports](#important-ports)
 3. [Architecture](#architecture)
 4. [Step-by-step installation](#step-by-step-installation)
-5. [Monitoring](#monitoring)
-   - [Metrics](#metrics)
-   - [Health Check](#health-check)
-   - [Logging](#logging)
-6. [Troubleshooting](#troubleshooting)
-7. [FAQs](#faqs)
-8. [Contact Information](#contact-information)
-9. [References](#references)
+5. [Troubleshooting](#troubleshooting)
+6. [FAQs](#faqs)
+7. [Contact Information](#contact-information)
+8. [References](#references)
 
 ## Purpose
 This Proof of Concept (POC) demonstrates the basic setup and usage of Gunicorn, a WSGI HTTP Server for Python applications. It aims to show how to deploy a simple Flask application using Gunicorn, highlighting its key features and benefits.
@@ -123,30 +119,6 @@ if __name__ == '__main__':
 ```bash
 gunicorn --workers 3 --bind 0.0.0.0:8000 app:app
 ```
-
-## Monitoring
-
-### Metrics
-
-| Parameter        | Description                                | Priority | Threshold |
-|------------------|--------------------------------------------|----------|-----------|
-| CPU Utilization  | CPU usage by Gunicorn workers              | High     | < 80%     |
-| Memory Usage     | Memory consumption by Gunicorn processes   | High     | < 80%     |
-| Request Rate     | Number of requests handled per second      | High     | Varies    |
-| Response Time    | Time taken to respond to requests          | High     | < 200ms   |
-
-### Health Check
-
-| Name     | Type           | InitialDelaySeconds | PeriodSeconds | TimeoutSeconds | SuccessThreshold | FailureThreshold |
-|----------|----------------|----------------------|---------------|----------------|------------------|------------------|
-| App      | HTTP GET /health | 5                    | 10            | 2              | 1                | 3                |
-
-### Logging
-
-| Log Type      | Description                                 |
-|---------------|---------------------------------------------|
-| Gunicorn Logs | Access and error logs (stdout/stderr)       |
-
 ## Troubleshooting
 
 1. **Gunicorn fails to start**: 
