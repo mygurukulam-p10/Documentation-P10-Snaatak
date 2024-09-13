@@ -9,7 +9,7 @@
 6. [Basic Usage](#6-basic-usage)
 7. [Configuration](#7-configuration)
 8. [Worker Types](#8-worker-types)
-9. [Real-Life Example from Attendance API](#9-real-life-example-attendance-api)
+9. [Real-Life Example from Attendance API](#9-real-life-example-from-attendance-api)
 10. [Alternatives to Gunicorn](#10-alternatives-to-gunicorn)
 11. [Deployment Best Practices](#11-deployment-best-practices)
 12. [Monitoring](#12-monitoring)
