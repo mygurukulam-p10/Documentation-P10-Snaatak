@@ -50,13 +50,9 @@ When choosing between a **Monorepo** and a **Micro Repo** strategy, teams must c
 ---
 
 ## **References**
-1. Google Engineering Blog. "Why Google Stores Billions of Lines of Code in a Single Repository."
-2. Martin Fowler. "Monorepo vs Polyrepo: How to Choose the Right Version Control Strategy."
-3. NX Documentation. "Scaling Your Monorepo."
-4. GitHub Blog. "Managing Microservices with Multiple Repositories."
-5. Bazel Build. "Best Practices for Large Codebases in Monorepos."
 
 ---
+
 
 
 
