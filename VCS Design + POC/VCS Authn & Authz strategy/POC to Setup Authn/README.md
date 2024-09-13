@@ -148,19 +148,25 @@ git commit -S -m "Your signed commit message"
 	
 ## Common Authentication Errors and Solutions
 
-|             **Error Message**          |           **Cause**                  |                 **Solution**                  |
-|   **Permission denied (publickey)**    |  SSH keys not correctly configured   |Ensure your public key is added to Git service.|
-|**fatal: Authentication failed for...** |Incorrect credentials or token expired|         Update credentials or regenerate PAT. |
-|   **gpg: no valid OpenPGP data found** |  GPG key not properly configured    |Check the GPG key setup and configure correctly.|
-|   **OAuth access error**               | Third-party tool access token invalid | Re-authenticate using OAuth or renew token. |
+|             **Error Message**           |           **Cause**                     |                 **Solution**                  |
+|-----------------------------------------|--------------------------------------|---------------------------------------------------|
+|   **Permission denied (publickey)**     |  SSH keys not correctly configured       |Ensure your public key is added to Git service.  |
+|**fatal: Authentication failed for...**  |Incorrect credentials or token expired    |         Update credentials or regenerate PAT.   |
+|   **gpg: no valid OpenPGP data found**  |  GPG key not properly configured        |Check the GPG key setup and configure correctly.  |
+|   **OAuth access error**                | Third-party tool access token invalid     | Re-authenticate using OAuth or renew token.    |
 
 ## Best Practices for Secure Authentication
 
 **Use SSH Keys for Git Operations** - SSH keys are highly secure and recommended for accessing repositories.
+
 **Enable Two-Factor Authentication (2FA)** - On your Git service account, enable 2FA for additional security.
+
 **Limit the Scope of Personal Access Tokens** - Always restrict the scope and duration of PATs to minimize the risk if a token is compromised.
+
 **Regularly Rotate Tokens and Keys** - Periodically regenerate your SSH keys and PATs to ensure security.
+
 **Sign Commits with GPG** - Especially in larger projects, ensure commits are signed and verified to prevent unauthorized changes.
+
 **Use OAuth for Third-Party Applications** - Instead of sharing your credentials, use OAuth to grant limited access to third-party tools.
 
 ## Conclusion
