@@ -9,7 +9,7 @@
 6. [Basic Usage](#6-basic-usage)
 7. [Configuration](#7-configuration)
 8. [Worker Types](#8-worker-types)
-9. [Real-Life Example](#9-real-life-example)
+9. [Real-Life Example from Attendance API](#9-real-life-example-attendance-api)
 10. [Alternatives to Gunicorn](#10-alternatives-to-gunicorn)
 11. [Deployment Best Practices](#11-deployment-best-practices)
 12. [Monitoring](#12-monitoring)
@@ -123,7 +123,7 @@ Gunicorn supports various worker types to handle different application needs:
 - **Async Workers**: Uses async libraries like `gevent` or `eventlet`.
 - **Tornado Workers**: Uses Tornado, suitable for applications needing non-blocking I/O.
 
-## 9. Example from Attendance API 
+## 9. Real Life Example from Attendance API 
 
 ```
 """
