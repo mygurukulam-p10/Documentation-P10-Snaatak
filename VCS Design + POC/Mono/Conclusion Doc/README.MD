@@ -69,6 +69,11 @@ When choosing between a **Monorepo** and a **Micro Repo** strategy, teams must c
 |Aayush|aayush.gaur.snaatak@mygurukulam.co|
 
 ## Mono And Micro Repo Refrences 
+|links | Description |
+|-------|------------|
+|https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20+%20POC/Mono/Mono%20repo%20features/README.MD|For Mono |
+|https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20%2B%20POC/Mono/Micro%20Repo/Micro%20repo%20features/README.MD| For Micro|
+
 |links | 
 |-------|
 | https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20+%20POC/Mono/Mono%20repo%20features/README.MD |
