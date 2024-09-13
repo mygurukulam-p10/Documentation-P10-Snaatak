@@ -90,24 +90,6 @@ ScyllaDB is a high-performance, distributed NoSQL database that aims to provide 
 By combining the distributed architecture of Cassandra with performance optimizations inspired by seasoned database engineers, ScyllaDB positions itself as a solution for organizations that require extreme performance and scalability without sacrificing the familiarity of the Cassandra ecosystem.
 
 
-## Troubleshooting
-
-- If ScyllaDB service fails to start, check the logs:
-  ```bash
-  sudo journalctl -u scylla-server
-  ```
-
-- For performance issues, use the `nodetool` utility to check cluster status and performance metrics:
-  ```bash
-  nodetool status
-  nodetool tablestats
-  ```
-
-- If you encounter connection issues, ensure that the ScyllaDB service is running:
-  ```bash
-  sudo systemctl status scylla-server
-  ```
-
 ## Conclusion
 
 ScyllaDB represents a significant advancement in the world of NoSQL databases, offering a powerful solution for organizations dealing with big data and high-performance requirements. Its key strengths include:
