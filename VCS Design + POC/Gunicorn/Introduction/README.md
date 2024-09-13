@@ -79,4 +79,155 @@ To install Gunicorn, use the following command:
 pip install gunicorn
 ```
 
+## 6. Basic Usage 
 
+To run a Python web application with Gunicorn, use the command:
+
+```
+gunicorn [OPTIONS] APP_MODULE
+```
+
+Where ```APP_MODULE``` is in format ```$(MODULE_NAME):$(VARIABLE_NAME)```
+
+E.g. ``` gunicorn myapp:app ```
+
+This command runs ```app``` object from ```myapp``` module.
+
+## 7. Condiguaration
+
+Gunicorn can be configured via command-line arguments or a configuration file (`gunicorn.conf.py`). The configuration file path is typically located in the root of your project.
+
+### Key Configuration Options
+
+- `workers`: The number of worker processes.
+- `worker_class`: The type of workers (e.g., sync, async).
+- `bind`: The socket to bind (e.g., 0.0.0.0:8000).
+- `timeout`: Maximum time (in seconds) a worker can take before it is restarted.
+
+### Coniguration file ``` gunicorn.conf.py```
+
+```
+bind = '0.0.0.0:8000'
+workers = 4
+worker_class = 'sync'
+timeout = 30
+```
+
+By default this conf file is not made we have to make that and if we want to use this configuartion file we have to define the path and use flag ```-c```.
+
+## 8. Worker Types
+
+Gunicorn supports various worker types to handle different application needs:
+
+- **Sync Workers (default)**: Handles requests synchronously.
+- **Async Workers**: Uses async libraries like `gevent` or `eventlet`.
+- **Tornado Workers**: Uses Tornado, suitable for applications needing non-blocking I/O.
+
+## 9. Example from Attendance API 
+
+```
+"""
+Module for calling the main flask application.
+The application will be only supported with Flask and Gunicorn.
+"""
+from flask import Flask, json
+from flasgger import Swagger
+from prometheus_flask_exporter import PrometheusMetrics
+from router.attendance import route as create_record
+from router.cache import cache
+from utils.json_encoder import DataclassJSONEncoder
+from client.redis.redis_conn import get_caching_data
+
+app = Flask(__name__)
+
+swagger = Swagger(app)
+
+metrics = PrometheusMetrics(app)
+metrics.info("attendance_api", "Attendance API opentelemetry metrics", version="0.1.0")
+
+cache.init_app(app, get_caching_data())
+
+app.config['JSON_SORT_KEYS'] = False
+json.provider.DefaultJSONProvider.sort_keys = False
+app.json_encoder = DataclassJSONEncoder
+
+app.register_blueprint(create_record, url_prefix="/api/v1")
+
+```
+
+There is one file app.py which is used for gunicorn 
+
+### To serve this application using Gunicorn, run
+
+```
+gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
+
+```
+#### Explaination of Command 
+
+- **`gunicorn`**: This is the command to start the Gunicorn WSGI HTTP server.
+
+- **`app:app`**: This specifies the WSGI application to run. The format is `module:application`. In this case:
+  - `app` is the name of the Python module (typically a file named `app.py`).
+  - `app` is the WSGI application callable within that module.
+
+- **`--log-config log.conf`**: This option tells Gunicorn to use a custom logging configuration defined in the `log.conf` file. This file specifies how logs should be handled, such as formatting, logging levels, and destinations (e.g., files, consoles).
+
+- **`-b 0.0.0.0:8080`**: This option binds the server to the specified address and port:
+  - `0.0.0.0` means that the server will listen on all available network interfaces.
+  - `8080` is the port on which the server will listen for incoming connections.
+
+## 10. Alternatives to Gunicorn
+
+While Gunicorn is popular, there are several alternatives:
+
+- **uWSGI**: Known for performance and extensive features.
+- **Waitress**: A pure-Python WSGI server that works on Windows.
+- **mod_wsgi**: An Apache module for hosting WSGI applications.
+- **Tornado**: An asynchronous framework and WSGI server, good for long-lived connections.
+- **Daphne**: Supports HTTP, HTTP2, and WebSocket protocols for ASGI and WSGI.
+
+## 11. Deployment Best Practices
+
+- **Use a Reverse Proxy**: Pair Gunicorn with Nginx or Apache for improved performance and security.
+- **Optimize Worker Count**: Adjust the number of workers based on CPU count and application load.
+- **Monitor Performance**: Utilize monitoring tools to keep an eye on Gunicorn's performance.
+
+## 12. Monitoring
+
+Gunicorn provides hooks for integrating with various monitoring tools, allowing you to track metrics like request rates, response times, and error rates.
+
+## 13. Troubleshooting
+
+Common issues and their solutions:
+
+- **Worker Timeouts**: Increase the timeout setting if workers are timing out.
+- **Memory Leaks**: Monitor memory usage; consider using `--preload` to identify memory leaks early.
+
+## 14. Security Considerations
+
+- **Run Gunicorn as a Non-Root User**: Avoid running Gunicorn as root for security reasons.
+- **Limit Worker Resources**: Set appropriate resource limits for workers to prevent abuse.
+
+## 15. Performance Tuning
+
+- **Adjust Worker Type**: Use async workers for I/O-bound applications.
+- **Optimize Worker Count**: More workers can handle more requests but also consume more memory.
+
+## 16. References
+
+| Reference                             | Description                                                                                             |
+|---------------------------------------|---------------------------------------------------------------------------------------------------------|
+| Official Gunicorn Documentation        | Comprehensive guide on Gunicorn's features, configuration, and usage.                                  |
+| DigitalOcean Gunicorn Guide            | A step-by-step guide for deploying Flask apps with Gunicorn and Nginx on Ubuntu.                      |
+| Real Python Gunicorn Tutorial          | A practical tutorial for deploying Python apps with Gunicorn, including examples and performance tips. |
+| Gunicorn History                       | A brief history of Gunicorn and its development milestones.                                             |
+| Benchmarking uWSGI vs Gunicorn         | Comparison of Gunicorn with uWSGI in terms of performance and scalability.                             |
+| App Repository                         | The repository from where the Gunicorn is working and the app is running: [Attendance API](https://github.com/OT-MICROSERVICES/attendance-api) |
+
+
+
+## Contact Information
+|Name|Email Address|
+|:---:|:---:|
+|Komal|komal.jaiswal.snaatak@mygurukulam.co|
