@@ -75,13 +75,11 @@ sudo apt install -y python3 python3-pip
 ### Step 2: Create a Virtual Environment
 
 ```bash
-# Create a project directory
-mkdir myapp && cd myapp
-
 # Create and activate a virtual environment
 python3 -m venv venv
 source venv/bin/activate
 ```
+![Screenshot from 2024-09-13 14-43-51](https://github.com/user-attachments/assets/e1609450-cef0-44da-b6bf-b8606a0ef5be)
 
 ### Step 3: Install Dependencies
 
