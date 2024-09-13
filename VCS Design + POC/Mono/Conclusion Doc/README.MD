@@ -1,4 +1,4 @@
-Detailed Documentation for **Monorepo vs Micro Repo**
+### Detailed Documentation for **Monorepo vs Micro Repo**
 
 ---
 
@@ -46,6 +46,19 @@ When choosing between a **Monorepo** and a **Micro Repo** strategy, teams must c
 - **Monorepo** is ideal for **large-scale organizations** with **interdependent projects** that need to work together in a unified repository. It provides better **collaboration** and **dependency management** but comes with challenges in terms of **scalability** and **tooling**.
   
 - **Micro Repo**, on the other hand, works best for teams that prefer **independence** in their projects, have **small, decoupled services**, and want **faster development cycles** with isolated codebases. However, managing multiple repos may lead to **complex dependencies** and **consistency challenges**.
+
+## Contact Information 
+|Name|Email Address|
+|:---:|:---:|
+|Aayush|aayush.gaur.snaatak@mygurukulam.co|
+
+## References 
+|links | 
+|-------|
+|https://monorepo.tools |
+|https://www.atlassian.com/git/tutorials/monorepos|
+
+
 
 ---
 
