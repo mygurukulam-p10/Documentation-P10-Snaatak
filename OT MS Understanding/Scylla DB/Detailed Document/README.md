@@ -14,8 +14,6 @@
 3. [Architecture](#architecture)
 4. [Features](#features)
 5. [Detailed Explanation of ScyllaDB](#detailed-explanation-of-scylladb)
-6. [Step-by-step installation of ScyllaDB](#step-by-step-installation-of-scylladb)
-7. [Basic Operations](#basic-operations)
 8. [Troubleshooting](#troubleshooting)
 9. [Conclusion](#conclusion)
 10. [Contact Information](#contact-information)
@@ -120,111 +118,6 @@ ScyllaDB is a high-performance, distributed NoSQL database that aims to provide 
 
 By combining the distributed architecture of Cassandra with performance optimizations inspired by seasoned database engineers, ScyllaDB positions itself as a solution for organizations that require extreme performance and scalability without sacrificing the familiarity of the Cassandra ecosystem.
 
-## Step-by-step installation of ScyllaDB
-
-### Step 1: Add ScyllaDB repository
-
-```bash
-sudo gpg --homedir /tmp --no-default-keyring --keyring /etc/apt/keyrings/scylladb.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 491c93b9de7496a7
-sudo wget -O /etc/apt/sources.list.d/scylla.list http://downloads.scylladb.com/deb/debian/scylla-6.1.list
-```
-
-### Step 2: Update package cache
-
-```bash
-sudo apt-get update
-```
-
-### Step 3: Install ScyllaDB
-
-```bash
-sudo apt-get install scylla
-```
-### Step 4:  Now need to install java 11 with below commands
-   
-```
-sudo apt-get update
-```
-```
-sudo apt-get install -y openjdk-11-jre-headless
-```
-```
-sudo update-java-alternatives --jre-headless -s java-1.11.0-openjdk-amd64
-```
-### Step 5: Configure ScyllaDB
-
-```bash
-sudo scylla_setup
-```
-
-Follow the prompts to configure ScyllaDB according to your system specifications.
-
-### Step 6: Start ScyllaDB service
-
-```bash
-sudo systemctl start scylla-server
-```
-![Screenshot from 2024-09-08 00-19-13](https://github.com/user-attachments/assets/6cd720b3-7429-42eb-b438-4ba814f4c168)
-
-
-### Step 7: Verify ScyllaDB Installation
-
-```bash
-nodetool status
-```
-### Step 8. Configure user Scylla & Space
-Path ` /etc/scylla/scylla.yaml `
-```
-sudo vi /etc/scylla/scylla.yaml
-```
-After entering, Edit these entries for security purpose
-```
-authenticator: PasswordAuthenticator
-authorizer: CassandraAuthorizer
-```
-![Screenshot from 2024-09-08 00-23-44](https://github.com/user-attachments/assets/2cb523da-0921-42e3-a621-2cf4faabcb3e)
-
-
-## Basic Operations
-
-Here are some basic CQL commands to get started with ScyllaDB:
-
-1. Connect to ScyllaDB using cqlsh:
-   ```bash
-   cqlsh -u cassandra -p cassandra
-   ```
-   ![Screenshot from 2024-09-08 00-25-56](https://github.com/user-attachments/assets/e33f3204-f741-440b-a906-b250a7fbd42d)
-
-
-2. Create a keyspace:
-   ```sql
-   CREATE KEYSPACE mykeyspace WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
-   ```
-
-3. Use the keyspace:
-   ```sql
-   USE mykeyspace;
-   ```
-
-4. Create a table:
-   ```sql
-   CREATE TABLE users (
-     user_id UUID PRIMARY KEY,
-     username TEXT,
-     email TEXT
-   );
-   ```
-
-5. Insert 
-   ```sql
-   INSERT INTO users (user_id, username, email) 
-   VALUES (uuid(), 'amit', 'amit@example.com');
-   ```
-
-6. Query 
-   ```sql
-   SELECT * FROM users;
-   ```
 
 ## Troubleshooting
 
