@@ -162,6 +162,7 @@ MGET user:2:name user:2:email
 INCR visitor_count
 EXPIRE user:1:session 3600
 ```
+![image](https://github.com/user-attachments/assets/e7c6ddd0-3457-42c1-b7c7-63e5e854a77f)
 
 ### 2.3 List Operations
 
@@ -173,6 +174,7 @@ LRANGE latest_products 0 -1
 LPOP latest_products
 RPOP latest_products
 ```
+![image](https://github.com/user-attachments/assets/f1135c92-f987-40e5-a3a1-6b1555dc8961)
 
 ### 2.4 Hash Operations
 
@@ -184,6 +186,7 @@ HGETALL user:3
 HINCRBY user:3 age 20
 HDEL user:3 email
 ```
+![image](https://github.com/user-attachments/assets/600b48d6-bb33-4ba2-99d2-5108af384a41)
 
 ### 2.5 Set Operations
 
@@ -194,6 +197,7 @@ SMEMBERS popular_tags
 SISMEMBER popular_tags "nosql"
 SREM popular_tags "nosql"
 ```
+![image](https://github.com/user-attachments/assets/011ab3a0-5014-4718-9d31-e51d12586b57)
 
 ### 2.6 Sorted Set Operations
 
@@ -204,6 +208,7 @@ ZRANGE leaderboard 0 -1 WITHSCORES
 ZRANK leaderboard "player2"
 ZINCRBY leaderboard 15 "player2"
 ```
+![image](https://github.com/user-attachments/assets/145dd02f-addc-4cfd-ba23-2fb71c945272)
 
 ## 3. Advanced Features
 
@@ -239,6 +244,8 @@ Use Lua scripts for complex operations:
 ```
 EVAL "local key = KEYS[1]; local value = ARGV[1]; redis.call('SET', key, value); return redis.call('GET', key)" 1 mykey "Hello, Lua!"
 ```
+
+![image](https://github.com/user-attachments/assets/ab9dd340-f2c9-44b6-8310-a9a6322a1a7a)
 
 ### 3.4 Pipelining
 
