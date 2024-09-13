@@ -11,7 +11,7 @@
 - [Contact Information](#contact-information)
 - [References](#references)
 
-## Introduction
+## :dart:Introduction
 A **Micro Repo** is a development approach where a single repository is used to manage a small set of closely related projects or components. This contrasts with monorepos (which handle multiple large projects) or polyrepos (where every project has its own repository). Micro repos aim to balance complexity, manageability, and scalability in software development, particularly when working with small teams or tightly coupled projects.
 
 
@@ -24,7 +24,7 @@ Micro repos offer a middle ground between monorepos and polyrepos, providing:
 
 ---
 
-## Features
+## :card_file_box: Features
 - **Isolated Dependencies**: Each micro repo has its own dependency management, reducing conflicts.
 - **Independent Build and Deployment**: Micro repos allow for independent builds, reducing the risk of one project breaking another.
 - **Focused Scope**: Each repo contains only a single service or closely related components, making it easier to understand and maintain.
@@ -44,7 +44,7 @@ Micro repos offer a middle ground between monorepos and polyrepos, providing:
 
 ---
 
-## Challenges/Disadvantages
+## :x: Disadvantages
 
 | **Challenge** | **Description** |
 |---------------|-----------------|
@@ -55,7 +55,7 @@ Micro repos offer a middle ground between monorepos and polyrepos, providing:
 
 ---
 
-## Best Practices for Micro Repo Management
+##  :rocket: Best Practices for Micro Repo Management
 - **Dependency Management**: Use tools like `npm`, `pip`, or `Maven` to manage dependencies effectively across repos.
 - **Automated CI/CD**: Implement a robust CI/CD pipeline to ensure each micro repo is tested and deployed independently.
 - **Clear Documentation**: Each micro repo should have thorough documentation on its purpose, usage, and APIs.
@@ -70,13 +70,13 @@ Micro repos offer a pragmatic balance between the complexity of monorepos and th
 
 ---
 
-## Contact Information
+## 📧 Contact Information
+
 For any queries or further information, feel free to contact:
 
-| Name        | Email Address                      |
-|-------------|------------------------------------|
-| Brij Singh  | brij.singh.snaatak@mygurukulam.co  |
-
+| 📛 Name       | ✉️ Email Address                    |
+|---------------|-------------------------------------|
+| **Brij Singh**| brij.singh.snaatak@mygurukulam.co   |
 
 ## References
 - [The Case for Micro Repos](https://example.com/micro-repos-article)
