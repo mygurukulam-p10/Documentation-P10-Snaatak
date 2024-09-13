@@ -69,7 +69,7 @@ This simple architecture illustrates:
 sudo apt update && sudo apt upgrade -y
 
 # Install Python and pip
-sudo apt install -y python3 python3-pip
+sudo apt install -y  python3-pip
 ```
 
 ### Step 2: Create a Virtual Environment
