@@ -109,7 +109,7 @@ sudo systemctl start scylla-server
 ```bash
 nodetool status
 ```
-### Step 8. Configure user Scylla & Space
+### Step 8. Configure user Scylla 
 Path ` /etc/scylla/scylla.yaml `
 ```
 sudo vi /etc/scylla/scylla.yaml
