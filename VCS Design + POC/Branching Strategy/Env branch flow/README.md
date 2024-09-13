@@ -139,7 +139,7 @@ The key to success with Environment Branch Flow is consistent application of the
 | **GitLab Flow**                                 | [GitLab's documentation on their flow, which shares some concepts with Environment Branch Flow.](https://docs.gitlab.com/ee/topics/gitlab_flow.html) |
 | **Comparing Workflows**                         | [Atlassian's comparison of different Git workflows, providing context for Environment Branch Flow.](https://www.atlassian.com/git/tutorials/comparing-workflows) |
 | **GitHub Flow**                                | [GitHub's simpler workflow, useful for understanding the differences with Environment Branch Flow.](https://guides.github.com/introduction/flow/) |
-| **Git Workflow | GitLab**                       | [GitLab's perspective on Git workflows, including concepts related to environment branches.](https://docs.gitlab.com/ee/topics/git/git_workflow.html) |
+
 
 
 ![image](https://github.com/user-attachments/assets/ac10f2c7-7379-4943-bd3a-90ad10791d41)
