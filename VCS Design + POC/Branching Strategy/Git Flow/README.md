@@ -65,11 +65,13 @@ Adopting this workflow, along with best practices and appropriate tools, can lea
 
 ## References
 
-1. Atlassian. (n.d.). Git Feature Branch Workflow. Atlassian Git Tutorial. [Link](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
-2. GitHub. (n.d.). Understanding the GitHub flow. GitHub Guides. [Link](https://guides.github.com/introduction/flow/)
-3. Driessen, V. (2010). A successful Git branching model. nvie.com. [Link](https://nvie.com/posts/a-successful-git-branching-model/)
-4. Chacon, S., & Straub, B. (2014). Pro Git (2nd ed.). Apress. [Link](https://git-scm.com/book/en/v2)
-5. Trautman, P. (2019). Git Feature Branch Workflow. Atlassian. [Link](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
+| Reference Name | Link                                                                 | Description                                                      |
+|----------------|----------------------------------------------------------------------|------------------------------------------------------------------|
+| Atlassian      | [Git Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) | Atlassian Git Tutorial on the Feature Branch Workflow.           |
+| GitHub          | [Understanding the GitHub flow](https://guides.github.com/introduction/flow/) | GitHub Guides explaining the GitHub flow.                         |
+| Driessen, V.    | [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/) | Article by Vincent Driessen on a successful Git branching model.  |
+| Chacon, S., & Straub, B. | [Pro Git (2nd ed.)](https://git-scm.com/book/en/v2) | Comprehensive book on Git by Scott Chacon and Ben Straub.          |
+| Trautman, P.    | [Git Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) | Atlassian article on the Feature Branch Workflow.                |
 
 ![image](https://github.com/user-attachments/assets/d5f531d7-9549-4f06-9cd1-35aaeb858412)
 
