@@ -16,8 +16,6 @@ The Git feature branch workflow is a branching strategy that has gained signific
 
 At its core, the feature branch workflow revolves around the idea that all feature development should take place in a dedicated branch instead of the main branch. This encapsulation makes it easy for multiple developers to work on a particular feature without disturbing the main codebase.
 
-> "The feature branch workflow is a way to organize your development process so that your master branch always contains production-quality code." - Atlassian Git Tutorial [1]
-
 ## Why Use Feature Branch Workflow?
 
 The feature branch workflow addresses several key challenges in software development:
