@@ -11,10 +11,7 @@
 ## Table of Contents
 - [Purpose](#purpose)
 - [Introduction](#introduction)
-- [Features](#features)
-- [Advantages](#advantages)
-- [Challenges](#challenges)
-- [Best Practices for Mono Repo Management](#best-practices-for-micro-repo-management)
+- [Comparison: Monorepo vs Micro Repo](#comparison-monorepo-vs-micro-repo)
 - [Conclusion](#conclusion)
 - [Contact Information](#contact-information)
 - [References](#references)
@@ -69,6 +66,8 @@ When choosing between a **Monorepo** and a **Micro Repo** strategy, teams must c
 |Name|Email Address|
 |:---:|:---:|
 |Aayush|aayush.gaur.snaatak@mygurukulam.co|
+
+
 
 ## References 
 |links | 
