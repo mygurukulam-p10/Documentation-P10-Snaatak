@@ -91,7 +91,7 @@ For further reading and resources on Commit Hooks, check out the following:
 
 | Links | Descriptions|
 |------|---------------------|
-|(https://devdynamics.ai/blog/untitled-2/)| **DevDynamics** |
+|https://devdynamics.ai/blog/untitled-2/| **DevDynamics** |
 |https://unstop.com/blog/git-hooks | **Unstop** |
 |https://suthagar23.medium.com/git-hooks-keep-the-code-quality-119e6feb511e|**Medium**|
 
