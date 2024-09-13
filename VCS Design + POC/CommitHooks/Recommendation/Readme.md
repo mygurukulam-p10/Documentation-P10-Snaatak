@@ -46,7 +46,7 @@ Commit hooks are a type of Git hook that are automatically triggered during the 
 
 ### Recommendations for Using Hooks
 
-1. #### Pre-Commit Hook
+1. ### Pre-Commit Hook
 
 **Purpose:** The pre-commit hook runs before the commit is created. It is designed to check the code quality before the commit is finalized.
 
@@ -62,7 +62,7 @@ Choosing a pre-commit hook is crucial for maintaining high code quality and prev
 |Dependency Checks|Ensure all dependencies are properly defined and updated.|Avoids issues related to missing or outdated dependencies.|
 
 
-2. #### Post-Commit Hook
+2. ### Post-Commit Hook
 
 **Purpose:** The post-commit hook runs after the commit is successfully created. It is used for tasks that are better handled after the commit is finalized.
 
