@@ -19,6 +19,7 @@ Liquibase is a tool designed to help manage and automate database schema changes
 5. [Important Ports](#important-ports)
 6. [Repo clone](#clone-the-git-repository-with-command) 
 7. [Step-by-step installation](#step-by-step-installation)
+8. [Best Practices](#best-practices)
 
 ## Architecture
 ![liquibase arch](https://github.com/user-attachments/assets/ffac290d-4ff9-405e-8a10-08d74d73abd4)
@@ -186,6 +187,16 @@ liquibase history
 By this we can see is rollback is successful or not
 
 ![liquibase h2](https://github.com/user-attachments/assets/2e4563e3-df8e-476e-8717-cb48cb2bb5e2)
+
+# Best Practices
+
+| **Best Practice**            | **Description**                                                                                                    |
+|------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| **Version Control**          | Store Liquibase changelog files in version control to track changes and collaborate with your team.                |
+| **Incremental Changes**      | Apply changes incrementally and test them in a development environment before deploying to production.             |
+| **Use Tags**                 | Tag your changelogs to easily identify and rollback to specific points in your schema history.                     |
+| **Modular Changelogs**       | Organize changes into modular changelog files for better readability and maintenance.                              |
+| **Automate Updates**         | Integrate Liquibase commands into your CI/CD pipeline to automate database updates during deployments.             |
 
 
 
