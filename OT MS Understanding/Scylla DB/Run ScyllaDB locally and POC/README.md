@@ -32,7 +32,7 @@ This proof of concept (POC) aims to demonstrate the capabilities of ScyllaDB, a 
 |-------------------------|------------------------|
 | Processor               | 2 cores                |
 | RAM                     | 4GB                    |
-| Disk                    | 20GB SSD               |
+| Disk                    | 15GB SSD               |
 | OS                      | Ubuntu 22.04 LTS       |
 
 ### Dependencies
