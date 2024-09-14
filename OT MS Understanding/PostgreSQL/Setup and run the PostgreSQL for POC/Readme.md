@@ -15,6 +15,9 @@
 7. [Step-by-step installation](#step-by-step-installation)
 8. [Postgres UI](#postgres-ui)
 9. [Postgres Basic Operations](#postgres-basic-operations)
+10. [Contact Information](#contact-information)
+
+
 ## Introduction
 PostgreSQL is an open-source, advanced relational database management system known for its extensibility and standards compliance. It supports both SQL querying and features like JSON storage, making it versatile for modern applications.
 
@@ -230,3 +233,10 @@ select * from mytable
 ```
 ![image](https://github.com/user-attachments/assets/a072e2de-05d0-4c15-83c2-5cdda75a24eb)
 
+## Contact Information
+
+For any queries or further information, feel free to contact:
+
+|      Name         |        Email Address                  |
+|-------------------|---------------------------------------|
+| **Abhinav Singh** | abhinav.singh.snaatak@mygurukulam.co  |
