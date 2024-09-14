@@ -7,16 +7,47 @@
 | Komal Jaiswal  | 10-09-24    | version 1  | Komal Jaiswal      | 11-09-24       |
 
 ## Table of Contents
-
-1. [Installation and Setup](#1-installation-and-setup)
-   - [1.1 Installation](#11-installation)
-   - [1.2 Configuration](#12-configuration)
-   - [1.3 Security Setup](#13-security-setup)
-   - [1.4 Starting Redis](#14-starting-redis)
-2. [Cleanup and Shutdown](#2-cleanup-and-shutdown)
-3. [Conclusion](#3-conclusion)
-4. [References](#4-references)
+1. [Purpose](#1-purpose)
+2. [Pre-requisites](#pre-requisites)
+   - [System Requirements](#system-requirements)
+   - [Dependencies](#dependencies)
+   - [Important Ports](#important-ports)
+3. [Installation and Setup](#3-installation-and-setup)
+   - [1.1 Installation](#31-installation)
+   - [1.2 Configuration](#32-configuration)
+   - [1.3 Security Setup](#33-security-setup)
+   - [1.4 Starting Redis](#34-starting-redis)
+4. [Cleanup and Shutdown](#4-cleanup-and-shutdown)
+5. [Conclusion](#5-conclusion)
+6. [References](#6-references)
 ---
+
+## 1.  Pre-requisites
+
+### System Requirements
+
+| Hardware Specifications | Minimum Recommendation |
+|-------------------------|------------------------|
+| Processor               | 2 cores                |
+| RAM                     | 4GB                    |
+| Disk                    | 15GB SSD               |
+| OS                      | Ubuntu 22.04 LTS       |
+
+### Dependencies
+
+#### Run time Dependency
+
+| Name    | Version | Description                                    |
+|---------|---------|------------------------------------------------|
+| Redis   |  6.0.16 | Redis is an in-memory data structure store used for caching to enhance the performance and response time of the attendance application. |
+
+### Important Ports
+
+| Inbound Traffic | Description                    |
+|-----------------|--------------------------------|
+| 6379            | Default Port Redis             |
+
+
 
 ## 1. Installation and Setup
 
