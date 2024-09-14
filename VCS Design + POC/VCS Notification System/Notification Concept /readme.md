@@ -86,5 +86,5 @@ For further reading and resources on GitOps, check out the following:
 
 | Links | Descriptions|
 |------|---------------------|
-| [https://www.youtube.com/watch?v=wbkuYKoSIGo](https://git-scm.com/book/en/v2/Git-Basics-Tagging) | Git Documentation |
+| https://git-scm.com/book/en/v2/Git-Basics-Tagging| Git Documentation |
 | https://docs.github.com/en/actions | GitHub Actions Documentation |
