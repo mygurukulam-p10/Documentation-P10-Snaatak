@@ -6,15 +6,16 @@
 | Amit Nagar  | 06-09-24    | version 1  | Amit Nagar      | 06-09-24       |
 
 ## Table of Contents
-1. [Pre-requisites](#pre-requisites)
-2. [System Requirements](#system-requirements)
-3. [Dependencies](#dependencies)
+1. [Purpose](#purpose)
+2. [Pre-requisites](#pre-requisites)
+3. [System Requirements](#system-requirements)
+4. [Dependencies](#dependencies)
    * [Run Time Dependencies](#run-time-dependency)
    * [Build Dependencies](#build-dependency)
-4. [Important Ports](#important-ports)
-5. [Architecture](#architecture)
-6. [Step-by-step installation](#step-by-step-installation)
-7. [Application Build](#application-build)
+5. [Important Ports](#important-ports)
+6. [Architecture](#architecture)
+7. [Step-by-step installation](#step-by-step-installation)
+8. [Application Build](#application-build)
 
 
 ## Purpose
