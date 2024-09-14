@@ -1,4 +1,4 @@
-# Comparison of Version Control Systems: Bitbucket, GitLab, and GitHub
+# Feature of VCS - Conclusion document
 
 ## Purpose
 
@@ -138,13 +138,16 @@ Each platform excels in different areas, so selecting the best tool depends on y
 
 ## References
 
-1. [Bitbucket Features](https://bitbucket.org/product/features)
-2. [GitLab Features](https://about.gitlab.com/features/)
-3. [GitHub Features](https://github.com/features)
-4. [Bitbucket vs GitHub vs GitLab](https://www.atlassian.com/software-development/version-control/bitbucket-vs-github-vs-gitlab)
-5. [GitLab CI/CD](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/)
-6. [GitHub Actions Documentation](https://docs.github.com/en/actions)
-7. [GitHub Codespaces Documentation](https://docs.github.com/en/codespaces)
+| Description                              | Link                                                                                   |
+|------------------------------------------|----------------------------------------------------------------------------------------|
+| **Bitbucket Features**                   | [Bitbucket Features](https://bitbucket.org/product/features)                           |
+| **GitLab Features**                      | [GitLab Features](https://about.gitlab.com/features/)                                  |
+| **GitHub Features**                      | [GitHub Features](https://github.com/features)                                        |
+| **Bitbucket vs GitHub vs GitLab**        | [Bitbucket vs GitHub vs GitLab](https://www.atlassian.com/software-development/version-control/bitbucket-vs-github-vs-gitlab) |
+| **GitLab CI/CD**                        | [GitLab CI/CD](https://about.gitlab.com/stages-devops-lifecycle/continuous-integration/) |
+| **GitHub Actions Documentation**         | [GitHub Actions Documentation](https://docs.github.com/en/actions)                     |
+| **GitHub Codespaces Documentation**      | [GitHub Codespaces Documentation](https://docs.github.com/en/codespaces)               |
+
 
 ## Contact Information
 |Name|Email Address|
