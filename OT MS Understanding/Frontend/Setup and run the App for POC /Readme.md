@@ -20,8 +20,8 @@ The purpose of this POC is to demonstrate the functionality and integration of t
 ## System Requirements
 | Hardware Specifications | Minimum Recommendation  |
 |--------------------------|------------------------|
-| Processor                | dual-core              |
-| RAM                      | 4GB                    |
+| Processor                | single-core              |
+| RAM                      | 1GB                    |
 | Disk                     | 20GB                   |
 | OS                       | Ubuntu(22.04)          |
 
