@@ -11,7 +11,7 @@
 4. [Branches](#Branches)
 5. [Issues](#Issues)
 6. [GitHub Actions](#gitHub-actions)
-7. [.gitignore](#.gitignore)
+7. [gitignore](#gitignore)
 8. [Collaboration Tools](#collaboration-tools)
 9. [Insights & Analytics](#insights-&-analytics)
 10. [Conclusion](#conclusion)
@@ -175,9 +175,9 @@ GitHub Actions is a tool that helps you automate your project’s workflows, lik
 - **Custom Workflows**: Create customized workflows for different environments and processes.
 - **Extensibility**: Use actions from GitHub’s marketplace or create your own custom actions.
 
-## .gitignore
+## gitignore
 
-The .gitignore file is a special file in a Git repository that tells Git which files or directories it should ignore. This means that files listed in the .gitignore file won't be tracked, committed, or pushed to a remote repository. It is commonly used to avoid adding unnecessary or sensitive files to the version control system.
+The ``` .gitignore ``` file is a special file in a Git repository that tells Git which files or directories it should ignore. This means that files listed in the .gitignore file won't be tracked, committed, or pushed to a remote repository. It is commonly used to avoid adding unnecessary or sensitive files to the version control system.
 
 ### Why is .gitignore Important?
 
