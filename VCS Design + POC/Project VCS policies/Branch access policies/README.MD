@@ -1,6 +1,11 @@
 # Branch Access Policies
 ** This document outlines the branch access policies for our version control system (VCS). These policies help safeguard critical branches, ensure code quality, and define who has access to perform actions like merging or pushing directly to branches **.
 
+| Author        | Created on | Version | Last updated by | Last edited on |
+  |-------------|---------|-------------|-------------|---------|
+  | Aayush Gaur | 14-09-24 | version 1 | Aayush Gaur | Intial Commit |
+
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Branch Protection Rules](#branch-protection-rules)
@@ -72,6 +77,15 @@ For branches that are tied to certain environments (e.g., production or developm
 
 Branch access policies, including branch protection rules, are crucial for maintaining the quality and stability of a codebase, particularly in a collaborative environment. By enforcing these rules and policies, you reduce the risk of accidental or unauthorized changes, improve code quality, and maintain a smooth workflow across your development team.
 
+## Contact Information 
+|Name|Email Address|
+|:---:|:---:|
+|Aayush|aayush.gaur.snaatak@mygurukulam.co|
 
+## References 
+|links | 
+|-------|
+| |
+||
 
 
