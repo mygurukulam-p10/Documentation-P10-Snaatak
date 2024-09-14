@@ -22,7 +22,7 @@
 
 ## Purpose
 
- This POC will showcase ScyllaDB's installation process, basic operations.
+ This POC will showcase standalone ScyllaDB's installation process, basic operations.
 
 ## Pre-requisites
 
