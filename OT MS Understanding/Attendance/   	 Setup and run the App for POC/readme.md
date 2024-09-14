@@ -17,7 +17,7 @@
 7. [Step-by-step installation](#step-by-step-installation)
 8. [Application Build](#application-build)
 9. [Conclusion](#Conclusion)
-10. [Contact Information](#Contact Information)
+10. [Contact Information](#Contact_Information)
 
 
 ## Purpose
