@@ -39,9 +39,11 @@ Branch protection rules are key components in branch access policies. They enfor
 Access policies define who can interact with certain branches and what actions they are allowed to perform. These policies ensure that only authorized users have the necessary permissions to modify important branches.
 
 ### 3.1 Permission Levels
-** Read Access** : Users with read access can view the branch but cannot make changes.
-** Write Access** : Users with write access can push commits to the branch, but they may still be restricted by branch protection rules.
-** Admin Access** : Users with admin access have full control over the branch, including modifying branch protection rules and access permissions.
+** Read Access ** : Users with read access can view the branch but cannot make changes.
+
+** Write Access ** : Users with write access can push commits to the branch, but they may still be restricted by branch protection rules.
+
+** Admin Access ** : Users with admin access have full control over the branch, including modifying branch protection rules and access permissions.
 
 ### 3.2 Team-Based Access Control
 You can define access policies based on teams. For example, only the QA team might have write access to the staging branch, while the main branch could be restricted to the devops team for deployments.
