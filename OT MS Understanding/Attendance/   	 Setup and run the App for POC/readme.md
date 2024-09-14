@@ -12,8 +12,9 @@
    * [Run Time Dependencies](#run-time-dependency)
    * [Build Dependencies](#build-dependency)
 4. [Important Ports](#important-ports)
-5. [Step-by-step installation](#step-by-step-installation)
-6. [Application Build](#application-build)
+5. [Architecture](#architecture)
+6. [Step-by-step installation](#step-by-step-installation)
+7. [Application Build](#application-build)
 
 
 ## Purpose
@@ -57,6 +58,11 @@ This application requires no prerequisites except for database connectivity. Add
 | 6379            | Used by Redis      |
 | 5432            | Used by Postgres  |
 
+
+
+## Architecture
+
+![image](https://github.com/user-attachments/assets/35166bb1-44ed-4950-af79-4a4a32a964f9)
 
 # Step-by-step installation
 
