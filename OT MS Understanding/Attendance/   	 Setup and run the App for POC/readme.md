@@ -45,7 +45,6 @@ This application requires no prerequisites except for database connectivity. Add
 
 | Name           | Version | Description                                                                                                                      |
 | -------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Migrate        | 4.17.1  | These represent the data migration scripts or processes that ensure the data in ScyllaDB is up to date.
 | Liquibase      | 4.29.2  | A database schema change management tool, used during application deployment or setup.|
 | Poetry         | 1.8.3   | A dependency management and packaging tool for Python. Used during the build phase for installing Python dependencies.|
 | Java           | 17.0.12 | Required for Java-based build or runtime environments.|
@@ -94,12 +93,6 @@ sudo apt install -y redis-server
 sudo systemctl enable redis-server
 sudo systemctl start redis-server
 
-# Install Migrate
-curl -L https://packagecloud.io/golang-migrate/migrate/gpgkey | gpg --dearmor | sudo tee /usr/share/keyrings/migrate-keyring.gpg > /dev/null
-echo "deb [signed-by=/usr/share/keyrings/migrate-keyring.gpg] https://packagecloud.io/golang-migrate/migrate/ubuntu/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/migrate.list
-sudo apt update
-sudo apt install -y migrate
-
 # Install Liquibase
 wget -O- https://repo.liquibase.com/liquibase.asc | gpg --dearmor > liquibase-keyring.gpg
 cat liquibase-keyring.gpg | sudo tee /usr/share/keyrings/liquibase-keyring.gpg > /dev/null
@@ -132,7 +125,6 @@ rm get-pip.py
 echo "Verifying installations..."
 psql --version
 redis-server --version
-migrate -version
 liquibase --version
 poetry --version
 java -version
