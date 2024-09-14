@@ -26,7 +26,7 @@ This application requires no prerequisites except for database connectivity. Add
 
 | Hardware Specifications | Minimum Recommendation  |
 |--------------------------|------------------------|
-| Processor                | sinle-core              |
+| Processor                | single-core              |
 | RAM                      | 1GB                    |
 | Disk                     | 10GB                   |
 | OS                       | Ubuntu(22.04)          |
