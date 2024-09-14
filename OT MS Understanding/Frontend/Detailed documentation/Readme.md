@@ -19,15 +19,6 @@ The purpose of this document is to provide a comprehensive overview of the OT-Mi
 ### Architecture
 ![frontend drawio (3)](https://github.com/user-attachments/assets/b0c15c34-cf98-4708-be93-b1c9b3df05cf)
 
-###  Pre-Requisites 
-
-   - [Redis](#defination-of-redis)
-<img width="47" alt="Redis-Logo-768x480" src="https://github.com/user-attachments/assets/3095ec95-88a7-42f4-921e-91960ae90a9b">
-
-  - [ScyllaDb](#what-is-scylladb)
-<img width="43" alt="Scylla_the_sea_monster" src="https://github.com/user-attachments/assets/29e536f3-e1b7-4dfe-a607-18f3ddf840ec">
-
-
 ### Frontend Web:
 The Frontend Web is the primary user interface for the OT-Microservices stack. It is a ReactJS-based application that allows users to interact with the system through a web browser. Built using the ReactJS framework, it provides a fast, responsive, and dynamic UI that can handle complex user interactions with minimal loading times.
 
