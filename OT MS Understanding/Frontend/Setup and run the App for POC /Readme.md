@@ -15,7 +15,7 @@ The purpose of this POC is to demonstrate the functionality and integration of t
 4. [Step-by-step installation](#step-by-step-installation)
 
 ## Architecture
-
+![frontend drawio (3)](https://github.com/user-attachments/assets/a220a569-a98c-4afd-b53d-221196a57e93)
 
 ## System Requirements
 | Hardware Specifications | Minimum Recommendation  |
@@ -33,7 +33,7 @@ The purpose of this POC is to demonstrate the functionality and integration of t
 |Node      | v14.21.3  | Node.js is critical for the build and development of your ReactJS frontend, as it powers the package management, build processes, and local development server necessary for the project.|
 
                                                                       
-## Steps-By-Steps Installation
+## Step-By-Step Installation
 
 #### Step 1:- Clone-the-git-repository-with-command
 ```
