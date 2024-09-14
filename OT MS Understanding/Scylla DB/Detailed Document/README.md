@@ -7,16 +7,12 @@
 ## Table of Contents
 
 1. [Purpose](#purpose)
-2. [Pre-requisites](#pre-requisites)
-   - [System Requirements](#system-requirements)
-   - [Dependencies](#dependencies)
-   - [Important Ports](#important-ports)
-3. [Architecture](#architecture)
-4. [Features](#features)
-5. [Detailed Explanation of ScyllaDB](#detailed-explanation-of-scylladb)
-6. [Conclusion](#conclusion)
-7. [Contact Information](#contact-information)
-8. [References](#references)
+2. [Architecture](#architecture)
+3. [Features](#features)
+4. [Detailed Explanation of ScyllaDB](#detailed-explanation-of-scylladb)
+5. [Conclusion](#conclusion)
+6. [Contact Information](#contact-information)
+7. [References](#references)
     
 
 ## Purpose
