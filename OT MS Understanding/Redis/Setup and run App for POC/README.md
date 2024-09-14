@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/077fc9c0-02f7-4e65-ad57-094816aaee5e)
+
 # Redis - Setup and POC ( Standalone Redis )
 
 | Author      | Created on  | Version    | Last updated by | Last edited on |
