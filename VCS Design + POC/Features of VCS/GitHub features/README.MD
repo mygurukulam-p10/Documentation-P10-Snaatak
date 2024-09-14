@@ -2,7 +2,7 @@
 
   | Author        | Created on | Version | Last updated by | Last edited on |
   |-------------|---------|-------------|-------------|---------|
-  | Aayush Gaur | 07-09-24 | version 1 | Aayush Gaur | Intial Commit |
+  | Aayush Gaur | 07-09-24 | version 1 | Aayush Gaur | 14-09-24 |
 
 ## Table of Contents
 1. [Introduction](#introduction)
