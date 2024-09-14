@@ -35,8 +35,11 @@ This document outlines all the authentication methods in Git, their setup, and b
 Git authentication has evolved from older methods like username/password (now deprecated) to more secure, modern options, including:-
 
 **SSH Keys** - Secure key-based access.
+
 **Personal Access Tokens (PAT)** - Token-based login for HTTPS with customizable permissions.
+
 **OAuth** - Secure access for third-party apps without sharing credentials.
+
 **GPG Signing** - Verifies commit authenticity with digital signatures.
 
 ## System-Prerequisites
