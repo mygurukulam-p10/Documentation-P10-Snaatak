@@ -22,9 +22,9 @@ This Proof of Concept (POC) demonstrates the basic setup and usage of Gunicorn, 
 
 | Hardware Specifications | Minimum Recommendation |
 |-------------------------|------------------------|
-| Processor               | Dual-core              |
-| RAM                     | 4GB                    |
-| Disk                    | 20GB                   |
+| Processor               | single-core              |
+| RAM                     | 1GB                    |
+| Disk                    | 10GB                   |
 | OS                      | Ubuntu 22.04           |
 
 ### Dependencies
