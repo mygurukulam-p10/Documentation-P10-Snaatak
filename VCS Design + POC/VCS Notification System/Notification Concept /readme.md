@@ -61,27 +61,30 @@ Effective notifications improve collaboration, ensure timely responses to issues
 
 ## Events for VCS Notifications
 
-1. **Commit Event**: Triggered when a commit is made to the repository.
-2. **Merge Event**: Triggered when a branch is merged into another branch.
-3. **Pull Request Event**: Includes creation, updates, reviews, and merges of pull requests.
-4. **Build Event**: Includes success, failure, or status changes of automated builds.
-5. **Issue Event**: Covers creation, updates, resolution, and comments on issues.
-6. **Deployment Event**: Includes deployment initiation, success, failure, and rollback.
+| **Event Type**       | **Trigger Description**                                              |
+|----------------------|----------------------------------------------------------------------|
+| **Commit Event**     | Triggered when a commit is made to the repository.                   |
+| **Merge Event**      | Triggered when a branch is merged into another branch.               |
+| **Pull Request Event** | Includes creation, updates, reviews, and merges of pull requests.    |
+| **Build Event**      | Includes success, failure, or status changes of automated builds.     |
+| **Issue Event**      | Covers creation, updates, resolution, and comments on issues.        |
+| **Deployment Event** | Includes deployment initiation, success, failure, and rollback.       |
 
 ## Conclusion
 
-VCS notifications are a critical aspect of managing modern software development projects. They help keep all relevant parties informed and ensure smooth collaboration and timely responses to issues. By understanding the types of notifications and the stakeholders involved, teams can better leverage these notifications to enhance productivity and project outcomes.
+VCS notifications are vital for effective collaboration and project management in software development. By understanding the different types of notifications, the stakeholders involved, and the events that trigger them, teams can better manage their workflow, reduce errors, and enhance overall project efficiency. Implementing a well-structured notification system can significantly improve communication and project tracking.
+
 
 ## Contact Information
 
-For more information or assistance, please contact:
-
-- **Project Lead**: [Name] - [Email Address]
-- **Technical Support**: [Name] - [Email Address]
-- **General Inquiries**: [Email Address]
+| Name | Email address|
+|------|---------------------|
+| Vinay Bansal | vinay.bansal.snaatak@mygurukulam.co |
 
 ## References
+For further reading and resources on GitOps, check out the following:
 
-- [Version Control System Overview](https://example.com/vcs-overview)
-- [Best Practices for VCS Notifications](https://example.com/vcs-notification-best-practices)
-- [Documentation for VCS Integration](https://example.com/vcs-integration-docs)
+| Links | Descriptions|
+|------|---------------------|
+| [https://www.youtube.com/watch?v=wbkuYKoSIGo](https://git-scm.com/book/en/v2/Git-Basics-Tagging) | Git Documentation |
+| https://docs.github.com/en/actions | GitHub Actions Documentation |
