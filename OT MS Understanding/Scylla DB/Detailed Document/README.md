@@ -32,38 +32,19 @@ ScyllaDB follows a distributed architecture where data is automatically replicat
 
 # Features
 
-## Distributed NoSQL Database
-ScyllaDB is designed as a distributed NoSQL database, built to handle large volumes of data across multiple nodes in a cluster. Each node operates independently, enhancing fault tolerance and scalability. The distributed nature ensures that data is replicated across nodes, boosting data durability and availability.
-
-## API-Compatible with Apache Cassandra
-One of ScyllaDB's standout features is its compatibility with the Apache Cassandra API. This means ScyllaDB can use the same drivers, tools, and Query Language (CQL) as Cassandra, making it easier for users to migrate from Cassandra to ScyllaDB without major changes to their existing applications.
-
-## High-Throughput, Low-Latency Operations
-ScyllaDB is engineered for high performance, offering both high throughput and low latency. This is achieved through various optimizations such as the shard-per-core model, which dedicates a CPU core to each shard to reduce contention and improve efficiency. The database can handle millions of operations per second, making it suitable for real-time analytics and other demanding applications.
-
-## Automatic Sharding and Replication
-ScyllaDB automatically handles data sharding and replication. Sharding involves distributing data across multiple nodes to balance the load and enhance performance. Replication ensures that copies of data are maintained on different nodes to protect against data loss and improve availability. This automatic management simplifies operations and reduces the need for manual intervention.
-
-## Tunable Consistency Levels
-ScyllaDB provides tunable consistency levels, allowing users to choose the right balance between consistency and availability based on their specific requirements. Users can configure the database to offer strong consistency or eventual consistency, depending on their use case. This flexibility helps cater to different application needs, from those requiring strict consistency to those that can tolerate eventual consistency.
-
-## Advanced Compaction Strategies
-ScyllaDB includes advanced compaction strategies that help manage and optimize storage. Compaction is the process of reorganizing data to improve read performance and reduce storage overhead. ScyllaDB offers multiple compaction options, allowing users to choose the strategy that best suits their workload and data access patterns.
-
-## Lightweight Transactions
-ScyllaDB supports lightweight transactions, which provide linearizable consistency for specific operations. This feature is useful for scenarios where strict consistency is required, such as when performing financial transactions or other critical operations that need to be processed in a specific order.
-
-## Materialized Views
-Materialized views in ScyllaDB allow users to create tables that are automatically updated based on changes to a base table. This feature enables efficient querying and data aggregation by maintaining precomputed results, reducing the need for complex queries and improving performance for read-heavy workloads.
-
-## Secondary Indexes
-ScyllaDB supports secondary indexes, which allow users to create indexes on columns that are not part of the primary key. This feature helps in efficiently querying data based on non-primary key columns, improving query flexibility and performance for certain use cases.
-
-## Monitoring and Management
-ScyllaDB offers comprehensive monitoring tools and integrates well with popular monitoring solutions like Prometheus and Grafana. Additionally, it provides a web-based management interface for cluster administration, making it easier to monitor performance, manage nodes, and perform administrative tasks.
-
-## Cloud and Kubernetes Support
-ScyllaDB is cloud-native and supports deployment on major cloud platforms as well as in Kubernetes environments. This flexibility in deployment options allows organizations to leverage ScyllaDB in various infrastructure setups, including cloud-based and containerized environments.
+| **Feature**                         | **Description**                                                                                                                                                                                        |
+|-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Distributed NoSQL Database**       | ScyllaDB is a distributed NoSQL database designed to handle large volumes of data across multiple nodes, providing fault tolerance and scalability through data replication and node independence.        |
+| **API-Compatible with Apache Cassandra** | ScyllaDB is fully API-compatible with Apache Cassandra, supporting the same drivers, tools, and CQL language, allowing for easy migration from Cassandra without major changes to applications.          |
+| **High-Throughput, Low-Latency Operations** | ScyllaDB offers high performance through a shard-per-core model, providing high throughput and low latency, making it ideal for real-time analytics and handling millions of operations per second.      |
+| **Automatic Sharding and Replication** | ScyllaDB automates data sharding and replication across nodes, balancing the load and ensuring high availability and data durability, reducing the need for manual management.                          |
+| **Tunable Consistency Levels**       | ScyllaDB offers tunable consistency levels, allowing users to configure the database for strong or eventual consistency, depending on their specific application requirements.                             |
+| **Advanced Compaction Strategies**   | ScyllaDB provides advanced compaction strategies to optimize storage and read performance, allowing users to select the best strategy for their workloads.                                               |
+| **Lightweight Transactions**         | ScyllaDB supports lightweight transactions for operations requiring linearizable consistency, ideal for scenarios where strict order and consistency are necessary, such as financial transactions.       |
+| **Materialized Views**               | ScyllaDB allows the creation of materialized views that automatically update based on changes to a base table, enabling efficient querying and improving read-heavy workload performance.                |
+| **Secondary Indexes**                | ScyllaDB supports secondary indexes, enabling users to efficiently query data based on non-primary key columns, providing flexibility for specific query use cases.                                      |
+| **Monitoring and Management**        | ScyllaDB integrates with monitoring solutions like Prometheus and Grafana, and provides a web-based interface for cluster management and performance monitoring.                                         |
+| **Cloud and Kubernetes Support**     | ScyllaDB supports deployment on major cloud platforms and Kubernetes, making it a flexible choice for cloud-native and containerized environments.                                                       |
 
 
 | Pros                                         | Cons                                                 |
