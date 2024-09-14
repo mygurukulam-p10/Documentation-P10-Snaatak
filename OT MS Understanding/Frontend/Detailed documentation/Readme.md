@@ -9,7 +9,11 @@
 The purpose of this document is to provide a comprehensive overview of the OT-Microservices stack architecture, focusing on its ReactJS-based frontend application and its integration with backend services like Employee, Salary, and Attendance APIs. This architecture is designed for scalability, performance, and ease of maintenance, using technologies like Redis for caching, ScyllaDB for NoSQL storage, and PostgreSQL for relational data. The document covers key components, data flow, and the overall interaction between the frontend and backend services. Additionally, it highlights build and deployment processes, caching mechanisms, and database interactions for seamless application performance.
 
 ## Table of Contents
-1.
+1.pre
+2. Conclusion
+3. Contact Information
+4. Refference
+
 
 
 ### Architecture
