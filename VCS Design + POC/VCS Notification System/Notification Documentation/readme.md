@@ -25,6 +25,16 @@ The purpose of this document is to guide you through the setup and implementatio
 
 Version Control Systems (VCS) are essential tools for managing and tracking changes in software development projects. VCS notifications play a crucial role in keeping stakeholders informed about important events and changes within a project. This document outlines the purpose of VCS notifications, the types available, key stakeholders involved, typical events that trigger notifications.
 
+## Pre-requisites
+Before setting up VCS notifications, ensure you have the following:
+| **Requirement**           | **Details**                                                                                       |
+|---------------------------|---------------------------------------------------------------------------------------------------|
+| **VCS Account**           | A valid account on your chosen VCS platform (e.g., GitHub, GitLab, Bitbucket).                    |
+| **Repository Access**     | Administrative or sufficient permissions to configure repository settings.                        |
+| **Notification Preferences** | An understanding of the types of notifications required for your workflow.                         |
+| **Email or Communication Platform** | A configured email address or communication platform (e.g., Gmail) to receive notifications.        |
+
+
 ## Why VCS Notifications?
 - VCS notifications help ensure that all team members are aligned and aware of the project's current state. They serve several important functions:
   
@@ -73,9 +83,17 @@ Effective notifications improve collaboration, ensure timely responses to issues
 | **Issue Event**      | Covers creation, updates, resolution, and comments on issues.        |
 | **Deployment Event** | Includes deployment initiation, success, failure, and rollback.       |
 
+## Best Practices
+| **Guideline**             | **Description**                                                                                           |
+|---------------------------|-----------------------------------------------------------------------------------------------------------|
+| **Be Selective**          | Only enable notifications for events that are relevant to your role to avoid notification exhaustion.       |
+| **Organize Channels**     | Use different communication channels or categories for different types of notifications to keep things organized. |
+| **Regular Review**        | Periodically review and adjust your notification settings as the project evolves or as team needs change. |
+| **Encourage Communication** | Ensure that all team members are aware of and configure their notification settings to maintain effective communication. |
+
 ## Conclusion
 
-VCS notifications are vital for effective collaboration and project management in software development. By understanding the different types of notifications, the stakeholders involved, and the events that trigger them, teams can better manage their workflow, reduce errors, and enhance overall project efficiency. Implementing a well-structured notification system can significantly improve communication and project tracking.
+Setting up VCS notifications is crucial for maintaining effective communication and collaboration within a development team. By following this guide, you can ensure that notifications are properly configured to keep all stakeholders informed about important updates and activities. Adhering to best practices will help manage notifications efficiently and enhance overall productivity.
 
 
 ## Contact Information
