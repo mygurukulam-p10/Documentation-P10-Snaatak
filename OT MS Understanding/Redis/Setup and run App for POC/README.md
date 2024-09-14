@@ -11,9 +11,9 @@
    - [1.2 Configuration](#12-configuration)
    - [1.3 Security Setup](#13-security-setup)
    - [1.4 Starting Redis](#14-starting-redis)
-2. [Cleanup and Shutdown](#7-cleanup-and-shutdown)
-3. [Conclusion](#8-conclusion)
-4. [References](#9-references)
+2. [Cleanup and Shutdown](#2-cleanup-and-shutdown)
+3. [Conclusion](#3-conclusion)
+4. [References](#4-references)
 ---
 
 ## 1. Installation and Setup
@@ -96,7 +96,7 @@ sudo systemctl start redis-server
 ```
 redis-server /path/to/redis.conf
 ```
-## 7. Cleanup and Shutdown
+## 2. Cleanup and Shutdown
 
 To clean up Redis, stop the server and remove any persistent files if needed:
 ```
@@ -105,11 +105,11 @@ sudo rm /var/lib/redis/dump.rdb
 sudo rm /var/lib/redis/appendonly.aof
 ```
 
-## 8.Conclusion
+## 3.Conclusion
 
 Redis is a popular choice for applications that require low-latency and high-throughput data access. By following best practices in tuning and security, Redis can be a robust component of your technology stack, offering scalability and reliability for modern application needs.
 
-### 9. References
+### 4. References
 
 | **Reference**                       | **Description**                                                  |
 |-------------------------------------|------------------------------------------------------------------|
