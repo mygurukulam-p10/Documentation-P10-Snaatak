@@ -39,7 +39,7 @@ Effective notifications improve collaboration, ensure timely responses to issues
 | Feature                   | Purpose                                                   | Details                                                     |
 |---------------------------|-----------------------------------------------------------|-------------------------------------------------------------|
 | **Commit Notifications**  | Inform team members about new commits to the repository. | Includes the commit message, author, date, and changes made. |
-| **Pull Request Notifications** | Notify about the creation, update, or closure of pull requests. | Provides information on the requester's changes, reviews, and merge status. |
+| **Pull Request Notifications**![git-pull-request-fill-development](https://github.com/user-attachments/assets/047edfc3-5555-448c-ac53-ebb5d81207ba) | Notify about the creation, update, or closure of pull requests. | Provides information on the requester's changes, reviews, and merge status. |
 | **Branch Notifications**  | Alert users to new branches or changes to existing branches. | Includes branch name, changes, and related commit messages. |
 | **Issue Tracker Notifications** | Update users on the status of issues or bugs.            | Includes issue creation, updates, comments, and resolutions. |
 | **Tag Notifications**     | Inform users of new tags or releases in the repository.   | Includes tag name, related commits, and release notes.     |
@@ -87,4 +87,5 @@ For further reading and resources on GitOps, check out the following:
 | Links | Descriptions|
 |------|---------------------|
 | https://git-scm.com/book/en/v2/Git-Basics-Tagging| Git Documentation |
-| https://docs.github.com/en/actions | GitHub Actions Documentation |
+|https://axolo.co/blog/p/part-1-what-are-github-pull-requests| Github doc for pull request|
+|https://opensource.com/article/19/7/create-pull-request-github|Opensource.com|
