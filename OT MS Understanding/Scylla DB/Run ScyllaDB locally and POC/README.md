@@ -55,7 +55,8 @@ This proof of concept (POC) aims to demonstrate the capabilities of ScyllaDB, a 
 
 ScyllaDB follows a distributed architecture where data is automatically replicated across multiple nodes for fault tolerance and high availability.
 
-![Uploading Screenshot from 2024-09-14 13-21-16.png…]()
+![Screenshot from 2024-09-14 13-21-16](https://github.com/user-attachments/assets/421ee5b6-8266-41ba-8721-675433c23e31)
+
 
 
 ## Step-by-step installation of ScyllaDB
