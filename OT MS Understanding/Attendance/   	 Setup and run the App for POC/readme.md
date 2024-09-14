@@ -17,7 +17,7 @@
 
 
 ## Purpose
-Attendance Microservices is designed in Python to manage Attendance information.
+We are preparing this document so that you can easily install **Attendance Microservices** which is designed in Python to manage Attendance information.
 
 ## Pre-requisites
 This application requires no prerequisites except for database connectivity. Additionally, Redis can be added as a caching system.
