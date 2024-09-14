@@ -24,7 +24,9 @@
 7. [Best Practices for Secure Authentication](#best-practices-for-secure-authentication)
 8. [Conclusion](#conclusion)
 ## Purpose
-Git is a distributed version control system that uses various authentication methods to manage access to repositories hosted on remote services like GitHub, GitLab, Bitbucket, and others. These authentication methods ensure that only authorized users can interact with repositories, securing actions such as cloning, pushing, pulling, and managing code.
+Git is a distributed version control system that uses various authentication methods to manage access to repositories hosted on remote services like GitHub, GitLab, Bitbucket, and others.
+
+These authentication methods ensure that only authorized users can interact with repositories, securing actions such as cloning, pushing, pulling, and managing code.
 
 This document outlines all the authentication methods in Git, their setup, and best practices to maintain security.
 
