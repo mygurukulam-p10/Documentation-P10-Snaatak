@@ -21,7 +21,7 @@
 
 ## Purpose
 
-This proof of concept (POC) aims to demonstrate the capabilities of ScyllaDB, a high-performance NoSQL database that is API-compatible with Apache Cassandra. ScyllaDB is designed to handle big data workloads with high throughput and low latency. This POC will showcase ScyllaDB's installation process, basic operations, and performance characteristics.
+ We are preparing this document so that we can get the detailed information of ScyllaDB.
 
 
 ## Architecture
