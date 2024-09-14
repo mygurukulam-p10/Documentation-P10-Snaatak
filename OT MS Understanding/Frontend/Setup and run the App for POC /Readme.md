@@ -1,4 +1,4 @@
-# Employee Application POC
+# Frontend POC
 
 | Author      | Created on  | Version    | Last updated by | Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
