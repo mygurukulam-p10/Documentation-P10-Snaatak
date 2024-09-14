@@ -119,6 +119,15 @@ Paste it in your Git service's SSH key section.
 ### Using Personal Access Tokens (PAT)
 
 **Generate PAT** - Go to your Git service account settings and generate a new Personal Access Token with the required permissions.
+![image](https://github.com/user-attachments/assets/b591d8cf-78e8-4a46-96b1-2ee1f67f27e2)
+
+Choose Generate new token (Classic) and enter password when prompted.
+
+Then add a description for your token, define expiration time and select appropriate permissions in **select scopes** section and hit generate token.
+![image](https://github.com/user-attachments/assets/ae58e648-55d4-4165-af41-b835448c6dde)
+
+Copy and save newly generated token.
+![image](https://github.com/user-attachments/assets/e0d37cba-fbb4-43a7-8dad-c05041df7440)
 
 **Using PAT in Git Commands** -
 
@@ -127,6 +136,7 @@ For Git operations over HTTPS, use the PAT as your password -
 git clone https://github.com/user/repo.git
 ```
 When prompted for a password, enter the generated token.
+![image](https://github.com/user-attachments/assets/66fa2ac4-526c-4c7f-9730-089a3df9c570)
 	
 ### Setting Up GPG for Signed Commits
 
