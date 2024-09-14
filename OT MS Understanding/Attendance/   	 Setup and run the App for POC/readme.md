@@ -135,8 +135,6 @@ echo "All installations completed successfully!"
 ```
 ![Screenshot from 2024-09-13 09-30-17](https://github.com/user-attachments/assets/8f17900b-9123-43fe-a313-5f570ad30e2e)
 
-![Screenshot from 2024-09-13 09-30-55](https://github.com/user-attachments/assets/b583487a-ff33-4e44-a7df-42ca23b9dcdc)
-
 ![Screenshot from 2024-09-13 09-31-12](https://github.com/user-attachments/assets/e564b676-740b-48cf-bb7a-1675d69198bb)
 
 ![Screenshot from 2024-09-13 09-31-24](https://github.com/user-attachments/assets/06b1d378-e4ea-4166-b23f-d22db54d4b91)
