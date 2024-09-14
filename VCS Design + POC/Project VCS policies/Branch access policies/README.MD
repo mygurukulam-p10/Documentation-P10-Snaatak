@@ -2,9 +2,11 @@
 ** This document outlines the branch access policies for our version control system (VCS). These policies help safeguard critical branches, ensure code quality, and define who has access to perform actions like merging or pushing directly to branches **.
 
 ## Table of Contents
-1. [Branch Protection Rules](#branch-protection-rules)
-2. [Access Policies](#access-policies)
-3. [Detailed Documentation](#detailed-documentation)
+1. [Introduction](#introduction)
+2. [Branch Protection Rules](#branch-protection-rules)
+3. [Access Policies for Branches](#access-policies-for-branches)    
+4. [Setting Up Branch Protection Rules](#setting-up-branch-protection-rules)     
+5. [Best Practices for Managing Branch Access Policies](#best-practices-for-managing-branch-access-policies)  
 4. [Conclusion](#conclusion)
 5. [Contact Information](#contact-information)
 6. [References](#references)
@@ -51,18 +53,17 @@ You can configure access policies so that only certain users (e.g., team leads o
 For branches that are tied to certain environments (e.g., production or development), access policies can restrict who can push changes to prevent unauthorized deployments or updates.
 
 ## 4. Setting Up Branch Protection Rules
-Setting up branch protection rules in GitHub:
 
-- **Navigate to Settings **: Go to your repository’s settings page.
-- **Select Branches **: Under the "Branches" section, you can configure protection rules.
-- **Create a New Rule **: Choose the branch you want to protect and specify the rules (e.g., require pull requests, enforce status checks, etc.).
-- **Save the Rule **: Once configured, save the rule, and it will immediately go into effect.
+- ** Navigate to Settings **: Go to your repository’s settings page.
+- ** Select Branches **: Under the "Branches" section, you can configure protection rules.
+- ** Create a New Rule **: Choose the branch you want to protect and specify the rules (e.g., require pull requests, enforce status checks, etc.).
+- ** Save the Rule **: Once configured, save the rule, and it will immediately go into effect.
 
 ## 5. Best Practices for Managing Branch Access Policies
 
-- **Use Fine-Grained Permissions **: Always follow the principle of least privilege. Only give users the minimum access they need to do their job.
-- **Require Reviews for Critical Branches **: Always enforce peer reviews for critical branches to catch bugs and ensure code quality.
-- **Regularly Review and Update Access Policies **: As your team grows, periodically review your branch access policies to ensure they are still appropriate.
-- **Enforce Consistency Across Teams **: Ensure all teams follow the same protection rules for important branches like main to prevent confusion.
+- ** Use Fine-Grained Permissions **: Always follow the principle of least privilege. Only give users the minimum access they need to do their job.
+- ** Require Reviews for Critical Branches **: Always enforce peer reviews for critical branches to catch bugs and ensure code quality.
+- ** Regularly Review and Update Access Policies **: As your team grows, periodically review your branch access policies to ensure they are still appropriate.
+- ** Enforce Consistency Across Teams **: Ensure all teams follow the same protection rules for important branches like main to prevent confusion.
 
 
