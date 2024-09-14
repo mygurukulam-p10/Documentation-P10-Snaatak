@@ -104,8 +104,6 @@ While it may require some adjustment for teams used to other workflows, GitLab F
 | Introduction to GitLab Flow | Comprehensive guide to GitLab Flow from GitLab docs | https://docs.gitlab.com/ee/topics/gitlab_flow.html |
 | GitLab Flow vs. Other Git Workflows | Blog post comparing GitLab Flow to other popular Git workflows | https://about.gitlab.com/blog/2020/03/05/what-is-gitlab-flow/ |
 
-This table presents the information in a structured format, with columns for the title, description, and URL of each resource.
-
 ## Contact Information 
 |Name|Email Address|
 |:---:|:---:|
