@@ -86,7 +86,7 @@ This PoC demonstrates how to set up and use GitHub as a Version Control System. 
 
 | Name            | Email address     |
 |-----------------|-------------------|
-| GitHub Support  | support@github.com|
+| Amit Nagar      | amit.nagar.snaatak@mygurukulam.com|
 
 ## References
 
