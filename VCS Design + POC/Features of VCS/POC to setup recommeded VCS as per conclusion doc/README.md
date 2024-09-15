@@ -1,5 +1,9 @@
 # GitHub Version Control System (VCS) Setup: Proof of Concept
 
+| Author      | Created on  | Version    | Last updated by | Last edited on |
+|-------------|-------------|------------|-----------------|----------------|
+| Amit Nagar  | 06-09-24    | version 1  | Amit Nagar      | 06-09-24       |
+
 ## Table of Contents
 1. [Purpose](#purpose)
 2. [Pre-requisites](#pre-requisites)
@@ -8,7 +12,7 @@
 3. [Architecture](#architecture)
 4. [Step-by-step installation of GitHub](#step-by-step-installation-of-github)
 5. [Contact Information](#contact-information)
-6. [References](#references)
+
 
 ## Purpose
 This Poc demonstrates how to set up and use GitHub as a Version Control System. GitHub provides a centralized platform for collaborative software development, offering features like version control, issue tracking, and project management.
@@ -89,9 +93,4 @@ This Poc demonstrates how to set up and use GitHub as a Version Control System. 
 |-----------------|-------------------|
 | Amit Nagar      | amit.nagar.snaatak@mygurukulam.com|
 
-## References
 
-| Links                     | Descriptions                     |
-|---------------------------|----------------------------------|
-| https://docs.github.com/  | Official GitHub documentation    |
-| https://git-scm.com/doc   | Git documentation                |
