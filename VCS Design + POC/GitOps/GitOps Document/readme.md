@@ -12,8 +12,8 @@ GitOps is a way to manage and deploy applications by using Git as the main sourc
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [What is GitOps?](#what-is-gitOps?)
-3. [Why Implement GitOps Strategies?](#why-implement-gitOps-strategies?)
+2. [What is GitOps?](#what-is-gitops?)
+3. [Why Implement GitOps Strategies?](#why-implement-gitops-strategies?)
 4. [Types of GitOps Workflow](#types-of-gitOps-workflow)
 5. [Comparison of GitOps Workflows](#comparison-of-gitOps-workflows)
 6. [Conclusion](#conclusion)
