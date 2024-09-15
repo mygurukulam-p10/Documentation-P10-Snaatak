@@ -30,18 +30,9 @@ We are preparing this document so that you can get the detailed information abou
 - Provides excellent support for concurrent operations
 - Extensible with custom functions and data types
 
-| Pros                                             | Cons                                                  |
-|--------------------------------------------------|-------------------------------------------------------|
-| High performance for complex queries             | Can be complex to set up and maintain                 |
-| Strong data consistency and reliability          | May require more resources compared to lighter databases |
-| Active community and extensive documentation     | Slower for simple read operations compared to some NoSQL solutions |
-| Scalable for large datasets                      |                                                       |
-| Supports JSON and other NoSQL-like features      |                                                       |
 
 ### Relevant Resources:
-- [PostgreSQL Official Documentation](https://www.postgresql.org/docs/)
-- [Why You Should Choose PostgreSQL for Your Next Project](https://www.postgresqltutorial.com/postgresql-getting-started/why-postgresql/)
-- [PostgreSQL vs MySQL: Which is Better?](https://www.integrate.io/blog/postgresql-vs-mysql-which-one-is-better-for-your-use-case/)
+- [PostgreSQL Official Documentation](https://github.com/mygurukulam-p10/Documention/tree/main/OT%20MS%20Understanding/PostgreSQL)
 
 ## 3. Redis
 
@@ -52,18 +43,8 @@ We are preparing this document so that you can get the detailed information abou
 - Offers data persistence options
 - Includes built-in replication and cluster mode
 
-| Pros                                         | Cons                                                 |
-|----------------------------------------------|------------------------------------------------------|
-| Extremely fast read/write operations         | Limited storage capacity (bound by RAM)              |
-| Reduces database load by caching data        | Data can be lost if not configured for persistence   |
-| Supports distributed locking and session management | Less suitable for complex queries compared to relational databases |
-| Lightweight and easy to set up               |                                                      |
-| Versatile for various use cases beyond caching |                                                      |
-
 ### Relevant Resources:
-- [Redis Official Documentation](https://redis.io/documentation)
-- [Redis: Beyond Simple Caching](https://redis.com/blog/redis-beyond-caching/)
-- [Redis vs Memcached: Which One to Choose?](https://aws.amazon.com/elasticache/redis-vs-memcached/)
+- [Redis Official Documentation](https://github.com/mygurukulam-p10/Documention/tree/main/OT%20MS%20Understanding/Redis)
 
 ## 4. Liquibase
 
