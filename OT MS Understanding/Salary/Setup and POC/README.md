@@ -200,6 +200,10 @@ In ```migration.json```
 
 ![image](https://github.com/user-attachments/assets/b7b752ce-081c-4944-be89-05bf804c5180)
 
+### 🔛configure Service file so that you applcation is will be not going down if your temminal goes close
+
+![image](https://github.com/user-attachments/assets/bf38af29-6a04-4efd-881f-817cc8551085)
+
 ## Step 6. Build Application
 ### 1. For building the Salary API application, we can use make commands
 ```
