@@ -15,7 +15,7 @@ The purpose of this document is to guide you through the setup and implementatio
 1. [Introduction](#introduction)
 2. [Pre-requisites](#pre-requisites)
 3. 
-4. 
+4. [Step-by-step installation](#step-by-step-installation)
 6. [Best Practices](#best-practices)
 7. [Conclusion](#conclusion)
 8. [Contact Information](#contact-information)
@@ -35,7 +35,11 @@ Before setting up VCS notifications, ensure you have the following:
 | **Email or Communication Platform** | A configured email address or communication platform (e.g., Gmail) to receive notifications.        |
 
 
+##  Step-by-step installation
 
+### 1. Below Commands to Liquibase
+
+#### Run the following command to import the Liquibase GPG key and add the Liquibase repository to the apt sources list:
 
 ## Best Practices
 | **Guideline**             | **Description**                                                                                           |
