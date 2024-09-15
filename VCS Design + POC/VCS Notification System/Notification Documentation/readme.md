@@ -58,7 +58,13 @@ Before setting up VCS notifications, ensure you have the following:
 -	Choose how often you want to receive notifications (e.g., immediately, daily, weekly).
 #### 4.	Save Changes:
 -	Confirm and save your notification settings.
+![c2](https://github.com/user-attachments/assets/ff122e4e-9849-43ea-ad7d-b94d05ad7bd0)
+![c3](https://github.com/user-attachments/assets/c3721bd5-7480-4c21-a445-2f5b0fc690ac)
+![c4](https://github.com/user-attachments/assets/ed9be4be-63cf-44c2-b65a-dc9640367d95)
+![c5](https://github.com/user-attachments/assets/f58e8fc8-f7db-4701-a4de-ca25527f32e3)
+![c6](https://github.com/user-attachments/assets/a2caa9ff-2533-43dd-8ed5-8816528e6fdd)
 
+![c7](https://github.com/user-attachments/assets/5992bbb7-95f7-41e0-ad8f-a8b1f7265723)
 
 
 ## Best Practices
