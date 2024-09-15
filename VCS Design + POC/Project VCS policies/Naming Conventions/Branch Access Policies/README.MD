@@ -86,6 +86,6 @@ Branch access policies, including branch protection rules, are crucial for maint
 ## References 
 |links | 
 |-------|
-|https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/about-protected-branches |
-|https://docs.gitlab.com/ee/user/permissions.html|
+|https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/managing-a-branch-protection-rule |
+|https://medium.com/@saminYasir/git-branching-policy-4c6f4ba4955|
 
