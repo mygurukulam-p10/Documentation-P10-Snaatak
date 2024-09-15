@@ -47,7 +47,7 @@
 |-----------------|--------------------------------|
 | 6379            | Default Port Redis             |
 
-
+![image](https://github.com/user-attachments/assets/32d559fd-20f3-4895-8e5a-c93156849e58)
 
 ## 1. Installation and Setup
 
