@@ -17,6 +17,8 @@
 6. [Common Authentication Errors and Solutions](#common-authentication-errors-and-solutions)
 7. [Best Practices for Secure Authentication](#best-practices-for-secure-authentication)
 8. [Conclusion](#conclusion)
+9. [Contact Information](#Contact-Information)
+10. [References](#References)
 ## Purpose
 Git is a distributed version control system that uses various authentication methods to manage access to repositories hosted on remote services like GitHub, GitLab, Bitbucket, and others.
 
