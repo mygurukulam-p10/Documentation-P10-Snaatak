@@ -78,7 +78,7 @@ This PoC demonstrates how to set up and use GitHub as a Version Control System. 
 
    ![Screenshot from 2024-09-15 13-35-25](https://github.com/user-attachments/assets/fb04b7a2-e7ad-42cd-93aa-2711a602c0e5)
 
-
+   ![Screenshot from 2024-09-15 13-43-50](https://github.com/user-attachments/assets/297f92d9-4bf9-494d-8ee2-118c029190a4)
 
 
 
