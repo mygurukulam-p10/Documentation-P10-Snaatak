@@ -84,8 +84,8 @@ Version Control Systems like **Bitbucket**, **GitHub**, and **GitLab** provide e
    ```
 6. **Clone the Repository**:
    - Copy the HTTPS or SSH link and clone it:
-     ```bash
-   git clone https://<username>:<personal_access_token>@github.com/<username>/<repository>.git
+ ```bash
+     git clone https://<username>:<personal_access_token>@github.com/<username>/<repository>.git
      ```
 7. **Push Your Code**:
    - After making changes, push your code with the following commands:
