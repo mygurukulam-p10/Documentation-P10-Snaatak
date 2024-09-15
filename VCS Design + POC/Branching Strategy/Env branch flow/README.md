@@ -30,7 +30,7 @@ The primary goal of Environment Branch Flow is to provide a clear and visual rep
 4. **Merge Requests**: Used to move code between environment branches, facilitating code review and testing.
 5. **Hotfix Branches**: Special branches for critical fixes that may need to bypass the normal flow.
 
-![image](https://github.com/user-attachments/assets/ac10f2c7-7379-4943-bd3a-90ad10791d41)
+![365374891-77e1bb74-fad5-4199-97bd-823e2cde1d6e](https://github.com/user-attachments/assets/254594df-b847-422f-a18c-04244bb86a71)
 
 ## Implementing Environment Branch Flow
 
