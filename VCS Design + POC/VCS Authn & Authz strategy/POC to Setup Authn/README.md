@@ -50,34 +50,12 @@ Git authentication has evolved from older methods like username/password (now de
 
 ## Authentication Methods in Git
 
-### Username and Password (Deprecated)
-
-This method involves using Git service username and password for HTTPS authentication. 
-It has been deprecated by most Git services due to security concerns, as passwords can easily be compromised.
-
-### SSH Key-Based Authentication -
-
-**Description** - SSH authentication uses a key-pair system where the private key remains on your machine, and the public key is added to your Git service account. It is one of the most secure methods of authentication.
-
-**Security Level** - High
-
-**Use Case** - Recommended for both personal and organizational repositories, especially for secure communications over networks.
-
-### Personal Access Tokens (PAT)
-
-**Description** - A PAT is a token that serves as a password alternative when using HTTPS to interact with Git repositories. Tokens are scoped, meaning you can control what permissions a token has (read, write, etc.).
-
-**Security Level** - Medium to High
-
-**Use Case** - Required when using Git services over HTTPS instead of SSH.
-
-### GPG Signing for Commit Verification
-
-**Description** - GPG (GNU Privacy Guard) allows developers to sign their commits, verifying their authenticity. This is especially useful in large projects where it's crucial to ensure that commits come from trusted sources.
-
-**Security Level** - High for Commit Integrity
-
-**Use Case** - Recommended for teams or projects where commit authenticity and integrity are paramount.
+| **Method**                  | **Description**                                                                                                                                  | **Security Level**           | **Use Case**                                                                                             |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|----------------------------------------------------------------------------------------------------------|
+| **Username and Password (Deprecated)** | This method involves using Git service username and password for HTTPS authentication. It has been deprecated due to security concerns, as passwords can easily be compromised. | Low                          | Deprecated method, avoid using for any Git interactions.                                                  |
+| **SSH Key-Based Authentication**      | SSH authentication uses a key-pair system where the private key remains on your machine, and the public key is added to your Git service account. It is one of the most secure methods of authentication. | High                         | Recommended for both personal and organizational repositories, especially for secure communications over networks. |
+| **Personal Access Tokens (PAT)**      | A PAT is a token that serves as a password alternative when using HTTPS to interact with Git repositories. Tokens are scoped, meaning you can control what permissions a token has (read, write, etc.). | Medium to High               | Required when using Git services over HTTPS instead of SSH.                                               |
+| **GPG Signing for Commit Verification** | GPG allows developers to sign their commits, verifying their authenticity. This is especially useful in large projects where it's crucial to ensure that commits come from trusted sources. | High for Commit Integrity     | Recommended for teams or projects where commit authenticity and integrity are paramount.                  |
 
 ## Setting up Authentication
 
@@ -206,15 +184,13 @@ git log --show-signature
 
 ## Best Practices for Secure Authentication
 
-**Use SSH Keys for Git Operations** - SSH keys are highly secure and recommended for accessing repositories.
-
-**Enable Two-Factor Authentication (2FA)** - On your Git service account, enable 2FA for additional security.
-
-**Limit the Scope of Personal Access Tokens** - Always restrict the scope and duration of PATs to minimize the risk if a token is compromised.
-
-**Regularly Rotate Tokens and Keys** - Periodically regenerate your SSH keys and PATs to ensure security.
-
-**Sign Commits with GPG** - Especially in larger projects, ensure commits are signed and verified to prevent unauthorized changes.
+| **Practice**                          | **Description**                                                                                                                                  |
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Use SSH Keys for Git Operations**   | SSH keys are highly secure and recommended for accessing repositories.                                                                            |
+| **Enable Two-Factor Authentication**  | Enable 2FA on your Git service account for additional security.                                                                                   |
+| **Limit the Scope of Personal Access Tokens** | Always restrict the scope and duration of Personal Access Tokens (PATs) to minimize risk in case of token compromise.                            |
+| **Regularly Rotate Tokens and Keys**  | Periodically regenerate your SSH keys and PATs to ensure ongoing security.                                                                        |
+| **Sign Commits with GPG**             | Sign and verify commits to prevent unauthorized changes, especially important in larger projects.                                                  |
 
 ## Conclusion
 
