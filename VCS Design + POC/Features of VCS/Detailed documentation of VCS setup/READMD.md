@@ -31,12 +31,18 @@ Version Control Systems like **Bitbucket**, **GitHub**, and **GitLab** provide e
    - Click on **Repositories** in the top navigation bar.
    - Select **Create Repository**.
    - Choose a project name, repository name, and set it to **private** or **public**.
-3. **Clone the Repository**:
+3. **Set Git Username and Email**:
+    This configures Git to associate your commits with a username and email.
+ ```
+   git config --global user.name "Your Name"
+   git config --global user.email "your.email@example.com"
+   ```
+4. **Clone the Repository**:
    - Once created, you will see the clone URL. Use the following Git command to clone it locally:
      ```bash
      git clone https://bitbucket.org/username/repository_name.git
      ```
-4. **Push Your Code**:
+5. **Push Your Code**:
    - After making changes, use the following commands to push your code:
      ```bash
      git add .
@@ -44,7 +50,7 @@ Version Control Systems like **Bitbucket**, **GitHub**, and **GitLab** provide e
      git push origin main
      ```
 
-5. **Collaborate**: Invite team members by going to the repository settings and selecting **User and Group Access**.
+6. **Collaborate**: Invite team members by going to the repository settings and selecting **User and Group Access**.
 
 ---
 
@@ -57,12 +63,18 @@ Version Control Systems like **Bitbucket**, **GitHub**, and **GitLab** provide e
 2. **Create a New Repository**:
    - Click on the **New** button in the repositories section.
    - Add a **repository name**, select public or private, and optionally add a README.
-3. **Clone the Repository**:
+3. **Set Git Username and Email**:
+    This configures Git to associate your commits with a username and email.
+ ```
+   git config --global user.name "Your Name"
+   git config --global user.email "your.email@example.com"
+   ```
+4. **Clone the Repository**:
    - Copy the HTTPS or SSH link and clone it:
      ```bash
      git clone https://github.com/username/repository_name.git
      ```
-4. **Push Your Code**:
+5. **Push Your Code**:
    - After making changes, push your code with the following commands:
      ```bash
      git add .
@@ -70,7 +82,7 @@ Version Control Systems like **Bitbucket**, **GitHub**, and **GitLab** provide e
      git push origin main
      ```
 
-5. **Collaborate**: To collaborate, go to **Settings > Manage access** and invite your team.
+6. **Collaborate**: To collaborate, go to **Settings > Manage access** and invite your team.
 
 ---
 
@@ -83,12 +95,18 @@ Version Control Systems like **Bitbucket**, **GitHub**, and **GitLab** provide e
 2. **Create a New Project**:
    - Go to the **Projects** tab and click **New Project**.
    - Choose between creating a **blank project**, importing an existing one, or using a template.
-3. **Clone the Repository**:
+3. **Set Git Username and Email**:
+    This configures Git to associate your commits with a username and email.
+ ```
+   git config --global user.name "Your Name"
+   git config --global user.email "your.email@example.com"
+   ```
+4. **Clone the Repository**:
    - Once the repository is created, clone it using the following Git command:
      ```bash
      git clone https://gitlab.com/username/repository_name.git
      ```
-4. **Push Your Code**:
+5. **Push Your Code**:
    - Use the following Git commands to push code:
      ```bash
      git add .
@@ -96,7 +114,7 @@ Version Control Systems like **Bitbucket**, **GitHub**, and **GitLab** provide e
      git push origin main
      ```
 
-5. **Collaborate**: Navigate to the **Members** section under **Settings** and invite collaborators to your project.
+6. **Collaborate**: Navigate to the **Members** section under **Settings** and invite collaborators to your project.
 
 ---
 
