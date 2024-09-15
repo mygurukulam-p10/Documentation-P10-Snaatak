@@ -34,8 +34,8 @@ Version Control Systems like **Bitbucket**, **GitHub**, and **GitLab** provide e
 3. **Set Git Username and Email**:
     This configures Git to associate your commits with a username and email.
  ```
-   git config --global user.name "Your Name"
-   git config --global user.email "your.email@example.com"
+   git config --global user.name "brijsingh21"
+   git config --global user.email "brij.singh.snaatak@mygurukulam.co"
    ```
 4. **Clone the Repository**:
    - Once created, you will see the clone URL. Use the following Git command to clone it locally:
@@ -66,8 +66,8 @@ Version Control Systems like **Bitbucket**, **GitHub**, and **GitLab** provide e
 3. **Set Git Username and Email**:
     This configures Git to associate your commits with a username and email.
  ```
-   git config --global user.name "Your Name"
-   git config --global user.email "your.email@example.com"
+   git config --global user.name "brijsingh21"
+   git config --global user.email "brij.singh.snaatak@mygurukulam.co"
    ```
 4. **Clone the Repository**:
    - Copy the HTTPS or SSH link and clone it:
@@ -98,8 +98,8 @@ Version Control Systems like **Bitbucket**, **GitHub**, and **GitLab** provide e
 3. **Set Git Username and Email**:
     This configures Git to associate your commits with a username and email.
  ```
-   git config --global user.name "Your Name"
-   git config --global user.email "your.email@example.com"
+   git config --global user.name "brijsingh21"
+   git config --global user.email "brij.singh.snaatak@mygurukulam.co"
    ```
 4. **Clone the Repository**:
    - Once the repository is created, clone it using the following Git command:
