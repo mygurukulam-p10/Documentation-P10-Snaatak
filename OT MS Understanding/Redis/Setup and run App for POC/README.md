@@ -105,9 +105,9 @@ sudo nano /etc/redis/redis.conf
 Update the Redis configuration file with the following settings:
 
 ```
-bind 127.0.0.1 ::1
-protected-mode yes
-port 6379
+bind 127.0.0.1 ::1 (Restricts Redis to listen only on the localhost IPv4 and IPv6 addresses.)
+protected-mode yes (Enables Redis's security feature to prevent unauthorized access by default.)
+port 6379 (Specifies that Redis should listen for incoming connections on port 6379.)
 ```
 ![image](https://github.com/user-attachments/assets/cfa5c160-c3fb-4d6d-8a65-dd2c8569b1ed)
 
