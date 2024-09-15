@@ -1,5 +1,5 @@
 # Branch Access Policies
-** This document outlines the branch access policies for our version control system (VCS). These policies help safeguard critical branches, ensure code quality, and define who has access to perform actions like merging or pushing directly to branches **.
+This document outlines the branch access policies for our version control system (VCS). These policies help safeguard critical branches, ensure code quality, and define who has access to perform actions like merging or pushing directly to branches.
 
 | Author        | Created on | Version | Last updated by | Last edited on |
   |-------------|---------|-------------|-------------|---------|
@@ -7,14 +7,6 @@
 
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Branch Protection Rules](#branch-protection-rules)
-3. [Access Policies for Branches](#access-policies-for-branches)    
-4. [Setting Up Branch Protection Rules](#setting-up-branch-protection-rules)     
-5. [Best Practices for Managing Branch Access Policies](#best-practices-for-managing-branch-access-policies)  
-4. [Conclusion](#conclusion)
-5. [Contact Information](#contact-information)
-6. [References](#references)
 
 ## 1. Introduction
 Branch access policies are mechanisms used to manage and control how developers interact with specific branches in version control systems like GitHub, GitLab, or Bitbucket. These policies help maintain the integrity of critical branches (e.g., ``` main```, ``` develop ```) by defining rules about who can push changes, merge pull requests, or delete branches.
@@ -44,11 +36,11 @@ Branch protection rules are key components in branch access policies. They enfor
 Access policies define who can interact with certain branches and what actions they are allowed to perform. These policies ensure that only authorized users have the necessary permissions to modify important branches.
 
 ### 3.1 Permission Levels
-** Read Access ** : Users with read access can view the branch but cannot make changes.
+- Read Access  : Users with read access can view the branch but cannot make changes.
 
-** Write Access ** : Users with write access can push commits to the branch, but they may still be restricted by branch protection rules.
+- Write Access  : Users with write access can push commits to the branch, but they may still be restricted by branch protection rules.
 
-** Admin Access ** : Users with admin access have full control over the branch, including modifying branch protection rules and access permissions.
+- Admin Access  : Users with admin access have full control over the branch, including modifying branch protection rules and access permissions.
 
 ### 3.2 Team-Based Access Control
 You can define access policies based on teams. For example, only the QA team might have write access to the staging branch, while the main branch could be restricted to the devops team for deployments.
