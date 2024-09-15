@@ -2,7 +2,7 @@
 
 | Author        | Created on | Version | Last updated by | Last edited on |
 |-------------|---------|-------------|-------------|---------|
-| Vinay Bansal | 14-09-24 | version 1 | Vinay Bansal | Intial Commit |
+| Vinay Bansal | 14-09-24 | version 1 | Vinay Bansal | Initial Commit |
 
 
 ## Purpose
