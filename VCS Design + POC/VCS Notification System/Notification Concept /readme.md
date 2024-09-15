@@ -36,7 +36,7 @@ Effective notifications improve collaboration, ensure timely responses to issues
 
 ## Types of VCS Notifications
 
-| Feature                   | Purpose                                                   | Details                                                     |
+| Types                   | Purpose                                                   | Details                                                     |
 |---------------------------|-----------------------------------------------------------|-------------------------------------------------------------|
 | **Commit Notifications**  | Inform team members about new commits to the repository. | Includes the commit message, author, date, and changes made. |
 | **Pull Request Notifications**![git-pull-request-fill-development](https://github.com/user-attachments/assets/047edfc3-5555-448c-ac53-ebb5d81207ba) | Notify about the creation, update, or closure of pull requests. | Provides information on the requester's changes, reviews, and merge status. |
