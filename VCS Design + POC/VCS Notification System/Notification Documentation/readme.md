@@ -65,6 +65,8 @@ Before setting up VCS notifications, ensure you have the following:
 # ![c6](https://github.com/user-attachments/assets/a2caa9ff-2533-43dd-8ed5-8816528e6fdd)
 
 # ![c7](https://github.com/user-attachments/assets/5992bbb7-95f7-41e0-ad8f-a8b1f7265723)
+# ![c8](https://github.com/user-attachments/assets/4ceb127a-151d-4764-a014-cb889150f20c)
+
 
 
 ## Best Practices
