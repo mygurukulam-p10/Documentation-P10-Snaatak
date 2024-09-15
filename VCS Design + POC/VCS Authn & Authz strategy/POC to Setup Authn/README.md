@@ -13,13 +13,11 @@
    * [Username and Password (Deprecated)](#username-and-password-(deprecated))
    * [SSH Key-Based Authentication](#ssh-key-based-authentication)
    * [Personal Access Tokens (PAT)](#personal-access-tokens-(pat))
-   * [OAuth Athentication](#oauth-authentication)
    * [GPG Signing for Commit Verification](#gpg-signing-for-commit-verification)
 5. [Setting up Authentication](#setting-up-authentication)
    * [Generating and Using SSH Keys](#generating-and-using-ssh-keys)
    * [Using Personal Access Tokens (PAT)](#using-personal-access-tokens-(pat))
    * [Setting Up GPG for Signed Commits](#setting-up-gpg-for-signed-commits)
-   * [Using OAuth for Application Access](#using-oauth-for-application-access)
 6. [Common Authentication Errors and Solutions](#common-authentication-errors-and-solutions)
 7. [Best Practices for Secure Authentication](#best-practices-for-secure-authentication)
 8. [Conclusion](#conclusion)
@@ -38,15 +36,13 @@ Git authentication has evolved from older methods like username/password (now de
 
 **Personal Access Tokens (PAT)** - Token-based login for HTTPS with customizable permissions.
 
-**OAuth** - Secure access for third-party apps without sharing credentials.
-
 **GPG Signing** - Verifies commit authenticity with digital signatures.
 
 ## System-Prerequisites
 
 |        Requirements           |          Recommendation              |
 |-------------------------------|--------------------------------------|
-|   **OS**                      | Ubuntu, macOS, Windows               |
+|   **OS**                      | Ubuntu           |
 |   **Git Version**             | 2.28 or higher                       |
 |   **GPG**                     | Installed for commit signing         |
 |   **Git Service Account**     | GitHub, GitLab, or Bitbucket account |
@@ -113,7 +109,7 @@ cat ~/.ssh/id_rsa.pub
 ```
 ![image](https://github.com/user-attachments/assets/6a6f6659-d826-45b2-972e-8347ea6ca99a)
 
-Paste it in your Git service's SSH key section which you can find in settings of your account.
+Paste it in your Git accounts, SSH key section which you can find in settings of your account.
 
 ![image](https://github.com/user-attachments/assets/5dc9d303-c3fd-4d5f-946d-7290c020308e)
 
@@ -121,10 +117,11 @@ Choose for new SSH key and provide a title for your key and then choose for key 
 Enter account password when prompted.
 
 ![image](https://github.com/user-attachments/assets/fd6e4284-f83c-412e-bc28-597c8a311c5c)
-	
+
+
 **Try cloning any Repository with ssh Option**
 
-Copy ssh URL 
+Copy SSH URL 
 ![image](https://github.com/user-attachments/assets/37840952-add4-427e-bee8-d6d0a8b2b0ef)
 
 Now when you clone the repo it won't ask for password and will provide secure login with SSH.
@@ -160,30 +157,52 @@ When prompted for a password, enter the generated token.
 ```
 sudo apt install gnupg
 ```
+![image](https://github.com/user-attachments/assets/090718b9-770a-4fa5-810e-66bf7840aff9)
+
  
 **Generate GPG Key**
 
 ```
 gpg --full-generate-key
 ```
- 
-**Configure Git to Use GPG**
+
+Choose appropriate options of your choice
+
+![image](https://github.com/user-attachments/assets/65051500-f613-477b-b6b4-278501c63790)
+
+**List your GPG keys**
+
+```
+gpg --list-secret-keys --keyid-format LONG
+```
+![image](https://github.com/user-attachments/assets/04053cdc-cb31-4a51-9ec0-a1cf09064c38)
+
+**Configure Git to Use GPG and enable automatic signing of all commits**
 
 ```
 git config --global user.signingkey <GPG_KEY_ID>
 git config --global commit.gpgSign true
 ```
- 
-**Sign Commits**
-```
-git commit -S -m "Your signed commit message"
-```
-	
-### Using OAuth for Application Access
+![image](https://github.com/user-attachments/assets/1e4f2655-d925-4956-a383-9a523d4df0a4)
 
-**Third-Party Access** - When a third-party tool requests access to your repository, authenticate using OAuth.
+**Export your public GPG key  and Add Your GPG Key to GitHub**
 
-**Grant Permissions** - Review and grant the appropriate permissions to the tool to access your repositories.
+```
+gpg --armor --export <GPG_KEY_ID>
+```
+![image](https://github.com/user-attachments/assets/6b4edda5-4268-48c4-9703-481faf52affd)
+
+Copy the key and paste it in GPG key section in your Github account settings
+
+![image](https://github.com/user-attachments/assets/30a6a1f9-77e7-40c5-85d8-41e388d39b16)
+
+When you make a commit, Git will now automatically sign it with your GPG key. 
+You can verify that a commit is signed with below command
+
+```
+git log --show-signature
+```
+![image](https://github.com/user-attachments/assets/decaf2a1-53e7-44a4-bf14-750ab8a52629)
 	
 ## Common Authentication Errors and Solutions
 
@@ -192,7 +211,6 @@ git commit -S -m "Your signed commit message"
 |   **Permission denied (publickey)**     |  SSH keys not correctly configured       |Ensure your public key is added to Git service.  |
 |**fatal: Authentication failed for...**  |Incorrect credentials or token expired    |         Update credentials or regenerate PAT.   |
 |   **gpg: no valid OpenPGP data found**  |  GPG key not properly configured        |Check the GPG key setup and configure correctly.  |
-|   **OAuth access error**                | Third-party tool access token invalid     | Re-authenticate using OAuth or renew token.    |
 
 ## Best Practices for Secure Authentication
 
@@ -206,9 +224,7 @@ git commit -S -m "Your signed commit message"
 
 **Sign Commits with GPG** - Especially in larger projects, ensure commits are signed and verified to prevent unauthorized changes.
 
-**Use OAuth for Third-Party Applications** - Instead of sharing your credentials, use OAuth to grant limited access to third-party tools.
-
 ## Conclusion
 
-Authentication in VCS ensures secure access to repositories using various methods like SSH keys, Personal Access Tokens (PAT), OAuth, and GPG commit signing. While traditional username/password authentication is deprecated, modern methods such as SSH and PATs provide enhanced security. This document details the setup process for each method, troubleshooting common issues, and best practices such as enabling two-factor authentication (2FA) and signing commits with GPG. By following these guidelines, you can effectively secure your Git interactions and safeguard your repositories.
+Authentication in VCS ensures secure access to repositories using various methods like SSH keys, Personal Access Tokens (PAT),  and GPG commit signing. While traditional username/password authentication is deprecated, modern methods such as SSH and PATs provide enhanced security. This document details the setup process for each method, troubleshooting common issues, and best practices such as enabling two-factor authentication (2FA) and signing commits with GPG. By following these guidelines, you can effectively secure your Git interactions and safeguard your repositories.
 
