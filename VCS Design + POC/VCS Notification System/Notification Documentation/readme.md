@@ -8,11 +8,11 @@
 ## Purpose
 The purpose of this document is to guide you through the setup and implementation of a notification system for your application. Notifications play a crucial role in:
 
-| Feature Category        | Description                                                                                              | Example Notifications                           |
-|-------------------------|----------------------------------------------------------------------------------------------------------|------------------------------------------------|
-| **User Engagement**     | Notifications designed to keep users informed about important updates, actions, or alerts relevant to them. | - New message received<br>- Upcoming event reminder<br>- Account activity alert |
-| **Operational Efficiency** | Notifications aimed at alerting administrators or developers to system events or issues that require attention. | - System error detected<br>- Performance metrics threshold exceeded<br>- Deployment status update |
-| **Improving User Experience** | Notifications intended to provide timely and relevant information to users, enhancing their interaction with the application. | - Feature update details<br>- Customization options available<br>- Personalized tips and tricks |
+| Feature Category        | Description                                                                                              | 
+|-------------------------|----------------------------------------------------------------------------------------------------------|
+| **User Engagement**     | Notifications designed to keep users informed about important updates, actions, or alerts relevant to them. | 
+| **Operational Efficiency** | Notifications aimed at alerting administrators or developers to system events or issues that require attention. |
+| **Improving User Experience** | Notifications intended to provide timely and relevant information to users, enhancing their interaction with the application. |
 
   
 1. [Introduction](#introduction)
