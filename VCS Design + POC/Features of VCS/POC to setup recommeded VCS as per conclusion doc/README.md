@@ -31,13 +31,9 @@ This PoC demonstrates how to set up and use GitHub as a Version Control System. 
 | Browser | Latest  | Web browser for accessing GitHub |
 
 ## Architecture
-```
-[Local Git Repository] <---> [GitHub Remote Repository]
-           ^
-           |
-           v
-[Other Team Members' Repositories]
-```
+![Screenshot from 2024-09-15 13-27-09](https://github.com/user-attachments/assets/e5b133a5-9045-49a9-8023-b9ebd9102f88)
+
+
 
 ## Step-by-step installation of GitHub
 
