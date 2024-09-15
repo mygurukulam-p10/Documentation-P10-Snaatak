@@ -17,12 +17,11 @@ The purpose of this document is to guide you through the setup and implementatio
   
 1. [Introduction](#introduction)
 2. [Pre-requisites](#pre-requisites)
-3. 
-4. [Step-by-step installation](#step-by-step-installation)
-6. [Best Practices](#best-practices)
-7. [Conclusion](#conclusion)
-8. [Contact Information](#contact-information)
-9. [References](#references)
+3. [Step-by-step installation](#step-by-step-installation)
+4. [Best Practices](#best-practices)
+5. [Conclusion](#conclusion)
+6. [Contact Information](#contact-information)
+7. [References](#references)
 
 ## Introduction
 
