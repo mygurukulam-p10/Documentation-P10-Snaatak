@@ -111,18 +111,21 @@ Version Control Systems like **Bitbucket**, **GitHub**, and **GitLab** provide e
 2. **Create a New Project**:
    - Go to the **Projects** tab and click **New Project**.
    - Choose between creating a **blank project**, importing an existing one, or using a template.
-3. **Set Git Username and Email**:
+3.**Access Tokens**: Go to User Settings > Access Tokens.
+4. **Create Token** : Fill in the name, expiration date, and select the required scopes (e.g., read_repository, write_repository). Click Create personal access token and copy it.
+   
+5. **Set Git Username and Email**:
     This configures Git to associate your commits with a username and email.
  ```
    git config --global user.name "brijsingh21"
    git config --global user.email "brij.singh.snaatak@mygurukulam.co"
    ```
-4. **Clone the Repository**:
+6. **Clone the Repository**:
    - Once the repository is created, clone it using the following Git command:
      ```bash
      git clone https://<username>:<personal_access_token>@gitlab.com/<username>/<repository>.git
      ```
-5. **Push Your Code**:
+7. **Push Your Code**:
    - Use the following Git commands to push code:
      ```bash
      git add .
@@ -130,7 +133,7 @@ Version Control Systems like **Bitbucket**, **GitHub**, and **GitLab** provide e
      git push origin main
      ```
 
-6. **Collaborate**: Navigate to the **Members** section under **Settings** and invite collaborators to your project.
+8. **Collaborate**: Navigate to the **Members** section under **Settings** and invite collaborators to your project.
 
 ---
 
