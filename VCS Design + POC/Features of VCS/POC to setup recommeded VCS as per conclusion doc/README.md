@@ -11,7 +11,8 @@
    - [Dependencies](#dependencies)
 3. [Architecture](#architecture)
 4. [Step-by-step installation of GitHub](#step-by-step-installation-of-github)
-5. [Contact Information](#contact-information)
+5. [Conclusion](Conclusion)
+6. [Contact Information](#contact-information)
 
 
 ## Purpose
@@ -85,7 +86,8 @@ This Poc demonstrates how to set up and use GitHub as a Version Control System. 
 
    ![Screenshot from 2024-09-15 13-43-50](https://github.com/user-attachments/assets/297f92d9-4bf9-494d-8ee2-118c029190a4)
 
-
+## Conclusion
+In this PoC, we demonstrated the basic setup of Git using GitHub as a Version Control System. Git allows developers to track changes, collaborate effectively, and manage code versions. By utilizing Git, teams can streamline their development processes and ensure efficient collaboration on software projects.
 
 ## Contact Information
 
