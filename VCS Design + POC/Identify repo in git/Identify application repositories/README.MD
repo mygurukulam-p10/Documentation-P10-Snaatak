@@ -39,7 +39,6 @@ Application repositories play a crucial role in software development and distrib
 | **Bitbucket**          | Source Code       | Git-based source code repository for teams with project management tools. |
 | **Docker Hub**         | Container Images  | A repository for storing and sharing container images.                    |
 | **Artifactory**        | Artifact Repo     | Manages and stores binaries, libraries, and build artifacts.              |
-| **Nexus Repository**   | Artifact Repo     | Stores, organizes, and retrieves software artifacts and packages.         |
 | **PyPI**               | Package Repo      | Repository for Python packages and libraries.                             |
 | **npm**                | Package Repo      | Repository for JavaScript packages and Node.js modules.                   |
 
