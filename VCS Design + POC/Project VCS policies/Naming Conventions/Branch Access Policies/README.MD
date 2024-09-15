@@ -17,12 +17,10 @@ This document outlines the branch access policies for our version control system
 
 
 
-## Table of Contents
-
-## 1. Introduction
+## Introduction
 Branch access policies are mechanisms used to manage and control how developers interact with specific branches in version control systems like GitHub, GitLab, or Bitbucket. These policies help maintain the integrity of critical branches (e.g., ``` main```, ``` develop ```) by defining rules about who can push changes, merge pull requests, or delete branches.
 
-## 2. Branch Protection Rules
+## Branch Protection Rules
 Branch protection rules are key components in branch access policies. They enforce specific conditions that must be met before changes can be made to protected branches. Common branch protection rules include:
 
 ### 2.1 Requiring Pull Requests
