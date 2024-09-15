@@ -96,6 +96,5 @@ For further reading and resources on GitOps, check out the following:
 | Links | Descriptions|
 |------|---------------------|
 | https://git-scm.com/book/en/v2/Git-Basics-Tagging| Git Documentation |
-|https://axolo.co/blog/p/part-1-what-are-github-pull-requests| Github doc for pull request|
-|https://opensource.com/article/19/7/create-pull-request-github|Opensource.com|
+|https://devopsjournal.io/blog/2022/03/12/GitHub-notification-settings | GitHub Notification Settings |
 
