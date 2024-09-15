@@ -97,25 +97,40 @@ It has been deprecated by most Git services due to security concerns, as passwor
 
 **Generate SSH Key** 
 
-	```
-	ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-	```
- 
+Open terminal on your Machine and run below command to generate ssh public and private key which by default get added to **.ssh** directory of the user. Simply hit enter for the prompt or you can define your own values if neended.
+
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+![image](https://github.com/user-attachments/assets/5d5cf281-3998-497e-bf12-6f69f59deccd)
+
 **Add the Public Key to GitHub/GitLab/Bitbucket**
 
-See and copy content of your ssh key with below command
+See and copy content of your SSH key with below command
  
 ``` 
 cat ~/.ssh/id_rsa.pub
 ```
- 
-Paste it in your Git service's SSH key section.
-	
-**Test SSH Connection**
+![image](https://github.com/user-attachments/assets/6a6f6659-d826-45b2-972e-8347ea6ca99a)
 
-	```
-	ssh -T git@github.com
-	```
+Paste it in your Git service's SSH key section which you can find in settings of your account.
+
+![image](https://github.com/user-attachments/assets/5dc9d303-c3fd-4d5f-946d-7290c020308e)
+
+Choose for new SSH key and provide a title for your key and then choose for key type and paste the key in key bar and hit add SSH key button.
+Enter account password when prompted.
+
+![image](https://github.com/user-attachments/assets/fd6e4284-f83c-412e-bc28-597c8a311c5c)
+	
+**Try cloning any Repository with ssh Option**
+
+Copy ssh URL 
+![image](https://github.com/user-attachments/assets/37840952-add4-427e-bee8-d6d0a8b2b0ef)
+
+Now when you clone the repo it won't ask for password and will provide secure login with SSH.
+![image](https://github.com/user-attachments/assets/692969dc-3dd5-4ad7-9d13-26fb8c2de287)
+
+
 ### Using Personal Access Tokens (PAT)
 
 **Generate PAT** - Go to your Git service account settings and generate a new Personal Access Token with the required permissions.
