@@ -11,7 +11,7 @@
    - [Dependencies](#dependencies)
 3. [Architecture](#architecture)
 4. [Step-by-step installation of GitHub](#step-by-step-installation-of-github)
-5. [Conclusion](Conclusion)
+5. [Conclusion](#Conclusion)
 6. [Contact Information](#contact-information)
 
 
