@@ -1,3 +1,7 @@
+![1520202558864](https://github.com/user-attachments/assets/34b92e29-e69b-42b3-a553-2d6ed95afa3c)
+
+
+
 # 🌟 VCS Setup Guide: Bitbucket, GitHub, and GitLab
 
 This guide covers the setup process for popular Version Control Systems (VCS) – **Bitbucket**, **GitHub**, and **GitLab**. Each platform allows you to host, manage, and collaborate on code using Git. Let's walk through the setup for each platform, step by step.
