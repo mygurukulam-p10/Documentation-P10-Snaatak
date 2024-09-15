@@ -193,3 +193,16 @@ Authentication in VCS ensures secure access to repositories using methods like S
 
 This guide outlines setup, troubleshooting, and best practices like enabling SSH access and signing commits with GPG to protect your Git interactions and repositories effectively.
 
+### Contact Information
+For more information, feedback, or assistance, feel free to contact us:
+| Name                   | Email address          |
+|------------------------|------------------------|
+| Abhinav Singh          | abhinav.singh.snaatak@mygurukulam.co  |
+
+
+### References
+| Links                                             | Descriptions                                                    |
+|---------------------------------------------------|-----------------------------------------------------------------|
+|[https://www.gitkraken.com/learn/git/tutorials/what-is-a-pull-request-in-git](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) |Personal Access Tokens |
+|[https://axolo.co/blog/p/part-1-what-are-github-pull-requests](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)| SSH key-based Authentication|
+|[https://opensource.com/article/19/7/create-pull-request-github](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account)|GPG key based Authentication   |
