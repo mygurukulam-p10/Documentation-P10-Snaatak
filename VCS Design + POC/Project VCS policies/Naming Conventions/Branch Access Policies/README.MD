@@ -6,8 +6,8 @@ This document outlines the branch access policies for our version control system
   | Aayush Gaur | 14-09-24 | version 1 | Aayush Gaur | Intial Commit |
 
 ## Table of Contents
- [1. Introduction](#1-introduction)
- [Branch Protection Rules](#branch-protection-rules)
+- [Introduction](#1-introduction)
+- [Branch Protection Rules](#branch-protection-rules)
 - [Access Policies for Branches](#access-policies-for-branches)
 - [Setting Up Branch Protection Rules](#setting-up-branch-protection-rules)
 - [Best Practices for Managing Branch Access Policies](#best-practices-for-managing-branch-access-policies)
@@ -17,7 +17,7 @@ This document outlines the branch access policies for our version control system
 
 
 
-## 1. Introduction
+## Introduction
 Branch access policies are mechanisms used to manage and control how developers interact with specific branches in version control systems like GitHub, GitLab, or Bitbucket. These policies help maintain the integrity of critical branches (e.g., ``` main```, ``` develop ```) by defining rules about who can push changes, merge pull requests, or delete branches.
 
 ## Branch Protection Rules
@@ -41,7 +41,7 @@ Branch protection rules are key components in branch access policies. They enfor
 ### 2.6 Prevent Branch Deletion
 - This rule prevents users from deleting a protected branch. It’s particularly useful for critical branches like main or production, where accidental deletions could disrupt the entire project.
 
-## 3. Access Policies for Branches
+## Access Policies for Branches
 Access policies define who can interact with certain branches and what actions they are allowed to perform. These policies ensure that only authorized users have the necessary permissions to modify important branches.
 
 ### 3.1 Permission Levels
@@ -60,21 +60,21 @@ You can configure access policies so that only certain users (e.g., team leads o
 ### 3.4 Environment-Specific Restrictions
 For branches that are tied to certain environments (e.g., production or development), access policies can restrict who can push changes to prevent unauthorized deployments or updates.
 
-## 4. Setting Up Branch Protection Rules
+## Setting Up Branch Protection Rules
 
-- ** Navigate to Settings **: Go to your repository’s settings page.
-- ** Select Branches **: Under the "Branches" section, you can configure protection rules.
-- ** Create a New Rule **: Choose the branch you want to protect and specify the rules (e.g., require pull requests, enforce status checks, etc.).
-- ** Save the Rule **: Once configured, save the rule, and it will immediately go into effect.
+- **Navigate to Settings**: Go to your repository’s settings page.
+- **Select Branches**: Under the "Branches" section, you can configure protection rules.
+- **Create a New Rule**: Choose the branch you want to protect and specify the rules (e.g., require pull requests, enforce status checks, etc.).
+- **Save the Rule**: Once configured, save the rule, and it will immediately go into effect.
 
-## 5. Best Practices for Managing Branch Access Policies
+## Best Practices for Managing Branch Access Policies
 
-- ** Use Fine-Grained Permissions **: Always follow the principle of least privilege. Only give users the minimum access they need to do their job.
-- ** Require Reviews for Critical Branches **: Always enforce peer reviews for critical branches to catch bugs and ensure code quality.
-- ** Regularly Review and Update Access Policies **: As your team grows, periodically review your branch access policies to ensure they are still appropriate.
-- ** Enforce Consistency Across Teams **: Ensure all teams follow the same protection rules for important branches like main to prevent confusion.
+- **Use Fine-Grained Permissions**: Always follow the principle of least privilege. Only give users the minimum access they need to do their job.
+- **Require Reviews for Critical Branches**: Always enforce peer reviews for critical branches to catch bugs and ensure code quality.
+- **Regularly Review and Update Access Policies**: As your team grows, periodically review your branch access policies to ensure they are still appropriate.
+- **Enforce Consistency Across Teams**: Ensure all teams follow the same protection rules for important branches like main to prevent confusion.
 
-## 6. Conclusion
+## Conclusion
 
 Branch access policies, including branch protection rules, are crucial for maintaining the quality and stability of a codebase, particularly in a collaborative environment. By enforcing these rules and policies, you reduce the risk of accidental or unauthorized changes, improve code quality, and maintain a smooth workflow across your development team.
 
