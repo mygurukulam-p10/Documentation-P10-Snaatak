@@ -48,6 +48,18 @@ Before setting up VCS notifications, ensure you have the following:
 -	Locate and click on the “Settings” tab, usually found in the repository menu.
 ![c1](https://github.com/user-attachments/assets/39bae158-3c32-48af-830a-2573a5bde83e)
 
+### Configuring Email Notifications
+
+#### 1.	Select Notification Settings:
+-	In the settings menu, find and select “Notifications” or “Email Notifications.”
+#### 2.	Choose Notification Preferences:
+-	Select the types of notifications you wish to receive via email (e.g., commits, pull requests, issues).
+#### 3.	Set Frequency:
+-	Choose how often you want to receive notifications (e.g., immediately, daily, weekly).
+#### 4.	Save Changes:
+-	Confirm and save your notification settings.
+
+
 
 ## Best Practices
 | **Guideline**             | **Description**                                                                                           |
