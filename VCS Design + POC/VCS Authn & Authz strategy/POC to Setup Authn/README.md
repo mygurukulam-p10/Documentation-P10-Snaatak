@@ -71,14 +71,6 @@ It has been deprecated by most Git services due to security concerns, as passwor
 
 **Use Case** - Required when using Git services over HTTPS instead of SSH.
 
-### OAuth Authentication
-
-**Description** - OAuth allows third-party applications to request limited access to your Git repositories without requiring you to share your password or tokens directly.
-
-**Security Level** - High
-
-**Use Case** - Used for integrating third-party applications, CI/CD pipelines, or developer tools.
-
 ### GPG Signing for Commit Verification
 
 **Description** - GPG (GNU Privacy Guard) allows developers to sign their commits, verifying their authenticity. This is especially useful in large projects where it's crucial to ensure that commits come from trusted sources.
