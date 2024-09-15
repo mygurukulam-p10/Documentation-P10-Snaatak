@@ -97,7 +97,7 @@ It has been deprecated by most Git services due to security concerns, as passwor
 
 **Generate SSH Key** 
 
-Open terminal on your Machine and run below command to generate ssh public and private key which by default get added to **.ssh** directory of the user. Simply hit enter for the prompt or you can define your own values if neended.
+Open terminal on your Machine and run below command to generate ssh public and private key which by default get added to **.ssh** directory of the user. Simply hit enter for the prompt or you can define your own values if needed.
 
 ```
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
@@ -106,7 +106,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 **Add the Public Key to GitHub/GitLab/Bitbucket**
 
-See and copy content of your SSH key with below command
+See and copy content of your public SSH key with below command
  
 ``` 
 cat ~/.ssh/id_rsa.pub
