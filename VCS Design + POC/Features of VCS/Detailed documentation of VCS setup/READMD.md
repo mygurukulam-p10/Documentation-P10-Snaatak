@@ -7,6 +7,9 @@
 This guide covers the setup process for popular Version Control Systems (VCS) – **Bitbucket**, **GitHub**, and **GitLab**. Each platform allows you to host, manage, and collaborate on code using Git. Let's walk through the setup for each platform, step by step.
 
 ---
+| 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
+|--------------------|------------|--------------|--------------------------------|
+| 15-09-2024         | 0.2        | Brij Singh   | VCS Setup Guide: Bitbucket, GitHub, and GitLab           |
 
 ## 📑 Table of Contents
 - [Introduction](#introduction)
@@ -86,7 +89,7 @@ Version Control Systems like **Bitbucket**, **GitHub**, and **GitLab** provide e
    - Copy the HTTPS or SSH link and clone it:
  ```bash
      git clone https://<username>:<personal_access_token>@github.com/<username>/<repository>.git
-     ```
+```
 7. **Push Your Code**:
    - After making changes, push your code with the following commands:
      ```bash
