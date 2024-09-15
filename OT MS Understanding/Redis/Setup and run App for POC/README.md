@@ -113,6 +113,28 @@ port 6379
 
 ### 1.3 Security Setup
 
+According to the application we are working on like Employee API , Attendance API and Salary API we will use the below command to access the default user.
+
+```
+AUTH password
+``` 
+Now we will make some changes in conf file to access user through passwords 
+
+**Location :- /etc/redis/redis.conf** 
+
+```
+Look for "supervised no" and replace it with "supervised systemd"
+
+Also replace "# requirepass foobared" with "requirepass password"
+
+```
+
+Set a user with all permissions 
+
+```
+ACL SETUSER scylla on >password ~* +@all
+```
+
 **Set a Strong Password:**
 
 ```
