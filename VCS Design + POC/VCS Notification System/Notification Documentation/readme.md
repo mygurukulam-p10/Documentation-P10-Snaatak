@@ -14,7 +14,7 @@ The purpose of this document is to guide you through the setup and implementatio
 | **Operational Efficiency** | Notifications aimed at alerting administrators or developers to system events or issues that require attention. |
 | **Improving User Experience** | Notifications intended to provide timely and relevant information to users, enhancing their interaction with the application. |
 
-  
+## Table of Contents 
 1. [Introduction](#introduction)
 2. [Pre-requisites](#pre-requisites)
 3. [Step-by-step installation](#step-by-step-installation)
