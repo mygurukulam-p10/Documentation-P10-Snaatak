@@ -12,14 +12,11 @@ GitOps is a way to manage and deploy applications by using Git as the main sourc
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Why GitOps?](#why-gitops)
-3. [GitOps Principles](#gitops-principles)
-4. [GitOps Tools](#gitops-tools)
-5. [GitOps Workflows and Procedures](#gitops-workflows-and-procedures)
-6. [Benefits of GitOps](#benefits-of-gitops)
-7. [Drawbacks of GitOps](#drawbacks-of-gitops)
-8. [GitOps Best Practices](#gitops-best-practices)
-9. [Conclusion](#conclusion)
+2. [What is GitOps?](#what-is-gitOps?)
+3. [Why Implement GitOps Strategies?](#why-implement-gitOps-strategies?)
+4. [Types of GitOps Workflow](#types-of-gitOps-workflow)
+5. [Comparison of GitOps Workflows(#comparison-of-gitOps-workflows)
+6. [Conclusion](#conclusion)
 10. [Contact Information](#contact-information)
 11. [References](#references)
 
