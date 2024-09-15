@@ -58,6 +58,11 @@ This PoC demonstrates how to set up and use GitHub as a Version Control System. 
    - Name your repository
    - Click "Create repository"
 
+![Screenshot from 2024-09-15 13-33-08](https://github.com/user-attachments/assets/b0f63f44-21ce-4fe8-aa1e-6205af926d0b)
+
+![Screenshot from 2024-09-15 13-34-08](https://github.com/user-attachments/assets/1c1eed9d-ca0c-4f25-af18-9ef947a74f7b)
+
+
 4. Set up local repository:
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
@@ -67,6 +72,14 @@ This PoC demonstrates how to set up and use GitHub as a Version Control System. 
    git commit -m "Initial commit"
    git push origin main
    ```
+   ![Screenshot from 2024-09-15 13-34-17](https://github.com/user-attachments/assets/83d1acfc-e6d6-4b23-8185-8ea195a3e1a6)
+
+   ![Screenshot from 2024-09-15 13-35-07](https://github.com/user-attachments/assets/d460b58c-b9c3-46a6-a55b-e08a659a3884)
+
+   ![Screenshot from 2024-09-15 13-35-25](https://github.com/user-attachments/assets/fb04b7a2-e7ad-42cd-93aa-2711a602c0e5)
+
+
+
 
 
 ## Contact Information
