@@ -6,7 +6,7 @@ This document outlines the branch access policies for our version control system
   | Aayush Gaur | 14-09-24 | version 1 | Aayush Gaur | Intial Commit |
 
 ## Table of Contents
-- [1. Introduction](#1-.-introduction)
+- [1. Introduction](#1-introduction)
 - [Branch Protection Rules](#branch-protection-rules)
 - [Access Policies for Branches](#access-policies-for-branches)
 - [Setting Up Branch Protection Rules](#setting-up-branch-protection-rules)
