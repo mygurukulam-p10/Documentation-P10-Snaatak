@@ -37,9 +37,17 @@ Before setting up VCS notifications, ensure you have the following:
 
 ##  Step-by-step installation
 
-### 1. Below Commands to Liquibase
 
-#### Run the following command to import the Liquibase GPG key and add the Liquibase repository to the apt sources list:
+### Accessing Notification Settings
+
+#### 1.	Log In:
+- Sign in to your VCS account using your credentials.
+#### 2.	Navigate to Your Repository:
+-	Go to the repository where you want to configure notifications.
+#### 3.	Open Settings:
+-	Locate and click on the “Settings” tab, usually found in the repository menu.
+![c1](https://github.com/user-attachments/assets/39bae158-3c32-48af-830a-2573a5bde83e)
+
 
 ## Best Practices
 | **Guideline**             | **Description**                                                                                           |
