@@ -11,7 +11,7 @@
 6. [References](#references)
 
 ## Purpose
-This PoC demonstrates how to set up and use GitHub as a Version Control System. GitHub provides a centralized platform for collaborative software development, offering features like version control, issue tracking, and project management.
+This Poc demonstrates how to set up and use GitHub as a Version Control System. GitHub provides a centralized platform for collaborative software development, offering features like version control, issue tracking, and project management.
 
 ## Pre-requisites
 
