@@ -128,7 +128,7 @@ Now when you clone the repo it won't ask for password and will provide secure lo
 ![image](https://github.com/user-attachments/assets/692969dc-3dd5-4ad7-9d13-26fb8c2de287)
 
 
-### Using Personal Access Tokens (PAT)
+## Using Personal Access Tokens (PAT)
 
 **Generate PAT** - Go to your Git service account settings and generate a new Personal Access Token with the required permissions.
 ![image](https://github.com/user-attachments/assets/b591d8cf-78e8-4a46-96b1-2ee1f67f27e2)
