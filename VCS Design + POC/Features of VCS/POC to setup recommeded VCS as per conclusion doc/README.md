@@ -27,7 +27,7 @@ This PoC demonstrates how to set up and use GitHub as a Version Control System. 
 
 | Name    | Version | Description |
 |---------|---------|-------------|
-| Git     | 2.0+    | Distributed version control system |
+| Git     | 2.34    | Distributed version control system |
 | Browser | Latest  | Web browser for accessing GitHub |
 
 ## Architecture
