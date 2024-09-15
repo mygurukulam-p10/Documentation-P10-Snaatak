@@ -183,12 +183,13 @@ git log --show-signature
 | **Practice**                          | **Description**                                                                                                                                  |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Use SSH Keys for Git Operations**   | SSH keys are highly secure and recommended for accessing repositories.                                                                            |
-| **Enable Two-Factor Authentication**  | Enable 2FA on your Git service account for additional security.                                                                                   |
 | **Limit the Scope of Personal Access Tokens** | Always restrict the scope and duration of Personal Access Tokens (PATs) to minimize risk in case of token compromise.                            |
 | **Regularly Rotate Tokens and Keys**  | Periodically regenerate your SSH keys and PATs to ensure ongoing security.                                                                        |
 | **Sign Commits with GPG**             | Sign and verify commits to prevent unauthorized changes, especially important in larger projects.                                                  |
 
 ## Conclusion
 
-Authentication in VCS ensures secure access to repositories using various methods like SSH keys, Personal Access Tokens (PAT),  and GPG commit signing. While traditional username/password authentication is deprecated, modern methods such as SSH and PATs provide enhanced security. This document details the setup process for each method, troubleshooting common issues, and best practices such as enabling two-factor authentication (2FA) and signing commits with GPG. By following these guidelines, you can effectively secure your Git interactions and safeguard your repositories.
+Authentication in VCS ensures secure access to repositories using methods like SSH keys, Personal Access Tokens (PAT), and GPG commit signing. With username/password authentication deprecated, modern methods like SSH and PATs offer stronger security. 
+
+This guide outlines setup, troubleshooting, and best practices like enabling SSH access and signing commits with GPG to protect your Git interactions and repositories effectively.
 
