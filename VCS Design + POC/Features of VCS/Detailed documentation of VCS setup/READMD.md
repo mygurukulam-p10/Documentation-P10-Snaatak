@@ -41,12 +41,16 @@ Version Control Systems like **Bitbucket**, **GitHub**, and **GitLab** provide e
    git config --global user.name "brijsingh21"
    git config --global user.email "brij.singh.snaatak@mygurukulam.co"
    ```
-4. **Clone the Repository**:
+4. **App Passwords**: Go to Personal settings > App passwords.
+
+5. **Create App Password**: Click on Create app password, select the permissions you need (e.g., Repository - Read and Repository - Write), and generate the password. Copy it for later use.
+
+6. **Clone the Repository**:
    - Once created, you will see the clone URL. Use the following Git command to clone it locally:
      ```bash
-     git clone https://bitbucket.org/username/repository_name.git
+     git clone https://<username>:<app_password>@bitbucket.org/<username>/<repository>.git
      ```
-5. **Push Your Code**:
+6. **Push Your Code**:
    - After making changes, use the following commands to push your code:
      ```bash
      git add .
@@ -54,7 +58,7 @@ Version Control Systems like **Bitbucket**, **GitHub**, and **GitLab** provide e
      git push origin main
      ```
 
-6. **Collaborate**: Invite team members by going to the repository settings and selecting **User and Group Access**.
+7. **Collaborate**: Invite team members by going to the repository settings and selecting **User and Group Access**.
 
 ---
 
@@ -67,18 +71,23 @@ Version Control Systems like **Bitbucket**, **GitHub**, and **GitLab** provide e
 2. **Create a New Repository**:
    - Click on the **New** button in the repositories section.
    - Add a **repository name**, select public or private, and optionally add a README.
-3. **Set Git Username and Email**:
+
+3. **Access Tokens**: Navigate to Settings > Developer settings > Personal access tokens.
+
+4. **Generate Token**: Click on Generate new token. Select the scopes you need (e.g., repo for full control of private repositories) and generate the token. Make sure to copy it, as you won't be able to see it again.
+
+5. **Set Git Username and Email**:
     This configures Git to associate your commits with a username and email.
  ```
    git config --global user.name "brijsingh21"
    git config --global user.email "brij.singh.snaatak@mygurukulam.co"
    ```
-4. **Clone the Repository**:
+6. **Clone the Repository**:
    - Copy the HTTPS or SSH link and clone it:
      ```bash
-     git clone https://github.com/username/repository_name.git
+   git clone https://<username>:<personal_access_token>@github.com/<username>/<repository>.git
      ```
-5. **Push Your Code**:
+7. **Push Your Code**:
    - After making changes, push your code with the following commands:
      ```bash
      git add .
@@ -86,7 +95,7 @@ Version Control Systems like **Bitbucket**, **GitHub**, and **GitLab** provide e
      git push origin main
      ```
 
-6. **Collaborate**: To collaborate, go to **Settings > Manage access** and invite your team.
+8. **Collaborate**: To collaborate, go to **Settings > Manage access** and invite your team.
 
 ---
 
@@ -108,7 +117,7 @@ Version Control Systems like **Bitbucket**, **GitHub**, and **GitLab** provide e
 4. **Clone the Repository**:
    - Once the repository is created, clone it using the following Git command:
      ```bash
-     git clone https://gitlab.com/username/repository_name.git
+     git clone https://<username>:<personal_access_token>@gitlab.com/<username>/<repository>.git
      ```
 5. **Push Your Code**:
    - Use the following Git commands to push code:
