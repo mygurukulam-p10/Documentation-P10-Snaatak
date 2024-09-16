@@ -103,7 +103,8 @@ Follow the prompts to configure ScyllaDB according to your system specifications
 ```bash
 sudo systemctl start scylla-server
 ```
-![Screenshot from 2024-09-08 00-19-13](https://github.com/user-attachments/assets/6cd720b3-7429-42eb-b438-4ba814f4c168)
+![Screenshot from 2024-09-16 23-52-10](https://github.com/user-attachments/assets/2ffffcc9-e5df-4e0c-8580-b21311e0d833)
+
 
 
 ### Step 7: Verify ScyllaDB Installation
@@ -133,9 +134,7 @@ Here are some basic CQL commands to get started with ScyllaDB:
    ```bash
    cqlsh -u cassandra -p cassandra
    ```
-   ![Screenshot from 2024-09-16 17-05-47](https://github.com/user-attachments/assets/64ac27a9-806a-4d4a-b1ae-df4b7938aeae)
-
-
+   ![Screenshot from 2024-09-16 23-51-51](https://github.com/user-attachments/assets/5070a12a-a4ef-4bcc-8e46-9e682dd2947e)
 
 2. Create a keyspace:
    ```sql
