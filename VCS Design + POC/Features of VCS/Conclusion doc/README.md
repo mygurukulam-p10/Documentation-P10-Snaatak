@@ -1,13 +1,9 @@
 # Feature of VCS - Conclusion document
 
-## Purpose
-
-The purpose of this document is to provide a comprehensive comparison of three major Version Control Systems (VCS): **Bitbucket**, **GitLab**, and **GitHub**. By analyzing their features, integrations, and workflows, this document aims to guide teams and organizations in selecting the best platform that fits their development and operational needs.
-
 ## Table of Contents
 
-- [Introduction](#introduction)
 - [Purpose](#purpose)
+- [Introduction](#introduction)
 - [Overview of Platforms](#overview-of-platforms)
   - [Bitbucket](#bitbucket)
   - [GitLab](#gitlab)
@@ -25,6 +21,10 @@ The purpose of this document is to provide a comprehensive comparison of three m
 - [Conclusion](#conclusion)
   - [Which is Best?](#which-is-best)
 - [References](#references)
+
+## Purpose
+
+The purpose of this document is to provide a comprehensive comparison of three major Version Control Systems (VCS): **Bitbucket**, **GitLab**, and **GitHub**. By analyzing their features, integrations, and workflows, this document aims to guide teams and organizations in selecting the best platform that fits their development and operational needs.
 
 ## Introduction
 
@@ -130,8 +130,6 @@ The choice between Bitbucket, GitLab, and GitHub depends on your organization’
 
 ### Which is Best?
 
-- **Bitbucket** is ideal for teams that are heavily invested in Atlassian tools and need advanced permissions and access control.
-- **GitLab** is the best choice for organizations looking for an all-in-one platform that integrates DevOps, CI/CD, and security in a single package.
 - **GitHub** is unmatched for open-source projects and boasts a vast community, making it ideal for collaboration and community-driven development.
 
 Each platform excels in different areas, so selecting the best tool depends on your specific requirements and the tools your team is already using or plans to use.
