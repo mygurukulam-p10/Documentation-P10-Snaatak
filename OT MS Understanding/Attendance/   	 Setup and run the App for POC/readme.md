@@ -141,11 +141,12 @@ echo "All installations completed successfully!"
 
 ![Screenshot from 2024-09-16 16-39-41](https://github.com/user-attachments/assets/223964f4-8d5e-466f-a3ac-ce2b426660f2)
 
-![Screenshot from 2024-09-16 23-26-59](https://github.com/user-attachments/assets/1bcb0f7e-936a-4d8c-8792-0d05a8725b29)
+![Screenshot from 2024-09-16 23-44-32](https://github.com/user-attachments/assets/4efec8ca-54f6-404f-9b9a-710003ec360f)
 
 ![Screenshot from 2024-09-16 23-27-33](https://github.com/user-attachments/assets/1934f2b3-e9c2-4811-81e0-be98b9a9bf39)
 
-![Screenshot from 2024-09-16 23-33-19](https://github.com/user-attachments/assets/9418513f-e1d7-4d27-b603-2d3de80aa61f)
+![Screenshot from 2024-09-16 23-44-50](https://github.com/user-attachments/assets/c1e5c801-cf3f-472f-961d-233d970e0d1c)
+
 
 
 
@@ -204,6 +205,7 @@ Edit the pg_hba.conf file:
 ```
 poetry Install
 ```
+![Screenshot from 2024-09-16 23-49-40](https://github.com/user-attachments/assets/fa81fe48-84cb-4708-9121-41f712ca2c27)
 
 
 ## Application Build
@@ -223,7 +225,8 @@ pip3 install gunicorn
 ```
 gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 ```
-![Screenshot from 2024-09-16 16-42-39](https://github.com/user-attachments/assets/f2ec9c11-37f8-431c-8860-bb9b79389895)
+![Screenshot from 2024-09-16 23-28-59](https://github.com/user-attachments/assets/7b3e25c2-c2ad-444b-8ec0-9155a449a356)
+
 
 
 ### Step 12 :- Now go to web browser and hit url http://<IP_OF_SERVER>:8080/apidocs
