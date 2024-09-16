@@ -80,11 +80,13 @@ This Poc demonstrates how to set up and use GitHub as a Version Control System. 
    ```
    ![Screenshot from 2024-09-15 13-34-17](https://github.com/user-attachments/assets/83d1acfc-e6d6-4b23-8185-8ea195a3e1a6)
 
-   ![Screenshot from 2024-09-15 13-35-07](https://github.com/user-attachments/assets/d460b58c-b9c3-46a6-a55b-e08a659a3884)
+   ![Screenshot from 2024-09-17 00-04-07](https://github.com/user-attachments/assets/07238f92-318e-4533-afb5-118b38e3cc11)
 
-   ![Screenshot from 2024-09-15 13-35-25](https://github.com/user-attachments/assets/fb04b7a2-e7ad-42cd-93aa-2711a602c0e5)
+   ![Screenshot from 2024-09-17 00-04-27](https://github.com/user-attachments/assets/bae063c7-0fc2-4dfb-84fc-447ec203533f)
 
-   ![Screenshot from 2024-09-15 13-43-50](https://github.com/user-attachments/assets/297f92d9-4bf9-494d-8ee2-118c029190a4)
+   ![Screenshot from 2024-09-17 00-04-49](https://github.com/user-attachments/assets/11f7093f-ea52-4495-bd70-de8e12b35279)
+
+
 
 ## Conclusion
 In this PoC, we demonstrated the basic setup of Git using GitHub as a Version Control System. Git allows developers to track changes, collaborate effectively, and manage code versions. By utilizing Git, teams can streamline their development processes and ensure efficient collaboration on software projects.
