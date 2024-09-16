@@ -30,8 +30,8 @@
 |----------------------------|-----------------------------|-------------------------------|------------------------------|----------------------------|-------------------------------|
 | **Description** | Declarative GitOps continuous delivery tool for Kubernetes | GitOps solution for Kubernetes with modular components | Kubernetes-native CI/CD platform with GitOps | Open-source DevOps automation tool with GitOps | GitOps tool designed for large-scale Kubernetes deployments |                              |
 | **Web UI**    | Rich UI with management and visualization | No (CLI-based, though extensions exist) | Rich UI and environment management   | No (CLI-based)                        | No (CLI-based)                        |
-| **Health Checks** | Built-in health and status checks | No (Manual health checks required)    | Integrated health and status checks  | No (Manual health checks required)    | No (Manual health checks required)    |
-| **Rollback Capabilities** | Yes                                  | No (Manual rollback needed)           | Yes                                  | No (Manual rollback needed)           | No (Manual rollback needed)           |
+| **Health Checks** | Built-in health and status checks | No     | Integrated health and status checks  | No    | No     |
+| **Rollback Capabilities** | Yes                                  | No        | Yes                                  | No | No            |
 | **Community**        | Large, active community with strong support | Large, active community with strong support | Growing community with good support | Smaller, niche community               | Emerging community with growing support |
 | **Multi-Cluster Support** | Yes                                  | Yes                                  | Yes                                  | Yes                                  | Designed for large-scale multi-cluster management |
 | **Helm Integration** | Yes                                  | Yes                                  | Yes                                  | Yes                                  | Limited (Focus on large-scale management) |
