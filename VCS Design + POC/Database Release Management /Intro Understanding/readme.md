@@ -7,7 +7,7 @@
 ![database](https://github.com/user-attachments/assets/5102e5e4-1b85-4d77-9f41-5a3173005ff4)
 
 ## Purpose 
-To provide an overview of version control for databases, including why it is important, the tools available, and Recommendations.
+To provide an overview of databases, including why it is important, the tools available, and Recommendations.
 ## Table of Contents
 
 1. [Introduction](#introduction)
