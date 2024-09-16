@@ -136,15 +136,18 @@ pip3 --version
 
 echo "All installations completed successfully!"
 ```
-![Screenshot from 2024-09-13 09-30-17](https://github.com/user-attachments/assets/8f17900b-9123-43fe-a313-5f570ad30e2e)
+![Screenshot from 2024-09-16 16-39-14](https://github.com/user-attachments/assets/2a05a0ed-1391-4215-9a63-4b8d98382404)
 
-![Screenshot from 2024-09-13 09-31-12](https://github.com/user-attachments/assets/e564b676-740b-48cf-bb7a-1675d69198bb)
+![Screenshot from 2024-09-16 16-39-27](https://github.com/user-attachments/assets/3652397f-c52f-42c6-9c03-23ec384b651a)
 
-![Screenshot from 2024-09-13 09-31-24](https://github.com/user-attachments/assets/06b1d378-e4ea-4166-b23f-d22db54d4b91)
+![Screenshot from 2024-09-16 16-39-41](https://github.com/user-attachments/assets/223964f4-8d5e-466f-a3ac-ce2b426660f2)
 
-![Screenshot from 2024-09-13 09-31-35](https://github.com/user-attachments/assets/bd798cb7-86b8-4d4a-a914-155ee9aa3df0)
+![Screenshot from 2024-09-16 16-39-55](https://github.com/user-attachments/assets/c88516a5-3750-4c55-baf9-1c0c1f3bc0e7)
 
-![Screenshot from 2024-09-13 09-31-44](https://github.com/user-attachments/assets/f2001b67-47d4-462c-84af-54bb67c0449e)
+![Screenshot from 2024-09-16 16-40-03](https://github.com/user-attachments/assets/572d1be5-3466-40ed-bea7-2791a92f4556)
+
+![Screenshot from 2024-09-16 16-40-38](https://github.com/user-attachments/assets/b9bae0dd-dc8c-416e-9c8b-871e78a09a0c)
+
 
 ### Step 3 :- Run Below Command
  A library required for developing applications that interact with PostgreSQL databases. It includes header files and the static library for libpq, which is the C application programmer's interface to PostgreSQL.
@@ -159,13 +162,15 @@ Open redis.conf configuration file (located at /etc/redis/redis.conf).
 Find the line that starts with # requirepass, which is commented out by default.
 Set a password by uncommenting the line and replacing your_password with your desired password:
 
-![Screenshot from 2024-09-07 16-17-56](https://github.com/user-attachments/assets/b0c0a4ce-4e7f-4b58-8504-9565deee4d06)
+![Screenshot from 2024-09-16 16-41-03](https://github.com/user-attachments/assets/d5452953-ed02-46b0-b4a5-26898a160c2c)
+
 
 ### Step 5 :- Go to Attendance Repository and run command poetry shell to create virtual env 
 ```
 poetry shell
 ``` 
-![Screenshot from 2024-09-07 14-53-39](https://github.com/user-attachments/assets/ec6c03a5-66d0-4eea-8994-4383a87d0f61)
+![Screenshot from 2024-09-16 16-41-17](https://github.com/user-attachments/assets/06fb62c5-5ef0-45f9-b550-1e44cb5535d1)
+
 
 ### Step 6:- Create database for attendance app and setup password for postgres user
 ```
@@ -182,18 +187,22 @@ The pg_hba.conf file controls client authentication and is where you specify the
 Locate the pg_hba.conf file: The location of this file may vary depending on installation. Common locations are /etc/postgresql/15/main/pg_hba.conf
 Edit the pg_hba.conf file:
 
-![Screenshot from 2024-09-07 16-22-31](https://github.com/user-attachments/assets/771865af-7b47-4e10-b254-f595485f680e)
+![Screenshot from 2024-09-16 16-41-41](https://github.com/user-attachments/assets/238c9e35-fd61-403a-8c7a-afef0cc0b842)
+
 
 ### Step 8: - Update config.yaml and liquibase.properties
-![Screenshot from 2024-09-07 16-24-36](https://github.com/user-attachments/assets/41edd2c8-a83e-42c9-ad00-9b5bdf138e79)
+![Screenshot from 2024-09-16 16-41-51](https://github.com/user-attachments/assets/dd6db804-5537-4080-ba73-254a4590a1c7)
 
-![Screenshot from 2024-09-07 16-28-35](https://github.com/user-attachments/assets/7b331115-1538-42ce-989e-65a64ae7b3ea)
+![Screenshot from 2024-09-16 16-42-08](https://github.com/user-attachments/assets/3f4edb7b-52aa-44de-8aae-9971de5b74d8)
+
+
 
 ### Step 9 :- Run the below command to install all dependencies required in this project 
 ```
 poetry Install
 ```
-![Screenshot from 2024-09-07 14-53-49](https://github.com/user-attachments/assets/972d301e-68ba-4e36-bc54-ada0c6948e4e)
+![Screenshot from 2024-09-16 16-42-17](https://github.com/user-attachments/assets/67b1f49d-d03d-4862-a442-a42361e56a0e)
+
 
 ## Application Build
 
@@ -201,7 +210,8 @@ poetry Install
 ```
 make run-migrations
 ```
-![Screenshot from 2024-09-07 14-54-22](https://github.com/user-attachments/assets/14e582b3-ef33-4db1-9433-88525720aa45)
+![Screenshot from 2024-09-16 16-42-29](https://github.com/user-attachments/assets/4a815b54-014a-40d6-a356-5d9969cd07de)
+
 
 
 ### Step 11 :- Firstly install gunicorn and Now Run the Application
@@ -216,7 +226,8 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 
 ### Step 12 :- Now go to web browser and hit url http://<IP_OF_SERVER>:8080/apidocs
 
-![Screenshot from 2024-09-07 13-27-05](https://github.com/user-attachments/assets/7b109c86-527a-4336-9ae9-f0d3b46e295f)
+![Screenshot from 2024-09-16 16-42-39](https://github.com/user-attachments/assets/f2ec9c11-37f8-431c-8860-bb9b79389895)
+
 
 
 ## Conclusion
