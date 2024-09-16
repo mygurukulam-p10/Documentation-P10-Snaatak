@@ -74,12 +74,7 @@ sudo wget -O /etc/apt/sources.list.d/scylla.list http://downloads.scylladb.com/d
 sudo apt-get update
 ```
 
-### Step 3: Install ScyllaDB
-
-```bash
-sudo apt-get install scylla
-```
-### Step 4:  Now need to install java 11 with below commands
+### Step 3:  Now need to install java 11 with below commands
    
 ```
 sudo apt-get update
@@ -90,6 +85,13 @@ sudo apt-get install -y openjdk-11-jre-headless
 ```
 sudo update-java-alternatives --jre-headless -s java-1.11.0-openjdk-amd64
 ```
+
+### Step 4: Install ScyllaDB
+
+```bash
+sudo apt-get install scylla
+```
+
 ### Step 5: Configure ScyllaDB
 
 ```bash
