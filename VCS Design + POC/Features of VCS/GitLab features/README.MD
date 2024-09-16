@@ -42,7 +42,7 @@ GitLab CI/CD automates testing, building, and deploying code. Key components inc
 - **Pipelines**: Automate job execution (e.g., tests, deployments).
 - **Artifacts**: Outputs from jobs that can be reused or shared.
 - **Docker Integration**: Allows running jobs in isolated containers for consistency.
-## :white_tick: Advantages of GitLab
+## Advantages of GitLab
 - **All-in-One Platform**: Combines version control, CI/CD, and security.
 - **Self-Hosted & Cloud**: Flexibility in deployment options.
 - **Powerful CI/CD**: Streamlined automation of builds, tests, and deployments.
