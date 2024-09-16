@@ -37,7 +37,7 @@
 | **Community**        | Large, active community with strong support | Large, active community with strong support | Growing community with good support | Smaller, niche community               | Emerging community with growing support |
 | **Multi-Cluster Support** | Yes                                  | Yes                                  | Yes                                  | Yes                                  | Designed for large-scale multi-cluster management |
 | **Helm Integration** | Yes                                  | Yes                                  | Yes                                  | Yes                                  | Limited (Focus on large-scale management) |
-| **Kustomize Integration** | Yes                                  | Yes                                  | Limited (Primary focus on Jenkins)   | Limited (Primary focus on Build/Deploy) | Limited (Primary focus on scale)      |
+| **customize Integration** | Yes                                  | Yes                                  | Limited (Primary focus on Jenkins)   | Limited (Primary focus on Build/Deploy) | Limited (Primary focus on scale)      |
 | **Preview Environments** | No                                   | No                                   | Yes                                  | No                                   | No                                   |
 | **Scalability** | Moderate                              | High                                 | High                                 | Moderate                              | Very High                             |
 
