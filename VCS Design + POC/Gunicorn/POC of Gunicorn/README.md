@@ -80,13 +80,15 @@ sudo apt install -y  python3-pip
 python3 -m venv venv
 source venv/bin/activate
 ```
-![Screenshot from 2024-09-13 14-43-51](https://github.com/user-attachments/assets/e1609450-cef0-44da-b6bf-b8606a0ef5be)
+![Screenshot from 2024-09-16 16-33-43](https://github.com/user-attachments/assets/a8c14b7c-14ba-4100-8c77-2066229c15b7)
+
 
 ### step 3: Activate virtual environment
 ```
 source venv/bin/activate
 ```
-![Screenshot from 2024-09-13 14-49-18](https://github.com/user-attachments/assets/473bf8b9-9aa1-49ba-a2c9-08e3f1aaeae1)
+
+![Screenshot from 2024-09-16 16-33-57](https://github.com/user-attachments/assets/63aa9769-9b66-40af-85f3-a728d4bc5076)
 
 
 ### Step 3: Install Dependencies
@@ -98,7 +100,8 @@ pip install --upgrade pip
 # Install Gunicorn and Flask
 pip install gunicorn flask
 ```
-![Screenshot from 2024-09-13 14-49-54](https://github.com/user-attachments/assets/9ab1162f-8126-434c-92d9-aa544bb473d3)
+![Screenshot from 2024-09-16 16-34-11](https://github.com/user-attachments/assets/c74c7051-a9b8-4a8f-a470-dd228fafbb1b)
+
 
 ### Step 4: Create a Sample Flask Application
 
@@ -121,7 +124,7 @@ if __name__ == '__main__':
     app.run()
 ```
 
-![Screenshot from 2024-09-13 14-49-34](https://github.com/user-attachments/assets/6ec3bfc4-d990-40e7-95e8-b8fa35251c65)
+![Screenshot from 2024-09-16 16-34-50](https://github.com/user-attachments/assets/db38d8b3-8fbe-45d7-a04e-c85f0ea660f3)
 
 
 ### Step 5: Run the Application with Gunicorn
@@ -130,7 +133,8 @@ if __name__ == '__main__':
 gunicorn --workers 3 --bind 0.0.0.0:8000 app:app
 ```
 
-![Screenshot from 2024-09-13 14-50-05](https://github.com/user-attachments/assets/234591b9-c7c6-4122-ae00-bc755183a785)
+![Screenshot from 2024-09-16 16-35-23](https://github.com/user-attachments/assets/7e76e85a-beb5-44a3-9151-3dba9b4bf4db)
+
 
 ## Troubleshooting
 
