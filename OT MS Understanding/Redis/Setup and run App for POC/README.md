@@ -13,16 +13,19 @@
    - [Dependencies](#dependencies)
    - [Important Ports](#important-ports)
 3. [Installation and Setup](#3-installation-and-setup)
-   - [1.1 Installation](#31-installation)
-   - [1.2 Configuration](#32-configuration)
-   - [1.3 Security Setup](#33-security-setup)
-   - [1.4 Starting Redis](#34-starting-redis)
+   - [3.1 Installation](#31-installation)
+   - [3.2 Configuration](#32-configuration)
+   - [3.3 Security Setup](#33-security-setup)
+   - [3.4 Starting Redis](#34-starting-redis)
 4. [Cleanup and Shutdown](#4-cleanup-and-shutdown)
 5. [Conclusion](#5-conclusion)
 6. [References](#6-references)
 ---
+## 1. Purpose
 
-## 1.  Pre-requisites
+The purpose of the Redis in API's is to store the cache data so that, next time it doent need to ask database again and again to fetch it and create a time latency.
+
+## 2.  Pre-requisites
 
 ### System Requirements
 
@@ -49,9 +52,9 @@
 
 ![image](https://github.com/user-attachments/assets/32d559fd-20f3-4895-8e5a-c93156849e58)
 
-## 1. Installation and Setup
+## 3. Installation and Setup
 
-### 1.1 Installation
+### 3.1 Installation
 
 Redis can be installed on various operating systems. Follow the steps below for your specific OS:
 
@@ -80,7 +83,7 @@ brew install redis
 For this we have to download a window installer for redis Redis MSI installer https://github.com/microsoftarchive/redis/releases
 ```
 
-### 1.2 Configuration
+### 3.2 Configuration
 
 ## 1. Redis Setup
 
@@ -153,7 +156,7 @@ sudo systemctl start redis-server
 ```
 redis-server /path/to/redis.conf
 ```
-## 2. Cleanup and Shutdown
+## 4. Cleanup and Shutdown
 
 To clean up Redis, stop the server and remove any persistent files if needed:
 ```
@@ -162,11 +165,11 @@ sudo rm /var/lib/redis/dump.rdb
 sudo rm /var/lib/redis/appendonly.aof
 ```
 
-## 3.Conclusion
+## Conclusion
 
 Redis is a popular choice for applications that require low-latency and high-throughput data access. By following best practices in tuning and security, Redis can be a robust component of your technology stack, offering scalability and reliability for modern application needs.
 
-### 4. References
+### 6. References
 
 | **Reference**                       | **Description**                                                  |
 |-------------------------------------|------------------------------------------------------------------|
