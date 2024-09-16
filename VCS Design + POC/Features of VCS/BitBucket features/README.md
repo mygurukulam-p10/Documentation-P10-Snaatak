@@ -1,8 +1,10 @@
 # Features of Version Control Systems (VCS)    <img width="62" alt="image" src="https://github.com/user-attachments/assets/378b4036-4208-4d25-8eb6-619390315481">  
 
+ 
  | Author        | Created on | Version | Last updated by | Last edited on |
   |-------------|---------|-------------|-------------|---------|
   | Amit Nagar | 12-09-24 | version 1 | Amit Nagar | 13-09-24 |
+
 
 
 ## Purpose
@@ -12,12 +14,13 @@ The purpose of this document is to provide a comprehensive evaluation of Bitbuck
 
 1. [Introduction](#introduction)
 2. [Features of bitbucket](#features-of-bitbucket)
+3. [Advantages and Disadvantages](#advantages-and-disadvantages)
 4. [Conclusion](#conclusion)
 5. [Contact Information](#contact-information)
 6. [References](#references)
 
 ### Introduction
-Bitbucket provides a collaborative environment for teams to work on code, manage repositories, and automate workflows.Bitbucket is a web-based version control repository hosting service owned by Atlassian, primarily for source code and development projects that use Git or Mercurial. This document provides an evaluation of Bitbucket’s features and capabilities.
+Bitbucket provides a collaborative environment for teams to work on code, manage repositories, and automate workflows. Bitbucket is a web-based version control repository hosting service owned by Atlassian, primarily for source code and development projects that use Git or Mercurial. This document provides an evaluation of Bitbucket's features and capabilities.
 
 ### Features of bitbucket
 <img width="332" alt="Bitbucket features" src="https://github.com/user-attachments/assets/cabbf9e6-9f4f-4147-91b5-c71fd02baf82">
@@ -40,8 +43,21 @@ Bitbucket provides a collaborative environment for teams to work on code, manage
 | **Fine-grain Control over Deployment** | Detailed control over deployment processes, including environments and deployment permissions. | - Configures deployment permissions at a granular level.<br>- Manages deployment workflows across multiple environments.<br>- Improves deployment security and control. |
 | **IP-based Access to Repositories** | Restricts access to repositories based on IP addresses.              | - Enhances security by limiting repository access to specific IP addresses.<br>- Provides an extra layer of protection against unauthorized access.<br>- Useful for compliance and security policies. |
 
+### Advantages and Disadvantages
+
+| Advantages | Disadvantages |
+|------------|---------------|
+| 1. Seamless integration with other Atlassian products (Jira, Confluence, Trello) | 1. Learning curve for teams not familiar with Atlassian ecosystem |
+| 2. Built-in CI/CD with Bitbucket Pipelines | 2. Limited free tier compared to some competitors |
+| 3. Flexible deployment options (cloud and self-hosted) | 3. Some advanced features only available in premium plans |
+| 4. Strong access control and security features | 4. Less extensive marketplace compared to GitHub |
+| 5. Intuitive interface for code reviews and pull requests | 5. Fewer open-source projects compared to GitHub or GitLab |
+| 6. Supports both Git and Mercurial | 6. Limited public visibility for open-source projects in free tier |
+| 7. Unlimited private repositories in free tier | 7. Some users report occasional performance issues |
+| 8. Built-in wiki and issue tracking | 8. Mobile app functionality is limited compared to desktop version |
+
 ## Conclusion
-This document provides an overview of Bitbucket's key features, including its integration capabilities, pull request management, and repository-level project management. For Premium users, additional features like fine-grain branch and deployment control, and IP-based access offer enhanced security and customization. Understanding these features can help teams leverage Bitbucket effectively to streamline development workflows, improve collaboration, and ensure robust version control.
+This document provides an overview of Bitbucket's key features, including its integration capabilities, pull request management, and repository-level project management. For Premium users, additional features like fine-grain branch and deployment control, and IP-based access offer enhanced security and customization. Understanding these features, along with the advantages and disadvantages of Bitbucket, can help teams leverage Bitbucket effectively to streamline development workflows, improve collaboration, and ensure robust version control.
 
 ## Contact Information 
 |Name|Email Address|
@@ -57,5 +73,3 @@ This document provides an overview of Bitbucket's key features, including its in
 | **Bitbucket Integration with Trello**                   | [Trello Integration Guide](https://support.atlassian.com/bitbucket-cloud/docs/integrate-bitbucket-cloud-with-trello/) |
 | **Bitbucket Server Documentation**                      | [Bitbucket Server Docs](https://confluence.atlassian.com/bitbucketserver) |
 | **Bitbucket Security Features**                         | [Bitbucket Security Features](https://support.atlassian.com/bitbucket-cloud/docs/security-and-compliance/)|
-
-
