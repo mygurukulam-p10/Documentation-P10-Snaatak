@@ -1,4 +1,4 @@
-# Version Control for Databases: A Comprehensive Guide
+# Databases: A Comprehensive Guide
 
   | Author        | Created on | Version | Last updated by | Last edited on |
   |-------------|---------|-------------|-------------|---------|
