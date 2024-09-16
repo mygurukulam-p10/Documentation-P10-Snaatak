@@ -1,11 +1,9 @@
 # VCS Authorization Setup POC
 
-**Author**: Abhinav Singh  
-**Created on**: 15-09-24  
-**Version**: 1  
-**Last updated by**: Abhinav Singh  
-**Last edited on**: 15-09-24  
-
+|  Author        | Created on |  Version  | Last updated by  | Last edited on |
+|----------------|------------|-----------|------------------|----------------|
+| Abhinav Singh  |   15-09-24 | version 1 |   Abhinav Singh  |     15-09-24   |
+  
 ## Table of Contents
 - [Purpose](#purpose)
 - [Authorization Overview](#authorization-overview)
