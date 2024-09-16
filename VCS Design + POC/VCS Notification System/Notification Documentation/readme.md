@@ -3,6 +3,7 @@
 | Author        | Created on | Version | Last updated by | Last edited on |
 |-------------|---------|-------------|-------------|---------|
 | Vinay Bansal | 13-09-24 | version 1 | Vinay Bansal | Initial Commit |
+![n](https://github.com/user-attachments/assets/6dbf9a80-377f-44c4-97fb-ec37d7788e44)
 
 
 ## Purpose
@@ -23,8 +24,7 @@ The purpose of this document is to guide you through the setup and implementatio
 7. [References](#references)
 
 ## Introduction
-
-Version Control Systems (VCS) are essential tools for managing and tracking changes in software development projects. VCS notifications play a crucial role in keeping stakeholders informed about important events and changes within a project. This document outlines the purpose of VCS notifications, the types available, key stakeholders involved, typical events that trigger notifications.
+In today’s fast-paced digital world, an effective notification system is crucial for keeping users informed and engaged. Whether you're looking to alert users about system updates, remind them of tasks, or provide real-time updates, setting up a robust notification system is essential. This guide will walk you through the prerequisites, setup process, best practices, and provide you with resources to ensure your notification system is efficient and user-friendly.
 
 ## Pre-requisites
 Before setting up VCS notifications, ensure you have the following:
