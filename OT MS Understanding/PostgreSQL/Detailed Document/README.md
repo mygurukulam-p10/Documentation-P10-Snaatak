@@ -6,7 +6,7 @@
 
 ## Table of Contents
 
-1. [Purpose](#purpose)
+1. [Introduction](#Introduction)
 2. [Pre-requisites](#pre-requisites)
    - [System Requirements](#system-requirements)
    - [Dependencies](#dependencies)
@@ -20,9 +20,9 @@
 9. [Contact Information](#contact-information)
 10. [References](#references)    
 
-## Purpose
+## Introduction
 
-This proof of concept (POC) demonstrates the capabilities of PostgreSQL, a powerful open-source relational database system known for its performance, reliability, and feature set. PostgreSQL is widely used for transactional and analytical workloads, supporting advanced SQL features, extensibility, and robust ACID compliance.
+PostgreSQL is a powerful, free database system that helps you store and manage data. It organizes data in tables and allows you to run complex queries. It works on different operating systems and is known for its advanced features and reliability, making it suitable for both small and large applications.
 
 ## Pre-requisites
 
