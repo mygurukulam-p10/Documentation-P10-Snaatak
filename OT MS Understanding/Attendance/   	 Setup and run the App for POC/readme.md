@@ -65,7 +65,8 @@ This application requires no prerequisites except for database connectivity. Add
 
 ## Architecture
 
-![image](https://github.com/user-attachments/assets/35166bb1-44ed-4950-af79-4a4a32a964f9)
+![image](https://github.com/user-attachments/assets/45c3aa9e-06b6-4ea2-bc72-e275bf5738cf)
+
 
 # Step-by-step installation
 
