@@ -75,4 +75,4 @@ For further reading and resources on GitOps, check out the following:
 |------|---------------------|
 | https://buildpiper.io/documentation/docs/Gitops/gitopsmodel | BuildPiper Gitops |
 | https://fluxcd.io/docs/ | Flux Documentation |
-| https://jenkins-x.io/docs/ | Jenkins X Documentation |
+| https://fleetdm.com/docs/get-started/why-fleet | Fleet |
