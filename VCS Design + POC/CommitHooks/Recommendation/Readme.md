@@ -95,6 +95,6 @@ For further reading and resources on Commit Hooks, check out the following:
 |https://devdynamics.ai/blog/untitled-2/| **DevDynamics** |
 |https://unstop.com/blog/git-hooks | **Unstop** |
 |https://suthagar23.medium.com/git-hooks-keep-the-code-quality-119e6feb511e|**Medium**|
-|https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20%2B%20POC/CommitHooks/Understanding%20of%20Commit%20Hook/Readme.md|**Commit Hook detailed doc**|
+|https://tinyurl.com/4xby7m9s|**Commit Hook detailed doc**|
 
 
