@@ -141,11 +141,13 @@ echo "All installations completed successfully!"
 
 ![Screenshot from 2024-09-16 16-39-41](https://github.com/user-attachments/assets/223964f4-8d5e-466f-a3ac-ce2b426660f2)
 
-![Screenshot from 2024-09-16 16-39-55](https://github.com/user-attachments/assets/c88516a5-3750-4c55-baf9-1c0c1f3bc0e7)
+![Screenshot from 2024-09-16 23-26-59](https://github.com/user-attachments/assets/1bcb0f7e-936a-4d8c-8792-0d05a8725b29)
 
-![Screenshot from 2024-09-16 16-40-03](https://github.com/user-attachments/assets/572d1be5-3466-40ed-bea7-2791a92f4556)
+![Screenshot from 2024-09-16 23-27-33](https://github.com/user-attachments/assets/1934f2b3-e9c2-4811-81e0-be98b9a9bf39)
 
-![Screenshot from 2024-09-16 16-40-38](https://github.com/user-attachments/assets/b9bae0dd-dc8c-416e-9c8b-871e78a09a0c)
+
+
+
 
 
 ### Step 3 :- Run Below Command
