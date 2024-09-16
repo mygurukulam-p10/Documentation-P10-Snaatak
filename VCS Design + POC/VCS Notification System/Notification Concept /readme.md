@@ -4,6 +4,7 @@
 |-------------|---------|-------------|-------------|---------|
 | Vinay Bansal | 12-09-24 | version 1 | Vinay Bansal | Initial Commit |
 
+![n](https://github.com/user-attachments/assets/707b9d03-abb9-4aaa-87bb-39d49fbc0f6e)
 
 ## Purpose
 The purpose of a notification system, particularly in the context of Version Control Systems (VCS), is to keep all relevant stakeholders informed about important events and changes in a project.
@@ -14,9 +15,11 @@ The purpose of a notification system, particularly in the context of Version Con
 3. [Types of VCS Notifications](#types-of-vcs-notifications)
 4. [Stakeholders](#stakeholders)
 5. [Events for VCS Notifications](#events-for-vcs-notifications)
-6. [Conclusion](#conclusion)
-7. [Contact Information](#contact-information)
-8. [References](#references)
+6. [Best Practices](#best-practices)
+7. [Advantages and Disadvantages](#advantages-and-disadvantages)
+8. [Conclusion](#conclusion)
+9. [Contact Information](#contact-information)
+10. [References](#references)
 
 ## Introduction
 
@@ -61,14 +64,41 @@ Effective notifications improve collaboration, ensure timely responses to issues
 
 ## Events for VCS Notifications
 
-| **Event Type**       | **Trigger Description**                                              |
-|----------------------|----------------------------------------------------------------------|
-| **Commit Event**     | Triggered when a commit is made to the repository.                   |
-| **Merge Event**      | Triggered when a branch is merged into another branch.               |
-| **Pull Request Event** | Includes creation, updates, reviews, and merges of pull requests.    |
-| **Build Event**      | Includes success, failure, or status changes of automated builds.     |
-| **Issue Event**      | Covers creation, updates, resolution, and comments on issues.        |
-| **Deployment Event** | Includes deployment initiation, success, failure, and rollback.       |
+| Category         | Event                | Description                                            |
+|------------------|----------------------|--------------------------------------------------------|
+| **Repository**   | **Fork**             | When the repository is forked by another user.        |
+|                  | **Star**             | When someone stars the repository.                    |
+|                  | **Watch**            | When someone starts watching the repository.          |
+| **Collaborator** | **Add**              | Notifications about adding a new collaborator.        |
+|                  | **Remove**           | Notifications about removing an existing collaborator. |
+| **Deployment**   | **Deployment**       | Notifications about the deployment of code to different environments. |
+| **Security**     | **Vulnerability Alerts** | Notifications about potential security vulnerabilities in dependencies or code. |
+
+## Best Practices
+| **Category**            | **Best Practice**                                       | **Details**                                                                                                                                                           |
+|-------------------------|---------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|       
+| **Clear and Concise Content** | Actionable Information                            | Ensure notifications contain clear, actionable information for easy understanding and action.                                                                         |                                                                                       |
+| **Effective Delivery Channels** | Choose Appropriate Channels                      | Use the most effective channels for different notifications (e.g., email for critical alerts, in-app notifications for less urgent updates).                         |
+| **Security and Privacy** | Data Protection                                      | Ensure notifications do not expose sensitive information and secure any transmitted data.                                                                           |                                                                                  |
+| **Testing and Validation** | Test Notifications                                  | Regularly test the notification system for reliability, delivery issues, and proper formatting.                                                                      |                                                                                       |
+## Advantages and Disadvantages
+### Advantages
+
+| Advantage         | Description                                                                 |
+|-------------------|-----------------------------------------------------------------------------|
+| **Timely Information** | Provides real-time updates to ensure users receive important information promptly. |
+| **Increased Engagement** | Keeps users engaged with regular updates and personalized content.            |
+| **Enhanced Communication** | Facilitates proactive customer support and targeted marketing campaigns.       |
+| **Efficiency** | Automates reminders for tasks and deadlines, reducing manual follow-ups.         |
+
+### Disadvantages
+
+| Disadvantage       | Description                                                                 |
+|-------------------|-----------------------------------------------------------------------------|
+| **Notification Overload** | Excessive notifications can annoy users and lead to notification fatigue.    |
+| **Privacy Concerns** | Collection of user data for personalization may raise privacy and security issues. |
+| **Technical Issues** | Notifications may face delivery problems or compatibility issues across devices. |
+| **Dependency on Internet** | Requires a stable internet connection, which can impact users with poor connectivity. |
 
 ## Conclusion
 
