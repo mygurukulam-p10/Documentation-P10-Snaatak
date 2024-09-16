@@ -45,10 +45,14 @@ GitOps workflows can be categorized based on how they handle configuration and d
 -	How It Works: Changes to configuration files trigger automated deployments to align the actual state with the desired state.
 -	Example Tools: Argo CD, Flux.
 ### 2. Pull-Based GitOps
+![pull](https://github.com/user-attachments/assets/daa23172-ccdb-4cf1-8189-6c58c028950c)
+
 -	Description: The system periodically pulls the latest configuration from Git repositories to ensure the desired state is applied.
 -	How It Works: The GitOps tool running in the cluster regularly checks the Git repository for changes and applies them if there are discrepancies.
 -	Example Tools: Flux, Argo CD (with periodic sync).
 ### 3. Push-Based GitOps
+![push](https://github.com/user-attachments/assets/83b8ed50-0aa0-43a5-a5e9-9fec38f7861e)
+
 -	Description: Changes are pushed to the Git repository, and a webhook or similar mechanism triggers an immediate update to the system.
 -	How It Works: The GitOps tool is notified via webhooks or other notifications when changes are made to the Git repository, prompting an immediate deployment.
 -	Example Tools: Argo CD (with webhook support).
