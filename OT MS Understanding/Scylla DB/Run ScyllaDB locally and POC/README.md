@@ -120,7 +120,8 @@ After entering, Edit these entries for security purpose
 authenticator: PasswordAuthenticator
 authorizer: CassandraAuthorizer
 ```
-![Screenshot from 2024-09-08 00-23-44](https://github.com/user-attachments/assets/2cb523da-0921-42e3-a621-2cf4faabcb3e)
+![Screenshot from 2024-09-16 17-06-07](https://github.com/user-attachments/assets/d5cef51d-2122-427d-8d32-2203cbef1737)
+
 
 
 ## Basic Operations
@@ -131,7 +132,8 @@ Here are some basic CQL commands to get started with ScyllaDB:
    ```bash
    cqlsh -u cassandra -p cassandra
    ```
-   ![Screenshot from 2024-09-08 00-25-56](https://github.com/user-attachments/assets/e33f3204-f741-440b-a906-b250a7fbd42d)
+   ![Screenshot from 2024-09-16 17-05-47](https://github.com/user-attachments/assets/64ac27a9-806a-4d4a-b1ae-df4b7938aeae)
+
 
 
 2. Create a keyspace:
