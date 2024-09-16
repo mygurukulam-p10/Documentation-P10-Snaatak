@@ -22,7 +22,7 @@ This document aims to provide a comprehensive discussion on various types of com
 6. [References](#references)
    
 ## Introduction
-Commit hooks are a type of Git hook that are automatically triggered during the commit process to enforce predefined rules and standards within a development environment. These hooks help maintain code quality and consistency by performing various checks before code changes are committed to the repository. Common uses of commit hooks include verifying code formatting, validating commit messages, detecting sensitive data, running automated tests, and ensuring compliance with project guidelines. By integrating commit hooks into the development workflow, teams can catch errors early, reduce manual code reviews, and maintain a higher standard of code integrity and security.
+Commit hooks are Git hooks triggered during the commit process to enforce code quality and standards. They check code formatting, validate commit messages, detect sensitive data, run tests, and ensure compliance. Integrating commit hooks helps catch errors early, reduces manual reviews, and maintains code integrity.
 
 ## Types of Commit Hooks Overview
 ![image](https://github.com/user-attachments/assets/20d4f97c-a4bb-4757-bbb9-489032063cfe)
