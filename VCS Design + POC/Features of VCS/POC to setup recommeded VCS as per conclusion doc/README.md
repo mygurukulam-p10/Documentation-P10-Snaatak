@@ -74,7 +74,7 @@ This Poc demonstrates how to set up and use GitHub as a Version Control System. 
    cd your-repo-name
    # Make changes to files
    touch index.html
-   git add .
+   git add index.html
    git commit -m "added index.html"
    git push origin main
    ```
