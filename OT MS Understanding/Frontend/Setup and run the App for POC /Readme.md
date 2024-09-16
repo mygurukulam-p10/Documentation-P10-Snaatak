@@ -22,7 +22,7 @@ The purpose of this POC is to demonstrate the functionality and integration of t
 |--------------------------|------------------------|
 | Processor                | single-core              |
 | RAM                      | 1GB                    |
-| Disk                     | 20GB                   |
+| Disk                     | 10GB                   |
 | OS                       | Ubuntu(22.04)          |
 
 ## Dependencies
