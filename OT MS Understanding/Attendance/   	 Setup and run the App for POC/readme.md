@@ -145,6 +145,7 @@ echo "All installations completed successfully!"
 
 ![Screenshot from 2024-09-16 23-27-33](https://github.com/user-attachments/assets/1934f2b3-e9c2-4811-81e0-be98b9a9bf39)
 
+![Screenshot from 2024-09-16 23-33-19](https://github.com/user-attachments/assets/9418513f-e1d7-4d27-b603-2d3de80aa61f)
 
 
 
@@ -169,8 +170,9 @@ Set a password by uncommenting the line and replacing your_password with your de
 ### Step 5 :- Go to Attendance Repository and run command poetry shell to create virtual env 
 ```
 poetry shell
-``` 
-![Screenshot from 2024-09-16 16-41-17](https://github.com/user-attachments/assets/06fb62c5-5ef0-45f9-b550-1e44cb5535d1)
+```
+
+![Screenshot from 2024-09-16 23-28-06](https://github.com/user-attachments/assets/cf51617e-f466-4543-9f95-ea1dfeb1530e)
 
 
 ### Step 6:- Create database for attendance app and setup password for postgres user
@@ -193,18 +195,15 @@ Edit the pg_hba.conf file:
 
 ### Step 8: - Update config.yaml and liquibase.properties
 
-![Screenshot from 2024-09-16 16-55-51](https://github.com/user-attachments/assets/d0354bad-ebd8-4ddf-8189-ffdeed7d3c09)
+![Screenshot from 2024-09-16 16-55-51](https://github.com/user-attachments/assets/73d5b67c-fc31-4082-926e-f07c71546cc8)
 
-
-![Screenshot from 2024-09-16 16-55-58](https://github.com/user-attachments/assets/a5554f83-ce4c-4af4-b620-1451f0ade6bf)
+![Screenshot from 2024-09-16 23-28-25](https://github.com/user-attachments/assets/01500705-8582-4a93-a269-821db65d30e6)
 
 
 ### Step 9 :- Run the below command to install all dependencies required in this project 
 ```
 poetry Install
 ```
-![Screenshot from 2024-09-16 16-54-38](https://github.com/user-attachments/assets/1b36041a-4dab-4d90-b6ba-aa666ad064cf)
-
 
 
 ## Application Build
