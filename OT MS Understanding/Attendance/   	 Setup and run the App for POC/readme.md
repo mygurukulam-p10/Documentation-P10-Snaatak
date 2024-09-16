@@ -221,13 +221,12 @@ pip3 install gunicorn
 ```
 gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 ```
-![Screenshot from 2024-09-07 14-54-32](https://github.com/user-attachments/assets/00fd81a3-9816-4cb5-806a-2f20329493ce)
+![Screenshot from 2024-09-16 16-42-39](https://github.com/user-attachments/assets/f2ec9c11-37f8-431c-8860-bb9b79389895)
 
 
 ### Step 12 :- Now go to web browser and hit url http://<IP_OF_SERVER>:8080/apidocs
 
-![Screenshot from 2024-09-16 16-42-39](https://github.com/user-attachments/assets/f2ec9c11-37f8-431c-8860-bb9b79389895)
-
+![Screenshot from 2024-09-07 13-27-05](https://github.com/user-attachments/assets/a9bcb393-bd64-46a2-a908-5ec34283937a)
 
 
 ## Conclusion
