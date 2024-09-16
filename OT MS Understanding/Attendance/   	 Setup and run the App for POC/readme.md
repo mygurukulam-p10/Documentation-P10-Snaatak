@@ -138,8 +138,6 @@ echo "All installations completed successfully!"
 ```
 ![Screenshot from 2024-09-16 16-39-14](https://github.com/user-attachments/assets/2a05a0ed-1391-4215-9a63-4b8d98382404)
 
-![Screenshot from 2024-09-16 16-39-27](https://github.com/user-attachments/assets/3652397f-c52f-42c6-9c03-23ec384b651a)
-
 ![Screenshot from 2024-09-16 16-39-41](https://github.com/user-attachments/assets/223964f4-8d5e-466f-a3ac-ce2b426660f2)
 
 ![Screenshot from 2024-09-16 16-39-55](https://github.com/user-attachments/assets/c88516a5-3750-4c55-baf9-1c0c1f3bc0e7)
@@ -191,17 +189,19 @@ Edit the pg_hba.conf file:
 
 
 ### Step 8: - Update config.yaml and liquibase.properties
-![Screenshot from 2024-09-16 16-41-51](https://github.com/user-attachments/assets/dd6db804-5537-4080-ba73-254a4590a1c7)
 
-![Screenshot from 2024-09-16 16-42-08](https://github.com/user-attachments/assets/3f4edb7b-52aa-44de-8aae-9971de5b74d8)
+![Screenshot from 2024-09-16 16-55-51](https://github.com/user-attachments/assets/d0354bad-ebd8-4ddf-8189-ffdeed7d3c09)
 
+
+![Screenshot from 2024-09-16 16-55-58](https://github.com/user-attachments/assets/a5554f83-ce4c-4af4-b620-1451f0ade6bf)
 
 
 ### Step 9 :- Run the below command to install all dependencies required in this project 
 ```
 poetry Install
 ```
-![Screenshot from 2024-09-16 16-42-17](https://github.com/user-attachments/assets/67b1f49d-d03d-4862-a442-a42361e56a0e)
+![Screenshot from 2024-09-16 16-54-38](https://github.com/user-attachments/assets/1b36041a-4dab-4d90-b6ba-aa666ad064cf)
+
 
 
 ## Application Build
