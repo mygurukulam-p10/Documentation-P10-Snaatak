@@ -77,9 +77,6 @@ sudo apt-get update
 ### Step 3:  Now need to install java 11 with below commands
    
 ```
-sudo apt-get update
-```
-```
 sudo apt-get install -y openjdk-11-jre-headless
 ```
 ```
