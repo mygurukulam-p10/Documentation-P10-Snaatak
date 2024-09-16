@@ -92,4 +92,4 @@ For further reading and resources on GitOps, check out the following:
 | Links | Descriptions|
 |------|---------------------|
 | https://about.gitlab.com/topics/gitops/ | Gitops |
-| https://shalb.com/blog/gitops-an-introduction-to-gitops-principles-and-practices/ | Gitops Principles |
+| https://kodekloud.com/blog/gitops-deployment-advantages | Gitops Strategies |
