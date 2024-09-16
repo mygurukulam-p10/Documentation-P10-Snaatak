@@ -75,8 +75,7 @@ For general use, **Flyway** and **Liquibase** are highly recommended. Flyway is 
 | **Automate Migrations**      | Integrate database migrations into your CI/CD pipeline for automated deployments. This ensures that migrations are applied consistently across all environments and helps to streamline the deployment process. |
 | **Regular Backups**          | Ensure regular backups are in place to prevent data loss. Implement automated backup procedures and regularly verify that backups are complete and restorable. |
 | **Consistent Naming Conventions** | Use consistent naming conventions for schema objects to enhance readability and maintenance. Standardize naming for tables, columns, indexes, and constraints to avoid confusion and improve code clarity. |
-| **Test Changes Thoroughly**  | Implement thorough testing procedures for database changes to avoid introducing errors. Use unit tests, integration tests, and staging environments to validate changes before applying them to production. |
-| **Document Changes**         | Maintain clear documentation of schema changes and migrations for future reference and auditability. Keep detailed records of changes, migration scripts, and the rationale behind modifications. |
+
 ## Contact Information
 
 | Name | Email address|
