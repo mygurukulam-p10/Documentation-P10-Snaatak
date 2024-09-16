@@ -94,6 +94,6 @@ For further reading and resources on GitOps, check out the following:
 
 | Links | Descriptions|
 |------|---------------------|
-| https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20%2B%20POC/VCS%20Notification%20System/Notification%20Concept%20/readme.md| Notifications System |
-|https://devopsjournal.io/blog/2022/03/12/GitHub-notification-settings | GitHub Notification Settings |
+| Notifications System | https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20%2B%20POC/VCS%20Notification%20System/Notification%20Concept%20/readme.md| 
+|GitHub Notification Settings | https://devopsjournal.io/blog/2022/03/12/GitHub-notification-settings | 
 
