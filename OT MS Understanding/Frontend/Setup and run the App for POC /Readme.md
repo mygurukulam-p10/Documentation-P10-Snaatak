@@ -9,13 +9,17 @@ The purpose of this POC is to demonstrate the functionality and integration of t
 
 ## Table of Contents
 1. [Architecture](#architecture)
-2. [System Requirements](#system-requirements)
-3. [Dependencies](#dependencies)
+2. [Work flow](#workflow)
+3. [System Requirements](#system-requirements)
+4. [Dependencies](#dependencies)
    * [Build Dependencies](#build-dependency)
-4. [Step-by-step installation](#step-by-step-installation)
+5. [Step-by-step installation](#step-by-step-installation)
 
 ## Architecture
 ![frontend drawio (3)](https://github.com/user-attachments/assets/a220a569-a98c-4afd-b53d-221196a57e93)
+
+## Workflow
+![Wrok flow diagram](https://github.com/user-attachments/assets/0bbfefc6-f2ee-4295-a002-3c75f0e51352)
 
 ## System Requirements
 | Hardware Specifications | Minimum Recommendation  |
