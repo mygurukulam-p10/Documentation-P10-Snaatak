@@ -75,7 +75,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
 
 **Run the command, For building the application, we can use make command.**
 ```
-makebuild
+make build
 ```
 ![Screenshot 2024-09-10 124307](https://github.com/user-attachments/assets/977bab9f-b6f3-487c-a3cd-f3103bf85c73)
 
