@@ -40,21 +40,11 @@ Unlike authentication, which verifies user identity, authorization controls what
 
 ## Authorization Methods in Git
 
-### Role-Based Access Control (RBAC)
-Uses predefined roles to manage permissions within a repository. Users are assigned roles like Admin, Maintainer, Developer, and Guest.
-
-**Use Case**: Ideal for teams where distinct roles manage permissions across different repositories or projects.
-
-### Repository-Level Permissions
-Allows specific repositories to have unique permission settings. Individual users or teams can be granted read/write/maintain/admin access.
-
-**Use Case**: For organizations with multiple repositories needing different permission structures for each repo.
-
-### Branch Protection Rules
-Protects critical branches by requiring reviews, disallowing force pushes, and enforcing commit signing.
-
-**Use Case**: Essential for teams managing production code or sensitive projects with strict code integrity policies.
-
+| **Feature**                  | **Description**                                                                                              | **Use Case**                                                                                                      |
+|------------------------------|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
+| **Role-Based Access Control (RBAC)** | Uses predefined roles to manage permissions within a repository. Users are assigned roles like Admin, Maintainer, Developer, and Guest. | Ideal for teams where distinct roles manage permissions across different repositories or projects.                |
+| **Repository-Level Permissions**     | Allows specific repositories to have unique permission settings. Individual users or teams can be granted read/write/maintain/admin access. | For organizations with multiple repositories needing different permission structures for each repo.               |
+| **Branch Protection Rules**          | Protects critical branches by requiring reviews, disallowing force pushes, and enforcing commit signing.  | Essential for teams managing production code or sensitive projects with strict code integrity policies.            |
 ## Setting up Authorization
 
 ### Role-Based Access Control (RBAC)
