@@ -19,7 +19,7 @@ The purpose of this POC is to demonstrate the functionality and integration of t
 ![frontend drawio (3)](https://github.com/user-attachments/assets/a220a569-a98c-4afd-b53d-221196a57e93)
 
 ## Workflow
-![Wrok flow diagram](https://github.com/user-attachments/assets/0bbfefc6-f2ee-4295-a002-3c75f0e51352)
+![Untitled Diagram drawio (6)](https://github.com/user-attachments/assets/843ad69d-b374-419e-87d8-0dd4c47fb28e)
 
 ## System Requirements
 | Hardware Specifications | Minimum Recommendation  |
