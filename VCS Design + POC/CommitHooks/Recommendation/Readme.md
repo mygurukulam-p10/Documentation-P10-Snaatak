@@ -1,4 +1,5 @@
-# Recommendations of Commit Hooks
+# Recommendations of Commit Hooks 
+![git-commit 256x146](https://github.com/user-attachments/assets/3b754049-8fe1-4cd2-a7a8-79b1b7498e5a)
 
   | Author        | Created on | Version | Last updated by | Last edited on |
   |-------------|---------|-------------|-------------|---------|
