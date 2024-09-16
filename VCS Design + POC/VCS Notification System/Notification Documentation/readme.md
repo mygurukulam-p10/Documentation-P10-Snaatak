@@ -38,6 +38,7 @@ Before setting up VCS notifications, ensure you have the following:
 
 
 ##  Step-by-step installation
+![n3](https://github.com/user-attachments/assets/1bb4641a-af0b-4ef8-8693-8d50ee88b77c)
 
 
 ### Accessing Notification Settings
