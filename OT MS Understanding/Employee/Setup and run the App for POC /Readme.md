@@ -133,7 +133,7 @@ git clone https://github.com/OT-MICROSERVICES/employee-api.git
 CREATE KEYSPACE employee_db 
    WITH REPLICATION = {
    'class' : 'SimpleStrategy', 
-   'replication_factor' : 3 
+   'replication_factor' : 1 
    };
 
 
