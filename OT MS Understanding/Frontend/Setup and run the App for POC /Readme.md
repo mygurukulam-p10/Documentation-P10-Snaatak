@@ -1,3 +1,4 @@
+
 # Frontend POC
 
 | Author      | Created on  | Version    | Last updated by | Last edited on |
@@ -19,7 +20,8 @@ The purpose of this POC is to demonstrate the functionality and integration of t
 ![frontend drawio (3)](https://github.com/user-attachments/assets/a220a569-a98c-4afd-b53d-221196a57e93)
 
 ## Workflow
-![Untitled Diagram drawio (6)](https://github.com/user-attachments/assets/843ad69d-b374-419e-87d8-0dd4c47fb28e)
+![work flow](https://github.com/user-attachments/assets/5f0890e8-fcc9-46a4-af78-7025ae422fe9)
+
 
 ## System Requirements
 | Hardware Specifications | Minimum Recommendation  |
