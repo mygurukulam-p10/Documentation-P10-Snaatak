@@ -20,7 +20,7 @@ To provide an overview of databases, including why it is important, the tools av
 9. [References](#references)
    
 ## Introduction
-Version control for databases is essential for managing changes to database schemas and data. This practice is akin to source code versioning and helps teams manage, track, and deploy database changes effectively. This guide covers the importance of database version control, available tools, detailed comparisons, best practices, and additional resources.
+Version control for databases is essential for managing changes to database schemas and data. This practice is aim to source code versioning and helps teams manage, track, and deploy database changes effectively. This guide covers the importance of database version control, available tools, detailed comparisons, best practices, and additional resources.
 
 ## Why Version Control for Databases?
 Version control for databases tackles several key challenges:
