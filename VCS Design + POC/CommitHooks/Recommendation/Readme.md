@@ -52,7 +52,7 @@ Commit hooks are Git hooks triggered during the commit process to enforce code q
 **Purpose:** The pre-commit hook runs before the commit is created. It is designed to check the code quality before the commit is finalized.
 
 **Why Choose Pre-commit Hook:**
-Choosing a pre-commit hook is crucial for maintaining high code quality and preventing errors. By utilizing this hook, you can ensure that code formatting checks, linting, and basic tests are performed before a commit is created. This process guarantees that only code that meets your quality standards is committed, thereby reducing the likelihood of introducing errors or style issues. Developers receive immediate feedback if their code does not adhere to the required standards, enabling them to address and correct issues before finalizing the commit. This proactive approach helps in preventing commits with errors or poor practices from being pushed to the repository, resulting in a cleaner and more reliable codebase.
+A pre-commit hook ensures high code quality by running checks like **formatting, linting**, and **basic tests** before a commit. It helps **prevent errors** and **style issues**, provides **immediate feedback** to developers, and ensures that only code meeting quality standards is committed, leading to a cleaner, more reliable codebase.
 
 **Essential pre-commit git hooks:**
 | Hook Type           | Purpose                                             | Benefits                                                            |
@@ -68,7 +68,7 @@ Choosing a pre-commit hook is crucial for maintaining high code quality and prev
 **Purpose:** The post-commit hook runs after the commit is successfully created. It is used for tasks that are better handled after the commit is finalized.
 
 **Why Choose Post-commit Hook:**
-The post-commit hook is particularly valuable for automating various tasks following a successful commit. It excels at automating actions such as sending notifications or triggering deployment pipelines, which streamlines the development process and enhances efficiency. Additionally, post-commit hooks are useful for logging commit details or notifying team members about recent commits, thereby improving collaboration and transparency within the team. They also enable the execution of scripts or tools that rely on the commit being finalized. For example, you can use post-commit hooks to update external systems or initiate more complex integration tests, ensuring that all dependencies and integrations are up-to-date and functioning correctly.
+A post-commit hook automates tasks after a successful commit, such as **sending notifications**, **triggering deployment pipelines**, **logging commit details**, and **updating external systems**. It streamlines development,** enhances efficiency**, and **improves team collaboration** by handling tasks that rely on the commit being finalized.
 
 **Essential post-commit git hooks:**
 | Hook Type           | Purpose                                             | Benefits                                                            |
