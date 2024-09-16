@@ -67,7 +67,7 @@ This simple architecture illustrates:
 
 ```bash
 # Update system packages
-sudo apt update && sudo apt upgrade -y
+sudo apt update -y
 
 # Install Python and pip
 sudo apt install -y  python3-pip
