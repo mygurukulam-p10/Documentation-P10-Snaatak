@@ -16,9 +16,8 @@
 
 ## Purpose
 
- We are preparing this document so that we can get the detailed information of ScyllaDB.
-
-
+The purpose of this document is to provide a comprehensive overview of ScyllaDB, including its architecture, key features, and benefits. This document aims to evaluate ScyllaDB's suitability for handling large-scale data efficiently and to assist in making informed decisions about its adoption.
+ 
 ## Architecture
 
 ScyllaDB follows a distributed architecture where data is automatically replicated across multiple nodes for fault tolerance and high availability.
