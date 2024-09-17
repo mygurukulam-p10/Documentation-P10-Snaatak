@@ -12,8 +12,8 @@
 2. [Why We Are Learning Redis and the Problems It Addresses](#2-why-we-are-learning-redis-and-the-problems-it-addresses)
 3. [Block Architecture of Redis](#5-block-architecture-of-redis)
 4. [Types of Redis Architecture](#6-types-of-redis-architecture)
-5. [Redis vs Alternatives](#3-redis-vs-alternatives)
-6. [Key Features of Redis](#4-key-features-of-redis)
+5. [Key Features of Redis](#5-key-features-of-redis)
+6. [Redis vs Alternatives](#6-redis-vs-alternatives)
 7. [Advantages and Disadvantages](#7-advantages-and-disadvantages)
 8. [Conclusion](#8-conclusion)
 9. [References](#9-references)
@@ -129,20 +129,7 @@ This architecture allows Redis to provide high-speed data access while also offe
 
 ![image](https://github.com/user-attachments/assets/95988c21-4932-4b0d-8d77-d45dd8c7abe7)
 
-## 5. Redis vs Alternatives
-
-| **Comparison**       | **Redis**                               | **Memcached**                             |
-|----------------------|-----------------------------------------|-------------------------------------------|
-| **Type**             | In-memory key-value store               | In-memory key-value store                 |
-| **Data Structures**  | Supports more complex data structures (lists, sets) | Primarily supports strings                |
-| **Persistence**      | Offers persistence                      | No persistence                            |
-| **Replication**      | Supports replication                    | No built-in replication                   |
-| **Performance**      | Faster for simple read/write operations | High-speed caching                        |
-| **Use Case**         | Best for caching and simple data        | Best for simple caching                   |
-| **Setup**            | Simpler setup and management            | Simple setup                              |
-
-
-## 6. Key Features of Redis
+## 5. Key Features of Redis
 
 | **Feature**                  | **Description**                                                                                   |
 |------------------------------|---------------------------------------------------------------------------------------------------|
@@ -154,6 +141,17 @@ This architecture allows Redis to provide high-speed data access while also offe
 | **Persistence**              | Options for snapshots and append-only file persistence.                                          |
 | **Cluster Mode**             | Supports horizontal scaling and sharding.                                                        |
 
+## 6. Redis vs Alternatives
+
+| **Comparison**       | **Redis**                               | **Memcached**                             |
+|----------------------|-----------------------------------------|-------------------------------------------|
+| **Type**             | In-memory key-value store               | In-memory key-value store                 |
+| **Data Structures**  | Supports more complex data structures (lists, sets) | Primarily supports strings                |
+| **Persistence**      | Offers persistence                      | No persistence                            |
+| **Replication**      | Supports replication                    | No built-in replication                   |
+| **Performance**      | Faster for simple read/write operations | High-speed caching                        |
+| **Use Case**         | Best for caching and simple data        | Best for simple caching                   |
+| **Setup**            | Simpler setup and management            | Simple setup                              |
 
 ## 7. Advantages and Disadvantages
 
