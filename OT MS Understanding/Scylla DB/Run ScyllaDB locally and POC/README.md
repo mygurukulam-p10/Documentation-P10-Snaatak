@@ -15,9 +15,8 @@
 4. [Step-by-step installation of ScyllaDB](#step-by-step-installation-of-scylladb)
 5. [Basic Operations](#basic-operations)
 6. [Troubleshooting](#troubleshooting)
-7. [Conclusion](#conclusion)
-9. [Contact Information](#contact-information)
-10. [References](#references)
+7. [Contact Information](#contact-information)
+8. [References](#references)
     
 
 ## Purpose
@@ -209,10 +208,6 @@ The `CREATE KEYSPACE` command is used to define a new keyspace in ScyllaDB. A ke
   ```bash
   sudo systemctl status scylla-server
   ```
-
-## Conclusion
-
-ScyllaDB is a robust NoSQL database that excels in performance, scalability, and efficiency. Its design enables it to handle high workloads with low latencies, making it ideal for demanding applications. The database's compatibility with Apache Cassandra ensures a smooth transition for existing users, while its resource-efficient architecture helps in reducing infrastructure costs. Overall, ScyllaDB offers a compelling solution for organizations needing high-performance, scalable, and cost-effective database solutions.
 
 ## Contact Information
 
