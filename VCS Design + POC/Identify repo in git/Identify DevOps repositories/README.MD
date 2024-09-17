@@ -57,8 +57,7 @@ There are various types of repositories that cater to different aspects of DevOp
 | **Continuous Integration (CI)** | Integrate with CI tools for automated building, testing, and merging.        |
 | **Artifact Management**         | Store and manage artifacts or build outputs for future use.                  |
 | **Security & Compliance**       | Built-in security scans, access controls, and audit logs for compliance.      |
-| **Automation**                  | Automate deployment, configuration, and testing with CI/CD tools.            |
-| **Collaboration**               | Enable cross-team collaboration with pull requests, code reviews, and comments. |
+| **Documentation**                  | Often includes README files, wikis, and other documentation to help team members understand the project. |
 | **Dependency Management**       | Handle and manage code dependencies across projects efficiently.             |
 | **Scalability**                 | Support multiple teams and repositories with large-scale project management.  |
 
