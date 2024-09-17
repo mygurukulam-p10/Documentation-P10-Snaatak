@@ -112,8 +112,6 @@ We are preparing this document so that you can get the detailed information abou
 - [Getting Started with Swagger UI](https://swagger.io/docs/open-source-tools/swagger-ui/usage/installation/)
 - [Best Practices for Using Swagger UI](https://swagger.io/resources/articles/best-practices-in-api-documentation/)
 
-![image](https://github.com/user-attachments/assets/2be0875a-2fe9-4b99-a59d-5209ddade86e)
-
 
 ### 7. Flow Diagram of Attendance API 
 
