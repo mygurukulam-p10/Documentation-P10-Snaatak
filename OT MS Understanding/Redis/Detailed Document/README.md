@@ -98,6 +98,11 @@ The Redis Server is the core of the Redis architecture and consists of several c
   - **RDB (Redis Database):** Creates point-in-time snapshots of the dataset.
 - The Storage component represents the disk where these persistence files are stored.
 
+This architecture allows Redis to provide high-speed data access while also offering options for data durability and persistence.
+
+![Redis Architecture Original](https://github.com/user-attachments/assets/3ad7c849-87c6-4d05-8031-20b331454a82)
+
+
 ### Data Flow
 
 1. The Redis Client sends commands to the Server.
@@ -105,9 +110,6 @@ The Redis Server is the core of the Redis architecture and consists of several c
 3. Data is read from or written to RAM.
 4. If persistence is enabled, data changes are written to Storage using AOF or RDB methods.
 
-This architecture allows Redis to provide high-speed data access while also offering options for data durability and persistence.
-
-![Redis Architecture Original](https://github.com/user-attachments/assets/3ad7c849-87c6-4d05-8031-20b331454a82)
 
 ## 4. Types of Redis Architecture
 
