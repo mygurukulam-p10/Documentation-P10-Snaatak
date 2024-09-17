@@ -1,7 +1,6 @@
-# Understanding Commit Hooks in Git ![How to use pull request](https://github.com/user-attachments/assets/4650ceab-de1d-465f-84ab-147b836fda5e)
+# Understanding Commit Hooks in Git 
 
-
-
+![git commit pic](https://github.com/user-attachments/assets/9a705d62-cd1c-4a24-adc6-7313de88e3dd)
 
 ## Table of Contents
 1. [Introduction](#introduction)
