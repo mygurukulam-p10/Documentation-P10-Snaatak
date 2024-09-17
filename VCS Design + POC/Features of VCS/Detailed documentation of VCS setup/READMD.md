@@ -30,7 +30,7 @@ Version Control Systems like **Bitbucket**, **GitHub**, and **GitLab** provide e
 
 ## 🧰 Bitbucket Setup
 
-**Bitbucket** by Atlassian is known for integrating well with tools like Jira and Trello. It allows you to manage Git repositories and collaborate on code.
+**Bitbucket** is a tool that helps teams work together on code. It's like a shared workspace where you can store and manage your projects
 
 ### Steps to Set Up Bitbucket:
 1. **Create an Account**: Go to [Bitbucket](https://bitbucket.org/) and sign up for a free account.
