@@ -1,4 +1,4 @@
-# ScyllaDB 
+# ScyllaDB Documentation
 
 | Author | Created on | Version | Last updated by | Last edited on |
 |--------|------------|---------|----------------|----------------|
