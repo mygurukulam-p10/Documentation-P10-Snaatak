@@ -16,8 +16,7 @@
 6. [Architecture](#architecture)
 7. [Step-by-step installation](#step-by-step-installation)
 8. [Application Build](#application-build)
-9. [Conclusion](#Conclusion)
-10. [Contact Information](#contact-information)
+9. [Contact Information](#contact-information)
 
 
 
@@ -237,11 +236,6 @@ For more details of Gunicorn [here](https://github.com/mygurukulam-p10/Documenti
 ### Step 11 :- Now go to web browser and hit url http://<IP_OF_SERVER>:8080/apidocs
 
 ![Screenshot from 2024-09-07 13-27-05](https://github.com/user-attachments/assets/a9bcb393-bd64-46a2-a908-5ec34283937a)
-
-
-## Conclusion
-
-The Attendance Microservices is a Python application designed to efficiently manage attendance data. It requires a dual-core processor, 1GB RAM, and 20GB of disk space on Ubuntu 22.04. Key dependencies include PostgreSQL 15 for the database and Redis 6.0.16 for optional caching. Essential tools for setup include Migrate, Liquibase, Poetry, Java 17, Python 3.11, and Pip 3.11. After cloning the repository and running the dependency script, we need to configure PostgreSQL and Redis, install necessary tools, update configuration files, and run migrations before starting the application with Gunicorn. API documentation can be accessed via a web browser.
 
 
 ## Contact Information
