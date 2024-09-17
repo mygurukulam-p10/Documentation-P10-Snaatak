@@ -153,8 +153,10 @@ Use the redis-cli to authenticate with the password you set:
 
 ```
 redis-cli
+AUTH <your_password>
 AUTH redos-101
 ```
+**Note :-** redis-101 is password I have generated
 
 #### 4. Set Up a User with All Permissions
 
@@ -163,8 +165,9 @@ AUTH redos-101
 ```
 ACL SETUSER scylla on >redos-101 ~* +@all
 ```
+**Note :-** I am using ```scylla``` as a ```username``` because in my application I have to access database with more security.
 
-**Note:** The >redos-101 part sets the user's password to redos-101. If you already used redos-101 for the requirepass, consider using a different password for the user to maintain security.
+**Note:** The > redos-101 ( Password that is set for my redis),this part sets the user's password to redos-101. If you already used redos-101 for the requirepass, consider using a different password for the user to maintain security.
 
 #### 5. Set a Strong Password for Redis
 
