@@ -1,4 +1,7 @@
 # 🚀 Micro Repo Features        
+| 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
+|--------------------|------------|--------------|--------------------------------|
+| 18-09-2024         | 0.3        | Brij Singh   | Micro Repo Features            |
 
 ## Table of Contents
 - [Introduction](#introduction)
