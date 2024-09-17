@@ -181,6 +181,7 @@ Create database attendence_db;
 ```
 ALTER USER postgres WITH PASSWORD 'password';
 ```
+Here i'm putting postgres password as password we can use any strong password
 
 ### Step 7: - Update pg_hba.conf
 The pg_hba.conf file controls client authentication and is where you specify the authentication method for different users and connections.
