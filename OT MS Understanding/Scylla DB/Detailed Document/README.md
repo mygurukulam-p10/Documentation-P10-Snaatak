@@ -23,7 +23,8 @@
 
 ScyllaDB follows a distributed architecture where data is automatically replicated across multiple nodes for fault tolerance and high availability.
 
-![image](https://github.com/user-attachments/assets/e5de397e-6e63-4998-93e9-c15b25edaae6)
+![image](https://github.com/user-attachments/assets/08430655-658f-4ed0-9e57-c5253d346c38)
+
 
 # Features
 
