@@ -19,9 +19,8 @@
 4. [Step-by-step installation](#step-by-step-installation)
 5. [Troubleshooting](#troubleshooting)
 6. [FAQs](#faqs)
-7.  [Conclusion](#Conclusion)
-8. [Contact Information](#contact-information)
-9. [References](#references)
+7. [Contact Information](#contact-information)
+8. [References](#references)
 
 ## Purpose
 This Proof of Concept (POC) demonstrates the basic setup and usage of Gunicorn, a WSGI HTTP Server for Python applications. It aims to show how to deploy a simple Flask application using Gunicorn, highlighting its key features and benefits.
@@ -164,17 +163,8 @@ gunicorn --workers 3 --bind 0.0.0.0:8000 app:app
 1. **How many Gunicorn workers should I use?**
    A common rule of thumb is `(2 x $num_cores) + 1`, but this can be adjusted based on your specific workload and available resources.
 
-2. **Can Gunicorn handle WebSocket connections?**
-   Yes, Gunicorn can handle WebSocket connections when used with compatible frameworks and the appropriate worker class.
-
-3. **Is Gunicorn suitable for production use?**
+2. **Is Gunicorn suitable for production use?**
    Yes, Gunicorn is widely used in production environments. However, for production, you might want to consider additional components like a reverse proxy for added features and security.
-
-
-## Conclusion
-
-Setting up Gunicorn provides a reliable and efficient way to serve Python web applications, especially in a production environment. It acts as a bridge between your web framework (e.g., Flask, Django) and the web server (such as Nginx), handling multiple requests concurrently. By following the proper installation and configuration steps, including tuning the number of workers and integrating with a reverse proxy like Nginx, you ensure that your application is scalable, secure, and performant. Gunicorn's simplicity and ease of configuration make it a popular choice for deploying Python applications.
-
 
 ## Contact Information
 
