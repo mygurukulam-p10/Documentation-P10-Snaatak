@@ -157,15 +157,7 @@ sudo apt-get install build-essential libpq-dev
 ```
 
 
-### Step 4 :- Update the Redis Configuration (redis.conf)
-Open redis.conf configuration file (located at /etc/redis/redis.conf).
-Find the line that starts with # requirepass, which is commented out by default.
-Set a password by uncommenting the line and replacing your_password with your desired password:
-
-![Screenshot from 2024-09-16 16-41-03](https://github.com/user-attachments/assets/d5452953-ed02-46b0-b4a5-26898a160c2c)
-
-
-### Step 5 :- Go to Attendance Repository and run command poetry shell to create virtual env 
+### Step 4 :- Go to Attendance Repository and run command poetry shell to create virtual env 
 ```
 poetry shell
 ```
@@ -173,17 +165,17 @@ poetry shell
 ![Screenshot from 2024-09-16 23-28-06](https://github.com/user-attachments/assets/cf51617e-f466-4543-9f95-ea1dfeb1530e)
 
 
-### Step 6:- Create database for attendance app and setup password for postgres user
+### Step 5:- Create database for attendance app and setup password for postgres user
 ```
 Create database attendence_db;
 
 ```
 ```
-ALTER USER postgres WITH PASSWORD 'password';
+ALTER USER postgres WITH PASSWORD 'arsenal1234';
 ```
-Here i'm putting postgres password as password we can use any strong password.
 
-### Step 7: - Update pg_hba.conf
+
+### Step 6: - Update pg_hba.conf
 The pg_hba.conf file controls client authentication and is where you specify the authentication method for different users and connections.
 
 Locate the pg_hba.conf file: The location of this file may vary depending on installation. Common locations are /etc/postgresql/15/main/pg_hba.conf
@@ -192,13 +184,13 @@ Edit the pg_hba.conf file:
 ![Screenshot from 2024-09-16 16-41-41](https://github.com/user-attachments/assets/238c9e35-fd61-403a-8c7a-afef0cc0b842)
 
 
-### Step 8: - Update config.yaml and liquibase.properties
+### Step 7: - Update config.yaml and liquibase.properties
+![Screenshot from 2024-09-17 13-50-22](https://github.com/user-attachments/assets/65eda832-a708-4517-81d3-72b9d22aa4b0)
 
-![Screenshot from 2024-09-16 16-55-51](https://github.com/user-attachments/assets/73d5b67c-fc31-4082-926e-f07c71546cc8)
+![Screenshot from 2024-09-17 13-49-47](https://github.com/user-attachments/assets/ffd86cba-524c-4466-a5ba-1d797f438576)
 
-![Screenshot from 2024-09-17 09-48-22](https://github.com/user-attachments/assets/3f07a46e-7b95-420e-9c7e-c989d8d61bc5)
 
-### Step 9 :- Run the below command to install all dependencies required in this project 
+### Step 8 :- Run the below command to install all dependencies required in this project 
 ```
 poetry Install
 ```
@@ -207,14 +199,14 @@ poetry Install
 
 ## Application Build
 
-### Step 10 :- Run Make migration command 
+### Step 9 :- Run Make migration command 
 ```
 make run-migrations
 ```
 ![Screenshot from 2024-09-17 09-49-42](https://github.com/user-attachments/assets/78e37536-8b24-4844-9091-547dc49be5bf)
 
 
-### Step 11 :- Firstly install gunicorn and Now Run the Application
+### Step 10 :- Firstly install gunicorn and Now Run the Application
 ```
 pip3 install gunicorn
 ```
@@ -225,7 +217,7 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 
 
 
-### Step 12 :- Now go to web browser and hit url http://<IP_OF_SERVER>:8080/apidocs
+### Step 11 :- Now go to web browser and hit url http://<IP_OF_SERVER>:8080/apidocs
 
 ![Screenshot from 2024-09-07 13-27-05](https://github.com/user-attachments/assets/a9bcb393-bd64-46a2-a908-5ec34283937a)
 
