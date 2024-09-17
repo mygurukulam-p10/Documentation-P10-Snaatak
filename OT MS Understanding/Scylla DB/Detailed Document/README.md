@@ -9,7 +9,6 @@
 1. [Purpose](#purpose)
 2. [Architecture](#architecture)
 3. [Features](#features)
-4. [Detailed Explanation of ScyllaDB](#detailed-explanation-of-scylladb)
 5. [Conclusion](#conclusion)
 6. [Contact Information](#contact-information)
 7. [References](#references)
