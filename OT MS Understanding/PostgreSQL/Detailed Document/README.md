@@ -58,7 +58,8 @@ PostgreSQL is a powerful, open-source object-relational database management syst
 
 | **Rule** | **Description**  |
 |----------|------------------|
-| **Installation**| Use Postgreql POC link For installation of PostgreSQL |
+| **Installation**| Use [Postgreql POC link For installation of PostgreSQL](https://github.com/mygurukulam-p10/Documention/tree/main/OT%20MS%20Understanding/PostgreSQL/Setup%20and%20run%20the%20PostgreSQL%20for%20POC)
+ |
 | **Database Creation** | Use the CREATE DATABASE command to create a new database instance.|
 | **Schema Definition** | Design your database schema by defining tables, columns, data types, and relationships between tables.|
 | **Data Manipulation** | Use SQL commands like INSERT, UPDATE, and DELETE to insert, modify, and remove data from tables.|
