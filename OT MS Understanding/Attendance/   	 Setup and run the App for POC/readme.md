@@ -200,8 +200,7 @@ Change the authentication method for the postgres user from peer to md5. This wi
 
 ![Screenshot from 2024-09-17 20-25-03](https://github.com/user-attachments/assets/61caaea2-e821-4610-8325-d746922bca8f)
 
-config.yaml should have the correct database connection details for PostgreSQL and Redis.
-liquibase.properties should point to the correct PostgreSQL database URL and user credentials.
+Ensure config.yaml has PostgreSQL and Redis details, and liquibase.properties points to the correct PostgreSQL URL and credentials.
 
 ![Screenshot from 2024-09-17 13-50-22](https://github.com/user-attachments/assets/65eda832-a708-4517-81d3-72b9d22aa4b0)
 
