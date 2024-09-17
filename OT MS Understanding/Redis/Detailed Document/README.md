@@ -10,10 +10,10 @@
 
 1. [What is a Database and Cache?](#1-what-is-a-database-and-cache)
 2. [Why We Are Learning Redis and the Problems It Addresses](#2-why-we-are-learning-redis-and-the-problems-it-addresses)
-3. [Redis vs Alternatives](#3-redis-vs-alternatives)
-4. [Key Features of Redis](#4-key-features-of-redis)
-5. [Block Architecture of Redis](#5-block-architecture-of-redis)
-6. [Types of Redis Architecture](#6-types-of-redis-architecture)
+3. [Block Architecture of Redis](#5-block-architecture-of-redis)
+4. [Types of Redis Architecture](#6-types-of-redis-architecture)
+5. [Redis vs Alternatives](#3-redis-vs-alternatives)
+6. [Key Features of Redis](#4-key-features-of-redis)
 7. [Advantages and Disadvantages](#7-advantages-and-disadvantages)
 8. [Conclusion](#8-conclusion)
 9. [References](#9-references)
@@ -42,33 +42,7 @@ Redis is used in applications to provide high-speed caching, real-time data acce
 | **Message Queuing**           | Implements Pub/Sub messaging system to facilitate communication between different application parts. |
 | **Data Persistence and Reliability** | Provides data persistence options (RDB and AOF) and supports replication for high availability. |
 
-
-## 3. Redis vs Alternatives
-
-| **Comparison**       | **Redis**                               | **Memcached**                             | **MongoDB**                                   | **PostgreSQL**                               | **MySQL**                                    | **ScyllaDB**                                 |
-|----------------------|-----------------------------------------|-------------------------------------------|-----------------------------------------------|----------------------------------------------|----------------------------------------------|----------------------------------------------|
-| **Type**             | In-memory key-value store               | In-memory key-value store                 | Document-oriented database                    | Relational database                          | Relational database                          | Distributed NoSQL database                   |
-| **Data Structures**  | Supports more complex data structures (lists, sets) | Primarily supports strings                | Supports complex document structures          | Structured data with tables and relations    | Structured data with tables and relations    | Distributed tables and wide-column store     |
-| **Persistence**      | Offers persistence                      | No persistence                            | Supports persistence                          | Full persistence with ACID compliance        | Full persistence with ACID compliance        | Persistence and horizontal scalability       |
-| **Replication**      | Supports replication                    | No built-in replication                   | Supports replication                          | Supports replication                         | Supports replication                         | Built-in replication with high availability  |
-| **Performance**      | Faster for simple read/write operations | High-speed caching                        | Suitable for complex queries                  | Offers advanced querying capabilities        | Offers ACID compliance for complex transactions | Low-latency access for large distributed datasets |
-| **Use Case**         | Best for caching and simple data        | Best for simple caching                   | Handles complex queries and data structures   | Complex transactions and structured data     | Complex, structured data management          | Large-scale data handling and real-time analytics |
-| **Setup**            | Simpler setup and management            | Simple setup                              | Requires more configuration for large setups  | Requires more configuration for scaling      | Requires more configuration for scaling      | Better scalability for large datasets        |
-
-
-## 4. Key Features of Redis
-
-| **Feature**                  | **Description**                                                                                   |
-|------------------------------|---------------------------------------------------------------------------------------------------|
-| **Data Structures Supported**| Strings, hashes, lists, sets, sorted sets, bitmaps, hyperloglogs, geospatial indexes, and streams. |
-| **Pub/Sub Messaging**        | Enables message communication between different parts of an application.                         |
-| **Transactions**             | Supports atomic operations using MULTI, EXEC, and DISCARD commands.                              |
-| **Lua Scripting**            | Allows execution of custom scripts.                                                              |
-| **Replication**              | Master-slave replication for high availability.                                                  |
-| **Persistence**              | Options for snapshots and append-only file persistence.                                          |
-| **Cluster Mode**             | Supports horizontal scaling and sharding.                                                        |
-
-## 5. Block Architecture of Redis
+## 3. Block Architecture of Redis
 
 The Redis architecture can be divided into three main components: the Client, the Server, and the Storage. Let's examine each in detail:
 
@@ -135,7 +109,7 @@ This architecture allows Redis to provide high-speed data access while also offe
 
 ![Redis Architecture Original](https://github.com/user-attachments/assets/3ad7c849-87c6-4d05-8031-20b331454a82)
 
-## 6. Types of Redis Architecture
+## 4. Types of Redis Architecture
 
 1. **Standalone:**
    - Single Redis instance.
@@ -154,6 +128,31 @@ This architecture allows Redis to provide high-speed data access while also offe
    - Distributes data across multiple nodes.
 
 ![image](https://github.com/user-attachments/assets/95988c21-4932-4b0d-8d77-d45dd8c7abe7)
+
+## 5. Redis vs Alternatives
+
+| **Comparison**       | **Redis**                               | **Memcached**                             |
+|----------------------|-----------------------------------------|-------------------------------------------|
+| **Type**             | In-memory key-value store               | In-memory key-value store                 |
+| **Data Structures**  | Supports more complex data structures (lists, sets) | Primarily supports strings                |
+| **Persistence**      | Offers persistence                      | No persistence                            |
+| **Replication**      | Supports replication                    | No built-in replication                   |
+| **Performance**      | Faster for simple read/write operations | High-speed caching                        |
+| **Use Case**         | Best for caching and simple data        | Best for simple caching                   |
+| **Setup**            | Simpler setup and management            | Simple setup                              |
+
+
+## 6. Key Features of Redis
+
+| **Feature**                  | **Description**                                                                                   |
+|------------------------------|---------------------------------------------------------------------------------------------------|
+| **Data Structures Supported**| Strings, hashes, lists, sets, sorted sets, bitmaps, hyperloglogs, geospatial indexes, and streams. |
+| **Pub/Sub Messaging**        | Enables message communication between different parts of an application.                         |
+| **Transactions**             | Supports atomic operations using MULTI, EXEC, and DISCARD commands.                              |
+| **Lua Scripting**            | Allows execution of custom scripts.                                                              |
+| **Replication**              | Master-slave replication for high availability.                                                  |
+| **Persistence**              | Options for snapshots and append-only file persistence.                                          |
+| **Cluster Mode**             | Supports horizontal scaling and sharding.                                                        |
 
 
 ## 7. Advantages and Disadvantages
