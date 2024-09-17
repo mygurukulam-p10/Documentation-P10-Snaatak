@@ -25,7 +25,7 @@ This Poc demonstrates how to set up and use GitHub as a Version Control System. 
 | Hardware Specifications | Minimum Recommendation |
 |-------------------------|------------------------|
 | RAM                     | 1 GB                   |
-| Disk                    | 5 GB free space        |
+| Disk                    | 8 GB free space        |
 | OS                      | Windows 10, macOS 10.14, Ubuntu 18.04 or later |
 
 ### Dependencies
