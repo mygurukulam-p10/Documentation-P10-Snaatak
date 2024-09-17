@@ -61,6 +61,7 @@ Micro repos offer a middle ground between monorepos and polyrepos, providing:
 ---
 
 ##  :rocket: Best Practices for Micro Repo Management
+| **Best Practices      ** | **Description** |
 |-------------------------|-----------------------------------------------------------------------------------------|
 |**Dependency Management**| Use tools like `npm`, `pip`, or `Maven` to manage dependencies effectively across repos.|
 | **Automated CI/CD** |Implement a robust CI/CD pipeline to ensure each micro repo is tested and deployed independently.|
