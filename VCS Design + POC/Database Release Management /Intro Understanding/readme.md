@@ -88,7 +88,6 @@ For general use, **Flyway** and **Liquibase** are highly recommended. Flyway is 
 |------------------------------|-------------------------------------------------------------------------------------------------------|
 | Efficient Data Management    | They use structured formats and indexing to quickly access information. |
 | Data Integrity and Accuracy  | Enforce rules and constraints (e.g., primary keys, foreign keys) to ensure data accuracy and consistency. |
-| Reduced Data Redundancy      | Use normalization techniques to minimize duplication of data, leading to more efficient storage and management. |
 | Improved Security            | Advanced security features, such as user authentication and authorization, help protect data from unauthorized access. |
 | Data Backup and Recovery     | Regular backups and recovery mechanisms ensure that data can be restored in case of corruption or loss. |
 
