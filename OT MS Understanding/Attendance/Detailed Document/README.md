@@ -13,9 +13,10 @@ This README provides an overview of the technology stack used in our Attendance 
 4. [Liquibase](#4-liquibase)
 5. [Poetry](#5-poetry)
 6. [Swagger UI](#6-swagger-ui)
-7. [Conclusion](#7-conclusion)
-8. [Reference](#8-reference)
-9. [Contact](#9-contact)
+7. [Flow Diagram of Attendance API](#7-flow-diagram-of-attendance-api) 
+7. [Conclusion](#8-conclusion)
+8. [Reference](#9-reference)
+9. [Contact](#10-contact)
 
 
 ## 1. Purpose
@@ -114,11 +115,28 @@ We are preparing this document so that you can get the detailed information abou
 ![image](https://github.com/user-attachments/assets/2be0875a-2fe9-4b99-a59d-5209ddade86e)
 
 
-### Flow Diagram of Attendance API 
+### 7. Flow Diagram of Attendance API 
 
 ![image](https://github.com/user-attachments/assets/34a83dd4-e4bb-47d8-ad27-0cca8d2ed4fd)
 
-## 7.Conclusion
+1. **User Interaction:**
+   - The user sends an HTTP request to the **Frontend Web** interface.
+   
+2. **Frontend Processing:**
+   - The **Frontend Web** communicates with the **Attendance API** to retrieve or process attendance data.
+
+3. **Redis Caching:**
+   - The **Attendance API** interacts with **Redis** to handle caching for quick data retrieval, optimizing performance.
+
+4. **Database Persistence:**
+   - **PostgreSQL** is used as the primary database where the attendance records are stored permanently.
+
+5. **Response:**
+   - After processing, the **Frontend Web** sends the response back to the user with the required information.
+
+This flow optimizes performance by utilizing Redis as a caching layer before accessing the main PostgreSQL database.
+
+## 8.Conclusion
 
 | Feature                | Description                                                                   |
 |------------------------|-------------------------------------------------------------------------------|
@@ -129,7 +147,7 @@ We are preparing this document so that you can get the detailed information abou
 | **Great Support**      | Strong documentation and communities ensure reliable assistance.              |
 
 
-## 8. Reference
+## 9. Reference
 
 | POC Name             | Description                                                | Link                                                                                                       |
 |----------------------|------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
