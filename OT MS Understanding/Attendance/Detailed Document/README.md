@@ -117,22 +117,16 @@ We are preparing this document so that you can get the detailed information abou
 
 ![image](https://github.com/user-attachments/assets/34a83dd4-e4bb-47d8-ad27-0cca8d2ed4fd)
 
-1. **User Interaction:**
-   - The user sends an HTTP request to the **Frontend Web** interface.
-   
-2. **Frontend Processing:**
-   - The **Frontend Web** communicates with the **Attendance API** to retrieve or process attendance data.
+| Step                    | Description                                                                                       |
+|-------------------------|---------------------------------------------------------------------------------------------------|
+| **User Interaction**     | The user sends an HTTP request to the **Frontend Web** interface.                                  |
+| **Frontend Processing**  | The **Frontend Web** communicates with the **Attendance API** to retrieve or process attendance data. |
+| **Redis Caching**        | The **Attendance API** interacts with **Redis** to handle caching for quick data retrieval, optimizing performance. |
+| **Database Persistence** | **PostgreSQL** is used as the primary database where the attendance records are stored permanently. |
+| **Response**             | After processing, the **Frontend Web** sends the response back to the user with the required information. |
 
-3. **Redis Caching:**
-   - The **Attendance API** interacts with **Redis** to handle caching for quick data retrieval, optimizing performance.
+**Note**: This flow optimizes performance by utilizing Redis as a caching layer before accessing the main PostgreSQL database.
 
-4. **Database Persistence:**
-   - **PostgreSQL** is used as the primary database where the attendance records are stored permanently.
-
-5. **Response:**
-   - After processing, the **Frontend Web** sends the response back to the user with the required information.
-
-This flow optimizes performance by utilizing Redis as a caching layer before accessing the main PostgreSQL database.
 
 ## 8.Conclusion
 
