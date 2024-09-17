@@ -2,7 +2,7 @@
 
 | Author      | Created on  | Version    | Last updated by | Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-| Amit Nagar  | 15-09-24    | version 1  | Amit Nagar      | 15-09-24       |
+| Amit Nagar  | 15-09-24    | version 1  | Amit Nagar      | 16-09-24       |
 
 ## Table of Contents
 1. [Purpose](#purpose)
