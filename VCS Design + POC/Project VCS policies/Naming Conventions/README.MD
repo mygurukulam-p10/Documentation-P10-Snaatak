@@ -61,7 +61,7 @@ Tags mark specific points in the repository’s history, typically for releases 
 | **docs**| Documentation-only changes.|
 | **style**| Code style changes (formatting, no code logic changes).|
 | **refactor**| Code refactoring without adding new features or fixing bugs.|
-| **test**| Adding or modifying tests.|
+
 | **chore**| Miscellaneous tasks, such as build tasks or dependency updates.|
 
 
@@ -74,7 +74,7 @@ For more detailed documentation on setting up and following the VCS policies in 
 - **Branch Management**: Best practices for managing branches and merging.
 - **Release Process**: Step-by-step guide for creating and tagging releases.
 
-Documentation can be found [here](link-to-detailed-docs).
+Documentation can be found [here](https://dev.to/varbsan/a-simplified-convention-for-naming-branches-and-commits-in-git-il4).
 
 
 
