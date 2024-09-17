@@ -26,12 +26,13 @@ Micro repos offer a middle ground between monorepos and polyrepos, providing:
 
 ---
 
-## :card_file_box: Features
-- **Isolated Dependencies**: Each micro repo has its own dependency management, reducing conflicts.
-- **Independent Build and Deployment**: Micro repos allow for independent builds, reducing the risk of one project breaking another.
-- **Focused Scope**: Each repo contains only a single service or closely related components, making it easier to understand and maintain.
-- **Simplified Permissions and Access Control**: Permissions can be managed more easily since fewer people need access to each repo.
-- **Version Control**: Granular version control for each micro repo allows for precise tracking and rollback of changes.
+## :card_file_box: | **Features** | **Description** |
+                   |--------------|-----------------|    
+- |**Isolated Dependencies** |Each micro repo has its own dependency management, reducing conflicts.|
+- |**Independent Build and Deployment**|Micro repos allow for independent builds, reducing the risk of one project breaking another.|
+- |**Focused Scope** | Each repo contains only a single service or closely related components, making it easier to understand and maintain.|
+- |**Simplified Permissions and Access Control**| Permissions can be managed more easily since fewer people need access to each repo.|
+- |**Version Control**| Granular version control for each micro repo allows for precise tracking and rollback of changes.|
 
 ---
 
