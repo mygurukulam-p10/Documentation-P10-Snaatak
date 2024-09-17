@@ -200,6 +200,8 @@ Change the authentication method for the postgres user from peer to md5. This wi
 
 ![Screenshot from 2024-09-17 20-25-03](https://github.com/user-attachments/assets/61caaea2-e821-4610-8325-d746922bca8f)
 
+Now we will update config.yaml and liquibase.properties
+
 ![Screenshot from 2024-09-17 13-50-22](https://github.com/user-attachments/assets/65eda832-a708-4517-81d3-72b9d22aa4b0)
 
 ![Screenshot from 2024-09-17 13-49-47](https://github.com/user-attachments/assets/ffd86cba-524c-4466-a5ba-1d797f438576)
@@ -230,7 +232,7 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 ```
 ![Screenshot from 2024-09-16 23-28-59](https://github.com/user-attachments/assets/7b3e25c2-c2ad-444b-8ec0-9155a449a356)
 
-
+For more reference #https://github.com/mygurukulam-p10/Documention/tree/main/VCS%20Design%20%2B%20POC/Gunicorn/Introduction
 
 ### Step 11 :- Now go to web browser and hit url http://<IP_OF_SERVER>:8080/apidocs
 
