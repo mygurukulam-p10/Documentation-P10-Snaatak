@@ -86,12 +86,12 @@ For this we have to download a window installer for redis Redis MSI installer ht
 
 ### 3.2 Configuration
 
-## 1. Redis Setup
+### 1. Redis Setup
 
-### 1.1 Installation
+#### 1.1 Installation
 Follow the [Redis installation guide](https://redis.io/download) for your platform (Linux, macOS, or Windows).
 
-### 1.2 Configuration
+#### 1.2 Configuration
 
 #### Locate the Redis Configuration File:
 - **Linux:** `/etc/redis/redis.conf`
@@ -123,15 +123,15 @@ Update the Redis configuration file with the following settings:
 
 According to the application we are working on like Employee API , Attendance API and Salary API we will use the below command to access the default user.And How can we make that more Secure.
 
-## 1.3 Redis Configuration and Authentication Steps
+#### 1.3 Redis Configuration and Authentication Steps
 
-### 1. Edit Redis Configuration File
+#### 1. Edit Redis Configuration File
 
 1. **Locate the Redis configuration file:**
    ```
    sudo nano /etc/redis/redis.conf
    ```
-### 2. Update the following lines:
+#### 2. Update the following lines:
 
 - Change ```supervised no``` to ```supervised systemd```
   ```supervised systemd```
@@ -141,13 +141,13 @@ According to the application we are working on like Employee API , Attendance AP
 
 Save and Exit the Editor.
 
-### **Restart Redis**
+#### **Restart Redis**
 
 ```
 sudo systemctl restart redis
 ```
 
-### 3. Authenticate with Redis
+#### 3. Authenticate with Redis
 
 Use the redis-cli to authenticate with the password you set:
 
@@ -156,7 +156,7 @@ redis-cli
 AUTH redos-101
 ```
 
-### 4. Set Up a User with All Permissions
+#### 4. Set Up a User with All Permissions
 
 1. Create a user with all permissions:
 
@@ -166,7 +166,7 @@ ACL SETUSER scylla on >redos-101 ~* +@all
 
 **Note:** The >redos-101 part sets the user's password to redos-101. If you already used redos-101 for the requirepass, consider using a different password for the user to maintain security.
 
-### 5. Set a Strong Password for Redis
+#### 5. Set a Strong Password for Redis
 
 1. If you want to set a different strong password, update the **requirepass** directive in **/etc/redis/redis.conf** to a new strong password, e.g., your_strong_password:
 ```
