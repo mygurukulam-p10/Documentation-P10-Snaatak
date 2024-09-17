@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/e8dbde5e-94e7-4ed5-9350-c54f27e6d490)
+
 # Feature of VCS - Conclusion document
 
 ## Table of Contents
