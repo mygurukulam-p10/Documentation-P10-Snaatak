@@ -158,6 +158,19 @@ sudo apt-get install build-essential libpq-dev
 
 
 ### Step 4 :- Go to Attendance Repository and run command poetry shell to create virtual env 
+
+![Screenshot from 2024-09-17 20-24-43](https://github.com/user-attachments/assets/24486a8a-f2f1-4554-8c2e-9c1008bb140a)
+
+```
+cd /home/ubuntu/attendance-api
+```
+
+![Screenshot from 2024-09-17 20-25-03](https://github.com/user-attachments/assets/17a74e4e-293e-424f-9993-09ca301643d0)
+
+
+![Screenshot from 2024-09-17 20-25-03](https://github.com/user-attachments/assets/3662b15d-18ef-41c9-9678-8cca39752c2c)
+
+
 ```
 poetry shell
 ```
@@ -181,10 +194,15 @@ The pg_hba.conf file controls client authentication and is where you specify the
 Locate the pg_hba.conf file: The location of this file may vary depending on installation. Common locations are /etc/postgresql/15/main/pg_hba.conf
 Edit the pg_hba.conf file:
 
+Change the authentication method for the postgres user from peer to md5. This will require the postgres user to authenticate using a password hashed with the MD5 method, rather than the peer method which uses the operating system user for authentication.
+
 ![Screenshot from 2024-09-16 16-41-41](https://github.com/user-attachments/assets/238c9e35-fd61-403a-8c7a-afef0cc0b842)
 
 
 ### Step 7: - Update config.yaml and liquibase.properties
+
+![Screenshot from 2024-09-17 20-25-03](https://github.com/user-attachments/assets/61caaea2-e821-4610-8325-d746922bca8f)
+
 ![Screenshot from 2024-09-17 13-50-22](https://github.com/user-attachments/assets/65eda832-a708-4517-81d3-72b9d22aa4b0)
 
 ![Screenshot from 2024-09-17 13-49-47](https://github.com/user-attachments/assets/ffd86cba-524c-4466-a5ba-1d797f438576)
