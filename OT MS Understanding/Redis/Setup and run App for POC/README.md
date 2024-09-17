@@ -184,17 +184,12 @@ sudo systemctl restart redis
 ```
 sudo systemctl start redis-server
 ```
-**Manual Start with Configuration File:**
-```
-redis-server /path/to/redis.conf
-```
+
 ## 4. Cleanup and Shutdown
 
 To clean up Redis, stop the server and remove any persistent files if needed:
 ```
 sudo systemctl stop redis-server
-sudo rm /var/lib/redis/dump.rdb
-sudo rm /var/lib/redis/appendonly.aof
 ```
 
 ## Conclusion
