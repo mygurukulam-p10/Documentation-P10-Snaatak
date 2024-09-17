@@ -86,14 +86,11 @@ For general use, **Flyway** and **Liquibase** are highly recommended. Flyway is 
 
 | Advantage                    | Description                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------------------|
-| Efficient Data Management    | Databases allow for the organized storage, retrieval, and management of data. They use structured formats and indexing to quickly access information. |
+| Efficient Data Management    | They use structured formats and indexing to quickly access information. |
 | Data Integrity and Accuracy  | Enforce rules and constraints (e.g., primary keys, foreign keys) to ensure data accuracy and consistency. |
 | Reduced Data Redundancy      | Use normalization techniques to minimize duplication of data, leading to more efficient storage and management. |
 | Improved Security            | Advanced security features, such as user authentication and authorization, help protect data from unauthorized access. |
 | Data Backup and Recovery     | Regular backups and recovery mechanisms ensure that data can be restored in case of corruption or loss. |
-| Concurrency Control          | Handle multiple users accessing and modifying the data simultaneously through transaction management and locking mechanisms. |
-| Querying and Reporting       | Powerful query languages (e.g., SQL) allow for complex data retrieval and reporting, facilitating analysis and decision-making. |
-| Scalability                  | Can be scaled vertically (upgrading hardware) or horizontally (adding more servers) to handle increased loads and growing data volumes. |
 
 ## Disadvantages
 
@@ -101,12 +98,8 @@ For general use, **Flyway** and **Liquibase** are highly recommended. Flyway is 
 |------------------------------|-------------------------------------------------------------------------------------------------------|
 | Complexity                   | Designing, implementing, and managing a database system can be complex and requires specialized knowledge. |
 | Cost                         | High-performance databases can be expensive to purchase, license, and maintain. Costs also include training staff and managing infrastructure. |
-| Maintenance Overhead         | Regular maintenance tasks, such as updates, backups, and performance tuning, require time and resources. |
-| Performance Issues           | Poorly designed databases or improperly tuned queries can lead to performance issues, such as slow response times or inefficient data retrieval. |
 | Security Risks               | Databases are targets for cyberattacks. Ensuring proper security measures are in place is crucial. |
 | Data Migration Challenges    | Migrating data from one database system to another can be challenging and may require careful planning and execution. |
-| Vendor Lock-in               | Proprietary systems can make it difficult to switch to different systems or platforms without incurring additional costs or effort. |
-| Learning Curve               | Users and administrators may need significant training to effectively use and manage a database system, particularly with advanced features. |
 
 
 ## Contact Information
