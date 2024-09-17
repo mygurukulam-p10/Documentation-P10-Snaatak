@@ -26,7 +26,8 @@ Micro repos offer a middle ground between monorepos and polyrepos, providing:
 
 ---
 
-## :card_file_box:
+## :card_file_box: Features*
+
 | **Features** | **Description** |
 |--------------|-----------------|   
  |**Isolated Dependencies** |Each micro repo has its own dependency management, reducing conflicts.|
