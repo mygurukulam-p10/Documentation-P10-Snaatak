@@ -96,16 +96,14 @@ Follow the prompts to configure ScyllaDB according to your system specifications
 
 ### Step 6: Start ScyllaDB service and check its status
 
-```
-  Start the ScyllaDB service:
-``
+Start the ScyllaDB service:
+
 ```bash
 sudo systemctl start scylla-server
 
 ```
-```
-  Check the status of the ScyllaDB service
-```
+Check the status of the ScyllaDB service
+
 ```bash
 sudo systemctl status scylla-server
 
