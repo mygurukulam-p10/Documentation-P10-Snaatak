@@ -77,6 +77,8 @@ git clone https://github.com/OT-MICROSERVICES/attendance-api.git
 
 ## Step 2:- Script to install all dependencies at ones
 
+Create a script file with any name like dependency.sh and paste below script inside it and give permission of execution to it
+
 ```
 #!/bin/bash
 
