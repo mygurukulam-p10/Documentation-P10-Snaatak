@@ -111,6 +111,3 @@ For further reading and resources on GitOps, check out the following:
 |------|---------------------|
 | https://docs.liquibase.com | Liquibase Documentation |
 | https://alembic.sqlalchemy.org/en/latest/ | Alembic Documentation |
-
-This guide provides a foundation for understanding database version control and serves as a starting point for implementation and further exploration.
-
