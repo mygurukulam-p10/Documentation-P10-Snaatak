@@ -2,6 +2,9 @@
 # 🚀 Project VCS Policies
 
 This document outlines the version control system (VCS) policies for managing code in the repository. It includes naming conventions, commit message guidelines, and templates for branches and tags. By following these conventions, we aim to maintain consistency, readability, and traceability across the project.
+| 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
+|--------------------|------------|--------------|--------------------------------|
+| 18-09-2024         | 0.3        | Brij Singh   | Naming Conventions           |
 
 ## 📑 Table of Contents
 
@@ -23,11 +26,13 @@ Branches are essential for working on isolated features, bug fixes, or experimen
 
 
 #### Branch Types:
-- **feature/**: Used for new features or enhancements.
-- **bugfix/**: Used for resolving bugs.
-- **hotfix/**: Used for urgent, high-priority fixes that need to go directly into production.
-- **release/**: Preparing for a new release.
-- **test/**: Used for testing purposes or experimentation.
+ | **Name** | **Description** |
+|--------------|-----------------|  
+| **feature/**| Used for new features or enhancements.|
+| **bugfix/**| Used for resolving bugs.|
+| **hotfix/**| Used for urgent, high-priority fixes that need to go directly into production.|
+| **release/**| Preparing for a new release.|
+| **test/** |Used for testing purposes or experimentation.|
 
 
 
@@ -49,13 +54,15 @@ Tags mark specific points in the repository’s history, typically for releases 
 
 
 #### Commit Types:
-- **feat**: New feature or functionality.
-- **fix**: Bug fix.
-- **docs**: Documentation-only changes.
-- **style**: Code style changes (formatting, no code logic changes).
-- **refactor**: Code refactoring without adding new features or fixing bugs.
-- **test**: Adding or modifying tests.
-- **chore**: Miscellaneous tasks, such as build tasks or dependency updates.
+| **Commit** | **Description** |
+|--------------|-----------------| 
+| **feat**| New feature or functionality.|
+| **fix**| Bug fix.|
+| **docs**| Documentation-only changes.|
+| **style**| Code style changes (formatting, no code logic changes).|
+| **refactor**| Code refactoring without adding new features or fixing bugs.|
+| **test**| Adding or modifying tests.|
+| **chore**| Miscellaneous tasks, such as build tasks or dependency updates.|
 
 
 ## 📚 Detailed Documentation
