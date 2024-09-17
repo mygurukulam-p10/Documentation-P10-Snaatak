@@ -61,12 +61,13 @@ Micro repos offer a middle ground between monorepos and polyrepos, providing:
 ---
 
 ##  :rocket: Best Practices for Micro Repo Management
-- **Dependency Management**: Use tools like `npm`, `pip`, or `Maven` to manage dependencies effectively across repos.
-- **Automated CI/CD**: Implement a robust CI/CD pipeline to ensure each micro repo is tested and deployed independently.
-- **Clear Documentation**: Each micro repo should have thorough documentation on its purpose, usage, and APIs.
-- **Consistent Code Standards**: Use linters and code formatters across all repos to ensure consistency in coding standards.
-- **Cross-Repo Communication**: Use automated tools to detect when changes in one micro repo may affect another and ensure coordination between teams.
-- **Versioning Strategy**: Maintain a clear versioning strategy, like semantic versioning, to track changes across different services.
+
+|**Dependency Management**| Use tools like `npm`, `pip`, or `Maven` to manage dependencies effectively across repos.|
+| **Automated CI/CD** |Implement a robust CI/CD pipeline to ensure each micro repo is tested and deployed independently.|
+| **Clear Documentation**| Each micro repo should have thorough documentation on its purpose, usage, and APIs.|
+| **Consistent Code Standards**| Use linters and code formatters across all repos to ensure consistency in coding standards.|
+| **Cross-Repo Communication** | Use automated tools to detect when changes in one micro repo may affect another and ensure coordination between teams.|
+| **Versioning Strategy**| Maintain a clear versioning strategy, like semantic versioning, to track changes across different services.|
 
 ---
 
