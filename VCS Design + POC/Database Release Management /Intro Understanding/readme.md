@@ -35,10 +35,6 @@ Version control for databases tackles several key challenges:
 | **Auditability**      | Provide an audit trail of changes, allowing for better tracking of who made changes and why.     |
 | **Rollback Capability** | Easily revert to previous versions of the database schema or data if issues arise.              |
 
-## Key Aspects of Database Version Control
-Version control for databases involves managing:
-1. **Schema Versioning**: Changes to database structures like tables, columns, and indexes.
-2. **Data Versioning**: Changes to the actual data within the database, including inserts, updates, and deletes.
 
 ![ld](https://github.com/user-attachments/assets/9d6bd67b-276b-4503-a50d-4d1d9f038838)
 
