@@ -24,7 +24,7 @@
 ---
 ## 1. Purpose
 
-The purpose of the Redis in API's is to store the cache data so that, next time it doent need to ask database again and again to fetch it and create a time latency.
+The purpose of the Redis in API's is to store the cache data so that, next time it doesn't need to ask database again and again to fetch it and create a time latency.
 
 ## 2.  Pre-requisites
 
