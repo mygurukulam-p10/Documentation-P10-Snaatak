@@ -4,7 +4,7 @@
 This document outlines the version control system (VCS) policies for managing code in the repository. It includes naming conventions, commit message guidelines, and templates for branches and tags. By following these conventions, we aim to maintain consistency, readability, and traceability across the project.
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
 |--------------------|------------|--------------|--------------------------------|
-| 18-09-2024         | 0.3        | Brij Singh   | Naming Conventions           |
+| 16-09-2024         | 0.3        | Brij Singh   | Naming Conventions           |
 
 ## 📑 Table of Contents
 
