@@ -141,15 +141,11 @@ echo "All installations completed successfully!"
 
 ![Screenshot from 2024-09-16 16-39-41](https://github.com/user-attachments/assets/223964f4-8d5e-466f-a3ac-ce2b426660f2)
 
-![Screenshot from 2024-09-16 23-44-32](https://github.com/user-attachments/assets/4efec8ca-54f6-404f-9b9a-710003ec360f)
+![Screenshot from 2024-09-16 16-40-03](https://github.com/user-attachments/assets/2e3b780f-c787-4620-84a6-d3b9c1f0a922)
 
 ![Screenshot from 2024-09-16 23-27-33](https://github.com/user-attachments/assets/1934f2b3-e9c2-4811-81e0-be98b9a9bf39)
 
-![Screenshot from 2024-09-16 23-44-50](https://github.com/user-attachments/assets/c1e5c801-cf3f-472f-961d-233d970e0d1c)
-
-
-
-
+![Screenshot from 2024-09-17 09-43-33](https://github.com/user-attachments/assets/7cfc4e62-9df6-4a5e-ac0c-1c8fb9598f0e)
 
 
 ### Step 3 :- Run Below Command
@@ -198,8 +194,7 @@ Edit the pg_hba.conf file:
 
 ![Screenshot from 2024-09-16 16-55-51](https://github.com/user-attachments/assets/73d5b67c-fc31-4082-926e-f07c71546cc8)
 
-![Screenshot from 2024-09-16 23-28-25](https://github.com/user-attachments/assets/01500705-8582-4a93-a269-821db65d30e6)
-
+![Screenshot from 2024-09-17 09-48-22](https://github.com/user-attachments/assets/3f07a46e-7b95-420e-9c7e-c989d8d61bc5)
 
 ### Step 9 :- Run the below command to install all dependencies required in this project 
 ```
@@ -214,8 +209,7 @@ poetry Install
 ```
 make run-migrations
 ```
-![Screenshot from 2024-09-16 16-42-29](https://github.com/user-attachments/assets/4a815b54-014a-40d6-a356-5d9969cd07de)
-
+![Screenshot from 2024-09-17 09-49-42](https://github.com/user-attachments/assets/78e37536-8b24-4844-9091-547dc49be5bf)
 
 
 ### Step 11 :- Firstly install gunicorn and Now Run the Application
