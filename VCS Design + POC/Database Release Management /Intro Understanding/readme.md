@@ -7,7 +7,8 @@
 ![database](https://github.com/user-attachments/assets/5102e5e4-1b85-4d77-9f41-5a3173005ff4)
 
 ## Purpose 
-To provide an overview of databases, including why it is important, the tools available, and Recommendations.
+Databases store and manage large amounts of data, making it easy to retrieve, update, and search for information. They keep data accurate and secure, and help with detailed reporting and analysis. Databases are used in many areas like business, finance, healthcare, and education to organize data and support decision-making.
+
 ## Table of Contents
 
 1. [Introduction](#introduction)
