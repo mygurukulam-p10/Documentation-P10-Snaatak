@@ -114,6 +114,10 @@ We are preparing this document so that you can get the detailed information abou
 ![image](https://github.com/user-attachments/assets/2be0875a-2fe9-4b99-a59d-5209ddade86e)
 
 
+### Flow Diagram of Attendance API 
+
+![image](https://github.com/user-attachments/assets/34a83dd4-e4bb-47d8-ad27-0cca8d2ed4fd)
+
 ## 7.Conclusion
 
 | Feature                | Description                                                                   |
