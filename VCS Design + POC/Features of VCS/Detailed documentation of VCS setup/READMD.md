@@ -9,7 +9,7 @@ This guide covers the setup process for popular Version Control Systems (VCS) �
 ---
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
 |--------------------|------------|--------------|--------------------------------|
-| 15-09-2024         | 0.2        | Brij Singh   | VCS Setup Guide: Bitbucket, GitHub, and GitLab           |
+| 18-09-2024         | 0.3       | Brij Singh   | VCS Setup Guide: Bitbucket, GitHub, and GitLab           |
 
 ## 📑 Table of Contents
 - [Introduction](#introduction)
