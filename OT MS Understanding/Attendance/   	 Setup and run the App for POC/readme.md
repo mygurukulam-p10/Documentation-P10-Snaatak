@@ -141,7 +141,8 @@ echo "All installations completed successfully!"
 
 ![Screenshot from 2024-09-16 16-39-41](https://github.com/user-attachments/assets/223964f4-8d5e-466f-a3ac-ce2b426660f2)
 
-![Screenshot from 2024-09-16 16-40-03](https://github.com/user-attachments/assets/2e3b780f-c787-4620-84a6-d3b9c1f0a922)
+![Screenshot from 2024-09-17 09-59-10](https://github.com/user-attachments/assets/e1d1757b-99b2-4701-ba01-fe761ee3f7a8)
+
 
 ![Screenshot from 2024-09-16 23-27-33](https://github.com/user-attachments/assets/1934f2b3-e9c2-4811-81e0-be98b9a9bf39)
 
