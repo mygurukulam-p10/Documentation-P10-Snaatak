@@ -3,7 +3,7 @@
  
  | Author        | Created on | Version | Last updated by | Last edited on |
   |-------------|---------|-------------|-------------|---------|
-  | Amit Nagar | 12-09-24 | version 1 | Amit Nagar | 16-09-24 |
+  | Amit Nagar | 12-09-24 | 1 | Amit Nagar | 16-09-24 |
 
 
 
