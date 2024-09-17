@@ -1,9 +1,9 @@
 # VCS Authentication Setup POC
 
 
-|  Author        | Created on |  Version  | Last updated by  | Last edited on |
-|----------------|------------|-----------|------------------|----------------|
-| Abhinav Singh  |   12-09-24 | version 1 |   Abhinav Singh  |     16-09-24   |
+|  Author        | Created on |  Version  | Last updated by   |   Last edited on   |
+|----------------|------------|-----------|-------------------|--------------------|
+| Abhinav Singh  |  12-09-24  | version 1 |   Abhinav Singh   |      16-09-24      |
 
 ## Table of Contents
 1. [Purpose](#purpose)
@@ -20,11 +20,7 @@
 9. [Contact Information](#Contact-Information)
 10. [References](#References)
 ## Purpose
-Git is a distributed version control system that uses various authentication methods to manage access to repositories hosted on remote services like GitHub, GitLab, Bitbucket, and others.
-
-These authentication methods ensure that only authorized users can interact with repositories, securing actions such as cloning, pushing, pulling, and managing code.
-
-This document outlines all the authentication methods in Git, their setup, and best practices to maintain security.
+VCS employs various methods to control repository access. This guide covers authentication methods used in git, their setup, and security best practices. Ensure only authorized users can interact with your repositories.
 
 ## Authentication Overview
 
@@ -35,33 +31,32 @@ Git authentication has evolved from older methods like username/password (now de
 **Personal Access Tokens (PAT)** - Token-based login for HTTPS with customizable permissions.
 
 **GPG Signing** - Verifies commit authenticity with digital signatures.
+![image](https://github.com/user-attachments/assets/d15dbc44-a9b0-45dd-8925-69e0cffa31b6)
+
 
 ## System-Prerequisites
 
-|        Requirements           |          Recommendation              |
+|        Requirements           |            Recommendation            |
 |-------------------------------|--------------------------------------|
-|   **OS**                      | Ubuntu           |
-|   **Git Version**             | 2.28 or higher                       |
-|   **GPG**                     | Installed for commit signing         |
+|            **OS**             |                Ubuntu                |
+|        **Git Version**        |            2.28 or higher            |
+|            **GPG**            |       Installed for commit signing   |
 |   **Git Service Account**     | GitHub, GitLab, or Bitbucket account |
-|   **Software Dependencies**   | OpenSSH, GPG (for signing)           |
+|   **Software Dependencies**   |      OpenSSH, GPG (for signing)      |
 
 ## Authentication Methods in Git
-
-| **Method**                  | **Description**                                                                                                                                  | **Security Level**           | **Use Case**                                                                                             |
-|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|----------------------------------------------------------------------------------------------------------|
-| **Username and Password (Deprecated)** | This method involves using Git service username and password for HTTPS authentication. It has been deprecated due to security concerns, as passwords can easily be compromised. | Low                          | Deprecated method, avoid using for any Git interactions.                                                  |
-| **SSH Key-Based Authentication**      | SSH authentication uses a key-pair system where the private key remains on your machine, and the public key is added to your Git service account. It is one of the most secure methods of authentication. | High                         | Recommended for both personal and organizational repositories, especially for secure communications over networks. |
-| **Personal Access Tokens (PAT)**      | A PAT is a token that serves as a password alternative when using HTTPS to interact with Git repositories. Tokens are scoped, meaning you can control what permissions a token has (read, write, etc.). | Medium to High               | Required when using Git services over HTTPS instead of SSH.                                               |
-| **GPG Signing for Commit Verification** | GPG allows developers to sign their commits, verifying their authenticity. This is especially useful in large projects where it's crucial to ensure that commits come from trusted sources. | High for Commit Integrity     | Recommended for teams or projects where commit authenticity and integrity are paramount.                  |
+| **Method**                  | **Description**                    | **Security Level**           | **Use Case**            |
+|-----------------------------|-----------------------------------|------------------------------|--------------------------|
+| **Username and Password (Deprecated)** | Deprecated due to security risks. |   Low  |   Avoid using   |
+|    **SSH Key-Based Authentication**    | Secure key-pair system. |   High  | Recommended for personal and organizational repositories  |
+|   **Personal Access Tokens (PAT)**    |  Scoped tokens for HTTPS authentication. |  Medium to High  |   Required for HTTPS interactions.   |
+| **GPG Signing for Commit Verification** |   Verifies commit authenticity    |    High for Commit Integrity     | Ensures commit integrity, ideal for large projects.
 
 ## Setting up Authentication
 
-### Generating and Using SSH Keys
+### Generating and Using SSH Keys 
 
-**Generate SSH Key** 
-
-Open terminal on your Machine and run below command to generate ssh public and private key which by default get added to **.ssh** directory of the user. Simply hit enter for the prompt or you can define your own values if needed.
+Open terminal on your Machine and run below command to **generate ssh public and private key** which by default get added to **.ssh** directory of the user. Simply hit enter for the prompt or you can define your own values if needed.
 
 ```
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
@@ -77,7 +72,7 @@ cat ~/.ssh/id_rsa.pub
 ```
 ![image](https://github.com/user-attachments/assets/6a6f6659-d826-45b2-972e-8347ea6ca99a)
 
-Paste it in your Git accounts, SSH key section which you can find in settings of your account.
+Paste it in your Git accounts, at SSH key section which you can find in settings of your account.
 
 ![image](https://github.com/user-attachments/assets/5dc9d303-c3fd-4d5f-946d-7290c020308e)
 
@@ -183,17 +178,15 @@ git log --show-signature
 ## Best Practices for Secure Authentication
 
 | **Practice**                          | **Description**                                                                                                                                  |
-|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Use SSH Keys for Git Operations**   | SSH keys are highly secure and recommended for accessing repositories.                                                                            |
-| **Limit the Scope of Personal Access Tokens** | Always restrict the scope and duration of Personal Access Tokens (PATs) to minimize risk in case of token compromise.                            |
-| **Regularly Rotate Tokens and Keys**  | Periodically regenerate your SSH keys and PATs to ensure ongoing security.                                                                        |
-| **Sign Commits with GPG**             | Sign and verify commits to prevent unauthorized changes, especially important in larger projects.                                                  |
+|---------------------------------------|---------------------|
+| **Use SSH Keys**   | Prioritize SSH keys for secure repository access                                                                            |
+| **Limit PAT Scope** | Restrict PATs to essential permissions and timeframes   |
+| **Rotate Credentials**  | Regularly update SSH keys and PATs                  |
+| **Sign Commits with GPG**             |  Employ GPG for commit verification in larger projects    |
 
 ## Conclusion
 
 Authentication in VCS ensures secure access to repositories using methods like SSH keys, Personal Access Tokens (PAT), and GPG commit signing. With username/password authentication deprecated, modern methods like SSH and PATs offer stronger security. 
-
-This guide outlines setup, troubleshooting, and best practices like enabling SSH access and signing commits with GPG to protect your Git interactions and repositories effectively.
 
 ### Contact Information
 For more information, feedback, or assistance, feel free to contact us:
