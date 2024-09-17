@@ -168,9 +168,6 @@ cd /home/ubuntu/attendance-api
 ![Screenshot from 2024-09-17 20-25-03](https://github.com/user-attachments/assets/17a74e4e-293e-424f-9993-09ca301643d0)
 
 
-![Screenshot from 2024-09-17 20-25-03](https://github.com/user-attachments/assets/3662b15d-18ef-41c9-9678-8cca39752c2c)
-
-
 ```
 poetry shell
 ```
