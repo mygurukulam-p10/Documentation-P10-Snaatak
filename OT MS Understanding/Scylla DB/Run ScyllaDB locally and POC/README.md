@@ -199,7 +199,6 @@ The `CREATE KEYSPACE` command is used to define a new keyspace in ScyllaDB. A ke
 - For performance issues, use the `nodetool` utility to check cluster status and performance metrics:
   ```bash
   nodetool status
-  nodetool tablestats
   ```
 
 - If you encounter connection issues, ensure that the ScyllaDB service is running:
