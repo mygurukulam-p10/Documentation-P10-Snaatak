@@ -48,8 +48,7 @@
 | Inbound Traffic | Description                    |
 |-----------------|--------------------------------|
 | 9042            | CQL native transport port      |
-| 9160            | Thrift client API              |
-| 10000           | REST API                       |
+
 
 ## Architecture
 
@@ -98,11 +97,16 @@ Follow the prompts to configure ScyllaDB according to your system specifications
 
 ### Step 6: Start ScyllaDB service and check its status
 
+```
+  Start the ScyllaDB service:
+``
 ```bash
 sudo systemctl start scylla-server
 
 ```
-
+```
+  Check the status of the ScyllaDB service
+```
 ```bash
 sudo systemctl status scylla-server
 
@@ -114,11 +118,13 @@ sudo systemctl status scylla-server
 
 ### Step 7: Verify ScyllaDB Installation
 
+```
+ Use nodetool to check the status of your ScyllaDB nodes
+```
 ```bash
 nodetool status
 ```
 ### Step 8. Configure user Scylla 
-Path ` /etc/scylla/scylla.yaml `
 ```
 sudo vi /etc/scylla/scylla.yaml
 ```
@@ -127,6 +133,18 @@ After entering, Edit these entries for security purpose
 authenticator: PasswordAuthenticator
 authorizer: CassandraAuthorizer
 ```
+### Authentication and Authorization in ScyllaDB
+
+#### `authenticator: PasswordAuthenticator`
+- **Purpose**: Specifies the method used for authentication in ScyllaDB.
+- **Description**: The `PasswordAuthenticator` setting means that users must provide a username and password to authenticate. It uses a password-based authentication method, where credentials are checked against the stored user data.
+
+#### `authorizer: CassandraAuthorizer`
+- **Purpose**: Defines the authorization method used in ScyllaDB.
+- **Description**: The `CassandraAuthorizer` setting allows you to control access to database resources using roles and permissions. It is similar to how Apache Cassandra manages authorization and helps in defining who can access what data and perform what operations.
+
+
+
 ![Screenshot from 2024-09-16 17-06-07](https://github.com/user-attachments/assets/d5cef51d-2122-427d-8d32-2203cbef1737)
 
 
@@ -145,6 +163,9 @@ Here are some basic CQL commands to get started with ScyllaDB:
    ```sql
    CREATE KEYSPACE mykeyspace WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
    ```
+### `CREATE KEYSPACE` Command
+
+The `CREATE KEYSPACE` command is used to define a new keyspace in ScyllaDB. A keyspace in ScyllaDB (and Cassandra) is a container for tables, and it defines how data is replicated across nodes in the cluster.
 
 3. Use the keyspace:
    ```sql
