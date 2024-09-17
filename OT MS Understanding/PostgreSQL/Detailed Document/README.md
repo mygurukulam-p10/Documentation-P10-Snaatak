@@ -3,7 +3,7 @@
 This document provides an overview of PostgreSQL databases, including key concepts, functionalities, and practices for creating and managing a PostgreSQL Database.
 
 ## Table of Contents
-1. [Introduction](#what-is-postgresql?)
+1. [Introduction](#what-is-postgresql)
 2. [Features](#features-of-postgresql)
 3. [Key Concepts](#key-concepts)
 4. [Why Use PostgreSQL?](#why-use-postgresql)
