@@ -4,7 +4,7 @@
 
 | Author      | Created on  | Version    | Last updated by | Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-| Komal Jaiswal  | 10-09-24    | version 1  | Komal Jaiswal      | 11-09-24       |
+| Komal Jaiswal  | 10-09-24    | Version 1  | Komal Jaiswal      | 11-09-24       |
 
 ## Table of Contents
 1. [Purpose](#1-purpose)
@@ -15,11 +15,12 @@
 3. [Installation and Setup](#3-installation-and-setup)
    - [3.1 Installation](#31-installation)
    - [3.2 Configuration](#32-configuration)
-   - [3.3 Security Setup](#33-security-setup)
+   - [3.3 Redis Configuration and Authentication Steps](#33-Redis-configuration-and-authentication-steps)
    - [3.4 Starting Redis](#34-starting-redis)
 4. [Cleanup and Shutdown](#4-cleanup-and-shutdown)
 5. [Conclusion](#5-conclusion)
 6. [References](#6-references)
+
 ---
 ## 1. Purpose
 
@@ -97,7 +98,9 @@ Follow the [Redis installation guide](https://redis.io/download) for your platfo
 - **MacOS:** `/usr/local/etc/redis.conf`
 - **Windows:** `C:\Program Files\Redis\redis.windows.conf`
 
-#### Edit the Configuration File:
+#### Edit the Configuration File: 
+**Note :-** Further in this documentation we will be using Linux Ubuntu.
+
 ```
 sudo nano /etc/redis/redis.conf
 ```
@@ -118,32 +121,61 @@ Update the Redis configuration file with the following settings:
 
 ### 1.3 Security Setup
 
-According to the application we are working on like Employee API , Attendance API and Salary API we will use the below command to access the default user.
+According to the application we are working on like Employee API , Attendance API and Salary API we will use the below command to access the default user.And How can we make that more Secure.
+
+## 1.3 Redis Configuration and Authentication Steps
+
+### 1. Edit Redis Configuration File
+
+1. **Locate the Redis configuration file:**
+   ```
+   sudo nano /etc/redis/redis.conf
+   ```
+### 2. Update the following lines:
+
+- Change ```supervised no``` to ```supervised systemd```
+  ```supervised systemd```
+
+- Uncomment and set the password by replacing ```# requirepass foobared``` with
+  ```requirepass redos-101```
+
+Save and Exit the Editor.
+
+### **Restart Redis**
 
 ```
-AUTH password
-``` 
-Now we will make some changes in conf file to access user through passwords 
-
-**Location :- /etc/redis/redis.conf** 
-
-```
-Look for "supervised no" and replace it with "supervised systemd"
-
-Also replace "# requirepass foobared" with "requirepass password"
-
+sudo systemctl restart redis
 ```
 
-Set a user with all permissions 
+### 3. Authenticate with Redis
+
+Use the redis-cli to authenticate with the password you set:
 
 ```
-ACL SETUSER scylla on >password ~* +@all
+redis-cli
+AUTH redos-101
 ```
 
-**Set a Strong Password:**
+### 4. Set Up a User with All Permissions
 
+1. Create a user with all permissions:
+
+```
+ACL SETUSER scylla on >redos-101 ~* +@all
+```
+
+**Note:** The >redos-101 part sets the user's password to redos-101. If you already used redos-101 for the requirepass, consider using a different password for the user to maintain security.
+
+### 5. Set a Strong Password for Redis
+
+1. If you want to set a different strong password, update the **requirepass** directive in **/etc/redis/redis.conf** to a new strong password, e.g., your_strong_password:
 ```
 requirepass your_strong_password
+```
+
+2. Restart Redis again for this change to take effect:
+```
+sudo systemctl restart redis
 ```
 
 ### 1.4 Starting Redis
