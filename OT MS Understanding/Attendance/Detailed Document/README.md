@@ -1,4 +1,4 @@
-# Attendance API Technology Stack
+# Attendance API - Detailed Documentation
 
 | Author      | Created on  | Version    | Last updated by | Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
@@ -14,7 +14,7 @@ This README provides an overview of the technology stack used in our Attendance 
 5. [Poetry](#5-poetry)
 6. [Swagger UI](#6-swagger-ui)
 7. [Conclusion](#7-conclusion)
-8. [Refrence](#8-reference)
+8. [Reference](#8-reference)
 9. [Contact](#9-contact)
 
 
