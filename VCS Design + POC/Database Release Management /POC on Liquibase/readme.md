@@ -23,7 +23,8 @@ We are preparing this document so that we can easily install Liquibase and perfo
 8. [Best Practices](#best-practices)
 
 ## Architecture
-![liquibase arch](https://github.com/user-attachments/assets/ffac290d-4ff9-405e-8a10-08d74d73abd4)
+![liquibase arch](https://github.com/user-attachments/assets/ce5b3b68-168b-4d0b-941b-e6fc03ddd8a7)
+
 
 
 
@@ -151,6 +152,9 @@ liquibase --version
 ```
 By this we can see is rollback is successful or not
 ![liquibase r1](https://github.com/user-attachments/assets/b876e2a4-6e9d-4fa9-957b-ba7a962cd6f7)
+
+![liquibase r4](https://github.com/user-attachments/assets/a55cbd6f-d189-4650-a02d-580c0bf9caf0)
+![liquibase r5](https://github.com/user-attachments/assets/f8eae649-799f-4d3a-87db-e6f7b3a6d2f7)
 
 
 ## 2. **Rolling Back by Count**
