@@ -16,7 +16,8 @@ Full Stack Development is the process of creating a complete web application tha
 **Back-End**: This is the behind-the-scenes part. It handles the server, the logic of the application, and ensures everything works correctly. It also manages security and data processing.
 
 **Database Management**: This part is about storing and organizing all the data the application needs. It makes sure data can be easily accessed and managed.
----
+
+
 ## Overall Component Architecture Flow
 
 Front-end development focuses on the part of a web application that users see and interact with. It's all about designing how the app looks (user interface) and how it feels to use (user experience). Front-end developers use languages like HTML, CSS, and JavaScript to build this visual part of the website, making sure it's easy to use and works smoothly.
@@ -33,7 +34,8 @@ For Refrence Links Below
 * [Employee API](https://github.com/mygurukulam-p10/Documention/blob/main/OT%20MS%20Understanding/Employee/Setup%20and%20run%20the%20App%20for%20POC%20/Readme.md)
 * [Attendance API](https://github.com/mygurukulam-p10/Documention/blob/main/OT%20MS%20Understanding/Attendance/%20%20%20%09%20Setup%20and%20run%20the%20App%20for%20POC/readme.md)
 * [Salary API](https://github.com/mygurukulam-p10/Documention/blob/main/OT%20MS%20Understanding/Salary/Setup%20and%20POC/README.md)
----
+
+
 ### Backend Management
 
 #### 1 .Employee-API
