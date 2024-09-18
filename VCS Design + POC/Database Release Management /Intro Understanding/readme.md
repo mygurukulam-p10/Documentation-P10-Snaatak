@@ -13,15 +13,14 @@ This document outlines the importance of database release management, the need f
 
 1. [Introduction](#introduction)
 2. [Why Database Release Management?](#why-database-release-management)
-3. [Why Version Control for Databases?](#why-version-control-for-databases)
-4. [Key Aspects of Database Version Control](#key-aspects-of-database-version-control)
-5. [Tools for Database Version Control](#tools-for-database-version-control)
-6. [Detailed Comparison](#detailed-comparison)
-7. [Recommendations](#recommendations)
-8. [Best Practices](#best-practices)
-9. [Advantages and Disadvantages](#advantages-and-disadvantages)
-10. [Contact Information](#contact-information)
-11. [References](#references)
+3. [Version Control for Databases?](#version-control-for-databases)
+4. [Tools for Database Version Control](#tools-for-database-version-control)
+5. [Detailed Comparison](#detailed-comparison)
+6. [Recommendations](#recommendations)
+7. [Best Practices](#best-practices)
+8. [Advantages and Disadvantages](#advantages-and-disadvantages)
+9. [Contact Information](#contact-information)
+10. [References](#references)
    
 ## Introduction
 Database release management is a critical aspect of software development that ensures the integrity and stability of database changes throughout the software lifecycle. This process aims to make the deployment of database changes more reliable and repeatable, ultimately enhancing overall software quality and performance.
