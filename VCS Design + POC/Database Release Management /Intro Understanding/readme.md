@@ -62,8 +62,6 @@ Here are some popular tools for managing database version control:
 
 | Feature                      | ![Liquibase](https://github.com/user-attachments/assets/9a36fac6-e9ee-4579-9807-84065ca345fe) | ![Flyway](https://github.com/user-attachments/assets/d98f1d01-be80-4b22-85ef-18eb2a8052de)  | ![Redgate SQL Source Control](https://github.com/user-attachments/assets/1b0328cb-f6c8-4151-a9f0-7229c87bb962) | ![Alembic](https://github.com/user-attachments/assets/ab82d360-d7b1-4d36-87e6-8678667d9239) | ![dbup](https://github.com/user-attachments/assets/6a7a0e9a-037d-44b3-a99c-b12b07afa33b) |
 |------------------------------|-----------|--------|----------------------------|---------|------|
-| Feature                    | Liquibase                         | Flyway                            | Redgate SQL Source Control       | Alembic                        | DbUp                          |
-|----------------------------|-----------------------------------|-----------------------------------|----------------------------------|--------------------------------|-------------------------------|
 | **Rollback Support**       | Yes                               | Limited                           | No                               | Yes                            | No                            |
 | **SQL Dialects**           | Multiple                          | Multiple                          | SQL Server                       | SQLAlchemy supported dialects  | SQL Server and others        |
 | **File Format**            | XML, YAML, JSON                  | SQL, Java                         | SQL Scripts                      | Python scripts (migration files)| C# or SQL scripts            |
