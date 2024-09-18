@@ -16,7 +16,7 @@ The purpose of this POC is to demonstrate the functionality and integration of t
    * [Build Dependencies](#build-dependency)
 5. [Important Port](#important-port)
 6. [Step-by-step installation](#step-by-step-installation)
-7. [Contact Information](#contact-information)
+7. [Contact Information](#-contact-information)
 
 ## Architecture
 ![frontend drawio (3)](https://github.com/user-attachments/assets/a220a569-a98c-4afd-b53d-221196a57e93)
@@ -106,7 +106,7 @@ Then hit the url which is showing in above terminal ss "http://10.0.0.4:3000" re
 
 ![Screenshot 2024-09-10 170624](https://github.com/user-attachments/assets/78c32c6a-44a0-4328-86cb-2bcb72b9d089)
 
-## 📧 Contact Information
+## Contact Information
 
 For any queries or further information, feel free to contact:
 
