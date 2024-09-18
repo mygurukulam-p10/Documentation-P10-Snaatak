@@ -36,7 +36,7 @@ There are various types of repositories that cater to different aspects of DevOp
 ### 2. **Artifact Repositories**
    - Store build artifacts (e.g., binaries, libraries) produced by the CI pipeline.
    - Tools: **Artifactory**, **Nexus**, **Azure Artifacts**.
-   - Features: Artifact storage, versioning, dependency management.
+   - Features: JFrog Artifact storage, versioning, dependency management.
    - Example: `artifactory.company.com/repo/project-artifacts`.
 ### 3. **Container Repositories**
    - Host container images that are ready for deployment.
