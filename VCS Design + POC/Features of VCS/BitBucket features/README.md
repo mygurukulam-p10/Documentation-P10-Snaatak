@@ -23,7 +23,6 @@ The purpose of this document is to provide a comprehensive evaluation of Bitbuck
 Bitbucket provides a collaborative environment for teams to work on code, manage repositories, and automate workflows. Bitbucket is a web-based version control repository hosting service owned by Atlassian, primarily for source code and development projects that use Git or Mercurial. This document provides an evaluation of Bitbucket's features and capabilities.
 
 ### Features of bitbucket
-<img width="332" alt="Bitbucket features" src="https://github.com/user-attachments/assets/cabbf9e6-9f4f-4147-91b5-c71fd02baf82">
 
 
 | Feature                                | Description                                                                 | Benefits                                                                                                                                                 |
