@@ -21,12 +21,29 @@ Version Control Systems (VCS) are essential tools for managing code changes and 
 ### Why we need authentication
 
 
-## Common VCS Authentication Srategies
+## Authentication Strategies in VCS
+
+Git authentication has evolved from older methods like username/password (now deprecated) to more secure, modern options, including:-
+
+**Username and Password -** Users enter their Username and Password to authenticate. This strategy is now deprecated for most of VCS service authentications.
+
+**SSH Keys** - Secure key-based access.
+
+**Personal Access Tokens (PAT) -** Token-based login for HTTPS with customizable permissions.
+
+## Comparison between VCS Authentication Srategies
 | **Method**                  | **Description**                    | **Security Level**           | **Use Case**            |
 |-----------------------------|-----------------------------------|------------------------------|--------------------------|
 | **Username and Password (Deprecated)** | Deprecated due to security risks. |   Low  |   Avoid using   |
 |    **SSH Key-Based Authentication**    | Secure key-pair system. |   High  | Recommended for personal and organizational repositories  |
 |   **Personal Access Tokens (PAT)**    |  Scoped tokens for HTTPS authentication. |  Medium to High  |   Required for HTTPS interactions.   |
+
+## Common Authentication Errors and Solutions
+
+|             **Error Message**           |           **Cause**                     |                 **Solution**                  |
+|-----------------------------------------|--------------------------------------|---------------------------------------------------|
+|   **Permission denied (publickey)**     |  SSH keys not correctly configured       |Ensure your public key is added to Git service.  |
+|**fatal: Authentication failed for...**  |Incorrect credentials or token expired    |         Update credentials or regenerate PAT.   |
 
 
 
