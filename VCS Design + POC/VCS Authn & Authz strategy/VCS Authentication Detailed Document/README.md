@@ -75,14 +75,19 @@ Git authentication has evolved from older methods like username/password (now de
 
 Authentication in VCS ensures secure access to repositories using methods like SSH keys and Personal Access Tokens (PAT). With username/password authentication deprecated, modern methods like SSH and PATs offer stronger security. 
 
-### Contact Information
-For more information, feedback, or assistance, feel free to contact us:
+## Contact Information
+For more information, feedback, or assistance, feel free to contact:
 | Name                   | Email address          |
 |------------------------|------------------------|
 | Abhinav Singh          | abhinav.singh.snaatak@mygurukulam.co  |
 
 
+## References
 
-
+| Links                                             | Descriptions                           |
+|---------------------------------------------------|----------------------------------------|
+|          https://tinyurl.com/59burzr9             | VCS authentication POC                 |
+|          https://tinyurl.com/a8sdfmh9             |  Managing your personal access tokens  |
+|          https://tinyurl.com/yc823m24             |                   About SSH          |
 
 
