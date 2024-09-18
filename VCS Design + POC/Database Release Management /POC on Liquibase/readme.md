@@ -36,9 +36,9 @@ Install Java(Liquibase is a Java-based tool, so you need to have JDK 8 or higher
 | Hardware Specifications | Minimum Recommendation  |
 |--------------------------|------------------------|
 | Processor                | dual-core              |
-| RAM                      | 4GB                    |
-| Disk                     | 20GB                   |
-| OS                       | Ubuntu(22.04)          |
+| RAM                      | 4 GB                    |
+| Disk                     |1 GB free disk space                  |
+| OS                       | Ubuntu 18.04 LTS         |
 
 ## Dependencies
 ### Run time Dependency
