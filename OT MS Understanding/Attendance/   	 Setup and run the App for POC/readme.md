@@ -209,7 +209,7 @@ poetry shell
 
 ![Screenshot from 2024-09-17 20-25-03](https://github.com/user-attachments/assets/61caaea2-e821-4610-8325-d746922bca8f)
 
-Ensure config.yaml has PostgreSQL and Redis details.
+Ensure config.yaml has PostgreSQL and Redis details because we will using config.yaml to connect our application with database and redis
 
 ![Screenshot from 2024-09-18 18-18-35](https://github.com/user-attachments/assets/30ea69a4-3d50-4d0c-8655-33fc35da0ac9)
 
