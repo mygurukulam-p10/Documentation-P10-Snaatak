@@ -9,10 +9,16 @@
 The purpose of this document is to provide a comprehensive overview of the OT-Microservices stack architecture, focusing on its ReactJS-based frontend application and its integration with backend services like Employee, Salary, and Attendance APIs. This architecture is designed for scalability, performance, and ease of maintenance, using technologies like Redis for caching, ScyllaDB for NoSQL storage, and PostgreSQL for relational data. The document covers key components, data flow, and the overall interaction between the frontend and backend services. Additionally, it highlights build and deployment processes, caching mechanisms, and database interactions for seamless application performance.
 
 ## Table of Contents
-1.pre
-2. Conclusion
-3. Contact Information
-4. Refference
+1. [Frontend Web](#frontend-web)
+2. [Employee API](#employee-api)
+3. [Salary API](#salary-api)
+4. [Attendance API](#attendance-api)
+5. [Redis](#redis)
+6. [ScyllaDB](#scylladb)
+7. [PostgreSQL](#postgressql)
+8. [Conclusion](#conclusion)
+9. [Contact Information](#contact-information)
+11. [References](#references)
 
 
 
@@ -84,19 +90,16 @@ PostgreSQL is the relational database used for storing attendance records in the
 | **ACID Compliance**    | PostgreSQL ensures data integrity through its ACID properties. This means that attendance data is reliably stored, ensuring that each transaction (like logging attendance) is processed in a consistent and isolated manner, even in the event of system failures. |
 | **Transactional Data** | PostgreSQL’s transactional capabilities make it ideal for tracking attendance, as every record needs to be stored accurately without data loss or corruption. Complex queries and reporting can also be efficiently handled, making it easier to generate attendance reports for analysis. |
 
-
-
-
-#### Conclusion
+### Conclusion
 The Employee REST API, built using Go, leverages various dependencies to ensure robust, scalable, and high-performance employee data management. Key dependencies like ScyllaDB provide efficient data storage, Redis enhances caching and quick data access, jq facilitates JSON manipulation, and Swagger UI offers clear, interactive API documentation. Together, these components work seamlessly to handle employee-related transactions effectively, providing a reliable solution within the OT-Microservices ecosystem.
 
-#### Contact Information
+### Contact Information
 For more information, feedback, or assistance, feel free to contact us:
 | Name         | Email address                       |
 |--------------|-------------------------------------|
 | Abhinav Singh  | abhinav.singh.snaatak@mygurukulam.co  |
 
-#### References
+### References
 | Links | Descriptions|
 |-------|--------------|
 |(https://redis.io/documentation)|Redis Official Documentation|
