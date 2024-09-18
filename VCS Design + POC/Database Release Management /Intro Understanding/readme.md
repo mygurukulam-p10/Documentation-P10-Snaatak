@@ -17,10 +17,10 @@ This document outlines the importance of database release management, the need f
 4. [Tools for Database Version Control](#tools-for-database-version-control)
 5. [Detailed Comparison](#detailed-comparison)
 6. [Recommendations](#recommendations)
-7. [Best Practices](#best-practices)
 8. [Advantages and Disadvantages](#advantages-and-disadvantages)
-9. [Contact Information](#contact-information)
-10. [References](#references)
+9. [Best Practices](#best-practices)
+10. [Contact Information](#contact-information)
+11. [References](#references)
    
 ## Introduction
 Database release management is a critical aspect of software development that ensures the integrity and stability of database changes throughout the software lifecycle. This process aims to make the deployment of database changes more reliable and repeatable, ultimately enhancing overall software quality and performance.
@@ -47,8 +47,8 @@ Version control for databases tackles several key challenges:
 | **Collaboration**    | Facilitate multiple developers to work on the database simultaneously without conflicts by using version control and branching strategies. |
 
 
+![liquibase arch](https://github.com/user-attachments/assets/4a2374f7-7610-4ec7-8a8d-0d949ff4ce02)
 
-![ld](https://github.com/user-attachments/assets/9d6bd67b-276b-4503-a50d-4d1d9f038838)
 
 ## Tools for Database Version Control
 Here are some popular tools for managing database version control:
@@ -72,15 +72,6 @@ Here are some popular tools for managing database version control:
 ## Recommendations
 While other tools like Flyway or DbUp may be simpler and easier to use for straightforward migrations, Liquibase shines in scenarios where flexibility, complexity, and detailed change management are crucial. It’s particularly beneficial for larger teams and projects with evolving requirements, making it a strong choice for many development environments. Ultimately, the best choice depends on your specific needs, team expertise, and project complexity.
 
-## Best Practices
-
-| Best Practice                          | Description                                               |
-|----------------------------------------|-----------------------------------------------------------|
-| **Testing Environments**               | Maintain separate environments for development, testing, and production to validate changes.     |
-| **Documentation**                      | Keep documentation up-to-date with changes, including schema modifications and migration steps.  |
-| **Change Approval Workflows**          | Establish workflows for approving changes with input from multiple stakeholders.                 |
-| **Continuous Improvement**             | Regularly review and refine the release process based on feedback and lessons learned.         |
-
 
 # Advantages and Disadvantages
 ## Advantages
@@ -101,6 +92,15 @@ While other tools like Flyway or DbUp may be simpler and easier to use for strai
 | **Communication Challenges**                   | Miscommunication may arise if not managed well.         |
 | **Monitoring and Maintenance**                 | Requires ongoing attention to remain effective.         |
 
+
+## Best Practices
+
+| Best Practice                          | Description                                               |
+|----------------------------------------|-----------------------------------------------------------|
+| **Testing Environments**               | Maintain separate environments for development, testing, and production to validate changes.     |
+| **Documentation**                      | Keep documentation up-to-date with changes, including schema modifications and migration steps.  |
+| **Change Approval Workflows**          | Establish workflows for approving changes with input from multiple stakeholders.                 |
+| **Continuous Improvement**             | Regularly review and refine the release process based on feedback and lessons learned.         |
 
 
 ## Contact Information
