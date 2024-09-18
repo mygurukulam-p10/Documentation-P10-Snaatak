@@ -161,7 +161,8 @@ sudo apt-get install build-essential libpq-dev
 
 First, switch to the postgres user with sudo su postgres. Then, access the PostgreSQL prompt by typing psql and press Enter. No password is needed at this point. This starts the PostgreSQL interactive terminal where we can run SQL commands.
 
-![Screenshot from 2024-09-18 18-03-54](https://github.com/user-attachments/assets/20fb94a3-ef92-4a88-be4a-e1c5a8ada56a)
+![Uploading Screenshot from 2024-09-18 20-39-36.png…]()
+
 
 
 ```
