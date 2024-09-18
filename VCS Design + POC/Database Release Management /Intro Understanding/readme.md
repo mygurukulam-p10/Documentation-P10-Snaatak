@@ -31,7 +31,7 @@ Database release management is a critical aspect of software development that en
 |-----------------------|---------------------------------------------------------------------------------------------|
 | **Data Integrity**     | Ensures that database changes do not compromise data integrity or application performance.  |
 | **Collaboration**      | Facilitates collaboration among developers, DBAs, and operations teams, minimizing conflicts during deployment. |
-| **Rollback Capabilities** | Allows teams to quickly revert to previous versions if issues arise after deployment.     |
+|**Ensure Consistency**| Proper management ensures that all environments (development, testing, production) remain in sync.|
 | **Audit Trails**       | Maintains a history of changes for compliance and troubleshooting purposes.                 |
 | **Efficiency**         | Streamlines the process of managing changes, reducing deployment times and errors.         |
 
