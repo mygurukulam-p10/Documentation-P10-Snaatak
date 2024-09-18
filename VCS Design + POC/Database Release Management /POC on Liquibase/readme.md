@@ -8,7 +8,7 @@
 | Vinay Bansal | 11-09-24    | version 1  | Vinay Bansal     | 11-09-24       |
 
 ## Purpose
-Liquibase is a tool designed to help manage and automate database schema changes. Its primary purpose is to handle the version control of database changes, making it easier to track, apply, and revert modifications to a database schema over time.
+We are preparing this document so that we can easily install Liquibase and perform Rollback. Liquibase is a tool designed to help manage and automate database schema changes. Its primary purpose is to handle the version control of database changes, making it easier to track, apply, and revert modifications to a database schema over time.
 
 ## Table of Contents
 1. [Architecture](#architecture)
