@@ -115,4 +115,4 @@ For further reading and resources on GitOps, check out the following:
 | Links | Descriptions|
 |------|---------------------|
 | https://docs.liquibase.com | Liquibase Documentation |
-| https://alembic.sqlalchemy.org/en/latest/ | Alembic Documentation |
+| https://fastercapital.com/content/Versioning-for-Database-Systems--Handling-Schema-Evolutions.html | Database Management |
