@@ -11,10 +11,10 @@ VCS employs various methods to control repository access. This guide covers auth
 3. [Authentication Strategies in VCS](#authentication-strategies-in-vcs)
 4. [Comparison between VCS Authentication Strategies](#comparison-between-vcs-authentication-strategies)
 5. [Common Authentication Errors and Solutions](#common-authentication-errors-and-solutions)
-6. [Introduction](#introduction)
-7. [Introduction](#introduction)
-
-
+6. [Best Practices for VCS Authentication](#best-practices-for-vcs-authentication)
+7. [Conclusion](#conclusion)
+8. [Contact Information](#contact-information)
+9. [References](#references)
 
 
 ## Introduction
@@ -32,6 +32,7 @@ Version Control Systems (VCS) are essential tools for managing code changes and 
 | **Complies with regulations** | Adheres to industry standards |
 
 
+
 ## Authentication Strategies in VCS
 
 Git authentication has evolved from older methods like username/password (now deprecated) to more secure, modern options, including:-
@@ -41,6 +42,8 @@ Git authentication has evolved from older methods like username/password (now de
 **SSH Keys** - Secure key-based access.
 
 **Personal Access Tokens (PAT) -** Token-based login for HTTPS with customizable permissions.
+
+
 
 ## Comparison between VCS Authentication Strategies
 | **Method**                  | **Description**                    | **Security Level**           | **Use Case**            |
@@ -55,6 +58,31 @@ Git authentication has evolved from older methods like username/password (now de
 |-----------------------------------------|--------------------------------------|---------------------------------------------------|
 |   **Permission denied (publickey)**     |  SSH keys not correctly configured       |Ensure your public key is added to Git service.  |
 |**fatal: Authentication failed for...**  |Incorrect credentials or token expired    |         Update credentials or regenerate PAT.   |
+
+## Best Practices for VCS Authentication
+
+**SSH keys**
+
+|    Reason    |    Explaination    |
+|--------------|--------------------|
+| **Enhanced Security** | No password transmission over the network, reducing the risk of attacks. |
+| **Automation** | Can be used for automated tasks, eliminating the need for manual password entry. |
+| **Convenience** | Streamlines access to VCS repositories, saving time and effort. |
+| **Granular Control** | Allows for fine-grained permissions for different users or teams. |
+| **Integration with Other Tools** | Widely supported protocol, enabling seamless integration with various development tools. |
+
+## Conclusion
+
+Authentication in VCS ensures secure access to repositories using methods like SSH keys and Personal Access Tokens (PAT). With username/password authentication deprecated, modern methods like SSH and PATs offer stronger security. 
+
+### Contact Information
+For more information, feedback, or assistance, feel free to contact us:
+| Name                   | Email address          |
+|------------------------|------------------------|
+| Abhinav Singh          | abhinav.singh.snaatak@mygurukulam.co  |
+
+
+
 
 
 
