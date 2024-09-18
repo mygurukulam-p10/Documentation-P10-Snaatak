@@ -1,5 +1,5 @@
 # VCS Authorization Detailed Document
-
+![image](https://github.com/user-attachments/assets/30c3847f-047d-45c1-9a02-c76be5406941)
 
 VCS uses various strategies to manage repository access. This guide explains authorization methods in Git, their configuration, and best practices to secure permissions, ensuring only authorized users can modify your repositories.
 
@@ -76,4 +76,7 @@ For more information, feedback, or assistance, feel free to contact:
 
 | Links                                             | Descriptions                           |
 |---------------------------------------------------|----------------------------------------|
+| https://docs.gitlab.com/ee/user/permissions.html  | Permissions and Roles in Gitlab|
+| https://docs.github.com/en/get-started/learning-about-github/access-permissions-on-github | Access Permissions on Github |
+
 
