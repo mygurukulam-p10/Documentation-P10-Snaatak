@@ -78,9 +78,8 @@ Feature Branch Flow offers significant benefits for managing feature development
 
 | Link | Description |
 |------|-------------|
-| [Using Branches in Git](https://www.atlassian.com/git/tutorials/using-branches) | Comprehensive guide on using branches in Git, including feature branches |
-| [Understanding Git Flow](https://www.atlassian.com/git/tutorials/git-flow) | Detailed overview of Git Flow and its feature branch strategy |
-| [Feature Branch Workflow](https://www.gitkraken.com/learn/git/git-feature-branch-workflow) | Explanation of the feature branch workflow and its benefits |
+| [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) | Overview of the feature branch workflow, including best practices and common patterns |
+| [What Is a Feature Branch?](https://www.bunnyshell.com/blog/what-is-a-feature-branch/) | Introduction to feature branches, their purpose, and how they fit into development workflows |
 
 
 ## Contact Information
