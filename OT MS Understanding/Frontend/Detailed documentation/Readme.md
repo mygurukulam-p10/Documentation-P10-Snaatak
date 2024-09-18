@@ -91,10 +91,10 @@ PostgreSQL is the relational database used for storing attendance records in the
 | **Transactional Data** | PostgreSQL’s transactional capabilities make it ideal for tracking attendance, as every record needs to be stored accurately without data loss or corruption. Complex queries and reporting can also be efficiently handled, making it easier to generate attendance reports for analysis. |
 
 ### Conclusion
-The Employee REST API, built using Go, leverages various dependencies to ensure robust, scalable, and high-performance employee data management. Key dependencies like ScyllaDB provide efficient data storage, Redis enhances caching and quick data access, jq facilitates JSON manipulation, and Swagger UI offers clear, interactive API documentation. Together, these components work seamlessly to handle employee-related transactions effectively, providing a reliable solution within the OT-Microservices ecosystem.
+The OT-Microservices stack combines a ReactJS frontend with backend services using Redis for caching, ScyllaDB for NoSQL, and PostgreSQL for relational data. This ensures scalability, performance, and easy maintenance. The Employee, Salary, and Attendance APIs manage data efficiently, with Redis boosting response times. ScyllaDB and PostgreSQL ensure reliable data storage and retrieval. Together, they provide a high-performing system for managing employee operations seamlessly.
 
 ### Contact Information
-For more information, feedback, or assistance, feel free to contact us:
+For more information, feedback, or assistance, feel free to contact:
 | Name         | Email address                       |
 |--------------|-------------------------------------|
 | Abhinav Singh | abhinav.singh.snaatak@mygurukulam.co  |
