@@ -1,5 +1,7 @@
 # VCS Authentication Setup POC
 
+![image](https://github.com/user-attachments/assets/338a5d67-4fd9-4083-a9eb-5d2d8d830785)
+
 
 |  Author        | Created on |  Version  | Last updated by   |   Last edited on   |
 |----------------|------------|-----------|-------------------|--------------------|
@@ -7,32 +9,16 @@
 
 ## Table of Contents
 1. [Purpose](#purpose)
-2. [Authentication Overview](#authentication-overview)
+2. [System Prerequisites](#system-prerequisites)
 3. [System Prerequisites](#system-prerequisites)
-4. [Authentication Methods in Git](#authentication-methods-in-git)
-5. [Setting up Authentication](#setting-up-authentication)
-   * [Generating and Using SSH Keys](#generating-and-using-ssh-keys)
-   * [Using Personal Access Tokens (PAT)](#using-personal-access-tokens-pat)
-   * [Setting Up GPG for Signed Commits](#setting-up-gpg-for-signed-commits)
-6. [Common Authentication Errors and Solutions](#common-authentication-errors-and-solutions)
-7. [Best Practices for Secure Authentication](#best-practices-for-secure-authentication)
-8. [Conclusion](#conclusion)
-9. [Contact Information](#Contact-Information)
-10. [References](#References)
+4. [Step by Step Authentication Setup](#step-by-step-authentication-step)
+5. [Best Practices for Secure Authentication](#best-practices-for-secure-authentication)
+6. [Conclusion](#conclusion)
+7. [Contact Information](#Contact-Information)
+8. [References](#References)
+
 ## Purpose
 VCS employs various methods to control repository access. This guide covers authentication methods used in git, their setup, and security best practices. Ensure only authorized users can interact with your repositories.
-
-## Authentication Overview
-
-Git authentication has evolved from older methods like username/password (now deprecated) to more secure, modern options, including:-
-
-**SSH Keys** - Secure key-based access.
-
-**Personal Access Tokens (PAT)** - Token-based login for HTTPS with customizable permissions.
-
-**GPG Signing** - Verifies commit authenticity with digital signatures.
-![image](https://github.com/user-attachments/assets/d15dbc44-a9b0-45dd-8925-69e0cffa31b6)
-
 
 ## System-Prerequisites
 
@@ -50,9 +36,8 @@ Git authentication has evolved from older methods like username/password (now de
 | **Username and Password (Deprecated)** | Deprecated due to security risks. |   Low  |   Avoid using   |
 |    **SSH Key-Based Authentication**    | Secure key-pair system. |   High  | Recommended for personal and organizational repositories  |
 |   **Personal Access Tokens (PAT)**    |  Scoped tokens for HTTPS authentication. |  Medium to High  |   Required for HTTPS interactions.   |
-| **GPG Signing for Commit Verification** |   Verifies commit authenticity    |    High for Commit Integrity     | Ensures commit integrity, ideal for large projects.
 
-## Setting up Authentication
+## Step by Step Authentication Setup
 
 ### Generating and Using SSH Keys 
 
@@ -90,114 +75,20 @@ Copy SSH URL
 Now when you clone the repo it won't ask for password and will provide secure login with SSH.
 ![image](https://github.com/user-attachments/assets/692969dc-3dd5-4ad7-9d13-26fb8c2de287)
 
-
-## Using Personal Access Tokens (PAT)
-
-**Generate PAT** - Go to your Git service account settings and generate a new Personal Access Token with the required permissions.
-![image](https://github.com/user-attachments/assets/b591d8cf-78e8-4a46-96b1-2ee1f67f27e2)
-
-Choose Generate new token (Classic) and enter password when prompted.
-
-Then add a description for your token, define expiration time and select appropriate permissions in **select scopes** section and hit generate token.
-![image](https://github.com/user-attachments/assets/ae58e648-55d4-4165-af41-b835448c6dde)
-
-Copy and save newly generated token.
-![image](https://github.com/user-attachments/assets/e0d37cba-fbb4-43a7-8dad-c05041df7440)
-
-**Using PAT in Git Commands** -
-
-For Git operations over HTTPS, use the PAT as your password -
-```
-git clone https://github.com/user/repo.git
-```
-When prompted for a password, enter the generated token.
-![image](https://github.com/user-attachments/assets/66fa2ac4-526c-4c7f-9730-089a3df9c570)
-	
-### Setting Up GPG for Signed Commits
-
-**Install GPG**
-
-```
-sudo apt install gnupg
-```
-![image](https://github.com/user-attachments/assets/090718b9-770a-4fa5-810e-66bf7840aff9)
-
- 
-**Generate GPG Key**
-
-```
-gpg --full-generate-key
-```
-
-Choose appropriate options of your choice
-
-![image](https://github.com/user-attachments/assets/65051500-f613-477b-b6b4-278501c63790)
-
-**List your GPG keys**
-
-```
-gpg --list-secret-keys --keyid-format LONG
-```
-![image](https://github.com/user-attachments/assets/04053cdc-cb31-4a51-9ec0-a1cf09064c38)
-
-**Configure Git to Use GPG and enable automatic signing of all commits**
-
-```
-git config --global user.signingkey <GPG_KEY_ID>
-git config --global commit.gpgSign true
-```
-![image](https://github.com/user-attachments/assets/1e4f2655-d925-4956-a383-9a523d4df0a4)
-
-**Export your public GPG key  and Add Your GPG Key to GitHub**
-
-```
-gpg --armor --export <GPG_KEY_ID>
-```
-![image](https://github.com/user-attachments/assets/6b4edda5-4268-48c4-9703-481faf52affd)
-
-Copy the key and paste it in GPG key section in your Github account settings
-
-![image](https://github.com/user-attachments/assets/30a6a1f9-77e7-40c5-85d8-41e388d39b16)
-
-When you make a commit, Git will now automatically sign it with your GPG key. 
-You can verify that a commit is signed with below command
-
-```
-git log --show-signature
-```
-![image](https://github.com/user-attachments/assets/decaf2a1-53e7-44a4-bf14-750ab8a52629)
-	
-## Common Authentication Errors and Solutions
-
-|             **Error Message**           |           **Cause**                     |                 **Solution**                  |
-|-----------------------------------------|--------------------------------------|---------------------------------------------------|
-|   **Permission denied (publickey)**     |  SSH keys not correctly configured       |Ensure your public key is added to Git service.  |
-|**fatal: Authentication failed for...**  |Incorrect credentials or token expired    |         Update credentials or regenerate PAT.   |
-|   **gpg: no valid OpenPGP data found**  |  GPG key not properly configured        |Check the GPG key setup and configure correctly.  |
-
-## Best Practices for Secure Authentication
-
-| **Practice**                          | **Description**                                                                                                                                  |
-|---------------------------------------|---------------------|
-| **Use SSH Keys**   | Prioritize SSH keys for secure repository access                                                                            |
-| **Limit PAT Scope** | Restrict PATs to essential permissions and timeframes   |
-| **Rotate Credentials**  | Regularly update SSH keys and PATs                  |
-| **Sign Commits with GPG**             |  Employ GPG for commit verification in larger projects    |
-
 ## Conclusion
 
-Authentication in VCS ensures secure access to repositories using methods like SSH keys, Personal Access Tokens (PAT), and GPG commit signing. With username/password authentication deprecated, modern methods like SSH and PATs offer stronger security. 
+SSH authentication in VCS ensures secure access to repositories by using cryptographic keys instead of passwords. It offers stronger security, reducing the risk of credential exposure. As a best practice, SSH is preferred for its robust encryption and reliability in modern development workflows. 
 
 ### Contact Information
-For more information, feedback, or assistance, feel free to contact us:
+For more information, feedback, or assistance, feel free to contact:
 | Name                   | Email address          |
 |------------------------|------------------------|
 | Abhinav Singh          | abhinav.singh.snaatak@mygurukulam.co  |
 
 
 ### References
-| Links                                             | Descriptions                                                    |
-|---------------------------------------------------|-----------------------------------------------------------------|
-|[https://www.gitkraken.com/learn/git/tutorials/what-is-a-pull-request-in-git](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) |Personal Access Tokens |
-|[https://axolo.co/blog/p/part-1-what-are-github-pull-requests](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)| SSH key-based Authentication|
-|[https://opensource.com/article/19/7/create-pull-request-github](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account)|GPG key based Authentication   |
+| Links                                             | Descriptions                       |
+|---------------------------------------------------|------------------------------------|
+| [https://www.postgresql.org/docs/current/index.html](https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20%2B%20POC/VCS%20Authn%20%26%20Authz%20strategy/VCS%20Authentication%20Detailed%20Document/README.md) |VCS authentication Documentation |
+|https://www.w3schools.com/postgresql/| PostgreSQL Tutorial|
+| https://www.postgresqltutorial.com/|PostgreSQL Best Practices|
