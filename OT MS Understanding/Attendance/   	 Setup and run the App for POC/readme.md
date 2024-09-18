@@ -208,11 +208,16 @@ poetry shell
 
 ![Screenshot from 2024-09-17 20-25-03](https://github.com/user-attachments/assets/61caaea2-e821-4610-8325-d746922bca8f)
 
-Ensure config.yaml has PostgreSQL and Redis details, and liquibase.properties points to the correct PostgreSQL URL and credentials.
+Ensure config.yaml has PostgreSQL and Redis details.
 
-![Screenshot from 2024-09-17 13-50-22](https://github.com/user-attachments/assets/65eda832-a708-4517-81d3-72b9d22aa4b0)
+![Screenshot from 2024-09-18 18-18-35](https://github.com/user-attachments/assets/30ea69a4-3d50-4d0c-8655-33fc35da0ac9)
 
-![Screenshot from 2024-09-17 13-49-47](https://github.com/user-attachments/assets/ffd86cba-524c-4466-a5ba-1d797f438576)
+
+
+liquibase.properties points to the correct PostgreSQL URL and credentials.
+
+![Screenshot from 2024-09-18 18-20-03](https://github.com/user-attachments/assets/c67d4e3d-de80-40bb-ba45-4b66678081ab)
+
 
 
 ### Step 8 :- Run the below command to install all dependencies required in this project 
