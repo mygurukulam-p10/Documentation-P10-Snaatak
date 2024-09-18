@@ -1,5 +1,7 @@
 # GitOps Tools Evaluation
-![gitops](https://github.com/user-attachments/assets/791f74c2-ebbd-446e-802b-0fd6d1b6ae6c)
+
+![gitops](https://github.com/user-attachments/assets/a3fe5581-49a2-4915-8f09-42869ae6ba53)
+
 
   | Author        | Created on | Version | Last updated by | Last edited on |
   |-------------|---------|-------------|-------------|---------|
