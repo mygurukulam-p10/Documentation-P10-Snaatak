@@ -159,7 +159,7 @@ sudo apt-get install build-essential libpq-dev
 
 ### Step 4:- Create database for attendance app and setup password for postgres user
 
-First, switch to the postgres user with sudo su postgres. Then, access the PostgreSQL prompt by typing psql and press Enter. No password is needed at this point. This starts the PostgreSQL interactive terminal where you can run SQL commands.
+First, switch to the postgres user with sudo su postgres. Then, access the PostgreSQL prompt by typing psql and press Enter. No password is needed at this point. This starts the PostgreSQL interactive terminal where we can run SQL commands.
 
 ![Screenshot from 2024-09-18 18-03-54](https://github.com/user-attachments/assets/20fb94a3-ef92-4a88-be4a-e1c5a8ada56a)
 
