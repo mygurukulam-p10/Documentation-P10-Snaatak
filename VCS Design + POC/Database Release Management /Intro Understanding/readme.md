@@ -62,11 +62,14 @@ Here are some popular tools for managing database version control:
 
 | Feature                      | ![Liquibase](https://github.com/user-attachments/assets/9a36fac6-e9ee-4579-9807-84065ca345fe) | ![Flyway](https://github.com/user-attachments/assets/d98f1d01-be80-4b22-85ef-18eb2a8052de)  | ![Redgate SQL Source Control](https://github.com/user-attachments/assets/1b0328cb-f6c8-4151-a9f0-7229c87bb962) | ![Alembic](https://github.com/user-attachments/assets/ab82d360-d7b1-4d36-87e6-8678667d9239) | ![dbup](https://github.com/user-attachments/assets/6a7a0e9a-037d-44b3-a99c-b12b07afa33b) |
 |------------------------------|-----------|--------|----------------------------|---------|------|
-| **Supported Databases**      | Multiple   | Multiple | SQL Server                 | Multiple | SQL Server, PostgreSQL |
-| **Migration Types**          | XML, YAML, JSON, SQL | SQL, Java | SQL, SQL Server Management Studio | Python | C# |
-| **Rollback Support**         | Yes       | Yes    | Yes                        | Yes     | No   |
-| **Integration**              | CI/CD pipelines | Build tools | Source control systems | SQLAlchemy | .NET applications |
-| **Ease of Use**              | Moderate  | High   | High                       | Moderate | Moderate |
+| Feature                    | Liquibase                         | Flyway                            | Redgate SQL Source Control       | Alembic                        | DbUp                          |
+|----------------------------|-----------------------------------|-----------------------------------|----------------------------------|--------------------------------|-------------------------------|
+| **Rollback Support**       | Yes                               | Limited                           | No                               | Yes                            | No                            |
+| **SQL Dialects**           | Multiple                          | Multiple                          | SQL Server                       | SQLAlchemy supported dialects  | SQL Server and others        |
+| **File Format**            | XML, YAML, JSON                  | SQL, Java                         | SQL Scripts                      | Python scripts (migration files)| C# or SQL scripts            |
+| **Community Support**      | Large                             | Large                             | Commercial                       | Moderate                       | Growing                       |
+| **Integration**            | CI/CD tools, Spring              | Maven, Gradle, Ant               | Azure DevOps, GitHub             | SQLAlchemy                     | .NET applications             |
+| **Primary Use Case**       | Complex schema changes            | Simple migrations                 | Version control for DB scripts    | Flask, FastAPI apps           | .NET applications             |
 
 ## Recommendations
 While other tools like Flyway or DbUp may be simpler and easier to use for straightforward migrations, Liquibase shines in scenarios where flexibility, complexity, and detailed change management are crucial. It’s particularly beneficial for larger teams and projects with evolving requirements, making it a strong choice for many development environments. Ultimately, the best choice depends on your specific needs, team expertise, and project complexity.
