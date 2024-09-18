@@ -6,7 +6,7 @@
 
 
 ## Purpose
-The purpose of this document is to provide a comprehensive overview of the OT-Microservices stack architecture, focusing on its ReactJS-based frontend application and its integration with backend services like Employee, Salary, and Attendance APIs. This architecture is designed for scalability, performance, and ease of maintenance, using technologies like Redis for caching, ScyllaDB for NoSQL storage, and PostgreSQL for relational data. The document covers key components, data flow, and the overall interaction between the frontend and backend services. Additionally, it highlights build and deployment processes, caching mechanisms, and database interactions for seamless application performance.
+This document provides an overview of the OT-Microservices stack, focusing on the ReactJS-based frontend and its integration with backend services such as Employee, Salary, and Attendance APIs. The architecture is built for scalability, performance, and maintainability, leveraging Redis for caching, ScyllaDB for NoSQL, and PostgreSQL for relational data. It covers key components, data flow, and interactions between the frontend and backend, as well as build, deployment processes, and caching mechanisms to ensure smooth application performance.
 
 ## Table of Contents
 1. [Frontend Web](#frontend-web)
@@ -18,7 +18,7 @@ The purpose of this document is to provide a comprehensive overview of the OT-Mi
 7. [PostgreSQL](#postgressql)
 8. [Conclusion](#conclusion)
 9. [Contact Information](#contact-information)
-11. [References](#references)
+10. [References](#references)
 
 
 
@@ -97,12 +97,12 @@ The Employee REST API, built using Go, leverages various dependencies to ensure 
 For more information, feedback, or assistance, feel free to contact us:
 | Name         | Email address                       |
 |--------------|-------------------------------------|
-| Abhinav Singh  | abhinav.singh.snaatak@mygurukulam.co  |
+| Abhinav Singh | abhinav.singh.snaatak@mygurukulam.co  |
 
 ### References
 | Links | Descriptions|
 |-------|--------------|
-|(https://redis.io/documentation)|Redis Official Documentation|
-|(https://redis.com/blog/redis-beyond-caching/) | Redis: Beyond Simple Caching|
-|https://www.scylladb.com/|ScyllaDB Homepage Documentation|
-|https://stackoverflow.com/questions/tagged/scylla?tab=Newest|Stackoverflow|
+|https://tinyurl.com/4ty6y8uy|Frontend-POC|
+|https://tinyurl.com/2szurpat |Employee-API Detailed Document|
+|https://tinyurl.com/23ab3cw5|Salary-API Detailed Document|
+|https://tinyurl.com/pndn2fb9|Attendance-API Detailed Document|
