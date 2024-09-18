@@ -28,13 +28,6 @@ VCS employs various methods to control repository access. This guide covers auth
 |   **Git Service Account**     | GitHub, GitLab, or Bitbucket account |
 |   **Software Dependencies**   |      OpenSSH      |
 
-## Authentication Methods in Git
-| **Method**                  | **Description**                    | **Security Level**           | **Use Case**            |
-|-----------------------------|-----------------------------------|------------------------------|--------------------------|
-| **Username and Password (Deprecated)** | Deprecated due to security risks. |   Low  |   Avoid using   |
-|    **SSH Key-Based Authentication**    | Secure key-pair system. |   High  | Recommended for personal and organizational repositories  |
-|   **Personal Access Tokens (PAT)**    |  Scoped tokens for HTTPS authentication. |  Medium to High  |   Required for HTTPS interactions.   |
-
 ## Best Practices for Secure Authentication
 
 | **Practice**                          | **Description**    |
