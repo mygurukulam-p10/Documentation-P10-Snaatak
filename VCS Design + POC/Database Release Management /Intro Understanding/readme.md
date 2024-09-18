@@ -78,24 +78,24 @@ For general use, **Flyway** and **Liquibase** are highly recommended. Flyway is 
 
 
 # Advantages and Disadvantages
-
 ## Advantages
 
-| Advantage                    | Description                                                                                           |
-|------------------------------|-------------------------------------------------------------------------------------------------------|
-| Efficient Data Management    | They use structured formats and indexing to quickly access information. |
-| Data Integrity and Accuracy  | Enforce rules and constraints (e.g., primary keys, foreign keys) to ensure data accuracy and consistency. |
-| Improved Security            | Advanced security features, such as user authentication and authorization, help protect data from unauthorized access. |
-| Data Backup and Recovery     | Regular backups and recovery mechanisms ensure that data can be restored in case of corruption or loss. |
+| Advantage                                      | Description                                             |
+|------------------------------------------------|---------------------------------------------------------|
+| **Version Control**                            | Tracks changes, allowing for easy reversion.           |
+| **Compliance and Auditing**                    | Provides clear records for regulations and audits.      |
+| **Automation**                                 | Many tools enable automated deployments, reducing errors. |
+| **Rollback Procedures**                        | Simplifies reverting changes if issues occur.           |
 
 ## Disadvantages
 
-| Disadvantage                 | Description                                                                                           |
-|------------------------------|-------------------------------------------------------------------------------------------------------|
-| Complexity                   | Designing, implementing, and managing a database system can be complex and requires specialized knowledge. |
-| Cost                         | High-performance databases can be expensive to purchase, license, and maintain. Costs also include training staff and managing infrastructure. |
-| Security Risks               | Databases are targets for cyberattacks. Ensuring proper security measures are in place is crucial. |
-| Data Migration Challenges    | Migrating data from one database system to another can be challenging and may require careful planning and execution. |
+| Disadvantage                                   | Description                                             |
+|------------------------------------------------|---------------------------------------------------------|
+| **Complexity**                                 | Can become complex with large databases and dependencies. |
+| **Learning Curve**                             | Team members may need training on tools and processes.  |
+| **Communication Challenges**                   | Miscommunication may arise if not managed well.         |
+| **Monitoring and Maintenance**                 | Requires ongoing attention to remain effective.         |
+
 
 
 ## Contact Information
