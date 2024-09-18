@@ -37,7 +37,8 @@ Version Control Systems (VCS) are essential tools for managing and tracking chan
 
 Effective notifications improve collaboration, ensure timely responses to issues, and maintain project integrity.
 
-![n1](https://github.com/user-attachments/assets/02e738ea-d6e4-487f-961e-4da014b64dd3)
+![n1](https://github.com/user-attachments/assets/de5b23be-fcd5-4670-a480-e4f7522dd4c7)
+
 
 ## Types of VCS Notifications
 
