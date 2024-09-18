@@ -1,6 +1,7 @@
 # Understanding GitOps: A Comprehensive Guide
 
-![gitops](https://github.com/user-attachments/assets/791f74c2-ebbd-446e-802b-0fd6d1b6ae6c)
+![gitops](https://github.com/user-attachments/assets/8eb01d4d-b625-4c44-977c-9148800ee17f)
+
 
   | Author        | Created on | Version | Last updated by | Last edited on |
   |-------------|---------|-------------|-------------|---------|
