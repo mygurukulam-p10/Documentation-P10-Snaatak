@@ -121,10 +121,6 @@ curl -sSL https://install.python-poetry.org | python3 -
 export PATH="$HOME/.local/bin:$PATH"
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
 
-# Install pip for Python 3.11
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python3.11 get-pip.py
-rm get-pip.py
 
 # Verify installations
 echo "Verifying installations..."
