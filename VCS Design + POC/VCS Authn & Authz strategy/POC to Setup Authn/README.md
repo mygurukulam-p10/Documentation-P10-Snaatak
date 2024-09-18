@@ -28,13 +28,6 @@ VCS employs various methods to control repository access. This guide covers auth
 |   **Git Service Account**     | GitHub, GitLab, or Bitbucket account |
 |   **Software Dependencies**   |      OpenSSH      |
 
-## Best Practices for Secure Authentication
-
-| **Practice**                          | **Description**    |
-|---------------------------------------|---------------------|
-| **Use SSH Keys**   | Prioritize SSH keys for secure repository access                                                                            |
-| **Limit PAT Scope** | Restrict PATs to essential permissions and timeframes   |
-| **Rotate Credentials**  | Regularly update SSH keys and PATs                  |
 
 ## Step by Step Authentication Setup
 
@@ -73,6 +66,14 @@ Copy SSH URL
 
 Now when you clone the repo it won't ask for password and will provide secure login with SSH.
 ![image](https://github.com/user-attachments/assets/692969dc-3dd5-4ad7-9d13-26fb8c2de287)
+
+## Best Practices for Secure Authentication
+
+| **Practice**                          | **Description**    |
+|---------------------------------------|---------------------|
+| **Use SSH Keys**   | Prioritize SSH keys for secure repository access                                                                            |
+| **Limit PAT Scope** | Restrict PATs to essential permissions and timeframes   |
+| **Rotate Credentials**  | Regularly update SSH keys and PATs                  |
 
 ## Conclusion
 
