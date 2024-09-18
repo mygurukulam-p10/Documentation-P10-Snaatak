@@ -57,7 +57,7 @@ Before setting up VCS notifications, ensure you have the following:
 -	In the settings menu, find and select “Email Notifications.”
 #### 2.	In Address Section:
 - Write Email you want to get notification
-#### 4.	Click on Setup Notification:
+#### 3.	Click on Setup Notification:
 -	You see Active means it is done.
 # ![c2](https://github.com/user-attachments/assets/ff122e4e-9849-43ea-ad7d-b94d05ad7bd0)
 ![c3](https://github.com/user-attachments/assets/62b2dfea-585a-43bf-b6a3-f6cfb55d4a5a)
