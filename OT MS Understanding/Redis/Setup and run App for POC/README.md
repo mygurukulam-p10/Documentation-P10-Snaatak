@@ -163,7 +163,7 @@ AUTH redos-101
 1. Create a user with all permissions:
 
 ```
-ACL SETUSER scylla on >redos-101 ~* +@all
+ACL SETUSER <user_name> on ><<set_password>> ~* +@all [ACL SETUSER scylla on >redos-101 ~* +@all]
 ```
 **Note :-** I am using ```scylla``` as a ```username``` because in my application I have to access database with more security.
 
