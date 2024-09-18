@@ -11,8 +11,8 @@
 1. [Purpose](#purpose)
 2. [System Prerequisites](#system-prerequisites)
 3. [System Prerequisites](#system-prerequisites)
-4. [Step by Step Authentication Setup](#step-by-step-authentication-step)
-5. [Best Practices for Secure Authentication](#best-practices-for-secure-authentication)
+4. [Best Practices for Secure Authentication](#best-practices-for-secure-authentication)
+4. [Step by Step Authentication Setup](#step-by-step-authentication-setup)
 6. [Conclusion](#conclusion)
 7. [Contact Information](#Contact-Information)
 8. [References](#References)
@@ -36,6 +36,14 @@ VCS employs various methods to control repository access. This guide covers auth
 | **Username and Password (Deprecated)** | Deprecated due to security risks. |   Low  |   Avoid using   |
 |    **SSH Key-Based Authentication**    | Secure key-pair system. |   High  | Recommended for personal and organizational repositories  |
 |   **Personal Access Tokens (PAT)**    |  Scoped tokens for HTTPS authentication. |  Medium to High  |   Required for HTTPS interactions.   |
+
+## Best Practices for Secure Authentication
+
+| **Practice**                          | **Description**    |
+|---------------------------------------|---------------------|
+| **Use SSH Keys**   | Prioritize SSH keys for secure repository access                                                                            |
+| **Limit PAT Scope** | Restrict PATs to essential permissions and timeframes   |
+| **Rotate Credentials**  | Regularly update SSH keys and PATs                  |
 
 ## Step by Step Authentication Setup
 
@@ -90,5 +98,3 @@ For more information, feedback, or assistance, feel free to contact:
 | Links                                             | Descriptions                       |
 |---------------------------------------------------|------------------------------------|
 | https://tinyurl.com/52k4x9f5 |VCS authentication Documentation |
-|https://www.w3schools.com/postgresql/| PostgreSQL Tutorial|
-| https://www.postgresqltutorial.com/|PostgreSQL Best Practices|
