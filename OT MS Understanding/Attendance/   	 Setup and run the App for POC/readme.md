@@ -157,8 +157,28 @@ echo "All installations completed successfully!"
 sudo apt-get install build-essential libpq-dev
 ```
 
+### Step 4:- Create database for attendance app and setup password for postgres user
+```
+Create database attendence_db;
 
-### Step 4 :- Go to Attendance Repository and run command poetry shell to create virtual env 
+```
+```
+ALTER USER postgres WITH PASSWORD 'arsenal1234';
+```
+
+
+### Step 5: - Update pg_hba.conf
+The pg_hba.conf file controls client authentication and is where you specify the authentication method for different users and connections.
+
+Locate the pg_hba.conf file: The location of this file may vary depending on installation. Common locations are /etc/postgresql/15/main/pg_hba.conf
+Edit the pg_hba.conf file:
+
+Change the authentication method for the postgres user from peer to md5. This will require the postgres user to authenticate using a password hashed with the MD5 method, rather than the peer method which uses the operating system user for authentication.
+
+![Screenshot from 2024-09-16 16-41-41](https://github.com/user-attachments/assets/238c9e35-fd61-403a-8c7a-afef0cc0b842)
+
+
+### Step 6 :- Go to Attendance Repository and run command poetry shell to create virtual env 
 
 ![Screenshot from 2024-09-17 20-24-43](https://github.com/user-attachments/assets/24486a8a-f2f1-4554-8c2e-9c1008bb140a)
 
@@ -174,27 +194,6 @@ poetry shell
 ```
 
 ![Screenshot from 2024-09-16 23-28-06](https://github.com/user-attachments/assets/cf51617e-f466-4543-9f95-ea1dfeb1530e)
-
-
-### Step 5:- Create database for attendance app and setup password for postgres user
-```
-Create database attendence_db;
-
-```
-```
-ALTER USER postgres WITH PASSWORD 'arsenal1234';
-```
-
-
-### Step 6: - Update pg_hba.conf
-The pg_hba.conf file controls client authentication and is where you specify the authentication method for different users and connections.
-
-Locate the pg_hba.conf file: The location of this file may vary depending on installation. Common locations are /etc/postgresql/15/main/pg_hba.conf
-Edit the pg_hba.conf file:
-
-Change the authentication method for the postgres user from peer to md5. This will require the postgres user to authenticate using a password hashed with the MD5 method, rather than the peer method which uses the operating system user for authentication.
-
-![Screenshot from 2024-09-16 16-41-41](https://github.com/user-attachments/assets/238c9e35-fd61-403a-8c7a-afef0cc0b842)
 
 
 ### Step 7: - Update config.yaml and liquibase.properties
