@@ -1,10 +1,14 @@
-# VCS Authentication Detailed Documentation
+# VCS Authentication Detailed Document
 
-This document provides an overview of PostgreSQL databases, including key concepts, functionalities, and practices for creating and managing a PostgreSQL Database.
+![image](https://github.com/user-attachments/assets/1fdad1cd-94a6-4fb9-927b-64e069af80ab)
+
+
+VCS employs various methods to control repository access. This guide covers authentication methods used in git, their setup, and security best practices. Ensure only authorized users can interact with your repositories.
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Common VCS Authentication Methods](#common-vcs-authentication-methods)
+2. [Why we need authentication](#why-we-need-authentication)
+3. [Common VCS Authentication Strategies](#common-vcs-authentication-strategies)
 
 
 
@@ -14,11 +18,15 @@ This document provides an overview of PostgreSQL databases, including key concep
 
 Version Control Systems (VCS) are essential tools for managing code changes and collaboration in software development projects. They track changes to files over time, allowing developers to work together efficiently and effectively.To ensure secure access and control over repositories, VCS platforms often implement various authentication mechanisms.
 
-### Common VCS Authentication Methods
+### Why we need authentication
 
-|      Method                |     Mechanism    |       Pros         |     Cons    |
-|----------------------------|------------------|--------------------|-------------|
-| **Username and Password** | Users provide username and password | Simple setup, familiar to users | Less secure, risk of password theft |
-|     **SSH Keys** | Generate public-private key pair | Secure, no password transmission | Complex setup, requires key management |
-| **Personal Access Tokens (PATs)**| Generate unique token for API access. | Convenient for automation, no credential sharing | Less secure if not managed well |
-| **GPG Signing for Commit Verification** | Use GPG to digitally sign commits. | Ensures commit authenticity, prevents tampering | Requires GPG setup and key management |
+
+## Common VCS Authentication Srategies
+| **Method**                  | **Description**                    | **Security Level**           | **Use Case**            |
+|-----------------------------|-----------------------------------|------------------------------|--------------------------|
+| **Username and Password (Deprecated)** | Deprecated due to security risks. |   Low  |   Avoid using   |
+|    **SSH Key-Based Authentication**    | Secure key-pair system. |   High  | Recommended for personal and organizational repositories  |
+|   **Personal Access Tokens (PAT)**    |  Scoped tokens for HTTPS authentication. |  Medium to High  |   Required for HTTPS interactions.   |
+
+
+
