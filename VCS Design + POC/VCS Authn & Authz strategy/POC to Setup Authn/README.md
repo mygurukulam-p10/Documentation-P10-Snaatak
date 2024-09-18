@@ -26,9 +26,8 @@ VCS employs various methods to control repository access. This guide covers auth
 |-------------------------------|--------------------------------------|
 |            **OS**             |                Ubuntu                |
 |        **Git Version**        |            2.28 or higher            |
-|            **GPG**            |       Installed for commit signing   |
 |   **Git Service Account**     | GitHub, GitLab, or Bitbucket account |
-|   **Software Dependencies**   |      OpenSSH, GPG (for signing)      |
+|   **Software Dependencies**   |      OpenSSH      |
 
 ## Authentication Methods in Git
 | **Method**                  | **Description**                    | **Security Level**           | **Use Case**            |
