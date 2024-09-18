@@ -24,7 +24,7 @@ Front-end development focuses on the part of a web application that users see an
 Pre-Requisites
 The frontend application have dependencies on other REST API of OT-Microservices.
 
-![Atl text](https://github.com/OT-MICROSERVICES/frontend/raw/main/static/frontend.png)
+#image
 
 To run the application successfully, These things should be configured
 For Refrence Links Below
@@ -39,7 +39,7 @@ For Refrence Links Below
 #### 1 .Employee-API
 The Employee REST API is a Go-based microservice that manages all employee-related transactions within the OT-Microservices stack. It is fully platform-independent, meaning it can run on any type of operating system or platform.
 
-![Alt text](https://github.com/OT-MICROSERVICES/employee-api/raw/main/static/employee.png)
+#image
 Create this same as above.
 Pre-Requisites
 For running the application, we need following things configured:
@@ -52,7 +52,7 @@ For Refrence Links Below
 #### 2. The Salary API
 The Salary API is a Java-based microservice that handles all salary-related transactions and records within the OT-Microservices stack. It is platform-independent, meaning it can run on various operating systems. However, to run this application, a Java Runtime Environment (JRE) is required.
 
-![Atl text](https://github.com/OT-MICROSERVICES/salary-api/blob/main/static/salary.png?raw=true)
+#image
 We only need maven as build tool, but for running the application following things are required
 For Refrence Link are below 
 * [Documentation](https://github.com/mygurukulam-p10/Documention/blob/main/OT%20MS%20Understanding/Salary/Detailed%20Document/README.md)
@@ -63,14 +63,11 @@ For Refrence Link are below
 
 #### 3 .The Attendance api
 The Attendance REST API is a Python-based microservice that manages all attendance-related transactions within the OT-Microservices stack. This application is cross-platform, meaning it can run on different operating systems. The only requirement to run it is the Python runtime environment.
-To run the application successfully,
-we need these things configured
-
-Supported features of the application are:-
+#image
+To run the application successfully, we need these things configured
 
 PostgresSQL as a primary database for storing all the attendance records
 Redis as cache management middleware for storing all API response
-![Atl text](https://github.com/OT-MICROSERVICES/attendance-api/raw/main/static/attendance.png)
 Below Have Refrence Links in detail
 * [Documentation](https://github.com/mygurukulam-p10/Documention/blob/main/OT%20MS%20Understanding/Attendance/Detailed%20Document/README.md) 
 * [POC](https://github.com/mygurukulam-p10/Documention/blob/main/OT%20MS%20Understanding/Attendance/%20%20%20%09%20Setup%20and%20run%20the%20App%20for%20POC/readme.md) 
