@@ -5,7 +5,7 @@
   | Aayush Gaur | 15-09-24 | 2 | Aayush Gaur | 17-09-24 |
 
 ## Table of Contents
-- [Introduction](#-introduction)
+[Introduction](#-introduction)
 - [Why DevOps Repositories](#-why-devops-repositories)
 - [Types of DevOps Repositories](#-types-of-devops-repositories)
 - [Features of DevOps Repositories](#-features-of-devops-repositories)
