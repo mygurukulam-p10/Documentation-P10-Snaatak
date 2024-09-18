@@ -6,6 +6,7 @@
 
 
 ### full stack image
+![image](https://github.com/user-attachments/assets/8a3c6bfe-2846-4ba2-9dcb-d8935a3ef2e8)
 
 ## Introduction
 
