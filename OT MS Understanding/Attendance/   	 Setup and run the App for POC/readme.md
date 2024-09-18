@@ -164,6 +164,7 @@ First, switch to the postgres user with sudo su postgres. Then, access the Postg
 ![Screenshot from 2024-09-18 20-39-36](https://github.com/user-attachments/assets/a2709e49-33be-4067-93ab-c134a2fdfd71)
 
 
+![Screenshot from 2024-09-18 20-41-36](https://github.com/user-attachments/assets/f917a56e-6b0b-4a35-807c-eeb21a6021f8)
 
 
 ```
