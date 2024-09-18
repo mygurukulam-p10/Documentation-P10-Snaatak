@@ -24,7 +24,7 @@ This document outlines the importance of database release management, the need f
 11. [References](#references)
    
 ## Introduction
-Database release management is a critical aspect of software development that ensures the integrity and stability of database changes throughout the software lifecycle. 
+Database release management is a critical aspect of software development that ensures the integrity and stability of database changes throughout the software lifecycle. This process aims to make the deployment of database changes more reliable and repeatable, ultimately enhancing overall software quality and performance.
 
 ## Why Database Release Management?
 
