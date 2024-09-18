@@ -10,12 +10,11 @@
 ## Table of Contents
 1. [Purpose](#purpose)
 2. [System Prerequisites](#system-prerequisites)
-3. [System Prerequisites](#system-prerequisites)
+3. [Step by Step Authentication Setup](#step-by-step-authentication-setup)
 4. [Best Practices for Secure Authentication](#best-practices-for-secure-authentication)
-4. [Step by Step Authentication Setup](#step-by-step-authentication-setup)
-6. [Conclusion](#conclusion)
-7. [Contact Information](#Contact-Information)
-8. [References](#References)
+5. [Conclusion](#conclusion)
+6. [Contact Information](#Contact-Information)
+7. [References](#References)
 
 ## Purpose
 VCS employs various methods to control repository access. This guide covers authentication methods used in git, their setup, and security best practices. Ensure only authorized users can interact with your repositories.
