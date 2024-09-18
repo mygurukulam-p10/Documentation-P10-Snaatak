@@ -78,11 +78,10 @@ Feature Branch Flow offers significant benefits for managing feature development
 
 | Link | Description |
 |------|-------------|
-| [A successful Git branching model](https://nvie.com/posts/a-successful-git-branching-model/) | Detailed explanation of Git branching strategies |
-| [GitHub Flow](https://guides.github.com/introduction/flow/) | Overview of GitHub's workflow |
-| [GitLab Flow](https://about.gitlab.com/topics/version-control/what-is-gitlab-flow/) | GitLab's approach to version control |
-| [Trunk Based Development](https://trunkbaseddevelopment.com/) | Alternative development workflow |
-| [Feature Toggles](https://martinfowler.com/articles/feature-toggles.html) | Using feature flags in development |
+| [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/using-branches/feature-branches) | Guide to using feature branches in Git, including best practices and workflows |
+| [Git Feature Branches](https://www.gitflow.com/) | Overview of Git Flow and its feature branch model |
+| [The Git Feature Branch Workflow](https://www.gitkraken.com/learn/git/git-feature-branch-workflow) | Explanation of the feature branch workflow and its benefits |
+
 
 ## Contact Information
 | Name | Email Address |
