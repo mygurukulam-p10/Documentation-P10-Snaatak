@@ -1,4 +1,4 @@
-# Features of Version Control Systems (VCS)    <img width="62" alt="image" src="https://github.com/user-attachments/assets/378b4036-4208-4d25-8eb6-619390315481">  
+# Features of Version Control Systems (VCS) 
 
  
  | Author        | Created on | Version | Last updated by | Last edited on |
