@@ -209,13 +209,14 @@ poetry shell
 
 ![Screenshot from 2024-09-17 20-25-03](https://github.com/user-attachments/assets/61caaea2-e821-4610-8325-d746922bca8f)
 
-Ensure config.yaml has PostgreSQL and Redis details because we will using config.yaml to connect our application with database and redis
+Ensure config.yaml has PostgreSQL and Redis details because we will be  using config.yaml to connect our application with database and redis
 
 ![Screenshot from 2024-09-18 18-18-35](https://github.com/user-attachments/assets/30ea69a4-3d50-4d0c-8655-33fc35da0ac9)
 
 
 
-liquibase.properties points to the correct PostgreSQL URL and credentials.
+
+The liquibase.properties file is used to configure Liquibase, a database schema change management tool, allowing us to manage version-controlled database changes.
 
 ![Screenshot from 2024-09-18 18-20-03](https://github.com/user-attachments/assets/c67d4e3d-de80-40bb-ba45-4b66678081ab)
 
