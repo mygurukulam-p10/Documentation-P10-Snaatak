@@ -158,14 +158,22 @@ sudo apt-get install build-essential libpq-dev
 ```
 
 ### Step 4:- Create database for attendance app and setup password for postgres user
+
+
+![Screenshot from 2024-09-18 18-03-54](https://github.com/user-attachments/assets/20fb94a3-ef92-4a88-be4a-e1c5a8ada56a)
+
+
 ```
 Create database attendence_db;
 
 ```
+![Screenshot from 2024-09-18 18-06-29](https://github.com/user-attachments/assets/8e1a4173-9a62-4d32-95c7-d0fbc9486cbc)
+
 ```
 ALTER USER postgres WITH PASSWORD 'arsenal1234';
 ```
 
+![Screenshot from 2024-09-18 18-07-50](https://github.com/user-attachments/assets/dc4980d5-c97f-4196-a052-4bf76663fdb7)
 
 ### Step 5: - Update pg_hba.conf
 The pg_hba.conf file controls client authentication and is where you specify the authentication method for different users and connections.
