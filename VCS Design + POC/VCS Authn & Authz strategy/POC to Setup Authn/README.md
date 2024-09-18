@@ -89,6 +89,6 @@ For more information, feedback, or assistance, feel free to contact:
 ### References
 | Links                                             | Descriptions                       |
 |---------------------------------------------------|------------------------------------|
-| [https://www.postgresql.org/docs/current/index.html](https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20%2B%20POC/VCS%20Authn%20%26%20Authz%20strategy/VCS%20Authentication%20Detailed%20Document/README.md) |VCS authentication Documentation |
+| https://tinyurl.com/52k4x9f5 |VCS authentication Documentation |
 |https://www.w3schools.com/postgresql/| PostgreSQL Tutorial|
 | https://www.postgresqltutorial.com/|PostgreSQL Best Practices|
