@@ -2,7 +2,7 @@
 
 | Author        | Created on | Version | Last updated by | Last edited on |
   |-------------|---------|-------------|-------------|---------|
-  | Aayush Gaur | 15-09-24 | 1 | Aayush Gaur | 17-09-24 |
+  | Aayush Gaur | 15-09-24 | 2 | Aayush Gaur | 17-09-24 |
 
 ## Table of Contents
 - [Introduction](#-introduction)
