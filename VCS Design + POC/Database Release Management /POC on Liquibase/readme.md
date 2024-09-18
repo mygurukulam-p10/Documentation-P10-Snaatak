@@ -154,7 +154,8 @@ By this we can see is rollback is successful or not
 ![liquibase r1](https://github.com/user-attachments/assets/b876e2a4-6e9d-4fa9-957b-ba7a962cd6f7)
 
 ![liquibase r4](https://github.com/user-attachments/assets/a55cbd6f-d189-4650-a02d-580c0bf9caf0)
-![liquibase r5](https://github.com/user-attachments/assets/f8eae649-799f-4d3a-87db-e6f7b3a6d2f7)
+![liquibase r5](https://github.com/user-attachments/assets/328b7680-6e6c-4608-9083-09a5ec5de127)
+
 
 
 ## 2. **Rolling Back by Count**
