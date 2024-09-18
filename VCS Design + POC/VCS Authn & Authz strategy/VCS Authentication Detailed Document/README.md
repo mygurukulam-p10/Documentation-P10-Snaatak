@@ -8,17 +8,28 @@ VCS employs various methods to control repository access. This guide covers auth
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Why we need authentication](#why-we-need-authentication)
-3. [Common VCS Authentication Strategies](#common-vcs-authentication-strategies)
+3. [Authentication Strategies in VCS](#authentication-strategies-in-vcs)
+4. [Comparison between VCS Authentication Strategies](#comparison-between-vcs-authentication-strategies)
+5. [Common Authentication Errors and Solutions](#common-authentication-errors-and-solutions)
+6. [Introduction](#introduction)
+7. [Introduction](#introduction)
 
 
 
 
-
-### Introduction
+## Introduction
 
 Version Control Systems (VCS) are essential tools for managing code changes and collaboration in software development projects. They track changes to files over time, allowing developers to work together efficiently and effectively.To ensure secure access and control over repositories, VCS platforms often implement various authentication mechanisms.
 
-### Why we need authentication
+## Why we need authentication
+
+|    Reason    |    Explaination    |
+|--------------|--------------------|
+| **Prevents unauthorized access** | Restricts access to authorized users |
+| **Maintains code integrity** | Prevents accidental or malicious changes |
+| **Tracks changes** | Identifies who made specific changes
+| **Protects sensitive information** | Safeguards sensitive data |
+| **Complies with regulations** | Adheres to industry standards |
 
 
 ## Authentication Strategies in VCS
@@ -31,7 +42,7 @@ Git authentication has evolved from older methods like username/password (now de
 
 **Personal Access Tokens (PAT) -** Token-based login for HTTPS with customizable permissions.
 
-## Comparison between VCS Authentication Srategies
+## Comparison between VCS Authentication Strategies
 | **Method**                  | **Description**                    | **Security Level**           | **Use Case**            |
 |-----------------------------|-----------------------------------|------------------------------|--------------------------|
 | **Username and Password (Deprecated)** | Deprecated due to security risks. |   Low  |   Avoid using   |
