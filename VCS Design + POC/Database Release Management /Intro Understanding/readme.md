@@ -70,11 +70,12 @@ For general use, **Flyway** and **Liquibase** are highly recommended. Flyway is 
 
 ## Best Practices
 
-| **Practice**                 | **Description**                                                                                              |
-|------------------------------|--------------------------------------------------------------------------------------------------------------|
-| **Automate Migrations**      | Integrate database migrations into your CI/CD pipeline for automated deployments. This ensures that migrations are applied consistently across all environments and helps to streamline the deployment process. |
-| **Regular Backups**          | Ensure regular backups are in place to prevent data loss. Implement automated backup procedures and regularly verify that backups are complete and restorable. |
-| **Consistent Naming Conventions** | Use consistent naming conventions for schema objects to enhance readability and maintenance. Standardize naming for tables, columns, indexes, and constraints to avoid confusion and improve code clarity. |
+| Best Practice                          | Description                                               |
+|----------------------------------------|-----------------------------------------------------------|
+| **Testing Environments**               | Maintain separate environments for development, testing, and production to validate changes.     |
+| **Documentation**                      | Keep documentation up-to-date with changes, including schema modifications and migration steps.  |
+| **Change Approval Workflows**          | Establish workflows for approving changes with input from multiple stakeholders.                 |
+| **Continuous Improvement**             | Regularly review and refine the release process based on feedback and lessons learned.         |
 
 
 # Advantages and Disadvantages
