@@ -8,21 +8,35 @@ This README provides an overview of the technology stack used in our Attendance 
 
 ## Table of Contents
 1. [Purpose](#1-purpose)
-2. [PostgreSQL](#2-postgresql)
-3. [Redis](#3-redis)
-4. [Liquibase](#4-liquibase)
-5. [Poetry](#5-poetry)
-6. [Swagger UI](#6-swagger-ui)
-7. [Flow Diagram of Attendance API](#7-flow-diagram-of-attendance-api) 
-7. [Conclusion](#8-conclusion)
-8. [Reference](#9-reference)
-9. [Contact](#10-contact)
+2. [Flow Diagram of Attendance API](#2-flow-diagram-of-attendance-api)
+3. [PostgreSQL](#3-postgresql)
+4. [Redis](#4-redis)
+5. [Liquibase](#5-liquibase)
+6. [Poetry](#6-poetry)
+7. [Swagger UI](#7-swagger-ui)  
+8. [Conclusion](#8-conclusion)
+9. [Reference](#9-reference)
+10. [Contact](#10-contact)
 
 
 ## 1. Purpose
 We are preparing this document so that you can get the detailed information about **Attendance Microservices** which is designed in Python to manage Attendance information.
 
-## 2. PostgreSQL
+### 2. Flow Diagram of Attendance API 
+
+![image](https://github.com/user-attachments/assets/34a83dd4-e4bb-47d8-ad27-0cca8d2ed4fd)
+
+| Step                    | Description                                                                                       |
+|-------------------------|---------------------------------------------------------------------------------------------------|
+| **User Interaction**     | The user sends an HTTP request to the **Frontend Web** interface.                                  |
+| **Frontend Processing**  | The **Frontend Web** communicates with the **Attendance API** to retrieve or process attendance data. |
+| **Redis Caching**        | The **Attendance API** interacts with **Redis** to handle caching for quick data retrieval, optimizing performance. |
+| **Database Persistence** | **PostgreSQL** is used as the primary database where the attendance records are stored permanently. |
+| **Response**             | After processing, the **Frontend Web** sends the response back to the user with the required information. |
+
+**Note**: This flow optimizes performance by utilizing Redis as a caching layer before accessing the main PostgreSQL database.
+
+## 3. PostgreSQL
 
 ### Features:
 - ACID-compliant relational database management system
@@ -35,7 +49,7 @@ We are preparing this document so that you can get the detailed information abou
 ### Relevant Resources:
 - [PostgreSQL Official Documentation](https://github.com/mygurukulam-p10/Documention/tree/main/OT%20MS%20Understanding/PostgreSQL)
 
-## 3. Redis
+## 4. Redis
 
 ### Features:
 - In-memory data structure store
@@ -47,7 +61,7 @@ We are preparing this document so that you can get the detailed information abou
 ### Relevant Resources:
 - [Redis Official Documentation](https://github.com/mygurukulam-p10/Documention/tree/main/OT%20MS%20Understanding/Redis)
 
-## 4. Liquibase
+## 5. Liquibase
 
 ### Features:
 - Database-independent library for tracking, managing, and applying database schema changes
@@ -69,7 +83,7 @@ We are preparing this document so that you can get the detailed information abou
 - [Getting Started with Liquibase: A Beginner's Guide](https://www.liquibase.org/get-started/quickstart)
 - [Comparing Database Migration Tools: Liquibase vs Flyway](https://www.red-gate.com/blog/database-devops/liquibase-and-flyway-comparison)
 
-## 5. Poetry
+## 6. Poetry
 
 ### Features:
 - Dependency management and packaging tool for Python
@@ -91,7 +105,7 @@ We are preparing this document so that you can get the detailed information abou
 - [Poetry vs Pipenv: Choosing the Right Python Dependency Management Tool](https://testdriven.io/blog/python-dependency-management/)
 
 
-## 6. Swagger UI
+## 7. Swagger UI
 
 ### Features:
 - Interactive API documentation and testing tool
@@ -113,21 +127,6 @@ We are preparing this document so that you can get the detailed information abou
 - [Best Practices for Using Swagger UI](https://swagger.io/resources/articles/best-practices-in-api-documentation/)
 
 
-### 7. Flow Diagram of Attendance API 
-
-![image](https://github.com/user-attachments/assets/34a83dd4-e4bb-47d8-ad27-0cca8d2ed4fd)
-
-| Step                    | Description                                                                                       |
-|-------------------------|---------------------------------------------------------------------------------------------------|
-| **User Interaction**     | The user sends an HTTP request to the **Frontend Web** interface.                                  |
-| **Frontend Processing**  | The **Frontend Web** communicates with the **Attendance API** to retrieve or process attendance data. |
-| **Redis Caching**        | The **Attendance API** interacts with **Redis** to handle caching for quick data retrieval, optimizing performance. |
-| **Database Persistence** | **PostgreSQL** is used as the primary database where the attendance records are stored permanently. |
-| **Response**             | After processing, the **Frontend Web** sends the response back to the user with the required information. |
-
-**Note**: This flow optimizes performance by utilizing Redis as a caching layer before accessing the main PostgreSQL database.
-
-
 ## 8.Conclusion
 
 | Feature                | Description                                                                   |
@@ -146,7 +145,7 @@ We are preparing this document so that you can get the detailed information abou
 | Attendance API POC   | A detailed guide on setting up and running the Attendance API for proof of concept purposes. This document covers the steps required to configure, deploy, and test the API in a development environment. | [Setup and Run the App for POC](https://github.com/mygurukulam-p10/Documention/blob/main/OT%20MS%20Understanding/Attendance/%20%20%20%09%20Setup%20and%20run%20the%20App%20for%20POC/readme.md) |
 
 
-## 9. Contact Information
+## 10. Contact Information
 |Name|Email Address|
 |:---:|:---:|
 |Komal|komal.jaiswal.snaatak@mygurukulam.co|
