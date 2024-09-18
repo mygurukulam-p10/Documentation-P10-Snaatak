@@ -14,7 +14,9 @@ The purpose of this POC is to demonstrate the functionality and integration of t
 3. [System Requirements](#system-requirements)
 4. [Dependencies](#dependencies)
    * [Build Dependencies](#build-dependency)
-5. [Step-by-step installation](#step-by-step-installation)
+5. [Important Port](#important-port)
+6. [Step-by-step installation](#step-by-step-installation)
+7. [Contact Information](#contact-information)
 
 ## Architecture
 ![frontend drawio (3)](https://github.com/user-attachments/assets/a220a569-a98c-4afd-b53d-221196a57e93)
@@ -38,6 +40,10 @@ The purpose of this POC is to demonstrate the functionality and integration of t
 | Npm      |  6.14.18   | To manage and install the necessary third-party packages that the ReactJS application relies on. |
 |Node      | v14.21.3  | Node.js is critical for the build and development of your ReactJS frontend, as it powers the package management, build processes, and local development server necessary for the project.|
 
+## Important Port
+| Inbound Traffic | Description        |
+| --------------- | ------------------ |
+| 3000            | Used by ReactJs      |
                                                                       
 ## Step-By-Step Installation
 
@@ -100,7 +106,13 @@ Then hit the url which is showing in above terminal ss "http://10.0.0.4:3000" re
 
 ![Screenshot 2024-09-10 170624](https://github.com/user-attachments/assets/78c32c6a-44a0-4328-86cb-2bcb72b9d089)
 
+## 📧 Contact Information
 
+For any queries or further information, feel free to contact:
+
+| 📛 Name       | ✉️ Email Address                    |
+|---------------|-------------------------------------|
+| **Megha Tyagi**| megha.tyagi.snaatak@mygurukulam.co   |
 
  
 
