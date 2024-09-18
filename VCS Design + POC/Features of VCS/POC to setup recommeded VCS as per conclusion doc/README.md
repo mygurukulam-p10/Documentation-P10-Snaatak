@@ -89,7 +89,8 @@ This Poc demonstrates how to set up and use GitHub as a Version Control System. 
 
 
 ## Conclusion
-In this PoC, we demonstrated the basic setup of Git using GitHub as a Version Control System. Git allows developers to track changes, collaborate effectively, and manage code versions. By utilizing Git, teams can streamline their development processes and ensure efficient collaboration on software projects.
+
+In this Proof of Concept (PoC), we demonstrated the basic process of creating a repository, cloning it, and pushing changes. This workflow allows developers to track modifications, collaborate smoothly, and ensure an organized approach to managing project files and updates. By following these steps, teams can streamline their development efforts and enhance productivity across the board.
 
 ## Contact Information
 
