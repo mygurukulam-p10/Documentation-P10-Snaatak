@@ -10,7 +10,7 @@
 # Table of Content 
 1. [🔍 Purpose](#-purpose)
 2. [💡 What is Gitlab?](#-what-is-gitlab)
-3. [🗃️ Gitlab Features](#-gitlab-features)
+3. [🗃️ Gitlab Features](#gitlab-features)
    - [Version Control](#1-version-control)
    - [Source Code Management](#2-source-code-management)
    - [Security](#3-security)
