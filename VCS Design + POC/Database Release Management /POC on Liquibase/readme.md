@@ -19,7 +19,7 @@ We are preparing this document so that we can easily install Liquibase and perfo
    * [Build Dependencies](#build-dependency)
 5. [Important Ports](#important-ports)
 6. [Step-by-step installation](#step-by-step-installation)
-7. [Rolling Back to a Tag](#rolling-back-to-a-tag)
+7. [Rolling Back](#rolling-back)
 8. 
 9. [Best Practices](#best-practices)
 
@@ -154,8 +154,9 @@ Rollback: You can define rollback operations within a changeset to specify how t
 #### similarly we create 2 changeset with tag v2.0 and v3.0
 ![liquibase t3](https://github.com/user-attachments/assets/af08bfa9-9f78-4906-8945-a3f166205a79)
 
+## Rolling Back
 
-## 1. **Rolling Back to a Tag**
+### 1. **Rolling Back to a Tag**
   ```
   liquibase rollback v1.0
 ```
@@ -173,7 +174,7 @@ By this we can see is rollback is successful or not
 
 
 
-## 2. **Rolling Back by Count**
+### 2. **Rolling Back by Count**
 ```
 mvn liquibase:update
 ```
@@ -188,7 +189,7 @@ mvn liquibase:update
 
 
 
-## 3. **Rolling Back to Date**
+### 3. **Rolling Back to Date**
   ```
 liquibase history    
   ```
