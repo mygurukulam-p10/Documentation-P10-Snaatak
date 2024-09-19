@@ -69,6 +69,9 @@ Imagine a team working on a new feature for an e-commerce platform. Each develop
 
 Here’s a step-by-step breakdown of how the CI process flows:
 
+![image](https://github.com/user-attachments/assets/595ef343-c515-433d-82d8-d013f4a053ec)
+
+
 | **Step #** | **Action**                                                                                                                    |
 |------------|--------------------------------------------------------------------------------------------------------------------------------|
 | **1**      | 👨‍💻 **Code Commit**: A developer commits code to the VCS (e.g., GitHub).                                                      |
