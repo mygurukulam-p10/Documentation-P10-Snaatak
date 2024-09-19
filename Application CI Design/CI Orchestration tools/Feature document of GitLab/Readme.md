@@ -155,7 +155,7 @@ Wiki and documentation features enable seamless creation like-
 | **Rich Media Support**  | Embed images, videos, and other media to enhance the documentation.              |
 
 
-## 📜  Conclusion
+## 📜 Conclusion
 GitLab offers a comprehensive suite of features that enhance software development, security, and project management. Its integrated tools for version control, artifact management, and observability streamline workflows and improve team collaboration. The platform's open-source nature and robust audit and compliance capabilities ensure transparency and adherence to standards. Overall, GitLab's diverse functionalities make it a powerful solution for managing and optimizing the entire development lifecycle.
  
 
