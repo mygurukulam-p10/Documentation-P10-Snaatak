@@ -195,14 +195,27 @@ By this we can see is rollback is successful or not
 ![liquibase h2](https://github.com/user-attachments/assets/2e4563e3-df8e-476e-8717-cb48cb2bb5e2)
 
 
-## Identify who created the Changeset 
+## Identify which author created the changeset. 
 Since you cannot filter by author directly via a command, you can capture the output of the history command into a file and then grep through it:
-'''
+```
 liquibase history > changelog_history.txt
 grep 'vinay' changelog_history.txt
-'''
+```
 ![sidentify](https://github.com/user-attachments/assets/4ae228ce-d620-4ffc-bf5c-02b51f188135)
 
+## Contexts in Liquibase(SQL)
+1. create db.changelog-master.sql
+2. run liquibase update --contexts=dev command
+3. now a table is created with name tes1
+![s](https://github.com/user-attachments/assets/cc2f608b-d246-459f-a7e2-d8e78f2fa0b3)
+![s1](https://github.com/user-attachments/assets/b7fb6cb5-1f5a-4f25-89ae-c628df4f3bdf)
+![s2](https://github.com/user-attachments/assets/baef3d4c-743d-4a14-b1b3-301b131e4b4b)
+
+4. add one more changeset
+5. run liquibase update --contexts=prod command
+6. now a table is deleted 
+![s3](https://github.com/user-attachments/assets/80add126-304a-4cee-b560-2f54a3449add)
+![s4](https://github.com/user-attachments/assets/3fe460c8-408d-4452-adce-cb521e1d2519)
 
 
 # Best Practices
