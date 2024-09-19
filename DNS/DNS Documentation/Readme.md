@@ -42,20 +42,20 @@ DNS resolution is the process of converting a website name (like www.example.com
 
 ## 4. Popular DNS Provider
 
-- ### DNS Watch ![dns watch-logo (1)](https://github.com/user-attachments/assets/4f3047fc-3881-4268-9c42-369178b924b8):
+- ### DNS Watch :
   
   DNS.Watch is a smaller DNS provider, with a focus on privacy protection. Unlike most DNS providers, these guys don’t 
   keep records of your DNS lookups. That means that the log of your activities are not used for marketing purposes, sold 
   to other companies, or passed along to some spy agency. DNS.Watch does, however, record some anonymized data that is not 
   associated with particular users. It uses this data for “statistics and security research.”
 
-- ### CloudFlare ![cloudflare (2)](https://github.com/user-attachments/assets/94c8efa1-06fd-4275-a761-4d3560eddc48):
+- ### CloudFlare:
   
   Cloudflare DNS is a top-tier service known for its high performance, redundancy, and strong privacy protections. It 
   offers fast response times and never logs IP addresses or sells data for targeted ads. Cloudflare collaborates with KPMG 
   for annual audits to ensure security and reliability.
 
-- ### OpenDNS ![open DNS (1)](https://github.com/user-attachments/assets/eb9c2dca-4ff2-4caa-8d26-619c248a6147):
+- ### OpenDNS:
 
   OpenDNS is a free service that separates your DNS operations from the ISP specified system to provide more reliable, 
   safer and faster internet access. OpenDNS connects to high-performance DNS serves and stores the IPs of millions of 
@@ -63,13 +63,13 @@ DNS resolution is the process of converting a website name (like www.example.com
   PC/Android device is simple and free. You just need to configure device/router settings without any additional software.
 
 
-- ### Google Public DNS <img width="30" alt="image" src="https://github.com/user-attachments/assets/443d8dd1-cea4-43ff-b07e-bf0e1950d358">:
+- ### Google Public DNS:
 
   Google Public DNS is a global service that helps speed up and secure web browsing by handling DNS queries. It’s the 
   largest public DNS service, providing fast and reliable connections. Google also offers Google Cloud DNS for managing 
   and publishing domain names on the web.
 
-- ### 5centsCDN <img width="39" alt="image" src="https://github.com/user-attachments/assets/c0b35173-fa9a-4840-8719-d53ab423adcb">:
+- ### 5centsCDN:
 
   5centsCDN is a comprehensive Content Delivery Network (CDN) solution that empowers high-growth businesses to deliver 
   exceptional content experiences to a global audience. We cater specifically to enterprise-level organizations across 
@@ -88,7 +88,7 @@ DNS resolution is the process of converting a website name (like www.example.com
 | **5centsCDN**        | 185.228.168.9   | 185.228.169.9     | - Ad-free DNS<br>- Privacy-focused<br>- Fast resolution<br>- DNS over HTTPS (DoH) support         | - Smaller provider with less visibility<br>- May not have as robust infrastructure as larger providers |
 
 
-## 6. Recommendation: Cloudflare DNS Provider
+## 6. Recommendation Cloudflare DNS Provider
 
 | **Reason**                  | **Details**                                                                                                         |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------|
