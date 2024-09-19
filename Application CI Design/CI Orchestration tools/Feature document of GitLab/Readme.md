@@ -8,9 +8,9 @@
 
 
 # Table of Content 
-1. [🔍Purpose](#purpose)
-2. [💡What is Gitlab?](#-what-is-gitlab)
-3. [🗃️Features of Gitlab](#-features-of-gitlab)
+1. [🔍 Purpose](#purpose)
+2. [💡 What is Gitlab?](#-what-is-gitlab)
+3. [🗃️ Features of Gitlab](#-features-of-gitlab)
    - [📂Version Control](#1-version-control)
    - [📦Source Code Management](#2-source-code-management)
    - [🛠️Security](#3-security)
