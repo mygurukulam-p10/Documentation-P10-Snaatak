@@ -21,12 +21,14 @@ Full Stack Development is the process of creating a complete web application tha
 
 ## Overall Component Architecture Flow
 
+### Frontend Flow
+
 Front-end development focuses on the part of a web application that users see and interact with. It's all about designing how the app looks (user interface) and how it feels to use (user experience). Front-end developers use languages like HTML, CSS, and JavaScript to build this visual part of the website, making sure it's easy to use and works smoothly.
 
 Pre-Requisites
 The frontend application have dependencies on other REST API of OT-Microservices.
 
-#image
+![367527759-b0c15c34-cf98-4708-be93-b1c9b3df05cf](https://github.com/user-attachments/assets/a489b959-b1fc-42e3-b7dd-62ffb59855df)
 
 To run the application successfully, These things should be configured
 For Refrence Links Below
@@ -42,7 +44,8 @@ For Refrence Links Below
 #### 1 .Employee-API
 The Employee REST API is a Go-based microservice that manages all employee-related transactions within the OT-Microservices stack. It is fully platform-independent, meaning it can run on any type of operating system or platform.
 
-#image
+![Screenshot from 2024-09-19 12-45-13](https://github.com/user-attachments/assets/fede28a3-554d-44d2-a05d-ea48e80f3cf4)
+
 Create this same as above.
 Pre-Requisites
 For running the application, we need following things configured:
@@ -55,7 +58,8 @@ For Refrence Links Below
 #### 2. The Salary API
 The Salary API is a Java-based microservice that handles all salary-related transactions and records within the OT-Microservices stack. It is platform-independent, meaning it can run on various operating systems. However, to run this application, a Java Runtime Environment (JRE) is required.
 
-#image
+![salry](https://github.com/user-attachments/assets/11965775-905e-4fa3-85eb-736435f4fc8e)
+
 We only need maven as build tool, but for running the application following things are required
 For Refrence Link are below 
 * [Documentation](https://github.com/mygurukulam-p10/Documention/blob/main/OT%20MS%20Understanding/Salary/Detailed%20Document/README.md)
@@ -66,7 +70,9 @@ For Refrence Link are below
 
 #### 3 .The Attendance api
 The Attendance REST API is a Python-based microservice that manages all attendance-related transactions within the OT-Microservices stack. This application is cross-platform, meaning it can run on different operating systems. The only requirement to run it is the Python runtime environment.
-#image
+
+![attendance](https://github.com/user-attachments/assets/ee552d33-f594-4580-8d6a-ef4736bf262e)
+
 To run the application successfully, we need these things configured
 
 PostgresSQL as a primary database for storing all the attendance records
