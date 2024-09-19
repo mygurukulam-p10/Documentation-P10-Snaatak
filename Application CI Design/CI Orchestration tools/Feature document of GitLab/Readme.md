@@ -10,7 +10,7 @@
 # Table of Content 
 1. [🔍 Purpose](#purpose)
 2. [💡 What is Gitlab?](#-what-is-gitlab)
-3. [🗃️ Features of Gitlab](#-features-of-gitlab)
+3. [🗃️ Gitlab Features](#-gitlab-features)
    - [📂Version Control](#-1-version-control)
    - [📦Source Code Management](#-2-source-code-management)
    - [🛠️Security](#-3-security)
@@ -32,7 +32,7 @@ GitLab is a web-based DevOps platform that provides tools for software developme
 <img width="242" alt="image" src="https://github.com/user-attachments/assets/ee573fbc-d727-44f9-a0d1-179c5219be9c">
 
  
-# 🗃️ Features of Gitlab
+# 🗃️ Gitlab Features
 ![image](https://github.com/user-attachments/assets/7be4f8e6-a23b-425f-9917-31decf188497)
 
 
