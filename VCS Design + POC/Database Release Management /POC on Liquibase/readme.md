@@ -19,7 +19,7 @@ We are preparing this document so that we can easily install Liquibase and perfo
    * [Build Dependencies](#build-dependency)
 5. [Important Ports](#important-ports)
 6. [Step-by-step installation](#step-by-step-installation)
-7. [Rolling Back](#rolling-back-to-a-tag)
+7. [Rolling Back to a Tag](#rolling-back-to-a-tag)
 8. 
 9. [Best Practices](#best-practices)
 
