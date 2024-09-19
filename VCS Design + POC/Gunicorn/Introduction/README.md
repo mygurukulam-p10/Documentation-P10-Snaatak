@@ -136,6 +136,7 @@ Gunicorn supports various worker types to handle different application needs:
 
 ## 9. Real-Life Example from Attendance API
 
+There is one file app.py which is used for gunicorn 
 ```
 """
 Module for calling the main flask application.
@@ -165,8 +166,7 @@ app.json_encoder = DataclassJSONEncoder
 app.register_blueprint(create_record, url_prefix="/api/v1")
 
 ```
-
-There is one file app.py which is used for gunicorn 
+![image](https://github.com/user-attachments/assets/f5fe92cb-d7ba-4c25-b118-d974c2b4832d)
 
 ### To serve this application using Gunicorn, run
 
