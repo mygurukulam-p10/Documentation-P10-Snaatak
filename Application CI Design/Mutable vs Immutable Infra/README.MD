@@ -24,7 +24,7 @@
 
 ### Definition
 
-Mutable Infrastructure is the ability to change or mutate into something new. In the DevOps era, the advantage of mutability is critical when it comes to keeping past data without getting new infrastructure.
+Mutable simply means ‘changeable’ or ‘customizable’. Mutable means something that can be changed if and when needed. It allow you to do necessary changes and updates on a regular basis. It is possible to login into the server and update configurations and other details in case of a Mutable Infrastructure.
 
 ### Pros
 
