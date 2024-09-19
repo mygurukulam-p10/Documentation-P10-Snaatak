@@ -20,7 +20,7 @@ This Readme provides a comprehensive overview of the Domain Name System (DNS) an
    - [Google Public DNS](#goggle-public-dns)
    - [5centsCDN](#5centscdn)
 5. [📛 Detailed Comparision of DNS Providers](#-detailed-comparision-of-dns-providers)
-6. [✨ Recommendation of Cloudflare DNS Provider](#-recommendation-of-clouflare-dns-provider)
+6. [🌟 Recommendation of Cloudflare DNS Provider](#-recommendation-of-clouflare-dns-provider)
 7. [📧 Contact Information](#-contact-information)
 8. [📚 References](#-references)
 
@@ -79,7 +79,7 @@ DNS resolution is the process of converting a website name (like www.example.com
 
 ## 📛 Detailed Comparision of DNS Providers
 
-|💡 **Provider**     | 🔄**Primary DNS** | 🔄**Secondary DNS** | 🌟**Features**                                                                                     | 🚨**Drawbacks**                                                                                           |
+|💡 **Provider**     | 🔄**Primary DNS** | 🔄**Secondary DNS** | 🌟**Features**                  | 🚨**Drawbacks**                                                                                           |
 |------------------|-----------------|-------------------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | **DNS Watch**        | 84.200.69.80    | 84.200.70.40      | - Privacy-focused, no tracking<br>- Fast resolution<br>- No logging                               | - Fewer advanced features compared to other providers<br>- Limited customer support                    |
 | **Cloudflare**       | 1.1.1.1         | 1.0.0.1           | - Fast and secure<br>- No user tracking<br>- Privacy-focused<br>- DNS over HTTPS (DoH) support   | - May not offer as many advanced features for enterprise needs<br>- Some users may prefer more control|
@@ -88,7 +88,7 @@ DNS resolution is the process of converting a website name (like www.example.com
 | **5centsCDN**        | 185.228.168.9   | 185.228.169.9     | - Ad-free DNS<br>- Privacy-focused<br>- Fast resolution<br>- DNS over HTTPS (DoH) support         | - Smaller provider with less visibility<br>- May not have as robust infrastructure as larger providers |
 
 
-## ✨ Recommendation of Cloudflare DNS Provider
+## 🌟 Recommendation of Cloudflare DNS Provider
 
 | **Reason**                  | **Details**                                                                                                         |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------|
