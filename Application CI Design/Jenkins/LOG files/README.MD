@@ -1,5 +1,9 @@
 # Jenkins Log Files
 
+| 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
+|--------------------|------------|--------------|--------------------------------|
+| 20-09-2024         | 0.1       | Brij Singh   | Log Files         |
+
 ## 📘 Introduction
 Jenkins is an open-source automation server used for Continuous Integration and Continuous Deployment (CI/CD). In the process of running builds, jobs, and various tasks, Jenkins generates multiple log files. These logs provide insights into Jenkins operations, job execution, errors, and system activity, which are essential for debugging and monitoring.
 
@@ -84,9 +88,12 @@ This document details the various types of log files generated in Jenkins, where
 Jenkins generates various logs that are crucial for understanding the state and performance of your CI/CD pipeline. By accessing and managing system logs, build logs, node logs, and plugin logs, you can ensure that Jenkins runs smoothly and efficiently. Regularly reviewing logs will help you quickly identify issues and resolve them before they impact your workflow.
 
 ## 📞 Contact Information
-For further assistance or queries, feel free to reach out:
-- **Email**: support@jenkinsci.org
-- **Website**: [Jenkins Documentation](https://www.jenkins.io/doc/)
+For any queries or further information, feel free to contact:
+
+| 📛 Name       | ✉️ Email Address                    |
+|---------------|-------------------------------------|
+| **Brij Singh**| brij.singh.snaatak@mygurukulam.co   |
+
 
 ## 📚 References
 - [Jenkins Log Management](https://www.jenkins.io/doc/book/managing/system-log/)
