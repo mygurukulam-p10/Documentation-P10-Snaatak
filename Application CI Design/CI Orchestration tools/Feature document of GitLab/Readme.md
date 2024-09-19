@@ -8,22 +8,22 @@
 
 
 # Table of Content 
-1. [🌟Purpose](#purpose)
+1. [🔍Purpose](#purpose)
 2. [💡What is Gitlab?](#-what-is-gitlab)
 3. [🗃️Features of Gitlab](#-features-of-gitlab)
-   - [Version Control](#1-version-control)
-   - [Source Code Management](#2-source-code-management)
-   - [Security](#3-security)
+   - [📂Version Control](#1-version-control)
+   - [📦Source Code Management](#2-source-code-management)
+   - [🛠️Security](#3-security)
    - [📦Artifact Registery](#4-artifact-registery)
-   - [Obervability](#5-obervability)
-   - [Audit and Compliances](#6-audit-and-compliances)
-   - [Wiki and Documentation](#7-wiki-and-documentation)
+   - [👀Obervability](#5-obervability)
+   - [📄Audit and Compliances](#6-audit-and-compliances)
+   - [📝Wiki and Documentation](#7-wiki-and-documentation)
 4. [📜Conclusion](#-conclusion)
 5. [📧Contact Information ](#-contact-information )
 6. [📚References](#-references ) 
 
      
-# 🌟 Purpose 
+# 🔍 Purpose 
 This document provides an overview of GitLab's key features, including source code management, security, artifact registry, observability, open source aspects, audit and compliance, and wiki/documentation capabilities. It aims to highlight how GitLab supports efficient software development, collaboration, and compliance. The document serves as a reference for understanding the functionalities and benefits of using GitLab in various aspects of project management and development.
 
 # 💡 What is GitLab?
@@ -39,7 +39,7 @@ GitLab is a web-based DevOps platform that provides tools for software developme
 
 ## Let's discuss all the features in detail:
 
-## 1. Version Control 
+## 1. 📂 Version Control 
 Version control in GitLab allows teams-
 
 
@@ -57,7 +57,7 @@ Version control in GitLab allows teams-
 | **Blame View**           | See who last modified a specific line of code, helping identify responsible users.|
 
 
-## 2. Source Code Management
+## 2. 📦 Source Code Management
 Source code management in GitLab involves below mentioned aspects.
  
 | **Aspect**              | **Description**                                                                 |
@@ -71,7 +71,7 @@ Source code management in GitLab involves below mentioned aspects.
 | **Repository Management**| Handle repository settings, such as visibility and integrations, from a central interface.|
 
 
-## 3. Security
+## 3. 🛠️ Security
 GitLab's security features include below mentioned aspects-
 
 | **Aspect**              | **Description**                                                                 |
@@ -89,7 +89,7 @@ GitLab's security features include below mentioned aspects-
 
 
 
-## 4. Artifact Registery
+## 4. 📦 Artifact Registery
 Artifact registry enables given below aspects.
 
 | **Aspect**              | **Description**                                                                 |
@@ -106,7 +106,7 @@ Artifact registry enables given below aspects.
 | **Download Management** | Control and track the download of artifacts for auditing and compliance.          |
 
 
-## 5. Obervability
+## 5. 👀 Obervability
 It's provide different aspects-
 
 | **Aspect**              | **Description**                                                                 |
@@ -122,7 +122,7 @@ It's provide different aspects-
 | **User Experience Monitoring** | Monitor and analyze user interactions and performance to improve application usability. |
 | **Health Checks**       | Perform regular health checks to ensure the system is operating correctly and efficiently. |
 
-## 6. Audit and Compliances 
+## 6. 📄 Audit and Compliances 
 Audit and compliance features provide detailed logs,here is mentioned different aspects-
 
 | **Aspect**              | **Description**                                                                 |
@@ -138,7 +138,7 @@ Audit and compliance features provide detailed logs,here is mentioned different 
 | **Data Encryption**     | Ensure data is encrypted at rest and in transit to protect sensitive information. |
 | **Policy Enforcement**  | Automate the enforcement of organizational policies to maintain compliance and security standards. |
 
-## 7. Wiki and Documentation
+## 7. 📝 Wiki and Documentation
 Wiki and documentation features enable seamless creation like-
 
 | **Aspect**              | **Description**                                                                 |
@@ -155,7 +155,7 @@ Wiki and documentation features enable seamless creation like-
 | **Rich Media Support**  | Embed images, videos, and other media to enhance the documentation.              |
 
 
-## 📜 Conclusion
+## 📜  Conclusion
 GitLab offers a comprehensive suite of features that enhance software development, security, and project management. Its integrated tools for version control, artifact management, and observability streamline workflows and improve team collaboration. The platform's open-source nature and robust audit and compliance capabilities ensure transparency and adherence to standards. Overall, GitLab's diverse functionalities make it a powerful solution for managing and optimizing the entire development lifecycle.
  
 
