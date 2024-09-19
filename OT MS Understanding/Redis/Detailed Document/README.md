@@ -4,7 +4,7 @@
 
 | Author      | Created on  | Version    | Last updated by | Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-| Komal       | 06-09-24    | Version 1  | Komal Jaiswal   | 06-09-24       |
+| Komal       | 06-09-24    | Version 1  | Komal Jaiswal   | 19-09-24       |
 
 ## Table of Contents
 
@@ -45,6 +45,9 @@ Redis is used in applications to provide high-speed caching, real-time data acce
 ## 3. Block Architecture of Redis
 
 The Redis architecture can be divided into three main components: the Client, the Server, and the Storage. Let's examine each in detail:
+
+![Redis Architecture Original](https://github.com/user-attachments/assets/3ad7c849-87c6-4d05-8031-20b331454a82)
+
 
 ### 1. Redis Client
 
@@ -100,7 +103,6 @@ The Redis Server is the core of the Redis architecture and consists of several c
 
 This architecture allows Redis to provide high-speed data access while also offering options for data durability and persistence.
 
-![Redis Architecture Original](https://github.com/user-attachments/assets/3ad7c849-87c6-4d05-8031-20b331454a82)
 
 
 ### Data Flow
