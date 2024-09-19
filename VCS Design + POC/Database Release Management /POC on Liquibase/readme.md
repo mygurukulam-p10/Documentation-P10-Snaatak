@@ -194,6 +194,17 @@ By this we can see is rollback is successful or not
 
 ![liquibase h2](https://github.com/user-attachments/assets/2e4563e3-df8e-476e-8717-cb48cb2bb5e2)
 
+
+## Identify who created the Changeset 
+Since you cannot filter by author directly via a command, you can capture the output of the history command into a file and then grep through it:
+'''
+liquibase history > changelog_history.txt
+grep 'vinay' changelog_history.txt
+'''
+![sidentify](https://github.com/user-attachments/assets/4ae228ce-d620-4ffc-bf5c-02b51f188135)
+
+
+
 # Best Practices
 
 | **Best Practice**            | **Description**                                                                                                    |
