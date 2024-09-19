@@ -10,7 +10,7 @@
 # Table of Content 
 1. [Purpose](#purpose)
 2. [💡What is Gitlab?](#-what-is-gitlab)
-3. [🗃️Features of Jenkins](#-features-of-jenkins)
+3. [🗃️Features of Gitlab](#-features-of-gitlab)
    - [A variety of plugins](#1-a-variety-of-plugins)
    - [Simple installation and configuration](#2-simple-installation-and-configuration)
    - [Open-source](#3-open-source)
@@ -31,7 +31,7 @@ GitLab is a web-based DevOps platform that provides tools for software developme
 <img width="242" alt="image" src="https://github.com/user-attachments/assets/ee573fbc-d727-44f9-a0d1-179c5219be9c">
 
  
-## 🗃️ Features of Gitlab
+# 🗃️ Features of Gitlab
 
 ![image](https://github.com/user-attachments/assets/247daca6-4e9a-4589-bea9-4ffb796617c3)
 
