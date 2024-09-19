@@ -10,7 +10,7 @@
 This Readme provides a comprehensive overview of the Domain Name System (DNS) and its various providers. It explains what DNS is, why it is used, and how it works. The document also compares popular DNS providers, detailing their features and drawbacks, and recommends Cloudflare DNS based on its performance and privacy benefits. Additionally, it includes contact information for feedback and relevant resources for further reading.
 
 ## Table of Contents
-1. [What is DNS](#what-is-dns)
+1. [What is DNS](#1what-is-dns)
 2. [Why we use DNS](#why-we-use-dns)
 3. [How does DNS works](#how-does-dns-works)
 4. [Popular DNS Provider](#popular-dns-provider)
