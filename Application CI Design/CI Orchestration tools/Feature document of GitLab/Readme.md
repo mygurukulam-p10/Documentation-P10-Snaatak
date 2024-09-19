@@ -25,7 +25,7 @@
 # Purpose 
 The purpose of this document is to provide a comprehensive overview of key features and functionalities of Jenkins. It aims to explain important aspects such as its extensibility, server-based security features, and ease of distribution. By detailing these features, the document seeks to help users understand how Jenkins can be effectively utilized and customized to meet their Continuous Integration and Continuous Delivery (CI/CD) needs. Additionally, it offers insights into the tools and capabilities Jenkins provides to enhance build automation, manage security, and streamline development workflows.
 
-# :bulb: What is GitLab?
+# 💡 What is GitLab?
 GitLab is a web-based DevOps platform that provides tools for software development, version control, and continuous integration/continuous delivery (CI/CD). It allows teams to collaborate on code, manage Git repositories, track issues, automate workflows, and deploy applications efficiently from a single platform.
 
 <img width="354" alt="image" src="https://github.com/user-attachments/assets/a7159fec-899d-4963-9738-14693cd29f01">
