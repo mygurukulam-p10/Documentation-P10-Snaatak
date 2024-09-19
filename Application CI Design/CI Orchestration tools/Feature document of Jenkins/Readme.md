@@ -22,17 +22,17 @@
 6. [📚 References](#-references ) 
 
      
-# 🔍Purpose 
+# 🔍 Purpose 
 The purpose of this document is to provide a comprehensive overview of key features and functionalities of Jenkins. It aims to explain important aspects such as its extensibility, server-based security features, and ease of distribution. By detailing these features, the document seeks to help users understand how Jenkins can be effectively utilized and customized to meet their Continuous Integration and Continuous Delivery (CI/CD) needs. Additionally, it offers insights into the tools and capabilities Jenkins provides to enhance build automation, manage security, and streamline development workflows.
 
-# 🌟What is Jenkins?
+# 🌟 What is Jenkins?
 Jenkins is a tool that is used for automation. It is mainly an open-source server that allows all the developers to build, test and deploy software. It is written in Java and runs on java only. By using Jenkins we can make a continuous integration of projects(jobs) or end-to-endpoint automation.
 
 <img width="354" alt="image" src="https://github.com/user-attachments/assets/a7159fec-899d-4963-9738-14693cd29f01">
 
 
  
-# 🛠️Features of Jenkins
+# 🛠️ Features of Jenkins
 
 ![image](https://github.com/user-attachments/assets/247daca6-4e9a-4589-bea9-4ffb796617c3)
 
@@ -110,16 +110,16 @@ Here are a few important plugins and their use cases:
 | **Job Distribution**           | Jenkins can distribute build jobs across different nodes based on labels or capabilities, optimizing job execution and balancing the load. |
 
 
-## 📜Conclusion
+## 📜 Conclusion
 In summary, Jenkins offers a robust and versatile platform for Continuous Integration and Continuous Delivery (CI/CD) with its extensive range of features and capabilities. Its open-source nature, combined with its extensibility through plugins, makes Jenkins a powerful tool for automating and optimizing development workflows. The server-based security features ensure that Jenkins can be securely integrated into various environments, while its easy distribution capabilities support scalable and efficient build management. Understanding these aspects allows users to leverage Jenkins effectively, customize it to their needs, and enhance their overall CI/CD processes. This document serves as a foundational resource to guide users in exploring and utilizing Jenkins to its fullest potential.
  
 
-## 📧Contact Information 
+## 📧 Contact Information 
 |Name|Email Address|
 |:---:|:---:|
 |**Megha Tyagi**|megha.tyagi.snaatak@mygurukulam.co|
 
-## 📚References 
+## 📚 References 
 |links | Description |
 |-------|------------|
 |https://www.spiceworks.com/tech/devops/articles/what-is-jenkins/#_005|**Spiceworks** |
