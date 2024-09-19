@@ -11,13 +11,13 @@
 1. [🔍 Purpose](#-purpose)
 2. [💡 What is Gitlab?](#-what-is-gitlab)
 3. [🗃️ Gitlab Features](#-gitlab-features)
-   - [📂 Version Control](#1-version-control)
-   - [📦 Source Code Management](#2-source-code-management)
-   - [🛠️ Security](#3-security)
-   - [📦 Artifact Registery](#4-artifact-registery)
-   - [👀 Obervability](#5-obervability)
-   - [📄 Audit and Compliances](#6-audit-and-compliances)
-   - [📝 Wiki and Documentation](#7-wiki-and-documentation)
+   - [Version Control](#1-version-control)
+   - [Source Code Management](#2-source-code-management)
+   - [Security](#3-security)
+   - [Artifact Registery](#4-artifact-registery)
+   - [Obervability](#5-obervability)
+   - [Audit and Compliances](#6-audit-and-compliances)
+   - [Wiki and Documentation](#7-wiki-and-documentation)
 4. [📜 Conclusion](#-conclusion)
 5. [📧Contact Information ](#-contact-information )
 6. [📚References](#-references ) 
@@ -33,6 +33,7 @@ GitLab is a web-based DevOps platform that provides tools for software developme
 
  
 # 🗃️ Gitlab Features
+
 ![image](https://github.com/user-attachments/assets/7be4f8e6-a23b-425f-9917-31decf188497)
 
 
