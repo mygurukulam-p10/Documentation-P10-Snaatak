@@ -17,8 +17,8 @@
    - [3.2 Configuration](#32-configuration)
    - [3.3 Redis Configuration and Authentication Steps](#33-Redis-configuration-and-authentication-steps)
    - [3.4 Starting Redis](#34-starting-redis)
-4. [Conclusion](#5-conclusion)
-5. [References](#6-references)
+4. [Conclusion](#4-conclusion)
+5. [References](#5-references)
 6 .[Contact](#6-contact)
 ---
 ## 1. Purpose
