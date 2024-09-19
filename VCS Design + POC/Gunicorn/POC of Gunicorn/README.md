@@ -143,6 +143,9 @@ gunicorn --workers 3 --bind 0.0.0.0:8000 app:app
 
 ![Screenshot from 2024-09-16 16-35-23](https://github.com/user-attachments/assets/7e76e85a-beb5-44a3-9151-3dba9b4bf4db)
 
+Now go to webserver and search <ip_of_server>:8000
+
+![Screenshot from 2024-09-19 12-31-34](https://github.com/user-attachments/assets/0e78aaa5-2b52-4262-aaf0-43bc9bdad07e)
 
 ## Troubleshooting
 
