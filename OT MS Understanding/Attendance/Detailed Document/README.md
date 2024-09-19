@@ -2,7 +2,7 @@
 
 | Author      | Created on  | Version    | Last updated by | Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-| Komal       | 06-09-24    | Version 1  | Komal Jaiswal   | 06-09-24       |
+| Komal       | 06-09-24    | Version 1  | Komal Jaiswal   | 19-09-24       |
 
 This README provides an overview of the technology stack used in our Attendance API project. Each section includes features, pros and cons, and relevant resources.
 
@@ -24,7 +24,7 @@ We are preparing this document so that you can get the detailed information abou
 
 ### 2. Flow Diagram of Attendance API 
 
-![image](https://github.com/user-attachments/assets/34a83dd4-e4bb-47d8-ad27-0cca8d2ed4fd)
+![image](https://github.com/user-attachments/assets/703c52a8-41a3-4b88-b621-2d467393fb10)
 
 | Step                    | Description                                                                                       |
 |-------------------------|---------------------------------------------------------------------------------------------------|
@@ -118,6 +118,8 @@ Poetry is used for environment management in attendance API , For different depe
 
 
 ## 7. Swagger UI
+
+It is used for the Visualization of Data we are storing and getting.
 
 ### Features:
 - Interactive API documentation and testing tool
