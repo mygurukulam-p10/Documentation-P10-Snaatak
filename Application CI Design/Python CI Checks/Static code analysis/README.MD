@@ -53,6 +53,8 @@ It enhances code quality, security, and maintainability by identifying issues ea
 
 ## ❓ Why Use Python CI and Static Code Analysis?
 
+
+
 1. **Prevent Bugs**: Identify and fix issues early in development.
 2. **Maintain Consistency**: Ensure that coding standards (like PEP 8) are followed across the project.
 3. **Enhance Security**: Detect security vulnerabilities before they reach production.
