@@ -77,6 +77,7 @@ jobs:
         run: bandit -r your_project/
       - name: Run MyPy
         run: mypy your_project/
+      ```
 📝 Best Practices
 Run Automated Checks: Incorporate bug analysis tools in your CI pipeline to automatically scan for issues on each commit.
 Regularly Analyze Security: Use tools like Bandit to scan for vulnerabilities regularly, especially when dealing with sensitive data.
