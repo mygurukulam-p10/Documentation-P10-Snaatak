@@ -85,7 +85,7 @@ Here’s a step-by-step breakdown of how the CI process flows:
 
 ### 🌟 Example:
 
-Let's say a developer named Sam pushes a new feature for user authentication. The CI server runs the tests, but one fails because the login form doesn't validate the password correctly. Sam gets an instant notification via Slack, fixes the issue, and commits the update. The CI server reruns the tests, and this time everything passes!
+Let's say a developer named Hitesh pushes a new feature for user authentication. The CI server runs the tests, but one fails because the login form doesn't validate the password correctly. Sam gets an instant notification via Slack, fixes the issue, and commits the update. The CI server reruns the tests, and this time everything passes!
 
 ---
 
