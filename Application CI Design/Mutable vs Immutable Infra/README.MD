@@ -16,7 +16,8 @@ Configuration Drift: Each server’s configuration is unique, making it more dif
 Debugging Issues: Debugging is time-consuming due to update tracking issues. You may end up with many versions of an update with no understanding of the issue.
 Lack of Documentation: Any changes you make to the server are not documented, making tracking difficult and debugging nearly impossible.
 
-Immutable Infrastructure 🔒
+***Immutable Infrastructure 🔒***
+
 Definition
 Immutable infrastructure is a model in which no upgrades, security patches, or configuration changes are made in place on production workloads. When a change is required, the architecture is constructed on new infrastructure and sent to production.
 
