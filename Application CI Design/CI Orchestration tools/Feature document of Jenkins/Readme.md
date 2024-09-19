@@ -1,7 +1,7 @@
 # ![jenkins 156x256 (1)](https://github.com/user-attachments/assets/03dbbbb1-945c-4e34-878a-feb7b6c71d80)Features of Jenkins 
 
 
-| Author      | Created on  | Version    | Last updated by | Last edited on |
+| ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
 | Megha Tyagi | 19-09-24    | Version 1  | Megha Tyagi     | 19-09-24       |
 
