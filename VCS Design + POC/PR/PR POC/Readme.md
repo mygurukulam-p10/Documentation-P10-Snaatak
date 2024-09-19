@@ -53,7 +53,7 @@ Creating a Pull Request (PR) involves several steps to propose changes to a repo
    <img width="425" alt="Create a New branch" src="https://github.com/user-attachments/assets/b7086552-0c7f-499e-8789-f949036ef44c">
 
 
-5. **Switch to the new branch using the `git branch` command.**
+5. **To see a list of all branches in your repository, using the `git branch` command.**
    
    <img width="376" alt="switch to new branch" src="https://github.com/user-attachments/assets/d5bf80c3-892c-4fec-a9f3-b93390d42c1a">
 
