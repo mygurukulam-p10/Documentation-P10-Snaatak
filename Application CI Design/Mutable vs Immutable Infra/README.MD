@@ -82,4 +82,4 @@ For any queries or further information, feel free to contact:
 --------------
 
 * [1] "Mutable vs Immutable Infrastructure" [here](https://www.geeksforgeeks.org/difference-between-mutable-and-immutable-infrastructure/) 📄
-* [2] "Immutable Infrastructure: A Game-Changer for DevOps" by DZone 📄
+* [2] "Immutable Infrastructure: A Game-Changer for DevOps" by DZone[here](https://devops.com/immutable-infrastructure-the-next-step-for-devops/) 📄
