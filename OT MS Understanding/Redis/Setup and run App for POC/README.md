@@ -19,8 +19,6 @@
    - [3.4 Starting Redis](#34-starting-redis)
 4. [Conclusion](#4-conclusion)
 5. [References](#5-references)
-6 .[Contact](#6-contact)
-
 
 ## 1. Purpose
 
