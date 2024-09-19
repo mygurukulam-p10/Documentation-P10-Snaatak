@@ -164,9 +164,9 @@ ACL SETUSER <user_name> on ><<set_password>> ~* +@all
 ACL SETUSER scylla on >redos-102 ~* +@all
 ```
 
-**Note :-** We are creating this user Scylla to access the Database more Securely.
-
 **Note :-** I am using ```scylla``` as a ```username``` because in my application I have to access database with more security.
+
+**Note :-** We are creating this user scylla to eatablish a secure connectivity between redis and scylla Database.
 
 **Note:** The > redos-102 ( Password that is set for my redis),this part sets the user's password to redos-102.
 
