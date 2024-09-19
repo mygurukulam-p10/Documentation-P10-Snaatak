@@ -10,7 +10,7 @@
 # Table of Content 
 1. [🔍 Purpose](#-purpose)
 2. [💡 What is Gitlab?](#-what-is-gitlab)
-3. [🗃️ Gitlab Features](#gitlab-features)
+3. [🗃️ Gitlab Features](#-gitlab-features)
    - [Version Control](#1-version-control)
    - [Source Code Management](#2-source-code-management)
    - [Security](#3-security)
@@ -58,7 +58,7 @@ Version control in GitLab allows teams-
 | **Blame View**           | See who last modified a specific line of code, helping identify responsible users.|
 
 
-## 2.  Source Code Management
+## 2. Source Code Management
 Source code management in GitLab involves below mentioned aspects.
  
 | **Aspect**              | **Description**                                                                 |
@@ -72,7 +72,7 @@ Source code management in GitLab involves below mentioned aspects.
 | **Repository Management**| Handle repository settings, such as visibility and integrations, from a central interface.|
 
 
-## 3.  Security
+## 3. Security
 GitLab's security features include below mentioned aspects-
 
 | **Aspect**              | **Description**                                                                 |
@@ -90,7 +90,7 @@ GitLab's security features include below mentioned aspects-
 
 
 
-## 4.  Artifact Registery
+## 4. Artifact Registery
 Artifact registry enables given below aspects.
 
 | **Aspect**              | **Description**                                                                 |
@@ -107,7 +107,7 @@ Artifact registry enables given below aspects.
 | **Download Management** | Control and track the download of artifacts for auditing and compliance.          |
 
 
-## 5.  Obervability
+## 5. Obervability
 It's provide different aspects-
 
 | **Aspect**              | **Description**                                                                 |
@@ -123,7 +123,7 @@ It's provide different aspects-
 | **User Experience Monitoring** | Monitor and analyze user interactions and performance to improve application usability. |
 | **Health Checks**       | Perform regular health checks to ensure the system is operating correctly and efficiently. |
 
-## 6.  Audit and Compliances 
+## 6. Audit and Compliances 
 Audit and compliance features provide detailed logs,here is mentioned different aspects-
 
 | **Aspect**              | **Description**                                                                 |
@@ -139,7 +139,7 @@ Audit and compliance features provide detailed logs,here is mentioned different 
 | **Data Encryption**     | Ensure data is encrypted at rest and in transit to protect sensitive information. |
 | **Policy Enforcement**  | Automate the enforcement of organizational policies to maintain compliance and security standards. |
 
-## 7.  Wiki and Documentation
+## 7. Wiki and Documentation
 Wiki and documentation features enable seamless creation like-
 
 | **Aspect**              | **Description**                                                                 |
