@@ -10,7 +10,7 @@
 This Readme provides a comprehensive overview of the Domain Name System (DNS) and its various providers. It explains what DNS is, why it is used, and how it works. The document also compares popular DNS providers, detailing their features and drawbacks, and recommends Cloudflare DNS based on its performance and privacy benefits. Additionally, it includes contact information for feedback and relevant resources for further reading.
 
 ## Table of Contents
-1. [What is DNS?](#1what-is-dns)
+1. [What is DNS?](#what-is-dns)
 2. [Why we use DNS?](#why-we-use-dns)
 3. [How does DNS works?](#how-does-dns-works)
 4. [Popular DNS Provider](#popular-dns-provider)
@@ -25,16 +25,16 @@ This Readme provides a comprehensive overview of the Domain Name System (DNS) an
 8. [References](#references)
 
 
-## What is DNS
+## What is DNS?
 DNS (Domain Name System) is like the Internet's phonebook. It converts user-friendly domain names (like www.example.com) into IP addresses (like 192.168.1.1) that computers use to find each other online.
 
 <img width="301" alt="image" src="https://github.com/user-attachments/assets/96f83dc3-2de6-43d7-9a46-2376143cdb38">
 
 
-## Why we use DNS
+## Why we use DNS?
 We use DNS to simplify browsing the web. Instead of remembering and typing complex IP addresses, we use easy-to-remember domain names. DNS translates these names into IP addresses, allowing our browsers to locate and load websites quickly and efficiently.
 
-## How does DNS works
+## How does DNS works?
 DNS resolution is the process of converting a website name (like www.example.com) into a computer-friendly IP address (like 192.168.1.1). Just like a street address helps find a house, an IP address helps locate the right device on the Internet. When you enter a website name, your browser automatically translates it into an IP address without you having to do anything. This happens behind the scenes, with your browser sending a request and the DNS system handling the rest.
 
 ![image](https://github.com/user-attachments/assets/0f3fbc18-ae2a-4970-9c8f-da56e02130a1)
