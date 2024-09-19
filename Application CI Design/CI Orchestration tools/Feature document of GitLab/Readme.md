@@ -10,7 +10,7 @@
 # Table of Content 
 1. [Purpose](#purpose)
 2. [💡What is Gitlab?](#-what-is-gitlab)
-3. [Features of Jenkins](#features-of-jenkins)
+3. [🗃️Features of Jenkins](#-features-of-jenkins)
    - [A variety of plugins](#1-a-variety-of-plugins)
    - [Simple installation and configuration](#2-simple-installation-and-configuration)
    - [Open-source](#3-open-source)
@@ -28,11 +28,10 @@ The purpose of this document is to provide a comprehensive overview of key featu
 # 💡 What is GitLab?
 GitLab is a web-based DevOps platform that provides tools for software development, version control, and continuous integration/continuous delivery (CI/CD). It allows teams to collaborate on code, manage Git repositories, track issues, automate workflows, and deploy applications efficiently from a single platform.
 
-<img width="354" alt="image" src="https://github.com/user-attachments/assets/a7159fec-899d-4963-9738-14693cd29f01">
-
+<img width="242" alt="image" src="https://github.com/user-attachments/assets/ee573fbc-d727-44f9-a0d1-179c5219be9c">
 
  
-# Features of Jenkins
+## 🗃️ Features of Gitlab
 
 ![image](https://github.com/user-attachments/assets/247daca6-4e9a-4589-bea9-4ffb796617c3)
 
