@@ -3,6 +3,10 @@
 
 ![CI Icon](https://img.shields.io/badge/CI-Python-blue) ![Static Analysis Icon](https://img.shields.io/badge/Static%20Code%20Analysis-green)
 
+| 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
+|--------------------|------------|--------------|--------------------------------|
+| 20-09-2024         | 0.1       | Brij Singh   | Static Code Analysis               |
+
 ## 📖 Introduction
 
 Continuous Integration (CI) and Static Code Analysis are essential practices in modern software development. CI automates testing to ensure code changes integrate smoothly, while static code analysis examines your code without execution to find bugs, security issues, and improve code quality. In this guide, we’ll explore the importance of Python CI checks and static code analysis, their benefits, popular tools, and best practices.
@@ -146,7 +150,16 @@ By adopting CI and static code analysis early, your project will be more reliabl
 
 ---
 
-## 📞 Contact Information and References
+## 📧 Contact Information
+
+For any queries or further information, feel free to contact:
+
+| 📛 Name       | ✉️ Email Address                    |
+|---------------|-------------------------------------|
+| **Brij Singh**| brij.singh.snaatak@mygurukulam.co   |
+
+
+## 📞 and References
 
 For more information, visit:
 
