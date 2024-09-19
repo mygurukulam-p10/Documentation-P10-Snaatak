@@ -8,18 +8,18 @@
 
 
 # Table of Content 
-1. [🔍Purpose](#-purpose)
-2. [🌟What is Jenkins?](#-what-is-jenkins)
-3. [🛠️Features of Jenkins](#-features-of-jenkins)
+1. [🔍 Purpose](#-purpose)
+2. [🌟 What is Jenkins?](#-what-is-jenkins)
+3. [🛠️ Features of Jenkins](#-features-of-jenkins)
    - [A variety of plugins](#1-a-variety-of-plugins)
    - [Simple installation and configuration](#2-simple-installation-and-configuration)
    - [Open-source](#3-open-source)
    - [Extensibility](#4-extensibility)
    - [Server-based Security](#5-server-based-security)
    - [Easy Distribution](#6-easy-distribution)
-4. [📜Conclusion](#-conclusion)
-5. [📧Contact Information ](#-contact-information )
-6. [📚References](#-references ) 
+4. [📜 Conclusion](#-conclusion)
+5. [📧 Contact Information ](#-contact-information )
+6. [📚 References](#-references ) 
 
      
 # 🔍Purpose 
