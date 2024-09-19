@@ -88,6 +88,7 @@ echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/liquibase-keyring.gpg] https
   ![Run the following command to import the Liquibase GPG key and add the Liquibase repository to the apt sources list](https://github.com/user-attachments/assets/9f7d846e-4700-4a97-849a-bcdd5caa8c56)
 
 #### Install Liqibase packages.
+
   ```
   sudo apt-get update
 ```
@@ -104,9 +105,21 @@ liquibase --version
 
 #### Set Liquibase Properties File
 - liquibase.properties
+- Explanation of Each Property
+url: This is the JDBC connection string for your PostgreSQL database. Ensure that the hostname, port, and database name are correct.
+driver: Specifies the JDBC driver class for PostgreSQL.
+username: The username for connecting to the PostgreSQL database.
+password: The password for the specified username.
+changeLogFile: The path to your main changelog file, which contains your database changes.
 
 ![liquibase p](https://github.com/user-attachments/assets/7f3187a1-a0f7-4216-b882-9342d77614c4)
 
+### Changelog structure 
+- Key Components of a Changelog
+databaseChangeLog: The root element that encapsulates all changesets.
+changeSet: Defines a single atomic change. Each changeset must have a unique id and an author.
+changes: A collection of change operations (like createTable, addColumn, etc.) that are part of the changeset.
+Rollback: You can define rollback operations within a changeset to specify how to undo the changes.
 
 
 #### First Changeset
