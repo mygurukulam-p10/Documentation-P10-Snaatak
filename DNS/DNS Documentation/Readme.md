@@ -20,7 +20,7 @@ This Readme provides a comprehensive overview of the Domain Name System (DNS) an
    - [Google Public DNS](#goggle-public-dns)
    - [5centsCDN](#5centscdn)
 5. [📛 Detailed Comparision of DNS Providers](#-detailed-comparision-of-dns-providers)
-6. [🌟 Recommendation of Cloudflare DNS Provider](#recommendation-of-clouflare-dns-provider)
+6. [📙 Recommendation of Cloudflare DNS Provider](#-recommendation-of-cloudflare-dns-provider)
 7. [📧 Contact Information](#-contact-information)
 8. [📚 References](#-references)
 
@@ -88,9 +88,9 @@ DNS resolution is the process of converting a website name (like www.example.com
 | **5centsCDN**        | 185.228.168.9   | 185.228.169.9     | - Ad-free DNS<br>- Privacy-focused<br>- Fast resolution<br>- DNS over HTTPS (DoH) support         | - Smaller provider with less visibility<br>- May not have as robust infrastructure as larger providers |
 
 
-## 🌟 Recommendation of Cloudflare DNS Provider
+## 📙 Recommendation of Cloudflare DNS Provider
 
-| **Reason**                  | **Details**                                                                                                         |
+| ✅**Reason**                  |📄 **Details**                                                                                                         |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------|
 | **Speed and Performance**   | Cloudflare DNS offers some of the fastest DNS resolution times, ensuring quick access to websites and online services. |
 | **Privacy and Security**    | Cloudflare prioritizes privacy with no tracking of user data and supports DNS over HTTPS (DoH) to encrypt DNS queries, enhancing security. |
