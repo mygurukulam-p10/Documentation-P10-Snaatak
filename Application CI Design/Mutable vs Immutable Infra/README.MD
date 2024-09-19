@@ -1,5 +1,6 @@
-Mutable and Immutable Infrastructure
-Mutable Infrastructure 🔄
+****Mutable and Immutable Infrastructure****
+
+###Mutable Infrastructure### 🔄
 Definition
 Mutable Infrastructure is the ability to change or mutate into something new. In the DevOps era, the advantage of mutability is critical when it comes to keeping past data without getting new infrastructure.
 
