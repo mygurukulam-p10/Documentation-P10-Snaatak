@@ -21,8 +21,8 @@ This Readme provides a comprehensive overview of the Domain Name System (DNS) an
    - [5centsCDN](#5centscdn)
 5. [Detailed Comparision of DNS Providers](#detailed-comparision-of-dns-providers)
 6. [Recommendation of Cloudflare DNS Provider](#recommendation-of-clouflare-dns-provider)
-7. [Contact Information](#contact-information)
-8. [References](#references)
+7. [📧Contact Information](#-contact-information)
+8. [📚References](#-references)
 
 
 ## What is DNS?
@@ -100,14 +100,14 @@ DNS resolution is the process of converting a website name (like www.example.com
 | **Industry Reputation**     | Cloudflare is a well-known and trusted name in the industry, known for its strong infrastructure and commitment to improving internet performance. |
 
 
-## Contact Information
+## 📧 Contact Information
 For more information, feedback, or assistance, feel free to contact us:
 | Name         | Email address          |
 |--------------|------------------------|
 | Megha Tyagi  | megha.tyagi.snaatak@mygurukulam.co  |
 
 
-## References
+## 📚 References
 | Links                                             | Descriptions                                                    |
 |---------------------------------------------------|-----------------------------------------------------------------|
 |https://www.cloudflare.com/learning/dns/what-is-dns/|**CloudFlare**|
