@@ -42,7 +42,7 @@ Jenkins is a tool that is used for automation. It is mainly an open-source serve
 Jenkins plugins are extensions that enhance Jenkins' capabilities by integrating CI/CD tools, sources, and destinations, and expanding its functionality. With around 1,500 plugins available, they allow for extensive customization, enabling Jenkins to integrate with other software, add UI components, and improve build and source code management. Plugins can be installed via the Jenkins Web UI or CLI from the Jenkins Plugin repository.
 Here are a few important plugins and their use cases:
 
-| **Plugin Name**     | **Description**                                              | **Key Features**                                            | **Use Cases**                                                                 |
+|🔧 **Plugin Name**     | 📊**Description**                                              | 🌟**Key Features**                                            | 🎯**Use Cases**                                                                 |
 |---------------------|--------------------------------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------------------------|
 | **Pipeline**        | Enables continuous delivery pipelines as code.               | Pipeline-as-code, multibranch pipelines, visual pipeline UI  | Automating the build, test, and deploy process for complex projects.           |
 | **Git**             | Integrates Git version control with Jenkins.                 | Clone repositories, track branches, trigger builds on changes| Automating builds and deployments based on changes in Git repositories.        |
@@ -53,7 +53,7 @@ Here are a few important plugins and their use cases:
 
 
 ## 2. Simple installation and configuration
-|  **Aspect**                                            | **Description**                                                                                         |
+|  ⏳**Aspect**                                            |📄 **Description**                                                                                         |
 |---------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | **Cross-platform compatibility**                        | Jenkins is a self-contained Java software that runs on all major operating systems (Windows, Unix, Mac OS). |
 | **Easy setup and configuration**                        | It provides a web interface with built-in error checks and help features for easy setup and configuration. |
@@ -66,7 +66,7 @@ Here are a few important plugins and their use cases:
 
 ## 3. Open-source
 
-| **Aspect**                     | **Details**                                                                                               |
+|⏳ **Aspect**                     | 📄**Details**                                                                                               |
 |---------------------------------|-----------------------------------------------------------------------------------------------------------|
 | **Open-source Availability**    | Jenkins is free and open-source, meaning it has no licensing costs, and its source code is available for modification, making it highly flexible. The large community contributes to continuous improvements, bug fixes, and plugin development. |
 | **Customization and Flexibility** | Jenkins supports a wide range of plugins and integrations, allowing users to tailor it to their specific CI/CD needs. |
@@ -78,7 +78,7 @@ Here are a few important plugins and their use cases:
 
 ## 4. Extensibility
 
-| **Aspect**                    | **Details**                                                                                           |
+| ⏳**Aspect**                    | 📄**Details**                                                                                           |
 |-------------------------------|-------------------------------------------------------------------------------------------------------|
 | **Extensibility**              | Jenkins can be extended with over 1,500 plugins, allowing it to integrate with a wide range of tools, technologies, and services. |
 | **Custom Pipeline Creation**   | Users can create custom pipelines using scripted or declarative pipeline syntax to suit various workflows and automation tasks. |
@@ -89,7 +89,7 @@ Here are a few important plugins and their use cases:
 
 ## 5. Server-based Security 
 
-| **Aspect**                     | **Details**                                                                                               |
+|⏳ **Aspect**                     |📄 **Details**                                                                                               |
 |---------------------------------|-----------------------------------------------------------------------------------------------------------|
 | **Role-based Access Control**   | Jenkins allows defining roles and permissions for different users or groups, restricting access to sensitive parts of the system. |
 | **Authentication**              | Supports multiple authentication methods like LDAP, Active Directory, OAuth, and SSO, ensuring secure user logins. |
@@ -100,7 +100,7 @@ Here are a few important plugins and their use cases:
 
 ## 6. Easy Distribution 
 
-| **Aspect**                     | **Details**                                                                                               |
+| ⏳**Aspect**                     | 📄**Details**                                                                                               |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------|
 | **Master-Slave Architecture**  | Jenkins supports a master-slave architecture where the master node handles scheduling and monitoring, while slave nodes run the build tasks. This helps distribute the workload and improves performance. |
 | **Distributed Builds**         | Enables running builds on multiple machines or nodes, which can be located on different servers or cloud environments, allowing for efficient resource utilization. |
