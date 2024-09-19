@@ -23,7 +23,8 @@ We are preparing this document so that we can easily install Liquibase and perfo
 8. [Best Practices](#best-practices)
 
 ## Architecture
-![liquibase arch](https://github.com/user-attachments/assets/ce5b3b68-168b-4d0b-941b-e6fc03ddd8a7)
+![liquibase arch](https://github.com/user-attachments/assets/ef7f1555-7369-46ff-9932-9e7acfa7add9)
+
 
 
 
@@ -216,6 +217,11 @@ grep 'vinay' changelog_history.txt
 6. now a table is deleted 
 ![s3](https://github.com/user-attachments/assets/80add126-304a-4cee-b560-2f54a3449add)
 ![s4](https://github.com/user-attachments/assets/3fe460c8-408d-4452-adce-cb521e1d2519)
+
+## Label
+The label filter is a logical expression that you can use to specify one or more changeset labels.
+![sl](https://github.com/user-attachments/assets/0fe2fb82-df73-4b7c-9c46-0d066692475d)
+![sl1](https://github.com/user-attachments/assets/e549fb5c-452a-406a-a1c5-2fa4f4e6bf2a)
 
 
 # Best Practices
