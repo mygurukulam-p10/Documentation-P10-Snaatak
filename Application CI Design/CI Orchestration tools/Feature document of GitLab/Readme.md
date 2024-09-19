@@ -40,7 +40,7 @@ GitLab is a web-based DevOps platform that provides tools for software developme
 
 ## Let's discuss all the features in detail:
 
-## 1. 📂 Version Control 
+## 1. Version Control 📂
 Version control in GitLab allows teams-
 
 
