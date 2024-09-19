@@ -81,5 +81,5 @@ For any queries or further information, feel free to contact:
 ## References
 --------------
 
-* [1] "Mutable vs Immutable Infrastructure" by DevOps.com 📄
+* [1] "Mutable vs Immutable Infrastructure" [here](https://www.geeksforgeeks.org/difference-between-mutable-and-immutable-infrastructure/) 📄
 * [2] "Immutable Infrastructure: A Game-Changer for DevOps" by DZone 📄
