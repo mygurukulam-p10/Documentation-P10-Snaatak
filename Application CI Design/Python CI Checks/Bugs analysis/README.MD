@@ -1,6 +1,11 @@
 
 # 🐍 Python Bugs Analysis
 
+# 🚀 Micro Repo Features        
+| 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
+|--------------------|------------|--------------|--------------------------------|
+| 18-09-2024         | 0.3        | Brij Singh   | Micro Repo Features            |
+
 ## 📘 Introduction
 In Python development, finding and fixing bugs early is essential for maintaining high-quality, reliable code. Bug analysis involves identifying, analyzing, and resolving issues to ensure that software performs as expected. This guide explains what bug analysis is, why it matters, the tools you can use, and the best practices to follow.
 
@@ -80,17 +85,23 @@ jobs:
 
 
 ```
-📝 Best Practices
+ ## 📝  Best Practices 
 Run Automated Checks: Incorporate bug analysis tools in your CI pipeline to automatically scan for issues on each commit.
 Regularly Analyze Security: Use tools like Bandit to scan for vulnerabilities regularly, especially when dealing with sensitive data.
 Type Safety: Implement static type checking with MyPy to prevent type-related bugs.
 Use a Debugger: Step through your code with pdb to get a better understanding of what’s going wrong during execution.
 
-✅ Recommendation and Conclusion
+## ✅ Recommendation and Conclusion
 Bug analysis is a critical part of the development process. By incorporating tools like PyLint, Flake8, Bandit, MyPy, and Sentry, you can ensure better code quality, security, and performance. Make bug analysis a regular part of your CI/CD pipeline to catch issues early and maintain a high standard of code.
 
 
+## 📧 Contact Information
 
+For any queries or further information, feel free to contact:
+
+| 📛 Name       | ✉️ Email Address                    |
+|---------------|-------------------------------------|
+| **Brij Singh**| brij.singh.snaatak@mygurukulam.co   
 
 📚 References
 PyLint Documentation
