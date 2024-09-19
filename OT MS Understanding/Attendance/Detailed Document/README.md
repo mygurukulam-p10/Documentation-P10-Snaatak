@@ -63,6 +63,8 @@ We are preparing this document so that you can get the detailed information abou
 
 ## 5. Liquibase
 
+In Attendance Application We will use Liquibase for schema Management and Rollback to the previous version if required.
+
 ### Features:
 - Database-independent library for tracking, managing, and applying database schema changes
 - Supports multiple formats for change logs (XML, YAML, JSON, SQL)
@@ -78,12 +80,20 @@ We are preparing this document so that you can get the detailed information abou
 | Supports complex migration scenarios           |                                                     |
 | Integrates well with Java ecosystem            |                                                     |
 
+![image](https://github.com/user-attachments/assets/7a64e8b6-0790-4278-868e-02c67e30c8ea)
+
+Reference
+
+[Liquibase Documentation](https://github.com/mygurukulam-p10/Documention/tree/main/VCS%20Design%20%2B%20POC/Database%20Release%20Management%20/POC%20on%20Liquibase)
+
 ### Relevant Resources:
 - [Liquibase Official Documentation](https://docs.liquibase.com/)
 - [Getting Started with Liquibase: A Beginner's Guide](https://www.liquibase.org/get-started/quickstart)
 - [Comparing Database Migration Tools: Liquibase vs Flyway](https://www.red-gate.com/blog/database-devops/liquibase-and-flyway-comparison)
 
 ## 6. Poetry
+
+Poetry is used for environment management in attendance API , For different dependencies installation in an environment.
 
 ### Features:
 - Dependency management and packaging tool for Python
@@ -98,6 +108,8 @@ We are preparing this document so that you can get the detailed information abou
 | Ensures consistent environments across development and production | Some compatibility issues with older Python versions |
 | Improves project reproducibility               | Limited support in some CI/CD platforms compared to pip |
 | Offers an intuitive CLI for managing dependencies |                                                 |
+
+![image](https://github.com/user-attachments/assets/9966e874-e404-474d-a480-fb5f606ceb30)
 
 ### Relevant Resources:
 - [Poetry Official Documentation](https://python-poetry.org/docs/)
