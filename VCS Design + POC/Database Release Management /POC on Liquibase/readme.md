@@ -20,8 +20,7 @@ We are preparing this document so that we can easily install Liquibase and perfo
 5. [Important Ports](#important-ports)
 6. [Step-by-step installation](#step-by-step-installation)
 7. [Rolling Back](#rolling-back)
-8. 
-9. [Best Practices](#best-practices)
+8. [Best Practices](#best-practices)
 
 ## Architecture
 ![liquibase arch](https://github.com/user-attachments/assets/ef7f1555-7369-46ff-9932-9e7acfa7add9)
