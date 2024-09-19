@@ -1,6 +1,8 @@
 Mutable and Immutable Infrastructure
 =====================================
-🔄
+| 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
+|--------------------|------------|--------------|--------------------------------|
+| 19-09-2024         | 0.2        | Brij Singh   |Mutable and Immutable Infrastructure              |
 
 **Mutable Infrastructure** 🔄
 ---------------------------
@@ -52,4 +54,10 @@ Immutable infrastructure is a model in which no upgrades, security patches, or c
 | **Server Changes** | Cloud resources can be changed, same server is utilized for updates, patches, and configuration changes | Can be changed, but not in the same server |
 | **Configuration Drift** | Does not protect from configuration drift | Protected from configuration drift |
 
-[[1](https://yushi95.medium.com/how-to-create-a-beautiful-readme-for-your-github-profile-36957caa711c)]
+## 📧 Contact Information
+
+For any queries or further information, feel free to contact:
+
+| 📛 Name       | ✉️ Email Address                    |
+|---------------|-------------------------------------|
+| **Brij Singh**| brij.singh.snaatak@mygurukulam.co   |
