@@ -4,7 +4,7 @@
 # 🚀 Micro Repo Features        
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
 |--------------------|------------|--------------|--------------------------------|
-| 18-09-2024         | 0.3        | Brij Singh   | Micro Repo Features            |
+| 18-09-2024         | 0.3        | Brij Singh   | Python Bugs Analysis         |
 
 ## 📘 Introduction
 In Python development, finding and fixing bugs early is essential for maintaining high-quality, reliable code. Bug analysis involves identifying, analyzing, and resolving issues to ensure that software performs as expected. This guide explains what bug analysis is, why it matters, the tools you can use, and the best practices to follow.
