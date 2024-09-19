@@ -4,7 +4,7 @@
 
 | Author      | Created on  | Version    | Last updated by | Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-| Komal Jaiswal  | 10-09-24    | Version 1  | Komal Jaiswal      | 11-09-24       |
+| Komal Jaiswal  | 10-09-24    | Version 1  | Komal Jaiswal      | 19-09-24       |
 
 ## Table of Contents
 1. [Purpose](#1-purpose)
@@ -17,10 +17,9 @@
    - [3.2 Configuration](#32-configuration)
    - [3.3 Redis Configuration and Authentication Steps](#33-Redis-configuration-and-authentication-steps)
    - [3.4 Starting Redis](#34-starting-redis)
-4. [Cleanup and Shutdown](#4-cleanup-and-shutdown)
-5. [Conclusion](#5-conclusion)
-6. [References](#6-references)
-
+4. [Conclusion](#5-conclusion)
+5. [References](#6-references)
+6 .[Contact](#7-contact)
 ---
 ## 1. Purpose
 
@@ -134,7 +133,6 @@ According to the application we are working on like Employee API , Attendance AP
 #### 2. Update the following lines:
 
 - Change ```supervised no``` to ```supervised systemd```
-  ```supervised systemd```
 
 - Uncomment and set the password by replacing ```# requirepass foobared``` with
   ```requirepass redos-101```
@@ -164,43 +162,18 @@ AUTH redos-101
 
 ```
 ACL SETUSER <user_name> on ><<set_password>> ~* +@all 
-ACL SETUSER scylla on >redos-101 ~* +@all
+ACL SETUSER scylla on >redos-102 ~* +@all
 ```
 **Note :-** I am using ```scylla``` as a ```username``` because in my application I have to access database with more security.
 
-**Note:** The > redos-101 ( Password that is set for my redis),this part sets the user's password to redos-101. If you already used redos-101 for the requirepass, consider using a different password for the user to maintain security.
+**Note:** The > redos-102 ( Password that is set for my redis),this part sets the user's password to redos-102.
 
-#### 5. Set a Strong Password for Redis
 
-1. If you want to set a different strong password, update the **requirepass** directive in **/etc/redis/redis.conf** to a new strong password, e.g., your_strong_password:
-```
-requirepass your_strong_password
-```
-
-2. Restart Redis again for this change to take effect:
-```
-sudo systemctl restart redis
-```
-
-### 1.4 Starting Redis
-
-**For Systems Using systemd:**
-```
-sudo systemctl start redis-server
-```
-
-## 4. Cleanup and Shutdown
-
-To clean up Redis, stop the server and remove any persistent files if needed:
-```
-sudo systemctl stop redis-server
-```
-
-## Conclusion
+## 4. Conclusion
 
 Redis is a popular choice for applications that require low-latency and high-throughput data access. By following best practices in tuning and security, Redis can be a robust component of your technology stack, offering scalability and reliability for modern application needs.
 
-### 6. References
+### 5. References
 
 | **Reference**                       | **Description**                                                  |
 |-------------------------------------|------------------------------------------------------------------|
@@ -211,7 +184,7 @@ Redis is a popular choice for applications that require low-latency and high-thr
 
 
 
-## Contact Information 
+## 6. Contact Information 
 | Name | Email Address |
 |:---:|:---:|
 | Komal | komal.jaiswal.snaatak@mygurukulam.co |
