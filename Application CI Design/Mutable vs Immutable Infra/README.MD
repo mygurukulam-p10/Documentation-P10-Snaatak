@@ -1,6 +1,7 @@
 ****Mutable and Immutable Infrastructure****
 
-###Mutable Infrastructure### 🔄
+***Mutable Infrastructure*** 🔄
+
 Definition
 Mutable Infrastructure is the ability to change or mutate into something new. In the DevOps era, the advantage of mutability is critical when it comes to keeping past data without getting new infrastructure.
 
@@ -8,11 +9,13 @@ Pros
 Easy Troubleshooting: You can understand each server on an individual basis, making it easier to troubleshoot issues.
 Faster Updates: Anyone can deploy updates to individual servers, which speeds up the updating process.
 Customization: You can verify that the infrastructure employed satisfies the unique requirements of each user.
+
 Cons
 Update Failures: Updates can fail for a variety of reasons, including DNS failure or bad network access, all of which require time to identify and resolve.
 Configuration Drift: Each server’s configuration is unique, making it more difficult to diagnose and administer.
 Debugging Issues: Debugging is time-consuming due to update tracking issues. You may end up with many versions of an update with no understanding of the issue.
 Lack of Documentation: Any changes you make to the server are not documented, making tracking difficult and debugging nearly impossible.
+
 Immutable Infrastructure 🔒
 Definition
 Immutable infrastructure is a model in which no upgrades, security patches, or configuration changes are made in place on production workloads. When a change is required, the architecture is constructed on new infrastructure and sent to production.
