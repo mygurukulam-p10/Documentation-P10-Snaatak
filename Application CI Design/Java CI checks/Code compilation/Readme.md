@@ -58,6 +58,61 @@ Command Line: Using javac directly in the terminal for quick compilations
 
 ## Proof of Concept (POC)
 
+## ⚙️ Pre-requisites
+
+The Salary API requires the following dependencies for operation:
+
+- [ScyllaDB](https://www.scylladb.com/) - Database storage.
+- [Redis](https://redis.io/) - Cache manager.
+- [Maven](https://maven.apache.org/) - Build automation tool.
+
+## System Requirements
+| Hardware Specifications | Minimum Recommendation  |
+|--------------------------|------------------------|
+| Processor                | dual-core              |
+| RAM                      | 4 GB                    |
+| Disk                     |1 GB free disk space                  |
+| OS                       | Ubuntu 18.04 LTS         |
+
+
+## 🛠️ Build-Time Dependency
+
+| 🛠️ Name | 📦 Version | 📄 Description |
+|---------|------------|----------------|
+| **Maven** | 3.+      | Simplifies build management, project documentation, and dependency management. |
+
+---
+
+## 🚀 Run-Time Dependency
+
+| 🚀 Name | 📦 Version | 📄 Description          |
+|---------|------------|--------------------------|
+| **Java** |  17 for Spring Boot 3.1.1        | Required to run the built Java application. |
+
+## 🌐 Important Ports
+
+| 🔌 Inbound Traffic | 📄 Description           |
+|--------------------|--------------------------|
+| **6379**           | Used by Redis            |
+| **9042**           | Used by ScyllaDB / migrate |
+
+## 📥 Step-by-step Installation
+
+## Install git
+```
+sudo apt install git
+```
+### 📂 Step 1: Clone the Git Repository
+```
+git clone https://github.com/OT-MICROSERVICES/salary-api.git
+```
+
+### Step 2: For Code Compilation
+```
+mvn compile
+```
+![compile](https://github.com/user-attachments/assets/7a41dd76-d90a-40bf-a91a-c0bbe726cb70)
+
 
 ## Best Practices
 | Best Practice                   | Description                                               |
