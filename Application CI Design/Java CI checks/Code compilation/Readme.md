@@ -4,7 +4,7 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [What is Code Compilation?](#what-is-code-compilation)
-- [Why is Code Compilation Important?](#why-is-code-compilation-important)
+- [Why Compile Java Code?](#why-compile-java-code)
 - [Different Tools for Code Compilation](#different-tools-for-code-compilation)
 - [Comparison of Different Tools](#comparison-of-different-tools)
 - [Advantages of Code Compilation](#advantages-of-code-compilation)
