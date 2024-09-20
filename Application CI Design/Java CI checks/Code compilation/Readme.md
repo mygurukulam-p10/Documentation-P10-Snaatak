@@ -71,7 +71,7 @@ The Salary API requires the following dependencies for operation:
 |--------------------------|------------------------|
 | Processor                | dual-core              |
 | RAM                      | 4 GB                    |
-| Disk                     |1 GB free disk space                  |
+| Disk                     |20 GB free disk space                  |
 | OS                       | Ubuntu 18.04 LTS         |
 
 
