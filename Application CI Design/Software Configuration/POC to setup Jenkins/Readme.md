@@ -37,3 +37,31 @@ Here, we harness the efficiency of Ansible, an open-source automation tool strea
 | Disk                     | 15GB                   |
 | OS                       | Ubuntu(22.04)          |
 
+***
+# Steps 
+
+**Step 1: Dynamic Inventory Setup** 
+
+```yaml
+[defaults]
+
+# some basic default values...
+
+
+# Use AWS EC2 dynamic inventory for managing hosts
+inventory      = aws_ec2.yml
+
+# Disable SSH host key checking for convenience.
+host_key_checking = False
+
+# Specify the path to the private key file for SSH connections.
+private_key_file = /path/to/private_key
+
+Sets the remote user for SSH connections to 'ubuntu'
+remote_user = ubuntu
+
+[inventory]
+# enable inventory plugins, default: 'host_list', 'script', 'auto', 'yaml', 'ini', 'toml'
+enable_plugins = aws_ec2, host_list, virtualbox, yaml, constructed, script, auto, ini, toml
+```
+
