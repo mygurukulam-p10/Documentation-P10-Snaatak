@@ -134,15 +134,34 @@ pip3 --version
 
 echo "All installations completed successfully!"
 ```
+After installing the dependency cross check once again 
+
+```
+psql --version
+```
+
 ![Screenshot from 2024-09-16 16-39-14](https://github.com/user-attachments/assets/2a05a0ed-1391-4215-9a63-4b8d98382404)
 
+```
+liquibase --version
+```
 ![Screenshot from 2024-09-16 16-39-41](https://github.com/user-attachments/assets/223964f4-8d5e-466f-a3ac-ce2b426660f2)
 
+```
+java -version
+```
 ![Screenshot from 2024-09-17 09-59-10](https://github.com/user-attachments/assets/e1d1757b-99b2-4701-ba01-fe761ee3f7a8)
 
 
+```
+python3 --version
+```
 ![Screenshot from 2024-09-16 23-27-33](https://github.com/user-attachments/assets/1934f2b3-e9c2-4811-81e0-be98b9a9bf39)
 
+
+```
+poetry --version
+```
 ![Screenshot from 2024-09-17 09-43-33](https://github.com/user-attachments/assets/7cfc4e62-9df6-4a5e-ac0c-1c8fb9598f0e)
 
 
