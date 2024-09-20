@@ -60,12 +60,14 @@ Command Line: Using javac directly in the terminal for quick compilations
 
 
 ## Best Practices
-| Best Practices              | Description                                                   |
-|-----------------------------|---------------------------------------------------------------|
-| **Use Compiler Warnings**   | Enable all warnings to catch potential issues early.         |
-| **Optimize for Performance**| Use optimization flags to improve runtime performance.       |
-| **Test Thoroughly**         | Run extensive tests to ensure the compiled code behaves as expected. |
-| **Keep Tools Updated**      | Regularly update compilers to benefit from the latest features and security patches. |
+| Best Practice                   | Description                                               |
+|----------------------------------|-----------------------------------------------------------|
+| **Use Descriptive Names**       | Ensure class and file names are descriptive and follow Java naming conventions. |
+| **Organize Packages**           | Structure your code into packages for better management and modularity. |
+| **Comment Your Code**           | Use comments to explain complex logic and improve readability. |
+| **Regularly Update JDK**       | Keep your JDK updated to leverage the latest features and improvements. |
+| **Use Build Tools**             | For larger projects, consider using Maven or Gradle to manage dependencies and builds. |
+
 
 ## Conclusion
 
@@ -82,4 +84,7 @@ For further reading and resources on GitOps, check out the following:
 
 | Links | Descriptions|
 |------|---------------------|
+|https://docs.oracle.com/en/java/|Oracle Java Documentation|
+|https://maven.apache.org/|Maven Official Documentation|
+|https://gradle.org/|Gradle Official Documentation|
 
