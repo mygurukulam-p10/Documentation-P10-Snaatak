@@ -48,9 +48,13 @@ Command Line: Using javac directly in the terminal for quick compilations
 
 
 ## Advantages of Code Compilation
-- **Faster Execution**: Compiled programs often execute more quickly than interpreted ones.
-- **Enhanced Security**: Compiled code can be harder to reverse-engineer.
-- **Platform-Specific Optimizations**: Compilers can optimize code for specific hardware.
+| Feature                     | Description                                          |
+|-----------------------------|------------------------------------------------------|
+| **Cross-Platform Compatibility** | Compiled bytecode can run on any OS with a JVM.    |
+| **Code Reusability**        | Bytecode can be reused across different applications. |
+| **Debugging**               | Easier identification of issues through compile-time error checking. |
+| **Increased Efficiency**     | Compiled applications typically run faster than interpreted ones. |
+
 
 ## Proof of Concept (POC)
 
