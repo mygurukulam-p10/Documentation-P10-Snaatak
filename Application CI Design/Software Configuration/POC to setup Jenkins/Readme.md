@@ -64,4 +64,8 @@ remote_user = ubuntu
 # enable inventory plugins, default: 'host_list', 'script', 'auto', 'yaml', 'ini', 'toml'
 enable_plugins = aws_ec2, host_list, virtualbox, yaml, constructed, script, auto, ini, toml
 ```
+> [!NOTE]
+>Ensure that for dynamic inventory you have the necessary AWS credentials configured in AWS CLI.
+
+ 
 
