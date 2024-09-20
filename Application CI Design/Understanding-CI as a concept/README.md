@@ -11,10 +11,14 @@
 5. [🌟 Benefits of CI](#-benefits-of-ci)
 6. [🎯 Best Practices](#-best-practices)
 7. [📜 Conclusion](#-conclusion)
-8. [📧 Contact Information](#-contact-information)
-9. [📚 References](#-references)
+8. [📚 References](#-references)
+9. [📧 Contact Information](#-contact-information)
 
 ---
+
+### Purpose 🚀 :
+
+Continuous Integration (CI) helps make software development easier, faster, and more collaborative. It reduces problems when merging code, improves the quality of the code, and speeds up feedback, making releases quicker and safer. As we are proceeding with diffrent phases of sprint with now testing and debugging, CI plays an important role in that.
 
 ## 🚀 Why CI?
 
@@ -125,15 +129,6 @@ Continuous Integration (CI) is more than just a buzzword—it’s a vital practi
 
 By automating the integration, testing, and quality checking processes, CI allows developers to focus on what matters—**building great software**. 🏗️
 
----
-
-## 📧 Contact Information
-
-For more information on how to implement CI or if you need any guidance, feel free to reach out:
-
-| Name  | Email Address                                  |
-|-------|------------------------------------------------|
-| Komal | komal.jaiswal.snaatak@mygurukulam.co           |
 
 ---
 
@@ -146,3 +141,11 @@ For more information on how to implement CI or if you need any guidance, feel fr
 | **3** | **Meyer, M. (2014)**                 | "Continuous Integration and Its Tools," IEEE Software                                                                                                   |
 | **4** | **Humble & Farley (2010)**           | *Continuous Delivery: Reliable Software Releases through Build, Test, and Deployment Automation*                                                         |
 | **5** | **Feitelson et al. (2013)**          | "Development and Deployment at Facebook," IEEE Internet Computing                                                                                        |
+
+## 📧 Contact Information
+
+For more information on how to implement CI or if you need any guidance, feel free to reach out:
+
+| Name  | Email Address                                  |
+|-------|------------------------------------------------|
+| Komal | komal.jaiswal.snaatak@mygurukulam.co           |
