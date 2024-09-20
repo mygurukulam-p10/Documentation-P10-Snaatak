@@ -1,5 +1,5 @@
 
-# Python CI Checks & Static Code Analysis
+# Static Code Analysis
 
 ![CI Icon](https://img.shields.io/badge/CI-Python-blue) ![Static Analysis Icon](https://img.shields.io/badge/Static%20Code%20Analysis-green)
 
