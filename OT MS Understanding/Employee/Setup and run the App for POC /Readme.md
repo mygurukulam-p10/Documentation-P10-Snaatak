@@ -34,7 +34,7 @@ This application requires no prerequisites except for database connectivity. Add
 | Processor                | dual-core              |
 | RAM                      | 4GB                    |
 | Disk                     | 20GB                   |
-| OS                       | Ubuntu(22.04)          |
+| OS                       | Ubuntu(24.04)          |
 
 ## Dependencies
 ### Run time Dependency
