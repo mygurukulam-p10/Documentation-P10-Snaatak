@@ -40,7 +40,7 @@ ScyllaDB follows a distributed architecture where data is automatically replicat
 | **Secondary Indexes**                | - Enables efficient querying based on non-primary key columns.<br>- Provides flexibility for specific query use cases.          |
 | **Monitoring and Management**        | - Integrates with Prometheus and Grafana.<br>- Offers a web-based interface for cluster management and performance monitoring. |
 | **Cloud and Kubernetes Support**     | - Supports deployment on major cloud platforms and Kubernetes.<br>- Suitable for cloud-native and containerized environments.   |
-                                                      |
+                                                      
 
 
 | Pros                                         | Cons                                                 |
