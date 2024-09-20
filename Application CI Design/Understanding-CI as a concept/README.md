@@ -16,7 +16,7 @@
 
 ---
 
-### Purpose 🚀 :
+## Purpose 🚀 :
 
 Continuous Integration (CI) helps make software development easier, faster, and more collaborative. It reduces problems when merging code, improves the quality of the code, and speeds up feedback, making releases quicker and safer. As we are proceeding with diffrent phases of sprint with now testing and debugging, CI plays an important role in that.
 
