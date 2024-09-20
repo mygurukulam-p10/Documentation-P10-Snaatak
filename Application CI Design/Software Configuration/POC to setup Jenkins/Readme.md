@@ -67,5 +67,20 @@ enable_plugins = aws_ec2, host_list, virtualbox, yaml, constructed, script, auto
 > [!NOTE]
 >Ensure that for dynamic inventory you have the necessary AWS credentials configured in AWS CLI.
 
- 
+ **Step 2:  AWS EC2 Inventory**
 
+```
+plugin: aws_ec2
+regions:
+  - ap-south-1
+
+filters:
+  "tag:Name": "jenkins-server"
+
+keyed_groups:
+  - prefix: ''
+    key: tags.Name
+```
+
+
+      
