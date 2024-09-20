@@ -18,8 +18,9 @@
    - [Server-based Security](#5-server-based-security)
    - [Easy Distribution](#6-easy-distribution)
 4. [📜 Conclusion](#-conclusion)
-5. [📧 Contact Information ](#-contact-information )
-6. [📚 References](#-references ) 
+5. [📚 References](#-references ) 
+6. [📧 Contact Information ](#-contact-information )
+   
 
      
 # 🔍 Purpose 
@@ -113,15 +114,14 @@ Here are a few important plugins and their use cases:
 ## 📜 Conclusion
 In summary, Jenkins offers a robust and versatile platform for Continuous Integration and Continuous Delivery (CI/CD) with its extensive range of features and capabilities. Its open-source nature, combined with its extensibility through plugins, makes Jenkins a powerful tool for automating and optimizing development workflows. The server-based security features ensure that Jenkins can be securely integrated into various environments, while its easy distribution capabilities support scalable and efficient build management. Understanding these aspects allows users to leverage Jenkins effectively, customize it to their needs, and enhance their overall CI/CD processes. This document serves as a foundational resource to guide users in exploring and utilizing Jenkins to its fullest potential.
  
-
-## 📧 Contact Information 
-|Name|Email Address|
-|:---:|:---:|
-|**Megha Tyagi**|megha.tyagi.snaatak@mygurukulam.co|
-
 ## 📚 References 
 |links | Description |
 |-------|------------|
 |https://www.spiceworks.com/tech/devops/articles/what-is-jenkins/#_005|**Spiceworks** |
 |https://www.geeksforgeeks.org/what-is-jenkins/| **GreekforGreek**|
 |https://www.jenkins.io/|**Jenkins**|
+
+## 📧 Contact Information 
+|Name|Email Address|
+|:---:|:---:|
+|**Megha Tyagi**|megha.tyagi.snaatak@mygurukulam.co|
