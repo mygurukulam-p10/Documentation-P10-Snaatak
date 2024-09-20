@@ -15,7 +15,7 @@
 - [References](#references)
 
 ## Introduction
-Code compilation is the process of converting source code written in a high-level programming language into machine code, bytecode, or another programming language. This document aims to provide a comprehensive understanding of code compilation, the tools available, and best practices.
+Java is a widely-used programming language known for its platform independence and robust features. Compiling a Java application involves converting Java source code (.java files) into bytecode (.class files) that the Java Virtual Machine (JVM) can execute. This document serves as a comprehensive guide to the code compilation process in Java.
 
 ## What is Code Compilation?
 Code compilation is a critical step in software development that involves translating human-readable code into a format that a computer can execute. This process typically involves several stages, including preprocessing, parsing, semantic analysis, optimization, and code generation.
