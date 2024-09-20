@@ -134,7 +134,7 @@ pip3 --version
 
 echo "All installations completed successfully!"
 ```
-Run the following command to check all required dependencies for this project if they are installed correctly:
+Please run the following commands one by one to verify that all necessary dependencies for this project are installed correctly:
 
 ```
 psql --version
