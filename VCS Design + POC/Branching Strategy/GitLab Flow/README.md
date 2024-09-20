@@ -15,8 +15,6 @@
 
 GitLab Flow is a Git workflow designed to simplify and streamline the software development process. It was introduced by GitLab as an alternative to other Git workflows, aiming to address some of their limitations while maintaining simplicity and efficiency.
 
-GitLab Flow combines feature-driven development with issue tracking, emphasizing a more straightforward approach to continuous delivery. It's particularly well-suited for web development and other projects with continuous deployment.
-
 ## Key Principles of GitLab Flow
 
 | Best Practice                               | Description                                                        |
