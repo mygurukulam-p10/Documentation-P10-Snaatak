@@ -57,6 +57,12 @@ GitLab Flow is a Git workflow designed to simplify and streamline the software d
 ![image](https://github.com/user-attachments/assets/ae3e39e5-8aba-47fd-9b20-69531c9ef79e)
 
 
+- **Feature Branches**: Each new feature or bug fix is developed in its own branch, allowing for isolated development without disrupting the main codebase.
+  
+- **Master Branch**: This branch represents the stable version of our application, serving as the base for deployments.
+  
+- **Environment Branches**: We have two environment branches—**preproduction** for testing and validation of new features, and **production** for the live application. Once features are tested in preproduction, they can be merged into production for release.
+
 
 ## Advantages
 
