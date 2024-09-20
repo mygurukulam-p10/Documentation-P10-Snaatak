@@ -134,7 +134,7 @@ pip3 --version
 
 echo "All installations completed successfully!"
 ```
-After installing the dependency cross check once again 
+Run the following command to install all required dependencies for this project:
 
 ```
 psql --version
