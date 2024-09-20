@@ -1,5 +1,11 @@
+# Code Compilation
 
-# Code Compilation Documentation
+  | Author        | Created on | Version | Last updated by | Last edited on |
+  |-------------|---------|-------------|-------------|---------|
+  | Vinay Bansal | 19-09-24 | version 1 | Vinay Bansal | 20-09-24 |
+
+## Purpose
+The purpose of this document is to provide a comprehensive overview of Java code compilation, including its importance, tools available, best practices, and recommendations for efficient compilation processes.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -10,7 +16,8 @@
 - [Advantages of Code Compilation](#advantages-of-code-compilation)
 - [Proof of Concept (POC)](#proof-of-concept-poc)
 - [Best Practices](#best-practices)
-- [Recommendations/Conclusion](#recommendationsconclusion)
+- [Recommendations](#recommendations)
+- [Conclusion](#conclusion)
 - [Contact Information](#contact-information)
 - [References](#references)
 
@@ -27,24 +34,25 @@ Optimization: Compilers often optimize the code for better performance.
 Security: Bytecode is not human-readable, which can provide a layer of security against direct code manipulation.
 
 ## Different Tools for Code Compilation
-JDK (Java Development Kit): Contains the javac compiler.
-IDE (Integrated Development Environment):
-Eclipse: Offers built-in compilation features.
-IntelliJ IDEA: Provides smart compilation and debugging tools.
-NetBeans: Integrated support for compiling Java applications.
-Build Tools:
-Maven: Manages project dependencies and automates the build process.
-Gradle: A flexible build tool that uses Groovy-based DSL.
-Command Line: Using javac directly in the terminal for quick compilations
+- Build Tools:
+  - Maven 
+  - Gradle
+  - Ant
+  - Bazel
+
 
 ## Comparison of Different Tools
-| Tool       | What It Is                                | Key Features                                   |
-|------------|-------------------------------------------|------------------------------------------------|
-| **JDK**    | Java Development Kit                       | Includes compiler, libraries, and runtime      |
-| **Eclipse**| Integrated Development Environment (IDE)  | Rich plugin ecosystem, version control support  |
-| **IntelliJ**| Smart IDE                                | Intelligent code completion, refactoring tools  |
-| **Maven**  | Tool for building projects and managing libraries | Project management via POM, lifecycle management |
-| **Gradle** | Build tool that is very customizable      | Groovy/Kotlin DSL, incremental builds, multi-project builds |
+| Feature                     | Maven                          | Gradle                     | Ant                        | Bazel                     |
+|-----------------------------|--------------------------------|---------------------------|----------------------------|---------------------------|
+| **Configuration Format**     | XML (pom.xml)                 | Groovy/Kotlin DSL (build.gradle) | XML (build.xml)            | Domain-specific language   |
+| **Build Lifecycle**          | Strict phases (clean, compile, package) | Flexible and customizable | Task-based without a strict lifecycle | Fast and scalable, not phase-based |
+| **Dependency Management**    | Automatic from a central repository | Advanced, dynamic resolution | No built-in management (needs Ivy) | Strong caching and dependency management |
+| **Incremental Builds**       | No (compiles everything each time) | Yes                       | No                         | Yes                       |
+| **Standardization**          | Encourages a standardized project structure | Flexible, can lead to less standardization | Highly customizable but less standardized | Good for complex projects |
+| **Ease of Use**              | Moderate learning curve        | Steeper learning curve due to DSL | More manual configuration needed | More complex setup         |
+| **Community Support**        | Strong, widely used in enterprise projects | Growing rapidly in the Java ecosystem | Mature, but less popular for new projects | Strong support from Google  |
+| **Use Case**                | Standardized enterprise applications | Modern applications, microservices | Custom build processes      | Large applications needing fast builds |
+
 
 
 ## Advantages of Code Compilation
@@ -123,9 +131,11 @@ mvn compile
 | **Regularly Update JDK**       | Keep your JDK updated to leverage the latest features and improvements. |
 | **Use Build Tools**             | For larger projects, consider using Maven or Gradle to manage dependencies and builds. |
 
+## Recommendation
+Maven is a robust choice for Java projects, especially in enterprise settings where standardization, dependency management, and integration with CI/CD practices are crucial. Its established ecosystem and community support further enhance its viability as a go-to build tool. If you prioritize a structured and maintainable approach to building Java applications, Maven is a compelling option.
 
 ## Conclusion
-
+The choice of a build tool should be based on your specific project needs, team familiarity, and ecosystem compatibility. Each tool has unique strengths, and selecting the right one can significantly enhance your development workflow and project maintainability.
 
 
 ## Contact Information
