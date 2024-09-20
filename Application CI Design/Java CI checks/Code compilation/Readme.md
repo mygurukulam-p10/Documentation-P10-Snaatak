@@ -16,7 +16,7 @@ The purpose of this document is to provide a comprehensive overview of Java code
 - [Advantages of Code Compilation](#advantages-of-code-compilation)
 - [Proof of Concept (POC)](#proof-of-concept-poc)
 - [Best Practices](#best-practices)
-- [Recommendations](#recommendations)
+- [Recommendation](#recommendation)
 - [Conclusion](#conclusion)
 - [Contact Information](#contact-information)
 - [References](#references)
