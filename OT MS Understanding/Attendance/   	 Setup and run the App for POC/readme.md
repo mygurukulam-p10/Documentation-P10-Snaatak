@@ -182,17 +182,16 @@ First, switch to the postgres user with sudo su postgres. Then, access the Postg
 ![Screenshot from 2024-09-18 20-41-36](https://github.com/user-attachments/assets/f917a56e-6b0b-4a35-807c-eeb21a6021f8)
 
 
+Create Database and Set PostgreSQL User Password
+
 ```
 Create database attendence_db;
 
 ```
-![Screenshot from 2024-09-18 18-06-29](https://github.com/user-attachments/assets/8e1a4173-9a62-4d32-95c7-d0fbc9486cbc)
 
 ```
 ALTER USER postgres WITH PASSWORD 'arsenal1234';
 ```
-
-![Screenshot from 2024-09-18 18-07-50](https://github.com/user-attachments/assets/dc4980d5-c97f-4196-a052-4bf76663fdb7)
 
 ### Step 5: - Update pg_hba.conf
 The pg_hba.conf file controls client authentication and is where you specify the authentication method for different users and connections.
@@ -260,6 +259,8 @@ make run-migrations
 ```
 pip3 install gunicorn
 ```
+The command gunicorn app:app --log-config log.conf -b 0.0.0.0:8080 starts a Gunicorn server to run the WSGI application defined in app.py, using a specified logging configuration and listening for requests on all interfaces at port 8080.
+
 ```
 gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
 ```
