@@ -200,8 +200,32 @@ ansible-playbook -i aws_ec2.yml playbook.yml
 ![Screenshot from 2024-09-22 03-01-44](https://github.com/user-attachments/assets/2701f21a-89ed-4e53-9502-7a099aa34eed)
 
 
+## Output
+1.  **Host-level output**: Output for host would indicate whether the playbook execution was successful or not.
 
 
+![Screenshot from 2024-09-22 03-05-34](https://github.com/user-attachments/assets/d9f19482-95ec-4cf9-8d38-6f6aa2d27cb8)
+
+***
+## Post-Installation Setup
+* Open your web browser and navigate to `http://your-jenkins-server:8080`.
+
+![Screenshot from 2024-09-22 03-07-15](https://github.com/user-attachments/assets/bfde866f-51f1-43a4-bdda-8bc8f093e803)
+
+> [!IMPORTANT]
+
+>  Ensure that port `8080` is open on your Ansible host.
+
+* Retrieve the initial administrator password from the Jenkins server.
+![Screenshot from 2024-09-22 03-13-39](https://github.com/user-attachments/assets/e230a9d5-33c8-4086-a6ce-c603999aa48e)
+
+![Screenshot from 2024-09-22 03-14-53](https://github.com/user-attachments/assets/2b66ff36-efb9-40fd-acd6-b071fb746e2f)
+
+
+***
+## Conclusion 
+
+* This guide illustrates the process of deploying Jenkins in a development environment through Ansible. By adhering to these instructions, you can effectively provision and set up Jenkins within your AWS infrastructure.
 
 
 
