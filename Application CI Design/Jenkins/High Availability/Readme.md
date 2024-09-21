@@ -1,9 +1,9 @@
-# ![jenkins 156x256 (1)](https://github.com/user-attachments/assets/03dbbbb1-945c-4e34-878a-feb7b6c71d80)Features of Jenkins 
+# ![jenkins 156x256 (1)](https://github.com/user-attachments/assets/03dbbbb1-945c-4e34-878a-feb7b6c71d80) Jenkins High Availability
 
 
-| ✍️Author   | 📅Created on|📌 Version | 📝Last updated by   |📅 Last edited on    |
-|-------------|-------------|------------|---------------------|----------------------|
-| Megha Tyagi |  21-09-24   | Version 1  |    Megha Tyagi      | 21-09-24             |
+| ✍️Author   | 📅Created on|📌 Version | 📝Last updated by   |📅 Last edited on |
+|-------------|-------------|------------|---------------------|------------------|
+| Megha Tyagi |  21-09-24   | Version 1  |    Megha Tyagi      | 21-09-24         |
 
 
 
@@ -26,16 +26,22 @@
 # 🔍 Purpose 
 The purpose of this document is to provide a comprehensive overview of key features and functionalities of Jenkins. It aims to explain important aspects such as its extensibility, server-based security features, and ease of distribution. By detailing these features, the document seeks to help users understand how Jenkins can be effectively utilized and customized to meet their Continuous Integration and Continuous Delivery (CI/CD) needs. Additionally, it offers insights into the tools and capabilities Jenkins provides to enhance build automation, manage security, and streamline development workflows.
 
-# 🌟 What is Jenkins?
-Jenkins is a tool that is used for automation. It is mainly an open-source server that allows all the developers to build, test and deploy software. It is written in Java and runs on java only. By using Jenkins we can make a continuous integration of projects(jobs) or end-to-endpoint automation.
+# 🌟 What is High Availibility?
+High availability means that an IT system, component, or application can operate at a high level, continuously, without intervention, for a given time period. High-availability infrastructure is configured to deliver quality performance and handle different loads and failures with minimal or zero downtime.
 
-<img width="354" alt="image" src="https://github.com/user-attachments/assets/a7159fec-899d-4963-9738-14693cd29f01">
+# 🚀 Why should Jenkins is Highly Available?
+In case of a standalone Jenkins setup, if the Jenkins instance fails, all the configuration/jobs data on the node may be lost. Restoring the data/os-image through enterprise backup & restore solutions may not be trivial and may prove to be expensive. There are a few paid and expensive alternatives available that offers a clustered Jenkins setup.
+
+### There are two ways you can have Jenkins in HA mode.
+
+**Jenkins active/passive setup:** Only enterprise Jenkins comes with a supported plugin to have this setup. But most organizations use open-source versions, and his option is out of scope. Also there is an option with HAproxy, however I think its bit of an administrative overhead.
+
+**Jenkins HA setup in autoscaling Group:** Having Jenkins in autoscaling group is workaround to have a higly available Jenkins. It is not a 100% HA solution; however, for any reason if your Jenkins server crasher, another instance will come up within a short period. 
+
+### HA Jenkins Architecture:
 
 
- 
-# 🛠️ Features of Jenkins
 
-![image](https://github.com/user-attachments/assets/247daca6-4e9a-4589-bea9-4ffb796617c3)
 
 ## Let's discuss all the features in detail:
 
