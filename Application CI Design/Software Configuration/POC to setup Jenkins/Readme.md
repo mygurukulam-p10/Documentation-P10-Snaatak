@@ -197,6 +197,8 @@ jenkins_repo_url: "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https
 ```bash
 ansible-playbook -i aws_ec2.yml playbook.yml
 ```
+![Screenshot from 2024-09-22 03-01-44](https://github.com/user-attachments/assets/2701f21a-89ed-4e53-9502-7a099aa34eed)
+
 
 
 
