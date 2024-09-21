@@ -232,5 +232,21 @@ ansible-playbook -i aws_ec2.yml playbook.yml
 * This guide illustrates the process of deploying Jenkins in a development environment through Ansible. By adhering to these instructions, you can effectively provision and set up Jenkins within your AWS infrastructure.
 
 
+## Contact Information
+
+| Name       | Email address     |
+|------------|-------------------|
+| Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
+
+
+## References
+
+| Title                                      | URL                                           |
+|--------------------------------------------|-----------------------------------------------|
+| Ansible documentation           | https://docs.ansible.com/ansible/latest/index.html    |
+| Jenkins Installation    | https://www.jenkins.io/doc/book/installing/linux/  |
+| Dyanmic Inventory               | https://www.youtube.com/watch?v=junPdh2yvbU&t=454s | 
+
+
 
       
