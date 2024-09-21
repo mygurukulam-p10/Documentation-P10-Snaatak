@@ -37,6 +37,8 @@ Here, we harness the efficiency of Ansible, an open-source automation tool strea
 | Disk                     | 15GB                   |
 | OS                       | Ubuntu(22.04)          |
 
+Before creating jenkins ansible role click here [#https://github.com/mygurukulam-p10/Documention/tree/main/Application%20CI%20Design/Software%20Configuration/Ansible%20role%20documentation] to Read about ansible role.
+
 ***
 # Steps 
 
