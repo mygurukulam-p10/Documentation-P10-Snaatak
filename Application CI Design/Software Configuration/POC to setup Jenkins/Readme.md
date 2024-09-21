@@ -65,15 +65,24 @@ ansible-galaxy init <RoleName>
 **Step 5: Tasks**
 1. `main.yml`: This main.yml file is acting as an orchestrator, importing tasks from the `install_jenkins.yml` file. This separation of tasks into different files is a good practice for better organization, especially when dealing with complex configurations or roles.
 
+![Screenshot from 2024-09-22 02-38-38](https://github.com/user-attachments/assets/8567b099-75e9-40a8-b644-4e76c2f3a288)
 
-
-2. `vars` variables: 
+2. `vars` variables:  
 
 ```yaml
 ---
-# defaults file for jenkins
-jenkins_repo_url:  deb https://pkg.jenkins.io/debian-stable binary/ 
-jenkins_repo_key_url:  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key 
+# vars file for jenkins-role
+
+dependencies:
+  - curl
+  - apt-transport-https
+  - gnupg
+
+jenkins_repo_key_url: "https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key"
+
+jenkins_repo_url: "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable/ binary/"
+
+
 ```
 
 > [!NOTE]
@@ -84,55 +93,100 @@ jenkins_repo_key_url:  https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
 
 ```yaml
 ---
-# Update APT cache
-- name: Update APT cache
-  apt:
-    update_cache: yes
+---
 
-# Installs jdk if not installed already
-- name: Ensure jdk is installed
+#Installing required dependancy 
+
+- name: Check if the all dependancy  are installed
   apt:
-    name: default-jre
+    name: "{{ item }}"
     state: present
+  loop: "{{ dependencies}}"
 
-# Adds the Jenkins repository's GPG key to the APT keyring
-- name: Add Jenkins apt key in system.
-  apt_key:
+- name: Add Jenkins apt repository key
+  get_url:
     url: "{{ jenkins_repo_key_url }}"
-    state: present
+    dest: /usr/share/keyrings/jenkins-keyring.asc
+    mode: "0644"
 
-# Add Jenkins apt repository
-- name: Add Jenkins apt repository.
+
+- name: Add jenkins repository
   apt_repository:
     repo: "{{ jenkins_repo_url }}"
     state: present
     update_cache: yes
 
-# Install Jenkins
-- name: Install jenkins 
+
+- name: Install JDK 17
+  apt:
+    name: openjdk-17-jdk
+    state: present
+
+- name: Install Jenkins
   apt:
     name: jenkins
-    state: present 
+    state: present
 
-# Start Jenkins service
-- name: Start service 
+- name: Ensure Jenkins is started and enabled
   service:
-    name: jenkins 
-    state: started 
-    enabled: yes 
+    name: jenkins
+    state: started
+    enabled: true
 
-# Check Jenkins service status
-- name: Check Jenkins service status
+
+- name: Check jenkins service status
   systemd:
     name: jenkins
     state: started
-  ignore_errors: yes
   register: jenkins_service_status
 
-# Display Jenkins service status
-- name: Display Jenkins service status
+
+
+- name: Display jenkins service status
   debug:
     var: jenkins_service_status
+   
+
+- name: Get admin password
+  slurp:
+    src: /var/lib/jenkins/secrets/initialAdminPassword 
+  register: admin_password
+
+- name: debugging admin password
+  debug:
+    var: admin_password['content']
+
+
+- name: setfact admin_password
+  set_fact:
+    jenkins_admin_password: "{{ admin_password['content'] | b64decode | trim }}"
+
+
+- name: check value
+  debug:
+    var: jenkins_admin_password
+
+- name: Install Jenkins plugins
+  jenkins_plugin:
+    name: "{{ item.key }}"
+    # version: "{{ item.version }}"
+    url_username: admin
+    url_password: "{{ jenkins_admin_password }}"
+    url: "http://localhost:8080"
+    state: absent
+  loop:
+    - { key: "gitlab-plugin" }
+  register: install_result
+
+- name: Show installation status
+  debug:
+    var: install_result
+
+- name: Restart Jenkins
+  systemd:
+    name: jenkins 
+    state: restarted
+
 ```
 
 **Step 6: Playbook Execution**
