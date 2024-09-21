@@ -49,7 +49,7 @@ mkdir <dir_name>
 ```
  **Step 2:  AWS EC2 Inventory**
  
-- Create a file called aws_ec2.yaml for the dynamic inventory inside your root folder
+- Create a file called aws_ec2.yaml for the dynamic inventory inside your created folder
 
 ![Screenshot from 2024-09-22 02-18-33](https://github.com/user-attachments/assets/c3e33a95-5c40-48fe-bd01-24d4b765f998)
 
