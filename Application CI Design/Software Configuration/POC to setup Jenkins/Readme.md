@@ -219,7 +219,11 @@ ansible-playbook -i aws_ec2.yml playbook.yml
 * Retrieve the initial administrator password from the Jenkins server.
 ![Screenshot from 2024-09-22 03-13-39](https://github.com/user-attachments/assets/e230a9d5-33c8-4086-a6ce-c603999aa48e)
 
+* Install required plugins and you are set
 ![Screenshot from 2024-09-22 03-14-53](https://github.com/user-attachments/assets/2b66ff36-efb9-40fd-acd6-b071fb746e2f)
+
+* Login to jenkins Dashboard
+![Screenshot from 2024-09-22 03-17-30](https://github.com/user-attachments/assets/0bb30c96-2e7c-48f2-9b6c-ace9149ca5c0)
 
 
 ***
