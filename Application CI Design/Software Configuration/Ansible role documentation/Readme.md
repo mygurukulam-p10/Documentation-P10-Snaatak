@@ -95,8 +95,6 @@ Conditionals can be used to control role execution based on specific criteria.
 - `include_role`: Used for dynamic inclusion of roles
 - `import_role`: Used for static inclusion at playbook parsing time
 
-## Troubleshooting and Tips
-
 ## Advantages and Disadvantages
 
 | Advantages | Disadvantages |
