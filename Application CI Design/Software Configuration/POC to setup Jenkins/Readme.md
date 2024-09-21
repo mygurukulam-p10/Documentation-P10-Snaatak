@@ -53,13 +53,14 @@ mkdir <dir_name>
 
 **Step 3: Create playbook**
 * This file is defining a set of tasks to be executed on hosts belonging to the _jenkins_server group.
+* 
   ![Screenshot from 2024-09-22 02-26-48](https://github.com/user-attachments/assets/e5fd8f2b-15c0-4a42-a458-7904270ffd70)
 
 
 **step 4: Create ansible role in directory we have created**
 ```
 ansible-galaxy init <RoleName>
-``
+```
 ![Screenshot from 2024-09-22 02-19-09](https://github.com/user-attachments/assets/a34204b4-3b45-4ca8-9723-c3927ac47683)
 
 **Step 5: Tasks**
