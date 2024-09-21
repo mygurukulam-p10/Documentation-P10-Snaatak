@@ -68,7 +68,7 @@ ansible-galaxy init <RoleName>
 
 ![Screenshot from 2024-09-22 02-38-38](https://github.com/user-attachments/assets/8567b099-75e9-40a8-b644-4e76c2f3a288)
 
-2. `vars` variables:  
+2. `vars.yaml`:  The vars/main.yml file in an Ansible role is where variables specific to the role are defined.
 
 ```yaml
 ---
