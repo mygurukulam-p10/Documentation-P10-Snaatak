@@ -7,11 +7,10 @@
 4. [Creating and Using Roles](#creating-and-using-roles)
 5. [Best Practices for Role Development](#best-practices-for-role-development)
 6. [Advanced Role Concepts](#advanced-role-concepts)
-7. [Troubleshooting and Tips](#troubleshooting-and-tips)
-8. [Advantages and Disadvantages](#advantages-and-disadvantages)
-9. [Conclusion](#conclusion)
-10. [Contact Information](#contact-information)
-11. [References](#references)
+7. [Advantages and Disadvantages](#advantages-and-disadvantages)
+8. [Conclusion](#conclusion)
+9. [Contact Information](#contact-information)
+10. [References](#references)
 
 ## Purpose
 
@@ -97,12 +96,6 @@ Conditionals can be used to control role execution based on specific criteria.
 - `import_role`: Used for static inclusion at playbook parsing time
 
 ## Troubleshooting and Tips
-
-1. **Role Path**: Ensure roles are in the correct path or specified in `ansible.cfg`
-2. **Variable Precedence**: Understand Ansible's variable precedence to avoid conflicts
-3. **Debugging**: Use verbose output for troubleshooting
-4. **Linting**: Use `ansible-lint` to check roles for best practices
-5. **Ansible Galaxy**: Utilize Ansible Galaxy for sharing and discovering roles
 
 ## Advantages and Disadvantages
 
