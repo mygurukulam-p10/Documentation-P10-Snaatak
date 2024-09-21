@@ -68,11 +68,8 @@ Security: Bytecode is not human-readable, which can provide a layer of security 
 
 ## ⚙️ Pre-requisites
 
-The Salary API requires the following dependencies for operation:
-
-- [ScyllaDB](https://www.scylladb.com/) - Database storage.
-- [Redis](https://redis.io/) - Cache manager.
-- [Maven](https://maven.apache.org/) - Build automation tool.
+- java
+- Maven
 
 ## System Requirements
 | Hardware Specifications | Minimum Recommendation  |
@@ -97,12 +94,6 @@ The Salary API requires the following dependencies for operation:
 |---------|------------|--------------------------|
 | **Java** |  17 for Spring Boot 3.1.1        | Required to run the built Java application. |
 
-## 🌐 Important Ports
-
-| 🔌 Inbound Traffic | 📄 Description           |
-|--------------------|--------------------------|
-| **6379**           | Used by Redis            |
-| **9042**           | Used by ScyllaDB / migrate |
 
 ## 📥 Step-by-step Installation
 
