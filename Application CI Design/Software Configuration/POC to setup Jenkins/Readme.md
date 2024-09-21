@@ -40,47 +40,10 @@ Here, we harness the efficiency of Ansible, an open-source automation tool strea
 ***
 # Steps 
 
-**Step 1: Dynamic Inventory Setup** 
-
-```yaml
-[defaults]
-
-# some basic default values...
-
-
-# Use AWS EC2 dynamic inventory for managing hosts
-inventory      = aws_ec2.yml
-
-# Disable SSH host key checking for convenience.
-host_key_checking = False
-
-# Specify the path to the private key file for SSH connections.
-private_key_file = /path/to/private_key
-
-Sets the remote user for SSH connections to 'ubuntu'
-remote_user = ubuntu
-
-[inventory]
-# enable inventory plugins, default: 'host_list', 'script', 'auto', 'yaml', 'ini', 'toml'
-enable_plugins = aws_ec2, host_list, virtualbox, yaml, constructed, script, auto, ini, toml
-```
-> [!NOTE]
->Ensure that for dynamic inventory you have the necessary AWS credentials configured in AWS CLI.
+**Step 1: Create ansible role **
 
  **Step 2:  AWS EC2 Inventory**
 
-```
-plugin: aws_ec2
-regions:
-  - ap-south-1
-
-filters:
-  "tag:Name": "jenkins-server"
-
-keyed_groups:
-  - prefix: ''
-    key: tags.Name
-```
 
 
       
