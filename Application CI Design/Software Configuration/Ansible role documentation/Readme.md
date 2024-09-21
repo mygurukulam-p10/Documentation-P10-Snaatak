@@ -1,5 +1,10 @@
 # Ansible Roles: Comprehensive Documentation
 
+| Author      | Created on  | Version    | Last updated by | Last edited on |
+|-------------|-------------|------------|-----------------|----------------|
+| Amit Nagar  | 20-09-24    | version 1  | Amit Nagar      | 22-09-24       |
+
+
 ## Table of Contents
 1. [Purpose](#purpose)
 2. [Introduction to Ansible Roles](#introduction-to-ansible-roles)
