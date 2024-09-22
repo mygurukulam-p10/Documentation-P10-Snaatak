@@ -36,6 +36,7 @@ Here, will see how to set up Jenkins, how to create pipelines, nodes and make Je
 ### There is two thing:
 
 **Jenkins master-slave setup,**
+
 **Jenkins HA(High Availability)**
 
 ## 1. What is Master-slave configuration?
@@ -43,8 +44,54 @@ The term “master-slave” describes the high availability of a Jenkins node, s
 
 ![1_AyAzlF4KshptPF58y0qSiA](https://github.com/user-attachments/assets/6bda7be1-f17f-48d1-85eb-d3fef24a8151)
 
+## 2. What is Jenkins HA ?
+Here, “high availability” for Jenkins refers to the availability of the Jenkins instance; however, in the unfortunate scenario that your Jenkins server crashes and something goes wrong with the Jenkins instance, another instance will quickly arise and contain all of the data from the primary Jenkins instance. In to this blog, autoscaling groups can be used to achieve Jenkins HA.
 
+<img width="550" alt="Untitled" src="https://github.com/user-attachments/assets/cb231fcd-6a36-42a0-932f-90189bea2c82">
 
+Now, let’s start to set up the master-slave architecture and highly available Jenkins,
+
+### Steps for setting up the Jenkins HA:
+**Step-1 :** Create an EC2 instance on requirement bases for Jenkins and create an security group allow the traffic on port 22 for SSH and port 8080 for Jenkins and attach those to the instance.
+
+**Step-2 :** Login to the instance and configure the Jenkins in that instance using following steps:
+
+**1. Install Java:** Installing Java on the Ubuntu instance is the first step, as Jenkins needs it to function.
+
+```
+sudo apt-get update
+sudo apt-get install openjdk-11-jdk
+```
+**2. Add Jenkins repository:** The next set of instructions to run is to add the Jenkins repository to the instance.
+
+```
+sudo curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+sudo echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+```
+
+**3. Install Jenkins:** Now you can install Jenkins by running the following command:
+
+```
+sudo apt-get update
+sudo apt-get install jenkins
+```
+**4. Start Jenkins:** Use the following command to launch and enable the Jenkins service after it has been installed.
+
+```
+sudo systemctl start jenkins
+sudo systemctl status jenkins
+```
+**5. Configure Jenkins:**
+By using your EC2 instance’s public IP address and the default port 8080 (http://ip_address:8080), you may access the Jenkins web interface.
+After completing the Jenkins setup wizard by following the on-screen directions, you’ll be asked to input the initial admin password, which is located in the file /var/lib/jenkins/secrets/initialAdminPassword.
+
+**Step-3 :** After login to the Jenkins instance go to the Manage Jenkins section and then go to the nodes where you can see there is already a pre-built node name as built-in node which is master node.
+
+![Screenshot 2024-09-22 130708](https://github.com/user-attachments/assets/c9c92477-39a6-4978-9f3a-9353adea6430)
+
+**Step-4 :** Now create one slave node,
+
+-> Click on the new node then write a name and select the type as permanent agent and then create a node.
 
 
 
