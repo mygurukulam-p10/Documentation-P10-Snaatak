@@ -1,5 +1,9 @@
 # SSL Certificate Documentation
 
+| Author      | Created on  | Version    | Last updated by | Last edited on |
+|-------------|-------------|------------|-----------------|----------------|
+| Amit Nagar  | 06-09-24    | version 1  | Amit Nagar      | 20-09-24       |
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Why SSL Certificates?](#why-ssl-certificates)
@@ -88,4 +92,10 @@ The best SSL certificate provider depends on your specific needs:
 
 Always consider factors such as budget, required validation level, support needs, and renewal process when making your decision.
 
+
+## Contact Information
+
+| Name       | Email address     |
+|------------|-------------------|
+| Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
 
