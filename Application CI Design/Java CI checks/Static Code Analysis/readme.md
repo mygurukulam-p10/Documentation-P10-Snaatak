@@ -381,34 +381,104 @@ public class Message {
 
 
 ![e5](https://github.com/user-attachments/assets/10f5bd58-deca-4341-8c70-1989337d7f45)
-**ADD package-info.java** here src/main/java/com/opstree/microservice/salary/model
+**ADD package-info.java** here src/main/java/com/opstree/microservice/salary/repository
 ```
 /**
- * This package contains service classes for managing salary information.
+ * This package contains repositories for managing employee salary data.
  */
-package com.opstree.microservice.salary;
+package com.opstree.microservice.salary.repository;
 ```
 
 - **remove unused import**
 - **ADD Javadoc Coment**
+- **remove 80 line characters**
 - **Final File**
 ```
+package com.opstree.microservice.salary.repository;
 
+import com.opstree.microservice.salary.model.Employee;
+import java.util.UUID;
+import org.springframework.data.cassandra.repository.CassandraRepository;
+import org.springframework.data.cassandra.repository.Query;
+
+/**
+ * This interface contains repositories for managing employee salary data.
+ */
+public interface EmployeeRepository
+        extends CassandraRepository<Employee, UUID> {
+
+    /**
+     * Finds an employee by their ID as a string.
+     *
+     * @param id the ID of the employee as a string
+     * @return the Employee object if found, otherwise null
+     */
+    @Query("SELECT * FROM employee_salary WHERE id = ?0")
+    Employee findByIdAsString(String id);
+}
 ```
 ![e10](https://github.com/user-attachments/assets/23bb63f8-92b3-40e4-8f2a-b456d4becb61)
-**ADD package-info.java** here src/main/java/com/opstree/microservice/salary/model
+**ADD package-info.java** here src/main/java/com/opstree/microservice/salary/contollers
 ```
 /**
- * This package contains service classes for managing salary information.
+ * This package contains classes related to the salary management APIs.
  */
-package com.opstree.microservice.salary;
+package com.opstree.microservice.salary.controller;
 ```
 
 - **remove unused import**
 - **ADD Javadoc Coment**
 - **Final File**
 ```
+package com.opstree.microservice.salary.service;
+import com.opstree.microservice.salary.model.Employee;
+import com.opstree.microservice.salary.repository.SpringDataSalaryRepository;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
+import java.util.List;
+import java.util.Optional;
 
+/**
+ * Service class for handling salary-related operations.
+ */
+@Service
+@RequiredArgsConstructor
+public class SpringDataSalaryService {
+
+    /**
+     * Repository for accessing salary data.
+     */
+    private final SpringDataSalaryRepository springDataSalaryRepository;
+
+    /**
+     * Saves a new employee salary record.
+     * @param employee The employee object to be saved
+     * @return The saved employee object
+     */
+    public Employee saveSalary(final Employee employee) {
+        return springDataSalaryRepository.save(employee);
+    }
+
+    /**
+     * Retrieves all employee salary records.
+     * @return A list of all employee salary records
+     */
+    public List<Employee> getAllSalaries() {
+        return springDataSalaryRepository.findAll();
+    }
+
+    /**
+     * Retrieves an employee salary record by ID.
+     * @param id The ID of the employee
+     * @return An Optional containing the employee if found,
+              or empty if not found.
+     */
+    public Optional<Employee> getSalaryById(final Long id) {
+        return springDataSalaryRepository.findById(id);
+    }
+
+    // Additional methods can be added as needed...
+}
 ```
 
 
