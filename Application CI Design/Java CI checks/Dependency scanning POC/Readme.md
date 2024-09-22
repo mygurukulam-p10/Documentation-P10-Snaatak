@@ -85,6 +85,73 @@ mvn dependency-check:check
 
 ![Screenshot from 2024-09-23 01-36-59](https://github.com/user-attachments/assets/400afdff-462b-436d-b15d-ad213019f60a)
 
+***
+## Dependency Suppression
+* Suppression of a vulnerability in a dependency is typically done when you have assessed the specific context of your application and determined that a reported vulnerability doesn't pose a significant risk in your particular scenario.
+
+Here's a step-by-step guide on how to suppress a vulnerability using the OWASP Dependency-Check tool:
+
+**Step 1: Locate the Vulnerability** - Identify the specific vulnerability in your project by running the Dependency-Check tool. The tool will generate a report highlighting vulnerabilities in your dependencies.
+
+**Step 2: Create a Suppression XML File** - Create a suppression XML file adhering to the OWASP Dependency-Check guidelines. This XML file will define which vulnerabilities should be ignored during subsequent scans. The file name can be anything (eg., `suppression.xml`, `dependency-suppression.xml`)
+
+*Example suppression.xml:*
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
+   <suppress>
+      <notes><![CDATA[
+      file name: tomcat-embed-core-10.1.10.jar
+      ]]></notes>
+      <packageUrl regex="true">^pkg:maven/org\.apache\.tomcat\.embed/tomcat-embed-core@.*$</packageUrl>
+      <cve>CVE-2023-44487</cve>
+   </suppress>
+</suppressions>
+```
+
+
+**Step 3:  Save the suppression XML file in a location accessible to your project.
+
+**Step 4: Add Configuration to pom.xml**
+* Open your project's pom.xml file and locate the <plugins> section. Add the following configuration for the dependency-check-maven plugin:
+
+```xml
+            <plugin>
+                <groupId>org.owasp</groupId>
+                <artifactId>dependency-check-maven</artifactId>
+                <version>10.0.4</version>
+                <configuration>
+                    <suppressionFile>/path/to/dependency-suppression.xml</suppressionFile>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+```
+
+* Replace /path/to/dependency-suppression.xml with the actual path to your suppression file.
+
+**Step 5: Execute Dependency-Check** - Rerun the Dependency-Check tool as part of your Maven build. The suppression file will be automatically included, and the specified vulnerabilities will be ignored.
+
+**Step 6: Confirm Suppression** - Review the Dependency-Check report to ensure that the suppressed vulnerability no longer appears in the list of identified security issues.
+
+*Example Output:* 
+
+* 
+
+
+***
+## Conclusion
+
+* In conclusion, integrating OWASP Dependency-Check into your development process offers a proactive approach to identifying and mitigating potential security risks associated with third-party dependencies. By regularly scanning and analyzing your project dependencies, you can stay ahead of known vulnerabilities, ensuring the overall security and reliability of your software applications
+
+
 
 
 ## Contact Information
