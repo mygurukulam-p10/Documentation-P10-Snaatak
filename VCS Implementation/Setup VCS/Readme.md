@@ -72,7 +72,7 @@ git config --global user.name "Your Name"
 git config --global user.email "your_email@example.com"
 ```
 
-## 4. Creating and Managing GitHub Repositories
+## 4. ✨ Creating and Managing GitHub Repositories
 
 ### 1. 📁 Create a New Repository
 
