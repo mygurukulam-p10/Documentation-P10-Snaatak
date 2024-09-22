@@ -14,6 +14,9 @@
 - [Advantages of Bugs Analysis](#advantages-of-bugs-analysis)
 - [Proof of Concept (POC)](#proof-of-concept-poc)
 - [Best Practices](#best-practices)
+- [Conclusion](#conclusion)
+- [Contact Information](#contact-information)
+- [References](#references)
 
 ### Introduction
 Continuous Integration (CI) is an essential part of modern software development. It ensures that code changes are automatically tested and validated before they are integrated into the main branch, Running automated CI checks helps identify issues such as bugs, code quality violations, and performance bottlenecks early in the development lifecycle. One of the critical aspects of Java CI checks is Bugs Analysis, which involves identifying, analyzing, and resolving bugs in the code to ensure software quality and reliability.
@@ -47,7 +50,6 @@ Bugs analysis in CI is the process of automatically detecting code defects (bugs
 | GitHub Actions  | Native GitHub integration, extensive community workflows | Seamless GitHub integration, easy to use   | Limited to GitHub repositories                   |
 | SonarQube       | Comprehensive static code analysis, supports multiple languages | Detailed code quality reports             | Requires setup and maintenance                   |
 
-### Proof of Concept (POC)
 
 ### Advantages of Bugs Analysis
 | **Advantage**                | **Description**                                                                                       |
@@ -58,5 +60,23 @@ Bugs analysis in CI is the process of automatically detecting code defects (bugs
 | Security        | Some tools also detect security vulnerabilities, ensuring the application is robust against potential attacks.      |
 | Increased Confidence          | Regular bug analysis increases team confidence in the codebase, facilitating faster releases.        |
 
+### Proof of Concept (POC)
 
+### Best Practices
+| **Best Practice**           | **Description**                                                              |
+|-----------------------------|------------------------------------------------------------------------------|
+| Frequent Commits            | Commit changes frequently to detect issues early.                           |
+| Automated Testing           | Ensure all tests are automated and run on every commit.                     |
+| Code Reviews                | Implement mandatory code reviews to maintain code quality.                  |
+| Static Code Analysis        | Integrate tools like SonarQube to continuously monitor code quality.       |
+| Documentation               | Maintain comprehensive documentation for all CI processes.                  |
 
+### Conclusion
+Implementing Java CI checks with a focus on bug analysis is crucial for maintaining high code quality and ensuring a smooth development process. By leveraging tools like GitHub Actions and SonarQube, the salary-api repository can benefit from automated testing, continuous feedback, and improved collaboration. Adopting these practices will lead to more robust and maintainable software.
+
+### Contact Information 
+|Name|Email Address|
+|:---:|:---:|
+|Aayush|aayush.gaur.snaatak@mygurukulam.co|
+
+## References 
