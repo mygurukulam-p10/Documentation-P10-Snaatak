@@ -83,7 +83,8 @@ mvn dependency-check:check
 * Navigate to the build artifacts or workspace. Locate the generated Dependency-Check reports in the `target` folder. They are typically available in multiple formats (JSON, HTML, XML). Ensure that vulnerabilities are correctly identified. If you configured multiple report formats , explore each format to understand the data presentation.
 
 
-![Screenshot from 2024-09-23 01-35-08](https://github.com/user-attachments/assets/1c59ec07-aeb6-4c67-b546-a69ea91a6b89)
+![Screenshot from 2024-09-23 01-36-59](https://github.com/user-attachments/assets/400afdff-462b-436d-b15d-ad213019f60a)
+
 
 
 ## Contact Information
