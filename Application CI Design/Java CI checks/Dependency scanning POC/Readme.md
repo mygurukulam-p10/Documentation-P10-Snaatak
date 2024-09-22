@@ -141,9 +141,7 @@ Here's a step-by-step guide on how to suppress a vulnerability using the OWASP D
 
 **Step 6: Confirm Suppression** - Review the Dependency-Check report to ensure that the suppressed vulnerability no longer appears in the list of identified security issues.
 
-*Example Output:* 
 
-* 
 
 
 ***
