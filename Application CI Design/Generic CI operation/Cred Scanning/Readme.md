@@ -51,3 +51,12 @@ If any of these are found in the code, they could be a security risk because att
 | **AWS Macie**   | Finds sensitive data in AWS storage             | Works best with AWS                  | Only works in AWS             |
 | **SpectralOps** | Customizable with APIs                          | Works well with large projects       | Hard to set up for small teams |
 
+### Advantages of Credential Scanning in CI
+
+| Advantage            | Description                                                                                          |
+|----------------------|------------------------------------------------------------------------------------------------------|
+| **Better Security**   | By catching credentials early, you prevent security breaches later on.                               |
+| **Fast and Automatic**| The scanning is done automatically, meaning developers don’t need to check manually every time.      |
+| **Meet Standards**    | Many industries require businesses to secure data properly, and credential scanning helps with this.  |
+| **Avoid Data Leaks**  | By removing sensitive data before code is published, you avoid exposing it to hackers.               |
+
