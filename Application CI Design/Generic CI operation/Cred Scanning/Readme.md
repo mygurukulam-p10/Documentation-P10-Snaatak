@@ -99,7 +99,7 @@ If any of these are found in the code, they could be a security risk because att
 | **Gitleaks** | Latest         | Executes credential scanning on the repository.  |
 
 
-### Best Practices for Credential Scanning
+### Best Practices
 
 | Best Practice           | Description                                                                                      |
 |-------------------------|--------------------------------------------------------------------------------------------------|
