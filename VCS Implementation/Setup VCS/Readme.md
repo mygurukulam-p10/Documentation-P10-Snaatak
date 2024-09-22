@@ -35,7 +35,9 @@ The purpose of this document is to guide users in setting up and managing a vers
 | Git   | 2.34    | Distributed version control system          |
 | GitHub Account | N/A     | Platform for hosting Git repositories |
 
-### 1. ✨ Create a GitHub Account
+## 3. ✨ Setting Up GitHub Version Control
+
+### 1. ⚙️ Create a GitHub Account
 
 #### 🖥️ UI Setup:
 - Go to [GitHub](https://github.com).
