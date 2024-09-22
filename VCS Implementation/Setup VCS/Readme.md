@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-1. [Purpose of the Document](#purpose-of-the-document)
+1. [Purpose of the Document](#1-purpose-of-the-document)
 2. [Prerequisites](#prerequisites)
    - [GitHub Account](#github-account)
    - [Git Installation](#git-installation)
