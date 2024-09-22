@@ -124,7 +124,7 @@ java -jar agent.jar -url http://54.225.4.205:8080/ -secret 1c3ad6f1459b28508907c
 ![Screenshot 2024-09-22 152201](https://github.com/user-attachments/assets/b19247ba-5b22-4b76-92bd-2572c427b65f)
 
 ### ⚡Step-5 : 
-If you want to run selected jobs on the agent node so for that in the agent node configuration write down the label for the agent node.
+**If you want to run selected jobs on the agent node so for that in the agent node configuration write down the label for the agent node.**
 
 <img width="564" alt="next" src="https://github.com/user-attachments/assets/f3c3f358-55db-4d66-a532-ee6393fb703c">
 
@@ -151,13 +151,16 @@ Then, create an Auto scaling group using a launch template on requirement bases,
 
 ![Screenshot 2024-09-22 160426](https://github.com/user-attachments/assets/754c8747-b047-4953-9250-5d0a1c63a8d6)
 
+
 - **Target group:**
 Check the health status of the Jenkins instance in the target group; both instances should be healthy.
 
 ![Screenshot 2024-09-22 155822](https://github.com/user-attachments/assets/14655f4d-4ed3-4ce2-a66c-66d80d2ed470)
 
+
 - **Load balancer:**
 ![Screenshot 2024-09-22 160028](https://github.com/user-attachments/assets/ab3c4803-6e88-4a07-b7d6-c8d9c309374c)
+
 
 ## ⚡Step-9 : 
 Then, stop the primary instance and see if the load would be transferred to the secondary.
