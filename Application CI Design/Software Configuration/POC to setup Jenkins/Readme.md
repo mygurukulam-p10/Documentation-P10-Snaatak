@@ -25,7 +25,9 @@ This role is designed to automate the installation and configuration of Jenkins 
 
 ## Ansible and Jenkins
 
-Here, we harness the efficiency of Ansible, an open-source automation tool streamlining configuration management and application deployment. In parallel, Jenkins excels in facilitating continuous integration and delivery, ensuring a seamless and automated pipeline for software development processes.
+Here, we harness the efficiency of Ansible, an open-source automation tool streamlining configuration management and application deployment. 
+
+In parallel, Jenkins excels in facilitating continuous integration and delivery, ensuring a seamless and automated pipeline for software development processes.
 
 
 
