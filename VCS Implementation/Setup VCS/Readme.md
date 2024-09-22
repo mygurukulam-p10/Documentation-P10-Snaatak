@@ -29,7 +29,7 @@
 7. [Version Control Best Practices](#version-control-best-practices)
 8. [Conclusion](#conclusion)
 
-## 1. Purpose
+## 1. Purpose of the Document
 
 As We are moving forward in our sprints. We will have micro repositories that will show the team collaborations, so we will be moving forward with Github which will be more useful for our team and maintainence of repositories.
 
