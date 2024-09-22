@@ -228,7 +228,7 @@ public final class SalaryApplication {
     }
 }
 ```
-![e5](https://github.com/user-attachments/assets/10f5bd58-deca-4341-8c70-1989337d7f45)
+![e9](https://github.com/user-attachments/assets/fc3480ea-7805-4430-b039-bce0f9970dc6)
 **ADD package-info.java** here src/main/java/com/opstree/microservice/salary/model
 ```
 /**
@@ -393,7 +393,8 @@ package com.opstree.microservice.salary;
 ```
 
 ```
-![e9](https://github.com/user-attachments/assets/fc3480ea-7805-4430-b039-bce0f9970dc6)
+
+![e5](https://github.com/user-attachments/assets/10f5bd58-deca-4341-8c70-1989337d7f45)
 **ADD package-info.java** here src/main/java/com/opstree/microservice/salary/model
 ```
 /**
