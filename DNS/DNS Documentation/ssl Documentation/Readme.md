@@ -99,3 +99,11 @@ Always consider factors such as budget, required validation level, support needs
 |------------|-------------------|
 | Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
 
+
+| Topic                       | Description                                                                 | Reference Link                                                                                   |
+|-----------------------------|-----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| SSL Certificate Overview     | Understanding what SSL certificates are and how they work.                  | [SSL Certificate Guide](https://www.ssl.com/faqs/what-is-an-ssl-certificate/)                    |
+| Types of SSL Certificates    | Information about different types of SSL certificates (DV, OV, EV).         | [Types of SSL Certificates](https://www.globalsign.com/en/blog/dv-vs-ov-vs-ev)                   |
+| How SSL Works                | Detailed explanation of the SSL/TLS handshake and encryption process.        | [How SSL Works](https://www.cloudflare.com/learning/ssl/how-ssl-works/)                          |
+| Installing SSL Certificates  | Guide to installing SSL certificates on various platforms (Apache, Nginx).  | [SSL Installation Guide](https://www.digicert.com/kb/csr-ssl-installation.htm)                   |
+
