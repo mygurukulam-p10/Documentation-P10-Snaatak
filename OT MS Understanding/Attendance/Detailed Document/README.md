@@ -2,7 +2,7 @@
 
 | Author      | Created on  | Version    | Last updated by | Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-| Komal       | 06-09-24    | Version 1  | Komal Jaiswal   | 19-09-24       |
+| Komal       | 06-09-24    | Version 1  | Komal Jaiswal   | 22-09-24       |
 
 This README provides an overview of the technology stack used in our Attendance API project. Each section includes features, pros and cons, and relevant resources.
 
@@ -72,13 +72,6 @@ In Attendance Application We will use Liquibase for schema Management and Rollba
 - Offers diff capabilities to compare database schemas
 - Integrates with various build and CI/CD tools
 
-| Pros                                           | Cons                                                |
-|------------------------------------------------|-----------------------------------------------------|
-| Database agnostic, supports a wide range of databases | Can have a steeper learning curve compared to simpler tools |
-| Provides a clear history of database changes   | May add complexity to smaller projects              |
-| Enables easier collaboration among team members | Performance can be an issue with very large change sets |
-| Supports complex migration scenarios           |                                                     |
-| Integrates well with Java ecosystem            |                                                     |
 
 ![image](https://github.com/user-attachments/assets/7a64e8b6-0790-4278-868e-02c67e30c8ea)
 
@@ -102,12 +95,6 @@ Poetry is used for environment management in attendance API , For different depe
 - Supports building and publishing packages
 - Integrates with pyproject.toml for project metadata
 
-| Pros                                           | Cons                                             |
-|------------------------------------------------|--------------------------------------------------|
-| Simplifies Python project setup and dependency management | May have a learning curve for developers used to pip and requirements.txt |
-| Ensures consistent environments across development and production | Some compatibility issues with older Python versions |
-| Improves project reproducibility               | Limited support in some CI/CD platforms compared to pip |
-| Offers an intuitive CLI for managing dependencies |                                                 |
 
 ![image](https://github.com/user-attachments/assets/9966e874-e404-474d-a480-fb5f606ceb30)
 
@@ -128,17 +115,13 @@ It is used for the Visualization of Data we are storing and getting.
 - Supports both RESTful and SOAP web services
 - Customizable with themes and plugins
 
-| Pros                                         | Cons                                                  |
-|----------------------------------------------|-------------------------------------------------------|
-| Easy to set up and integrate with Python-based APIs | Can add extra steps to the API development workflow    |
-| Improves developer experience with interactive API exploration | May expose internal API details if not configured properly |
-| Supports live testing of API endpoints       | Limited styling options compared to custom documentation solutions |
-| Automatically updates with API changes       |                                                       |
 
 ### Relevant Resources:
 - [Swagger UI Documentation](https://swagger.io/tools/swagger-ui/)
 - [Getting Started with Swagger UI](https://swagger.io/docs/open-source-tools/swagger-ui/usage/installation/)
 - [Best Practices for Using Swagger UI](https://swagger.io/resources/articles/best-practices-in-api-documentation/)
+
+![swagger](https://github.com/user-attachments/assets/27e8014e-6181-4537-86b9-a82f6779a345)
 
 
 ## 8.Conclusion
