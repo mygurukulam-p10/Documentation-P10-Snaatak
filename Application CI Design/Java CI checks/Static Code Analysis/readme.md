@@ -151,7 +151,8 @@ public class SpringDataSalaryService {
 
 
 ![e4](https://github.com/user-attachments/assets/f1377a82-1729-446f-91ba-5e667a3a66be)
-**ADD package-info.java** here src/main/java/com/opstree/microservice/salary
+
+#**ADD package-info.java** here src/main/java/com/opstree/microservice/salary
 ```
 /**
  * This package contains service classes for managing salary information.
@@ -227,13 +228,97 @@ public final class SalaryApplication {
 }
 ```
 ![e5](https://github.com/user-attachments/assets/10f5bd58-deca-4341-8c70-1989337d7f45)
+**ADD package-info.java** here src/main/java/com/opstree/microservice/salary/model
+```
+/**
+ * This package contains service classes for managing salary information.
+ */
+package com.opstree.microservice.salary;
+```
+
+- **remove unused import**
+- **ADD Javadoc Coment**
+- **Final File**
+```
+
+```
 
 ![e6](https://github.com/user-attachments/assets/7bc5f3a1-6f90-4e48-9c41-416287bd59ac)
+**ADD package-info.java** here src/main/java/com/opstree/microservice/salary/model
+```
+/**
+ * This package contains service classes for managing salary information.
+ */
+package com.opstree.microservice.salary;
+```
+
+- **remove unused import**
+- **ADD Javadoc Coment**
+- **Final File**
+```
+
+```
 
 ![e7](https://github.com/user-attachments/assets/3e2bbdfd-2b21-4bce-90a8-7b73823033d9)
+**ADD package-info.java** here src/main/java/com/opstree/microservice/salary/model
+```
+/**
+ * This package contains service classes for managing salary information.
+ */
+package com.opstree.microservice.salary;
+```
+
+- **remove unused import**
+- **ADD Javadoc Coment**
+- **Final File**
+```
+
+```
 ![e8](https://github.com/user-attachments/assets/70c6092a-b756-452f-a0a4-2eaa52cfc2f6)
+**ADD package-info.java** here src/main/java/com/opstree/microservice/salary/model
+```
+/**
+ * This package contains service classes for managing salary information.
+ */
+package com.opstree.microservice.salary;
+```
+
+- **remove unused import**
+- **ADD Javadoc Coment**
+- **Final File**
+```
+
+```
 ![e9](https://github.com/user-attachments/assets/fc3480ea-7805-4430-b039-bce0f9970dc6)
+**ADD package-info.java** here src/main/java/com/opstree/microservice/salary/model
+```
+/**
+ * This package contains service classes for managing salary information.
+ */
+package com.opstree.microservice.salary;
+```
+
+- **remove unused import**
+- **ADD Javadoc Coment**
+- **Final File**
+```
+
+```
 ![e10](https://github.com/user-attachments/assets/23bb63f8-92b3-40e4-8f2a-b456d4becb61)
+**ADD package-info.java** here src/main/java/com/opstree/microservice/salary/model
+```
+/**
+ * This package contains service classes for managing salary information.
+ */
+package com.opstree.microservice.salary;
+```
+
+- **remove unused import**
+- **ADD Javadoc Coment**
+- **Final File**
+```
+
+```
 
 
 Security Vulnerabilities: 88
