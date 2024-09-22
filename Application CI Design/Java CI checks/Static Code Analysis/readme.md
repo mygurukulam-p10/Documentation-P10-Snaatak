@@ -86,7 +86,7 @@ Several tools are available for static code analysis in Java, each with unique f
 ![e1](https://github.com/user-attachments/assets/92864196-b869-4123-8f14-002492226735)
 
 ![e2](https://github.com/user-attachments/assets/ea380ede-2922-4c3c-acd0-4ef163b03eaf)
-# **ADD package-info.java**
+**ADD package-info.java**
 ```
 /**
  * This package contains classes related to the salary management APIs.
@@ -95,8 +95,8 @@ package com.opstree.microservice.salary.controller;
 ```
 
 **remove unused import**
-**ADD Javadoc Coment**
-**Final File**
+- **ADD Javadoc Coment**
+- **Final File**
 ```
 package com.opstree.microservice.salary.service;
 import com.opstree.microservice.salary.model.Employee;
