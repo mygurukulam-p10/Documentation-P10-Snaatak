@@ -21,7 +21,7 @@
 Static code analysis is a method of debugging that analyzes source code before it runs. In Java development, static analysis plays a crucial role in identifying potential errors, enforcing coding standards, and improving overall code quality.
 
 ## What is Static Code Analysis?
-Static code analysis involves examining the source code of a program without executing it. This analysis is performed by tools that scan the codebase to find potential issues, such as syntax errors, bugs, security vulnerabilities, and adherence to coding standards. Unlike dynamic analysis, which evaluates the program during execution, static analysis helps developers catch problems early in the development cycle.
+Static code analysis involves examining the source code of a program without executing it. This analysis is performed by tools that scan the codebase to find potential issues, such as syntax errors, bugs, security vulnerabilities, and observation to coding standards. Unlike dynamic analysis, which evaluates the program during execution, static analysis helps developers catch problems early in the development cycle.
 
 ## Why Use Static Code Analysis?
 | Feature                         | Description                                                                                  |
