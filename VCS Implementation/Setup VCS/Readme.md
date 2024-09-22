@@ -62,3 +62,12 @@ sudo apt update
 sudo apt install git
 ```
 
+---
+
+### 2. ⚙️ Configure Git 
+
+#### 🖥️ CLI Setup 
+```
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
+```
