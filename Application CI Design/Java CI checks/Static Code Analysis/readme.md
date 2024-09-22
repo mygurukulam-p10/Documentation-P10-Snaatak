@@ -101,6 +101,12 @@ Several tools are available for static code analysis in Java, each with unique f
 Security Vulnerabilities: 88
 
 ## Best Practices
+| Best Practice                 | Description                                                               |
+|-------------------------------|---------------------------------------------------------------------------|
+| **Integrate Early**           | Start static analysis early in the development cycle to catch issues sooner. |
+| **Automate**                  | Incorporate static analysis into CI/CD pipelines for continuous feedback.  |
+| **Review Regularly**          | Regularly review and address findings from static analysis reports.        |
+| **Customize Rules**           | Tailor rules to fit project needs and team standards for relevance.        |
 
 
 ## Recommendations and Conclusion
@@ -113,4 +119,5 @@ Security Vulnerabilities: 88
 ## References
 | Links | Descriptions|
 |------|---------------------|
-|  |  |
+|  https://checkstyle.sourceforge.io/ | Checkstyle |
+|https://www.bitshifted.co/blog/java-static-code-analysis-tools/Static Code Analysis Tools||
