@@ -93,6 +93,7 @@ echo "# Your Repository Title" >> README.md
 git add README.md
 git commit -m "Initial commit"
 ```
+---
 
 ### 2. 🔗 Link Local Repository to GitHub
 
