@@ -157,7 +157,7 @@ This document provides a comprehensive guide for setting up and managing a versi
 
 ## 8. 📧 Contact Information
 
-For more information on how to implement CI or if you need any guidance, feel free to reach out:
+For more information on how to setup Github or if you need any guidance, feel free to reach out:
 
 | Name  | Email Address                                  |
 |-------|------------------------------------------------|
