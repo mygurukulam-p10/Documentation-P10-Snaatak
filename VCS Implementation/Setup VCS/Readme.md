@@ -29,6 +29,6 @@
 7. [Version Control Best Practices](#version-control-best-practices)
 8. [Conclusion](#conclusion)
 
-## 1. Purpose of the Document
+## 1. 🎯 Purpose of the Document
 
 The purpose of this document is to guide users in setting up and managing a version control system using GitHub. As we progress in our sprints, we will have multiple micro-repositories that will reflect team collaboration. Therefore, we are adopting GitHub, which will be more beneficial for our team and facilitate better maintenance of repositories.
