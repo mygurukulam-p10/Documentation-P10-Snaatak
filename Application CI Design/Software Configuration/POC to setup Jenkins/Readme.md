@@ -37,7 +37,7 @@ In parallel, Jenkins excels in facilitating continuous integration and delivery,
 |--------------------------|------------------------|
 | Processor                | Dual-core              |
 | RAM                      | 4GB                    |
-| Disk                     | 15GB                   |
+| Disk                     | 10GB                   |
 | OS                       | Ubuntu(22.04)          |
 
 Before creating the Jenkins Ansible role, [click here](https://github.com/mygurukulam-p10/Documention/tree/main/Application%20CI%20Design/Software%20Configuration/Ansible%20role%20documentation) to read about Ansible roles.
