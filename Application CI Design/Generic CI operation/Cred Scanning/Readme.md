@@ -2,6 +2,15 @@
 
 
 ### Introduction
-Credential scanning (cred scanning) is a vital aspect of secure Continuous Integration (CI) operations. As part of the CI pipeline, automation tools build, test, and deploy code, making security practices such as credential scanning an essential part of the DevSecOps process. Credential scanning is the process of scanning code, logs, and configurations to ensure no sensitive information, like API keys, passwords, or tokens, is hardcoded or exposed.
+Credential scanning is a process used in Continuous Integration (CI) to automatically check code for sensitive information like passwords, API keys, or tokens. It helps ensure that no critical data is accidentally shared in the codebase or in public repositories, which could lead to security issues.
 
-In today’s rapid development cycles, it’s easy for developers to mistakenly commit sensitive data to repositories, potentially exposing their applications to attacks. With credential scanning integrated into CI pipelines, organizations can automate the detection and remediation of exposed secrets, ensuring their codebase remains secure.
+As part of the CI pipeline, where code is built and tested automatically, credential scanning ensures that sensitive information doesn’t slip through unnoticed. This process is especially important in modern, fast-paced development environments where mistakes can happen.
+
+### What is Credential Scanning?
+Credential scanning is simply the act of scanning through your code, configuration files, or logs to check for sensitive information, like:
+
+- **Passwords**
+- **API keys**
+- **Tokens (used to access services securely)**
+If any of these are found in the code, they could be a security risk because attackers could steal and misuse them. Credential scanners identify patterns that match sensitive data, helping you catch and fix these issues early.
+
