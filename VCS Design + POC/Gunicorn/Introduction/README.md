@@ -188,6 +188,12 @@ gunicorn app:app --log-config log.conf -b 0.0.0.0:8080
   - `0.0.0.0` means that the server will listen on all available network interfaces.
   - `8080` is the port on which the server will listen for incoming connections.
 
+**USE CASE**
+
+Gunicorn is used in our Attendance-API Microservice because gunicorn servers is running the WSGI application defined in app.py, using a specified logging configuration and listening for requests on all interfaces at port 8080.
+![image](https://github.com/user-attachments/assets/2ebe229a-45c7-4034-b1da-e8265971b14d)
+
+
 ## 10. Alternatives to Gunicorn
 
 While Gunicorn is popular, there are several alternatives:
