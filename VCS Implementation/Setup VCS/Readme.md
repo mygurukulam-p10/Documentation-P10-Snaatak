@@ -31,5 +31,4 @@
 
 ## 1. Purpose of the Document
 
-As We are moving forward in our sprints. We will have micro repositories that will show the team collaborations, so we will be moving forward with Github which will be more useful for our team and maintainence of repositories.
-
+The purpose of this document is to guide users in setting up and managing a version control system using GitHub. As we progress in our sprints, we will have multiple micro-repositories that will reflect team collaboration. Therefore, we are adopting GitHub, which will be more beneficial for our team and facilitate better maintenance of repositories.
