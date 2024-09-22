@@ -229,6 +229,7 @@ public final class SalaryApplication {
 ```
 ![e5](https://github.com/user-attachments/assets/10f5bd58-deca-4341-8c70-1989337d7f45)
 **ADD package-info.java** here src/main/java/com/opstree/microservice/salary/model
+```
 /**
  * This package contains model classes for the salary microservice.
  */
