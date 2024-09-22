@@ -13,4 +13,13 @@ you need to install the pytest-mock library, which provides the mocker fixture. 
 pip install pytest-mock
 ```
 
+router
+Install Flask: If Flask is not installed, you can install it using pip. Run the following command in your terminal:
+```
+pip install Flask
+```
+Install Flask-Caching: Install the flask_caching package using pip:
+```
+pip install Flask-Caching
+```
 
