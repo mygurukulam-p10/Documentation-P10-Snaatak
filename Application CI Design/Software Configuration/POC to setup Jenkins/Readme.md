@@ -217,7 +217,7 @@ ansible-playbook -i aws_ec2.yml playbook.yml
 
 >[!IMPORTANT]
 >
->Ensure that port `8080` is open on your Ansible host.
+>Ensure that port `8080` is open on your Jenkins server.
 
 * Retrieve the initial administrator password from the Jenkins server.
 ![Screenshot from 2024-09-22 03-13-39](https://github.com/user-attachments/assets/e230a9d5-33c8-4086-a6ce-c603999aa48e)
