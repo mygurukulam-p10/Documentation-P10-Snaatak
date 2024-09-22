@@ -30,7 +30,7 @@ SSL certificates are essential for several reasons:
 5. **Compliance**: Many regulatory standards (e.g., PCI DSS) require SSL certificates for handling sensitive data.
 
 ## What are SSL Certificates?
-SSL certificates are small data files that digitally bind a cryptographic key to an organization's details. When installed on a web server, they activate the padlock and the https protocol, allowing secure connections from a web server to a browser.
+An SSL certificate is a digital certificate that authenticates a website's identity and enables an encrypted connection. SSL stands for Secure Sockets Layer, a security protocol that creates an encrypted link between a web server and a web browser.
 
 Types of SSL certificates include:
 - Domain Validated (DV)
