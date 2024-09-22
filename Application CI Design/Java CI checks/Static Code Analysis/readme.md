@@ -482,7 +482,8 @@ public class SpringDataSalaryService {
 ```
 
 
-Security Vulnerabilities: 88
+![ssucces](https://github.com/user-attachments/assets/4e12bbb5-0aed-4246-8234-3cec4d8d8687)
+
 
 ## Best Practices
 | Best Practice                 | Description                                                               |
