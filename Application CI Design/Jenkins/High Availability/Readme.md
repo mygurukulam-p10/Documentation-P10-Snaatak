@@ -3,7 +3,7 @@
 
 | ✍️Author   | 📅Created on|📌 Version | 📝Last updated by   |📅 Last edited on |
 |-------------|-------------|------------|---------------------|------------------|
-| Megha Tyagi |  21-09-24   | Version 1  |    Megha Tyagi      | 21-09-24         |
+| Megha Tyagi |  21-09-24   | Version 1  |    Megha Tyagi      | 22-09-24         |
 
 
 
@@ -51,10 +51,12 @@ Here, “high availability” for Jenkins refers to the availability of the Jenk
 
 Now, let’s start to set up the master-slave architecture and highly available Jenkins,
 
-### Steps for setting up the Jenkins HA:
-**Step-1 :** Create an EC2 instance on requirement bases for Jenkins and create an security group allow the traffic on port 22 for SSH and port 8080 for Jenkins and attach those to the instance.
+## Steps for setting up the Jenkins HA:
+### Step-1 : 
+Create an EC2 instance on requirement bases for Jenkins and create an security group allow the traffic on port 22 for SSH and port 8080 for Jenkins and attach those to the instance.
 
-**Step-2 :** Login to the instance and configure the Jenkins in that instance using following steps:
+### Step-2 : 
+Login to the instance and configure the Jenkins in that instance using following steps:
 
 **1. Install Java:** Installing Java on the Ubuntu instance is the first step, as Jenkins needs it to function.
 
@@ -85,11 +87,12 @@ sudo systemctl status jenkins
 By using your EC2 instance’s public IP address and the default port 8080 (http://ip_address:8080), you may access the Jenkins web interface.
 After completing the Jenkins setup wizard by following the on-screen directions, you’ll be asked to input the initial admin password, which is located in the file /var/lib/jenkins/secrets/initialAdminPassword.
 
-**Step-3 :** After login to the Jenkins instance go to the Manage Jenkins section and then go to the nodes where you can see there is already a pre-built node name as built-in node which is master node.
+### Step-3 : 
+After login to the Jenkins instance go to the Manage Jenkins section and then go to the nodes where you can see there is already a pre-built node name as built-in node which is master node.
 
 ![Screenshot 2024-09-22 130708](https://github.com/user-attachments/assets/c9c92477-39a6-4978-9f3a-9353adea6430)
 
-**Step-4 :** Now create one slave node,
+### Step-4 : Now create one slave node,
 
 -> Click on the new node then write a name and select the type as permanent agent and then create a node.
 
@@ -123,7 +126,8 @@ java -jar agent.jar -url http://54.225.4.205:8080/ -secret 1c3ad6f1459b28508907c
 
 ![Screenshot 2024-09-22 152201](https://github.com/user-attachments/assets/b19247ba-5b22-4b76-92bd-2572c427b65f)
 
-**Step-5 :** If you want to run selected jobs on the agent node so for that in the agent node configuration write down the label for the agent node.
+### Step-5 : 
+If you want to run selected jobs on the agent node so for that in the agent node configuration write down the label for the agent node.
 
 <img width="564" alt="next" src="https://github.com/user-attachments/assets/f3c3f358-55db-4d66-a532-ee6393fb703c">
 
@@ -131,119 +135,48 @@ And give the label name in the pipeline code which you want to run on the agent 
 
 ![Screenshot 2024-09-22 152727](https://github.com/user-attachments/assets/09808fad-b40e-4677-a9ff-0682409e5360)
 
-**Step-6 :** After making a slave agent online create an AMI of the Jenkins primary instance.
+### Step-6 : 
+After making a slave agent online create an AMI of the Jenkins primary instance.
 
 ![Screenshot 2024-09-22 153011](https://github.com/user-attachments/assets/d2fd176a-551f-4c4f-8c99-f445a392eabf)
 
 ![Screenshot 2024-09-22 153028](https://github.com/user-attachments/assets/41f42c41-ae89-4309-bfc3-ae926e120656)
 
-**Step-7 :** Then create a Launch template for Auto scaling group using Jenkins primary instance.
+### Step-7 : 
+Then create a Launch template for Auto scaling group using Jenkins primary instance.
 
-![Screenshot 2024-09-22 155404](https://github.com/user-attachments/assets/677a237e-a016-4214-8eec-f2ffcb62b5d6)
+![Screenshot 2024-09-22 155404](https://github.com/user-attachments/assets/f5bdfc9b-6708-414c-8c6e-8a68edd70df5)
 
-![Screenshot 2024-09-22 155713](https://github.com/user-attachments/assets/94b76f87-e45c-4652-b169-0c019fcdacb2)
+### Step-8 : 
+Then, create an Auto scaling group using a launch template on requirement bases, select the desired, maximum and minimum capacity of the instance, create an application load balancer and the target groups and attach those from the ASG.
 
+-**Auto Scaling Group:**
 
+![Screenshot 2024-09-22 160426](https://github.com/user-attachments/assets/754c8747-b047-4953-9250-5d0a1c63a8d6)
 
+- **Target group:**
+Check the health status of the Jenkins instance in the target group; both instances should be healthy.
 
+![Screenshot 2024-09-22 155822](https://github.com/user-attachments/assets/14655f4d-4ed3-4ce2-a66c-66d80d2ed470)
 
+- **Load balancer:**
+![Screenshot 2024-09-22 160028](https://github.com/user-attachments/assets/ab3c4803-6e88-4a07-b7d6-c8d9c309374c)
 
+**Step-9 :** Then, stop the primary instance and see if the load would be transferred to the secondary.
 
+**Primary Jenkins instance:**
 
+<img width="958" alt="Primary instance" src="https://github.com/user-attachments/assets/73b585ea-d476-4bb5-bc30-9386fdd2a535">
 
+Here, The primary instance will be stopped to verify if Jenkins remains accessible via the secondary instance.
 
-There is a difference between master-slave setup and HA. So, let’s have a look on that:
-
-So, in this blog there is two thing:
-
-Jenkins master-slave setup,
-Jenkins HA(High Availability)
-
-## There are two ways you can have Jenkins in HA mode.
-
-### 1. Jenkins active/passive setup:
-Only enterprise Jenkins comes with a supported plugin to have this setup. But most organizations use open-source versions, and this option is out of scope. Also there is an option with HAproxy, however I think its bit of an administrative overhead.
-
-
-
-**Jenkins HA setup in autoscaling Group:** Having Jenkins in autoscaling group is workaround to have a higly available Jenkins. It is not a 100% HA solution; however, for any reason if your Jenkins server crasher, another instance will come up within a short period.
-
+<img width="953" alt="image" src="https://github.com/user-attachments/assets/1a877814-0f30-4c55-a1ad-a642ac3cfc81">
 
 
+**Secondary Jenkins Instance:**
+<img width="960" alt="Secondary" src="https://github.com/user-attachments/assets/fc865e08-8003-44bf-9688-b9df80f2148d">
 
-## Let's discuss all the features in detail:
-
-## 1. A variety of plugins
-Jenkins plugins are extensions that enhance Jenkins' capabilities by integrating CI/CD tools, sources, and destinations, and expanding its functionality. With around 1,500 plugins available, they allow for extensive customization, enabling Jenkins to integrate with other software, add UI components, and improve build and source code management. Plugins can be installed via the Jenkins Web UI or CLI from the Jenkins Plugin repository.
-Here are a few important plugins and their use cases:
-
-|🔧 **Plugin Name**     | 📊**Description**                                              | 🌟**Key Features**                                            | 🎯**Use Cases**                                                                 |
-|---------------------|--------------------------------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------------------------|
-| **Pipeline**        | Enables continuous delivery pipelines as code.               | Pipeline-as-code, multibranch pipelines, visual pipeline UI  | Automating the build, test, and deploy process for complex projects.           |
-| **Git**             | Integrates Git version control with Jenkins.                 | Clone repositories, track branches, trigger builds on changes| Automating builds and deployments based on changes in Git repositories.        |
-| **Blue Ocean**      | Provides a modern UI for Jenkins pipelines.                  | Simplified, visual pipeline view, improved user experience   | Managing and viewing Jenkins pipelines in an easy-to-use interface.            |
-| **JUnit**           | Publishes test results generated by JUnit or other test suites| Visualize test results, historical data, and trends          | Tracking unit test results and generating reports for test execution outcomes. |
-| **Docker**          | Provides Docker build and run capabilities in Jenkins.       | Build Docker images, manage containers, use Docker agents    | Automating Docker workflows, building images, and managing containers in pipelines. |
-| **Credentials**     | Manages and stores credentials securely within Jenkins.      | Centralized credential management, easy access for jobs      | Handling sensitive information like SSH keys, API tokens, and passwords securely.|
-
-
-## 2. Simple installation and configuration
-|  ⏳**Aspect**                                            |📄 **Description**                                                                                         |
-|---------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| **Cross-platform compatibility**                        | Jenkins is a self-contained Java software that runs on all major operating systems (Windows, Unix, Mac OS). |
-| **Easy setup and configuration**                        | It provides a web interface with built-in error checks and help features for easy setup and configuration. |
-| **Installation options**                                | Available as a standard installation package or as a `.war` file.                                         |
-| **Web-based configuration**                             | Can be quickly configured through the web interface after installation.                                   |
-| **Extensive support and documentation**                 | Jenkins has a large knowledge base, detailed documentation, and a thriving community for support.          |
-| **Learning materials**                                  | Provides learning resources for easier installation, management, and troubleshooting.                     |
-| **Production pipeline complexity**                      | Production pipelines can be challenging and require Jenkinsfiles using declarative or scripted coding.     |
-
-
-## 3. Open-source
-
-|⏳ **Aspect**                     | 📄**Details**                                                                                               |
-|---------------------------------|-----------------------------------------------------------------------------------------------------------|
-| **Open-source Availability**    | Jenkins is free and open-source, meaning it has no licensing costs, and its source code is available for modification, making it highly flexible. The large community contributes to continuous improvements, bug fixes, and plugin development. |
-| **Customization and Flexibility** | Jenkins supports a wide range of plugins and integrations, allowing users to tailor it to their specific CI/CD needs. |
-| **Community and Support**       | Being open-source, Jenkins has a large, active community that provides extensive resources, tutorials, and forums for troubleshooting. |
-| **Cost-effective**              | Jenkins has no associated licensing fees, making it a budget-friendly option for both small and large teams. |
-| **Security**                    | Regular security patches are released by the community, and it provides built-in authentication and authorization capabilities. |
-| **Frequent Updates**            | The open-source nature ensures continuous updates and new features from community contributions and Jenkins maintainers. |
-
-
-## 4. Extensibility
-
-| ⏳**Aspect**                    | 📄**Details**                                                                                           |
-|-------------------------------|-------------------------------------------------------------------------------------------------------|
-| **Extensibility**              | Jenkins can be extended with over 1,500 plugins, allowing it to integrate with a wide range of tools, technologies, and services. |
-| **Custom Pipeline Creation**   | Users can create custom pipelines using scripted or declarative pipeline syntax to suit various workflows and automation tasks. |
-| **Integration with Other Tools** | Jenkins seamlessly integrates with popular DevOps tools like Docker, Kubernetes, AWS, and more, enhancing CI/CD workflows. |
-| **Custom UI Enhancements**     | Jenkins allows UI enhancements and modifications through plugins, improving the user experience and interface functionality. |
-| **Community-Contributed Plugins** | Many plugins are contributed by the Jenkins community, providing diverse functionality and ensuring that Jenkins evolves with new technologies. |
-
-
-## 5. Server-based Security 
-
-|⏳ **Aspect**                     |📄 **Details**                                                                                               |
-|---------------------------------|-----------------------------------------------------------------------------------------------------------|
-| **Role-based Access Control**   | Jenkins allows defining roles and permissions for different users or groups, restricting access to sensitive parts of the system. |
-| **Authentication**              | Supports multiple authentication methods like LDAP, Active Directory, OAuth, and SSO, ensuring secure user logins. |
-| **Authorization**               | Jenkins enables fine-grained authorization strategies, allowing admins to control user access based on roles, jobs, or even specific pipelines. |
-| **SSL/TLS Support**             | Jenkins supports SSL/TLS encryption to secure communication between the server and clients, protecting data integrity and confidentiality. |
-| **Audit Logs**                  | Provides detailed logging of user actions, job executions, and system events, helping to monitor and detect unauthorized activities. |
-| **Credential Management**       | Jenkins has built-in secure credential management, storing sensitive information like SSH keys, API tokens, and passwords in an encrypted format. |
-
-## 6. Easy Distribution 
-
-| ⏳**Aspect**                     | 📄**Details**                                                                                               |
-|--------------------------------|-----------------------------------------------------------------------------------------------------------|
-| **Master-Slave Architecture**  | Jenkins supports a master-slave architecture where the master node handles scheduling and monitoring, while slave nodes run the build tasks. This helps distribute the workload and improves performance. |
-| **Distributed Builds**         | Enables running builds on multiple machines or nodes, which can be located on different servers or cloud environments, allowing for efficient resource utilization. |
-| **Cloud Integration**          | Jenkins integrates with various cloud services (e.g., AWS, Azure, Google Cloud) for dynamic scaling of build agents, automating distribution, and managing build infrastructure. |
-| **Docker Integration**         | Jenkins can leverage Docker to create isolated build environments, which can be easily distributed across different servers or containers, enhancing consistency and scalability. |
-| **Multi-Node Setup**           | Allows setting up Jenkins across multiple nodes to distribute build and test jobs, reducing the load on a single server and improving build times. |
-| **Job Distribution**           | Jenkins can distribute build jobs across different nodes based on labels or capabilities, optimizing job execution and balancing the load. |
-
+As demonstrated, we are able to access Jenkins using the secondary instance, which showcases how Jenkins can be made highly available.
 
 ## 📜 Conclusion
 In summary, Jenkins offers a robust and versatile platform for Continuous Integration and Continuous Delivery (CI/CD) with its extensive range of features and capabilities. Its open-source nature, combined with its extensibility through plugins, makes Jenkins a powerful tool for automating and optimizing development workflows. The server-based security features ensure that Jenkins can be securely integrated into various environments, while its easy distribution capabilities support scalable and efficient build management. Understanding these aspects allows users to leverage Jenkins effectively, customize it to their needs, and enhance their overall CI/CD processes. This document serves as a foundational resource to guide users in exploring and utilizing Jenkins to its fullest potential.
