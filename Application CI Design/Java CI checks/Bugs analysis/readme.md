@@ -20,3 +20,13 @@ Bugs analysis in CI is the process of automatically detecting code defects (bugs
 | Code Quality                | Ensuring that the code adheres to coding standards and best practices.           |
 | Continuous Feedback         | Providing developers with immediate feedback on their code changes.             |
 | Reduced Integration Problems| Minimizing conflicts and integration issues by frequently merging changes.       |
+
+### Different Tools for Bugs Analysis
+| **Tool**         | **Description**                                                                                      |
+|------------------|------------------------------------------------------------------------------------------------------|
+| Jenkins          | An open-source automation server that supports building, deploying, and automating any project.       |
+| Travis CI        | A hosted continuous integration service used to build and test software projects hosted on GitHub.    |
+| CircleCI         | A CI/CD tool that automates the software development process using continuous integration and continuous delivery. |
+| GitHub Actions   | Integrated with GitHub, it allows you to automate workflows directly from your repository.            |
+| SonarQube        | A tool for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells, and security vulnerabilities. |
+
