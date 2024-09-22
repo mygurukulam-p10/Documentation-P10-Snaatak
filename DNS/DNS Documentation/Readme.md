@@ -7,6 +7,7 @@
 |-------------|-------------|------------|-----------------|----------------|
 | Megha Tyagi | 19-09-24    | Version 1  | Megha Tyagi     | 19-09-24       |
 
+# Purpose 
 This Readme provides a comprehensive overview of the Domain Name System (DNS) and its various providers. It explains what DNS is, why it is used, and how it works. The document also compares popular DNS providers, detailing their features and drawbacks, and recommends Cloudflare DNS based on its performance and privacy benefits. Additionally, it includes contact information for feedback and relevant resources for further reading.
 
 ## Table of Contents
@@ -21,8 +22,9 @@ This Readme provides a comprehensive overview of the Domain Name System (DNS) an
    - [5centsCDN](#5centscdn)
 5. [📛 Detailed Comparision of DNS Providers](#-detailed-comparision-of-dns-providers)
 6. [💯 Recommendation of Cloudflare DNS Provider](#-recommendation-of-cloudflare-dns-provider)
-7. [📧 Contact Information](#-contact-information)
-8. [📚 References](#-references)
+7. [Conclusion](#conclusion)
+8. [📧 Contact Information](#-contact-information)
+9. [📚 References](#-references)
 
 
 ## 🔍 What is DNS?
@@ -99,6 +101,8 @@ DNS resolution is the process of converting a website name (like www.example.com
 | **Additional Features**     | Cloudflare offers extra features like DNS filtering and enhanced security options (in paid plans), adding versatility for different needs. |
 | **Industry Reputation**     | Cloudflare is a well-known and trusted name in the industry, known for its strong infrastructure and commitment to improving internet performance. |
 
+# Conclusion:
+This documentation explains the Domain Name System (DNS), its purpose, functionality, and popular providers. It compares providers like DNS Watch, Cloudflare, OpenDNS, Google Public DNS, and 5centsCDN, highlighting their features and drawbacks. Cloudflare DNS stands out for its speed, privacy, and security. With DNS over HTTPS (DoH) and no user tracking, it offers reliable performance. Overall, Cloudflare is recommended for its trusted infrastructure and broad appeal for users.
 
 ## 📧 Contact Information
 For more information, feedback, or assistance, feel free to contact us:
