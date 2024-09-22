@@ -99,8 +99,9 @@ echo "# Your Repository Title" >> README.md
 git add README.md
 git commit -m "Initial commit"
 ```
----
+![image](https://github.com/user-attachments/assets/58ece8e0-ac04-45b6-97d6-1bfcf8f26560)
 
+---
 
 ### 2. 🔗 Link Local Repository to GitHub
 
@@ -109,8 +110,9 @@ git commit -m "Initial commit"
 ```
 git remote add origin https://github.com/username/your-repo.git
 git branch -M main
-git push -u origin main
 ```
+![image](https://github.com/user-attachments/assets/6dcca27d-c81c-4ac1-bb8c-50cbaf4a9fd7)
+
 
 ## 5. 🔒 Security Recommendations
 
@@ -119,26 +121,25 @@ git push -u origin main
 - Go to your GitHub account settings.
 - Navigate to **"Security"** and enable **"Two-factor authentication."**
 
+![image](https://github.com/user-attachments/assets/d62a2b01-513d-42aa-b60a-9443cce5a0d5)
+
 ### 2. Use SSH for Authentication:
 
 - **Generate an SSH key:**
 ```
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+ssh-keygen                                                                                                                  
 ```
-- **Start the SSH agent and add your SSH key:**
+![image](https://github.com/user-attachments/assets/cd6314d5-3203-4067-a04a-906cc64201a5)
 
-```
-eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_rsa
-```
 - **Copy your SSH key to your clipboard:**
 
 ```
 cat ~/.ssh/id_rsa.pub | clip  # Windows
-pbcopy < ~/.ssh/id_rsa.pub    # macOS
-xclip -sel clip < ~/.ssh/id_rsa.pub  # Linux
 ```
 - Add the SSH key to your GitHub account under **"SSH and GPG keys."**
+
+![image](https://github.com/user-attachments/assets/2cfe7f14-32e7-400e-ba67-37ab8fa79938)
+
 
 ### 3. Regularly Review Permissions:
 
