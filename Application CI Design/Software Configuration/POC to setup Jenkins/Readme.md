@@ -10,6 +10,7 @@
 + [Introduction](#Introduction)
 + [Ansible and Jenkins](#Ansible-jenkins)
 + [System Requirements](#system-requirements)
++ [Flow_Diagram](#flow-diagram)
 + [Setup Ansible Role](#steps)
 + [Output Verification](#output)
 + [Jenkins Setup](#post-installation-setup)
@@ -39,6 +40,11 @@ Here, we harness the efficiency of Ansible, an open-source automation tool strea
 
 Before creating the Jenkins Ansible role, [click here](https://github.com/mygurukulam-p10/Documention/tree/main/Application%20CI%20Design/Software%20Configuration/Ansible%20role%20documentation) to read about Ansible roles.
 
+
+** Flow Diagram
+
+
+![image](https://github.com/user-attachments/assets/3a6803a4-23d7-406d-9541-adc6e4b7eae0)
 
 ***
 # Steps 
