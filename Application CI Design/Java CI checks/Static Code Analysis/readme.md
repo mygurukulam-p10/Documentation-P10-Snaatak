@@ -27,7 +27,7 @@ Static code analysis involves scanning the source code without executing it. Thi
 - Code smells
 - Security vulnerabilities
 - Unused code
-- Performance bottlenecks
+- Bugs
 
 ## Why Use tatic Code Analysis?
 
