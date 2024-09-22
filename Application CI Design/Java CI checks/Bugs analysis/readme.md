@@ -60,6 +60,8 @@ Bugs analysis in CI is the process of automatically detecting code defects (bugs
 | Security        | Some tools also detect security vulnerabilities, ensuring the application is robust against potential attacks.      |
 | Increased Confidence          | Regular bug analysis increases team confidence in the codebase, facilitating faster releases.        |
 
+---
+
 ### Proof of Concept (POC)
 
 ### Best Practices
