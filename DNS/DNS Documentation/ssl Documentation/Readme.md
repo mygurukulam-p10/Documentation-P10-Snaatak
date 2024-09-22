@@ -100,6 +100,8 @@ Always consider factors such as budget, required validation level, support needs
 | Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
 
 
+## References
+
 | Topic                       | Description                                                                 | Reference Link                                                                                   |
 |-----------------------------|-----------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | SSL Certificate Overview     | Understanding what SSL certificates are and how they work.                  | [SSL Certificate Guide](https://www.ssl.com/faqs/what-is-an-ssl-certificate/)                    |
