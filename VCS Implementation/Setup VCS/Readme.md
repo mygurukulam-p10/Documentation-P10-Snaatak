@@ -34,3 +34,29 @@ The purpose of this document is to guide users in setting up and managing a vers
 |-------|---------|---------------------------------------------|
 | Git   | 2.34    | Distributed version control system          |
 | GitHub Account | N/A     | Platform for hosting Git repositories |
+
+### 1. ✨ Create a GitHub Account
+
+#### 🖥️ UI Setup:
+- Go to [GitHub](https://github.com).
+- Click on **"Sign up"** and fill in the required details (username, email, password).
+- Verify your email address.
+
+#### 💻 CLI Setup:
+- You don't need a CLI for account creation, but you can use GitHub's CLI tool later.
+
+---
+
+### 2. ⚙️ Install Git
+
+#### 🖥️ UI Setup:
+- Download Git from the official [Git website](https://git-scm.com/downloads) and follow the installation instructions for your operating system.
+
+#### 💻 CLI Setup:
+
+**For Ubuntu:**
+```
+sudo apt update
+sudo apt install git
+```
+
