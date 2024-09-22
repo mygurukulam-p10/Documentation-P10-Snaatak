@@ -86,7 +86,7 @@ Several tools are available for static code analysis in Java, each with unique f
 ![e1](https://github.com/user-attachments/assets/92864196-b869-4123-8f14-002492226735)
 
 ![e2](https://github.com/user-attachments/assets/ea380ede-2922-4c3c-acd0-4ef163b03eaf)
-**ADD package-info.java**
+**ADD package-info.java** here src/main/java/com/opstree/microservice/salary/service
 ```
 /**
  * This package contains classes related to the salary management APIs.
@@ -151,7 +151,7 @@ public class SpringDataSalaryService {
 
 
 ![e4](https://github.com/user-attachments/assets/f1377a82-1729-446f-91ba-5e667a3a66be)
-**ADD package-info.java**
+**ADD package-info.java** here src/main/java/com/opstree/microservice/salary
 ```
 /**
  * This package contains service classes for managing salary information.
