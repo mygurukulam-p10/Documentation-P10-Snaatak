@@ -45,9 +45,12 @@ Before creating the Jenkins Ansible role, [click here](https://github.com/myguru
 
 ## Runtime Dependency
 
-| Name           | Version | Description                                                                                                                      |
-| -------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Python         | Python 3.10.12  | Required for ansible.|
+| Name           | Version      | Description                                                     |
+|----------------|--------------|-----------------------------------------------------------------|
+| Ansible        | 2.16.7      | Automation tool for configuration management and deployment.    |
+| Python         | 3.10.12     | Required for running Ansible and executing modules.             |
+| Jinja          | 3.1.4       | Templating engine used by Ansible for dynamic content generation.|
+
 
 ## Flow Diagram
 
