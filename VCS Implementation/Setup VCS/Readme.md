@@ -45,9 +45,6 @@ The purpose of this document is to guide users in setting up and managing a vers
 - Click on **"Sign up"** and fill in the required details (username, email, password).
 - Verify your email address.
 
-#### 💻 CLI Setup:
-- You don't need a CLI for account creation, but you can use GitHub's CLI tool later.
-
 ---
 
 ### 2. ⚙️ Install Git
