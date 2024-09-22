@@ -21,3 +21,13 @@ If any of these are found in the code, they could be a security risk because att
 - **Automated Protection**: CI systems run multiple code checks quickly. Credential scanning ensures that no sensitive information is accidentally included in the build.
 - **Compliance**: Some industries (healthcare, finance) require companies to keep sensitive data secure. Scanning helps organizations meet these standards.
 - **Security Best Practice**: It’s a good practice to keep all credentials safe and out of your code. Regular scanning makes sure this happens.
+
+ ### Tools for Credential Scanning
+
+| Tool          | Features                                                                 | Strengths                                        | Weaknesses                            |
+|---------------|--------------------------------------------------------------------------|-------------------------------------------------|---------------------------------------|
+| **GitGuardian** | Monitors repositories in real-time to detect hardcoded secrets and sends alerts when something is found. | Catches issues immediately                      | Expensive for larger teams            |
+| **TruffleHog**  | Looks for sensitive data by scanning for high-entropy strings, which might represent passwords or keys. | Works with many data types                      | Can produce false positives           |
+| **Gitleaks**    | Scans Git repositories for sensitive information in the code history.   | Lightweight and easy to use                     | Lacks detailed dashboards             |
+| **AWS Macie**   | Specifically for AWS environments, it scans your storage (like S3 buckets) for sensitive data. | Works best with AWS                             | Only works in AWS                     |
+| **SpectralOps** | Focuses on identifying secrets in code and configuration files and integrates well with CI pipelines. | Works well with large projects                  | Hard to set up for small teams        |
