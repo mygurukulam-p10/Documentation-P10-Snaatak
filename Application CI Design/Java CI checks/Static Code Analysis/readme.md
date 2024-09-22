@@ -81,7 +81,26 @@ Cons: Limited support for newer Java features.
 
 
 ## Proof of Concept (POC)
+![e1](https://github.com/user-attachments/assets/92864196-b869-4123-8f14-002492226735)
 
+
+![e2](https://github.com/user-attachments/assets/ea380ede-2922-4c3c-acd0-4ef163b03eaf)
+
+![e3](https://github.com/user-attachments/assets/ec2ed6fa-93d2-4b01-b20c-4b5ad4d0be73)
+
+![e4](https://github.com/user-attachments/assets/f1377a82-1729-446f-91ba-5e667a3a66be)
+
+![e5](https://github.com/user-attachments/assets/10f5bd58-deca-4341-8c70-1989337d7f45)
+
+![e6](https://github.com/user-attachments/assets/7bc5f3a1-6f90-4e48-9c41-416287bd59ac)
+
+![e7](https://github.com/user-attachments/assets/3e2bbdfd-2b21-4bce-90a8-7b73823033d9)
+![e8](https://github.com/user-attachments/assets/70c6092a-b756-452f-a0a4-2eaa52cfc2f6)
+![e9](https://github.com/user-attachments/assets/fc3480ea-7805-4430-b039-bce0f9970dc6)
+![e10](https://github.com/user-attachments/assets/23bb63f8-92b3-40e4-8f2a-b456d4becb61)
+
+
+Security Vulnerabilities: 88
 
 ## Best Practices
 
