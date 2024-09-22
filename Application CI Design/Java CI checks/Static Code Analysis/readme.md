@@ -96,6 +96,7 @@ package com.opstree.microservice.salary.controller;
 
 - **remove unused import**
 - **ADD Javadoc Coment**
+- **remove 80 line characters**
 - **Final File**
 ```
 package com.opstree.microservice.salary.service;
@@ -375,21 +376,8 @@ public class Message {
 }
 ```
 
-![e7](https://github.com/user-attachments/assets/3e2bbdfd-2b21-4bce-90a8-7b73823033d9)
-**ADD package-info.java** here src/main/java/com/opstree/microservice/salary/model
-```
-/**
- * This package contains service classes for managing salary information.
- */
-package com.opstree.microservice.salary;
-```
 
-- **remove unused import**
-- **ADD Javadoc Coment**
-- **Final File**
-```
 
-```
 ![e8](https://github.com/user-attachments/assets/70c6092a-b756-452f-a0a4-2eaa52cfc2f6)
 **ADD package-info.java** here src/main/java/com/opstree/microservice/salary/model
 ```
