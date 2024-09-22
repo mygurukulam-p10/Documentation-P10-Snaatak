@@ -94,7 +94,7 @@ Several tools are available for static code analysis in Java, each with unique f
 package com.opstree.microservice.salary.controller;
 ```
 
-**remove unused import**
+- **remove unused import**
 - **ADD Javadoc Coment**
 - **Final File**
 ```
@@ -151,7 +151,81 @@ public class SpringDataSalaryService {
 
 
 ![e4](https://github.com/user-attachments/assets/f1377a82-1729-446f-91ba-5e667a3a66be)
+**ADD package-info.java**
+```
+/**
+ * This package contains service classes for managing salary information.
+ */
+package com.opstree.microservice.salary;
+```
 
+- **remove unused import**
+- **ADD Javadoc Coment**
+- **Final File**
+```
+package com.opstree.microservice.salary;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.cache.annotation.EnableCaching;
+import org.springframework.data.redis.cache.RedisCacheConfiguration;
+import org.springframework.data.redis.cache.RedisCacheManager;
+import org.springframework.data.redis.connection.RedisConnectionFactory;
+import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.serializer.Jackson2JsonRedisSerializer;
+import java.time.Duration;
+
+/**
+ * This class contains the main application for salary management.
+ */
+@SpringBootApplication
+@EnableCaching
+public final class SalaryApplication {
+
+    /**
+     * Configures the RedisTemplate for managing Redis operations.
+     * @param connectionFactory the connection factory to be used
+     * @return a configured RedisTemplate
+     */
+    @Bean
+    public RedisTemplate<Object, Object> redisTemplate(
+            final RedisConnectionFactory connectionFactory) {
+        RedisTemplate<Object, Object> template = new RedisTemplate<>();
+        template.setConnectionFactory(connectionFactory);
+        Jackson2JsonRedisSerializer<Employee> serializer =
+                new Jackson2JsonRedisSerializer<>(Employee.class);
+        template.setDefaultSerializer(serializer);
+        return template;
+    }
+
+    /**
+     * Configures the RedisCacheManager for caching.
+     * @param connectionFactory the connection factory to be used
+     * @return a configured RedisCacheManager
+     */
+    @Bean
+    public RedisCacheManager cacheManager(
+            final RedisConnectionFactory connectionFactory) {
+        RedisCacheConfiguration config = RedisCacheConfiguration
+    .defaultCacheConfig()
+                .prefixCacheNameWith(this.getClass().getPackageName() + ".")
+                .entryTtl(Duration.ofSeconds(1))
+                .disableCachingNullValues();
+        return RedisCacheManager.builder(connectionFactory)
+                .cacheDefaults(config)
+                .build();
+    }
+
+    /**
+     * The main method that starts the Spring Boot application.
+     * @param args command line arguments
+     */
+    public static void main(final String[] args) {
+        SpringApplication.run(SalaryApplication.class, args);
+    }
+}
+```
 ![e5](https://github.com/user-attachments/assets/10f5bd58-deca-4341-8c70-1989337d7f45)
 
 ![e6](https://github.com/user-attachments/assets/7bc5f3a1-6f90-4e48-9c41-416287bd59ac)
