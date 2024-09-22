@@ -75,7 +75,6 @@ If any of these are found in the code, they could be a security risk because att
 | Disk                     | 5 GB free disk space   |
 | OS                       | Ubuntu 22.04 LTS       |
 
----
 
 ## 🛠️ Build-Time Dependency for Credential Scanning
 
@@ -83,7 +82,7 @@ If any of these are found in the code, they could be a security risk because att
 |----------|------------|----------------|
 | **Gitleaks** | Latest     | Detects hardcoded secrets, passwords, and API keys in the codebase. |
 
----
+
 
 ## 🚀 Run-Time Dependency for Credential Scanning
 
