@@ -8,7 +8,14 @@
 The purpose of this document is to provide a detailed explanation of **credential scanning** as part of a **Continuous Integration (CI) operation**. It explains what credential scanning is, why it is essential, the tools available for credential scanning, and how to implement it in CI pipelines. The document will also guide on best practices and offer a proof of concept (POC) for practical implementation. This ensures that sensitive data, such as passwords, API keys, and tokens, are not accidentally exposed in code repositories.
 
 ### Table of Contents
-
+- [Introduction](#introduction)
+- [What is Credential Scanning?](#what-is-credential-scanning)
+- [Why Credential Scanning?](#why-credential-scanning)
+- [Tools for Credential Scanning](#tools-for-credential-scanning)
+- [Comparison of Credential Scanning Tools](#comparison-of-credential-scanning-tools)
+- [Advantages of Credential Scanning](#advantages-of-credential-scanning)
+- [Proof of Concept (POC)](#proof-of-concept-poc)
+- [Best Practices](#best-practices)
 
 ### Introduction
 Credential scanning is a process used in Continuous Integration (CI) to automatically check code for sensitive information like passwords, API keys, or tokens. It helps ensure that no critical data is accidentally shared in the codebase or in public repositories, which could lead to security issues.
@@ -24,7 +31,7 @@ Credential scanning is simply the act of scanning through your code, configurati
 
 If any of these are found in the code, they could be a security risk because attackers could steal and misuse them. Credential scanners identify patterns that match sensitive data, helping you catch and fix these issues early.
 
-### Why is Credential Scanning Important?
+### Why Credential Scanning?
 
 - **Prevents Leaks**: Sensitive information like API keys and passwords can be misused by attackers if exposed in code repositories. Scanning helps prevent such data leaks.
 - **Automated Protection**: CI systems run multiple code checks quickly. Credential scanning ensures that no sensitive information is accidentally included in the build.
@@ -51,7 +58,7 @@ If any of these are found in the code, they could be a security risk because att
 | **AWS Macie**   | Finds sensitive data in AWS storage             | Works best with AWS                  | Only works in AWS             |
 | **SpectralOps** | Customizable with APIs                          | Works well with large projects       | Hard to set up for small teams |
 
-### Advantages of Credential Scanning in CI
+### Advantages of Credential Scanning
 
 | Advantage            | Description                                                                                          |
 |----------------------|------------------------------------------------------------------------------------------------------|
