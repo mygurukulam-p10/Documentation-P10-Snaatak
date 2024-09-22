@@ -20,8 +20,8 @@
    2. [Use SSH for Authentication](#use-ssh-for-authentication)
    3. [Regularly Review Permissions](#regularly-review-permissions)
    4. [Keep Your Software Updated](#keep-your-software-updated)
-6. [Version Control Best Practices](#6-version-control-best-practices)
-7. [Conclusion](#7-conclusion)
+6. [Conclusion](#6-conclusion)
+7. [Reference](#7-reference)
 
 ## 1. 🎯 Purpose of the Document
 
