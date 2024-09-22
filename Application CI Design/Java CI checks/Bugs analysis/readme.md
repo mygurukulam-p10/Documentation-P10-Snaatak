@@ -41,6 +41,7 @@ Bugs analysis in CI is the process of automatically detecting code defects (bugs
 | GitHub Actions   | Integrated with GitHub, it allows you to automate workflows directly from your repository.            |
 | SonarQube        | A tool for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells, and security vulnerabilities. |
 
+---
 ### Comparison of Different Tools
 | **Tool**        | **Features**                                   | **Pros**                                      | **Cons**                                         |
 |-----------------|------------------------------------------------|-----------------------------------------------|--------------------------------------------------|
