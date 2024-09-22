@@ -62,6 +62,37 @@ If any of these are found in the code, they could be a security risk because att
 
 ### Proof of Concept (POC)
 
+## ⚙️ Pre-requisites for Credential Scanning
+
+- **Git**: For managing the repository where the scan will take place.
+- **Gitleaks**: For performing the actual credential scanning.
+
+## System Requirements for Credential Scanning
+| Hardware Specifications | Minimum Recommendation  |
+|--------------------------|------------------------|
+| Processor                | dual-core              |
+| RAM                      | 4 GB                   |
+| Disk                     | 5 GB free disk space   |
+| OS                       | Ubuntu 22.04 LTS       |
+
+---
+
+## 🛠️ Build-Time Dependency for Credential Scanning
+
+| 🛠️ Name  | 📦 Version | 📄 Description |
+|----------|------------|----------------|
+| **Gitleaks** | Latest     | Detects hardcoded secrets, passwords, and API keys in the codebase. |
+
+---
+
+## 🚀 Run-Time Dependency for Credential Scanning
+
+| 🚀 Name  | 📦 Version       | 📄 Description                                    |
+|---------|------------------|--------------------------------------------------|
+| **Git**  | 2.+              | Required for repository management during scans. |
+| **Gitleaks** | Latest         | Executes credential scanning on the repository.  |
+
+
 ### Best Practices for Credential Scanning
 
 | Best Practice           | Description                                                                                      |
