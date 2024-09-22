@@ -229,18 +229,113 @@ public final class SalaryApplication {
 ```
 ![e5](https://github.com/user-attachments/assets/10f5bd58-deca-4341-8c70-1989337d7f45)
 **ADD package-info.java** here src/main/java/com/opstree/microservice/salary/model
-```
 /**
- * This package contains service classes for managing salary information.
+ * This package contains model classes for the salary microservice.
  */
-package com.opstree.microservice.salary;
+package com.opstree.microservice.salary.model;
 ```
 
 - **remove unused import**
 - **ADD Javadoc Coment**
 - **Final File**
 ```
+package com.opstree.microservice.salary.model;
+import java.io.Serializable;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.cassandra.core.mapping.Column;
+import org.springframework.data.cassandra.core.mapping.PrimaryKey;
+import org.springframework.data.cassandra.core.mapping.Table;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+/**
+ * Represents an employee's salary details.
+ */
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+@Table("employee_salary")
+public class Employee implements Serializable {
 
+    /**
+     * The unique identifier of the employee.
+     */
+    @Id
+    @PrimaryKey
+    @Column("id")
+    private String id;
+
+    /**
+     * The name of the employee.
+     */
+    @Column("name")
+    private String name;
+
+    /**
+     * The salary of the employee.
+     */
+    @Column("salary")
+    private Float salary;
+
+    /**
+     * The process date for the employee's salary.
+     */
+    @Column("process_date")
+    private String processDate;
+
+    /**
+     * The status of the employee.
+     */
+    @Column("status")
+    private String status;
+
+    /**
+     * Returns the unique identifier of the employee.
+     *
+     * @return the id of the employee
+     */
+    public String getId() {
+        return id;
+    }
+
+    /**
+     * Returns the name of the employee.
+     *
+     * @return the name of the employee
+     */
+    public String getName() {
+        return name;
+    }
+
+    /**
+     * Returns the salary of the employee.
+     *
+     * @return the salary of the employee
+     */
+    public Float getSalary() {
+        return salary;
+    }
+
+    /**
+     * Returns the process date for the employee's salary.
+     *
+     * @return the process date
+     */
+    public String getProcessDate() {
+        return processDate;
+    }
+
+    /**
+     * Returns the status of the employee.
+     *
+     * @return the status of the employee
+     */
+    public String getStatus() {
+        return status;
+    }
+}
 ```
 
 ![e6](https://github.com/user-attachments/assets/7bc5f3a1-6f90-4e48-9c41-416287bd59ac)
@@ -256,7 +351,27 @@ package com.opstree.microservice.salary;
 - **ADD Javadoc Coment**
 - **Final File**
 ```
+package com.opstree.microservice.salary.model;
 
+/**
+ * This package contains model classes for the salary microservice.
+ */
+
+public class Message {
+    /**
+     * The message content.
+     */
+    private String message;
+
+    /**
+     * Constructs a Message with the specified content.
+     *
+     * @param paramMessage the content of the message
+     */
+    public Message(final String paramMessage) {
+        this.message = paramMessage;
+    }
+}
 ```
 
 ![e7](https://github.com/user-attachments/assets/3e2bbdfd-2b21-4bce-90a8-7b73823033d9)
