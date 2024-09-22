@@ -73,6 +73,7 @@ sudo apt install git
 git config --global user.name "Your Name"
 git config --global user.email "your_email@example.com"
 ```
+![image](https://github.com/user-attachments/assets/4bf6af48-9fed-40e4-ac04-7ae5b0ca4751)
 
 ## 4. ✨ Creating and Managing GitHub Repositories
 
