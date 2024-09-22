@@ -62,6 +62,7 @@ The purpose of this document is to guide users in setting up and managing a vers
 sudo apt update
 sudo apt install git
 ```
+![image](https://github.com/user-attachments/assets/5a38bf54-d5e8-4af9-bc70-e631207b6cf7)
 
 ---
 
