@@ -86,7 +86,68 @@ Several tools are available for static code analysis in Java, each with unique f
 ![e1](https://github.com/user-attachments/assets/92864196-b869-4123-8f14-002492226735)
 
 ![e2](https://github.com/user-attachments/assets/ea380ede-2922-4c3c-acd0-4ef163b03eaf)
+# **ADD package-info.java**
+```
+/**
+ * This package contains classes related to the salary management APIs.
+ */
+package com.opstree.microservice.salary.controller;
+```
 
+**remove unused import**
+**ADD Javadoc Coment**
+**Final File**
+```
+package com.opstree.microservice.salary.service;
+import com.opstree.microservice.salary.model.Employee;
+import com.opstree.microservice.salary.repository.SpringDataSalaryRepository;
+import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
+import java.util.List;
+import java.util.Optional;
+
+/**
+ * Service class for handling salary-related operations.
+ */
+@Service
+@RequiredArgsConstructor
+public class SpringDataSalaryService {
+
+    /**
+     * Repository for accessing salary data.
+     */
+    private final SpringDataSalaryRepository springDataSalaryRepository;
+
+    /**
+     * Saves a new employee salary record.
+     * @param employee The employee object to be saved
+     * @return The saved employee object
+     */
+    public Employee saveSalary(final Employee employee) {
+        return springDataSalaryRepository.save(employee);
+    }
+
+    /**
+     * Retrieves all employee salary records.
+     * @return A list of all employee salary records
+     */
+    public List<Employee> getAllSalaries() {
+        return springDataSalaryRepository.findAll();
+    }
+
+    /**
+     * Retrieves an employee salary record by ID.
+     * @param id The ID of the employee
+     * @return An Optional containing the employee if found,
+              or empty if not found.
+     */
+    public Optional<Employee> getSalaryById(final Long id) {
+        return springDataSalaryRepository.findById(id);
+    }
+
+    // Additional methods can be added as needed...
+}
+```
 
 
 ![e4](https://github.com/user-attachments/assets/f1377a82-1729-446f-91ba-5e667a3a66be)
