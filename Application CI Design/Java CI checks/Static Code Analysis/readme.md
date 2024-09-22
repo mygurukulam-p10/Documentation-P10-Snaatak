@@ -1,8 +1,10 @@
 # Static Code Analysis
 
-| 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
-|--------------------|------------|--------------|--------------------------------|
-| 21-09-2024         | 0.1       | Vinay Bansal   | Static Code Analysis               |
+![java static](https://github.com/user-attachments/assets/16f124bd-65e8-45df-93ae-6611fd7617ed)
+
+  | Author        | Created on | Version | Last updated by | Last edited on |
+  |-------------|---------|-------------|-------------|---------|
+  | Vinay Bansal | 21-09-24 | version 1 | Vinay Bansal | 22-09-24 |
 
 
 ## Table of Contents
@@ -20,7 +22,7 @@
 ## Introduction
 Static code analysis is a method of debugging that analyzes source code before it runs. In Java development, static analysis plays a crucial role in identifying potential errors, enforcing coding standards, and improving overall code quality.
 
-## What is Static Code Analysis?
+## ❓ What is Static Code Analysis?
 Static code analysis involves examining the source code of a program without executing it. This analysis is performed by tools that scan the codebase to find potential issues, such as syntax errors, bugs, security vulnerabilities, and observation to coding standards. Unlike dynamic analysis, which evaluates the program during execution, static analysis helps developers catch problems early in the development cycle.
 
 ## Why Use Static Code Analysis?
@@ -109,14 +111,15 @@ Security Vulnerabilities: 88
 | **Customize Rules**           | Tailor rules to fit project needs and team standards for relevance.        |
 
 
-## Recommendations and Conclusion
+## ✅ Recommendations and Conclusion
+Using Checkstyle effectively enhances code quality, improves maintainability, and fosters a consistent coding culture within the team. By following these recommendations, organizations can ensure their codebases are cleaner, more readable, and easier to manage over time.
 
-## Contact Information
+##  📧 Contact Information
 | Name | Email address|
 |------|---------------------|
 | Vinay Bansal | vinay.bansal.snaatak@mygurukulam.co |
 
-## References
+## 📚References
 | Links | Descriptions|
 |------|---------------------|
 |  https://checkstyle.sourceforge.io/ | Checkstyle |
