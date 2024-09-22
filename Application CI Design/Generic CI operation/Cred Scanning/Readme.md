@@ -60,3 +60,20 @@ If any of these are found in the code, they could be a security risk because att
 | **Meet Standards**    | Many industries require businesses to secure data properly, and credential scanning helps with this.  |
 | **Avoid Data Leaks**  | By removing sensitive data before code is published, you avoid exposing it to hackers.               |
 
+### Proof of Concept (POC)
+
+### Best Practices for Credential Scanning
+
+| Best Practice           | Description                                                                                      |
+|-------------------------|--------------------------------------------------------------------------------------------------|
+| **Scan Early**           | Add scanning during development (before code is committed) to catch issues early.                |
+| **Scan Regularly**       | Regularly scan the entire repository, as old commits may still contain sensitive data.           |
+| **Access Controls**   | Implement strict access controls to limit who can view and modify sensitive information.             |
+| **Handle False Positives**| Review flagged data carefully, as scanners can sometimes incorrectly flag harmless information.  |
+| **Use Secrets Managers** | Store secrets (keys, passwords) in secure vaults like AWS Secrets Manager or HashiCorp Vault.     |
+
+
+### Conclusion
+Credential scanning is an essential practice for maintaining the security and integrity of codebases. By implementing regular scans, Access Controls, Using Secrets Managers, organizations can significantly reduce the risk of exposing sensitive information. Tools like GitLeaks, TruffleHog, GitGuardian, and SpectralOps offer robust solutions for integrating credential scanning into CI pipelines, ensuring continuous protection against credential leaks.
+
+
