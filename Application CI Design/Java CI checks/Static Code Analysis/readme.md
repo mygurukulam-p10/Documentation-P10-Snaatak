@@ -2,7 +2,7 @@
 
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
 |--------------------|------------|--------------|--------------------------------|
-| 20-09-2024         | 0.1       | Vinay Bansal   | Static Code Analysis               |
+| 21-09-2024         | 0.1       | Vinay Bansal   | Static Code Analysis               |
 
 
 ## Table of Contents
