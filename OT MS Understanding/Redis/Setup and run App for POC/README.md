@@ -30,10 +30,11 @@ The purpose of the Redis in API's is to store the cache data so that, next time 
 
 | Hardware Specifications | Minimum Recommendation |
 |-------------------------|------------------------|
-| Processor               | 2 cores                |
-| RAM                     | 4GB                    |
-| Disk                    | 15GB SSD               |
+| Processor               | Single core            |
+| RAM                     | 512MB                  |
+| Disk                    | 1GB SSD                |
 | OS                      | Ubuntu 22.04 LTS       |
+
 
 ### Dependencies
 
@@ -114,8 +115,9 @@ Update the Redis configuration file with the following settings:
 | `protected-mode yes`     | Enables Redis's security feature to prevent unauthorized access by default. |
 | `port 6379`              | Specifies that Redis should listen for incoming connections on port 6379.  |
 
-
-![image](https://github.com/user-attachments/assets/cfa5c160-c3fb-4d6d-8a65-dd2c8569b1ed)
+![image](https://github.com/user-attachments/assets/5ec74ec9-5b6f-4572-b290-776cec0f0cfa)
+![image](https://github.com/user-attachments/assets/946c062c-230f-4122-b809-e8fd9b30accd)
+![image](https://github.com/user-attachments/assets/dc7ac763-860d-4cb4-9731-037d663e6e3f)
 
 ### 1.3 Security Setup
 
