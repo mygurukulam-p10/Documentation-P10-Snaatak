@@ -64,10 +64,42 @@ sudo apt install git
 
 ---
 
-### 2. ⚙️ Configure Git 
+### 3. ⚙️ Configure Git 
 
 #### 🖥️ CLI Setup 
 ```
 git config --global user.name "Your Name"
 git config --global user.email "your_email@example.com"
+```
+
+## 4. Creating and Managing GitHub Repositories
+
+### 1. 📁 Create a New Repository
+
+#### 🖥️ UI Setup:
+- Log in to GitHub.
+- Click on the **"+"** icon in the upper right corner and select **"New repository."**
+- Fill in the repository name, description, and set it as public or private.
+- Initialize the repository with a README if desired.
+- Click **"Create repository."**
+
+#### 💻 CLI Setup:
+
+```
+mkdir your-repo
+cd your-repo
+git init
+echo "# Your Repository Title" >> README.md
+git add README.md
+git commit -m "Initial commit"
+```
+
+### 2. 🔗 Link Local Repository to GitHub
+
+#### 💻 CLI Setup:
+
+```
+git remote add origin https://github.com/username/your-repo.git
+git branch -M main
+git push -u origin main
 ```
