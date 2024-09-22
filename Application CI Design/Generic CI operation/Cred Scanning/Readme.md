@@ -24,10 +24,21 @@ If any of these are found in the code, they could be a security risk because att
 
  ### Tools for Credential Scanning
 
-| Tool          | Features                                                                 | Strengths                                        | Weaknesses                            |
-|---------------|--------------------------------------------------------------------------|-------------------------------------------------|---------------------------------------|
-| **GitGuardian** | Monitors repositories in real-time to detect hardcoded secrets and sends alerts when something is found. | Catches issues immediately                      | Expensive for larger teams            |
-| **TruffleHog**  | Looks for sensitive data by scanning for high-entropy strings, which might represent passwords or keys. | Works with many data types                      | Can produce false positives           |
-| **Gitleaks**    | Scans Git repositories for sensitive information in the code history.   | Lightweight and easy to use                     | Lacks detailed dashboards             |
-| **AWS Macie**   | Specifically for AWS environments, it scans your storage (like S3 buckets) for sensitive data. | Works best with AWS                             | Only works in AWS                     |
-| **SpectralOps** | Focuses on identifying secrets in code and configuration files and integrates well with CI pipelines. | Works well with large projects                  | Hard to set up for small teams        |
+| Tool          | Features                                                                 | 
+|---------------|--------------------------------------------------------------------------|
+| **GitGuardian** | Monitors repositories in real-time to detect hardcoded secrets and sends alerts when something is found. |
+| **TruffleHog**  | Looks for sensitive data by scanning for high-entropy strings, which might represent passwords or keys.
+| **Gitleaks**    | Scans Git repositories for sensitive information in the code history.   | 
+| **AWS Macie**   | Specifically for AWS environments, it scans your storage (like S3 buckets) for sensitive data. | 
+| **SpectralOps** | Focuses on identifying secrets in code and configuration files and integrates well with CI pipelines. | 
+
+### Comparison of Credential Scanning Tools
+
+| Tool          | Features                                        | Strengths                            | Weaknesses                   |
+|---------------|-------------------------------------------------|--------------------------------------|------------------------------|
+| **GitGuardian** | Real-time monitoring and alerts                 | Catches issues immediately           | Expensive for larger teams    |
+| **TruffleHog**  | Scans for high-entropy strings (like API keys)  | Works with many data types           | Can produce false positives   |
+| **Gitleaks**    | Simple command-line tool                        | Lightweight and easy to use          | Lacks detailed dashboards     |
+| **AWS Macie**   | Finds sensitive data in AWS storage             | Works best with AWS                  | Only works in AWS             |
+| **SpectralOps** | Customizable with APIs                          | Works well with large projects       | Hard to set up for small teams |
+
