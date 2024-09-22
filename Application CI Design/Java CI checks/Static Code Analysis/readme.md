@@ -17,7 +17,8 @@
 7. [Proof of Concept (POC)](#proof-of-concept-poc)
 8. [Best Practices](#best-practices)
 9. [Recommendations and Conclusion](#recommendations-and-conclusion)
-10. [Contact Information and References](#contact-information-and-references)
+10. [Contact Information References](#contact-information)
+11. [References](#references)
 
 ## Introduction
 Static code analysis is a method of debugging that analyzes source code before it runs. In Java development, static analysis plays a crucial role in identifying potential errors, enforcing coding standards, and improving overall code quality.
