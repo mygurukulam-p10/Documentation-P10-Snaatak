@@ -123,4 +123,4 @@ Using Checkstyle effectively enhances code quality, improves maintainability, an
 | Links | Descriptions|
 |------|---------------------|
 |  https://checkstyle.sourceforge.io/ | Checkstyle |
-|https://www.bitshifted.co/blog/java-static-code-analysis-tools/Static Code Analysis Tools||
+|https://www.bitshifted.co/blog/java-static-code-analysis-tools/ |Static Code Analysis Tools|
