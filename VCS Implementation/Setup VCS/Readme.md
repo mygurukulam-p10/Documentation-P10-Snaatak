@@ -22,6 +22,7 @@
    4. [Keep Your Software Updated](#keep-your-software-updated)
 6. [Conclusion](#6-conclusion)
 7. [Reference](#7-reference)
+8. [Contact](#8-contact)
 
 ## 1. 🎯 Purpose of the Document
 
@@ -104,3 +105,60 @@ git remote add origin https://github.com/username/your-repo.git
 git branch -M main
 git push -u origin main
 ```
+
+## 5. 🔒 Security Recommendations
+
+### 1. Enable Two-Factor Authentication (2FA):
+
+- Go to your GitHub account settings.
+- Navigate to **"Security"** and enable **"Two-factor authentication."**
+
+### 2. Use SSH for Authentication:
+
+- **Generate an SSH key:**
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+- **Start the SSH agent and add your SSH key:**
+
+```
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+```
+- **Copy your SSH key to your clipboard:**
+
+```
+cat ~/.ssh/id_rsa.pub | clip  # Windows
+pbcopy < ~/.ssh/id_rsa.pub    # macOS
+xclip -sel clip < ~/.ssh/id_rsa.pub  # Linux
+```
+- Add the SSH key to your GitHub account under **"SSH and GPG keys."**
+
+### 3. Regularly Review Permissions:
+
+- Check and manage repository permissions and collaborators.
+
+### 4.  Keep Your Software Up to Date:
+
+- Regularly update Git and any development tools you use.
+
+## 6. 🏁 Conclusion
+This document provides a comprehensive guide for setting up and managing a version control system using GitHub. By following the outlined steps and implementing security recommendations, we can effectively collaborate and maintain our codes which we will be using our sprints micro repositories.
+
+## 7. 📚 Reference
+
+| Title                                 | Link                                                                                           |
+|---------------------------------------|------------------------------------------------------------------------------------------------|
+| Git Installation                      | [Git Downloads](https://git-scm.com/downloads)                                              |
+| GitHub Account Creation               | [Create a GitHub Account](https://github.com/join)                                          |
+| Two-Factor Authentication (2FA)      | [GitHub 2FA Documentation](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication) |
+| SSH Key Generation                    | [Generating a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key) |
+| Features of VCS                       | [Feature of VCS](https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20%2B%20POC/Features%20of%20VCS/POC%20to%20setup%20recommeded%20VCS%20as%20per%20conclusion%20doc/README.md) |
+
+## 8. 📧 Contact Information
+
+For more information on how to implement CI or if you need any guidance, feel free to reach out:
+
+| Name  | Email Address                                  |
+|-------|------------------------------------------------|
+| Komal | komal.jaiswal.snaatak@mygurukulam.co           |
