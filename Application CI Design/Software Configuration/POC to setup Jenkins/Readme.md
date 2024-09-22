@@ -202,14 +202,15 @@ jenkins_repo_url: "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https
 - name: Show installation status
   debug:
     var: install_result
+```
+4.handlers.yaml: In this file we define our handlers.
 
+```
 - name: Restart Jenkins
   systemd:
     name: jenkins 
     state: restarted
-
 ```
-
 **Step 6: Playbook Execution**
 
 * To set up Jenkins on your target servers, you will execute the Ansible playbook using the following command:
