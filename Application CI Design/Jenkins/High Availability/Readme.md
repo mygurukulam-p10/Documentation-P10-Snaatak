@@ -93,6 +93,63 @@ After completing the Jenkins setup wizard by following the on-screen directions,
 
 -> Click on the new node then write a name and select the type as permanent agent and then create a node.
 
+![0_U5GaMlyEaBctXpy9](https://github.com/user-attachments/assets/6e5e7118-2a68-4666-b4e9-37ac4a3a1fa0)
+
+-> Configure the node as the requirement bases.
+
+<img width="550" alt="new" src="https://github.com/user-attachments/assets/972534ee-d372-4b7d-907b-918762f9c821">
+
+-> In the Usage section there are two options. Here, you can configure how Jenkins should use nodes:
+
+Use this node as much as possible: Jenkins will try to utilize this node for as many jobs as possible.
+
+Only build jobs with label expressions matching this node: Jenkins will only use this node if the job specifies the appropriate label(s).
+
+-> Then select the launch method and availability then click “Save” to apply the changes.
+
+<img width="550" alt="data" src="https://github.com/user-attachments/assets/19e4be3e-da6d-4d02-a0d6-ec6351153a17">
+
+<img width="550" alt="data-1" src="https://github.com/user-attachments/assets/caedad02-fd6e-4538-9cf4-7ec5ce00659a">
+
+-> Then, run the below commands to make the node online:
+
+```
+curl -sO http://54.225.4.205:8080/jnlpJars/agent.jar
+java -jar agent.jar -url http://54.225.4.205:8080/ -secret 1c3ad6f1459b28508907cb559913330a964c3d95bcbf8995822e7c154171ef94 -name slave -workDir "/home/ubuntu/slave"
+```
+/home/ubuntu/slave — directory which will provided in the slave node configuration
+
+![Screenshot 2024-09-22 152106](https://github.com/user-attachments/assets/ff197d62-e85e-4f56-94f2-35a6f5cdf3b3)
+
+![Screenshot 2024-09-22 152201](https://github.com/user-attachments/assets/b19247ba-5b22-4b76-92bd-2572c427b65f)
+
+**Step-5 :** If you want to run selected jobs on the agent node so for that in the agent node configuration write down the label for the agent node.
+
+<img width="564" alt="next" src="https://github.com/user-attachments/assets/f3c3f358-55db-4d66-a532-ee6393fb703c">
+
+And give the label name in the pipeline code which you want to run on the agent node.
+
+![Screenshot 2024-09-22 152727](https://github.com/user-attachments/assets/09808fad-b40e-4677-a9ff-0682409e5360)
+
+**Step-6 :** After making a slave agent online create an AMI of the Jenkins primary instance.
+
+![Screenshot 2024-09-22 153011](https://github.com/user-attachments/assets/d2fd176a-551f-4c4f-8c99-f445a392eabf)
+
+![Screenshot 2024-09-22 153028](https://github.com/user-attachments/assets/41f42c41-ae89-4309-bfc3-ae926e120656)
+
+**Step-7 :** Then create a Launch template for Auto scaling group using Jenkins primary instance.
+
+![Screenshot 2024-09-22 155404](https://github.com/user-attachments/assets/677a237e-a016-4214-8eec-f2ffcb62b5d6)
+
+![Screenshot 2024-09-22 155713](https://github.com/user-attachments/assets/94b76f87-e45c-4652-b169-0c019fcdacb2)
+
+
+
+
+
+
+
+
 
 
 There is a difference between master-slave setup and HA. So, let’s have a look on that:
