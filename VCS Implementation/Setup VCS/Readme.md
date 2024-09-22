@@ -33,7 +33,7 @@ The purpose of this document is to guide users in setting up and managing a vers
 
 | Name  | Version | Description                                 |
 |-------|---------|---------------------------------------------|
-| Git   | 2.34    | Distributed version control system          |
+| Git   | 2.34.1    | Distributed version control system          |
 | GitHub Account | N/A     | Platform for hosting Git repositories |
 
 ## 3. ✨ Setting Up GitHub Version Control
