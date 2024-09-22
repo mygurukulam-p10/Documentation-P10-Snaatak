@@ -10,6 +10,7 @@
 + [Introduction](#Introduction)
 + [Ansible and Jenkins](#Ansible-jenkins)
 + [System Requirements](#system-requirements)
++ [Runtime Dependency](#Runtime Dependency)
 + [Flow_Diagram](#flow-diagram)
 + [Setup Ansible Role](#steps)
 + [Output Verification](#output)
@@ -42,6 +43,11 @@ In parallel, Jenkins excels in facilitating continuous integration and delivery,
 
 Before creating the Jenkins Ansible role, [click here](https://github.com/mygurukulam-p10/Documention/tree/main/Application%20CI%20Design/Software%20Configuration/Ansible%20role%20documentation) to read about Ansible roles.
 
+## Runtime Dependency
+
+| Name           | Version | Description                                                                                                                      |
+| -------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| Python         | Python 3.10.12  | Required for ansible.|
 
 ## Flow Diagram
 
