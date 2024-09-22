@@ -1,4 +1,13 @@
 # Generic CI Operation: Credential Scanning
+| 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
+|--------------------|------------|--------------|--------------------------------|
+| 22-09-2024         | 0.1       | Aayush Gaur  | Credential Scanning               |
+
+### Purpose 
+
+The purpose of this document is to provide a detailed explanation of **credential scanning** as part of a **Continuous Integration (CI) operation**. It explains what credential scanning is, why it is essential, the tools available for credential scanning, and how to implement it in CI pipelines. The document will also guide on best practices and offer a proof of concept (POC) for practical implementation. This ensures that sensitive data, such as passwords, API keys, and tokens, are not accidentally exposed in code repositories.
+
+### Table of Contents
 
 
 ### Introduction
