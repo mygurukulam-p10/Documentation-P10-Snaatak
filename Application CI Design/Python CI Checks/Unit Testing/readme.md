@@ -23,3 +23,20 @@ Install Flask-Caching: Install the flask_caching package using pip:
 pip install Flask-Caching
 ```
 
+utils/tests/test_json_encoder.py
+Install Peewee: If you haven't installed the peewee library, you can do so using pip:
+```
+pip install peewee
+```
+
+utils/tests/test_log_encoder.py
+Install the Module: If you haven't installed pythonjsonlogger, you can do so using pip:
+```
+pip install python-json-logger
+```
+
+utils/tests/test_validator.py
+Install Voluptuous: If you haven’t installed voluptuous, you can do so using pip:
+```
+pip install voluptuous
+```
