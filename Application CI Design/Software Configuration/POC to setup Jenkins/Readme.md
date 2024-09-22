@@ -177,7 +177,7 @@ jenkins_repo_url: "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https
     url_username: admin
     url_password: "{{ jenkins_admin_password }}"
     url: "http://localhost:8080"
-    state: absent
+    state: present
   loop:
     - { key: "gitlab-plugin" }
   register: install_result
