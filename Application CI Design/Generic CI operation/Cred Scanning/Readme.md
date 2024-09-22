@@ -12,5 +12,6 @@ Credential scanning is simply the act of scanning through your code, configurati
 - **Passwords**
 - **API keys**
 - **Tokens (used to access services securely)**
+
 If any of these are found in the code, they could be a security risk because attackers could steal and misuse them. Credential scanners identify patterns that match sensitive data, helping you catch and fix these issues early.
 
