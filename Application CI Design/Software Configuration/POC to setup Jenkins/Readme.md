@@ -60,7 +60,7 @@ mkdir <dir_name>
   ![Screenshot from 2024-09-22 02-26-48](https://github.com/user-attachments/assets/e5fd8f2b-15c0-4a42-a458-7904270ffd70)
 
 
-**step 4: Create ansible role in directory we have created**
+**step 4: Create ansible role in a directory we have created**
 ```
 ansible-galaxy init <RoleName>
 ```
