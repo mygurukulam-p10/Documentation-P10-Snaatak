@@ -29,16 +29,40 @@ The purpose of this document is to provide a comprehensive overview of key featu
 # 🌟 What is High Availibility?
 High availability means that an IT system, component, or application can operate at a high level, continuously, without intervention, for a given time period. High-availability infrastructure is configured to deliver quality performance and handle different loads and failures with minimal or zero downtime.
 
-# 🚀 Why should Jenkins is Highly Available?
-In case of a standalone Jenkins setup, if the Jenkins instance fails, all the configuration/jobs data on the node may be lost. Restoring the data/os-image through enterprise backup & restore solutions may not be trivial and may prove to be expensive. There are a few paid and expensive alternatives available that offers a clustered Jenkins setup.
+# 💥How to configure Jenkins with High Availability?
+Jenkins is the crucial component of DevOps and you may be set up Jenkins in production, but when it comes to the production end, things become more important but if something goes down or an event occurs, such as an increase in load. As a result, it could impact production and cause it to halt. So, you can configure Jenkins’ instantaneous live backup.
+Here, will see how to set up Jenkins, how to create pipelines, nodes and make Jenkins available.
 
-### There are two ways you can have Jenkins in HA mode.
+### There is two thing:
 
-**Jenkins active/passive setup:** Only enterprise Jenkins comes with a supported plugin to have this setup. But most organizations use open-source versions, and his option is out of scope. Also there is an option with HAproxy, however I think its bit of an administrative overhead.
+**Jenkins master-slave setup,**
+**Jenkins HA(High Availability)**
 
-**Jenkins HA setup in autoscaling Group:** Having Jenkins in autoscaling group is workaround to have a higly available Jenkins. It is not a 100% HA solution; however, for any reason if your Jenkins server crasher, another instance will come up within a short period. 
+## 1. What is Master-slave configuration?
+The term “master-slave” describes the high availability of a Jenkins node, such as the master node, which is a single built-in node that can distribute the burden of testing, building, and deploying an application across several slave or agent servers. The Jenkins slave nodes are assigned tasks by the master node, which manages job scheduling, while the slave nodes, also known as agent nodes, are responsible for building, testing, and deploying the application. Jenkins machines’ scalability, availability, and resource efficiency were all improved by the master-salve setup.
 
-### HA Jenkins Architecture:
+![1_AyAzlF4KshptPF58y0qSiA](https://github.com/user-attachments/assets/6bda7be1-f17f-48d1-85eb-d3fef24a8151)
+
+
+
+
+
+
+There is a difference between master-slave setup and HA. So, let’s have a look on that:
+
+So, in this blog there is two thing:
+
+Jenkins master-slave setup,
+Jenkins HA(High Availability)
+
+## There are two ways you can have Jenkins in HA mode.
+
+### 1. Jenkins active/passive setup:
+Only enterprise Jenkins comes with a supported plugin to have this setup. But most organizations use open-source versions, and this option is out of scope. Also there is an option with HAproxy, however I think its bit of an administrative overhead.
+
+
+
+**Jenkins HA setup in autoscaling Group:** Having Jenkins in autoscaling group is workaround to have a higly available Jenkins. It is not a 100% HA solution; however, for any reason if your Jenkins server crasher, another instance will come up within a short period.
 
 
 
