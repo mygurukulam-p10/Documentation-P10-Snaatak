@@ -66,10 +66,9 @@ Cons: Limited support for newer Java features.
 ## Comparison of Static Code Analysis Tools
 | Feature                        | SonarQube                                    | PMD                                 | Checkstyle                          | FindBugs/SpotBugs                  |
 |--------------------------------|----------------------------------------------|-------------------------------------|-------------------------------------|-------------------------------------|
-| **Purpose**                    | Comprehensive code quality management tool   | Static code analysis for Java       | Code style checking for Java        | Bug detection and static analysis    |
+| **Purpose**                    | Comprehensive code quality management tool   | Code smells for Java       | Static code analysis for Java        | Bug detection and static analysis    |
 | **Language Support**           | Multiple languages (Java, JavaScript, C#, etc.) | Primarily Java                      | Primarily Java                      | Primarily Java                      |
 | **Type of Analysis**           | Static and dynamic analysis                   | Static analysis                     | Static code style analysis          | Static analysis focused on bugs     |
-| **Integration**                | Integrates with CI/CD tools and IDEs        | Can be integrated into build tools  | Works with build tools and IDEs    | Integrates with IDEs and build tools |
 | **Customization**              | Highly customizable with plugins and rules   | Customizable rulesets available     | Customizable rules and checks       | Some customization options available |
 | **Reporting**                  | Provides detailed dashboards and reports     | Generates reports on rule violations | Generates reports on code style issues | Generates reports on potential bugs  |
 | **Focus Areas**                | Code quality, security, maintainability      | Code complexity, best practices     | Code formatting and style guidelines | Bug patterns and potential issues   |
