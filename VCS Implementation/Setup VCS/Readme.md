@@ -45,6 +45,8 @@ The purpose of this document is to guide users in setting up and managing a vers
 - Click on **"Sign up"** and fill in the required details (username, email, password).
 - Verify your email address.
 
+![image](https://github.com/user-attachments/assets/7a3b793f-1f6f-43e6-8a69-be7e3f19aeb7)
+
 ---
 
 ### 2. ⚙️ Install Git
@@ -81,7 +83,11 @@ git config --global user.email "your_email@example.com"
 - Click on the **"+"** icon in the upper right corner and select **"New repository."**
 - Fill in the repository name, description, and set it as public or private.
 - Initialize the repository with a README if desired.
-- Click **"Create repository."**
+- Click **"Create repository
+
+![image](https://github.com/user-attachments/assets/0742de68-9ce9-4e08-9367-90215b5fbfc0)
+![image](https://github.com/user-attachments/assets/ddc53494-496c-43dc-b6c4-292075d686ba)
+
 
 #### 💻 CLI Setup:
 
@@ -94,6 +100,7 @@ git add README.md
 git commit -m "Initial commit"
 ```
 ---
+
 
 ### 2. 🔗 Link Local Repository to GitHub
 
