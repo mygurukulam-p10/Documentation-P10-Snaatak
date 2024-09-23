@@ -9,6 +9,8 @@
 ## Table of Contents
 + [Introduction](#Introduction)
 + [ System Requirements](#System-Requirements)
++ [Build Dependency](#Build-Dependency)
++ [Run Time Dependency](#Run Time Dependency)
 + [OWASP](#owasp-dependency-check)
 + [Proof of Concept](#Pre-requisite)
 + [Suppressing dependencies](#dependency-suppression)
@@ -33,6 +35,19 @@
 | Disk                     | 10GB                   |
 | OS                       | Ubuntu(22.04)          |
 
+## Build Dependency
+
+| Name                    | Version   | Description                                                                    |
+|-------------------------|-----------|--------------------------------------------------------------------------------|
+| Java                    | 17.0.12   | Required for Java-based build or runtime environments.                         |
+| Maven                   | 3.6       | A build automation tool used primarily for Java projects.                     |
+| OWASP Dependency-Check  | 10.0.4    | A software composition analysis tool that identifies project dependencies and checks for known vulnerabilities. |
+
+## Run Time Dependency
+
+| Name           | Version   | Description                                                                                   |
+|----------------|-----------|-----------------------------------------------------------------------------------------------|
+| Java           | 17.0.12   | Required for Java-based build or runtime environments.                                         |
 
 ## OWASP Dependency-Check
 OWASP is an open-source tool widely utilized for identifying known vulnerabilities in project dependencies. This tool automatically analyzes dependencies and checks them against a comprehensive database of security vulnerabilities, including the National Vulnerability Database (NVD). It supports various programming languages and build tools, making it a versatile choice for enhancing the security of software projects. 
