@@ -229,6 +229,7 @@ jenkins_repo_url: "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https
 - name: Show installation status
   debug:
     var: install_result
+  notify: Restart Jenkins
 ```
 4.handlers/main.yaml: In this file we define our handlers.
 
