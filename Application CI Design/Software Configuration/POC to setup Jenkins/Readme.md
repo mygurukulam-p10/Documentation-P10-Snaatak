@@ -43,6 +43,7 @@ Before creating the Jenkins Ansible role, [click here](https://github.com/myguru
 | Python         | 3.10.12     | Required for running Ansible and executing modules.              |
 | Jinja          | 3.1.4       | Templating engine used by Ansible for dynamic content generation. |
 | boto3          | 1.34.98     | AWS SDK for Python, used for interacting with AWS services.      |
+| pip3           | 22.0.2      |             To use pip in Ansible for installing Python packages | 
 
 
 ## Flow Diagram
