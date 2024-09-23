@@ -19,12 +19,12 @@ This document provides an overview of Jenkins' authentication and authorization 
 8. [Contact Information](#contact-information)
 9. [References](#references)
 
-### What is Jenkins
+## What is Jenkins
 
 Jenkins is a crucial part of many CI/CD pipelines, often handling sensitive information such as source code, credentials, and deployment configurations. Securing Jenkins ensures that only authorized users can access these critical assets, protecting the integrity of the development and deployment processes.
 
 
-### Authentication in Jenkins
+## Authentication in Jenkins
 
 Authentication verifies the identity of users accessing the Jenkins system. Jenkins supports multiple authentication methods
 
@@ -61,7 +61,7 @@ Authentication verifies the identity of users accessing the Jenkins system. Jenk
 
 **Cons -** Requires SAML-compatible identity provider and configuration.
 
-### Authorization in Jenkins
+## Authorization in Jenkins
 
 ### Matrix based Security -
 
@@ -87,12 +87,12 @@ Authentication verifies the identity of users accessing the Jenkins system. Jenk
 
 **Cons -** Can become complex for large numbers of projects.
 
-### Why Secure Jenkins
+## Why Secure Jenkins
 
 Securing Jenkins is essential to protect sensitive assets like source code, credentials, and deployment pipelines. Properly configured authentication and authorization prevent unauthorized access, ensuring that only permitted users can perform critical actions.
 
 
-### Jenkins Security Best Practices
+## Jenkins Security Best Practices
 
 | **Features** |     **Desciption**   |
 |------------- |----------------------|
@@ -102,17 +102,17 @@ Securing Jenkins is essential to protect sensitive assets like source code, cred
 | **Enable HTTPS** |  Use TLS/SSL to secure all communications. |
 | **Use API Tokens** | Prefer API tokens over passwords for programmatic access.|
 
- ### Conclusion
+ ## Conclusion
  
 Authentication and authorization in Jenkins are crucial for protecting your CI/CD pipeline. By configuring WebUI and CLI-based authentication, along with robust authorization strategies, you can ensure the security and integrity of your Jenkins environment.
 
-### Contact Information
+## Contact Information
 For more information, feedback, or assistance, feel free to contact us:
 | Name         | Email address          |
 |--------------|------------------------|
 | **Abhinav Singh**    | abhinav.singh.snaatak@mygurukulam.co  |
  
-### References
+## References
 | Links                                             | Descriptions                       |
 |---------------------------------------------------|------------------------------------|
 | https://www.jenkins.io/doc/book/security/ |Jenkins Security Documentation |
