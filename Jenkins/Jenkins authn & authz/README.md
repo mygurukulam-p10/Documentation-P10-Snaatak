@@ -5,12 +5,19 @@ This document provides an overview of Jenkins' authentication and authorization 
 ## Table of Contents
 1. [Introduction](#what-is-jenkins)
 2. [Authentication in Jenkins](#authentication-in-jenkins)
-3. [Authorization in Jenkins](#authorization-in-jenkins)
-4. [Why Secure Jenkins?](#why-secure-jenkins)
-5. [Jenkins Security Best Practices](#jenkins-security-best-practices)
-6. [Conclusion](#conclusion)
-7. [Contact Information](#contact-information)
-8. [References](#references)
+  - [Internal User Database](#internal-user-database)
+  - [LDAP](#ldap)
+  - [OAuth](#oauth)
+  - [SAML](#saml)
+4. [Authorization in Jenkins](#authorization-in-jenkins)
+  - [Matrix-based Security](#matrix-based-Security)
+  - [Role-based Strategy](#role-based-strategy)
+  - [Project-based Matrix](#project-based-matrix)
+5. [Why Secure Jenkins?](#why-secure-jenkins)
+6. [Jenkins Security Best Practices](#jenkins-security-best-practices)
+7. [Conclusion](#conclusion)
+8. [Contact Information](#contact-information)
+9. [References](#references)
 
 ### What is Jenkins
 
@@ -22,22 +29,59 @@ Jenkins is a crucial part of many CI/CD pipelines, often handling sensitive info
 Authentication verifies the identity of users accessing the Jenkins system. Jenkins supports multiple authentication methods
 
 
-|Method               | Description                                                               |
-|----------------------------|--------------------------------------------------------------------|
-| **Internal User Database**        | Jenkins stores and manages user credentials locally. |
-| **LDAP**            | Integrates with directory services like Active Directory.     |
-| **OAuth**    | Connects with identity providers like Google or GitHub. |
-| **SAML**      |  Enables Single Sign-On (SSO) using SAML protocols. |
+### Internal User Database -
 
+**Description -** Jenkins stores and manages user credentials locally.
+
+**Pros -** Simple to set up and manage, suitable for smaller environments.
+
+**Cons -** Limited scalability and potential security risks if not configured properly.
+
+### LDAP -
+
+**Description -** Integrates with directory services like Active Directory.
+
+**Pros -** Centralized user management, improved security, and scalability.
+
+**Cons -** Requires LDAP setup and configuration, potential complexity for non-IT administrators.
+
+### OAuth -
+
+**Description -** Connects with identity providers like Google or GitHub.
+
+**Pros -** Seamless user experience, enhanced security, and flexibility.
+
+**Cons -** Relies on external identity providers, potential dependency issues.
+
+### SAML -
+
+**Description -** Enables Single Sign-On (SSO) using SAML protocols.
+
+**Pros -** Centralized authentication, improved user experience, and enhanced security.
+
+**Cons -** Requires SAML-compatible identity provider and configuration.
 
 ### Authorization in Jenkins
 
-| Type              | Description                                             |
-|----------------------|------------------------------------------------------|
-|      **Matrix-based Security**    | Fine-grained access control over various operations.          |
-|     **Role-based Strategy**       | Define roles for users and groups, allowing specific actions at different levels (global, folder, project).     |
-| **Project-based Matrix**     | Grants permissions based on specific projects.        |
+### Matrix based Security -
 
+**Description -** Fine-grained access control over various operations.
+
+**Pros -** Flexible and granular control over permissions.
+
+**Cons -** Can become complex for large environments.
+
+### Role based Strategy -
+
+**Description -** Define roles for users and groups, allowing specific actions at different levels (global, folder, project).
+**Pros -** Simplified management, improved scalability, and enhanced security.
+**Cons -** Requires careful role definition and assignment.
+
+### Project-based Matrix -
+
+**Description -** Grants permissions based on specific projects.
+**Pros -** Granular control over project-specific permissions.
+**Cons -** Can become complex for large numbers of projects.
 
 ### Why Secure Jenkins
 
