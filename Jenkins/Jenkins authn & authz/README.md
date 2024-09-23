@@ -14,7 +14,7 @@ This document provides an overview of Jenkins' authentication and authorization 
 
 ### What is Jenkins
 
-Jenkins is an open-source automation server used to build, test, and deploy software. It offers a variety of tools and plugins to streamline these processes, including security configurations for managing user authentication and authorization.
+Jenkins is a crucial part of many CI/CD pipelines, often handling sensitive information such as source code, credentials, and deployment configurations. Securing Jenkins ensures that only authorized users can access these critical assets, protecting the integrity of the development and deployment processes.
 
 
 ### Authentication in Jenkins
