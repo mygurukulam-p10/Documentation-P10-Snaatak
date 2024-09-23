@@ -76,6 +76,7 @@ mkdir <dir_name>
 
  **Step 4: Create ansible.cfg**
 
+![Screenshot from 2024-09-23 14-43-19](https://github.com/user-attachments/assets/48ef1144-2093-4fe2-b505-57be5a9c8c4b)
 
 
 **Step 5: Create playbook**
@@ -88,7 +89,11 @@ mkdir <dir_name>
 ```
 ansible-galaxy init <RoleName>
 ```
-![Screenshot from 2024-09-22 02-19-09](https://github.com/user-attachments/assets/a34204b4-3b45-4ca8-9723-c3927ac47683)
+
+![Screenshot from 2024-09-23 14-06-26](https://github.com/user-attachments/assets/7163a987-7bdc-4ce4-aae5-3de68887f57d)
+
+![Screenshot from 2024-09-23 14-06-54](https://github.com/user-attachments/assets/27f3ba56-cceb-44fd-84f5-b58c523fa4b7)
+
 
 **Step 7: Tasks**
 1. `main.yml`: This main.yml file is acting as an orchestrator, importing tasks from the `install_jenkins.yml` file. This separation of tasks into different files is a good practice for better organization, especially when dealing with complex configurations or roles.
