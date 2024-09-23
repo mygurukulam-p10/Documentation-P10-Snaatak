@@ -10,7 +10,7 @@
 + [Introduction](#Introduction)
 + [ System Requirements](#System-Requirements)
 + [Build Dependency](#Build-Dependency)
-+ [Run Time Dependency](#Run Time Dependency)
++ [Run Time Dependency](#Run-Time-Dependency)
 + [OWASP](#owasp-dependency-check)
 + [Proof of Concept](#Pre-requisite)
 + [Suppressing dependencies](#dependency-suppression)
