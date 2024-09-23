@@ -74,12 +74,8 @@ pip install boto3==1.34.98
 # Check installed version of boto3
 pip show boto3
 ```
-```
-## give execution permission
-sudo chmod u+x dependencies.sh
-## 
-```
-
+- Run the above script and install the dependencies
+  
 ![Screenshot from 2024-09-23 14-38-00](https://github.com/user-attachments/assets/283ca239-9019-4177-ae43-af9fc8fa8c44)
 
 
