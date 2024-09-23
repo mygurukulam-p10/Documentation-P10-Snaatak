@@ -76,7 +76,7 @@ mkdir <dir_name>
 ![Screenshot from 2024-09-22 02-18-33](https://github.com/user-attachments/assets/c3e33a95-5c40-48fe-bd01-24d4b765f998)
 
  **Step 4: Create ansible.cfg**
-
+- The ansible.cfg file configures Ansible settings such as inventory paths, default users, and privilege escalation options.
 ![Screenshot from 2024-09-23 14-43-19](https://github.com/user-attachments/assets/48ef1144-2093-4fe2-b505-57be5a9c8c4b)
 
 
