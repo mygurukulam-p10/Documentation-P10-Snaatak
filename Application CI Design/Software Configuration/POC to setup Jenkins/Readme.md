@@ -74,6 +74,11 @@ pip install boto3==1.34.98
 # Check installed version of boto3
 pip show boto3
 ```
+```
+## give execution permission
+sudo chmod u+x dependencies.sh
+## 
+```
 
 ![Screenshot from 2024-09-23 14-38-00](https://github.com/user-attachments/assets/283ca239-9019-4177-ae43-af9fc8fa8c44)
 
@@ -87,7 +92,8 @@ mkdir <dir_name>
  
 - Create a file called aws_ec2.yaml for the dynamic inventory inside your created folder
 
-![Screenshot from 2024-09-22 02-18-33](https://github.com/user-attachments/assets/c3e33a95-5c40-48fe-bd01-24d4b765f998)
+![Screenshot from 2024-09-23 22-00-46](https://github.com/user-attachments/assets/ee7141b4-d130-4d64-b71b-8a6babca9a22)
+
 
  **Step 4: Create ansible.cfg**
 - The ansible.cfg file configures Ansible settings such as inventory paths, default users, and privilege escalation options.
