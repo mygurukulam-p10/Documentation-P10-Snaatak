@@ -9,8 +9,8 @@
 2. [Why SSL Certificates?](#why-ssl-certificates)
 3. [What are SSL Certificates?](#what-are-ssl-certificates)
 4. [How SSL Certificates Work](#how-ssl-certificates-work)
-5. [How to Get an SSL Certificate](#how-to-get-an-ssl-certificate)
-6. [Different SSL Certificate Providers](#different-ssl-certificate-providers)
+5. [Different SSL Certificate Providers](#different-ssl-certificate-providers)
+6. [How to set up your custom domain and SSL/TLS with Cloudflare](#Cloudflare)
 7. [Detailed Comparison of SSL Providers](#detailed-comparison-of-ssl-providers)
 8. [Recommendation](#recommendation)
 9. [Conclusion](#conclusion)
@@ -50,16 +50,6 @@ SSL certificates use a public key infrastructure (PKI) system. Here's a simplifi
 
 This process, known as the "SSL handshake," occurs in milliseconds.
 
-## How to Get an SSL Certificate
-To obtain an SSL certificate:
-
-1. **Choose a Certificate Type**: Determine which type of SSL certificate best suits your needs.
-2. **Select a Certificate Authority (CA)**: Choose a reputable CA to issue your certificate.
-3. **Generate a Certificate Signing Request (CSR)**: Create a CSR on your server.
-4. **Verify Your Domain**: Complete the domain verification process required by the CA.
-5. **Install the Certificate**: Once issued, install the certificate on your web server.
-6. **Configure Your Website**: Update your website to use HTTPS.
-
 ## Different SSL Certificate Providers
 There are numerous SSL certificate providers, including:
 
@@ -72,6 +62,7 @@ There are numerous SSL certificate providers, including:
 7. Entrust Datacard
 8. RapidSSL
 
+## How to set up your custom domain and SSL/TLS with Cloudflare
 ## Detailed Comparison of SSL Providers
 
 | Provider | Free Option | Paid Plans | Validation Types | Support | Trust Level | Issuance Speed |
