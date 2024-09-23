@@ -95,19 +95,30 @@ Here's a step-by-step guide on how to suppress a vulnerability using the OWASP D
 
 **Step 2: Create a Suppression XML File** - Create a suppression XML file adhering to the OWASP Dependency-Check guidelines. This XML file will define which vulnerabilities should be ignored during subsequent scans. The file name can be anything (eg., `suppression.xml`, `dependency-suppression.xml`)
 
-*Example suppression.xml:*
+*suppression.xml:*
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
+   
    <suppress>
-      <notes><![CDATA[
-      file name: tomcat-embed-core-10.1.10.jar
-      ]]></notes>
-      <packageUrl regex="true">^pkg:maven/org\.apache\.tomcat\.embed/tomcat-embed-core@.*$</packageUrl>
-      <cve>CVE-2023-44487</cve>
-   </suppress>
+   <notes><![CDATA[
+   file name: jackson-databind-2.15.2.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/com\.fasterxml\.jackson\.core/jackson-databind@.*$</packageUrl>
+   <cpe>cpe:/a:fasterxml:jackson-databind</cpe>
+</suppress>
+
+
+<suppress>
+   <notes><![CDATA[
+   file name: jackson-databind-2.15.2.jar
+   ]]></notes>
+   <packageUrl regex="true">^pkg:maven/com\.fasterxml\.jackson\.core/jackson-databind@.*$</packageUrl>
+   <cpe>cpe:/a:fasterxml:jackson-databind</cpe>
+</suppress>
 </suppressions>
+
 ```
 
 
@@ -141,6 +152,7 @@ Here's a step-by-step guide on how to suppress a vulnerability using the OWASP D
 
 **Step 6: Confirm Suppression** - Review the Dependency-Check report to ensure that the suppressed vulnerability no longer appears in the list of identified security issues.
 
+![Screenshot from 2024-09-23 15-38-38](https://github.com/user-attachments/assets/aa70141f-f663-4f2f-99e4-e295c960c33c)
 
 
 
