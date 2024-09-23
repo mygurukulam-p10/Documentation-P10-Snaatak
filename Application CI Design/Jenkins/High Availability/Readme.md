@@ -30,11 +30,11 @@ High availability means that an IT system, component, or application can operate
 Jenkins is the crucial component of DevOps and you may be set up Jenkins in production, but when it comes to the production end, things become more important but if something goes down or an event occurs, such as an increase in load. As a result, it could impact production and cause it to halt. So, you can configure Jenkins’ instantaneous live backup.
 Here, will see how to set up Jenkins, how to create pipelines, nodes and make Jenkins available.
 
-### There is two thing:
+## There is two thing:
 
-## Jenkins master-slave setup
+### Jenkins master-slave setup
 
-## Jenkins HA(High Availability)
+### Jenkins HA(High Availability)
 
 ## 1. What is Master-slave configuration?
 The term “master-slave” describes the high availability of a Jenkins node, such as the master node, which is a single built-in node that can distribute the burden of testing, building, and deploying an application across several slave or agent servers. The Jenkins slave nodes are assigned tasks by the master node, which manages job scheduling, while the slave nodes, also known as agent nodes, are responsible for building, testing, and deploying the application. Jenkins machines’ scalability, availability, and resource efficiency were all improved by the master-salve setup.
@@ -99,19 +99,19 @@ After login to the Jenkins instance go to the Manage Jenkins section and then go
 
 <img width="550" alt="new" src="https://github.com/user-attachments/assets/972534ee-d372-4b7d-907b-918762f9c821">
 
--> **In the Usage section there are two options. Here, you can configure how Jenkins should use nodes:**
+-  **In the Usage section there are two options. Here, you can configure how Jenkins should use nodes:**
 
 **Use this node as much as possible:** Jenkins will try to utilize this node for as many jobs as possible.
 
 **Only build jobs with label expressions matching this node:** Jenkins will only use this node if the job specifies the appropriate label(s).
 
--> **Then select the launch method and availability then click “Save” to apply the changes.**
+- **Then select the launch method and availability then click “Save” to apply the changes.**
 
 <img width="550" alt="data" src="https://github.com/user-attachments/assets/19e4be3e-da6d-4d02-a0d6-ec6351153a17">
 
 <img width="550" alt="data-1" src="https://github.com/user-attachments/assets/caedad02-fd6e-4538-9cf4-7ec5ce00659a">
 
--> **Then, run the below commands to make the node online:**
+* **Then, run the below commands to make the node online:**
 
 ```
 curl -sO http://54.225.4.205:8080/jnlpJars/agent.jar
