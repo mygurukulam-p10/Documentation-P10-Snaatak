@@ -27,7 +27,7 @@ OWASP is an open-source tool widely utilized for identifying known vulnerabiliti
 
 ## Flow Diagram
 
-
+![image](https://github.com/user-attachments/assets/e16da1b2-a25b-4348-8621-293602e436a8)
 
 ***
 ## Proof of Concept (PoC) - Setting Up Dependency Scanning
