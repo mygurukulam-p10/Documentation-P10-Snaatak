@@ -46,9 +46,7 @@ Before creating the Jenkins Ansible role, [click here](https://github.com/myguru
 
 
 ## Flow Diagram
-
-![image](https://github.com/user-attachments/assets/b05c7158-2b29-4795-b7aa-deb941685d17)
-
+![image](https://github.com/user-attachments/assets/80aeb3fe-0259-40f5-aa7b-788c6ac78383)
 
 
 ***
