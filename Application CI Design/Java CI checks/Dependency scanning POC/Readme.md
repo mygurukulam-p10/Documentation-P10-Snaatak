@@ -137,15 +137,6 @@ Here's a step-by-step guide on how to suppress a vulnerability using the OWASP D
    <packageUrl regex="true">^pkg:maven/com\.fasterxml\.jackson\.core/jackson-databind@.*$</packageUrl>
    <cpe>cpe:/a:fasterxml:jackson-databind</cpe>
 </suppress>
-
-
-<suppress>
-   <notes><![CDATA[
-   file name: jackson-databind-2.15.2.jar
-   ]]></notes>
-   <packageUrl regex="true">^pkg:maven/com\.fasterxml\.jackson\.core/jackson-databind@.*$</packageUrl>
-   <cpe>cpe:/a:fasterxml:jackson-databind</cpe>
-</suppress>
 </suppressions>
 
 ```
