@@ -82,6 +82,21 @@ Several tools are available for static code analysis in Java, each with unique f
 
 
 ## Proof of Concept (POC)
+## ⚙️ Pre-requisites
+
+Java Development Kit (JDK): Ensure you have JDK installed (preferably JDK 8 or higher).
+Apache Maven: Install Maven (version 3.x is recommended).
+Integrated Development Environment (IDE): An IDE like IntelliJ IDEA, Eclipse, or VSCode is recommended for easier project management and development.
+
+## System Requirements
+| Hardware Specifications | Minimum Recommendation  |
+|--------------------------|------------------------|
+| Processor                | Multi-Core              |
+| RAM                      | 2 GB                    |
+| Disk                     |5 GB free disk space                  |
+| OS                       | Ubuntu 18.04 LTS         |
+
+
 ![e3](https://github.com/user-attachments/assets/ec2ed6fa-93d2-4b01-b20c-4b5ad4d0be73)
 ![e1](https://github.com/user-attachments/assets/92864196-b869-4123-8f14-002492226735)
 
