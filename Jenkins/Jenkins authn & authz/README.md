@@ -5,14 +5,14 @@ This document provides an overview of Jenkins' authentication and authorization 
 ## Table of Contents
 1. [Introduction](#what-is-jenkins)
 2. [Authentication in Jenkins](#authentication-in-jenkins)
-  - [Internal User Database](#internal-user-database)
-  - [LDAP](#ldap)
-  - [OAuth](#oauth)
-  - [SAML](#saml)
+   - [Internal User Database](#internal-user-database)
+   - [LDAP](#ldap)
+   - [OAuth](#oauth)
+   - [SAML](#saml)
 4. [Authorization in Jenkins](#authorization-in-jenkins)
-  - [Matrix-based Security](#matrix-based-Security)
-  - [Role-based Strategy](#role-based-strategy)
-  - [Project-based Matrix](#project-based-matrix)
+   - [Matrix-based Security](#matrix-based-Security)
+   - [Role-based Strategy](#role-based-strategy)
+   - [Project-based Matrix](#project-based-matrix)
 5. [Why Secure Jenkins?](#why-secure-jenkins)
 6. [Jenkins Security Best Practices](#jenkins-security-best-practices)
 7. [Conclusion](#conclusion)
@@ -74,13 +74,17 @@ Authentication verifies the identity of users accessing the Jenkins system. Jenk
 ### Role based Strategy -
 
 **Description -** Define roles for users and groups, allowing specific actions at different levels (global, folder, project).
+
 **Pros -** Simplified management, improved scalability, and enhanced security.
+
 **Cons -** Requires careful role definition and assignment.
 
 ### Project-based Matrix -
 
 **Description -** Grants permissions based on specific projects.
+
 **Pros -** Granular control over project-specific permissions.
+
 **Cons -** Can become complex for large numbers of projects.
 
 ### Why Secure Jenkins
