@@ -97,3 +97,10 @@ OWASP Dependency-Check stands out as a robust and widely adopted tool for identi
 2. **Compliance Standards** - Identify and understand compliance standards relevant to your industry and project.
    
 3. **Continuous Monitoring** - Implement tools and processes for automated monitoring of dependencies to ensure ongoing compliance. You may also conduct periodic audits to review and validate compliance measures, making adjustments as necessary.
+
+
+## Contact Information
+
+| Name       | Email address     |
+|------------|-------------------|
+| Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
