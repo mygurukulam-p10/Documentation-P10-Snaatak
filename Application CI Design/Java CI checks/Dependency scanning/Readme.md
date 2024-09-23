@@ -50,7 +50,7 @@ Explore a variety of widely used tools for scanning dependencies and enhancing t
 |-----------------------------|------------------------|--------------------------|--------------------------|
 | **Supported Languages**     | Java, .NET, Node.js, Ruby, Python, and more | Java, JVM-based languages | JavaScript (Node.js)     |
 | **Integration with CI/CD**  | Yes                    | Yes                      | Yes                      |
-| **Build Tool Integration**   | Maven, Gradle, Ant, and more | Maven, Gradle, Jenkinsfile | Manual (Command-line)    |
+| **Build Tool Integration**   | Maven, Gradle, Ant, and more | Maven, Gradle | Manual (Command-line)    |
 | **Vulnerability Database**  | Combined public and private databases | Proprietary vulnerability database | Retire.js vulnerability database |
 | **Reporting Formats**        | HTML, XML, JSON, CSV    | HTML, JSON, and more     | JSON, CSV, HTML          |
 | **Active Community**        | Yes                    | Yes                      | Yes                      |
@@ -104,3 +104,7 @@ OWASP Dependency-Check stands out as a robust and widely adopted tool for identi
 | Name       | Email address     |
 |------------|-------------------|
 | Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
+
+
+## Reference
+
