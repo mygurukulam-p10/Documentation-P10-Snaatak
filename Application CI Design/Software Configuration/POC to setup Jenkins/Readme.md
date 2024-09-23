@@ -52,13 +52,28 @@ Before creating the Jenkins Ansible role, [click here](https://github.com/myguru
 ***
 # Steps 
 
-**Step 1: Install runtime dependencies**
-```
-#install boto3 library
+## Step 1: Install runtime dependencies
+
+### Create a script to install the required dependencies
+Save the following script as `dependencies.sh`:
+
+```bash
+#!/bin/bash
+
+# Install pip
+sudo apt update
+sudo apt install python3-pip -y
+
+# Install Ansible
+python3 -m pip install ansible-core==2.16.7
+
+# Install boto3 library
 pip install boto3==1.34.98
-## check boto installed version
+
+# Check installed version of boto3
 pip show boto3
 ```
+
 ![Screenshot from 2024-09-23 14-38-00](https://github.com/user-attachments/assets/283ca239-9019-4177-ae43-af9fc8fa8c44)
 
 
