@@ -53,33 +53,44 @@ Before creating the Jenkins Ansible role, [click here](https://github.com/myguru
 ***
 # Steps 
 
-**Step 1: Create a folder**
+**Step 1: Install runtime dependencies**
+```
+#install boto3 library
+pip install boto3==1.34.98
+## check boto installed version
+pip show boto3
+```
+![Screenshot from 2024-09-23 14-38-00](https://github.com/user-attachments/assets/283ca239-9019-4177-ae43-af9fc8fa8c44)
+
+
+
+**Step 2: Create a folder**
 ```
 mkdir <dir_name>
 ```
- **Step 2:  AWS EC2 Inventory**
+ **Step 3:  AWS EC2 Inventory**
  
 - Create a file called aws_ec2.yaml for the dynamic inventory inside your created folder
 
 ![Screenshot from 2024-09-22 02-18-33](https://github.com/user-attachments/assets/c3e33a95-5c40-48fe-bd01-24d4b765f998)
 
- **Step 3: Create ansible.cfg**
+ **Step 4: Create ansible.cfg**
 
 
 
-**Step 4: Create playbook**
+**Step 5: Create playbook**
 * This file is defining a set of tasks to be executed on hosts belonging to the _jenkins_server group.
 * 
   ![Screenshot from 2024-09-22 02-26-48](https://github.com/user-attachments/assets/e5fd8f2b-15c0-4a42-a458-7904270ffd70)
 
 
-**step 5: Create ansible role in a directory we have created**
+**step 6: Create ansible role in a directory we have created**
 ```
 ansible-galaxy init <RoleName>
 ```
 ![Screenshot from 2024-09-22 02-19-09](https://github.com/user-attachments/assets/a34204b4-3b45-4ca8-9723-c3927ac47683)
 
-**Step 6: Tasks**
+**Step 7: Tasks**
 1. `main.yml`: This main.yml file is acting as an orchestrator, importing tasks from the `install_jenkins.yml` file. This separation of tasks into different files is a good practice for better organization, especially when dealing with complex configurations or roles.
 
 ![Screenshot from 2024-09-22 02-38-38](https://github.com/user-attachments/assets/8567b099-75e9-40a8-b644-4e76c2f3a288)
@@ -207,7 +218,7 @@ jenkins_repo_url: "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https
     name: jenkins 
     state: restarted
 ```
-**Step 7: Playbook Execution**
+**Step 8: Playbook Execution**
 
 * To set up Jenkins on your target servers, you will execute the Ansible playbook using the following command:
 
