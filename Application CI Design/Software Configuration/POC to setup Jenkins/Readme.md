@@ -34,13 +34,15 @@ This role is designed to automate the installation and configuration of Jenkins 
 
 Before creating the Jenkins Ansible role, [click here](https://github.com/mygurukulam-p10/Documention/tree/main/Application%20CI%20Design/Software%20Configuration/Ansible%20role%20documentation) to read about Ansible roles.
 
+
 ## Runtime Dependency
 
-| Name           | Version      | Description                                                     |
-|----------------|--------------|-----------------------------------------------------------------|
-| Ansible        | 2.16.7      | Automation tool for configuration management and deployment.    |
-| Python         | 3.10.12     | Required for running Ansible and executing modules.             |
-| Jinja          | 3.1.4       | Templating engine used by Ansible for dynamic content generation.|
+| Name           | Version      | Description                                                      |
+|----------------|--------------|------------------------------------------------------------------|
+| Ansible        | 2.16.7      | Automation tool for configuration management and deployment.     |
+| Python         | 3.10.12     | Required for running Ansible and executing modules.              |
+| Jinja          | 3.1.4       | Templating engine used by Ansible for dynamic content generation. |
+| boto3          | 1.34.98     | AWS SDK for Python, used for interacting with AWS services.      |
 
 
 ## Flow Diagram
