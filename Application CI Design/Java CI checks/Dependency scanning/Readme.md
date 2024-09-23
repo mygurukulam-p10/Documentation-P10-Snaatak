@@ -64,20 +64,21 @@ Explore a variety of widely used tools for scanning dependencies and enhancing t
 
 OWASP Dependency-Check stands out as a robust and widely adopted tool for identifying vulnerabilities in project dependencies. Here are key reasons to consider using OWASP Dependency-Check in your CI/CD pipeline:
 
-| #   | Key Feature                                        | Description                                                                                                                |
-| --- | -------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Identification of Vulnerabilities                 | OWASP Dependency-Check utilizes a combination of public and private vulnerability databases to identify known vulnerabilities in project dependencies, ensuring a thorough security assessment. |
-| 2   | Integration with Build Tools                     | It seamlessly integrates into the project's build process, enabling developers to effortlessly incorporate regular vulnerability checks as part of their development workflow. It offers compatibility with popular build tools like Maven, Gradle, Ant, and others. |
-| 3   | Versatile Language and Ecosystem Support         | With support for multiple programming languages and ecosystems including Java, .NET, Node.js, Ruby, Python, and more, OWASP Dependency-Check proves to be versatile and adaptable, catering to a diverse range of projects. |
-| 4   | Flexible Report Generation                        | The tool provides flexibility in report generation, offering outputs in various formats such as HTML, XML, JSON, and CSV. These detailed reports empower developers and security teams with comprehensive information about identified vulnerabilities, facilitating prompt and informed decision-making. |
-| 5   | Active and Collaborative Community               | OWASP thrives on an active and collaborative community. This community-driven approach ensures continuous updates, improvements, and the introduction of new features, enhancing the tool's effectiveness and relevance. |
-| 6   | Integration with Security Tools                   | It can be seamlessly combined with other security tools to deliver a holistic security analysis of a project. This collaborative approach enhances the overall security posture and provides a more comprehensive understanding of potential risks. |
+
+| #   | Key Feature                          | Description                                                                 |
+| --- | ------------------------------------ | --------------------------------------------------------------------------- |
+| 1   | Vulnerability Identification         | Uses public and private databases to identify known vulnerabilities.       |
+| 2   | Build Tool Integration               | Integrates with tools like Maven, Gradle, and Ant for regular vulnerability checks. |
+| 3   | Language and Ecosystem Support       | Supports Java, .NET, Node.js, Ruby, Python, and more for diverse projects. |
+| 4   | Flexible Report Generation           | Generates reports in HTML, XML, JSON, and CSV formats for comprehensive insights. |
+| 5   | Active Community                     | Continuous updates and improvements from a collaborative community.       |
+| 6   | Security Tool Integration            | Combines with other security tools for a holistic analysis of project risks. |
 
   
 ***
 ## Proof of Concept (POC) for Dependency-Check:
 
-
+[Here is the link to the POC. Click here to read it.](https://github.com/mygurukulam-p10/Documention/tree/main/Application%20CI%20Design/Java%20CI%20checks/Dependency%20scanning%20POC)
 
 ***
 ## Best Practices
