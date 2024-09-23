@@ -2,7 +2,7 @@
 
 | Author      | Created on  | Version    | Last updated by | Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-| Amit Nagar  | 22-09-24    | version 1  | Amit Nagar      | 22-09-24       |
+| Amit Nagar  | 22-09-24    | version 1  | Amit Nagar      | 24-09-24       |
 
 ## Table of Contents
 1. [Introduction](#introduction)
