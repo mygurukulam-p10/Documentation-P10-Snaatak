@@ -16,6 +16,7 @@
 + [Suppressing dependencies](#dependency-suppression)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
++ [ References](#References)
 
 
 
@@ -189,5 +190,13 @@ Here's a step-by-step guide on how to suppress a vulnerability using the OWASP D
 | Name       | Email address     |
 |------------|-------------------|
 | Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
+
+## References
+| Topic                          | Link                                                                                   |
+|--------------------------------|----------------------------------------------------------------------------------------|
+| OWASP Dependency Check         | [How It Works, Benefits, Pros & Cons](https://www.hackerone.com/knowledge-center/owasp-dependency-check-how-it-works-benefits-proscons) |
+| OWASP Overview                 | [OWASP Official Site](https://owasp.org/)                                            |
+                                           
+
 
 
