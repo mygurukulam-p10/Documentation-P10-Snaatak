@@ -111,6 +111,6 @@ By using 2FA for web access and SSH for CLI access, we can significantly improve
 
 For more information on how to setup Github or if you need any guidance, feel free to reach out:
 
-| Name  | Email Address                                  |
-|-------|------------------------------------------------|
-| Komal | abhinav.singh.snaatak@mygurukulam.co           |
+|  Name   | Email Address                                  |
+|---------|------------------------------------------------|
+| Abhinav | abhinav.singh.snaatak@mygurukulam.co           |
