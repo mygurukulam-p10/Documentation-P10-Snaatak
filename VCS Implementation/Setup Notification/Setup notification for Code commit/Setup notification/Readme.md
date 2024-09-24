@@ -10,7 +10,7 @@
 # Table of Content 
 1. [🔍 Purpose](#-purpose)
 2. [🌟 Prerequisites](#-prerequisites)
-3. [ Steps to Set up Email Notificatin](#-steps-to-set-up-email-notification)
+3. [Steps to Set up Email Notificatin](#steps-to-set-up-email-notification)
 4. [📜 Conclusion](#-conclusion)
 5. [📚 References](#-references ) 
 6. [📧 Contact Information ](#-contact-information )
