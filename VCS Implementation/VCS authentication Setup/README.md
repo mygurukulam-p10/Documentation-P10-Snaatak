@@ -51,7 +51,7 @@ Now open the authenticator app select add account and Capture the QR Code presen
 Complete Enablement.
 
 
-##  Setting Up GitHub Authentication for CLI
+##  Setting Up GitHub Authentication for CLI Access
 
 ### Generating and Using SSH Keys 
 
