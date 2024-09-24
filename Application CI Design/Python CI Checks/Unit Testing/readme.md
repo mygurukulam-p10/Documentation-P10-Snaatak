@@ -10,13 +10,15 @@
   ## Table of Contents
 
 - [Introduction](#introduction)
-- [What are Unit Tests?](#what-are-unit-tests)
+- [What are Unit Testing?](#what-are-unit-testing)
 - [Why Unit Testing?](#why-unit-testing)
 - [Different Tools for Unit Testing in Python](#)
 - [Comparison of Tools](#)
 - [Advantages of Using CI with Unit Testing](#)
 - [POC](#poc)
 - [Best Practices](#best-practices)
+- [Recommendation](#recommendation)
+- [Conclusion](#conclusion)
 - [Contact Information](#contact-information)
 - [References](#references)
 
@@ -134,3 +136,25 @@ pip install voluptuous
 | **Use Descriptive Names**      | Name your tests clearly to indicate their purpose.                             |
 | **Cover Edge Cases**           | Ensure tests account for edge cases and potential errors.                      |
 | **Run Tests Frequently**       | Integrate tests into your CI pipeline to run automatically.                   |
+
+
+## Recommendation
+
+
+## Conclusion
+
+
+
+## Contact Information
+
+| Name | Email address|
+|------|---------------------|
+| Vinay Bansal | vinay.bansal.snaatak@mygurukulam.co |
+
+## References
+For further reading and resources on GitOps, check out the following:
+
+| Links | Descriptions|
+|------|---------------------|
+|https://www.datacamp.com/tutorial/pytest-tutorial-a-hands-on-guide-to-unit-testing|Pytest|
+|https://medium.com/@dirk.avery/pytest-modulenotfounderror-no-module-named-requests-a770e6926ac5|ModuleNotFoundError|
