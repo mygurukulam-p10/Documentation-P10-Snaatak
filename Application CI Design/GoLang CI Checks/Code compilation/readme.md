@@ -8,11 +8,11 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [What are CI Checks?](#what-are-ci-checks)
-3. [Why Use CI Checks for GoLang?](#why-use-ci-checks-for-golang)
-4. [Different Tools for CI Checks](#different-tools-for-ci-checks)
-5. [Comparison of CI Tools](#comparison-of-ci-tools)
-6. [Advantages of CI Checks](#advantages-of-ci-checks)
+2. [What is Code Compilation?](#what-is-code-compilation)
+3. [Why Compile Go Code?](#why-compile-go-code)
+4. [Different Tools for Go Compilation](#different-tools-for-go-compilation)
+5. [Comparison of Compilation Tools](#comparison-of-compilation-tools)
+6. [Advantages of Go Code Compilation](#advantages-of-go-code-compilation)
 7. [Proof of Concept (POC)](#proof-of-concept-poc)
 8. [Best Practices](#best-practices)
 9. [Recommendations and Conclusion](#recommendations-and-conclusion)
@@ -20,36 +20,32 @@
 11. [References](#references)
 
 ## Introduction
-Continuous Integration (CI) is a vital practice in modern software development, enabling teams to integrate code changes frequently and validate them through automated checks. This document focuses on the importance of CI checks for GoLang projects, particularly around code compilation.
+Go, also known as Golang, is a statically typed, compiled programming language designed for simplicity and efficiency. This document provides an overview of code compilation in Go, highlighting tools, benefits, and best practices.
 
-## What are CI Checks?
-CI checks are automated processes that run whenever code changes are made to a repository. These checks can include compiling code, running tests, and analyzing code quality to ensure that the application remains stable and functional.
+## What is Code Compilation?
+Code compilation is the process of converting source code written in a programming language into executable machine code. In Go, this process involves the Go compiler (`go build`), which generates binaries that can be executed on various platforms.
 
-## Why Use CI Checks for GoLang?
-GoLang has a unique set of features and idioms that benefit from automated CI checks:
-- **Static Typing:** Ensures errors are caught early.
-- **Concurrency Support:** Validates concurrent operations.
-- **Cross-Platform Compilation:** Ensures code compiles on all target platforms.
+## Why Compile Go Code?
+- **Performance:** Compiled binaries run faster than interpreted code.
+- **Deployment:** Compiled code is easier to distribute and deploy.
+- **Static Typing:** Helps catch errors at compile time, enhancing reliability.
 
-## Different Tools for CI Checks
-Several tools can help implement CI checks for GoLang projects:
-- **GitHub Actions:** Built into GitHub, easily configurable for Go projects.
-- **Travis CI:** Widely used, supports Go natively.
-- **CircleCI:** Provides robust workflows and integrations.
-- **GitLab CI/CD:** Offers pipelines for Go projects directly in GitLab.
+## Different Tools for Go Compilation
+- **Go Compiler (`go build`):** The standard tool for compiling Go applications.
+- **Go Modules:** Manage dependencies and versions for Go projects.
+- **Cross-compilation tools:** Such as `xgo` for building binaries for different platforms.
 
-## Comparison of CI Tools
-| Tool            | Ease of Use | Integration | Cost      | Go Support |
-|-----------------|-------------|-------------|-----------|------------|
-| GitHub Actions  | High        | Excellent   | Free      | Yes        |
-| Travis CI       | Medium      | Good        | Free      | Yes        |
-| CircleCI        | Medium      | Excellent   | Freemium  | Yes        |
-| GitLab CI/CD    | Medium      | Excellent   | Free      | Yes        |
+## Comparison of Compilation Tools
+| Tool                | Description                                 | Ease of Use | Cross-Platform | Cost      |
+|---------------------|---------------------------------------------|-------------|----------------|-----------|
+| Go Compiler (`go build`) | Official compiler for Go projects        | High        | Yes            | Free      |
+| Go Modules          | Dependency management and versioning       | High        | N/A            | Free      |
+| xgo                 | Cross-compilation tool for Go              | Medium      | Yes            | Free      |
 
-## Advantages of CI Checks
-- **Early Bug Detection:** Identify issues before they reach production.
-- **Faster Release Cycles:** Automate tests to reduce manual overhead.
-- **Improved Collaboration:** Facilitates team collaboration through shared feedback.
+## Advantages of Go Code Compilation
+- **Speed:** Compiled code generally executes faster than interpreted languages.
+- **Safety:** Errors are caught during compilation, reducing runtime failures.
+- **Simplicity:** The Go toolchain is straightforward, making it easy to compile projects.
 
 
 # POC
