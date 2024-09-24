@@ -133,7 +133,7 @@ pip install voluptuous
 |-----------------------------|-----------------------------------------------------------------------------------------------|
 | **Simplicity and Readability** | pytest allows for writing simple and easy-to-read tests. Its syntax is straightforward, making it accessible for beginners. |
 | **Rich Features**           | Supports fixtures, parameterized testing, and plugins, significantly enhancing testing capabilities. |
-| **Powerful Assertions**     | Provides rich assertion introspection, offering clear and informative error messages for quick failure diagnosis. |
+| **Flexible Test Discovery** | Automatically discovers tests based on naming conventions, saving time in test organization. |
 
 
 # Conclusion
