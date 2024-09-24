@@ -104,7 +104,7 @@ Securing Jenkins is essential to protect sensitive assets like source code, cred
 
  ## Conclusion
  
-Authentication and authorization in Jenkins are crucial for protecting your CI/CD pipeline. By configuring WebUI and CLI-based authentication, along with robust authorization strategies, you can ensure the security and integrity of your Jenkins environment.
+Ensuring proper authentication and authorization in Jenkins is essential for securing your CI/CD pipeline. Implementing best practices, such as enforcing strong authentication methods (LDAP, OAuth, or SAML), using **Role-based Access Control (RBAC)** for fine-grained permission management, and regularly reviewing and auditing user permissions, greatly reduces security risks.
 
 ## Contact Information
 For more information, feedback, or assistance, feel free to contact us:
