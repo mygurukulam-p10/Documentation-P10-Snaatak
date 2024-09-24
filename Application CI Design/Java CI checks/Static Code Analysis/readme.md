@@ -94,7 +94,7 @@ Several tools are available for static code analysis in Java, each with unique f
 | Processor                | Multi-Core              |
 | RAM                      | 2 GB                    |
 | Disk                     |5 GB free disk space                  |
-| OS                       | Ubuntu 18.04 LTS         |
+| OS                       | Ubuntu 22.04 LTS         |
 
 
 ![e3](https://github.com/user-attachments/assets/ec2ed6fa-93d2-4b01-b20c-4b5ad4d0be73)
