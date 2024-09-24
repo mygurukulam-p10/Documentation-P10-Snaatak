@@ -36,8 +36,29 @@ This document outlines the steps and benefits of implementing Two-Factor Authent
 
 ## 1. ✨ Setting Up GitHub Authentication for web access 
 
+### Enabling Two-factor authentication
 
-## 1. ✨ Setting Up GitHub Authentication for CLI
+Go to github sign in page and,
+
+Signin into your Github account with username/email and Password.
+![image](https://github.com/user-attachments/assets/d227944b-4185-40be-98a5-ee89eb16c0db)
+
+Navigate to settings page and choose Password and Authentication
+![image](https://github.com/user-attachments/assets/ff41b1a6-bd62-46af-ba7d-d2a43f32ec11)
+
+Under Two-factor Authentication Section You will see different options to choose -
+
+You need to Install any Authenticator app on your mobile phone in my case **Authy,**
+
+
+
+and Capture the QR code
+
+
+
+
+
+## 2. ✨ Setting Up GitHub Authentication for CLI
 
 ### Generating and Using SSH Keys 
 
