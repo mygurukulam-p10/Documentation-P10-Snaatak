@@ -36,11 +36,14 @@ Code compilation is the process of converting source code written in a programmi
 - **Cross-compilation tools:** Such as `xgo` for building binaries for different platforms.
 
 ## Comparison of Compilation Tools
-| Tool                | Description                                 | Ease of Use | Cross-Platform | Cost      |
-|---------------------|---------------------------------------------|-------------|----------------|-----------|
-| Go Compiler (`go build`) | Official compiler for Go projects        | High        | Yes            | Free      |
-| Go Modules          | Dependency management and versioning       | High        | N/A            | Free      |
-| xgo                 | Cross-compilation tool for Go              | Medium      | Yes            | Free      |
+| Tool                | Description                                 | Ease of Use | 
+|---------------------|---------------------------------------------|-------------|
+| Go Compiler (`go build`) | Official compiler for Go projects        | High        | 
+| Go Modules          | Dependency management and versioning       | High        | 
+| xgo                 | Cross-compilation tool for Go              | Medium      | 
+|GCCGO	|Alternative Go compiler using GCC	|Medium	|
+|TinyGo	Go compiler for small devices and WebAssembly|	Medium|
+|Makefile|	Automates the build process using a Makefile|	Medium|
 
 ## Advantages of Go Code Compilation
 - **Speed:** Compiled code generally executes faster than interpreted languages.
