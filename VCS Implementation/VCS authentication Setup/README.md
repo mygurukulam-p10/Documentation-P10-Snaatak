@@ -5,8 +5,6 @@
 
 1. [Purpose of the Document](#purpose-of-the-document)
 2. [Prerequisites](#prerequisites)
-   - [GitHub Account](#github-account)
-   - [Git Installation](#git-installation)
 3. [Setting Up GitHub Authentication for web access](#Setting-up-github-authentication-for-web-access)
 4. [Setting Up GitHub Authentication for CLI access](#Setting-up-github-authentication-for-cli-access)
 5. [Conclusion](#6-conclusion)
