@@ -29,12 +29,15 @@ This document provides a clear, step-by-step guide for setting up email notifica
 ## 🛠️ Steps to Set Up Email Notifications
 
 ### 1. **Sign in to GitHub**: Go to [GitHub](https://github.com) and log in to your account.
+
 <img width="958" alt="image" src="https://github.com/user-attachments/assets/d6acff0d-0562-441c-813c-37cfbe5ebeec">
 
 ### 2. Create a repository for which you want to configure notifications for code commits.
+
 ![Screenshot 2024-09-23 164450](https://github.com/user-attachments/assets/7488354d-04a7-4d07-8d28-6003db689937)
 
 ### 3. Now, click on the repository you created and navigate to the Settings tab at the top.
+
 ![Screenshot 2024-09-23 173912](https://github.com/user-attachments/assets/1aef0657-d0c8-48b0-9455-da153bc2c312)
 
 ### 4. Generate an App Password for Gmail: If you are using Gmail, you'll need to generate an App Password for your Google account:
