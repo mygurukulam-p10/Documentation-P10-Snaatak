@@ -1,5 +1,3 @@
-# Creating a README.md file with the simplified structure provided
-
 
 # Jenkins AWS Infrastructure 🚀
 
