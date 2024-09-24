@@ -1,5 +1,9 @@
 # SonarQube Quality Gates Documentation
 
+| Author      | Created on  | Version    | Last updated by | Last edited on |
+|-------------|-------------|------------|-----------------|----------------|
+| Amit Nagar  | 22-09-24    | version 1  | Amit Nagar      | 24-09-24       |
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [What is SonarQube Quality Gate?](#what-is-sonarqube-quality-gate)
@@ -110,6 +114,13 @@ SonarQube allows the creation of different types of quality gates, including:
 
 ## Conclusion
 SonarQube Quality Gates play a vital role in maintaining code quality throughout the software development lifecycle. By implementing Quality Gates, organizations can ensure that their projects meet specific quality criteria, leading to more maintainable, reliable, and secure software products.
+
+
+## Contact Information
+
+| Name       | Email address     |
+|------------|-------------------|
+| Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
 
 ## References
 | Reference                                      | Link                                                 |
