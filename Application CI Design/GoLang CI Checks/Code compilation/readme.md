@@ -60,7 +60,7 @@ Code compilation is the process of converting source code written in a programmi
 |--------------------------|------------------------|
 | Processor                | dual-core              |
 | RAM                      | 4 GB                    |
-| Disk                     |20 GB free disk space                  |
+| Disk                     |10 GB free disk space                  |
 | OS                       | Ubuntu 18.04 LTS         |
 
 
