@@ -71,6 +71,7 @@ Unit testing involves testing individual components (or units) of code to verify
 
 
 # POC
+![ue1cp](https://github.com/user-attachments/assets/6d686ca4-4223-476d-bbe9-b7b691dc2cc5)
 
 Ensure that psycopg2 is installed correctly. If you’re using psycopg2, it should work without any issues. You can install it via pip:
 ```
@@ -86,6 +87,7 @@ you need to install the pytest-mock library, which provides the mocker fixture. 
 ```
 pip install pytest-mock
 ```
+![ue1rou](https://github.com/user-attachments/assets/6427ef04-2464-4aee-a3b6-0d62e463b28e)
 
 router
 Install Flask: If Flask is not installed, you can install it using pip. Run the following command in your terminal:
