@@ -16,7 +16,9 @@
 ## Purpose of the Document
 
 
-This document outlines the steps and benefits of implementing Two-Factor Authentication (2FA) for web access and Secure Shell (SSH) for command-line interface (CLI) access to enhance the security of your GitHub account.## 2. 🔧 Prerequisites
+This document outlines the steps and benefits of implementing Two-Factor Authentication (2FA) for web access and Secure Shell (SSH) for command-line interface (CLI) access to enhance the security of your GitHub account.
+
+## Prerequisites
 
 
 | Name  |  Description                                 |
