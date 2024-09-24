@@ -23,7 +23,6 @@
 ## 1. 🎯 Purpose of the Document
 
 
-
 This document outlines the steps and benefits of implementing Two-Factor Authentication (2FA) for web access and Secure Shell (SSH) for command-line interface (CLI) access to enhance the security of your GitHub account.## 2. 🔧 Prerequisites
 
 
@@ -50,12 +49,13 @@ Under Two-factor Authentication Section You will see different options to choose
 
 You need to Install any Authenticator app on your mobile phone in my case **Authy,**
 
+![image](https://github.com/user-attachments/assets/ed3df626-6528-4f77-a2c9-5950fcd5dbc8)
 
 
-and Capture the QR code
+Now open the authenticator app select add account and Capture the QR Code present under Two-factor authentication section
+![image](https://github.com/user-attachments/assets/3c4c7811-2bc3-4f9b-baa2-0805e832c3ac)
 
-
-
+Complete Enablement.
 
 
 ## 2. ✨ Setting Up GitHub Authentication for CLI
