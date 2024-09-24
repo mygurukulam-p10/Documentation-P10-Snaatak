@@ -10,10 +10,10 @@
 # Table of Content 
 1. [🔍 Purpose](#-purpose)
 2. [🌟 Prerequisites](#-prerequisites)
-3. [🛠️ Steps to Set Up Email Notificatins](#-steps-to-set-up-email-notifications)
+3. [Steps to Set Up Email Notificatins](#-steps-to-set-up-email-notifications)
 4. [📜 Conclusion](#-conclusion)
-6. [📚 References](#-references ) 
-7. [📧 Contact Information ](#-contact-information )
+5. [📚 References](#-references ) 
+6. [📧 Contact Information ](#-contact-information )
    
 
      
@@ -26,7 +26,7 @@ This document provides a clear, step-by-step guide for setting up email notifica
 - A GitHub account.
 - Access to the repository for which you want to receive notifications.
 
-## 🛠️ Steps to Set Up Email Notifications
+##  Steps to Set Up Email Notification
 
 ### 1. **Sign in to GitHub**: Go to [GitHub](https://github.com) and log in to your account.
 
