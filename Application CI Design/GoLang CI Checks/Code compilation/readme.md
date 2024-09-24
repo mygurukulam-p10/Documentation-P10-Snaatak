@@ -1,12 +1,12 @@
 # Code Compilation
 ![golang](https://github.com/user-attachments/assets/67dd5a3c-4561-44aa-99a5-a689b3d0d352)
   
-  | Author        | Created on | Version | Last updated by | Last edited on |
+  | ✍️Author        | Created on | Version | Last updated by | Last edited on |
   |-------------|---------|-------------|-------------|---------|
   | Vinay Bansal | 23-09-24 | version 1 | Vinay Bansal | 24-09-24 |
 
 
-## Table of Contents
+##  🗂️Table of Contents
 1. [Introduction](#introduction)
 2. [What is Code Compilation?](#what-is-code-compilation)
 3. [Why Compile Go Code?](#why-compile-go-code)
@@ -48,14 +48,14 @@ Code compilation is the process of converting source code written in a programmi
 - **Simplicity:** The Go toolchain is straightforward, making it easy to compile projects.
 
 
-# POC
+#  🔍POC
 
-## Prerequisites
+## ⚙️Prerequisites
 
 - Go installed on your machine.
 - Familiarity with Go modules.
 
-## System Requirements
+##  🖥️System Requirements
 | Hardware Specifications | Minimum Recommendation  |
 |--------------------------|------------------------|
 | Processor                | dual-core              |
