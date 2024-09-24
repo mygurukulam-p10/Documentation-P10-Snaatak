@@ -1,11 +1,11 @@
 
 # Jenkins AWS Infrastructure 🚀
 
-![Jenkins AWS Infrastructure](https://github.com/avengers-p7/Documentation/assets/79625874/898db480-26cc-45f8-8c34-d9ce95075b8d)
+
 
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
 |--------------------|------------|--------------|--------------------------------|
-| 06-09-2024         | 0.2        | Brij Singh   | Documentation on Salary API    |
+| 24-09-2024         | 0.1        | Brij Singh   | Documentation on Salary API    |
 
 ## 📑 Table of Contents
 
@@ -43,7 +43,6 @@ This README provides an overview of the AWS infrastructure setup for Jenkins. It
 
 ## 🖼️ Infrastructure Diagram
 
-![Infrastructure Diagram](https://github.com/avengers-p7/Documentation/assets/79625874/61ab2369-21e0-4ac5-b044-ddf02a9a1804)
 
 ***
 
@@ -62,8 +61,8 @@ For any queries or further information, feel free to contact:
 | Source                                                                                 | Description              |
 | -------------------------------------------------------------------------------------- | ------------------------ |
 | [Jenkins HA on AWS](https://medium.com/@sebolabs/jenkins-ha-aws-cd55d82057c8)           | Infrastructure Reference |
-| [AP-119 Jenkins HA Ref Doc](https://avengers-p7.atlassian.net/browse/AP-119)            | Jenkins HA Documentation |
-| [AP-120 Jenkins DR Ref Doc](https://avengers-p7.atlassian.net/browse/AP-120)            | Jenkins DR Documentation |
+| [AP-119 Jenkins HA Ref Doc](https://opstree-team-qa7417nu.atlassian.net/jira/software/projects/SCRUM/boards/1?issueParent=10059%2C10060%2C10061%2C10087&label=%23megha&selectedIssue=SCRUM-118)            | Jenkins HA Documentation |
+
 """
 
 
