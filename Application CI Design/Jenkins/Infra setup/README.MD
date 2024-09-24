@@ -1,6 +1,6 @@
 # Creating a README.md file with the simplified structure provided
 
-readme_content = """
+
 # Jenkins AWS Infrastructure 🚀
 
 ![Jenkins AWS Infrastructure](https://github.com/avengers-p7/Documentation/assets/79625874/898db480-26cc-45f8-8c34-d9ce95075b8d)
@@ -68,10 +68,4 @@ For any queries or further information, feel free to contact:
 | [AP-120 Jenkins DR Ref Doc](https://avengers-p7.atlassian.net/browse/AP-120)            | Jenkins DR Documentation |
 """
 
-# Saving this content to a README.md file
-readme_path = "/mnt/data/README.md"
-with open(readme_path, "w") as file:
-    file.write(readme_content)
-
-readme_path
 
