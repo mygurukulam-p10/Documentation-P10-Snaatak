@@ -65,14 +65,14 @@ There are numerous SSL certificate providers, including:
 ## How to set up your custom domain and SSL/TLS with Cloudflare
 ## Step 1 — Choose a domain name
 
--Choose the relevant domain name that you control in Cloudflare. In the example below, we're working with the domain whypaper.com. Click on the domain.
+**Choose the relevant domain name that you control in Cloudflare. In the example below, we're working with the domain whypaper.com. Click on the domain.**
 
 ![image](https://github.com/user-attachments/assets/39a4a6da-e8d7-4076-85ec-33c5702c048f)
 
 ## Step 2 — Create the DNS record
--When on the page for your custom domain, navigate to the DNS tab. Click on Add record. In the Name field, fill in the custom domain — in our example whypaper.com.
+**When on the page for your custom domain, navigate to the DNS tab. Click on Add record. In the Name field, fill in the custom domain — in our example whypaper.com.**
 
--In the Target field, fill in s1.foleon.com to make sure it points to our servers. Enable Proxied by clicking on the toggle below the Proxy status field. This protects origin servers from DDoS attacks by hiding their IP addresses — among other benefits.
+**In the Target field, fill in s1.foleon.com to make sure it points to our servers. Enable Proxied by clicking on the toggle below the Proxy status field. This protects origin servers from DDoS attacks by hiding their IP addresses — among other benefits.**
 
 ![image](https://github.com/user-attachments/assets/96343808-09f5-40e7-bb4e-e92b336a5b7e)
 -Once you've filled in the required fields as illustrated in the screenshot below, click on Save.
@@ -80,28 +80,29 @@ There are numerous SSL certificate providers, including:
 ![image](https://github.com/user-attachments/assets/d60950c1-78a0-4056-a9bc-b06738fccf53)
 
 ## Step 3 — Set your SSL/TLS encryption
-- Next, navigate to the SSL/TLS tab. In the Overview window, select Full (strict) as the encryption mode. Cloudflare will then enforce the most stringent requirements for origin certificates.
+**Next, navigate to the SSL/TLS tab. In the Overview window, select Full (strict) as the encryption mode. Cloudflare will then enforce the most stringent requirements for origin certificates.**
+
 ![image](https://github.com/user-attachments/assets/63ca8656-baae-4c06-aea8-b67d2409ec41)
 
 
 ## Step 4 — Download the origin certificate
-- In the SSL/TLS tab, go to Origin Server. Click on Create Certificate
+**In the SSL/TLS tab, go to Origin Server. Click on Create Certificate**
 
 ![image](https://github.com/user-attachments/assets/c7b19622-d8b2-43ae-a24e-a751b02fb43d)
 
-- Generate private key and CSR with Cloudfare is selected by default, which is the correct option
+**Generate private key and CSR with Cloudfare is selected by default, which is the correct option**
 
 ![image](https://github.com/user-attachments/assets/49cd7201-6c20-4b29-961e-063ffa281ca6)
 
-- In the Hostnames field, you list the hostnames on your origin server that the certificate should protect. In the example below, we filled in the subdomain example.whypaper.com. You can also choose to fill in a wildcard such as *.whypaper.com.
+**In the Hostnames field, you list the hostnames on your origin server that the certificate should protect. In the example below, we filled in the subdomain** **example.whypaper.com.** You can also choose to fill in a wildcard such as *.whypaper.com.
 
-- Choose how long before your certificate expires. By default, your certificate will be valid for fifteen (15) years.
+**Choose how long before your certificate expires.By default,your certificate will be valid for fifteen (15) years.**
 
-- Click on Create. This leads you to the Origin Certificate Installation window.
+**Click on Create.This leads you to the Origin Certificate Installation window.**
 
 ![image](https://github.com/user-attachments/assets/610ff18a-ab66-4c7c-a56b-99fb2484028b)
 
-- Finally we have sucessfully created ssl certificates
+**Finally we have sucessfully created ssl certificates**
 
 ## Detailed Comparison of SSL Providers
 
@@ -116,7 +117,7 @@ There are numerous SSL certificate providers, including:
 Note: Pricing is relative ($ = low, $$ = medium, $$$ = high, $$$$ = premium)
 
 ## Recommendation
-The best SSL certificate provider depends on your specific needs:
+**The best SSL certificate provider depends on your specific needs:**
 
 - For personal websites or small businesses on a budget, Let's Encrypt offers free, automated certificates.
 - For e-commerce or sites handling sensitive data, consider OV or EV certificates from providers like DigiCert or Comodo SSL.
