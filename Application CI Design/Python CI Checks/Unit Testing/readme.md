@@ -70,17 +70,6 @@ Unit testing involves testing individual components (or units) of code to verify
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 # POC
 
 Ensure that psycopg2 is installed correctly. If you’re using psycopg2, it should work without any issues. You can install it via pip:
@@ -139,6 +128,12 @@ pip install voluptuous
 
 
 # Recommendation
+## **pytest**
+| Feature                     | Description                                                                                   |
+|-----------------------------|-----------------------------------------------------------------------------------------------|
+| **Simplicity and Readability** | pytest allows for writing simple and easy-to-read tests. Its syntax is straightforward, making it accessible for beginners. |
+| **Rich Features**           | Supports fixtures, parameterized testing, and plugins, significantly enhancing testing capabilities. |
+| **Powerful Assertions**     | Provides rich assertion introspection, offering clear and informative error messages for quick failure diagnosis. |
 
 
 # Conclusion
