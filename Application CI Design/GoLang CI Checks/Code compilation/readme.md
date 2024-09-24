@@ -49,18 +49,71 @@ Code compilation is the process of converting source code written in a programmi
 
 
 # POC
+
+## Prerequisites
+
+- Go installed on your machine.
+- Familiarity with Go modules.
+
+## System Requirements
+| Hardware Specifications | Minimum Recommendation  |
+|--------------------------|------------------------|
+| Processor                | dual-core              |
+| RAM                      | 4 GB                    |
+| Disk                     |20 GB free disk space                  |
+| OS                       | Ubuntu 18.04 LTS         |
+
+
+## 🛠️ Build-Time Dependency
+
+| 🛠️ Name | 📦 Version | 📄 Description |
+|---------|------------|----------------|
+| **Maven** | 3.+      | Simplifies build management, project documentation, and dependency management. |
+
+---
+
+## 🚀 Run-Time Dependency
+
+| 🚀 Name | 📦 Version | 📄 Description          |
+|---------|------------|--------------------------|
+| **Java** |  17 for Spring Boot 3.1.1        | Required to run the built Java application. |
+
+
+## 📥 Step-by-step Installation
+
+## Install git
+```
+sudo apt install git
+```
+### 📂 Step 1: Clone the Git Repository
+```
+https://github.com/OT-MICROSERVICES/employee-api.git
+```
+
+### Step 2: For Code Compilation
+```
+
+```
 ![ccsuccess](https://github.com/user-attachments/assets/3089ecee-144a-4fc4-a54d-fec1eff6539f)
 
 
 
 # Best Practices
-- Keep CI configurations simple and clear.
-- Run tests in parallel when possible.
-- Use caching to speed up builds.
-- Regularly review and update CI pipelines.
+| Practice                  | Description                                                                                      |
+|--------------------------|--------------------------------------------------------------------------------------------------|
+| **Use Go Modules**       | Always use modules for dependency management. This allows for versioning and better isolation.  |
+| **Organize Code**        | Follow Go's conventions for project structure: place code in `pkg`, `cmd`, `internal`, etc.     |
+| **Cross-Compile as Needed** | Utilize cross-compilation to build binaries for different platforms (e.g., Linux, Windows).     |
+| **Automate Builds**      | Use CI/CD pipelines (like GitHub Actions or Travis CI) to automate the compilation process.     |
 
-# Recommendations and Conclusion
-Implementing CI checks for GoLang projects is crucial for maintaining code quality and ensuring a smooth development workflow. Choose a CI tool that best fits your team's needs and regularly update your practices to keep pace with evolving technologies.
+# Recommendation
+**go build**
+- Use Go Modules: Always initialize projects with Go modules for better dependency management.
+- Leverage Build Flags: Utilize flags like -o for output names and -ldflags for linker options to customize builds.
+- Automate with CI/CD: Integrate go build into CI/CD pipelines to ensure consistent and efficient builds across environments.
+
+# Conclusion
+The go build command is a fundamental tool in the Go development workflow, enabling developers to compile their applications efficiently. By following best practices and recommendations, such as using Go modules, optimizing build flags, and leveraging cross-compilation, developers can enhance their build processes and ensure consistent, high-quality application performance across various platforms.
 
 ##  📧 Contact Information
 | Name | Email address|
