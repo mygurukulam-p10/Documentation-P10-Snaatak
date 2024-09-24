@@ -79,7 +79,7 @@ Security: Bytecode is not human-readable, which can provide a layer of security 
 | Processor                | dual-core              |
 | RAM                      | 4 GB                    |
 | Disk                     |20 GB free disk space                  |
-| OS                       | Ubuntu 18.04 LTS         |
+| OS                       | Ubuntu 22.04 LTS         |
 
 
 ## 🛠️ Build-Time Dependency
