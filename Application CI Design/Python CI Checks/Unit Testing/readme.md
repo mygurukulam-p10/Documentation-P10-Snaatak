@@ -71,6 +71,50 @@ Unit testing involves testing individual components (or units) of code to verify
 
 
 # POC
+## ⚙️ Pre-requisites
+
+- Ensure you have Python 3.11 installed on your machine. 
+- Package Manager:pip
+- Version Control System:
+
+## System Requirements
+| Hardware Specifications | Minimum Recommendation  |
+|--------------------------|------------------------|
+| Processor                | dual-core              |
+| RAM                      | 4 GB                    |
+| Disk                     |10 GB free disk space                  |
+| OS                       | Ubuntu 22.04 LTS         |
+
+
+## 🛠️ Build-Time Dependency
+
+| 🛠️ Name | 📦 Version | 📄 Description |
+|---------|------------|----------------|
+| **pytest** | 7.4.0  | Needed for running tests. |
+|**poetry**| 1.9.0 | managing dependencies in a more structured way.|
+
+---
+
+## 🚀 Run-Time Dependency
+
+| 🚀 Name | 📦 Version | 📄 Description          |
+|---------|------------|--------------------------|
+| **Flask** |  6.0.0      | Frameworks for building web applications. |
+|**psycopg2**| 14 | Libraries for database interaction.|
+
+
+## 📥 Step-by-step Installation
+
+## Install git
+```
+sudo apt install git
+```
+### 📂 Step 1: Clone the Git Repository
+```
+https://github.com/OT-MICROSERVICES/attendance-api.git
+```
+
+# Step 2: For Unit Tresting
 
 ## First Install
 ![u1](https://github.com/user-attachments/assets/7e8ac84c-d519-49a8-9a22-b298c2d064a0)
