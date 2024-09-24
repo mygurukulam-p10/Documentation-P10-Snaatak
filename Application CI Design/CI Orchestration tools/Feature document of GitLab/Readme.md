@@ -159,17 +159,22 @@ Wiki and documentation features enable seamless creation like-
 ## 8. CICD Pipeline
 GitLab CI/CD enables continuous integration and delivery to streamline workflows.
 
-| ⏳Aspect            | 📄Description                                                                                           |
-| -------------------| ------------------------------------------------------------------------------------------------------- |
-| **Pipeline**        | Automate the process of building, testing, and deploying applications through a defined sequence of jobs. |
-| **Jobs**            | Individual units of work executed in the pipeline, such as running tests or deploying code.              |
-| **Runners**         | Machines that execute jobs in a CI/CD pipeline. Can be shared or specific to projects.                  |
-| **Artifacts**       | Files generated from jobs, like compiled binaries or test reports, stored for future reference.          |
-| **Caching**         | Store reusable data from previous jobs to improve the speed and efficiency of future jobs.              |
-| **Triggers**        | Automatically trigger pipelines based on events, like pushing code or creating merge requests.           |
-| **Environments**    | Define different deployment environments (e.g., dev, staging, production) for testing and release.      |
-| **Manual Jobs**     | Allow for manual intervention in the pipeline for specific tasks, such as deployment approvals.          |
-| **Scheduled Pipelines** | Schedule pipelines to run at predefined intervals, ensuring regular updates and deployments.           |
+## CI/CD Pipeline Overview
+
+| **⏳ Aspect**        | **📄 Description**                                                                                   |
+|---------------------|------------------------------------------------------------------------------------------------------|
+| **Pipeline**         | A YAML-based configuration that automates the process of building, testing, and deploying applications through a defined sequence of jobs. |
+| **Jobs**             | Individual units of work, such as running tests or deploying code, executed within a pipeline.       |
+| **Stages**           | Logical grouping of jobs in a pipeline (e.g., `build`, `test`, `deploy`). All jobs in a stage run simultaneously and must complete before moving to the next stage. |
+| **How to Run Pipelines** | Pipelines are automatically triggered on events like code pushes, merge requests, or manual execution. They can also be scheduled or triggered via the GitLab API. |
+| **Runners**          | Machines or servers (physical or virtual) that execute jobs in the pipeline. Runners can be shared across multiple projects or dedicated to a single project. |
+| **Artifacts**        | Files produced by jobs (e.g., compiled binaries, logs, or reports) that are stored and made available for future stages or external use. |
+| **Caching**          | Data from previous jobs (e.g., dependencies, libraries) that can be reused to speed up future jobs and reduce redundant downloads or builds. |
+| **Triggers**         | Events that automatically initiate the pipeline, such as when code is pushed to a repository, or a merge request is created. |
+| **Environments**     | Defined deployment environments (e.g., `development`, `staging`, `production`) where code is deployed for testing, QA, or release purposes. |
+| **Manual Jobs**      | Jobs that require manual intervention, such as approvals for deployment, ensuring control over specific pipeline actions. |
+| **Scheduled Pipelines** | Pipelines that can be scheduled to run at predefined intervals for routine tasks like testing or deploying code. |
+
 
 
 ## 📜 Conclusion
