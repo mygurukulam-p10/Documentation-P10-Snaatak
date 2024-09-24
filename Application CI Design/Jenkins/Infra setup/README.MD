@@ -5,7 +5,7 @@
 
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
 |--------------------|------------|--------------|--------------------------------|
-| 24-09-2024         | 0.1        | Brij Singh   | Documentation on Salary API    |
+| 24-09-2024         | 0.1        | Brij Singh   | Jenkins AWS Infrastructure   |
 
 ## 📑 Table of Contents
 
