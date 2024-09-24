@@ -37,9 +37,19 @@ DNS (Domain Name System) is like the Internet's phonebook. It converts user-frie
 We use DNS to simplify browsing the web. Instead of remembering and typing complex IP addresses, we use easy-to-remember domain names. DNS translates these names into IP addresses, allowing our browsers to locate and load websites quickly and efficiently.
 
 ## 🖧 How does DNS Works?
-DNS resolution is the process of converting a website name (like www.example.com) into a computer-friendly IP address (like 192.168.1.1). Just like a street address helps find a house, an IP address helps locate the right device on the Internet. When you enter a website name, your browser automatically translates it into an IP address without you having to do anything. This happens behind the scenes, with your browser sending a request and the DNS system handling the rest.
+DNS resolution is the process of converting a website name (like www.facebook.com) into a computer-friendly IP address (like 217.64.213.12). Just like a street address helps find a house, an IP address helps locate the right device on the Internet. When you enter a website name, your browser automatically translates it into an IP address without you having to do anything. This happens behind the scenes, with your browser sending a request and the DNS system handling the rest.
 
-![image](https://github.com/user-attachments/assets/0f3fbc18-ae2a-4970-9c8f-da56e02130a1)
+![Untitled Diagram-Page-2 drawio](https://github.com/user-attachments/assets/c1816388-59df-416d-bee1-18f83d0e8026)
+
+- When you request a domain name, your computer first checks its local cache to see if you've previously looked up the address recently; if not, a request to your Recursive DNS Server will be made.
+
+- A Recursive DNS Server is usually provided by your ISP, but you can also choose your own. This server also has a local cache of recently looked up domain names. If a result is found locally, this is sent back to your computer, and your request ends here (this is common for popular and heavily requested services such as Google, Facebook, Twitter). If the request cannot be found locally, a journey begins to find the correct answer, starting with the internet's root DNS servers.
+
+- The root servers act as the DNS backbone of the internet; their job is to redirect you to the correct Top Level Domain Server, depending on your request. If, for example, you request "www.facebook.com", the root server will recognize the Top Level Domain of.com and refer you to the correct TLD server that deals with .com addresses.
+
+- The TLD server holds records for where to find the authoritative server to answer the DNS request. The authoritative server is often also known as the nameserver for the domain. You'll often find multiple nameservers for a domain name to act as a backup in case one goes down.
+
+- An authoritative DNS server is the server that is responsible for storing the DNS records for a particular domain name and where any updates to your domain name DNS records would be made. Depending on the record type, the DNS record is then sent back to the Recursive DNS Server, where a local copy will be cached for future requests and then relayed back to the original client that made the request. DNS records all come with a TTL (Time To Live) value. This value is a number represented in seconds that the response should be saved for locally until you have to look it up again. Caching saves on having to make a DNS request every time you communicate with a server.
 
 
 ## 💥 Popular DNS Provider
