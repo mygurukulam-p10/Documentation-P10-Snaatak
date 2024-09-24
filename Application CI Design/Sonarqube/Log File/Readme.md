@@ -1,5 +1,8 @@
 # SonarQube Logging Documentation
 
+| Author      | Created on  | Version    | Last updated by | Last edited on |
+|-------------|-------------|------------|-----------------|----------------|
+| Amit Nagar  | 23-09-24    | version 1  | Amit Nagar      | 24-09-24       |
 
 ## Table of Contents
 
@@ -47,4 +50,23 @@ sonar.log.level.web=INFO
 sonar.log.level.ce=DEBUG
 sonar.log.level.es=DEBUG
 sonar.log.level.db=INFO
+```
+
+### Conclusion
+
+SonarQube provides a detailed logging system crucial for monitoring platform behavior, troubleshooting issues, and ensuring efficient performance. Logs such as **Web**, **Compute Engine**, **Elasticsearch**, and **Access** help administrators manage and optimize the platform effectively.
+
+## Contact Information
+
+| Name       | Email address     |
+|------------|-------------------|
+| Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
+
+
+### References
+
+| Reference Title                          | Link                                                                                          |
+|------------------------------------------|-----------------------------------------------------------------------------------------------|
+| SonarQube Log Management                 | [SonarQube Log Management](https://docs.sonarqube.org/latest/instance-administration/log-management/) |
+| Understanding SonarQube Logs             | [Understanding SonarQube Logs](https://community.sonarsource.com/t/understanding-sonarqube-logs/2023) |
 
