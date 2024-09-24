@@ -67,7 +67,7 @@ OWASP Dependency-Check stands out as a robust and widely adopted tool for identi
 
 | #   | Key Feature                          | Description                                                                 |
 | --- | ------------------------------------ | --------------------------------------------------------------------------- |
-| 1   | Vulnerability Identification         | Uses public and private databases to identify known vulnerabilities.       |
+| 1   | Vulnerability Identification         | Uses NVD database|
 | 2   | Build Tool Integration               | Integrates with tools like Maven, Gradle, and Ant for regular vulnerability checks. |
 | 3   | Language and Ecosystem Support       | Supports Java, .NET, Node.js, Ruby, Python, and more for diverse projects. |
 | 4   | Flexible Report Generation           | Generates reports in HTML, XML, JSON, and CSV formats for comprehensive insights. |
