@@ -61,23 +61,27 @@ Code compilation is the process of converting source code written in a programmi
 | Processor                | dual-core              |
 | RAM                      | 4 GB                    |
 | Disk                     |10 GB free disk space                  |
-| OS                       | Ubuntu 18.04 LTS         |
+| OS                       | Ubuntu 22.04 LTS         |
 
 
 ## 🛠️ Build-Time Dependency
 
 | 🛠️ Name | 📦 Version | 📄 Description |
 |---------|------------|----------------|
-| **Maven** | 3.+      | Simplifies build management, project documentation, and dependency management. |
+| **Go modules** | 1.20      | Make sure your Go project uses Go modules (go.mod and go.sum) for dependency management. |
 
----
 
 ## 🚀 Run-Time Dependency
 
 | 🚀 Name | 📦 Version | 📄 Description          |
 |---------|------------|--------------------------|
-| **Java** |  17 for Spring Boot 3.1.1        | Required to run the built Java application. |
+| **ScyllaDB** |  6.1.1  | ScyllaDB is a NoSQL database being utilized as the primary database in the employee application |
 
+## 🌐 Important Ports
+
+| 🔌 Inbound Traffic | 📄 Description           |
+|--------------------|--------------------------|
+| **9042**           | Used by ScyllaDB |
 
 ## 📥 Step-by-step Installation
 
