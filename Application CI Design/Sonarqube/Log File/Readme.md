@@ -6,12 +6,6 @@ SonarQube provides a comprehensive logging system to help monitor and troublesho
 ## Table of Contents
 1. [Overview of SonarQube Logs](#overview-of-sonarqube-logs)
 2. [Types of Logs](#types-of-logs)
-   - [Web Server Logs](#web-server-logs)
-   - [Ce Logs (Compute Engine)](#ce-logs-compute-engine)
-   - [Es Logs (Elasticsearch)](#es-logs-elasticsearch)
-   - [Db Logs (Database)](#db-logs-database)
-   - [Scanner Logs](#scanner-logs)
-   - [Security Logs](#security-logs)
 3. [Log Levels](#log-levels)
 4. [Log Configuration](#log-configuration)
 5. [Viewing and Managing Logs](#viewing-and-managing-logs)
