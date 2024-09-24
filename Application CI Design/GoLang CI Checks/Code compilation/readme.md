@@ -54,10 +54,10 @@ Code compilation is the process of converting source code written in a programmi
 
 
 # Best Practices
-Keep CI configurations simple and clear.
-Run tests in parallel when possible.
-Use caching to speed up builds.
-Regularly review and update CI pipelines.
+- Keep CI configurations simple and clear.
+- Run tests in parallel when possible.
+- Use caching to speed up builds.
+- Regularly review and update CI pipelines.
 
 # Recommendations and Conclusion
 Implementing CI checks for GoLang projects is crucial for maintaining code quality and ensuring a smooth development workflow. Choose a CI tool that best fits your team's needs and regularly update your practices to keep pace with evolving technologies.
