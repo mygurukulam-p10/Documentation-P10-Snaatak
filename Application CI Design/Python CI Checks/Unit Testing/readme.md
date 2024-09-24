@@ -92,8 +92,8 @@ Unit testing involves testing individual components (or units) of code to verify
 |---------|------------|----------------|
 | **pytest** | 7.4.0  | Needed for running tests. |
 |**poetry**| 1.9.0 | managing dependencies in a more structured way.|
+|**Pip**  | 3.11    | Used for installing Python packages.|
 
----
 
 ## 🚀 Run-Time Dependency
 
@@ -102,6 +102,10 @@ Unit testing involves testing individual components (or units) of code to verify
 | **Flask** |  6.0.0      | Frameworks for building web applications. |
 |**psycopg2**| 14 | Libraries for database interaction.|
 
+##  🌐Important Ports
+| 🔌 Inbound Traffic | Description        |
+| --------------- | ------------------ |
+| 5432            | Used by Postgres  |
 
 ## 📥 Step-by-step Installation
 
