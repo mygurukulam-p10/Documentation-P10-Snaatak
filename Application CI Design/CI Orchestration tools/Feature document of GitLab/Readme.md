@@ -18,7 +18,7 @@
    - [Obervability](#5-obervability)
    - [Audit and Compliances](#6-audit-and-compliances)
    - [Wiki and Documentation](#7-wiki-and-documentation)
-   - [CI/CD Pipeline](#8-ci-cd-pipeline)
+   - [CICD Pipeline](#8-ci-cd-pipeline)
 4. [📜 Conclusion](#-conclusion)
 5. [📧Contact Information ](#-contact-information )
 6. [📚References](#-references ) 
@@ -156,7 +156,7 @@ Wiki and documentation features enable seamless creation like-
 | **Integration**         | Integrate wiki content with project repositories to keep documentation aligned with code changes. |
 | **Rich Media Support**  | Embed images, videos, and other media to enhance the documentation.              |
 
-## 8. CI/CD Pipeline
+## 8. CICD Pipeline
 GitLab CI/CD enables continuous integration and delivery to streamline workflows.
 
 | ⏳Aspect            | 📄Description                                                                                           |
