@@ -72,6 +72,14 @@ Unit testing involves testing individual components (or units) of code to verify
 
 # POC
 
+## First Install
+![u1](https://github.com/user-attachments/assets/7e8ac84c-d519-49a8-9a22-b298c2d064a0)
+
+```
+pip install pytest
+```
+
+
 ![ue1](https://github.com/user-attachments/assets/2f21f68c-1d57-4680-9824-f11cdf73dc77)
 
 Ensure that psycopg2 is installed correctly. If you’re using psycopg2, it should work without any issues. You can install it via pip:
