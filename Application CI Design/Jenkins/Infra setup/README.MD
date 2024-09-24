@@ -18,7 +18,7 @@
 ***
 
 ## 📘 Introduction
-This README provides an overview of the AWS infrastructure setup for Jenkins. It includes a detailed architecture diagram and outlines how Jenkins is deployed within the AWS ecosystem.
+This README explains how to set up Jenkins on Amazon Web Services (AWS) cloud infrastructure, including a diagram of the architecture and deployment details.
 
 ***
 
