@@ -31,9 +31,11 @@ Code compilation is the process of converting source code written in a programmi
 - **Static Typing:** Helps catch errors at compile time, enhancing reliability.
 
 ## Different Tools for Go Compilation
-- **Go Compiler (`go build`):** The standard tool for compiling Go applications.
-- **Go Modules:** Manage dependencies and versions for Go projects.
-- **Cross-compilation tools:** Such as `xgo` for building binaries for different platforms.
+- **Go Compiler**
+- **Go Modules:**
+- **xgo**
+- **Third-Party Tools**
+- **Makefile**.
 
 ## Comparison of Compilation Tools
 | Tool                | Description                                 | Ease of Use | 
