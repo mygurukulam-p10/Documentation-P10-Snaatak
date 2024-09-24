@@ -106,7 +106,7 @@ OWASP Dependency-Check stands out as a robust and widely adopted tool for identi
 | Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
 
 
-## Reference
+## References
 | Topic                          | Link                                                                                   |
 |--------------------------------|----------------------------------------------------------------------------------------|
 | OWASP Dependency Check         | [How It Works, Benefits, Pros & Cons](https://www.hackerone.com/knowledge-center/owasp-dependency-check-how-it-works-benefits-proscons) |
