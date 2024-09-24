@@ -71,18 +71,22 @@ Unit testing involves testing individual components (or units) of code to verify
 
 
 # POC
-![ue1cp](https://github.com/user-attachments/assets/6d686ca4-4223-476d-bbe9-b7b691dc2cc5)
+
+![ue1](https://github.com/user-attachments/assets/2f21f68c-1d57-4680-9824-f11cdf73dc77)
 
 Ensure that psycopg2 is installed correctly. If you’re using psycopg2, it should work without any issues. You can install it via pip:
 ```
 pip install psycopg2
 ```
+![ue2](https://github.com/user-attachments/assets/1cc9c6dd-63ab-466a-8b67-de76d6bea345)
+
 Ensure that you’re importing the extras module properly in your code. The import statement should look like this:
 ```
 import psycopg2
 from psycopg2 import extras
 ```
 
+![ue1cp](https://github.com/user-attachments/assets/6d686ca4-4223-476d-bbe9-b7b691dc2cc5)
 you need to install the pytest-mock library, which provides the mocker fixture. You can do this using pip:
 ```
 pip install pytest-mock
@@ -98,6 +102,7 @@ Install Flask-Caching: Install the flask_caching package using pip:
 ```
 pip install Flask-Caching
 ```
+![ue1u](https://github.com/user-attachments/assets/361d64bc-fc4d-460f-93e1-2c08d2e050ef)
 
 utils/tests/test_json_encoder.py
 Install Peewee: If you haven't installed the peewee library, you can do so using pip:
