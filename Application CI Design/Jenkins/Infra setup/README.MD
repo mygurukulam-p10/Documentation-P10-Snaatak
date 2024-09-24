@@ -60,8 +60,8 @@ For any queries or further information, feel free to contact:
 
 | Source                                                                                 | Description              |
 | -------------------------------------------------------------------------------------- | ------------------------ |
-| [Jenkins HA on AWS](https://medium.com/@sebolabs/jenkins-ha-aws-cd55d82057c8)           | Infrastructure Reference |
-| [AP-119 Jenkins HA Ref Doc](https://opstree-team-qa7417nu.atlassian.net/jira/software/projects/SCRUM/boards/1?issueParent=10059%2C10060%2C10061%2C10087&label=%23megha&selectedIssue=SCRUM-118)            | Jenkins HA Documentation |
+| [Jenkins HA on AWS](https://aws.amazon.com/blogs/devops/jenkins-high-availability-and-disaster-recovery-on-aws/)           | Infrastructure Reference |
+| [SCRUM-118 Jenkins HA Ref Doc](https://opstree-team-qa7417nu.atlassian.net/jira/software/projects/SCRUM/boards/1?issueParent=10059%2C10060%2C10061%2C10087&label=%23megha&selectedIssue=SCRUM-118)            | Jenkins HA Documentation |
 
 """
 
