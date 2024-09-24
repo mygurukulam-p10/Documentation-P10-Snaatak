@@ -33,8 +33,8 @@ This README explains how to set up Jenkins on Amazon Web Services (AWS) cloud in
 ## 🛠️ Description
 | Name           |  Description                                                      |
 |----------------|----------------------------------------------------------------------|
-|**User Access**: Users connect through the internet.|
-|-**Public Subnets & Security Groups**| Public components allow internet traffic, controlled by security rules.|
+|**User Access**| Users connect through the internet.|
+|**Public Subnets & Security Groups**| Public components allow internet traffic, controlled by security rules.|
 |**Private Components & NAT Gateway**| Private resources access the internet securely through a NAT gateway.|
 |**Bastion Instances**| Provide secure access to private resources.|
 |**VPCs (Virtual Private Clouds)**| Isolated networks for all components.|
