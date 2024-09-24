@@ -3,24 +3,17 @@
 
 ## Table of Contents
 
-1. [Purpose of the Document](#1-purpose-of-the-document)
-2. [Prerequisites](#2-prerequisites)
+1. [Purpose of the Document](#purpose-of-the-document)
+2. [Prerequisites](#prerequisites)
    - [GitHub Account](#github-account)
    - [Git Installation](#git-installation)
-3. [Setting Up GitHub Authentication for web access](#3-Setting-up-github-authentication-for-web-access)
-4. [Creating and Managing GitHub Repositories](#4-creating-and-managing-github-repositories)
-   1. [Create a New Repository (UI Setup)](#create-a-new-repository-ui-setup)
-   2. [Link Local Repository to GitHub (CLI Setup)](#link-local-repository-to-github-cli-setup)
-5. [Security Recommendations](#5-security-recommendations)
-   1. [Enable Two-Factor Authentication (2FA)](#enable-two-factor-authentication-2fa)
-   2. [Use SSH for Authentication](#use-ssh-for-authentication)
-   3. [Regularly Review Permissions](#regularly-review-permissions)
-   4. [Keep Your Software Updated](#keep-your-software-updated)
-6. [Conclusion](#6-conclusion)
-7. [Reference](#7-reference)
-8. [Contact](#8-contact)
+3. [Setting Up GitHub Authentication for web access](#Setting-up-github-authentication-for-web-access)
+4. [Setting Up GitHub Authentication for CLI access](#Setting-up-github-authentication-for-cli-access)
+5. [Conclusion](#6-conclusion)
+6. [Reference](#7-reference)
+7. [Contact](#8-contact)
 
-## 1. 🎯 Purpose of the Document
+## Purpose of the Document
 
 
 This document outlines the steps and benefits of implementing Two-Factor Authentication (2FA) for web access and Secure Shell (SSH) for command-line interface (CLI) access to enhance the security of your GitHub account.## 2. 🔧 Prerequisites
@@ -33,7 +26,7 @@ This document outlines the steps and benefits of implementing Two-Factor Authent
 | Mobile phone | For a TOTP app to Install |
 | OpenSSH | Software Dependency for SSH Connection |
 
-## 1. ✨ Setting Up GitHub Authentication for web access 
+##  Setting Up GitHub Authentication for web access 
 
 ### Enabling Two-factor authentication
 
@@ -58,7 +51,7 @@ Now open the authenticator app select add account and Capture the QR Code presen
 Complete Enablement.
 
 
-## 2. ✨ Setting Up GitHub Authentication for CLI
+##  Setting Up GitHub Authentication for CLI
 
 ### Generating and Using SSH Keys 
 
@@ -96,18 +89,18 @@ Copy SSH URL
 Now when you clone the repo it won't ask for password and will provide secure login with SSH.
 ![image](https://github.com/user-attachments/assets/692969dc-3dd5-4ad7-9d13-26fb8c2de287)
 
-## 6. 🏁 Conclusion
+##  Conclusion
 
 By using 2FA for web access and SSH for CLI access, we can significantly improve the security of your GitHub account. This combination provides a strong defense against unauthorized access.
 
-## 7. 📚 Reference
+##  Reference
 
 | Title                                 | Link                                                                                           |
 |---------------------------------------|------------------------------------------------------------------------------------------------|
 | Two-Factor Authentication (2FA)      | [GitHub 2FA Documentation](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication) |
 | SSH Key Generation                    | [Generating a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key) |
 
-## 8. 📧 Contact Information
+## Contact Information
 
 For more information on how to setup Github or if you need any guidance, feel free to reach out:
 
