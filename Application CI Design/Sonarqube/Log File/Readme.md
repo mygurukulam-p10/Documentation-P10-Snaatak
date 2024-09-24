@@ -1,10 +1,9 @@
 # SonarQube Logging Documentation
 
-## Introduction
-SonarQube provides a comprehensive logging system to help monitor and troubleshoot the various components and activities within the platform. Logs are crucial for understanding system behavior, diagnosing issues, and ensuring the stability of the environment. This documentation outlines the different types of logs available in SonarQube, their purposes, and key features.
 
 ## Table of Contents
-1. [Overview of SonarQube Logs](#overview-of-sonarqube-logs)
+
+1. [Introduction](#Introduction)
 2. [Types of Logs](#types-of-logs)
 3. [Log Levels](#log-levels)
 4. [Log Configuration](#log-configuration)
@@ -12,8 +11,9 @@ SonarQube provides a comprehensive logging system to help monitor and troublesho
 6. [Conclusion](#conclusion)
 7. [References](#references)
 
-## Overview of SonarQube Logs
-SonarQube logs provide insights into the operations of various components, including the web server, compute engine, database, and Elasticsearch. Understanding these logs is essential for effective monitoring and troubleshooting.
+
+## Introduction
+SonarQube provides a comprehensive logging system to help monitor and troubleshoot the various components and activities within the platform. Logs are crucial for understanding system behavior, diagnosing issues, and ensuring the stability of the environment. This documentation outlines the different types of logs available in SonarQube, their purposes, and key features.
 
 ## Types of Logs
 
