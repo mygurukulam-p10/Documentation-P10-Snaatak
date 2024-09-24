@@ -18,6 +18,7 @@
    - [Obervability](#5-obervability)
    - [Audit and Compliances](#6-audit-and-compliances)
    - [Wiki and Documentation](#7-wiki-and-documentation)
+   - [CI/CD Pipeline](#ci-cd-pipeline)
 4. [📜 Conclusion](#-conclusion)
 5. [📧Contact Information ](#-contact-information )
 6. [📚References](#-references ) 
@@ -34,7 +35,7 @@ GitLab is a web-based DevOps platform that provides tools for software developme
  
 # 🌟 Gitlab Features
 
-![image](https://github.com/user-attachments/assets/7be4f8e6-a23b-425f-9917-31decf188497)
+![Gitlab drawio](https://github.com/user-attachments/assets/1a37a8e7-561e-4e46-935d-565d566d63bd)
 
 
 
@@ -154,6 +155,21 @@ Wiki and documentation features enable seamless creation like-
 | **Templates**           | Use or create templates for consistent documentation formatting across projects. |
 | **Integration**         | Integrate wiki content with project repositories to keep documentation aligned with code changes. |
 | **Rich Media Support**  | Embed images, videos, and other media to enhance the documentation.              |
+
+## 8. CI/CD Pipeline
+GitLab CI/CD enables continuous integration and delivery to streamline workflows.
+
+| ⏳Aspect            | 📄Description                                                                                           |
+| -------------------| ------------------------------------------------------------------------------------------------------- |
+| **Pipeline**        | Automate the process of building, testing, and deploying applications through a defined sequence of jobs. |
+| **Jobs**            | Individual units of work executed in the pipeline, such as running tests or deploying code.              |
+| **Runners**         | Machines that execute jobs in a CI/CD pipeline. Can be shared or specific to projects.                  |
+| **Artifacts**       | Files generated from jobs, like compiled binaries or test reports, stored for future reference.          |
+| **Caching**         | Store reusable data from previous jobs to improve the speed and efficiency of future jobs.              |
+| **Triggers**        | Automatically trigger pipelines based on events, like pushing code or creating merge requests.           |
+| **Environments**    | Define different deployment environments (e.g., dev, staging, production) for testing and release.      |
+| **Manual Jobs**     | Allow for manual intervention in the pipeline for specific tasks, such as deployment approvals.          |
+| **Scheduled Pipelines** | Schedule pipelines to run at predefined intervals, ensuring regular updates and deployments.           |
 
 
 ## 📜 Conclusion
