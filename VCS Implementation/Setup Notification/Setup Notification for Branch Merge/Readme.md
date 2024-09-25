@@ -1,4 +1,4 @@
-# <img width="33" alt="image" src="https://github.com/user-attachments/assets/f4828f0f-f961-4939-8219-90e2a0f86544"> Setup notification for Branch Merge
+# Setup notification for Branch Merge
 
 
 | ✍️Author   | 📅Created on|📌 Version | 📝Last updated by   |📅 Last edited on |
@@ -19,8 +19,7 @@
 
      
 # 🔍 Purpose 
-This document provides a clear guide for setting up notifications for branch Merging events in GitHub. By following these steps, users can stay informed about branch Merging in their repositories. This helps improve team collaboration and keeps everyone updated on project progress.
-
+The purpose of this document is to set up automated notifications via email and Slack when a branch is merged into the main branch of a GitHub repository. It also defines how to restrict branch merges to specific authorized users, ensuring only designated contributors, like 'meghatyagi1603@gmail.com' can merge branches into the main branch. Additionally, it outlines the process of configuring branch protection rules to enforce these restrictions.
 
 # Workflow
 
@@ -92,10 +91,19 @@ This document provides a clear guide for setting up notifications for branch Mer
 
 <img width="943" alt="image" src="https://github.com/user-attachments/assets/48ee9352-06d8-49e9-83f8-b73a5b2aa771">
 
+<img width="947" alt="image" src="https://github.com/user-attachments/assets/2de9546c-6f32-4d01-8cea-ecae6c533be3">
+
+<img width="926" alt="image" src="https://github.com/user-attachments/assets/2ffb6360-3c01-4533-9ae5-790cfb25e686">
+
+<img width="593" alt="image" src="https://github.com/user-attachments/assets/073a2c00-bdc4-44a9-9ba5-6e89ac1ee0a7">
+
+<img width="476" alt="image" src="https://github.com/user-attachments/assets/a03f517a-2625-40f4-b7a0-e90da9de5d1a">
+
 
 
 # 📜 Conclusion
-The POC successfully implements an email notification system that triggers on critical branch events: creation, deletion, and merging of branches in a GitHub repository. It leverages GitHub Actions to automatically send notifications, ensuring that team members are promptly informed of important branch activities, enhancing collaboration and workflow monitoring.
+
+In this document, we implemented email and Slack notifications for branch merges into the main branch, with specific permissions for merging restricted to authorized users. We encountered a limitation in enforcing branch protection rules on private repositories under the free GitHub plan, which requires an upgrade to a GitHub Team or Enterprise account. As a workaround, manual review processes and Git hooks were suggested to control merges. The final setup ensures notifications and proper authorization for merging branches into the main branch.
  
 # 📚 References 
 |links | Description |
