@@ -100,24 +100,33 @@ If any of these are found in the code, they could be a security risk because att
 
 ### Steps To Install gitleaks
 
-**Step 1. Install**
+**Step 1**. Install
 
 Gitleaks can be installed using Homebrew, Docker, or Go. Gitleaks is also available in binary form for many popular platforms and OS types on the releases page ``` https://github.com/gitleaks/gitleaks/releases ```
 
 ![Screenshot from 2024-09-25 18-21-45](https://github.com/user-attachments/assets/b7ab3c68-9e6a-4109-afe3-a18607f8ca86)
 
 
-**Step 2. Download the latest version of Gitleaks**
+**Step 2**. Download the latest version of Gitleaks
 ```
 wget https://github.com/gitleaks/gitleaks/releases/download/v8.19.2/gitleaks_8.19.2_linux_x64.tar.gz
 ```
 ![Screenshot from 2024-09-25 18-20-51](https://github.com/user-attachments/assets/1cf6a017-83a6-4081-84e7-e8b088f03848)
 
-**Step 3: Extract**
+**Step 3**: Extract
 ```
 tar -zxvf gitleaks_8.19.2_linux_x64.tar.gz
 ```
-file:///home/aayush/Pictures/Screenshots/Screenshot%20from%202024-09-25%2018-26-31.png
+![Screenshot from 2024-09-25 18-26-31](https://github.com/user-attachments/assets/6e8145fa-10c2-4c30-8d32-e3dd54027bc1)
+
+**Step 4**: Copy gitleaks file to /usr/local/bin
+```
+sudo cp gitleaks /usr/local/bin/
+gitleaks version
+
+```
+![Screenshot from 2024-09-25 18-29-40](https://github.com/user-attachments/assets/c4c3acf9-b3a0-4335-a759-479bd50ddb31)
+
 
 ### Best Practices
 
