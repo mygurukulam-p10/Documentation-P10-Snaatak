@@ -24,12 +24,12 @@ The purpose of this document is to provide a completed guide to step code compil
 * This document will guide you through a Proof of Concept (PoC) for setting up and compiling a Maven project. We will cover the necessary prerequisites, including Java and Maven installation, as well as the basic project structure.
 
 
-## ⚙️ Pre-requisites
+##  Pre-requisites
 
 - java
 - Maven
 
-## 🖥️ System Requirements
+## System Requirements
 | Hardware Specifications | Minimum Recommendation  |
 |--------------------------|------------------------|
 | Processor                | dual-core              |
@@ -38,7 +38,7 @@ The purpose of this document is to provide a completed guide to step code compil
 | OS                       | Ubuntu 22.04 LTS         |
 
 
-## 🛠️ Build-Time Dependency
+##  Build-Time Dependency
 
 | 🛠️ Name | 📦 Version | 📄 Description |
 |---------|------------|----------------|
@@ -46,14 +46,14 @@ The purpose of this document is to provide a completed guide to step code compil
 
 ---
 
-## 🚀 Run-Time Dependency
+##  Run-Time Dependency
 
 | 🚀 Name | 📦 Version | 📄 Description          |
 |---------|------------|--------------------------|
 | **Java** |  17 for Spring Boot 3.1.1        | Required to run the built Java application. |
 
 
-## 📥 Step-by-step Installation
+##  Step-by-step Installation
 
 ## Install git
 ```
