@@ -57,6 +57,7 @@ Here’s a simplified comparison of Python dependency scanning tools with emojis
 | **⚖️ Compliance Support**                 | Helps maintain compliance with security standards and regulations.                                          |
 | **⚠️ Update Conflicts**                   | Suggested security updates may conflict with other dependencies or application requirements.                |
 | **📊 False Positives**                    | Some tools may report vulnerabilities that don't apply to your specific use case.                          |
+
 Note :- I am using ```safety``` as a Dependency Scanning tool in my POC.
 
 ## 💡 Proof of Concept: Using Safety for Dependency Scanning
