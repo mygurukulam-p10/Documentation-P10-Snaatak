@@ -11,11 +11,11 @@ The purpose of this document is to provide a completed guide to step code compil
 
 ## Table of Contents
 + [Introduction](#Introduction)
-+ [⚙️ Pre-requisites](#⚙️-pre-requisites)
-+ [ System Requirements](#System-Requirements)
-+ [Build-Time Dependency](#build-time-dependency)
-+ [Run Time Dependency](#run-time-dependency)
-+ [Step-by-step Installation](#step-by-step-installation)
+- [⚙️ Pre-requisites](#-pre-requisites)
+- [🖥️ System Requirements](#-system-requirements)
+- [🛠️ Build-Time Dependency](#-build-time-dependency)
+- [🚀 Run-Time Dependency](#-run-time-dependency)
+- [📥 Step-by-step Installation](#-step-by-step-installation)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
 + [ References](#references)
@@ -29,7 +29,7 @@ The purpose of this document is to provide a completed guide to step code compil
 - java
 - Maven
 
-## System Requirements
+## 🖥️ System Requirements
 | Hardware Specifications | Minimum Recommendation  |
 |--------------------------|------------------------|
 | Processor                | dual-core              |
