@@ -153,6 +153,6 @@ gitleaks detect -v
 
 
 ### Conclusion
-Credential scanning is an essential practice for maintaining the security and integrity of codebases. By implementing regular scans, Access Controls, Using Secrets Managers, organizations can significantly reduce the risk of exposing sensitive information. Tools like GitLeaks, TruffleHog, GitGuardian, and SpectralOps offer robust solutions for integrating credential scanning into CI pipelines, ensuring continuous protection against credential leaks.
+Credential scanning is an essential practice for maintaining the security and integrity of codebases. By implementing regular scans, Access Controls, Using Secrets Managers, organizations can significantly reduce the risk of exposing sensitive information. GitLeaks offer robust solutions for integrating credential scanning into CI pipelines, ensuring continuous protection against credential leaks.
 
 https://github.com/gitleaks/gitleaks
