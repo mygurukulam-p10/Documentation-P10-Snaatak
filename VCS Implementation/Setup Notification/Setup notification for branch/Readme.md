@@ -9,16 +9,20 @@
 
 # Table of Content 
 1. [🔍 Purpose](#-purpose)
-2. [🌟 Pre-requisites](#-pre-requisites)
-3. [Steps to Set up Branch Notificatin](#steps-to-set-up-email-notification)
-4. [📜 Conclusion](#-conclusion)
-5. [📚 References](#-references ) 
-6. [📧 Contact Information ](#-contact-information )
+2. [Workflow](#workflow)
+3. [🌟 Pre-requisites](#-pre-requisites)
+4. [Steps to Set up Branch Notificatin](#steps-to-set-up-email-notification)
+5. [📜 Conclusion](#-conclusion)
+6. [📚 References](#-references ) 
+7. [📧 Contact Information ](#-contact-information )
    
 
      
 # 🔍 Purpose 
 This document provides a clear guide for setting up notifications for branch events (create, delete, merge) in GitHub. By following these steps, users can stay informed about branch changes in their repositories. This helps improve team collaboration and keeps everyone updated on project progress.
+
+
+# Workflow
 
 ![Untitled Diagram drawio (10)](https://github.com/user-attachments/assets/5bd94634-dd81-41e6-a01f-d25ab1bce438)
 
