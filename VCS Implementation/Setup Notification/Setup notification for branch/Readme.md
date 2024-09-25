@@ -9,7 +9,7 @@
 
 # Table of Content 
 1. [🔍 Purpose](#-purpose)
-2. [🌟 Prerequisites](#-prerequisites)
+2. [🌟 Pre-requisites](#-pre-requisites)
 3. [Steps to Set up Branch Notificatin](#steps-to-set-up-email-notification)
 4. [📜 Conclusion](#-conclusion)
 5. [📚 References](#-references ) 
@@ -23,7 +23,7 @@ This document provides a clear guide for setting up notifications for branch eve
 ![Untitled Diagram drawio (10)](https://github.com/user-attachments/assets/5bd94634-dd81-41e6-a01f-d25ab1bce438)
 
 
-## 🌟 Prerequisites
+## 🌟 Pre-requisites
 - A GitHub account.
 - Access to the repository for which you want to receive notifications.
 
