@@ -9,9 +9,9 @@
 
 # Table of Content 
 1. [🔍 Purpose](#-purpose)
-2. [Workflow](#workflow)
+2. [✨Workflow](#-workflow)
 3. [🌟 Pre-requisites](#-pre-requisites)
-4. [Steps to Set up Branch Notificatin](#steps-to-set-up-email-notification)
+4. [🖥️ Steps to Set up Branch Notification](#-steps-to-set-up-branch-notification)
 5. [📜 Conclusion](#-conclusion)
 6. [📚 References](#-references ) 
 7. [📧 Contact Information ](#-contact-information )
@@ -22,7 +22,7 @@
 This document provides a clear guide for setting up notifications for branch events (create, delete, merge) in GitHub. By following these steps, users can stay informed about branch changes in their repositories. This helps improve team collaboration and keeps everyone updated on project progress.
 
 
-# Workflow
+# ✨ Workflow
 
 ![Untitled Diagram drawio (10)](https://github.com/user-attachments/assets/5bd94634-dd81-41e6-a01f-d25ab1bce438)
 
@@ -31,16 +31,16 @@ This document provides a clear guide for setting up notifications for branch eve
 - A GitHub account.
 - Access to the repository for which you want to receive notifications.
 
-##  Steps to Set up Branch Notification
+##  🖥️ Steps to Set up Branch Notification
 
 ### 1. **Sign in to GitHub**: Go to [GitHub](https://github.com) and log in to your account.
 
-<img width="451" alt="git account" src="https://github.com/user-attachments/assets/1326a269-ed1e-46a1-9bd4-4789d9272966">
+<img width="674" alt="image" src="https://github.com/user-attachments/assets/b115f76a-1561-4a0d-9de5-f8263192f393">
 
 
-### 2. Create a repository for which you want to configure notifications for Branch(Create,Delete& Merge).
+### 2. Create a repository for which you want to configure notifications for Branch(Create,Delete& Merge(PR)).
 
-<img width="451" alt="repo create" src="https://github.com/user-attachments/assets/7a49d439-bbdf-4ca4-8079-9ba78d5ddf73">
+<img width="941" alt="image" src="https://github.com/user-attachments/assets/e78bf72e-b5b7-43bb-a811-817617d3da3f">
 
 
 ### 3. Now, click on the repository you created and navigate to the Settings tab at the top.
@@ -73,12 +73,11 @@ This document provides a clear guide for setting up notifications for branch eve
 
 ### 6. Set up GitHub Action Workflow:
 
-**Create a GitHub Actions workflow file in your repository to send an email when a Branch- create, Merge & Delete.**
+**Create a GitHub Actions workflow file in your repository to send an email when a Branch- create, Merge(PR) & Delete.**
 
 **In your GitHub repository, create a workflow file in .github/workflows/ (e.g., send-email-on-Branch-notification.yml):**
 
 <img width="927" alt="workflow" src="https://github.com/user-attachments/assets/6313e88a-999f-4136-bbb2-195d6d8913b9">
-
 
 
 ### 7. Commit and Push the Workflow File:
@@ -102,7 +101,7 @@ This document provides a clear guide for setting up notifications for branch eve
 
 
 ## 📜 Conclusion
-The POC successfully implements an email notification system that triggers on critical branch events: creation, deletion, and merging of branches in a GitHub repository. It leverages GitHub Actions to automatically send notifications, ensuring that team members are promptly informed of important branch activities, enhancing collaboration and workflow monitoring.
+The POC successfully implements an email notification system that triggers on critical branch events: creation, deletion, and merging(PR) of branches in a GitHub repository. It leverages GitHub Actions to automatically send notifications, ensuring that team members are promptly informed of important branch activities, enhancing collaboration and workflow monitoring.
  
 ## 📚 References 
 |links | Description |
