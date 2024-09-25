@@ -11,7 +11,7 @@ The purpose of this document is to provide a completed guide to step code compil
 
 ## Table of Contents
 + [Introduction](#Introduction)
-+ [Pre-requisites](#pre-requisites)
++ [⚙️ Pre-requisites](#⚙️-pre-requisites)
 + [ System Requirements](#System-Requirements)
 + [Build-Time Dependency](#build-time-dependency)
 + [Run Time Dependency](#run-time-dependency)
