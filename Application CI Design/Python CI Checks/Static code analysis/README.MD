@@ -1,34 +1,30 @@
+# 🛠️ Continuous Integration (CI) & Static Code Analysis Guide
 
-# Static Code Analysis
-
-![CI Icon](https://img.shields.io/badge/CI-Python-blue) ![Static Analysis Icon](https://img.shields.io/badge/Static%20Code%20Analysis-green)
-
-| 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
-|--------------------|------------|--------------|--------------------------------|
-| 20-09-2024         | 0.1       | Brij Singh   | Static Code Analysis               |
+| 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                |
+|--------------------|------------|--------------|---------------------------|
+| 20-09-2024         | 0.1        | Brij Singh   | Static Code Analysis      |
 
 ## 📖 Introduction
 
-Continuous Integration (CI) and Static Code Analysis are essential practices in modern software development. CI automates testing to ensure code changes integrate smoothly, while static code analysis examines your code without execution to find bugs, security issues, and improve code quality. In this guide, we’ll explore the importance of Python CI checks and static code analysis, their benefits, popular tools, and best practices.
-
-
+Continuous Integration (CI) and Static Code Analysis are essential practices in modern software development. CI automates testing to ensure code changes integrate smoothly, while static code analysis examines your code without execution to find bugs, security issues, and improve code quality. This guide explores the importance of Python CI checks and static code analysis, their benefits, popular tools, and best practices.
 
 ## 🗂️ Table of Contents
 
-- [What are Python CI Checks?](#what-are-python-ci-checks)
-- [What is Static Code Analysis?](#what-is-static-code-analysis)
-- [Why Use Python CI and Static Code Analysis?](#why-use-python-ci-and-static-code-analysis)
-- [Popular Tools for CI and Static Code Analysis](#popular-tools-for-ci-and-static-code-analysis)
-- [Comparison of Static Code Analysis Tools](#comparison-of-static-code-analysis-tools)
-- [Advantages of CI and Static Code Analysis](#advantages-of-ci-and-static-code-analysis)
-- [Proof of Concept (POC)](#proof-of-concept-poc)
-- [Best Practices](#best-practices)
-- [Recommendations and Conclusion](#recommendations-and-conclusion)
-- [Contact Information and References](#contact-information-and-references)
+- [What are Python CI Checks?](#-what-are-python-ci-checks)
+- [What is Static Code Analysis?](#-what-is-static-code-analysis)
+- [Why Use Python CI and Static Code Analysis?](#-why-use-python-ci-and-static-code-analysis)
+- [Popular Tools for CI and Static Code Analysis](#-popular-tools-for-ci-and-static-code-analysis)
+- [Comparison of Static Code Analysis Tools](#-comparison-of-static-code-analysis-tools)
+- [Advantages of CI and Static Code Analysis](#-advantages-of-ci-and-static-code-analysis)
+- [Proof of Concept (POC)](#-proof-of-concept-poc)
+- [Best Practices](#-best-practices)
+- [Recommendations and Conclusion](#-recommendations-and-conclusion)
+- [Contact Information](#-contact-information)
+- [References](#-references)
 
 ---
 
-## 🛠️ What are Python CI Checks? 
+## 🛠️ What are Python CI Checks?
 
 Python CI (Continuous Integration) checks are automated tests and validation processes that run whenever changes are pushed to a code repository. These checks can include:
 
@@ -37,7 +33,7 @@ Python CI (Continuous Integration) checks are automated tests and validation pro
 - Performing security checks
 - Validating functionality with test suites
 
-### 📝 Why Python CI Checks Matter:
+### 📝 Why Python CI Checks Matter
 CI ensures code quality, catches bugs early, and reduces integration headaches by automating the build, test, and deployment processes.
 
 ---
@@ -52,14 +48,12 @@ Static code analysis involves scanning the source code without executing it. Thi
 - Unused code
 - Performance bottlenecks
 
-### 🔍 Why Static Code Analysis Matters:
+### 🔍 Why Static Code Analysis Matters
 It enhances code quality, security, and maintainability by identifying issues early in the development cycle.
 
 ---
 
 ## ❓ Why Use Python CI and Static Code Analysis?
-
-
 
 1. **Prevent Bugs**: Identify and fix issues early in development.
 2. **Maintain Consistency**: Ensure that coding standards (like PEP 8) are followed across the project.
@@ -88,33 +82,26 @@ It enhances code quality, security, and maintainability by identifying issues ea
 
 ---
 
-
-
-
-
-
-
-
 ## 🔬 Comparison of Static Code Analysis Tools
 
-| Tool      | Focus Area           | Pros                            | Cons                          |
-|-----------|----------------------|----------------------------------|-------------------------------|
-| **Pylint**| Code Quality          | Comprehensive checks             | Can be slow on large projects  |
-| **Flake8**| Style & Syntax        | Lightweight, customizable        | Limited to syntax & style      |
-| **Bandit**| Security Analysis     | Security-specific issues         | Focuses only on security       |
-| **Mypy**  | Type Checking         | Enhances type safety             | Requires type annotations      |
-| **SonarQube**| Quality & Security | Detailed, rich insights          | More complex setup             |
+| Tool        | Focus Area          | Pros                             | Cons                           |
+|-------------|---------------------|----------------------------------|-------------------------------|
+| **Pylint**  | Code Quality        | Comprehensive checks             | Can be slow on large projects |
+| **Flake8**  | Style & Syntax      | Lightweight, customizable        | Limited to syntax & style     |
+| **Bandit**  | Security Analysis   | Security-specific issues         | Focuses only on security      |
+| **Mypy**    | Type Checking       | Enhances type safety             | Requires type annotations     |
+| **SonarQube** | Quality & Security| Detailed, rich insights          | More complex setup            |
 
 ---
 
 ## 🌟 Advantages of CI and Static Code Analysis
 
-### 🚀 **Continuous Integration (CI)**:
+### 🚀 **Continuous Integration (CI)**
 - **Faster Development Cycles**: CI helps detect bugs early and frequently, which accelerates development.
 - **Improved Code Quality**: Automated tests ensure new code doesn’t break existing functionality.
 - **Better Collaboration**: CI integrates changes from multiple contributors smoothly.
 
-### 🛡️ **Static Code Analysis**:
+### 🛡️ **Static Code Analysis**
 - **Early Bug Detection**: Finds issues before the code is run, saving time and effort.
 - **Security Focus**: Detects vulnerabilities in source code, reducing security risks.
 - **Consistent Codebase**: Ensures the code follows agreed-upon standards.
@@ -163,21 +150,18 @@ By adopting CI and static code analysis early, your project will be more reliabl
 
 For any queries or further information, feel free to contact:
 
-| 📛 Name       | ✉️ Email Address                    |
-|---------------|-------------------------------------|
-| **Brij Singh**| brij.singh.snaatak@mygurukulam.co   |
+| 📛 Name       | ✉️ Email Address                   |
+|---------------|-----------------------------------|
+| **Brij Singh**| brij.singh.snaatak@mygurukulam.co |
 
+---
 
-## 📞  References
+## 🔗 References
 
-For more information, visit:
-
-- [Pylint Documentation](https://pylint.pycqa.org/)
-- [Flake8 Documentation](https://flake8.pycqa.org/)
-- [GitHub Actions CI](https://docs.github.com/en/actions)
-- [Bandit - Python Security](https://bandit.readthedocs.io/)
-
-
+- 📚 [Pylint Documentation](https://pylint.pycqa.org/)
+- 📖 [Flake8 Documentation](https://flake8.pycqa.org/)
+- 🛠️ [GitHub Actions CI](https://docs.github.com/en/actions)
+- 🔒 [Bandit - Python Security](https://bandit.readthedocs.io/)
 
 ---
 
