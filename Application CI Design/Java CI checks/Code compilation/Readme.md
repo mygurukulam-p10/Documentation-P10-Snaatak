@@ -30,10 +30,10 @@ Java is a widely-used programming language known for its platform independence a
 Code compilation in Java is the process where the Java compiler (javac) converts your Java source code into bytecode. This bytecode is platform-independent, meaning it can run on any system with a Java Virtual Machine (JVM). This allows Java programs to follow the “write once, run anywhere” principle.
 
 ## Why Compile Java Code?
-Performance: Compiled code runs faster than interpreted code as it eliminates the need for runtime translation.
-Error Detection: Compilation helps catch syntax and semantic errors before the program runs.
-Optimization: Compilers often optimize the code for better performance.
-Security: Bytecode is not human-readable, which can provide a layer of security against direct code manipulation.
+- Performance: Compiled code runs faster than interpreted code as it eliminates the need for runtime translation.
+- Error Detection: Compilation helps catch syntax and semantic errors before the program runs.
+- Optimization: Compilers often optimize the code for better performance.
+- Security: Bytecode is not human-readable, which can provide a layer of security against direct code manipulation.
 
 ## Different Tools for Code Compilation
 - Build Tools:
