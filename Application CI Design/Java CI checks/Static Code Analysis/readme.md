@@ -39,10 +39,10 @@ Static code analysis involves examining the source code of a program without exe
 ## Different Tools for Static Code Analysis in Java
 Several tools are available for static code analysis in Java, each with unique features and strengths. Some popular ones include:
 
-**1. SonarQube**
-**2.Checkstyle**
-**3.PMD**
-**4.FindBugs/SpotBugs**
+- **1. SonarQube**
+- **2.Checkstyle**
+- **3.PMD**
+- **4.FindBugs/SpotBugs**
 
 
 
