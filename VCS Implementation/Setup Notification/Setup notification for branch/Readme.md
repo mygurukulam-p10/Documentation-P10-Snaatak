@@ -18,9 +18,10 @@
 
      
 # 🔍 Purpose 
-This document provides a clear, step-by-step guide for setting up email notifications for code commits in GitHub. By following these instructions, users can stay informed about changes in their repositories without requiring any scripting or complex configurations. This enhances collaboration and keeps team members updated on project developments.
+This document provides a clear guide for setting up notifications for branch events (create, delete, merge) in GitHub. By following these steps, users can stay informed about branch changes in their repositories. This helps improve team collaboration and keeps everyone updated on project progress.
 
-![codecommit drawio (2)](https://github.com/user-attachments/assets/93433a96-f1ff-45a3-b38d-a198555dcf9a)
+![Untitled Diagram drawio (10)](https://github.com/user-attachments/assets/5bd94634-dd81-41e6-a01f-d25ab1bce438)
+
 
 ## 🌟 Prerequisites
 - A GitHub account.
@@ -30,15 +31,18 @@ This document provides a clear, step-by-step guide for setting up email notifica
 
 ### 1. **Sign in to GitHub**: Go to [GitHub](https://github.com) and log in to your account.
 
-<img width="958" alt="image" src="https://github.com/user-attachments/assets/d6acff0d-0562-441c-813c-37cfbe5ebeec">
+<img width="451" alt="git account" src="https://github.com/user-attachments/assets/1326a269-ed1e-46a1-9bd4-4789d9272966">
 
-### 2. Create a repository for which you want to configure notifications for code commits.
 
-![Screenshot 2024-09-23 164450](https://github.com/user-attachments/assets/7488354d-04a7-4d07-8d28-6003db689937)
+### 2. Create a repository for which you want to configure notifications for Branch(Create,Delete& Merge).
+
+<img width="451" alt="repo create" src="https://github.com/user-attachments/assets/7a49d439-bbdf-4ca4-8079-9ba78d5ddf73">
+
 
 ### 3. Now, click on the repository you created and navigate to the Settings tab at the top.
 
-![Screenshot 2024-09-23 173912](https://github.com/user-attachments/assets/1aef0657-d0c8-48b0-9455-da153bc2c312)
+<img width="475" alt="Settings" src="https://github.com/user-attachments/assets/eb10a89f-7dd2-4d98-8758-601764aff506">
+
 
 ### 4. Generate an App Password for Gmail: If you are using Gmail, you'll need to generate an App Password for your Google account:
 
@@ -48,29 +52,28 @@ This document provides a clear, step-by-step guide for setting up email notifica
 
 **Choose Mail and select your device, then generate a password and copy it.**
 
-![Screenshot 2024-09-23 200443](https://github.com/user-attachments/assets/065d60fb-63ab-4ed6-a9d9-449425c6238a)
+<img width="469" alt="gmail password" src="https://github.com/user-attachments/assets/9a6b65b0-0e8f-4eea-a468-cfe0da7b99c8">
 
-### 5. Set up GitHub Action Workflow:
 
-**Create a GitHub Actions workflow file in your repository to send an email when a code commit is made.**
+### 5. Add Gmail Credentials to GitHub Secrets:
 
-**In your GitHub repository, create a workflow file in .github/workflows/ (e.g., send-email-on-codecommit.yml):**
-
-![Screenshot 2024-09-23 200921](https://github.com/user-attachments/assets/e2b44183-c3ca-4533-aff7-c0643f904076)
-
-### 6. Add Gmail Credentials to GitHub Secrets:
-
-**Go to your GitHub repository.**
-
-**Click on Settings -> Secrets -> Actions -> New repository secret.**
-
-**Add two secrets:**
+**Go to your GitHub repository.** **Click on Settings -> Secrets -> Actions -> New repository secret,**Add two secrets:**
 
 **EMAIL_USERNAME: Your Gmail address (e.g., your-email@gmail.com).**
 
 **EMAIL_PASSWORD: The App Password you generated earlier from Gmail.**
 
-![Screenshot 2024-09-23 200808](https://github.com/user-attachments/assets/8b99b2d8-13b6-4b91-b2bd-52ffc6b12f10)
+<img width="944" alt="secrate password" src="https://github.com/user-attachments/assets/287c2b0e-ac36-4c2c-8d87-3d0a47e03bb5">
+
+
+### 6. Set up GitHub Action Workflow:
+
+**Create a GitHub Actions workflow file in your repository to send an email when a code commit is made.**
+
+**In your GitHub repository, create a workflow file in .github/workflows/ (e.g., send-email-on-codecommit.yml):**
+
+<img width="944" alt="workflow" src="https://github.com/user-attachments/assets/9af01505-d6cc-4462-a0ab-4a112bc942ee">
+
 
 ### 7. Commit and Push the Workflow File:
 
