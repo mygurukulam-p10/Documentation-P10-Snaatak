@@ -61,6 +61,8 @@ The purpose of this document is to set up automated notifications via email and 
 
 ![for scerate password](https://github.com/user-attachments/assets/2eb0cdfd-be36-47fa-bce4-8f9011e89e35)
 
+![webhook-slack](https://github.com/user-attachments/assets/fa54739f-063a-405a-ad83-b81ed18e5edd)
+
 
 ### 5. Add Gmail Credentials to GitHub Secrets:
 
