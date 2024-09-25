@@ -1,6 +1,9 @@
+
+
 # 🛡️ Bandit - Python Security Linter
 
-![Uploading image.png…]()
+![69142e4b-ae85-4a43-b579-49c3647396f4](https://github.com/user-attachments/assets/5e826071-e611-49ae-a182-2af0f0d49128)
+
 
 
 ## 📑 Table of Contents
@@ -114,4 +117,6 @@ Bandit reports include:
 🏁 Conclusion
 Bandit helps developers identify security issues in Python applications, making it a valuable tool to improve code security.
 
+References
+[HERE](https://pypi.org/project/bandit/)
 
