@@ -7,9 +7,9 @@
 2. [Prerequisites](#prerequisites)
 3. [Setting Up GitHub Authentication for web access](#Setting-up-github-authentication-for-web-access)
 4. [Setting Up GitHub Authentication for CLI access](#Setting-up-github-authentication-for-cli-access)
-5. [Conclusion](#6-conclusion)
-6. [Reference](#7-reference)
-7. [Contact](#8-contact)
+5. [Conclusion](#conclusion)
+6. [Reference](#reference)
+7. [Contact-Information](#contact-information)
 
 ## Purpose of the Document
 
