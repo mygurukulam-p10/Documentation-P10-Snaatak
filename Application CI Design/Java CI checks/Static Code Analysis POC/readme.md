@@ -13,8 +13,6 @@ The purpose of this document is to provide a completed guide to step up Static C
 - [Introduction](#Introduction)
 - [Pre-requisites](#pre-requisites)
 - [System Requirements](#system-requirements)
-- [Build-Time Dependency](#build-time-dependency)
-- [Run-Time Dependency](#run-time-dependency)
 - [Step-by-step Installation](#step-by-step-installation)
 - [Conclusion](#conclusion)
 - [Contact Information](#contact-information)
@@ -39,7 +37,29 @@ The purpose of this document is to provide a completed guide to step up Static C
 | Disk                     |5 GB free disk space                  |
 | OS                       | Ubuntu 22.04 LTS         |
 
+##  Step-by-step Installation
 
+## Install git
+```
+sudo apt install git
+```
+### 📂 Step 1: Clone the Git Repository
+```
+git clone https://github.com/OT-MICROSERVICES/salary-api.git
+```
+
+### Step 2: Change Directory
+Change Directory to where your code is
+```
+cd salary-api
+```
+
+### Step 3: now we have to do Static Code Analysis using checkstyle
+This command will execute the Checkstyle plugin to analyze the code based on the configured rules.
+
+```
+mvn checkstyle:check
+```
 ![e3](https://github.com/user-attachments/assets/ec2ed6fa-93d2-4b01-b20c-4b5ad4d0be73)
 ![e1](https://github.com/user-attachments/assets/92864196-b869-4123-8f14-002492226735)
 
