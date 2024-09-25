@@ -27,6 +27,7 @@ Static Code Analysis is an essential practice in modern software development tha
 
 Static code analysis involves scanning the source code without executing it. This process identifies potential issues such as:
 
+
 - Syntax errors
 - Code smells (poor design choices)
 - Security vulnerabilities
