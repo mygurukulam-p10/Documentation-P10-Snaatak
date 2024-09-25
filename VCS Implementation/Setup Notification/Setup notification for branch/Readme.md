@@ -1,9 +1,9 @@
-# <img width="35" alt="image" src="https://github.com/user-attachments/assets/cd1cb06d-90e7-410e-bccc-3a4d645dd6c5"> Setup notification for Branch
+# <img width="33" alt="image" src="https://github.com/user-attachments/assets/f4828f0f-f961-4939-8219-90e2a0f86544"> Setup notification for Branch
 
 
 | ✍️Author   | 📅Created on|📌 Version | 📝Last updated by   |📅 Last edited on |
 |-------------|-------------|------------|---------------------|------------------|
-| Megha Tyagi |  24-09-24   | Version 1  |    Megha Tyagi      | 24-09-24         |
+| Megha Tyagi |  24-09-24   | Version 1  |    Megha Tyagi      | 25-09-24         |
 
 
 
