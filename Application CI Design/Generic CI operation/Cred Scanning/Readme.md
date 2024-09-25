@@ -102,7 +102,7 @@ If any of these are found in the code, they could be a security risk because att
 
 **Step 1. Install**
 
-Gitleaks can be installed using Homebrew, Docker, or Go. Gitleaks is also available in binary form for many popular platforms and OS types on the releases page
+Gitleaks can be installed using Homebrew, Docker, or Go. Gitleaks is also available in binary form for many popular platforms and OS types on the releases page ``` https://github.com/gitleaks/gitleaks/releases ```
 
 ![Screenshot from 2024-09-25 18-21-45](https://github.com/user-attachments/assets/b7ab3c68-9e6a-4109-afe3-a18607f8ca86)
 
@@ -114,6 +114,10 @@ wget https://github.com/gitleaks/gitleaks/releases/download/v8.19.2/gitleaks_8.1
 ![Screenshot from 2024-09-25 18-20-51](https://github.com/user-attachments/assets/1cf6a017-83a6-4081-84e7-e8b088f03848)
 
 **Step 3: Extract**
+```
+tar -zxvf gitleaks_8.19.2_linux_x64.tar.gz
+```
+file:///home/aayush/Pictures/Screenshots/Screenshot%20from%202024-09-25%2018-26-31.png
 
 ### Best Practices
 
