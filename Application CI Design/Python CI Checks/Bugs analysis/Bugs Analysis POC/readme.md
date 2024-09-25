@@ -38,10 +38,10 @@ pip install bandit
 ```
 ![image](https://github.com/user-attachments/assets/09caeabf-787c-4b76-a92b-a23324764c61)
 
-**Once Bandit is installed, you can start using it to scan your Python code.**
 
-🧑‍💻 Using Bandit
-To scan all Python files in a directory, use:
+
+**🧑‍💻 Using Bandit
+To scan all Python files in a directory, use:**
 
 **Using dot (.) notation it will scan all the Python files which are inside that directory:**
 ```
@@ -60,7 +60,7 @@ Include low-severity issues:
 bandit -r . -ll
 ```
 
-Set a severity threshold:
+
 **This command will only report issues with a severity level of MEDIUM or higher.**
 ```
 bandit -r /path/to/your/code -s MEDIUM
@@ -73,8 +73,9 @@ You can also exclude certain files or directories from the scan by using the -x 
 ```
 bandit -r . -x some_directory/
 ```
-🚀 ### Proof of Concept (POC)###
-Example command:
+****🚀  Proof of Concept (POC)****
+
+**Example command:**
 ```
 bandit -r /home/Brij/sanatak/Python/attendance-api$
 ```
