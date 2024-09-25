@@ -63,7 +63,8 @@ This document provides a clear guide for setting up notifications for branch eve
 
 **EMAIL_PASSWORD: The App Password you generated earlier from Gmail.**
 
-<img width="944" alt="secrate password" src="https://github.com/user-attachments/assets/287c2b0e-ac36-4c2c-8d87-3d0a47e03bb5">
+![Screenshot 2024-09-25 114351](https://github.com/user-attachments/assets/835f8694-5d1c-48ed-9f5a-5c61638c57c1)
+
 
 
 ### 6. Set up GitHub Action Workflow:
@@ -72,22 +73,15 @@ This document provides a clear guide for setting up notifications for branch eve
 
 **In your GitHub repository, create a workflow file in .github/workflows/ (e.g., send-email-on-codecommit.yml):**
 
-<img width="944" alt="workflow" src="https://github.com/user-attachments/assets/9af01505-d6cc-4462-a0ab-4a112bc942ee">
+<img width="927" alt="workflow" src="https://github.com/user-attachments/assets/6313e88a-999f-4136-bbb2-195d6d8913b9">
+
 
 
 ### 7. Commit and Push the Workflow File:
 
-**Once you add the workflow file, every time a commit is pushed to the specified repo (e.g., code-commit-demo), the GitHub Action will send an email with the details of the commit (message, author, and URL).**
+**Once you add the workflow file, every time a commit is pushed to the specified repo (e.g., Branch-Notification-demo), the GitHub Action will send an email with the details of the commit (message, author, and URL).**
 
-![Screenshot 2024-09-23 235555](https://github.com/user-attachments/assets/8121b4ce-16f5-4847-ab52-0579bc8b8307)
 
-![Screenshot 2024-09-23 202553](https://github.com/user-attachments/assets/4c1b23ab-c3b5-41a7-9851-a4519a3fcaeb)
-
-![Screenshot 2024-09-23 201433](https://github.com/user-attachments/assets/b0d72001-5fa1-4951-a1a8-6dbba9e674d5)
-
-![Screenshot 2024-09-23 201420](https://github.com/user-attachments/assets/04cb5dc1-14c0-4347-9852-aca8fcc78635)
-
-![Screenshot 2024-09-23 201803](https://github.com/user-attachments/assets/1351519b-17b9-4374-b279-90234bc27916)
 
 
 ## 📜 Conclusion
