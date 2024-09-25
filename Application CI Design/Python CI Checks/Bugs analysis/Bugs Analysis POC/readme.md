@@ -59,13 +59,14 @@ Include low-severity issues:
 ```
 bandit -r . -ll
 ```
-Set a severity threshold:
 
-``
+Set a severity threshold:
+**This command will only report issues with a severity level of MEDIUM or higher.**
+```
 bandit -r /path/to/your/code -s MEDIUM
 ```
 
-**This command will only report issues with a severity level of MEDIUM or higher.**
+
 
 You can also exclude certain files or directories from the scan by using the -x option followed by the path to exclude:
 
@@ -95,15 +96,16 @@ bandit -r /home/Brij/sanatak/Python/attendance-api$
 
 Bandit reports include:
 
-📁 File Paths: Files analyzed.
-🔢 Line Numbers: Where issues were found.
-⚠️ Issue Severity Levels: Low, Medium, High.
-📝 Issue Descriptions: Details of detected vulnerabilities.
-🛠️ Actionable Steps
-📄 Review Reported Issues: Review the reported issues and their severity.
-🚨 Prioritize Fixes: Prioritize fixing high-severity issues.
-🔄 Refactor Code: Address vulnerabilities by refactoring code.
-🔁 Automate Checks: Integrate Bandit into CI/CD pipelines for continuous security checks.
+| Report | Description                                          |
+|-----------|------------------------------------------------------|
+|📁 File Paths |Files analyzed.|
+|🔢 Line Numbers| Where issues were found.|
+|⚠️ Issue Severity Levels| |Low, Medium, High.|
+|📝 Issue Descriptions | Details of detected vulnerabilities.|
+|📄 Review Reported Issues| Review the reported issues and their severity.|
+|🚨 Prioritize Fixes| Prioritize fixing high-severity issues.|
+|🔄 Refactor Code | Address vulnerabilities by refactoring code.|
+|🔁 Automate Checks| Integrate Bandit into CI/CD pipelines for continuous security checks.|
 
 🏁 Conclusion
 Bandit helps developers identify security issues in Python applications, making it a valuable tool to improve code security.
