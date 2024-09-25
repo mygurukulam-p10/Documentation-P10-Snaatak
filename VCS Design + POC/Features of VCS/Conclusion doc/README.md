@@ -68,7 +68,7 @@ Version Control Systems (VCS) are the backbone of modern software development. T
 
 | Plan | Bitbucket | GitLab | GitHub |
 |------|-----------|--------|--------|
-| Free | Up to 5 users | Unlimited users | Unlimited public repos |
+| Free | Up to 5 users | Up to 5  users | Unlimited public repos |
 | Basic/Starter | $3/user/month | $19/user/month | $4/user/month |
 | Standard/Premium | $5/user/month | $29/user/month | $7/user/month |
 | Premium/Ultimate | $15/user/month | $99/user/month | $21/user/month |
