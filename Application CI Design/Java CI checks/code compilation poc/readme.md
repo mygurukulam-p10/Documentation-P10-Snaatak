@@ -1,10 +1,14 @@
-## Proof of Concept (POC) for Code Compilation
+# Proof of Concept (POC) for Code Compilation
 ![java](https://github.com/user-attachments/assets/b07cbf43-b8ff-4e96-a6aa-7177d0be4ad4)
 
 
   | Author        | Created on | Version | Last updated by | Last edited on |
   |-------------|---------|-------------|-------------|---------|
   | Vinay Bansal | 19-09-24 | version 1 | Vinay Bansal | 20-09-24 |
+
+## Purpose
+The purpose of this document is to provide a completed guide to step code compilation.
+
 ## Table of Contents
 + [Introduction](#Introduction)
 + [Pre-requisites](#pre-requisites)
