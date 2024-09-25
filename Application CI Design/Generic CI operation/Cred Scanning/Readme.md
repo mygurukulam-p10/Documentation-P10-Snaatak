@@ -155,4 +155,14 @@ gitleaks detect -v
 ### Conclusion
 Credential scanning is an essential practice for maintaining the security and integrity of codebases. By implementing regular scans, Access Controls, Using Secrets Managers, organizations can significantly reduce the risk of exposing sensitive information. GitLeaks offer robust solutions for integrating credential scanning into CI pipelines, ensuring continuous protection against credential leaks.
 
-https://github.com/gitleaks/gitleaks
+## Contact Information 
+|Name|Email Address|
+|:---:|:---:|
+|Aayush|aayush.gaur.snaatak@mygurukulam.co|
+
+## References 
+|links |
+|-------|
+|https://github.com/gitleaks/gitleaks|
+|https://www.jit.io/resources/appsec-tools/the-developers-guide-to-using-gitleaks-to-detect-hardcoded-secrets|
+
