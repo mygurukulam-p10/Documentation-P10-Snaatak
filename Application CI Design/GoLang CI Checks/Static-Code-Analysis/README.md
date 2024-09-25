@@ -1,5 +1,5 @@
 
-# Static Code Analysis in Golang CI Checks with Golangci-lint 🚀
+#  Golang CI Checks - Static Code Analysis 🚀
 
 # Table of Contents 📑
 1. Introduction
