@@ -57,11 +57,9 @@ The purpose of this document is to set up automated notifications via email and 
 
 **Choose Mail and select your device, then generate a password and copy it.**
 
-**Add Slack Webhook Url in Settings → Secrets and variables → Actions in your repository**
+**Generate Slack Webhook Url**
 
 ![for scerate password](https://github.com/user-attachments/assets/2eb0cdfd-be36-47fa-bce4-8f9011e89e35)
-
-![slack](https://github.com/user-attachments/assets/7d6f63a7-4952-4f86-82b3-01183bc4f0a8)
 
 
 ### 5. Add Gmail Credentials to GitHub Secrets:
@@ -72,8 +70,11 @@ The purpose of this document is to set up automated notifications via email and 
 
 **EMAIL_PASSWORD: The App Password you generated earlier from Gmail.**
 
+**Add Slack Webhook Url in your GitHub Repo.**
+
 <img width="942" alt="image" src="https://github.com/user-attachments/assets/ae706d0c-dc40-4706-9bc6-480301232dbf">
 
+![slack](https://github.com/user-attachments/assets/7d6f63a7-4952-4f86-82b3-01183bc4f0a8)
 
 ### 6. Set up GitHub Action Workflow:
 
