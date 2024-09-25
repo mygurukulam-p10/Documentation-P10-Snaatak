@@ -6,16 +6,21 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [What is SonarQube Quality Gate?](#what-is-sonarqube-quality-gate)
-3. [Why Use Quality Gates?](#why-use-quality-gates)
-4. [Types of Quality Gates](#types-of-quality-gates)
-5. [Implementation of Quality Gates](#implementation-of-quality-gates)
-6. [Advantages of Using Quality Gates](#advantages-of-using-quality-gates)
-7. [Conclusion](#conclusion)
-8. [References](#references)
+   [Flow_Diagram](#Flow-diagram)
+3. [What is SonarQube Quality Gate?](#what-is-sonarqube-quality-gate)
+4. [Why Use Quality Gates?](#why-use-quality-gates)
+5. [Types of Quality Gates](#types-of-quality-gates)
+6. [Implementation of Quality Gates](#implementation-of-quality-gates)
+7. [Advantages of Using Quality Gates](#advantages-of-using-quality-gates)
+8. [Conclusion](#conclusion)
+9. [References](#references)
 
 ## Introduction
 SonarQube is an open-source platform for continuous inspection of code quality. It helps developers manage code quality and security vulnerabilities while maintaining high standards across software projects. Quality gates are a crucial feature within SonarQube that determines whether a project meets the predefined quality criteria before moving to the next phase of development.
+
+## Flow Diagram
+
+![image](https://github.com/user-attachments/assets/30e7662f-a53e-4f7a-9809-8d9cf5696523)
 
 ## What is SonarQube Quality Gate?
 A Quality Gate is a set of conditions that a project must meet before it can be considered satisfactory. These conditions may include metrics related to code coverage, code duplications, maintainability, reliability, security, and more. Quality gates help enforce coding standards and ensure that code changes do not degrade the quality of the existing codebase.
