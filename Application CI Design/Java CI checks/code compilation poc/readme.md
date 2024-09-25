@@ -3,14 +3,14 @@
 ## Table of Contents
 + [Introduction](#Introduction)
 + [ System Requirements](#System-Requirements)
-+ [Build Dependency](#Build-Dependency)
-+ [Run Time Dependency](#Run-Time-Dependency)
++ [Build-Time Dependency](#build-time-dependency)
++ [Run Time Dependency](#run-time-dependency)
 
 + [Proof of Concept](#Pre-requisite)
 
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
-+ [ References](#References)
++ [ References](#references)
 
   ## Introduction 
 * 
