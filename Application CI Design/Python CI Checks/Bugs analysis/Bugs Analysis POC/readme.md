@@ -35,4 +35,52 @@ Install Bandit using pip:
 
 ```bash
 pip install bandit
+```
+🧑‍💻 Using Bandit
+To scan all Python files in a directory, use:
+
+bash
+Copy code
+bandit -r .
+For a specific file:
+
+bash
+Copy code
+bandit -r /path/to/your/code.py
+Include low-severity issues:
+
+bash
+Copy code
+bandit -r . -ll
+Set a severity threshold:
+
+bash
+Copy code
+bandit -r /path/to/your/code -s MEDIUM
+Exclude files or directories:
+
+bash
+Copy code
+bandit -r . -x some_directory/
+🚀 Proof of Concept (POC)
+Example command:
+
+bash
+Copy code
+bandit -r /home/ubuntu/employee_api
+📊 Bandit Report Analysis
+Bandit reports include:
+
+📁 File Paths: Files analyzed.
+🔢 Line Numbers: Where issues were found.
+⚠️ Issue Severity Levels: Low, Medium, High.
+📝 Issue Descriptions: Details of detected vulnerabilities.
+🛠️ Actionable Steps
+📄 Review Reported Issues: Review the reported issues and their severity.
+🚨 Prioritize Fixes: Prioritize fixing high-severity issues.
+🔄 Refactor Code: Address vulnerabilities by refactoring code.
+🔁 Automate Checks: Integrate Bandit into CI/CD pipelines for continuous security checks.
+🏁 Conclusion
+Bandit helps developers identify security issues in Python applications, making it a valuable tool to improve code security.
+
 
