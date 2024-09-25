@@ -20,7 +20,7 @@
 # 🔍 Purpose 
 This document provides a clear guide for setting up notifications for branch events (create, delete, merge) in GitHub. By following these steps, users can stay informed about branch changes in their repositories. This helps improve team collaboration and keeps everyone updated on project progress.
 
-![Untitled Diagram drawio (10)](https://github.com/user-attachments/assets/5bd94634-dd81-41e6-a01f-d25ab1bce438)
+![BranchMerge drawio](https://github.com/user-attachments/assets/c2a33fdf-e42a-4116-ad10-ec6346069578)
 
 
 ## 🌟 Prerequisites
