@@ -128,24 +128,7 @@ pip install voluptuous
 ![usuccess](https://github.com/user-attachments/assets/157685e6-011f-4ea7-ae3a-eba410dfbfa7)
 
 
-# Best Practices
 
-| **Best Practice**              | **Description**                                                                 |
-|--------------------------------|---------------------------------------------------------------------------------|
-| **Write Tests First**          | Adopt Test-Driven Development (TDD) where possible.                            |
-| **Keep Tests Independent**     | Ensure each test runs independently of others.                                 |
-| **Use Descriptive Names**      | Name your tests clearly to indicate their purpose.                             |
-| **Cover Edge Cases**           | Ensure tests account for edge cases and potential errors.                      |
-| **Run Tests Frequently**       | Integrate tests into your CI pipeline to run automatically.                   |
-
-
-# Recommendation
-## **pytest**
-| Feature                     | Description                                                                                   |
-|-----------------------------|-----------------------------------------------------------------------------------------------|
-| **Simplicity and Readability** | pytest allows for writing simple and easy-to-read tests. Its syntax is straightforward, making it accessible for beginners. |
-| **Rich Features**           | Supports fixtures, parameterized testing, and plugins, significantly enhancing testing capabilities. |
-| **Flexible Test Discovery** | Automatically discovers tests based on naming conventions, saving time in test organization. |
 
 
 # Conclusion
@@ -162,5 +145,4 @@ For further reading and resources on GitOps, check out the following:
 
 | Links | Descriptions|
 |------|---------------------|
-|https://www.datacamp.com/tutorial/pytest-tutorial-a-hands-on-guide-to-unit-testing|Pytest|
-|https://medium.com/@dirk.avery/pytest-modulenotfounderror-no-module-named-requests-a770e6926ac5|ModuleNotFoundError|
+|Document|https://github.com/mygurukulam-p10/Documention/blob/main/Application%20CI%20Design/Python%20CI%20Checks/Unit%20Testing%20Doc/readme.md|
