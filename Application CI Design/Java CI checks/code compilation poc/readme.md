@@ -65,6 +65,7 @@ git clone https://github.com/OT-MICROSERVICES/salary-api.git
 ```
 
 ### Step 2: Change Directory
+Change Directory to where your code is
 ```
 cd salary-api
 ```
