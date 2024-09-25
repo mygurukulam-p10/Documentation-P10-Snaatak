@@ -107,15 +107,8 @@ This configuration will run a safety check on every request, scanning the `pypro
 | **Monitor Vulnerability Alerts**      | Stay informed of new risks.                                                                          |
 
 ## 💼 Recommendation/Conclusion
-Implementing dependency scanning in your Python CI pipeline is crucial for maintaining the security and stability of your project. While there are several tools available, each with its strengths, the choice depends on your specific needs:
 
-- For open-source projects or those with basic needs, Safety or pip-audit provide good, free options with easy CI integration.
-- For enterprise-level projects requiring comprehensive analysis across multiple languages, Snyk offers advanced features and detailed remediation advice.
-- For GitHub-based projects, Dependabot provides native integration and automated pull requests for updates.
-- For teams looking for a Python-specific, managed solution, PyUp offers detailed analysis and update recommendations.
-
-Regardless of the tool chosen, regular dependency scanning should be an integral part of your development process. It's recommended to start with a basic tool like Safety and evolve your strategy as your project's needs grow, potentially incorporating multiple tools for comprehensive coverage.
-
+In my Attendance API microservice, I recommend using Safety for its lightweight and efficient vulnerability scanning capabilities, ensuring that all installed dependencies are regularly checked against known vulnerabilities. This proactive approach enhances the security of the microservice, safeguarding user data and maintaining system integrity.
 
 
 ## 📚 References
