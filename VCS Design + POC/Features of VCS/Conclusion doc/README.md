@@ -42,26 +42,27 @@ Version Control Systems (VCS) are the backbone of modern software development. T
 ## VCS Platform Comparison: Bitbucket, GitLab, and GitHub
 
 
-| Feature | Bitbucket | GitLab | GitHub |
-|---------|-----------|--------|--------|
-| **Version Control** | Git, Mercurial (deprecated) | Git | Git |
-| **Repository Management** | ✓ | ✓ | ✓ |
-| **Self-hosted Option** | ✓ (Bitbucket Server) | ✓ (GitLab CE/EE) | ✓ (GitHub Enterprise) |
-| **Pull/Merge Requests** | ✓ | ✓ | ✓ |
-| **Code Reviews** | ✓ | ✓ | ✓ |
-| **Issue Tracking** | ✓ | ✓ | ✓ |
-| **Wikis** | ✓ | ✓ | ✓ |
-| **Project Boards** | ✓ | ✓ | ✓ |
-| **CI/CD** | Bitbucket Pipelines | GitLab CI/CD | GitHub Actions |
-| **Container Registry** | ✓ | ✓ | GitHub Packages |
-| **Kubernetes Integration** | ✓ | ✓ | ✓ |
-| **Code Scanning** | ✓ | ✓ | ✓ |
-| **Dependency Scanning** | ✓ | ✓ | ✓ |
-| **Secret Detection** | ✓ | ✓ | ✓ |
-| **Compliance Management** | Limited | ✓ | ✓ |
-| **Marketplace/Ecosystem** | Atlassian Marketplace | GitLab Integrations | GitHub Marketplace |
-| **API Availability** | ✓ | ✓ | ✓ |
-| **Unique Selling Point** | Atlassian ecosystem integration | Complete DevOps solution | Largest developer community |
+| Feature                    | Bitbucket                         | GitLab                   | GitHub                   |
+|----------------------------|-----------------------------------|-------------------------|--------------------------|
+| **Version Control**        | Git, Mercurial (deprecated)       | Git                     | Git                      |
+| **Repository Management**   | ✓                                 | ✓                       | ✓                        |
+| **Self-hosted Option**     | ✓ (Bitbucket Server)              | ✓ (GitLab CE/EE)       | ✓ (GitHub Enterprise)    |
+| **Pull/Merge Requests**    | ✓                                 | ✓                       | ✓                        |
+| **Code Reviews**           | ✓                                 | ✓                       | ✓                        |
+| **Issue Tracking**         | ✓                                 | ✓                       | ✓                        |
+| **Wikis**                  | ✓                                 | ✓                       | ✓                        |
+| **Project Boards**         | ✓                                 | ✓                       | ✓                        |
+| **CI/CD**                  | Bitbucket Pipelines               | GitLab CI/CD           | GitHub Actions           |
+| **Container Registry**     | ✓                                 | ✓                       | GitHub Packages          |
+| **Kubernetes Integration**  | ✓                                 | ✓                       | ✓                        |
+| **Code Scanning**          | ✓                                 | ✓                       | ✓                        |
+| **Dependency Scanning**    | ✓                                 | ✓                       | ✓                        |
+| **Secret Detection**       | ✓                                 | ✓                       | ✓                        |
+| **Compliance Management**  | Limited                           | ✓                       | ✓                        |
+| **Marketplace/Ecosystem**  | Atlassian Marketplace             | GitLab Integrations     | GitHub Marketplace       |
+| **API Availability**       | ✓                                 | ✓                       | ✓                        |
+| **User Limit**             | 5 users (Free Plan)              | 5 users (Free Tier)     | Unlimited (Free Tier)    |
+| **Unique Selling Point**   | Atlassian ecosystem integration    | Complete DevOps solution | Largest developer community |
 
 ## Cost Comparison
 
