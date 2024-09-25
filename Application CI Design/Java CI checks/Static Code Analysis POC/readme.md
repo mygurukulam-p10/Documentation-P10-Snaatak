@@ -22,7 +22,7 @@ The purpose of this document is to provide a completed guide to step up Static C
 
 
 ## Introduction 
-* This document will guide you through a Proof of Concept (PoC) for setting up and compiling a Maven project. We will cover the necessary prerequisites, including Java and Maven installation, as well as the basic project structure.
+* This document will guide you through a Proof of Concept (PoC) for setting up static code. We will cover the necessary prerequisites, build time and run time dependency, as well as the how to resolve the error.
 
 
 ##  Pre-requisites
@@ -443,18 +443,10 @@ public class SpringDataSalaryService {
 ![ssucces](https://github.com/user-attachments/assets/4e12bbb5-0aed-4246-8234-3cec4d8d8687)
 
 
-## Best Practices
-| Best Practice                 | Description                                                               |
-|-------------------------------|---------------------------------------------------------------------------|
-| **Integrate Early**           | Start static analysis early in the development cycle to catch issues sooner. |
-| **Automate**                  | Incorporate static analysis into CI/CD pipelines for continuous feedback.  |
-| **Review Regularly**          | Regularly review and address findings from static analysis reports.        |
-| **Customize Rules**           | Tailor rules to fit project needs and team standards for relevance.        |
 
 
-## ✅ Recommendations and Conclusion
-Using Checkstyle effectively enhances code quality, improves maintainability, and fosters a consistent coding culture within the team. By following these recommendations, organizations can ensure their codebases are cleaner, more readable, and easier to manage over time.
-
+## ✅Conclusion
+In conclusion, static code analysis is a valuable tool in the software development process, offering benefits such as early detection of bugs, improved code quality, and observe to coding standards.
 ##  📧 Contact Information
 | Name | Email address|
 |------|---------------------|
@@ -463,5 +455,4 @@ Using Checkstyle effectively enhances code quality, improves maintainability, an
 ## 📚References
 | Links | Descriptions|
 |------|---------------------|
-|  https://checkstyle.sourceforge.io/ | Checkstyle |
-|https://www.bitshifted.co/blog/java-static-code-analysis-tools/ |Static Code Analysis Tools|
+| Document|https://github.com/mygurukulam-p10/Documention/blob/main/Application%20CI%20Design/Java%20CI%20checks/Static%20Code%20Analysis%20Doc/readme.md|
