@@ -6,7 +6,7 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-   [Flow_Diagram](#Flow-diagram)
+2.  [Flow_Diagram](#Flow-diagram)
 3. [What is SonarQube Quality Gate?](#what-is-sonarqube-quality-gate)
 4. [Why Use Quality Gates?](#why-use-quality-gates)
 5. [Types of Quality Gates](#types-of-quality-gates)
