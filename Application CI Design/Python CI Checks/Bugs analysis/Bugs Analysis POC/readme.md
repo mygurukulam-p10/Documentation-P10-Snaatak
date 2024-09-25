@@ -1,5 +1,8 @@
 # 🛡️ Bandit - Python Security Linter
 
+![Uploading image.png…]()
+
+
 ## 📑 Table of Contents
 - [📖 Introduction](#-introduction)
 - [✨ Key Features](#-key-features)
