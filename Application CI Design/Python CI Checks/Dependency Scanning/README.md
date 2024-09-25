@@ -9,8 +9,7 @@ Purpose
 Introduction
 What is Dependency Scanning?
 Why Perform Dependency Scanning?
-Different Tools for Python Dependency Scanning
-Detailed Comparison of Dependency Scanning Tools
+Different Tools for Python Dependency Scanning and it's Comparision
 Advantages and Disadvantages of Dependency Scanning
 Proof of Concept: Using Safety for Dependency Scanning
 Best Practices for Dependency Scanning
@@ -37,27 +36,17 @@ Dependency scanning is the process of automatically analyzing a project's depend
 | **🔧 Maintenance**             | Keep dependencies up-to-date, reducing technical debt and potential compatibility issues.           |
 | **📉 Risk Management**         | Proactively manage and mitigate risks associated with third-party code.                             |
 
-## 🛠️ Different Tools for Python Dependency Scanning
-Here’s a comparative table for the different tools used for Python dependency scanning:
+## 🛠️ Different Tools for Python Dependency Scanning and it's Comparision
+
+Here’s a simplified comparison of Python dependency scanning tools with emojis for a more engaging presentation:
 
 | **Tool**      | **Description**                                                   | **Key Features**                                             | **License**             | **Integration**                  | **Pros**                                                | **Cons**                                               |
 |---------------|-------------------------------------------------------------------|-------------------------------------------------------------|-------------------------|----------------------------------|---------------------------------------------------------|--------------------------------------------------------|
-| **1. Safety** | A tool that checks for vulnerabilities in installed dependencies. | - Checks against the Python Package Index (PyPI) for vulnerabilities. <br> - Provides reports on known vulnerabilities. | Open Source (MIT)      | CLI, CI/CD (e.g., GitHub Actions) | - Lightweight and easy to use. <br> - Focused solely on vulnerabilities. | - Limited to known vulnerabilities; requires regular updates. |
-| **2. Snyk**   | A comprehensive security solution for open-source dependencies.   | - Monitors and alerts for vulnerabilities. <br> - Provides fix suggestions and automated pull requests. | Free & Paid Plans      | CLI, CI/CD, IDE plugins          | - Comprehensive vulnerability database. <br> - Offers remediation steps. | - Advanced features may require a paid plan.          |
-| **3. PyUp**   | A tool for monitoring and updating dependencies in Python projects. | - Automates dependency updates. <br> - Provides security alerts and compatibility checks. | Free & Paid Plans      | GitHub, GitLab integration       | - Excellent for managing and updating dependencies. <br> - Useful for both security and version management. | - Can generate a lot of update PRs, which may overwhelm developers. |
-| **4. Dependabot** | A GitHub tool that automatically scans and suggests dependency updates. | - Automated pull requests for updates. <br> - Integrates with GitHub repositories. | Free for public repos   | GitHub                          | - Seamless integration with GitHub. <br> - Automates update process. | - Limited to GitHub repositories. <br> - May create frequent PRs for minor updates. |
-| **5. pip-audit** | A tool that audits Python environments for installed packages.    | - Checks for vulnerabilities in installed packages. <br> - Provides detailed reports. | Open Source (Apache 2.0) | CLI, CI/CD (e.g., GitHub Actions) | - Simple to use and lightweight. <br> - Focuses on installed packages only. | - Only checks installed packages; does not monitor for updates. |
-
-
-## 📊 Detailed Comparison of Dependency Scanning Tools
-
-| Feature                   | Safety                     | Snyk                       | PyUp                       | Dependabot                 | pip-audit                  |
-|---------------------------|----------------------------|----------------------------|----------------------------|----------------------------|----------------------------|
-| **Open Source**           | ✅ Yes                     | ❌ No                      | ❌ No                      | ✅ Yes                     | ✅ Yes                     |
-| **Pricing**               | 💲 Free                   | 💲 Freemium                | 💲 Paid                    | 💲 Free for public repos    | 💲 Free                    |
-| **Integration**           | 🔗 CLI, CI                | 🔗 CLI, CI, GUI, IDE plugins | 🔗 CI, GUI                | 🔗 GitHub, GitLab           | 🔗 CLI, CI                 |
-| **Vulnerability Database**| 📂 PyUp.io                | 📂 Proprietary             | 📂 PyUp.io                 | 📂 Various                  | 📂 OSV (Open Source Vuln.)  |
-| **License Checking**      | ❌ No                     | ✅ Yes                     | ❌ No                      | ❌ No                       | ❌ No                       |
+| **1. Safety 🔒** | Checks for vulnerabilities in dependencies.                       | - Scans against PyPI for vulnerabilities. <br> - Generates reports. | Open Source (MIT)      | CLI, CI/CD (e.g., GitHub Actions) | - Lightweight & easy to use. <br> - Focused on security. | - Limited to known vulnerabilities. |
+| **2. Snyk 🛡️**   | Comprehensive security solution for open-source dependencies.   | - Monitors for vulnerabilities. <br> - Provides fix suggestions. | Free & Paid Plans      | CLI, CI/CD, IDE plugins          | - Robust vulnerability database. <br> - Offers remediation steps. | - Advanced features may require payment.          |
+| **3. PyUp ⬆️**   | Automates dependency monitoring and updates.                     | - Automates updates. <br> - Provides security alerts.      | Free & Paid Plans      | GitHub, GitLab integration       | - Great for managing updates. <br> - Useful for security and compatibility. | - Can generate many update PRs. |
+| **4. Dependabot 🤖** | Automatically suggests dependency updates on GitHub.         | - Automated PRs for updates. <br> - GitHub integration.     | Free for public repos   | GitHub                          | - Seamless GitHub integration. <br> - Automates updates. | - Limited to GitHub. <br> - May create frequent PRs. |
+| **5. pip-audit 📋** | Audits installed packages for vulnerabilities.                 | - Checks installed packages. <br> - Provides detailed reports. | Open Source (Apache 2.0) | CLI, CI/CD (e.g., GitHub Actions) | - Simple and lightweight. <br> - Focuses on installed packages. | - Only checks installed packages; no update monitoring. |
 
 ## ✅ Advantages and Disadvantages of Dependency Scanning
 
