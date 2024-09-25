@@ -38,7 +38,6 @@ Static code analysis involves scanning the source code without executing it. Thi
 
 It enhances code quality, security, and maintainability by identifying issues early in the development cycle.
 
-file:///home/brij/sanatak/re%20Running%20_%20HackerNoon_files/HiQHPtNnSzNaqynCdOJ4cpJyHUt2-w393pnr.jpeg
 ---
 
 ## ❓ Why Use Static Code Analysis?
