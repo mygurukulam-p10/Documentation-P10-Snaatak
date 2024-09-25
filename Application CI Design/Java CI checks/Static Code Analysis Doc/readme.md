@@ -16,8 +16,8 @@
 6. [Advantages of Static Code Analysis](#advantages-of-static-code-analysis)
 7. 
 8. [Best Practices](#best-practices)
-9. [Recommendations and Conclusion](#recommendations-and-conclusion)
-10. [Contact Information References](#contact-information)
+9. [Recommendations](#recommendations)
+10. [Contact Information](#contact-information)
 11. [References](#references)
 
 ## Introduction
