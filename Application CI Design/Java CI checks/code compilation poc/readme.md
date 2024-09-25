@@ -7,10 +7,11 @@
   | Vinay Bansal | 19-09-24 | version 1 | Vinay Bansal | 20-09-24 |
 ## Table of Contents
 + [Introduction](#Introduction)
++ [Pre-requisites](#pre-requisites)
 + [ System Requirements](#System-Requirements)
 + [Build-Time Dependency](#build-time-dependency)
 + [Run Time Dependency](#run-time-dependency)
-+ [Proof of Concept](#Pre-requisite)
++ [Step-by-step Installation](#step-by-step-installation)
 + [Conclusion](#conclusion)
 + [Contact Information](#contact-information)
 + [ References](#references)
