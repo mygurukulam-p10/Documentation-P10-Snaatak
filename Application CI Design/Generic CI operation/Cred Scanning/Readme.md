@@ -69,12 +69,12 @@ If any of these are found in the code, they could be a security risk because att
 
 ### Proof of Concept (POC)
 
-## ⚙️ Pre-requisites for Credential Scanning
+### ⚙️ Pre-requisites for Credential Scanning
 
 - **Git**: For managing the repository where the scan will take place.
 - **Gitleaks**: For performing the actual credential scanning.
 
-## System Requirements for Credential Scanning
+### System Requirements for Credential Scanning
 | Hardware Specifications | Minimum Recommendation  |
 |--------------------------|------------------------|
 | Processor                | dual-core              |
@@ -83,7 +83,7 @@ If any of these are found in the code, they could be a security risk because att
 | OS                       | Ubuntu 22.04 LTS       |
 
 
-## 🛠️ Build-Time Dependency for Credential Scanning
+### 🛠️ Build-Time Dependency for Credential Scanning
 
 | 🛠️ Name  | 📦 Version | 📄 Description |
 |----------|------------|----------------|
@@ -91,13 +91,17 @@ If any of these are found in the code, they could be a security risk because att
 
 
 
-## 🚀 Run-Time Dependency for Credential Scanning
+### 🚀 Run-Time Dependency for Credential Scanning
 
 | 🚀 Name  | 📦 Version       | 📄 Description                                    |
 |---------|------------------|--------------------------------------------------|
 | **Git**  | 2.+              | Required for repository management during scans. |
 | **Gitleaks** | Latest         | Executes credential scanning on the repository.  |
 
+### Steps To Install gitleaks
+
+** Step 1. Install **
+Gitleaks can be installed using Homebrew, Docker, or Go. Gitleaks is also available in binary form for many popular platforms and OS types on the releases page.
 
 ### Best Practices
 
@@ -113,4 +117,4 @@ If any of these are found in the code, they could be a security risk because att
 ### Conclusion
 Credential scanning is an essential practice for maintaining the security and integrity of codebases. By implementing regular scans, Access Controls, Using Secrets Managers, organizations can significantly reduce the risk of exposing sensitive information. Tools like GitLeaks, TruffleHog, GitGuardian, and SpectralOps offer robust solutions for integrating credential scanning into CI pipelines, ensuring continuous protection against credential leaks.
 
-
+https://github.com/gitleaks/gitleaks
