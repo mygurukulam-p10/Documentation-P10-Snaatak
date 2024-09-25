@@ -10,15 +10,15 @@
 The purpose of this document is to provide a completed guide to step code compilation.
 
 ## Table of Contents
-+ [Introduction](#Introduction)
+- [Introduction](#Introduction)
 - [Pre-requisites](#pre-requisites)
 - [System Requirements](#system-requirements)
 - [Build-Time Dependency](#build-time-dependency)
 - [Run-Time Dependency](#run-time-dependency)
 - [Step-by-step Installation](#step-by-step-installation)
-+ [Conclusion](#conclusion)
-+ [Contact Information](#contact-information)
-+ [ References](#references)
+- [Conclusion](#conclusion)
+- [Contact Information](#contact-information)
+- [ References](#references)
 
   ## Introduction 
 * This document will guide you through a Proof of Concept (PoC) for setting up and compiling a Maven project. We will cover the necessary prerequisites, including Java and Maven installation, as well as the basic project structure.
