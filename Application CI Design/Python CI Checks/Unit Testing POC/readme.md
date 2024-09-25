@@ -21,7 +21,7 @@ The purpose of this document is to provide a completed guide to step Unit Testin
 + [Contact Information](#contact-information)
 + [ References](#references)
 
-## ⚙️ Pre-requisites
+##  Pre-requisites
 
 - Ensure you have Python 3.11 installed on your machine. 
 - Package Manager:pip
@@ -36,7 +36,7 @@ The purpose of this document is to provide a completed guide to step Unit Testin
 | OS                       | Ubuntu 22.04 LTS         |
 
 
-## 🛠️ Build-Time Dependency
+##  Build-Time Dependency
 
 | 🛠️ Name | 📦 Version | 📄 Description |
 |---------|------------|----------------|
@@ -45,25 +45,25 @@ The purpose of this document is to provide a completed guide to step Unit Testin
 |**Pip**  | 3.11    | Used for installing Python packages.|
 
 
-## 🚀 Run-Time Dependency
+##  Run-Time Dependency
 
 | 🚀 Name | 📦 Version | 📄 Description          |
 |---------|------------|--------------------------|
 | **Flask** |  6.0.0      | Frameworks for building web applications. |
 |**psycopg2**| 14 | Libraries for database interaction.|
 
-##  🌐Important Ports
+##  Important Ports
 | 🔌 Inbound Traffic | Description        |
 | --------------- | ------------------ |
 | 5432            | Used by Postgres  |
 
-## 📥 Step-by-step Installation
+##  Step-by-step Installation
 
 ## Install git
 ```
 sudo apt install git
 ```
-### 📂 Step 1: Clone the Git Repository
+###  Step 1: Clone the Git Repository
 ```
 https://github.com/OT-MICROSERVICES/attendance-api.git
 ```
