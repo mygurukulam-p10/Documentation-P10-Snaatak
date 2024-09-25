@@ -1,24 +1,28 @@
+![image](https://github.com/user-attachments/assets/f84296a1-8665-452c-a839-fbcea216796d)
 
-#  Golang CI Checks - Static Code Analysis 🚀
 
-# Table of Contents 📑
+# Golang CI Checks - Static Code Analysis 🚀
 
-Introduction
-Purpose
-What is Static Code Analysis?
-Why Use Static Code Analysis?
-Different Tools for Static Code Analysis
-Comparison of Tools
-What is Golangci-lint?
-Advantages and Disadvantages of Golangci-lint
-Proof of Concept (PoC)
-Best Practices for Using Golangci-lint
-Recommendations/Conclusion
-References
-Contact Information
+## Table of Contents 📑
+1. [Introduction](#introduction)
+2. [Purpose](#purpose)
+3. [What is Static Code Analysis?](#what-is-static-code-analysis)
+4. [Why Use Static Code Analysis?](#why-use-static-code-analysis)
+5. [Different Tools for Static Code Analysis](#different-tools-for-static-code-analysis)
+6. [Comparison of Tools](#comparison-of-tools)
+7. [What is Golangci-lint?](#what-is-golangci-lint)
+8. [Advantages and Disadvantages of Golangci-lint](#advantages-and-disadvantages-of-golangci-lint)
+9. [Proof of Concept (PoC)](#proof-of-concept-poc)
+10. [Best Practices for Using Golangci-lint](#best-practices-for-using-golangci-lint)
+11. [Recommendations/Conclusion](#recommendationsconclusion)
+12. [References](#references)
+13. [Contact Information](#contact-information)
 
 ## Introduction 🌟
 Static code analysis is a crucial part of modern software development, especially in CI/CD pipelines. It helps identify potential issues in code before deployment, ensuring higher code quality and maintainability. This documentation focuses on Golangci-lint, a powerful linter for Golang that supports multiple linters and provides comprehensive analysis capabilities.
+
+## Purpose 🎯
+The purpose of this documentation is to provide a comprehensive overview of static code analysis in Golang using Golangci-lint. It aims to guide developers and teams in integrating Golangci-lint into their CI/CD workflows, emphasizing best practices, benefits, and practical implementation steps.
 
 ## What is Static Code Analysis? 📊
 Static code analysis is the process of examining source code without executing it to identify potential errors, code quality issues, and security vulnerabilities. This technique involves analyzing the code structure, syntax, and style, providing developers with insights that can improve the quality and maintainability of their software. Key benefits include early detection of bugs, enforcement of coding standards, and facilitation of code reviews.
@@ -61,6 +65,7 @@ Golangci-lint is a popular tool in the Golang ecosystem that aggregates multiple
 | Active community support and regular updates     | Can be overwhelming with too many checks       |
 
 ## Proof of Concept (PoC) 🔍
+
 To demonstrate the capabilities of Golangci-lint, here’s a simple setup guide:
 
 1. **Install Golangci-lint**:
@@ -68,16 +73,15 @@ To demonstrate the capabilities of Golangci-lint, here’s a simple setup guide:
    sudo apt install golangci-lint
    ```
 
-2. ** Go to your Application Directory , In my case (Employee-API)
+2. **Go to your Application Directory, In my case (Employee-API)**:
    ```
    cd employee-api/
    ```
- 
+
 3. **Run Golangci-lint on Employee-API**:
    ```
    golangci-lint run 
    ```
-
 
 ## Best Practices for Using Golangci-lint 📏
 - **Configuration**: Customize the `.golangci.yml` file to tailor checks to your project's needs.
@@ -86,8 +90,7 @@ To demonstrate the capabilities of Golangci-lint, here’s a simple setup guide:
 - **Review Results**: Take time to review and address the issues reported by Golangci-lint.
 
 ## Recommendations/Conclusion 📝
-Using Golangci-lint in your CI pipeline is highly recommended for ensuring code quality in Golang projects like we are using in ```employee-api```. By adopting static code analysis, we can maintain high standards and prevent potential issues from arising during production. In our employee-api microservice, Golangci-lint helps maintain clean and efficient code, enabling quicker iterations and reducing technical debt. Regularly review and update our linting configurations to match the evolving needs of your project.
-
+Using Golangci-lint in your CI pipeline is highly recommended for ensuring code quality in Golang projects like we are using in `employee-api`. By adopting static code analysis, we can maintain high standards and prevent potential issues from arising during production. In our employee-api microservice, Golangci-lint helps maintain clean and efficient code, enabling quicker iterations and reducing technical debt. Regularly review and update our linting configurations to match the evolving needs of your project.
 
 ## References 📚
 
@@ -105,4 +108,3 @@ For more information on how to implement CI or if you need any guidance, feel fr
 | Name  | Email Address                                  |
 |-------|------------------------------------------------|
 | Komal | komal.jaiswal.snaatak@mygurukulam.co           |
-
