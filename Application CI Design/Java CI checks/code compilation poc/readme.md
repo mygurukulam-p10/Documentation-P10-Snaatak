@@ -90,5 +90,5 @@ For further reading and resources on GitOps, check out the following:
 
 | Links | Descriptions|
 |------|---------------------|
-|https://docs.oracle.com/en/java/|Oracle Java Documentation|
-|https://maven.apache.org/|Maven Official Documentation|
+|Oracle Java Documentation|https://docs.oracle.com/en/java/|
+|Document |https://github.com/mygurukulam-p10/Documention/blob/main/Application%20CI%20Design/Java%20CI%20checks/code%20compilation%20doc/readme.md|
