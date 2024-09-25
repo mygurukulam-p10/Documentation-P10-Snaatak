@@ -16,7 +16,7 @@ The purpose of this document is to provide a comprehensive overview of Java code
 - [Different Tools for Code Compilation](#different-tools-for-code-compilation)
 - [Comparison of Different Tools](#comparison-of-different-tools)
 - [Advantages of Code Compilation](#advantages-of-code-compilation)
-- [Proof of Concept (POC)](#proof-of-concept-poc)
+- [Disadvantages of Code Compilation](#disadvantages-of-code-compilation)
 - [Best Practices](#best-practices)
 - [Recommendation](#recommendation)
 - [Conclusion](#conclusion)
@@ -66,53 +66,13 @@ Code compilation in Java is the process where the Java compiler (javac) converts
 | **Increased Efficiency**     | Compiled applications typically run faster than interpreted ones. |
 
 
-## Proof of Concept (POC)
+## Disadvantages of Code Compilation
+| Feature                     | Description                                                                                                                                              |
+|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Complexity**                   | The configuration of `pom.xml` can become complex, making it difficult for new developers to understand and manage project settings, dependencies, and plugins. |
+| **Dependency Management Issues** | While Maven's dependency management is powerful, it can sometimes lead to version conflicts or "dependency hell," where incompatible versions of libraries create runtime issues. |
+| **Learning Curve**               | For developers unfamiliar with Maven, there is a learning curve involved in understanding its lifecycle, commands, and configurations.                   |
 
-## ⚙️ Pre-requisites
-
-- java
-- Maven
-
-## System Requirements
-| Hardware Specifications | Minimum Recommendation  |
-|--------------------------|------------------------|
-| Processor                | dual-core              |
-| RAM                      | 4 GB                    |
-| Disk                     |20 GB free disk space                  |
-| OS                       | Ubuntu 22.04 LTS         |
-
-
-## 🛠️ Build-Time Dependency
-
-| 🛠️ Name | 📦 Version | 📄 Description |
-|---------|------------|----------------|
-| **Maven** | 3.+      | Simplifies build management, project documentation, and dependency management. |
-
----
-
-## 🚀 Run-Time Dependency
-
-| 🚀 Name | 📦 Version | 📄 Description          |
-|---------|------------|--------------------------|
-| **Java** |  17 for Spring Boot 3.1.1        | Required to run the built Java application. |
-
-
-## 📥 Step-by-step Installation
-
-## Install git
-```
-sudo apt install git
-```
-### 📂 Step 1: Clone the Git Repository
-```
-git clone https://github.com/OT-MICROSERVICES/salary-api.git
-```
-
-### Step 2: For Code Compilation
-```
-mvn compile
-```
-![compile](https://github.com/user-attachments/assets/7a41dd76-d90a-40bf-a91a-c0bbe726cb70)
 
 
 ## Best Practices
