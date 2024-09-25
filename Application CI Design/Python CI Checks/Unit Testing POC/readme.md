@@ -21,6 +21,9 @@ The purpose of this document is to provide a completed guide to step Unit Testin
 + [Contact Information](#contact-information)
 + [ References](#references)
 
+# Introduction
+This document will guide you through setting up a Python project, including the necessary prerequisites, creating a basic project structure, and adding unit testing capabilities using pytest
+
 ##  Pre-requisites
 
 - Ensure you have Python 3.11 installed on your machine. 
@@ -85,7 +88,7 @@ pip install pytest
 
 
 
-
+- enabling your Python applications to communicate with PostgreSQL databases.
 ![ue1](https://github.com/user-attachments/assets/2f21f68c-1d57-4680-9824-f11cdf73dc77)
 
 Ensure that psycopg2 is installed correctly. If you’re using psycopg2, it should work without any issues. You can install it via pip:
@@ -94,6 +97,7 @@ pip install psycopg2
 ```
 ![ue2](https://github.com/user-attachments/assets/1cc9c6dd-63ab-466a-8b67-de76d6bea345)
 
+- Using these imports, you can easily connect to a PostgreSQL database and utilize advanced features provided by psycopg2.
 Ensure that you’re importing the extras module properly in your code. The import statement should look like this:
 ```
 import psycopg2
