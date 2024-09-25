@@ -67,15 +67,23 @@ sudo apt install git
 ```
 https://github.com/OT-MICROSERVICES/attendance-api.git
 ```
-
-# Step 2: For Unit Tresting
+### Step 2: Change Directory
+Change Directory to where your code is
+```
+cd attendance-api
+```
 
 ## First Install
-![u1](https://github.com/user-attachments/assets/7e8ac84c-d519-49a8-9a22-b298c2d064a0)
 
+# Step 3: For Unit Tresting
+
+## First Install
 ```
 pip install pytest
 ```
+![u1](https://github.com/user-attachments/assets/7e8ac84c-d519-49a8-9a22-b298c2d064a0)
+
+
 
 
 ![ue1](https://github.com/user-attachments/assets/2f21f68c-1d57-4680-9824-f11cdf73dc77)
