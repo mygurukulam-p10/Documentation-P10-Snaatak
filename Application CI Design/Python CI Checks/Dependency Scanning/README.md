@@ -6,10 +6,9 @@ Here’s the revised document with the advantages and disadvantages combined int
 
 # 🐍 Python CI Checks: 🔍 Dependency Scanning
 
-## 🎯 Purpose
-This document aims to provide a comprehensive overview of dependency scanning in Python projects, emphasizing its importance in Continuous Integration (CI) pipelines. It covers the essential tools available, their features, advantages, disadvantages, and best practices for implementation, ultimately guiding teams in maintaining the security and stability of their software projects.
 
  ## 📚 Table of Contents
+Purpose
 Introduction
 What is Dependency Scanning?
 Why Perform Dependency Scanning?
@@ -19,8 +18,12 @@ Advantages and Disadvantages of Dependency Scanning
 Proof of Concept: Using Safety for Dependency Scanning
 Best Practices for Dependency Scanning
 Recommendation/Conclusion
-Contact Information
 References
+Contact Information
+
+
+## 🎯 Purpose
+This document aims to provide a comprehensive overview of dependency scanning in Python project like we have or ```Attendance-API``` , emphasizing its importance in Continuous Integration (CI) pipelines.
 
 ## 📖 Introduction
 Continuous Integration (CI) is a crucial practice in modern software development, ensuring code quality and security throughout the development lifecycle. One critical aspect of CI for Python projects is dependency scanning, which helps identify and mitigate potential vulnerabilities in third-party packages used in your project.
@@ -73,13 +76,29 @@ Safety is a command-line tool that checks your installed dependencies for known 
    ```bash
    pip install safety
    ```
-
-2. **Run a scan**:
-   ```bash
-   safety check -r requirements.txt
+2. **Go to Attendance-API**
    ```
+   cd attendance-api/
+   ```
+  
+2. **Run a scan**:
+  First Run the scan on ``` pyproject.toml``` 
+   ```
+   safety check -r pyproject.toml 
+   ```
+![image](https://github.com/user-attachments/assets/54417b55-4943-46e8-aa1b-4c61967b62ff)
 
-This configuration will run a safety check on every push and pull request, scanning the `pyproject.toml` and `poetry.lock` file for known vulnerabilities as in our ```ATTENDANCE-API``` , We are having these 2 files.
+  Now Run the scan on ```poetry.lock```
+  ```
+  safety check -r poetry.lock
+  ```
+
+![image](https://github.com/user-attachments/assets/62fcc804-4260-4529-ac2e-02e69df57197)
+![image](https://github.com/user-attachments/assets/dece325d-abbc-4a78-a744-f713666dca35)
+![image](https://github.com/user-attachments/assets/e257b470-898c-4e19-b479-2a2714b21d20)
+
+
+This configuration will run a safety check on every request, scanning the `pyproject.toml` and `poetry.lock` file for known vulnerabilities as in our ```ATTENDANCE-API``` , We are having these 2 files.
 
 ![image](https://github.com/user-attachments/assets/732e63c8-d8d9-4aa7-afd3-ba304a1dea5f)
 ![image](https://github.com/user-attachments/assets/dd51547e-3445-44e4-81da-e09368ec99a1)
