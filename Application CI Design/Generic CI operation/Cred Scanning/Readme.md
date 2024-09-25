@@ -127,6 +127,19 @@ gitleaks version
 ```
 ![Screenshot from 2024-09-25 18-29-40](https://github.com/user-attachments/assets/c4c3acf9-b3a0-4335-a759-479bd50ddb31)
 
+### Perform Cred Scanning
+
+**Step 1.** Go to the repo in which have to perform scanning
+```
+cd <repo>
+```
+
+**Step 2** Now run this below command to scan 
+```
+gitleaks detect -v
+```
+![Screenshot from 2024-09-25 18-41-40](https://github.com/user-attachments/assets/933dba1e-9b5b-4555-877e-0b9666e523c5)
+
 
 ### Best Practices
 
