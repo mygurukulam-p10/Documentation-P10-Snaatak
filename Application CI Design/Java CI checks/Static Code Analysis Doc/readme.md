@@ -14,7 +14,7 @@
 4. [Different Tools for Static Code Analysis in Java](#different-tools-for-static-code-analysis-in-java)
 5. [Comparison of Static Code Analysis Tools](#comparison-of-static-code-analysis-tools)
 6. [Advantages of Static Code Analysis](#advantages-of-static-code-analysis)
-7. 
+7. [Disadvantages of Static Code Analysis](#disadvantages-of-static-code-analysis)
 8. [Best Practices](#best-practices)
 9. [Recommendations](#recommendations)
 10. [Contact Information](#contact-information)
@@ -65,6 +65,13 @@ Several tools are available for static code analysis in Java, each with unique f
 | **Consistent**                | Provides a uniform approach to code quality across teams.                 |
 | **Increased Maintainability**| Promotes cleaner code which is easier to maintain and extend.           |
 
+## Disadvantages of Static Code Analysis
+| **Aspect**                     | **Description**                                                                                         |
+|--------------------------------|---------------------------------------------------------------------------------------------------------|
+| **Limited Context Understanding** | These tools may not fully understand the context of the code, which can result in missing issues that only manifest during runtime or in specific environments. |
+| **Lack of Runtime Testing**    | Static analysis cannot detect runtime issues, such as memory leaks or performance bottlenecks, that only occur during execution. |
+| **Code Complexity**            | Complex code structures or patterns may confuse static analysis tools, resulting in inadequate assessments. |
+| **Maintenance Challenges**      | As codebases evolve, keeping static analysis rules and configurations up to date can be challenging, risking outdated or irrelevant findings. |
 
 
 ## Best Practices
