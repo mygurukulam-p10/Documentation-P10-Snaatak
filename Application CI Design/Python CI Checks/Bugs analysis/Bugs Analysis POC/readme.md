@@ -64,6 +64,7 @@ Set a severity threshold:
 ``
 bandit -r /path/to/your/code -s MEDIUM
 ```
+
 **This command will only report issues with a severity level of MEDIUM or higher.**
 
 You can also exclude certain files or directories from the scan by using the -x option followed by the path to exclude:
@@ -71,9 +72,8 @@ You can also exclude certain files or directories from the scan by using the -x 
 ```
 bandit -r . -x some_directory/
 ```
-🚀 Proof of Concept (POC)
+🚀 ### Proof of Concept (POC)###
 Example command:
-
 ```
 bandit -r /home/Brij/sanatak/Python/attendance-api$
 ```
