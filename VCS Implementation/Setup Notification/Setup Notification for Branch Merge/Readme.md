@@ -97,8 +97,6 @@ The purpose of this document is to set up automated notifications via email and 
 
 <img width="947" alt="image" src="https://github.com/user-attachments/assets/2de9546c-6f32-4d01-8cea-ecae6c533be3">
 
-<img width="926" alt="image" src="https://github.com/user-attachments/assets/2ffb6360-3c01-4533-9ae5-790cfb25e686">
-
 <img width="593" alt="image" src="https://github.com/user-attachments/assets/073a2c00-bdc4-44a9-9ba5-6e89ac1ee0a7">
 
 <img width="476" alt="image" src="https://github.com/user-attachments/assets/a03f517a-2625-40f4-b7a0-e90da9de5d1a">
