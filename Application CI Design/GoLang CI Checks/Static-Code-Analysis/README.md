@@ -2,19 +2,20 @@
 #  Golang CI Checks - Static Code Analysis 🚀
 
 # Table of Contents 📑
-1. Introduction
-2. Purpose
-3. What is Static Code Analysis?
-4. Why Use Static Code Analysis?
-5. Different Tools for Static Code Analysis
-6. Comparison of Tools
-7. What is Golangci-lint?
-8. Advantages and Disadvantages of Golangci-lint
-9. Proof of Concept (PoC)
-10. Best Practices for Using Golangci-lint
-11. Recommendations/Conclusion
-12. References
-13. Contact Information
+
+Introduction
+Purpose
+What is Static Code Analysis?
+Why Use Static Code Analysis?
+Different Tools for Static Code Analysis
+Comparison of Tools
+What is Golangci-lint?
+Advantages and Disadvantages of Golangci-lint
+Proof of Concept (PoC)
+Best Practices for Using Golangci-lint
+Recommendations/Conclusion
+References
+Contact Information
 
 ## Introduction 🌟
 Static code analysis is a crucial part of modern software development, especially in CI/CD pipelines. It helps identify potential issues in code before deployment, ensuring higher code quality and maintainability. This documentation focuses on Golangci-lint, a powerful linter for Golang that supports multiple linters and provides comprehensive analysis capabilities.
