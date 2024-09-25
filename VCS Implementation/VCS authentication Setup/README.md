@@ -9,7 +9,7 @@
 4. [Setting Up GitHub Authentication for CLI access](#Setting-up-github-authentication-for-cli-access)
 5. [Conclusion](#conclusion)
 6. [Reference](#reference)
-7. [Contact-Information](#contact-information)
+7. [Contact Information](#contact-information)
 
 ## Purpose of the Document
 
