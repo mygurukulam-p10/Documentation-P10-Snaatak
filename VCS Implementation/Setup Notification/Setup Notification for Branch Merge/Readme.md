@@ -9,9 +9,9 @@
 
 # Table of Content 
 1. [🔍 Purpose](#-purpose)
-2. [Workflow](#workflow)
+2. [🎨 Workflow](#-workflow)
 3. [🌟 Pre requisites](#-pre-requisites)
-4. [Steps to Set up Branch Merging Notificatin](#steps-to-set-up-branch-merging-notification)
+4. [📋 Steps to Set up Branch Merging Notificatin](#-steps-to-set-up-branch-merging-notification)
 5. [📜 Conclusion](#-conclusion)
 6. [📚 References](#-references ) 
 7. [📧 Contact Information ](#-contact-information )
@@ -21,7 +21,7 @@
 # 🔍 Purpose 
 The purpose of this document is to set up automated notifications via email and Slack when a branch is merged into the main branch of a GitHub repository. It also defines how to restrict branch merges to specific authorized users, ensuring only designated contributors, like 'meghatyagi1603@gmail.com' can merge branches into the main branch. Additionally, it outlines the process of configuring branch protection rules to enforce these restrictions.
 
-# Workflow
+# 🎨 Workflow
 
 ![BranchMerge drawio](https://github.com/user-attachments/assets/c2a33fdf-e42a-4116-ad10-ec6346069578)
 
@@ -30,7 +30,7 @@ The purpose of this document is to set up automated notifications via email and 
 - A GitHub account.
 - Access to the repository for which you want to receive notifications.
 
-#  Steps to Set up Branch Merging Notification
+#  📋 Steps to Set up Branch Merging Notification
 
 ### 1. **Sign in to GitHub**: Go to [GitHub](https://github.com) and log in to your account.
 
@@ -47,7 +47,9 @@ The purpose of this document is to set up automated notifications via email and 
 <img width="941" alt="image" src="https://github.com/user-attachments/assets/92f65faf-9314-4610-b4c7-dd7ec910d7a3">
 
 
-### 4. Generate an App Password for Gmail: If you are using Gmail, you'll need to generate an App Password for your Google account:
+### 4. Generate an App Password for Gmail & Webhook Url for Slack: 
+
+**If you are using Gmail, you'll need to generate an App Password for your Google account:**
 
 **Go to your Google Account.**
 
@@ -55,8 +57,11 @@ The purpose of this document is to set up automated notifications via email and 
 
 **Choose Mail and select your device, then generate a password and copy it.**
 
+**Add Slack Webhook Url in Settings → Secrets and variables → Actions in your repository**
+
 ![for scerate password](https://github.com/user-attachments/assets/2eb0cdfd-be36-47fa-bce4-8f9011e89e35)
 
+![slack](https://github.com/user-attachments/assets/7d6f63a7-4952-4f86-82b3-01183bc4f0a8)
 
 
 ### 5. Add Gmail Credentials to GitHub Secrets:
@@ -70,8 +75,6 @@ The purpose of this document is to set up automated notifications via email and 
 <img width="942" alt="image" src="https://github.com/user-attachments/assets/ae706d0c-dc40-4706-9bc6-480301232dbf">
 
 
-
-
 ### 6. Set up GitHub Action Workflow:
 
 **Create a GitHub Actions workflow file in your repository to send an email when a Branch- create, Merge & Delete.**
@@ -79,8 +82,6 @@ The purpose of this document is to set up automated notifications via email and 
 **In your GitHub repository, create a workflow file in .github/workflows/ (e.g., send-email-on-Branch-notification.yml):**
 
 <img width="929" alt="image" src="https://github.com/user-attachments/assets/b4d55ffe-1950-4947-9fed-41637491a0ee">
-
-
 
 
 ### 7. Commit and Push the Workflow File:
