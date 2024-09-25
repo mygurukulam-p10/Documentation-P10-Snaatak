@@ -7,6 +7,9 @@
   |-------------|---------|-------------|-------------|---------|
   | Vinay Bansal | 23-09-24 | version 1 | Vinay Bansal | 24-09-24 |
 
+## Purpose
+The purpose of this document is to provide a comprehensive overview of Python Unit Testing, including its importance, tools available, best practices, and recommendations for efficient compilation processes.
+
   ## Table of Contents
 
 - [Introduction](#introduction)
