@@ -9,9 +9,9 @@
 
 # Table of Content 
 1. [🔍 Purpose](#-purpose)
-2. [Workflow](#workflow)
+2. [✨ Workflow](#-workflow)
 3. [🌟 Pre-requisites](#-pre-requisites)
-4. [Steps to Set up Email Notificatin](#steps-to-set-up-email-notification)
+4. [🖥️ Steps for Code Commit Notificatin](#-steps-for-code-commit-notification)
 5. [📜 Conclusion](#-conclusion)
 6. [📚 References](#-references ) 
 7. [📧 Contact Information ](#-contact-information )
@@ -21,7 +21,7 @@
 # 🔍 Purpose 
 This document provides a clear, step-by-step guide for setting up email notifications for code commits in GitHub. By following these instructions, users can stay informed about changes in their repositories without requiring any scripting or complex configurations. This enhances collaboration and keeps team members updated on project developments.
 
-## Workflow
+## ✨ Workflow
 
 ![codecommit drawio (2)](https://github.com/user-attachments/assets/93433a96-f1ff-45a3-b38d-a198555dcf9a)
 
@@ -29,7 +29,7 @@ This document provides a clear, step-by-step guide for setting up email notifica
 - A GitHub account.
 - Access to the repository for which you want to receive notifications.
 
-##  Steps to Set up Email Notification
+##  🖥️ Steps for Code Commit Notification
 
 ### 1. **Sign in to GitHub**: Go to [GitHub](https://github.com) and log in to your account.
 
@@ -42,7 +42,8 @@ This document provides a clear, step-by-step guide for setting up email notifica
 
 ### 3. Now, click on the repository you created and navigate to the Settings tab at the top.
 
-![Screenshot 2024-09-23 173912](https://github.com/user-attachments/assets/1aef0657-d0c8-48b0-9455-da153bc2c312)
+<img width="944" alt="Settings" src="https://github.com/user-attachments/assets/87d92c97-36b6-40a9-97a4-481ce455f185">
+
 
 ### 4. Generate an App Password for Gmail: If you are using Gmail, you'll need to generate an App Password for your Google account:
 
@@ -81,6 +82,8 @@ This document provides a clear, step-by-step guide for setting up email notifica
 **Once you add the workflow file, every time a commit is pushed to the specified repo (e.g., code-commit-demo), the GitHub Action will send an email with the details of the commit (message, author, and URL).**
 
 ![Screenshot 2024-09-23 235555](https://github.com/user-attachments/assets/8121b4ce-16f5-4847-ab52-0579bc8b8307)
+
+<img width="605" alt="image" src="https://github.com/user-attachments/assets/9e0d082c-0d01-457e-82a9-1a15a24d359b">
 
 ![Screenshot 2024-09-23 202553](https://github.com/user-attachments/assets/4c1b23ab-c3b5-41a7-9851-a4519a3fcaeb)
 
