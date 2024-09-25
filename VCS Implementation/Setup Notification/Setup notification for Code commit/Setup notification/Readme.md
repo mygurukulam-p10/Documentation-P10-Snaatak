@@ -22,6 +22,7 @@
 This document provides a clear, step-by-step guide for setting up email notifications for code commits in GitHub. By following these instructions, users can stay informed about changes in their repositories without requiring any scripting or complex configurations. This enhances collaboration and keeps team members updated on project developments.
 
 ## Workflow
+
 ![codecommit drawio (2)](https://github.com/user-attachments/assets/93433a96-f1ff-45a3-b38d-a198555dcf9a)
 
 ## 🌟 Pre-requisites
@@ -32,7 +33,8 @@ This document provides a clear, step-by-step guide for setting up email notifica
 
 ### 1. **Sign in to GitHub**: Go to [GitHub](https://github.com) and log in to your account.
 
-<img width="958" alt="image" src="https://github.com/user-attachments/assets/d6acff0d-0562-441c-813c-37cfbe5ebeec">
+<img width="674" alt="image" src="https://github.com/user-attachments/assets/b115f76a-1561-4a0d-9de5-f8263192f393">
+
 
 ### 2. Create a repository for which you want to configure notifications for code commits.
 
