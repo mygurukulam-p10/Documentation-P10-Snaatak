@@ -79,7 +79,7 @@ Several tools are available for static code analysis in Java, each with unique f
 ## Recommendations 
 Using Checkstyle effectively enhances code quality, improves maintainability, and fosters a consistent coding culture within the team. By following these recommendations, organizations can ensure their codebases are cleaner, more readable, and easier to manage over time.
 
-##  📧 Contact Information
+##  📧Contact Information
 | Name | Email address|
 |------|---------------------|
 | Vinay Bansal | vinay.bansal.snaatak@mygurukulam.co |
