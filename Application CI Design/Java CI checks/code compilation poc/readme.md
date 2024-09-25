@@ -56,7 +56,13 @@ sudo apt install git
 git clone https://github.com/OT-MICROSERVICES/salary-api.git
 ```
 
-### Step 2: For Code Compilation
+### Step 2: Change Directory
+```
+cd salary-api
+```
+
+### Step 3: now we have to do Code Compilation
+This command compiles the source code of the project according to the settings defined in the pom.xml file.
 ```
 mvn compile
 ```
