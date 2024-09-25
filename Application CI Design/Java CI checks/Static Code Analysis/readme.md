@@ -40,24 +40,10 @@ Static code analysis involves examining the source code of a program without exe
 Several tools are available for static code analysis in Java, each with unique features and strengths. Some popular ones include:
 
 **1. SonarQube**
-- Features: Continuous inspection, supports multiple languages, provides a dashboard.
-- Pros: Integrates well with CI/CD tools, strong community support.
-- Cons: Can be resource-intensive.
-
 **2.Checkstyle**
-- Features: Focuses on coding style and conventions.
-- Pros: Highly configurable, supports custom checks.
-- Cons: Limited to style-related issues.
-
 **3.PMD**
-- Features: Detects potential bugs, dead code, and suboptimal code.
-- Pros: Extensive rule set, customizable rules.
-- Cons: May produce false positives.
-
 **4.FindBugs/SpotBugs**
-- Features: Analyzes Java bytecode to find bugs.
-- Pros: Identifies common programming mistakes.
-- Cons: Limited support for newer Java features.
+
 
 
 ## Comparison of Static Code Analysis Tools
