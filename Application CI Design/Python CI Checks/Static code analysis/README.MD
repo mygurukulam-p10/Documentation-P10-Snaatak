@@ -134,4 +134,4 @@ For any queries or further information, feel free to contact:
 
 ---
 
-By following this guide, you'll be well on your way to mastering static code analysis for Python! 🎯
+
