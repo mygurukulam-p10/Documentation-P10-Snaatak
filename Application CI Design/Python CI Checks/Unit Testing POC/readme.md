@@ -81,6 +81,7 @@ cd attendance-api
 # Step 3: For Unit Tresting
 
 ## First Install
+running pip install pytest installs the pytest library, enabling you to write and run tests for your Python code effectively.
 ```
 pip install pytest
 ```
@@ -88,54 +89,52 @@ pip install pytest
 
 
 
-- enabling your Python applications to communicate with PostgreSQL databases.
-![ue1](https://github.com/user-attachments/assets/2f21f68c-1d57-4680-9824-f11cdf73dc77)
 
-Ensure that psycopg2 is installed correctly. If you’re using psycopg2, it should work without any issues. You can install it via pip:
+![ue1](https://github.com/user-attachments/assets/2f21f68c-1d57-4680-9824-f11cdf73dc77)
+- enabling your Python applications to communicate with PostgreSQL databases.
 ```
 pip install psycopg2
 ```
 ![ue2](https://github.com/user-attachments/assets/1cc9c6dd-63ab-466a-8b67-de76d6bea345)
 
 - Using these imports, you can easily connect to a PostgreSQL database and utilize advanced features provided by psycopg2.
-Ensure that you’re importing the extras module properly in your code. The import statement should look like this:
 ```
 import psycopg2
 from psycopg2 import extras
 ```
 
 ![ue1cp](https://github.com/user-attachments/assets/6d686ca4-4223-476d-bbe9-b7b691dc2cc5)
-you need to install the pytest-mock library, which provides the mocker fixture. You can do this using pip:
+-  running pip install pytest-mock installs the pytest-mock library, allowing you to effectively use mocking techniques in your pytest tests to isolate and test specific functionalities without relying on external dependencies.
 ```
 pip install pytest-mock
 ```
 ![ue1rou](https://github.com/user-attachments/assets/6427ef04-2464-4aee-a3b6-0d62e463b28e)
 
 router
-Install Flask: If Flask is not installed, you can install it using pip. Run the following command in your terminal:
+- running pip install Flask installs the Flask framework, allowing you to develop web applications in Python efficiently.
 ```
 pip install Flask
 ```
-Install Flask-Caching: Install the flask_caching package using pip:
+- running pip install Flask-Caching installs the Flask-Caching extension, enabling you to implement caching in your Flask applications to enhance performance and reduce server load.
 ```
 pip install Flask-Caching
 ```
 ![ue1u](https://github.com/user-attachments/assets/361d64bc-fc4d-460f-93e1-2c08d2e050ef)
 
 utils/tests/test_json_encoder.py
-Install Peewee: If you haven't installed the peewee library, you can do so using pip:
+- running pip install peewee installs the Peewee library, enabling you to use an ORM(stands for Object-Relational Mapping. It is a programming technique that allows developers to interact with a database using object-oriented programming languages.) for database interactions in your Python applications.
 ```
 pip install peewee
 ```
 
 utils/tests/test_log_encoder.py
-Install the Module: If you haven't installed pythonjsonlogger, you can do so using pip:
+running pip install python-json-logger installs the python-json-logger library, enabling you to format log messages as JSON, which is useful for structured logging in applications.
 ```
 pip install python-json-logger
 ```
 
 utils/tests/test_validator.py
-Install Voluptuous: If you haven’t installed voluptuous, you can do so using pip:
+- running pip install voluptuous installs the Voluptuous library, enabling you to validate Python data structures against defined schemas efficiently.
 ```
 pip install voluptuous
 ```
