@@ -36,17 +36,24 @@ Install Bandit using pip:
 ```bash
 pip install bandit
 ```
+![image](https://github.com/user-attachments/assets/09caeabf-787c-4b76-a92b-a23324764c61)
+
+Once Bandit is installed, you can start using it to scan your Python code.
+
 🧑‍💻 Using Bandit
 To scan all Python files in a directory, use:
 
+**Using dot (.) notation it will scan all the Python files which are inside that directory:**
 ``
-
 bandit -r .
 ```
-For a specific file:
+
+If you want to scan any specific file, you can enter the path of that Python file:
+
 ```
 bandit -r /path/to/your/code.py
 ```
+
 Include low-severity issues:
 
 ```
@@ -57,7 +64,9 @@ Set a severity threshold:
 ``
 bandit -r /path/to/your/code -s MEDIUM
 ```
-Exclude files or directories:
+**This command will only report issues with a severity level of MEDIUM or higher.**
+
+You can also exclude certain files or directories from the scan by using the -x option followed by the path to exclude:
 
 ```
 bandit -r . -x some_directory/
@@ -65,11 +74,21 @@ bandit -r . -x some_directory/
 🚀 Proof of Concept (POC)
 Example command:
 
-bash
-Copy code
-bandit -r /home/ubuntu/employee_api
+```
+bandit -r /home/Brij/sanatak/Python/attendance-api$
+```
 📊 Bandit Report Analysis
 
+![image](https://github.com/user-attachments/assets/4aaac4e3-8548-412d-87c7-2a63e8fc458c)
+
+![image](https://github.com/user-attachments/assets/0589bd44-5649-4994-98f3-19efab36821e)
+
+
+![image](https://github.com/user-attachments/assets/3a726e48-39bd-442e-b68c-a5509852367c)
+
+
+
+![image](https://github.com/user-attachments/assets/769f7fb3-f390-4a49-86db-bd8768a5260d)
 
 
 
@@ -85,6 +104,7 @@ Bandit reports include:
 🚨 Prioritize Fixes: Prioritize fixing high-severity issues.
 🔄 Refactor Code: Address vulnerabilities by refactoring code.
 🔁 Automate Checks: Integrate Bandit into CI/CD pipelines for continuous security checks.
+
 🏁 Conclusion
 Bandit helps developers identify security issues in Python applications, making it a valuable tool to improve code security.
 
