@@ -19,7 +19,7 @@
 
      
 # 🔍 Purpose 
-The purpose of this document is to set up automated notifications via email and Slack when a branch is merged into the main branch of a GitHub repository. It also defines how to restrict branch merges to specific authorized users, ensuring only designated contributors, like 'meghatyagi1603@gmail.com' can merge branches into the main branch. Additionally, it outlines the process of configuring branch protection rules to enforce these restrictions.
+The purpose of this document is to set up automated notifications via email and Slack when a branch is merged into the main branch of a GitHub repository. It also defines how to restrict branch merges to specific authorized users, ensuring only designated contributors can merge branches into the main branch. Additionally, it outlines the process of configuring branch protection rules to enforce these restrictions.
 
 # 🎨 Workflow
 
