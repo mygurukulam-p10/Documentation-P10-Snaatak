@@ -33,18 +33,18 @@ Bandit is a tool that scans Python code to find common security issues. It proce
 ## ⚙️ Installing Bandit
 Install Bandit using pip:
 
-```bash
+```
 pip install bandit
 ```
 ![image](https://github.com/user-attachments/assets/09caeabf-787c-4b76-a92b-a23324764c61)
 
-Once Bandit is installed, you can start using it to scan your Python code.
+**Once Bandit is installed, you can start using it to scan your Python code.**
 
 🧑‍💻 Using Bandit
 To scan all Python files in a directory, use:
 
 **Using dot (.) notation it will scan all the Python files which are inside that directory:**
-``
+```
 bandit -r .
 ```
 
