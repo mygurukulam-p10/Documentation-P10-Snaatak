@@ -39,29 +39,29 @@ pip install bandit
 🧑‍💻 Using Bandit
 To scan all Python files in a directory, use:
 
-bash
-Copy code
-bandit -r .
-For a specific file:
+``
 
-bash
-Copy code
+bandit -r .
+```
+For a specific file:
+```
 bandit -r /path/to/your/code.py
+```
 Include low-severity issues:
 
-bash
-Copy code
+```
 bandit -r . -ll
+```
 Set a severity threshold:
 
-bash
-Copy code
+``
 bandit -r /path/to/your/code -s MEDIUM
+```
 Exclude files or directories:
 
-bash
-Copy code
+```
 bandit -r . -x some_directory/
+```
 🚀 Proof of Concept (POC)
 Example command:
 
@@ -69,6 +69,11 @@ bash
 Copy code
 bandit -r /home/ubuntu/employee_api
 📊 Bandit Report Analysis
+
+
+
+
+
 Bandit reports include:
 
 📁 File Paths: Files analyzed.
