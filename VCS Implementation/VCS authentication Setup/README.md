@@ -89,11 +89,11 @@ Copy SSH URL
 Now when you clone the repo it won't ask for password and will provide secure login with SSH.
 ![image](https://github.com/user-attachments/assets/692969dc-3dd5-4ad7-9d13-26fb8c2de287)
 
-##  Conclusion
+## Conclusion
 
 By using 2FA for web access and SSH for CLI access, we can significantly improve the security of your GitHub account. This combination provides a strong defense against unauthorized access.
 
-##  Reference
+## Reference
 
 | Title                                 | Link                                                                                           |
 |---------------------------------------|------------------------------------------------------------------------------------------------|
