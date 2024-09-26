@@ -40,7 +40,7 @@ The purpose of this document is to provide a completed guide to step up Static C
 | OS                       | Ubuntu 22.04 LTS         |
 
 ## Architecture
-![image](https://github.com/user-attachments/assets/d4e0cc34-12d3-48a0-bc79-c20c948b1034)
+![image](https://github.com/user-attachments/assets/3adb4371-3a31-4d30-8daf-335e6c4a2938)
 
 
 ##  Step-by-step Installation
