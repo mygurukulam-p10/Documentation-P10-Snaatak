@@ -16,7 +16,7 @@
 7. [Best Practices](#best-practices)
 8. [Recommendations and Conclusion](#recommendations-and-conclusion)
 9. [Contact Information](#contact-information)
-10.[References](#references)
+10. [References](#references)
 
 ## Introduction
 Go, also known as Golang, is a statically typed, compiled programming language designed for simplicity and efficiency. This document provides an overview of code compilation in Go, highlighting tools, benefits, and best practices.
