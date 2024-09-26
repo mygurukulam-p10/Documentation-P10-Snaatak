@@ -4,7 +4,16 @@
 |--------------------|------------|--------------|--------------------------------|
 | 22-09-2024         | 0.1       | Aayush Gaur  | POC: Credential Scanning               |
 
-### GitLeaks
+### Table of Contents
+- [Gitleaks](#gitleaks)
+- [How Gitleaks Works](#how-gitleaks-works)
+- [Steps To Install gitleaks](#steps-to-install-gitleaks)
+- [Perform Cred Scanning](#perform-cred-scanning)
+- [Conclusion](#conclusion)
+- [Best Practices](#best-practices)
+- [Refrences](#refrences)
+
+### Gitleaks
 Gitleaks is a tool that helps you find sensitive information (like passwords, API keys, or tokens) accidentally committed into your Git repositories.
 
 - When developers write code, sometimes they mistakenly include secrets (e.g., passwords, API keys, or credentials) in their files and commit them to a Git repository.
