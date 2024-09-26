@@ -58,6 +58,10 @@ The purpose of this document is to provide a completed guide to step code compil
 |--------------------|--------------------------|
 | **9042**           | Used by ScyllaDB |
 
+
+## 🏗 Architecture
+![image](https://github.com/user-attachments/assets/cefdb377-0f61-4c43-afdc-596a4a9f1b55)
+
 ## 📥 Step-by-step Installation
 
 ## Install git
