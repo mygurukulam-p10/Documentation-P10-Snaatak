@@ -5,8 +5,6 @@
 | 25-09-2024         | 0.1       | Aayush Gaur  |  SonarQube Authorization          |
 
 ### Table of Contents
-# Table of Contents
-
 1. [Introduction](#introduction)
 2. [Authentication vs Authorization](#authentication-vs-authorization)
 3. [SonarQube Authorization Model](#sonarqube-authorization-model)
@@ -16,20 +14,15 @@
    - [2 Built-in Roles](#2-built-in-roles)
    - [3 Custom Groups and Roles](#3-custom-groups-and-roles)
 5. [Project-Level Permissions](#project-level-permissions)
-   - [Key Project-Level Permissions](#key-project-level-permissions)
 6. [Global Permissions](#global-permissions)
-   - [Important Global Permissions](#important-global-permissions)
 7. [Managing Permissions in SonarQube](#managing-permissions-in-sonarqube)
    - [1 Assigning Permissions](#1-assigning-permissions)
    - [2 Permission Inheritance](#2-permission-inheritance)
    - [3 User Authentication and Group Mapping](#3-user-authentication-and-group-mapping)
 8. [Best Practices](#best-practices)
-   - [1 Principle of Least Privilege](#1-principle-of-least-privilege)
-   - [2 Use Groups Instead of Individual Permissions](#2-use-groups-instead-of-individual-permissions)
-   - [3 Regular Audits](#3-regular-audits)
-   - [4 Use External Authentication and Group Synchronization](#4-use-external-authentication-and-group-synchronization)
-   - [5 Custom Role Definitions](#5-custom-role-definitions)
 9. [Conclusion](#conclusion)
+10. [Contact Information](#contact-information)
+11. [Refrences](#refrences)
 
 
 
@@ -125,7 +118,17 @@ If possible, integrate SonarQube with external authentication providers like LDA
 For organizations with complex workflows, creating **custom roles** allows fine-tuning of access control. Custom roles can enforce unique access models, ensuring users have precisely the permissions they need.
 
 
-## 10. Conclusion
+## Conclusion
 SonarQube provides a robust authorization model that offers granular control over who can access, modify, and manage resources in your code quality inspection platform. By implementing proper role-based access control, regularly auditing permissions, and enforcing the principle of least privilege, organizations can effectively secure their code and analysis results.
+
+## Contact Information 
+|Name|Email Address|
+|:---:|:---:|
+|Aayush|aayush.gaur.snaatak@mygurukulam.co|
+
+## References 
+|links | 
+|-------|
+| https://docs.sonarsource.com/sonarqube/latest/instance-administration/security/ |
 
 ---
