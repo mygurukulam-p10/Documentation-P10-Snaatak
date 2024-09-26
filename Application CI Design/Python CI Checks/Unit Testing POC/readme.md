@@ -11,26 +11,27 @@
 The purpose of this document is to provide a completed guide to step Unit Testing.
   
   ## Table of Contents
-+ [Introduction](#Introduction)
-+ [Pre-requisites](#pre-requisites)
-+ [ System Requirements](#System-Requirements)
-+ [Build-Time Dependency](#build-time-dependency)
-+ [Run Time Dependency](#run-time-dependency)
-+ [Step-by-step Installation](#step-by-step-installation)
-+ [Conclusion](#conclusion)
-+ [Contact Information](#contact-information)
-+ [ References](#references)
+- [Introduction](#introduction)
+- [⚙️ Pre-Requisites](#-pre-requisites)
+- [🖥️ System Requirements](#-system-requirements)
+- [🛠️ Build-Time Dependency](#-build-time-dependency)
+- [🚀 Run-Time Dependency](#-run-time-dependency)
+- [🌐 Important Ports](#-important-ports)
+- [🏗️ Architecture](#-architecture)
+- [📥 Step-by-step Installation](#-step-by-step-installation)
+- [📧 Contact Information ](#-contact-information )
+- [📚 References](#-references )
 
 # Introduction
 This document will guide you through setting up a Python project, including the necessary prerequisites, creating a basic project structure, and adding unit testing capabilities using pytest
 
-##  Pre-requisites
+## ⚙ Pre-requisites
 
 - Ensure you have Python 3.11 installed on your machine. 
 - Package Manager:pip
 - Version Control System:
 
-## System Requirements
+## 🖥 System Requirements
 | Hardware Specifications | Minimum Recommendation  |
 |--------------------------|------------------------|
 | Processor                | dual-core              |
@@ -39,7 +40,7 @@ This document will guide you through setting up a Python project, including the 
 | OS                       | Ubuntu 22.04 LTS         |
 
 
-##  Build-Time Dependency
+## 🛠 Build-Time Dependency
 
 | 🛠️ Name | 📦 Version | 📄 Description |
 |---------|------------|----------------|
@@ -48,19 +49,23 @@ This document will guide you through setting up a Python project, including the 
 |**Pip**  | 3.11    | Used for installing Python packages.|
 
 
-##  Run-Time Dependency
+## 🚀 Run-Time Dependency
 
 | 🚀 Name | 📦 Version | 📄 Description          |
 |---------|------------|--------------------------|
 | **Flask** |  6.0.0      | Frameworks for building web applications. |
 |**psycopg2**| 14 | Libraries for database interaction.|
 
-##  Important Ports
+## 🌐 Important Ports
 | 🔌 Inbound Traffic | Description        |
 | --------------- | ------------------ |
 | 5432            | Used by Postgres  |
 
-##  Step-by-step Installation
+
+## 🏗 Architecture
+![image](https://github.com/user-attachments/assets/a3408506-3ad6-4c92-aa64-84e8aa939da0)
+
+## 📥 Step-by-step Installation
 
 ## Install git
 ```
@@ -143,17 +148,13 @@ pip install voluptuous
 
 
 
-
-# Conclusion
-Using `pytest` as your testing framework significantly enhances your testing strategy by providing a flexible and easy-to-use interface. Its features promote good testing practices, allowing for better code quality and maintainability. Embracing `pytest` in your development process, along with effective CI practices, ensures a robust and reliable codebase.
-
-## Contact Information
+## 📧 Contact Information
 
 | Name | Email address|
 |------|---------------------|
 | Vinay Bansal | vinay.bansal.snaatak@mygurukulam.co |
 
-## References
+## 📚 References
 For further reading and resources on GitOps, check out the following:
 
 | Links | Descriptions|
