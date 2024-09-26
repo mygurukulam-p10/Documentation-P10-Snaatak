@@ -83,10 +83,11 @@ Please Refer this https://github.com/mygurukulam-p10/Documention/blob/main/Appli
 | **Use Secrets Managers** | Store secrets (keys, passwords) in secure vaults like AWS Secrets Manager or HashiCorp Vault.     |
 
 ### Recommendation
-Chooses GitLeaks for Cred Scanning due to:
-- **Automate Scanning**: Set up GitLeaks to automatically run in your CI/CD pipeline, so any new code is scanned for sensitive data.
-- **Run Regular Audits**: Periodically scan your entire codebase with GitLeaks to catch any missed secrets.
-- **Set Up Alerts**: Enable notifications so that if GitLeaks finds a secret, the team is alerted immediately.
+Chooses GitLeaks because:
+
+- It’s simple to set up and integrates easily with GitHub Actions.
+- It scans the entire Git history, not just recent commits, which helps find secrets buried deep in the code.
+- It's lightweight and runs efficiently in CI pipelines, ensuring that sensitive data is caught before reaching production.
 
 
 
