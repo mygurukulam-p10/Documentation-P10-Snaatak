@@ -10,9 +10,9 @@
 1. [📖Introduction](#introduction)
 2. [What is Code Compilation?](#what-is-code-compilation)
 3. [Why Compile Go Code?](#why-compile-go-code)
-4. [Different Tools for Go Compilation](#different-tools-for-go-compilation)
-5. [Comparison of Compilation Tools](#comparison-of-compilation-tools)
-6. [Advantages of Go Code Compilation](#advantages-of-go-code-compilation)
+4. [🔧Different Tools for Go Compilation](#different-tools-for-go-compilation)
+5. [🔬Comparison of Compilation Tools](#comparison-of-compilation-tools)
+6. [🌟Advantages of Go Code Compilation](#advantages-of-go-code-compilation)
 7. [📏Best Practices](#best-practices)
 8. [Recommendation](#recommendation)
 9. [📝Conclusion](#conclusion)
@@ -30,14 +30,14 @@ Code compilation is the process of converting source code written in a programmi
 - **Deployment:** Compiled code is easier to distribute and deploy.
 - **Static Typing:** Helps catch errors at compile time, enhancing reliability.
 
-## Different Tools for Go Compilation
+## 🔧Different Tools for Go Compilation
 - **Go Compiler**
 - **Go Modules:**
 - **xgo**
 - **Third-Party Tools**
 - **Makefile**.
 
-## Comparison of Compilation Tools
+## 🔬Comparison of Compilation Tools
 | Tool                | Description                                 | Ease of Use | 
 |---------------------|---------------------------------------------|-------------|
 | Go Compiler (`go build`) | Official compiler for Go projects        | High        | 
@@ -47,7 +47,7 @@ Code compilation is the process of converting source code written in a programmi
 |TinyGo	Go compiler for small devices and WebAssembly|	Medium|
 |Makefile|	Automates the build process using a Makefile|	Medium|
 
-## Advantages of Go Code Compilation
+## 🌟Advantages of Go Code Compilation
 - **Speed:** Compiled code generally executes faster than interpreted languages.
 - **Safety:** Errors are caught during compilation, reducing runtime failures.
 - **Simplicity:** The Go toolchain is straightforward, making it easy to compile projects.
