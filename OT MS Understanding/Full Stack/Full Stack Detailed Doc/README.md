@@ -95,3 +95,52 @@ For Refrence Links Below
   
 * [Redis](https://github.com/mygurukulam-p10/Documention/blob/main/OT%20MS%20Understanding/Redis/Detailed%20Document/README.md)
 
+### User Flow
+![Alt text](https://prepbytes-misc-images.s3.ap-south-1.amazonaws.com/assets/1673592711181-What%20is%20Full%20Stack%20Development1.png)
+---
+
+| **User Registration Flow* |                                                                                         |  
+|---------------|-----------------------------------------------------------------------------------------|
+| User submits the registration form. |                                                      |
+| Frontend validates the input. |                                                          |
+| The request is sent to the backend. |                                                      |
+| The backend processes the registration and stores the data in the database. |                            |
+| A response is sent back to the frontend. |                                                      |
+---
+
+| **User Login Flow** |      |                                                   
+|---------------------|----------|                                          
+| User submits the login form. |  |                                           
+| Frontend validates the input. | |                                           
+| The request is sent to the backend. |   |                                   
+| The backend authenticates the user. |   |                                   
+| A response is sent back to the frontend with a token. |    |          
+---
+
+| **Data Processing Flow** |                                                                                        |
+|---------------------------|----------------------------------------------------------------------------------------|
+| Data is submitted from the frontend. |                                                               |
+| The backend processes the data. |                                                                         |
+| Data is validated and transformed. |                                                                |
+| Processed data is stored in the database. |                                                           |
+| Confirmation is sent back to the frontend. |                                                       |
+---
+### Conclusion
+![Alt text](https://github.com/mygurkulam-p9/documentation/assets/160397748/bf2a9eaf-05c9-47e9-bb35-f533e42d02bc)
+In this document We can assume that above flow diagrams are explaining more with the help of there purticular Terms .
+This document provided a detailed overview of the fullstack application architecture, including component diagrams and user flow diagrams.
+Here we interconnect all three API's with frontend 
+
+## Contact Information
+
+| Name          | Email Address                          | 
+| ------------- |:--------------------------------------:|
+| Aayush      | aayush.gaur.snaatak@mygurukulam.co |
+
+## Refrences 
+
+| Links          |
+| ------------- |
+|    https://github.com/OT-MICROSERVICES  | 
+|     | 
+
