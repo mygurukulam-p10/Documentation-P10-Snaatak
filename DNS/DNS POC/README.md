@@ -5,6 +5,12 @@
 | Abhinav Singh  |  19-09-24  | version 1 |   Abhinav Singh   |      19-09-24      |
 
 ## Table of Contents
+
+|  Author        | Created on |  Version  | Last updated by  | Last edited on |
+|----------------|------------|-----------|------------------|----------------|
+| Abhinav Singh  |   07-09-24 | version 1 |   Abhinav Singh  |     14-09-24   |
+
+## Table of Contents
 1. [Purpose](#purpose)
 2. [Pre-requisites](#pre-requisites)
 3. [Step by Step DNS Setup](#step-by-step-DNS-setup)
@@ -19,6 +25,10 @@ This README outlines the PoC for implementing DNS for an application. It demonst
 
 
 ## Prerequisites
+
+
+
+## Step by Step DNS Setup
 
 
 ![image](https://github.com/user-attachments/assets/3990ca70-ba28-4959-9536-f9f2904d9931)
@@ -75,5 +85,16 @@ Under nameservers choose custom nameserver and paste ns values that you got from
 
 
 
+## Contact Information
+
+For more information on how to setup Github or if you need any guidance, feel free to reach out:
+
+|  Name   | Email Address                                  |
+|---------|------------------------------------------------|
+| Abhinav | abhinav.singh.snaatak@mygurukulam.co           |
 
 
+## Reference
+
+|  Title   |                    Link                        |
+|----------|------------------------------------------------|
