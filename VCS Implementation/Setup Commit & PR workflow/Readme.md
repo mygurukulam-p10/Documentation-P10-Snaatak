@@ -1,9 +1,8 @@
-# <img width="35" alt="image" src="https://github.com/user-attachments/assets/cd1cb06d-90e7-410e-bccc-3a4d645dd6c5"> Setup notification for Code commit
-
+# Setup Commit & PR (Pull Request) workflow
 
 | ✍️Author   | 📅Created on|📌 Version | 📝Last updated by   |📅 Last edited on |
 |-------------|-------------|------------|---------------------|------------------|
-| Megha Tyagi |  23-09-24   | Version 1  |    Megha Tyagi      | 23-09-24         |
+| Megha Tyagi |  26-09-24   | Version 1  |    Megha Tyagi      | 26-09-24         |
 
 
 
