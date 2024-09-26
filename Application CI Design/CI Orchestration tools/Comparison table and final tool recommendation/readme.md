@@ -47,8 +47,7 @@ The purpose of this document is to provide a comprehensive overview of various t
 
 
 ## 📜 Recommendation
-- **Jenkins**:
-- Jenkins is an excellent choice for teams looking for a powerful, flexible, and community-supported CI/CD tool. Its extensibility and strong CI capabilities make it particularly suitable for complex development environments and diverse project requirements. While it may require some initial setup and ongoing management, the benefits it provides can greatly enhance productivity and collaboration in software development.
+- **Jenkins**:Jenkins is an excellent choice for teams looking for a powerful, flexible, and community-supported CI/CD tool. Its extensibility and strong CI capabilities make it particularly suitable for complex development environments and diverse project requirements. While it may require some initial setup and ongoing management, the benefits it provides can greatly enhance productivity and collaboration in software development.
 
   
  ## 📧 Contact Information 
