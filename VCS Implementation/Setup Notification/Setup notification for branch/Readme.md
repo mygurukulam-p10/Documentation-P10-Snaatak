@@ -19,7 +19,7 @@
 
      
 # 🔍 Purpose 
-This document provides a clear guide for setting up notifications for branch events (create, delete, merge) in GitHub. By following these steps, users can stay informed about branch changes in their repositories. This helps improve team collaboration and keeps everyone updated on project progress.
+This document provides a clear guide for setting up notifications for branch events (create, delete, (PR)merge) in GitHub. By following these steps, users can stay informed about branch changes in their repositories. This helps improve team collaboration and keeps everyone updated on project progress.
 
 
 # ✨ Workflow
