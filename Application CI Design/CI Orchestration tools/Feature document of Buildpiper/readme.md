@@ -12,8 +12,8 @@
 2. [🌟 What is Buildpiper?](#-what-is-buildpiper)
 3. [🛠️ Features of Buildpiper](#-features-of-buildpiper)
 4. [📜 Conclusion](#-conclusion)
-5. [📚 References](#-references ) 
-6. [📧 Contact Information ](#-contact-information )
+5. [📧 Contact Information ](#-contact-information )
+6. [📚 References](#-references ) 
 
 
 ## 🔍 Purpose 
