@@ -1,4 +1,26 @@
+# 🐹 Go CI Checks - Dependency Scanning POC
 
+
+ ## 📚 Table of Contents
+
+1. [Purpose](#purpose)
+2. [Introduction](#introduction)
+3. [Step by Step Guide to Perform Dependency scanning](#step-by-step-guide-to-perform-dependency-scanning)
+4. [Conclusion](#conclusion)
+5. [Reference](#reference)
+6. [Contact Information](#contact-information)
+
+## Purpose
+
+🎯
+This POC explains how to perform dependency scanning for Go projects, highlighting the use of Snyk as a key tool for identifying vulnerabilities during Continuous Integration (CI).
+
+## Introduction
+
+📖
+In Go projects, scanning for vulnerable dependencies is essential for maintaining security. Dependency scanning in CI pipeline helps detect potential risks in the external libraries that the project relies on, ensuring that codebase stays secure.
+
+## Step by Step Guide to Perform Dependency scanning
 
 **1. Create an account on **snyk****
 
@@ -35,3 +57,22 @@ mv ./snyk /usr/local/bin/
 
 **6. You can see reports of your test by opening links provided in the output**
 ![image](https://github.com/user-attachments/assets/2c65a9de-75d3-448e-ac08-016d06e3b777)
+
+## Conclusion
+
+This POC demonstrated how to perform dependency scanning for Go projects using Snyk. Vulnerabilities in external libraries can be easily identified and managed, ensuring the project's security. The guide covers setting up Snyk, authenticating, and scanning your project, allowing teams to continuously monitor and mitigate risks throughout development, maintaining a secure codebase.
+
+## Reference
+
+| Title                                 | Link                                                                                           |
+|---------------------------------------|------------------------------------------------------------------------------------------------|
+|    Snyk Docs  | (https://docs.snyk.io/) |
+|    GoVulnCheck Docs     |   (https://documentation.defectdojo.com/integrations/parsers/file/govulncheck/) |
+
+## Contact Information
+
+For more information on how to setup Github or if you need any guidance, feel free to reach out:
+
+|  Name   | Email Address                                  |
+|---------|------------------------------------------------|
+| Abhinav | abhinav.singh.snaatak@mygurukulam.co           |
