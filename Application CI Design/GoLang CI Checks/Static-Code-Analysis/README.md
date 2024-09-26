@@ -66,22 +66,30 @@ Golangci-lint is a popular tool in the Golang ecosystem that aggregates multiple
 
 ## Proof of Concept (PoC) 🔍
 
-To demonstrate the capabilities of Golangci-lint, here’s a simple setup guide:
+To demonstrate the capabilities of Golangci-lint, here’s a simple setup guide. We will be using our Microservice ```Employee-API```
 
-1. **Install Golangci-lint**:
+1. **Clone the Repository**
+```
+https://github.com/OT-MICROSERVICES/employee-api.git
+```
+2. **Install Golangci-lint**:
    ```
-   sudo apt install golangci-lint
+   sudo snap install golangci-lint --classic
    ```
 
-2. **Go to your Application Directory, In my case (Employee-API)**:
+![image](https://github.com/user-attachments/assets/22bd2687-6035-47f9-b888-607599dda5b3)
+
+3. **Go to your Application Directory, In my case (Employee-API)**:
    ```
    cd employee-api/
    ```
+![image](https://github.com/user-attachments/assets/a854c2c8-d4f1-4038-9887-47413adad32e)   
 
-3. **Run Golangci-lint on Employee-API**:
+4. **Run Golangci-lint on Employee-API**:
    ```
    golangci-lint run 
    ```
+![image](https://github.com/user-attachments/assets/d7e119c5-8eea-4d81-a3c2-dcc932610144)
 
 ## Best Practices for Using Golangci-lint 📏
 - **Configuration**: Customize the `.golangci.yml` file to tailor checks to your project's needs.
