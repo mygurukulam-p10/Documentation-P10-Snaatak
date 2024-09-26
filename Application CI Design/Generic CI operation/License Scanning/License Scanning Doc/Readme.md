@@ -1,5 +1,9 @@
 # Generic License Scanning Documentation
 
+| Author      | Created on  | Version    | Last updated by | Last edited on |
+|-------------|-------------|------------|-----------------|----------------|
+| Amit Nagar  | 24-09-24    | version 1  | Amit Nagar      | 26-09-24       |
+
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [What is License Scanning](#what-is-license-scanning)
@@ -91,16 +95,20 @@ License Scanning refers to the automated scanning of software dependencies and c
 License Scanning is essential for legal compliance and risk management in software development. Automating this process allows teams to focus on development while ensuring that all third-party components are compliant with their licenses.
 
 ---
-
 ## Contact Information
 
-
+| Name       | Email address     |
+|------------|-------------------|
+| Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
 
 ---
 
 ## References
 
-1. FOSSA: [https://fossa.com](https://fossa.com)
-2. Black Duck: [https://www.blackducksoftware.com](https://www.blackducksoftware.com)
-3. Snyk: [https://snyk.io](https://snyk.io)
-4. WhiteSource: [https://www.whitesourcesoftware.com](https://www.whitesourcesoftware.com)
+| Tool        | Link                                                      |
+|-------------|-----------------------------------------------------------|
+| FOSSA       | [https://fossa.com](https://fossa.com)                    |
+| Black Duck  | [https://www.blackducksoftware.com](https://www.blackducksoftware.com) |
+| Snyk        | [https://snyk.io](https://snyk.io)                        |
+| WhiteSource | [https://www.whitesourcesoftware.com](https://www.whitesourcesoftware.com) |
+
