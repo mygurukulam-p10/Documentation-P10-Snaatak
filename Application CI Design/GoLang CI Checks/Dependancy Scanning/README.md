@@ -77,6 +77,7 @@ For Go projects like **Employee API**, **Snyk** is an outstanding tool for depen
 
 | Title                                 | Link                                                                                           |
 |---------------------------------------|------------------------------------------------------------------------------------------------|
+| Dependency Scanning POC | https://github.com/mygurukulam-p10/Documention/tree/main/Application%20CI%20Design/GoLang%20CI%20Checks/Dependency%20scanning%20POC |
 |    Snyk Docs  | (https://docs.snyk.io/) |
 |    GoVulnCheck Docs     |   (https://documentation.defectdojo.com/integrations/parsers/file/govulncheck/) |
 
