@@ -12,7 +12,7 @@
 The purpose of this document is to provide a completed guide to step up Static Code.
 
 ## Table of Contents
-- [Introduction](#Introduction)
+- [Introduction](#introduction)
 - [Pre-requisites](#pre-requisites)
 - [System Requirements](#system-requirements)
 - [Step-by-step Installation](#step-by-step-installation)
@@ -477,7 +477,7 @@ public class SpringDataSalaryService {
 
 
 
-##  📧 Contact Information
+## Contact Information
 | Name | Email address|
 |------|---------------------|
 | Vinay Bansal | vinay.bansal.snaatak@mygurukulam.co |
