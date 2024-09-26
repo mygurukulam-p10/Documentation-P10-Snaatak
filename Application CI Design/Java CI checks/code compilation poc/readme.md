@@ -15,6 +15,7 @@ The purpose of this document is to provide a completed guide to step code compil
 - [System Requirements](#system-requirements)
 - [Build-Time Dependency](#build-time-dependency)
 - [Run-Time Dependency](#run-time-dependency)
+- [🏗️ Architecture](#-architecture)
 - [Step-by-step Installation](#step-by-step-installation)
 - [Conclusion](#conclusion)
 - [Contact Information](#contact-information)
@@ -52,6 +53,9 @@ The purpose of this document is to provide a completed guide to step code compil
 |---------|------------|--------------------------|
 | **Java** |  17 for Spring Boot 3.1.1        | Required to run the built Java application. |
 
+
+## 🏗 Architecture
+![image](https://github.com/user-attachments/assets/b3a76c42-22cc-4290-b369-a2643366977c)
 
 ##  Step-by-step Installation
 
