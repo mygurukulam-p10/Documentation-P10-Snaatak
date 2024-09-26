@@ -49,22 +49,31 @@ https://github.com/OT-MICROSERVICES/employee-api.git
 ```
 
 2. **Install Golangci-lint**:
-   ```
-   sudo snap install golangci-lint --classic
-   ```
+
+```
+sudo snap install golangci-lint --classic
+```
+
 
 ![image](https://github.com/user-attachments/assets/87fb9498-be1b-40cd-a35f-ae3a52b4b66c)
 
+
 3. **Go to your Application Directory, In my case (Employee-API)**:
-   ```
-   cd employee-api/
-   ```
+
+```
+cd employee-api/
+```
+
+
 ![image](https://github.com/user-attachments/assets/7e012efe-10d5-4d1c-b8ec-062060c46374)
  
 4. **Run Golangci-lint on Employee-API**:
-   ```
-   golangci-lint run 
-   ```
+
+```
+golangci-lint run 
+
+```
+
 ![image](https://github.com/user-attachments/assets/8ba89f07-6075-43f2-bff6-df06e626d2d9)
 
 ## References 📚
