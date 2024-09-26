@@ -16,6 +16,8 @@
 
 3. [User Flow](#user-flow)
 5. [Conclusion](#conclusion)
+6. [Contact Information](#contact-information)
+7. [Refrences](#refrences)
 
 ![image](https://github.com/user-attachments/assets/8a3c6bfe-2846-4ba2-9dcb-d8935a3ef2e8)
 
