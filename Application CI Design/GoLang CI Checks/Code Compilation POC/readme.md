@@ -5,7 +5,8 @@
   | Vinay Bansal | 23-09-24 | version 1 | Vinay Bansal | 25-09-24 |
 ## 📑 Table of Contents
 
-- [🔍Purpose](#purpose)
+- [🔍Purpose](#-purpose)
+- [🔍 Purpose](#-purpose)
 - [⚙️ Pre-requisites](#-pre-requisites)
 - [🖥️ System Requirements](#-system-requirements)
 - [🛠️ Build-Time Dependency](#-build-time-dependency)
