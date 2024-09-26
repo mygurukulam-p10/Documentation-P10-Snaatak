@@ -7,7 +7,6 @@
 
 ### Table of Contents
 - [Introduction](#introduction)
-- [How Gitleaks Works](#how-gitleaks-works)
 - [Steps To Install gitleaks](#steps-to-install-gitleaks)
 - [Perform Cred Scanning](#perform-cred-scanning)
 - [Conclusion](#conclusion)
