@@ -21,12 +21,12 @@
 ## 🔍 Purpose
 The Employee REST API is a Golang-based microservice that handles all employee-related transactions within the OT-Microservices. It is fully platform-independent and can be run on any platform.
 
-## ⚙️ Pre-Requisites
+## ⚙ Pre-Requisites
 
 - Go installed on your machine.
 - Familiarity with Go modules.
 
-## 🖥️ System Requirements
+## 🖥 System Requirements
 | Hardware Specifications | Minimum Recommendation  |
 |--------------------------|------------------------|
 | Processor                | dual-core              |
@@ -35,7 +35,7 @@ The Employee REST API is a Golang-based microservice that handles all employee-r
 | OS                       | Ubuntu 22.04 LTS         |
 
 
-## 🛠️ Build-Time Dependency
+## 🛠 Build-Time Dependency
 
 | 🛠️ Name | 📦 Version | 📄 Description |
 |---------|------------|----------------|
