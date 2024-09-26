@@ -2,9 +2,11 @@
 
 ![java static](https://github.com/user-attachments/assets/16f124bd-65e8-45df-93ae-6611fd7617ed)
 
-  | Author        | Created on | Version | Last updated by | Last edited on |
-  |-------------|---------|-------------|-------------|---------|
-  | Vinay Bansal | 21-09-24 | version 1 | Vinay Bansal | 22-09-24 |
+| ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
+|-------------|-------------|------------|-----------------|----------------|
+|  Vinay Bansal | 21-09-24    | Version 1  | Vinay Bansal     | 22-09-24       |
+
+
 
 ## Purpose
 The purpose of this document is to provide a completed guide to step up Static Code.
