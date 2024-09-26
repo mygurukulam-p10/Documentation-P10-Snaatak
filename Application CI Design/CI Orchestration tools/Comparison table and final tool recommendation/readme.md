@@ -9,16 +9,21 @@
 
 # Table of Content 
 1. [🔍 Purpose](#-purpose)
-2. [🌟 What is Buildpiper?](#-what-is-buildpiper)
+2. [🌟 Differnet Tools](#-differnet-tools)
 3. [🛠️ Comparison table](#-comparison-table)
-4. [📜 Conclusion](#-conclusion)
+4. [📜 Recommendation](#-recommendation )
 5. [📧 Contact Information ](#-contact-information )
 6. [📚 References](#-references ) 
 
 
 ## 🔍 Purpose 
 
+## 🌟 Differnet Tools
+- **Buildpiper**
+- **GitLab**
+- **Jenkins**
 
+  
 ## 🛠 Comparison table
 | Feature                       | Buildpiper                                       | GitLab                                    | Jenkins                                  |
 |-------------------------------|-------------------------------------------------|-------------------------------------------|------------------------------------------|
@@ -37,7 +42,7 @@
 
 
 
-## 📜 Conclusion
+## 📜 Recommendation
 
  ## 📧 Contact Information 
 | Name | Email address|
