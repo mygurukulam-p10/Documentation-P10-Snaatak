@@ -8,7 +8,7 @@
 3. [What is Dependency Scanning](#what-is-dependency-scanning)
 4. [Different Tools for Go Dependency Scanning](#different-tools-for-go-dependency-scanning)
 5. [Advantages and Disadvantages of Dependency Scanning](#advantages-and-disadvantages-of-dependency-scanning)
-6. [Best Practices](#🛡️best-practices-for-dependency-scanning)
+6. [Best Practices for Dependency Scanning](#best-practices-for-dependency-scanning)
 7. [Conclusion](#conclusion)
 8. [Reference](#reference)
 9. [Contact Information](#contact-information)
