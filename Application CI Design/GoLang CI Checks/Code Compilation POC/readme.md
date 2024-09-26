@@ -1,4 +1,4 @@
-#  🔍Proof of Concept (POC) for Code Compilation
+#  Proof of Concept (POC) for Code Compilation
 
   | Author        | Created on | Version | Last updated by | Last edited on |
   |-------------|---------|-------------|-------------|---------|
@@ -14,6 +14,10 @@
 - [🏗️ Architecture](#-architecture)
 - [📥 Step-by-step Installation](#-step-by-step-installation)
 - [📧 Contact Information](#-contact-information)
+
+#🔍 Purpose
+The Employee REST API is a Golang-based microservice that handles all employee-related transactions within the OT-Microservices. It is fully platform-independent and can be run on any platform.
+
 ## ⚙️Prerequisites
 
 - Go installed on your machine.
