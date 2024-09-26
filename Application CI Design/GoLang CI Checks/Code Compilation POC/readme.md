@@ -23,7 +23,7 @@ The purpose of this document is to provide a completed guide to step code compil
 
 
 ## Introduction 
-* This document will guide you through a Proof of Concept (PoC) for setting up and compiling . We will cover the necessary prerequisites, including Golang installation, as well as the basic project structure.
+* This document will guide you through a Proof of Concept (PoC) for setting up and compiling . We will cover the necessary prerequisites, dependency, Architecture as well as the basic project structure.
 
 ## ⚙ Pre-Requisites
 
