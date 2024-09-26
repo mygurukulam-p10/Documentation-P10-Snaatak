@@ -16,7 +16,10 @@ The purpose of this document is to provide a detailed explanation of **credentia
 - [Advantages of Credential Scanning](#advantages-of-credential-scanning)
 - [Proof of Concept (POC)](#proof-of-concept-poc)
 - [Best Practices](#best-practices)
-- [Refrences](#refrences)
+- [Recommendation](#recommendation)
+- [Conclusion](#conclusion)
+- [Contact Information](#contact-information)
+- [Refrences](#refrences) 
 
 ### Introduction
 Credential scanning is a process used in Continuous Integration (CI) to automatically check code for sensitive information like passwords, API keys, or tokens. It helps ensure that no critical data is accidentally shared in the codebase or in public repositories, which could lead to security issues.
