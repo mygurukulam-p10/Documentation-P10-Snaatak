@@ -4,18 +4,18 @@
 # 🐍 Python CI Checks: 🔍 Dependency Scanning
 
 
- ## 📚 Table of Contents
-Purpose
-Introduction
-What is Dependency Scanning?
-Why Perform Dependency Scanning?
-Different Tools for Python Dependency Scanning and it's Comparision
-Advantages and Disadvantages of Dependency Scanning
-Proof of Concept: Using Safety for Dependency Scanning
-Best Practices for Dependency Scanning
-Recommendation/Conclusion
-References
-Contact Information
+## 📚 Table of Contents
+- [Purpose](#purpose)
+- [Introduction](#introduction)
+- [What is Dependency Scanning?](#what-is-dependency-scanning)
+- [Why Perform Dependency Scanning?](#why-perform-dependency-scanning)
+- [Different Tools for Python Dependency Scanning and Comparison](#different-tools-for-python-dependency-scanning-and-comparison)
+- [Advantages and Disadvantages of Dependency Scanning](#advantages-and-disadvantages-of-dependency-scanning)
+- [Using Safety for Dependency Scanning](#using-safety-for-dependency-scanning)
+- [Best Practices for Dependency Scanning](#best-practices-for-dependency-scanning)
+- [Recommendation/Conclusion](#recommendationconclusion)
+- [References](#references)
+- [Contact Information](#contact-information)
 
 
 ## 🎯 Purpose
