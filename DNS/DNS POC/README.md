@@ -2,13 +2,8 @@
 
 |  Author        | Created on |  Version  | Last updated by   |   Last edited on   |
 |----------------|------------|-----------|-------------------|--------------------|
-| Abhinav Singh  |  19-09-24  | version 1 |   Abhinav Singh   |      19-09-24      |
+| Abhinav Singh  |  19-09-24  | version 2 |   Abhinav Singh   |      26-09-24      |
 
-## Table of Contents
-
-|  Author        | Created on |  Version  | Last updated by  | Last edited on |
-|----------------|------------|-----------|------------------|----------------|
-| Abhinav Singh  |   07-09-24 | version 1 |   Abhinav Singh  |     14-09-24   |
 
 ## Table of Contents
 1. [Purpose](#purpose)
