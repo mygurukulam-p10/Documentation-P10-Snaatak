@@ -5,8 +5,8 @@
 | 25-09-2024         | 0.1       | Aayush Gaur  |  SonarQube Authorization          |
 
 ### Table of Contents
-- [Introduction](#introduction)
-- [2. Authentication vs. Authorization?](#2-authentication-vs-authorization)
+  [Introduction](#introduction)
+  [2. Authentication vs. Authorization?](#2-authentication-vs-authorization)
 - [Why Credential Scanning?](#why-credential-scanning)
 - [Tools for Credential Scanning](#tools-for-credential-scanning)
 - [Comparison of Credential Scanning Tools](#comparison-of-credential-scanning-tools)
