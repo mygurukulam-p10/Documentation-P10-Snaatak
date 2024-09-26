@@ -5,11 +5,11 @@
 | 25-09-2024         | 0.1       | Aayush Gaur  |  SonarQube Authorization          |
 
 ### Table of Contents
-  [Introduction](#introduction)
-  [2. Authentication vs. Authorization?](#2-authentication-vs-authorization)
-- [Why Credential Scanning?](#why-credential-scanning)
-- [Tools for Credential Scanning](#tools-for-credential-scanning)
-- [Comparison of Credential Scanning Tools](#comparison-of-credential-scanning-tools)
+[Introduction](#introduction)
+[2. Authentication vs. Authorization?](#2-authentication-vs-authorization)
+[3.SonarQube Authorization Model](#3-sonarQube-authorization-model)
+[4. SonarQube Default Groups and Roles](#4-sonarQube-default-groups-and-roles)
+[5. Project-Level Permissions](#5-project-level-permissions)
 - [Advantages of Credential Scanning](#advantages-of-credential-scanning)
 - [Proof of Concept (POC)](#proof-of-concept-poc)
 - [Best Practices](#best-practices)
@@ -24,7 +24,7 @@ SonarQube is a platform for continuous code quality inspection. To maintain the 
 
 SonarQube offers multiple methods for authentication (LDAP, OAuth, SAML), but this document focuses on **authorization**, the process of granting or restricting access rights to users based on their roles.
 
-## 3. Overview of SonarQube’s Authorization Model
+## 3.SonarQube Authorization Model
 SonarQube’s authorization model is role-based, meaning access is controlled by assigning users to groups with predefined permissions. This allows fine-grained control over who can view, edit, and manage projects, issues, and global settings.
 
 ### Key Components of SonarQube Authorization:
