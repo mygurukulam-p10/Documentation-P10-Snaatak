@@ -19,6 +19,8 @@
 
 
 ## 🔍 Purpose 
+The purpose of this document is to provide a comprehensive overview of various tools used in software development and deployment, specifically focusing on Buildpiper, GitLab, and Jenkins. This document aims to help teams and stakeholders understand the functionalities, advantages, and limitations of each tool, enabling informed decision-making for optimizing their development workflows. Additionally, it seeks to facilitate comparisons between these tools, and recommend tool for specific project needs.
+
 
 ## 🌟 Differnet Tools
 - **Buildpiper**
