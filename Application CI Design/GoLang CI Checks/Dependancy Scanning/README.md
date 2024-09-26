@@ -15,17 +15,14 @@
 
 ## Purpose
 
-🎯
 This document explains how to set up dependency scanning in Go projects, highlighting the use of Snyk as a key tool for identifying vulnerabilities during Continuous Integration (CI).
 
 ## Introduction
 
-📖
 In Go projects, scanning for vulnerable dependencies is essential for maintaining security. Dependency scanning in CI pipeline helps detect potential risks in the external libraries that the project relies on, ensuring that codebase stays secure.
 
 ## What is Dependency Scanning
 
-🔍
 Dependency scanning automatically analyzes the third-party libraries that project depends on, like those listed in go.mod and go.sum. The goal is to check for known security vulnerabilities and ensure that we’re using up-to-date and secure packages.
 
 
@@ -40,7 +37,7 @@ Dependency scanning automatically analyzes the third-party libraries that projec
 
 ## Different Tools for Python Dependency Scanning and it's Comparision
 
-🛠️
+
 | Tool              | Description                                               | Key Features                                   | License          | Integration                          | Pros                                          | Cons                                         |
 |-------------------|-----------------------------------------------------------|------------------------------------------------|------------------|--------------------------------------|-----------------------------------------------|----------------------------------------------|
 | **🛡️Snyk**        | Comprehensive vulnerability scanner for open-source dependencies. | - Monitors `go.mod`<br> - Provides fix suggestions | Free & Paid Plans | CLI, CI/CD, GitHub, GitLab           | - Large vulnerability database.<br> - Fix recommendations. | - Advanced features require a paid plan.     |
@@ -70,7 +67,6 @@ Dependency scanning automatically analyzes the third-party libraries that projec
 
 ## Conclusion
 
-💼
 For Go projects like **Employee API**, **Snyk** is an outstanding tool for dependency scanning in CI pipelines. It efficiently detects vulnerabilities in third-party libraries, helping to keep the project secure over time. By integrating **Snyk** into our CI process, we can automate these scans and proactively address potential risks, ensuring the ongoing safety and reliability of our application.
 
 ## Reference
