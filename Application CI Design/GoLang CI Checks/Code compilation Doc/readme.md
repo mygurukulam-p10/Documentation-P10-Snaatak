@@ -53,59 +53,6 @@ Code compilation is the process of converting source code written in a programmi
 - **Simplicity:** The Go toolchain is straightforward, making it easy to compile projects.
 
 
-#  🔍POC
-
-## ⚙️Prerequisites
-
-- Go installed on your machine.
-- Familiarity with Go modules.
-
-##  🖥️System Requirements
-| Hardware Specifications | Minimum Recommendation  |
-|--------------------------|------------------------|
-| Processor                | dual-core              |
-| RAM                      | 4 GB                    |
-| Disk                     |10 GB free disk space                  |
-| OS                       | Ubuntu 22.04 LTS         |
-
-
-## 🛠️ Build-Time Dependency
-
-| 🛠️ Name | 📦 Version | 📄 Description |
-|---------|------------|----------------|
-| **Go modules** | 1.20      | Make sure your Go project uses Go modules (go.mod and go.sum) for dependency management. |
-
-
-## 🚀 Run-Time Dependency
-
-| 🚀 Name | 📦 Version | 📄 Description          |
-|---------|------------|--------------------------|
-| **ScyllaDB** |  6.1.1  | ScyllaDB is a NoSQL database being utilized as the primary database in the employee application |
-
-## 🌐 Important Ports
-
-| 🔌 Inbound Traffic | 📄 Description           |
-|--------------------|--------------------------|
-| **9042**           | Used by ScyllaDB |
-
-## 📥 Step-by-step Installation
-
-## Install git
-```
-sudo apt install git
-```
-### 📂 Step 1: Clone the Git Repository
-```
-https://github.com/OT-MICROSERVICES/employee-api.git
-```
-
-### Step 2: For Code Compilation
-```
-go build
-./employee-api
-```
-![ccsuccess](https://github.com/user-attachments/assets/3089ecee-144a-4fc4-a54d-fec1eff6539f)
-
 
 
 # Best Practices
