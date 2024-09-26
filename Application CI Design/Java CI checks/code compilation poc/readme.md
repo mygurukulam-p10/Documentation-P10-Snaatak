@@ -55,7 +55,7 @@ The purpose of this document is to provide a completed guide to step code compil
 
 
 ## 🏗 Architecture
-![image](https://github.com/user-attachments/assets/55601898-7ba8-45aa-8902-b20d67cc5166)
+![image](https://github.com/user-attachments/assets/4eeccef2-ef7f-4874-af1b-c8513684653e)
 
 ##  Step-by-step Installation
 
