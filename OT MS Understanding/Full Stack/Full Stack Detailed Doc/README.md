@@ -99,34 +99,33 @@ For Refrence Links Below
 ![Alt text](https://prepbytes-misc-images.s3.ap-south-1.amazonaws.com/assets/1673592711181-What%20is%20Full%20Stack%20Development1.png)
 ---
 
-| **User Registration Flow* |                                                                                         |  
-|---------------|-----------------------------------------------------------------------------------------|
-| User submits the registration form. |                                                      |
-| Frontend validates the input. |                                                          |
-| The request is sent to the backend. |                                                      |
-| The backend processes the registration and stores the data in the database. |                            |
-| A response is sent back to the frontend. |                                                      |
+| **User Registration Flow* |                
+|---------------|
+| User submits the registration form. |     
+| Frontend validates the input. |                                     
+| The request is sent to the backend. |                       
+| The backend processes the registration and stores the data in the database. |        
+| A response is sent back to the frontend. |                                      
 ---
 
-| **User Login Flow** |      |                                                   
-|---------------------|----------|                                          
-| User submits the login form. |  |                                           
-| Frontend validates the input. | |                                           
-| The request is sent to the backend. |   |                                   
-| The backend authenticates the user. |   |                                   
-| A response is sent back to the frontend with a token. |    |          
+| **User Login Flow** |                                                  
+|---------------------|                                      
+| User submits the login form. |                                       
+| Frontend validates the input. |                                           
+| The request is sent to the backend. |                                     
+| The backend authenticates the user. |                                    
+| A response is sent back to the frontend with a token. |            
 ---
 
-| **Data Processing Flow** |                                                                                        |
-|---------------------------|----------------------------------------------------------------------------------------|
-| Data is submitted from the frontend. |                                                               |
-| The backend processes the data. |                                                                         |
-| Data is validated and transformed. |                                                                |
-| Processed data is stored in the database. |                                                           |
-| Confirmation is sent back to the frontend. |                                                       |
+| **Data Processing Flow** |                                                                                        
+|---------------------------|-
+| Data is submitted from the frontend. |                                                               
+| The backend processes the data. |                                                                         
+| Data is validated and transformed. |                                                                
+| Processed data is stored in the database. |                                                           
+| Confirmation is sent back to the frontend. |                                                       
 ---
 ### Conclusion
-![Alt text](https://github.com/mygurkulam-p9/documentation/assets/160397748/bf2a9eaf-05c9-47e9-bb35-f533e42d02bc)
 This document gives a clear overview of full-stack development for the OT-MICROSERVICES project. It explains how the front end and back end work together and shares important practices for building strong and easy-to-maintain applications. 
 
 ## Contact Information
