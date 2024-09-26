@@ -7,7 +7,7 @@
 ## Table of Contents
 - [Introduction](#introduction)
 
-## 1. Introduction to SonarQube Authentication (authn) & Authorization (authz)
+## 1. Introduction 
 
 **Authentication (authn)** and **Authorization (authz)** are crucial for managing and securing access to SonarQube, ensuring that only authorized users can interact with the system and defining the level of access they have.
 
