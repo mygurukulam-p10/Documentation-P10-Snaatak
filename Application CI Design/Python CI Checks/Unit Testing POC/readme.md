@@ -143,6 +143,12 @@ utils/tests/test_validator.py
 ```
 pip install voluptuous
 ```
+
+# To check the hoq many test cases is pass 
+this command is a common way to run unit tests in Python projects, leveraging the capabilities of the pytest framework.
+```
+python3 -m pytest
+```
 ![usuccess](https://github.com/user-attachments/assets/157685e6-011f-4ea7-ae3a-eba410dfbfa7)
 
 
