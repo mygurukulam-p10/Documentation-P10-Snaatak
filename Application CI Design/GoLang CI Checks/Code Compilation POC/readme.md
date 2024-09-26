@@ -66,20 +66,28 @@ sudo apt install git
 ```
 ### 📂 Step 1: Clone the Git Repository
 ```
-git clone https://github.com/OT-MICROSERVICES/salary-api.git
+https://github.com/OT-MICROSERVICES/employee-api.git
 ```
 
 ### Step 2: Change Directory
 Change Directory to where your code is
 ```
-cd salary-api
+cd employee-api
 ```
 
 ### Step 3: now we have to do Code Compilation
 This command compiles the source code of the project according to the settings defined in the pom.xml file.
+- **go build:** This command compiles the Go source code in the current directory and produces an executable binary.
+If successful, it will create a binary file named employee-api.
 ```
 go build
-./employee-api```
+```
+- **./employee-api:** This command executes the binary that was created by the go build command.
+The ./ indicates that the binary is located in the current directory.
+Running this command starts the employee API service, making it ready to handle requests.
+
+```
+./employee-api
 ```
 ![ccsuccess](https://github.com/user-attachments/assets/3089ecee-144a-4fc4-a54d-fec1eff6539f)
 
