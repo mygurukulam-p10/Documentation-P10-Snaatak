@@ -5,7 +5,7 @@
 
 1. [Purpose](#purpose)
 2. [Introduction](#introduction)
-3. [What is Dependency Scanning](#what-is-dependency-scanning?)
+3. [What is Dependency Scanning](#what-is-dependency-scanning)
 4. [Different Tools for Go Dependency Scanning](#different-tools-for-go-dependency-scanning)
 5. [Advantages and Disadvantages of Dependency Scanning](#advantages-and-disadvantages-of-dependency-scanning)
 6. [Best Practices](#best-practices)
