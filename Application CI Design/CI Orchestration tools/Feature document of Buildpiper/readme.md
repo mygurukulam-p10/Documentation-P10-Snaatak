@@ -24,7 +24,6 @@ BuildPiper is a developer and engineering teams’ centric, fully-featured, end-
 
 ## 🛠 Features of Buildpiper
 
-# Features Overview
 
 | **Category**                | **Feature**                                             | **Description**                                                                                     |
 |-----------------------------|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
