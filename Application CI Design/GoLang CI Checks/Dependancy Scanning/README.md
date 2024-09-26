@@ -55,7 +55,7 @@ Dependency scanning automatically analyzes the third-party libraries that projec
 | **⚠️ Update Conflicts**  | Some updates may cause compatibility issues with other libraries.       |
 | **📊 False Positives**   | Some vulnerabilities might not be relevant to your specific use case.   |
 
-# 🛡️Best Practices for Dependency Scanning
+# Best Practices for Dependency Scanning
 
 | Best Practice            | Description                                                                   |
 |--------------------------|-------------------------------------------------------------------------------|
