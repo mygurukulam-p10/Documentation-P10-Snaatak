@@ -8,7 +8,7 @@
 3. [What is Dependency Scanning](#what-is-dependency-scanning)
 4. [Different Tools for Go Dependency Scanning](#different-tools-for-go-dependency-scanning)
 5. [Advantages and Disadvantages of Dependency Scanning](#advantages-and-disadvantages-of-dependency-scanning)
-6. [Best Practices](#best-practices)
+6. [Best Practices](#🛡️best-practices-for-dependency-scanning)
 7. [Conclusion](#conclusion)
 8. [Reference](#reference)
 9. [Contact Information](#contact-information)
@@ -47,7 +47,6 @@ Dependency scanning automatically analyzes the third-party libraries that projec
 
 ## Advantages and Disadvantages of Dependency Scanning
 
-✅
 | Advantage/Disadvantage | Description                                                              |
 |------------------------|--------------------------------------------------------------------------|
 | **🔍 Early Detection**  | Find security issues before they affect your project.                   |
