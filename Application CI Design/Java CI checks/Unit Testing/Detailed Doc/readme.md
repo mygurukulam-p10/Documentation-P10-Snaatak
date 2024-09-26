@@ -4,7 +4,7 @@
 |--------------------|------------|--------------|--------------------------------|
 | 26-09-2024         | 0.1       | Aayush Gaur  |      Unit Testing         |
 
-### Table of Contents
+## Table of Contents
 - [Introduction](#introduction)
 - [What is Unit Testing](#what-is-unit-testing)
 - [Why is Unit Testing Important](#why-is-unit-testing-important)
@@ -18,17 +18,17 @@
 - [References](#references)
 
 
-### Introduction
+## Introduction
 Unit testing is a critical practice in software development that involves testing individual units or components of an application in isolation. In Java, unit testing helps validate that each method or class performs as expected before the code is integrated into the larger system.
 
 Unit tests are automated and run regularly as part of Continuous Integration (CI) pipelines to ensure that changes in the codebase don’t introduce regressions or break existing functionality.
 
-### What is Unit Testing
+## What is Unit Testing
 Unit testing refers to testing individual components of the software (such as functions, classes, or methods) in isolation from other parts of the system. This is done to ensure that each unit behaves correctly according to its design and requirements.
 
 In Java, common unit testing frameworks include JUnit and TestNG. These frameworks allow you to create tests that are automatically executed as part of the CI pipeline, ensuring that any code changes still meet quality standards.
 
-### Why is Unit Testing Important
+## Why is Unit Testing Important
 | **Reason**                   | **Explanation**                                                                                  |
 |------------------------------|--------------------------------------------------------------------------------------------------|
 | **Prevents Regressions**      | Running unit tests as part of a CI pipeline ensures that new changes don’t break existing code.   |
@@ -37,7 +37,7 @@ In Java, common unit testing frameworks include JUnit and TestNG. These framewor
 | **Confidence in Refactoring** | Developers can make changes with confidence, knowing that unit tests will catch any issues introduced during refactoring. |
 | **Automated Testing**         | CI pipelines automate the testing process, reducing manual effort and human error.                |
 
-### Different Tools for Unit Testing in Java
+## Different Tools for Unit Testing in Java
 | **Tool**    | **Description**                                                                                                                                   |
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | **JUnit**   | The most popular Java testing framework. Supports test execution, assertions, and result reporting. Integrates well with CI tools like Jenkins, Travis CI, and GitLab CI.                |
@@ -46,7 +46,7 @@ In Java, common unit testing frameworks include JUnit and TestNG. These framewor
 | **Spock**   | A Groovy-based testing framework. Works with Java code and provides a highly expressive syntax.                                                                                         |
 | **AssertJ** | A rich assertion library that can be used with JUnit or TestNG. Provides more readable assertions compared to JUnit’s native assertions.                                                |
 
-### Comparison of Unit Testing Tools
+## Comparison of Unit Testing Tools
 | **Tool**   | **Key Features**                         | **Strengths**                              | **Limitations**                          |
 |------------|------------------------------------------|--------------------------------------------|------------------------------------------|
 | **JUnit**  | Standard, used in most Java projects      | Wide support and integration               | Limited configuration options            |
@@ -55,7 +55,7 @@ In Java, common unit testing frameworks include JUnit and TestNG. These framewor
 | **Spock**  | Groovy-based, expressive syntax           | Clear, readable tests                      | Learning Groovy is required              |
 | **AssertJ**| Rich assertion library                   | More readable assertions                   | Used as an add-on to JUnit/TestNG        |
 
-### Advantages of Unit Testing
+## Advantages of Unit Testing
 | **Benefit**                  | **Explanation**                                                                                      |
 |------------------------------|------------------------------------------------------------------------------------------------------|
 | **Automation**               | Unit tests can be automatically executed every time code is pushed, ensuring consistency.             |
@@ -64,7 +64,7 @@ In Java, common unit testing frameworks include JUnit and TestNG. These framewor
 | **Documentation**            | Well-written unit tests serve as documentation for the expected behavior of code components.          |
 | **Faster Feedback**          | Quick feedback loops help developers address issues early in the development lifecycle.               |
 
-### POC
+## POC
 
 ### Best Practices
 | **Best Practice**                | **Explanation**                                                                                                     |
