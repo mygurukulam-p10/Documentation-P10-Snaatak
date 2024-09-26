@@ -33,8 +33,8 @@ This document aims to provide a comprehensive overview of dependency scanning in
 
 | Name     | Version | Description                              |
 |----------|---------|------------------------------------------|
-| Python   | 1.18.1  | Programming language for the application |
-| pip      |         |                                          |
+| Python   | 3.10    | Programming language for the application |
+| pip      | 22.0.2  | To manage python packages and it's dependencies|
 
 ## Architecture
 
@@ -42,7 +42,7 @@ This document aims to provide a comprehensive overview of dependency scanning in
 
 ## Step-by-step installation
 
-Safety is a command-line tool that checks your installed dependencies for known security vulnerabilities. To demonstrate the capabilities of ```Safety```, here’s a simple setup guide. We will be using our Microservice ```Employee-API```
+Safety is a command-line tool that checks your installed dependencies for known security vulnerabilities. To demonstrate the capabilities of ```Safety```, here’s a simple setup guide. We will be using our Microservice ```Attendance-API```
 
 1. **Clone the Repository**
 
@@ -51,19 +51,19 @@ https://github.com/OT-MICROSERVICES/attendance-api.git
 ```
 
 
-1. **Install Safety**:
+2. **Install Safety**:
 
 ```bash
 pip install safety
 ```
 
-2. **Go to Attendance-API**
+3. **Go to Attendance-API**
 
 ```
 cd attendance-api/
 ```
   
-3. **Run a scan**:
+4. **Run a scan**:
 
 First Run the scan on ``` pyproject.toml``` 
 
