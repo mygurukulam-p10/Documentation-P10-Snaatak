@@ -30,12 +30,11 @@ You can login using your google account or any other account.
 
 **2. Download a standalone executable of Snyk CLI  for your platform and make it executble with below commands
 -**
-
-'''
+```
 curl https://static.snyk.io/cli/latest/snyk-linux -o snyk
 chmod +x ./snyk
 mv ./snyk /usr/local/bin/ 
-'''
+```
 
 ![image](https://github.com/user-attachments/assets/1b1918fc-094d-41ec-94b6-5bdf940c8818)
 
