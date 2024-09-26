@@ -4,8 +4,19 @@
 |--------|-----------|-------|---------|
 |17-09-2024|1|Aayush Gaur| Full Stack Documentation | 
 
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Overall Component Architecture Flow](#overall-component-architecture-flow)
+   * [Frontend Flow](#frontend-flow)
+    * [Database Management](#database-management)
+      *  [Employee API](#employee-api)
+      * [The Attendance API](#the-attendance-api)
+      * [The Salary API](#the-salary-api)
 
-### full stack image
+
+3. [User Flow](#user-flow)
+5. [Conclusion](#conclusion)
+
 ![image](https://github.com/user-attachments/assets/8a3c6bfe-2846-4ba2-9dcb-d8935a3ef2e8)
 
 ## Introduction
@@ -96,7 +107,7 @@ For Refrence Links Below
 * [Redis](https://github.com/mygurukulam-p10/Documention/blob/main/OT%20MS%20Understanding/Redis/Detailed%20Document/README.md)
 
 ### User Flow
-![Alt text](https://prepbytes-misc-images.s3.ap-south-1.amazonaws.com/assets/1673592711181-What%20is%20Full%20Stack%20Development1.png)
+
 ---
 
 | **User Registration Flow* |                
