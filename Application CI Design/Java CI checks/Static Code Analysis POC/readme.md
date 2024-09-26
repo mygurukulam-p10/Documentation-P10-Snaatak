@@ -16,7 +16,6 @@ The purpose of this document is to provide a completed guide to step up Static C
 - [Pre-requisites](#pre-requisites)
 - [System Requirements](#system-requirements)
 - [Step-by-step Installation](#step-by-step-installation)
-- [Conclusion](#conclusion)
 - [Contact Information](#contact-information)
 - [ References](#references)
 
@@ -472,8 +471,7 @@ public class SpringDataSalaryService {
 
 
 
-## ✅Conclusion
-In conclusion, static code analysis is a valuable tool in the software development process, offering benefits such as early detection of bugs, improved code quality, and observe to coding standards.
+
 ##  📧 Contact Information
 | Name | Email address|
 |------|---------------------|
