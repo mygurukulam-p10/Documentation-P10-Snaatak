@@ -1,6 +1,9 @@
 
 # License Scanning : Proof Of Concept - FOSSA
 
+| Author      | Created on  | Version    | Last updated by | Last edited on |
+|-------------|-------------|------------|-----------------|----------------|
+| Amit Nagar  | 24-09-24    | version 1  | Amit Nagar      | 26-09-24       |
 
 ***
 ## Table Of Contents 
