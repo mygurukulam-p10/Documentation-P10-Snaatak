@@ -22,7 +22,7 @@ The purpose of this document is to provide a completed guide to step Unit Testin
 - [📧 Contact Information ](#-contact-information )
 - [📚 References](#-references )
 
-# Introduction
+## Introduction
 This document will guide you through setting up a Python project, including the necessary prerequisites, creating a basic project structure, and adding unit testing capabilities using pytest
 
 ## ⚙ Pre-requisites
@@ -144,7 +144,7 @@ utils/tests/test_validator.py
 pip install voluptuous
 ```
 
-# To check the hoq many test cases is pass 
+## To check the hoq many test cases is pass 
 this command is a common way to run unit tests in Python projects, leveraging the capabilities of the pytest framework.
 ```
 python3 -m pytest
