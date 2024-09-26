@@ -8,7 +8,6 @@
 1. [Introduction](#introduction)
 2. [Authentication vs Authorization](#authentication-vs-authorization)
 3. [SonarQube Authorization Model](#sonarqube-authorization-model)
-   - [Key Components of SonarQube Authorization](#key-components-of-sonarqube-authorization)
 4. [SonarQube Default Groups and Roles](#sonarqube-default-groups-and-roles)
    - [1 Built-in Groups](#1-built-in-groups)
    - [2 Built-in Roles](#2-built-in-roles)
@@ -22,7 +21,7 @@
 8. [Best Practices](#best-practices)
 9. [Conclusion](#conclusion)
 10. [Contact Information](#contact-information)
-11. [Refrences](#refrences)
+11. [References ](#references )
 
 
 
@@ -127,8 +126,9 @@ SonarQube provides a robust authorization model that offers granular control ove
 |Aayush|aayush.gaur.snaatak@mygurukulam.co|
 
 ## References 
-|links | 
-|-------|
-| https://docs.sonarsource.com/sonarqube/latest/instance-administration/security/ |
+|links | Description |
+|-------| -------------|
+| https://docs.sonarsource.com/sonarqube/latest/instance-administration/security/ | SonarQube Security |
+
 
 ---
