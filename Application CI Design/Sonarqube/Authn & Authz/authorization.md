@@ -5,9 +5,9 @@
 | 25-09-2024         | 0.1       | Aayush Gaur  |  SonarQube Authorization          |
 
 ### Table of Contents
-[Introduction to SonarQube Authorization](#introduction-to-sonarqube-authorization)
-[Authentication vs. Authorization](#authentication-vs-authorization)
-3. [SonarQube’s Authorization Model](#sonarqubes-authorization-model)
+   [1. Introduction to SonarQube Authorization](#1-introduction-to-sonarqube-authorization)
+   [2. Authentication vs. Authorization](#2-authentication-vs-authorization)
+   3. [SonarQube’s Authorization Model](#sonarqubes-authorization-model)
 4. [SonarQube Default Groups and Roles](#sonarqube-default-groups-and-roles)
    - [Built-in Groups](#built-in-groups)
    - [Built-in Roles](#built-in-roles)
