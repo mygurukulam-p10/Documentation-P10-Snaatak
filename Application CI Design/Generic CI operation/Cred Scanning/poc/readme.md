@@ -3,9 +3,10 @@
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
 |--------------------|------------|--------------|--------------------------------|
 | 22-09-2024         | 0.1       | Aayush Gaur  | POC: Credential Scanning               |
+| 26-09-2024         | 0.2        | Aayush Gaur  | POC: Credential Scanning               | 
 
 ### Table of Contents
-- [Gitleaks](#gitleaks)
+- [Introduction](#introduction)
 - [How Gitleaks Works](#how-gitleaks-works)
 - [Steps To Install gitleaks](#steps-to-install-gitleaks)
 - [Perform Cred Scanning](#perform-cred-scanning)
@@ -13,19 +14,8 @@
 - [Best Practices](#best-practices)
 - [Refrences](#refrences)
 
-### Gitleaks
-Gitleaks is a tool that helps you find sensitive information (like passwords, API keys, or tokens) accidentally committed into your Git repositories.
-
-- When developers write code, sometimes they mistakenly include secrets (e.g., passwords, API keys, or credentials) in their files and commit them to a Git repository.
-- These secrets can make systems vulnerable if they are exposed publicly or shared with others.
-- Gitleaks scans the repository for these sensitive data leaks, based on common patterns, and alerts you if it finds anything.
-
-### How Gitleaks Works:
-
-- **1. Scan the repository**: Gitleaks looks through the entire Git history, including the current files and past commits.
-- **2. Find secrets**: It detects strings or patterns that look like sensitive information (such as "password = 'secret123'" or api_key = 'abcdef').
-- **3.Report**: It gives a report listing where the leaks are and what kind of secret it found (e.g., password, API key).
-
+### Introduction
+Credential scanning is very important for keeping software and IT environments secure. In the fast-paced tech world, developers often work together on code projects, and sometimes sensitive information like passwords, API keys, or access tokens accidentally ends up in the code. Tools like Gitleaks help by scanning the code to find these hidden risks before they become a problem. By catching these issues early, we can prevent security breaches and keep our systems safe.
 
 ### ⚙️ Pre-requisites for Credential Scanning
 
