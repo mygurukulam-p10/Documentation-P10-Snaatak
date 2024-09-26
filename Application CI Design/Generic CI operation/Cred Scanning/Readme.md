@@ -2,6 +2,7 @@
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
 |--------------------|------------|--------------|--------------------------------|
 | 22-09-2024         | 0.1       | Aayush Gaur  | Credential Scanning               |
+| 26-09-2024         | 0.2        | Aayush Gaur  | POC: Credential Scanning               | 
 
 ### Purpose 
 
