@@ -57,6 +57,14 @@ fossa analyze
 As organizations increasingly recognize the importance of managing open-source components effectively, FOSSA emerges as a valuable tool in safeguarding intellectual property, mitigating legal risks, and promoting secure and compliant software development practices. Its adoption signifies a commitment to transparency, efficiency, and the long-term sustainability of software projects in an ever-evolving landscape of open-source contributions.
 
 
+## Contact Information
+
+| Name       | Email address     |
+|------------|-------------------|
+| Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
+
+
+
 ## References
 
 |     Description                  | References  
