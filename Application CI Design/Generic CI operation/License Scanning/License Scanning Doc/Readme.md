@@ -68,11 +68,8 @@ License Scanning refers to the automated scanning of software dependencies and c
 
 ## Proof of Concept (POC)
 
-### Steps:
-1. **Set up License Scanning Tool** (e.g., FOSSA, Snyk) for a sample Node.js project.
-2. **Integrate License Scanning** into the CI/CD pipeline to automatically detect licensing issues after each code push.
-3. **Run the Pipeline** to trigger license scanning.
-4. **Review the Results** in the tool dashboard to detect and resolve any licensing issues.
+[Here is the POC of Fossa](https://github.com/mygurukulam-p10/Documention/blob/main/Application%20CI%20Design/Generic%20CI%20operation/License%20Scanning/%20License%20Scanning%20POC%20/Readme.md#contact-information)
+
 
 ---
 
