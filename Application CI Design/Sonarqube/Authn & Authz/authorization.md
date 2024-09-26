@@ -5,15 +5,23 @@
 | 25-09-2024         | 0.1       | Aayush Gaur  |  SonarQube Authorization          |
 
 ### Table of Contents
-[Introduction](#introduction)
-  [2. Authentication vs. Authorization?](#2-authentication-vs-authorization)
-  [3.SonarQube Authorization Model](#3-sonarQube-authorization-model)
-  [4. SonarQube Default Groups and Roles](#4-sonarQube-default-groups-and-roles)
-  [5. Project-Level Permissions](#5-project-level-permissions)
-- [Advantages of Credential Scanning](#advantages-of-credential-scanning)
-- [Proof of Concept (POC)](#proof-of-concept-poc)
-- [Best Practices](#best-practices)
-- [Refrences](#refrences)
+1. [Introduction to SonarQube Authorization](#introduction-to-sonarqube-authorization)
+2. [Authentication vs. Authorization](#authentication-vs-authorization)
+3. [SonarQube’s Authorization Model](#sonarqubes-authorization-model)
+4. [SonarQube Default Groups and Roles](#sonarqube-default-groups-and-roles)
+   - [Built-in Groups](#built-in-groups)
+   - [Built-in Roles](#built-in-roles)
+   - [Custom Groups and Roles](#custom-groups-and-roles)
+5. [Project-Level Permissions](#project-level-permissions)
+6. [Global Permissions](#global-permissions)
+7. [Managing Permissions in SonarQube](#managing-permissions-in-sonarqube)
+   - [Assigning Permissions](#assigning-permissions)
+   - [Permission Inheritance](#permission-inheritance)
+   - [User Authentication and Group Mapping](#user-authentication-and-group-mapping)
+8. [Best Practices](#best-practices)
+9. [Auditing and Tracking Authorization](#auditing-and-tracking-authorization)
+10. [Conclusion](#conclusion)
+
 
 ## 1. Introduction to SonarQube Authorization
 SonarQube is a platform for continuous code quality inspection. To maintain the integrity of your projects and their analysis, SonarQube implements an authorization system that restricts access and actions based on the user’s roles and permissions. This document explains SonarQube’s authorization mechanisms and how they help in securing access to project data.
