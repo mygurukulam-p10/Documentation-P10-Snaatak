@@ -31,7 +31,6 @@ Dependency scanning automatically analyzes the third-party libraries that projec
 
 ## Why Perform Dependency Scanning?
 
-❓
 | **Reason**              |             **Description**                                |
 |--------------------------------|-----------------------------------------------------|
 | **🔐Security**                | Identify and fix vulnerabilities in your dependencies. |
@@ -64,11 +63,27 @@ Dependency scanning automatically analyzes the third-party libraries that projec
 
 | Best Practice            | Description                                                                   |
 |--------------------------|-------------------------------------------------------------------------------|
-| **Run Scans Regularly**   | Schedule dependency scans frequently to catch new vulnerabilities.            |
-| **Pin Versions**          | Pin exact versions of dependencies to ensure consistent builds.               |
-| **Update Dependencies**   | Regularly update dependencies to stay secure.                                 |
-| **Use Go Modules**        | Use Go modules (`go.mod`) to manage dependencies efficiently.                  |
+| **🏃‍♂️Run Scans Regularly**   | Schedule dependency scans frequently to catch new vulnerabilities.            |
+| **📌Pin Versions**          | Pin exact versions of dependencies to ensure consistent builds.               |
+| **🔄Update Dependencies**   | Regularly update dependencies to stay secure.                                 |
+| **🗂️Use Go Modules**        | Use Go modules (`go.mod`) to manage dependencies efficiently.                |
 
 ## Conclusion
 
+💼
 For Go projects like **Employee API**, **Snyk** is an outstanding tool for dependency scanning in CI pipelines. It efficiently detects vulnerabilities in third-party libraries, helping to keep the project secure over time. By integrating **Snyk** into our CI process, we can automate these scans and proactively address potential risks, ensuring the ongoing safety and reliability of our application.
+
+## Reference
+
+| Title                                 | Link                                                                                           |
+|---------------------------------------|------------------------------------------------------------------------------------------------|
+|    Snyk Docs  | (https://docs.snyk.io/) |
+|    GoVulnCheck Docs     |   (https://documentation.defectdojo.com/integrations/parsers/file/govulncheck/) |
+
+## Contact Information
+
+For more information on how to setup Github or if you need any guidance, feel free to reach out:
+
+|  Name   | Email Address                                  |
+|---------|------------------------------------------------|
+| Abhinav | abhinav.singh.snaatak@mygurukulam.co           |
