@@ -82,6 +82,13 @@ Please Refer this https://github.com/mygurukulam-p10/Documention/blob/main/Appli
 | **Handle False Positives**| Review flagged data carefully, as scanners can sometimes incorrectly flag harmless information.  |
 | **Use Secrets Managers** | Store secrets (keys, passwords) in secure vaults like AWS Secrets Manager or HashiCorp Vault.     |
 
+### Recommendation
+Chooses GitLeaks for Cred Scanning due to:
+- **Automate Scanning**: Set up GitLeaks to automatically run in your CI/CD pipeline, so any new code is scanned for sensitive data.
+- **Run Regular Audits**: Periodically scan your entire codebase with GitLeaks to catch any missed secrets.
+- **Set Up Alerts**: Enable notifications so that if GitLeaks finds a secret, the team is alerted immediately.
+
+
 
 ### Conclusion
 Credential scanning is an essential practice for maintaining the security and integrity of codebases. By implementing regular scans, Access Controls, Using Secrets Managers, organizations can significantly reduce the risk of exposing sensitive information. GitLeaks offer robust solutions for integrating credential scanning into CI pipelines, ensuring continuous protection against credential leaks.
