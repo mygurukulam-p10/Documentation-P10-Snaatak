@@ -1,6 +1,7 @@
 # 🚀 Setup authenticaion in Version Control System - GITHUB
 
-![image](https://github.com/user-attachments/assets/6d1f7b35-94b0-4866-82f3-7615c7ccbb9c)
+![image](https://github.com/user-attachments/assets/104d6006-91d6-4174-b5dd-9c0353dc94e9)
+
 
 ## Table of Contents
 
