@@ -144,7 +144,7 @@ utils/tests/test_validator.py
 pip install voluptuous
 ```
 
-## To check the hoq many test cases is pass 
+## To check how many test cases have passed (or failed) when using pytest
 this command is a common way to run unit tests in Python projects, leveraging the capabilities of the pytest framework.
 ```
 python3 -m pytest
