@@ -4,10 +4,13 @@
   | Author        | Created on | Version | Last updated by | Last edited on |
   |-------------|---------|-------------|-------------|---------|
   | Vinay Bansal | 23-09-24 | version 1 | Vinay Bansal | 25-09-24 |
+
+## 🔍 Purpose
+The purpose of this document is to provide a completed guide to step code compilation.
+
+  
 ## 📑 Table of Contents
-
-
-- [🔍 Purpose](#-purpose)
+- [Introduction](#introduction)
 - [⚙️ Pre-Requisites](#-pre-requisites)
 - [🖥️ System Requirements](#-system-requirements)
 - [🛠️ Build-Time Dependency](#-build-time-dependency)
@@ -18,8 +21,9 @@
 - [📧 Contact Information ](#-contact-information )
 - [📚 References](#-references )
 
-## 🔍 Purpose
-The Employee REST API is a Golang-based microservice that handles all employee-related transactions within the OT-Microservices. It is fully platform-independent and can be run on any platform.
+
+## Introduction 
+* This document will guide you through a Proof of Concept (PoC) for setting up and compiling . We will cover the necessary prerequisites, including Golang installation, as well as the basic project structure.
 
 ## ⚙ Pre-Requisites
 
@@ -62,13 +66,20 @@ sudo apt install git
 ```
 ### 📂 Step 1: Clone the Git Repository
 ```
-https://github.com/OT-MICROSERVICES/employee-api.git
+git clone https://github.com/OT-MICROSERVICES/salary-api.git
 ```
 
-### Step 2: For Code Compilation
+### Step 2: Change Directory
+Change Directory to where your code is
+```
+cd salary-api
+```
+
+### Step 3: now we have to do Code Compilation
+This command compiles the source code of the project according to the settings defined in the pom.xml file.
 ```
 go build
-./employee-api
+./employee-api```
 ```
 ![ccsuccess](https://github.com/user-attachments/assets/3089ecee-144a-4fc4-a54d-fec1eff6539f)
 
