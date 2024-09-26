@@ -103,4 +103,10 @@ There are several tools available to perform dynamic testing on web applications
 ## 12. References
 
 
-
+| **Reference**                   | **Link**                                                   |
+|---------------------------------|-----------------------------------------------------------|
+| **OWASP ZAP Documentation**     | [OWASP ZAP Documentation](https://www.zaproxy.org/)        |
+| **Burp Suite Documentation**    | [Burp Suite Documentation](https://portswigger.net/burp/documentation) |
+| **Acunetix Documentation**      | [Acunetix Documentation](https://www.acunetix.com/support/) |
+| **AppScan Documentation**       | [AppScan Documentation](https://www.ibm.com/security/appscan) |
+| **Netsparker Documentation**    | [Netsparker Documentation](https://www.netsparker.com/support/) |
