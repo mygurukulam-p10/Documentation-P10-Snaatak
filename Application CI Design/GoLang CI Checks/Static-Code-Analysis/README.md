@@ -12,11 +12,10 @@
 6. [Comparison of Tools](#comparison-of-tools)
 7. [What is Golangci-lint?](#what-is-golangci-lint)
 8. [Advantages and Disadvantages of Golangci-lint](#advantages-and-disadvantages-of-golangci-lint)
-9. [Proof of Concept (PoC)](#proof-of-concept-poc)
-10. [Best Practices for Using Golangci-lint](#best-practices-for-using-golangci-lint)
-11. [Recommendations/Conclusion](#recommendationsconclusion)
-12. [References](#references)
-13. [Contact Information](#contact-information)
+9. [Best Practices for Using Golangci-lint](#best-practices-for-using-golangci-lint)
+10. [Recommendations/Conclusion](#recommendationsconclusion)
+11. [References](#references)
+12. [Contact Information](#contact-information)
 
 ## Introduction 🌟
 Static code analysis is a crucial part of modern software development, especially in CI/CD pipelines. It helps identify potential issues in code before deployment, ensuring higher code quality and maintainability. This documentation focuses on Golangci-lint, a powerful linter for Golang that supports multiple linters and provides comprehensive analysis capabilities.
@@ -64,32 +63,6 @@ Golangci-lint is a popular tool in the Golang ecosystem that aggregates multiple
 | Highly customizable with a variety of options   | Might produce false positives in some cases    |
 | Active community support and regular updates     | Can be overwhelming with too many checks       |
 
-## Proof of Concept (PoC) 🔍
-
-To demonstrate the capabilities of Golangci-lint, here’s a simple setup guide. We will be using our Microservice ```Employee-API```
-
-1. **Clone the Repository**
-```
-https://github.com/OT-MICROSERVICES/employee-api.git
-```
-2. **Install Golangci-lint**:
-   ```
-   sudo snap install golangci-lint --classic
-   ```
-
-![image](https://github.com/user-attachments/assets/22bd2687-6035-47f9-b888-607599dda5b3)
-
-3. **Go to your Application Directory, In my case (Employee-API)**:
-   ```
-   cd employee-api/
-   ```
-![image](https://github.com/user-attachments/assets/a854c2c8-d4f1-4038-9887-47413adad32e)   
-
-4. **Run Golangci-lint on Employee-API**:
-   ```
-   golangci-lint run 
-   ```
-![image](https://github.com/user-attachments/assets/d7e119c5-8eea-4d81-a3c2-dcc932610144)
 
 ## Best Practices for Using Golangci-lint 📏
 - **Configuration**: Customize the `.golangci.yml` file to tailor checks to your project's needs.
