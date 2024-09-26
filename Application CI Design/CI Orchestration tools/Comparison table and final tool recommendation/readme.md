@@ -56,4 +56,6 @@ The purpose of this document is to provide a comprehensive overview of various t
 ## 📚 References 
 |links | Description |
 |-------|------------|
-|
+|Buildpiper Doc|https://github.com/mygurukulam-p10/Documention/tree/main/Application%20CI%20Design/CI%20Orchestration%20tools/Feature%20document%20of%20Buildpiper|
+|GitLab Doc|https://github.com/mygurukulam-p10/Documention/tree/main/Application%20CI%20Design/CI%20Orchestration%20tools/Feature%20document%20of%20GitLab|
+|Jenkins Doc|https://github.com/mygurukulam-p10/Documention/tree/main/Application%20CI%20Design/CI%20Orchestration%20tools/Feature%20document%20of%20Jenkins|
