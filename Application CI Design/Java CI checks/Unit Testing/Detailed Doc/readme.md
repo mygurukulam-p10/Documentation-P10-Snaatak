@@ -13,6 +13,7 @@
 - [Advantages of Unit Testing](#advantages-of-unit-testing)
 - [Proof of Concept (POC)](#proof-of-concept-poc)
 - [Best Practices](#best-practices)
+- [Recommendation](#recommendation)
 - [Conclusion](#conclusion)
 - [Contact Information](#contact-information)
 - [References](#references)
@@ -64,9 +65,9 @@ In Java, common unit testing frameworks include JUnit and TestNG. These framewor
 | **Documentation**            | Well-written unit tests serve as documentation for the expected behavior of code components.          |
 | **Faster Feedback**          | Quick feedback loops help developers address issues early in the development lifecycle.               |
 
-## POC
+## Proof of Concept (POC)
 
-### Best Practices
+## Best Practices
 | **Best Practice**                | **Explanation**                                                                                                     |
 |----------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | **Write Small, Isolated Tests**  | Each test should focus on a single piece of functionality.                                                           |
@@ -76,10 +77,21 @@ In Java, common unit testing frameworks include JUnit and TestNG. These framewor
 | **Ensure Code Coverage**         | Strive for high code coverage without sacrificing test quality.                                                      |
 | **Automate Test Execution**      | Integrate unit testing into CI pipelines to catch issues early.                                                      |
 
-### Recommendation
+## Recommendation
+ JUnit is the recommended choice for performing unit testing in Java due to its:
 - **Standardization**: Widely accepted in Java development.
 - **Integration**: Seamless integration with popular IDEs.
 - **Ease of Learning**: Simple syntax for quick adoption.
 - **Community Support**: Large and active community for ongoing assistance.
 - **Parallel Execution**: Improved support for optimizing test suite performance.
 - **Compatibility**: Works well with Maven and Gradle for versatile project setups.
+
+## Conclusion
+Unit testing is a foundational practice in modern CI pipelines, helping to ensure the quality and reliability of software. Java developers have access to a variety of tools for writing and running unit tests, but JUnit stands out as a practical, effective solution for most projects.
+
+### Contact Information 
+|Name|Email Address|
+|:---:|:---:|
+|Aayush|aayush.gaur.snaatak@mygurukulam.co|
+
+## References 
