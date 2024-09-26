@@ -4,7 +4,7 @@
   |-------------|---------|-------------|-------------|---------|
   | Aayush Gaur | 24-09-24 | version 1 | Aayush Gaur | Intial Commit |
 
-##@ Table of Contents
+## Table of Contents
 - [Introduction](#introduction)
 
 ### Introduction
