@@ -2,6 +2,17 @@
 
 ![Screenshot from 2024-09-26 12-19-20](https://github.com/user-attachments/assets/78ffa655-6866-43c8-a443-870e3ed92f63)
 
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [SonarQube Built-in Authentication](#sonarqube-built-in-authentication)
+3. [External Authentication Methods](#external-authentication-methods)
+4. [Token-Based Authentication](#token-based-authentication)
+5. [SAML Authentication](#saml-authentication)
+6. [Security Best Practices](#security-best-practices)
+7. [Conclusion](#conclusion)
+8. [Contact Information](#contact-information)
+9. [References](#references)
 
 ## Introduction
 **SonarQube** is a popular tool for continuous code quality inspection. It helps developers to detect bugs, code smells, and security vulnerabilities in their codebases. Ensuring secure access to SonarQube is essential for protecting the project codebase and the analysis data. This is where **authentication** comes into play.
@@ -17,7 +28,7 @@ After installing SonarQube, the platform comes with a default built-in admin acc
 
 It is crucial to change this default password to avoid unauthorized access. The administrator can change the password in the user settings after the first login.
 
-### 1 Managing Users and Groups
+### 2 Managing Users and Groups
 SonarQube’s built-in user management allows administrators to create users and groups directly within the platform.
 
 - **User Management**: Administrators can create, update, and delete user accounts. These users are authenticated locally by SonarQube.
