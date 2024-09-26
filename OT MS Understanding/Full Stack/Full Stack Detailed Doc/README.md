@@ -127,9 +127,7 @@ For Refrence Links Below
 ---
 ### Conclusion
 ![Alt text](https://github.com/mygurkulam-p9/documentation/assets/160397748/bf2a9eaf-05c9-47e9-bb35-f533e42d02bc)
-In this document We can assume that above flow diagrams are explaining more with the help of there purticular Terms .
-This document provided a detailed overview of the fullstack application architecture, including component diagrams and user flow diagrams.
-Here we interconnect all three API's with frontend 
+This document gives a clear overview of full-stack development for the OT-MICROSERVICES project. It explains how the front end and back end work together and shares important practices for building strong and easy-to-maintain applications. 
 
 ## Contact Information
 
