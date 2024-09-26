@@ -1,4 +1,4 @@
-# Golang CI Checks - Static Code Analysis - Proof of Concept 🚀
+# Python CI Checks - Dependency Scanning - Proof of Concept 🚀
 
 | Author | Created on | Version | Last updated by | Last edited on |
 |--------|------------|---------|----------------|----------------|
@@ -15,7 +15,8 @@
 6. [Contact Information](#contact-information)
 
 ## Purpose 🎯
-The purpose of this documentation is to provide a comprehensive overview of static code analysis in Golang using Golangci-lint. It aims to guide developers and teams in integrating Golangci-lint into their CI/CD workflows, emphasizing best practices, benefits, and practical implementation steps.
+This document aims to provide a comprehensive overview of dependency scanning in Python project like we have or ```Attendance-API``` , emphasizing its importance in Continuous Integration (CI) pipelines.
+
 
 ## Pre-requisites
 
@@ -32,58 +33,72 @@ The purpose of this documentation is to provide a comprehensive overview of stat
 
 | Name     | Version | Description                              |
 |----------|---------|------------------------------------------|
-| Golang   | 1.18.1  | Programming language for the application |
+| Python   | 1.18.1  | Programming language for the application |
+| pip      |         |                                          |
 
 ## Architecture
 
-![Employee](https://github.com/user-attachments/assets/6d888dad-2486-477f-a438-16ff486de2d5)
+![attendance API](https://github.com/user-attachments/assets/484397af-313f-4890-b11e-4de7f849620b)
 
 ## Step-by-step installation
 
-To demonstrate the capabilities of Golangci-lint, here’s a simple setup guide. We will be using our Microservice ```Employee-API```
+Safety is a command-line tool that checks your installed dependencies for known security vulnerabilities. To demonstrate the capabilities of ```Safety```, here’s a simple setup guide. We will be using our Microservice ```Employee-API```
 
 1. **Clone the Repository**
 
 ```
-https://github.com/OT-MICROSERVICES/employee-api.git
-```
-
-2. **Install Golangci-lint**:
-
-```
-sudo snap install golangci-lint --classic
+https://github.com/OT-MICROSERVICES/attendance-api.git
 ```
 
 
-![image](https://github.com/user-attachments/assets/87fb9498-be1b-40cd-a35f-ae3a52b4b66c)
+1. **Install Safety**:
 
-
-3. **Go to your Application Directory, In my case (Employee-API)**:
-
-```
-cd employee-api/
+```bash
+pip install safety
 ```
 
-
-![image](https://github.com/user-attachments/assets/7e012efe-10d5-4d1c-b8ec-062060c46374)
- 
-4. **Run Golangci-lint on Employee-API**:
+2. **Go to Attendance-API**
 
 ```
-golangci-lint run 
+cd attendance-api/
+```
+  
+3. **Run a scan**:
+
+First Run the scan on ``` pyproject.toml``` 
 
 ```
+safety check -r pyproject.toml 
+```
+![image](https://github.com/user-attachments/assets/54417b55-4943-46e8-aa1b-4c61967b62ff)
 
-![image](https://github.com/user-attachments/assets/8ba89f07-6075-43f2-bff6-df06e626d2d9)
+Now Run the scan on ```poetry.lock```
 
-## References 📚
+```
+safety check -r poetry.lock
+```
 
-| Reference                                     | Link                                                  |
-|-----------------------------------------------|-------------------------------------------------------|
-| Golangci-lint GitHub Repository               | [GitHub](https://github.com/mygurukulam-p10/Documention/edit/main/Application%20CI%20Design/GoLang%20CI%20Checks/Static-Code-Analysis/README.md)  |
-| Go Blog on Linting                           | [Go Blog](https://blog.golang.org/lint)               |
-| Static Analysis Tools for Go                 | [Static Analysis](https://golang.org/doc/code.html#staticanalysis) |
-| CI/CD Best Practices                          | [Atlassian](https://www.atlassian.com/continuous-delivery/ci-vs-ci) |
+![image](https://github.com/user-attachments/assets/62fcc804-4260-4529-ac2e-02e69df57197)
+![image](https://github.com/user-attachments/assets/dece325d-abbc-4a78-a744-f713666dca35)
+![image](https://github.com/user-attachments/assets/e257b470-898c-4e19-b479-2a2714b21d20)
+
+
+This configuration will run a safety check on every request, scanning the `pyproject.toml` and `poetry.lock` file for known vulnerabilities as in our ```ATTENDANCE-API``` , We are having these 2 files.
+
+![image](https://github.com/user-attachments/assets/732e63c8-d8d9-4aa7-afd3-ba304a1dea5f)
+![image](https://github.com/user-attachments/assets/dd51547e-3445-44e4-81da-e09368ec99a1)
+
+
+## 📚 References
+
+| **Reference**                                                  | **Link**                                                                                          |
+|---------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| **Safety Documentation**                                      | [Safety Docs](https://pyup.io/safety/)                                                           |
+| **Snyk Python Documentation**                                 | [Snyk Docs](https://docs.snyk.io/products/snyk-open-source/language-and-package-manager-support/snyk-for-python) |
+| **GitHub Dependency Scanning Documentation**                           | [Dependabot Docs](https://github.com/mygurukulam-p10/Documention/edit/main/Application%20CI%20Design/Python%20CI%20Checks/Dependency%20Scanning/README.md)                          |
+| **pip-audit Documentation**                                   | [pip-audit Docs](https://pypi.org/project/pip-audit/)                                          |
+| **OWASP Dependency-Check**                                   | [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/)                       |
+
 
 ## 📧 Contact Information
 
