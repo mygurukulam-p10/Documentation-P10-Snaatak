@@ -6,9 +6,13 @@
 
 ### Table of Contents
 [Introduction](#introduction)
+
 [2. Authentication vs. Authorization?](#2-authentication-vs-authorization)
+
 [3.SonarQube Authorization Model](#3-sonarQube-authorization-model)
+
 [4. SonarQube Default Groups and Roles](#4-sonarQube-default-groups-and-roles)
+
 [5. Project-Level Permissions](#5-project-level-permissions)
 - [Advantages of Credential Scanning](#advantages-of-credential-scanning)
 - [Proof of Concept (POC)](#proof-of-concept-poc)
