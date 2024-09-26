@@ -1,5 +1,25 @@
 # Java CI Checks | DAST Documentation
 
+
+1. [Introduction](#1-introduction)
+2. [What are Java CI Checks?](#2-what-are-java-ci-checks)
+   - [Key Components](#21-key-components)
+3. [What is DAST?](#3-what-is-dast)
+   - [Key Features of DAST](#31-key-features-of-dast)
+4. [Why Use DAST?](#4-why-use-dast)
+   - [Benefits of DAST](#41-benefits-of-dast)
+5. [Different DAST Tools](#5-different-dast-tools)
+   - [Popular DAST Tools](#51-popular-dast-tools)
+6. [Comparison of DAST Tools](#6-comparison-of-dast-tools)
+7. [Advantages of Using DAST](#7-advantages-of-using-dast)
+8. [Proof of Concept (POC)](#8-proof-of-concept-poc)
+9. [Best Practices for Java CI Checks and DAST](#9-best-practices-for-java-ci-checks-and-dast)
+10. [Recommendation and Conclusion](#10-recommendation-and-conclusion)
+11. [Contact Information](#11-contact-information)
+12. [References](#12-references)
+
+
+    
 ## 1. Introduction
 
 This documentation outlines the implementation and best practices of integrating Java CI checks and Dynamic Application Security Testing (DAST) in a CI/CD pipeline. The goal is to ensure code quality, security compliance, and continuous security scanning as part of the development lifecycle.
