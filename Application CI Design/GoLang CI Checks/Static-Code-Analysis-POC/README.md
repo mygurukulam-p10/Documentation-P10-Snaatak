@@ -80,7 +80,7 @@ golangci-lint run
 
 | Reference                                     | Link                                                  |
 |-----------------------------------------------|-------------------------------------------------------|
-| Golangci-lint GitHub Repository               | [GitHub](https://github.com/golangci/golangci-lint)  |
+| Golangci-lint GitHub Repository               | [GitHub](https://github.com/mygurukulam-p10/Documention/edit/main/Application%20CI%20Design/GoLang%20CI%20Checks/Static-Code-Analysis/README.md)  |
 | Go Blog on Linting                           | [Go Blog](https://blog.golang.org/lint)               |
 | Static Analysis Tools for Go                 | [Static Analysis](https://golang.org/doc/code.html#staticanalysis) |
 | CI/CD Best Practices                          | [Atlassian](https://www.atlassian.com/continuous-delivery/ci-vs-ci) |
