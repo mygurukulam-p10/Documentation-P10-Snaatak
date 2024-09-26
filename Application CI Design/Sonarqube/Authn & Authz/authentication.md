@@ -148,7 +148,7 @@ SonarQube provides flexible authentication mechanisms, from local user managemen
 ## References 
 |links | Description |
 |-------| -------------|
-| https://docs.sonarsource.com/sonarqube/latest/instance-administration/security/ | SonarQube Secyrity |
+| https://docs.sonarsource.com/sonarqube/latest/instance-administration/security/ | SonarQube Security |
 
 ---
 
