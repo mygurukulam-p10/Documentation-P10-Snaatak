@@ -15,6 +15,7 @@ The purpose of this document is to provide a completed guide to step up Static C
 - [Introduction](#introduction)
 - [Pre-requisites](#pre-requisites)
 - [System Requirements](#system-requirements)
+- [Architecture](#architecture)
 - [Step-by-step Installation](#step-by-step-installation)
 - [Contact Information](#contact-information)
 - [ References](#references)
@@ -37,6 +38,10 @@ The purpose of this document is to provide a completed guide to step up Static C
 | RAM                      | 2 GB                    |
 | Disk                     |5 GB free disk space                  |
 | OS                       | Ubuntu 22.04 LTS         |
+
+## Architecture
+![image](https://github.com/user-attachments/assets/d4e0cc34-12d3-48a0-bc79-c20c948b1034)
+
 
 ##  Step-by-step Installation
 
