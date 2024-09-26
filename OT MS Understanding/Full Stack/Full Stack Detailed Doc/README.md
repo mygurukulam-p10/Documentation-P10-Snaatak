@@ -118,12 +118,13 @@ For Refrence Links Below
 ---
 
 | **Data Processing Flow** |                                                                                        
-|---------------------------|-
+|---------------------------|
 | Data is submitted from the frontend. |                                                               
 | The backend processes the data. |                                                                         
 | Data is validated and transformed. |                                                                
 | Processed data is stored in the database. |                                                           
-| Confirmation is sent back to the frontend. |                                                       
+| Confirmation is sent back to the frontend. |      
+                                                 
 ---
 ### Conclusion
 This document gives a clear overview of full-stack development for the OT-MICROSERVICES project. It explains how the front end and back end work together and shares important practices for building strong and easy-to-maintain applications. 
