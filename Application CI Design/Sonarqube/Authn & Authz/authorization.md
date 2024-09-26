@@ -1,9 +1,24 @@
 # SonarQube Authorization
 
+| 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
+|--------------------|------------|--------------|--------------------------------|
+| 25-09-2024         | 0.1       | Aayush Gaur  |  SonarQube Authorization          |
+
+### Table of Contents
+- [Introduction](#introduction)
+- [2. Authentication vs. Authorization?](#2-authentication-vs-authorization)
+- [Why Credential Scanning?](#why-credential-scanning)
+- [Tools for Credential Scanning](#tools-for-credential-scanning)
+- [Comparison of Credential Scanning Tools](#comparison-of-credential-scanning-tools)
+- [Advantages of Credential Scanning](#advantages-of-credential-scanning)
+- [Proof of Concept (POC)](#proof-of-concept-poc)
+- [Best Practices](#best-practices)
+- [Refrences](#refrences)
+
 ## 1. Introduction to SonarQube Authorization
 SonarQube is a platform for continuous code quality inspection. To maintain the integrity of your projects and their analysis, SonarQube implements an authorization system that restricts access and actions based on the user’s roles and permissions. This document explains SonarQube’s authorization mechanisms and how they help in securing access to project data.
 
-## 2. Authentication vs. Authorization
+## 2. Authentication vs Authorization
 - **Authentication** refers to the process of verifying a user's identity, typically through credentials like usernames and passwords.
 - **Authorization** determines what actions a user can perform after they are authenticated. In SonarQube, authorization is managed through roles and permissions.
 
@@ -64,7 +79,7 @@ Global permissions can be inherited at the project level, but administrators can
 ### 7.3 User Authentication and Group Mapping
 If using external authentication systems (like LDAP or SAML), users can be automatically mapped to groups based on their roles in the external directory. This reduces manual intervention in managing group memberships.
 
-## 8. Best Practices for SonarQube Authorization
+## 8. Best Practices
 
 ### 8.1 Principle of Least Privilege
 Always follow the **principle of least privilege**: Users should only be granted the minimum level of access necessary to perform their tasks. This reduces the risk of unauthorized changes or data breaches.
