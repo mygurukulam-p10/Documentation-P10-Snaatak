@@ -54,14 +54,6 @@ If any of these are found in the code, they could be a security risk because att
 
 ### Comparison of Credential Scanning Tools
 
-| Tool          | Features                                        | Strengths                            | Limitations                   |
-|---------------|-------------------------------------------------|--------------------------------------|------------------------------|
-| **GitGuardian** | Real-time monitoring and alerts                 | Catches issues immediately           | Expensive for larger teams    |
-| **TruffleHog**  | Scans for high-entropy strings (like API keys)  | Works with many data types           | Can produce false positives   |
-| **Gitleaks**    | Simple command-line tool                        | Lightweight and easy to use          | Lacks detailed dashboards     |
-| **AWS Macie**   | Finds sensitive data in AWS storage             | Works best with AWS                  | Only works in AWS             |
-| **SpectralOps** | Customizable with APIs                          | Works well with large projects       | Hard to set up for small teams |
-
 | Tool         | Features                                                                 | Strengths                                                            | Limitations                                                     |
 |--------------|--------------------------------------------------------------------------|----------------------------------------------------------------------|-----------------------------------------------------------------|
 | **GitGuardian** | 1. Real-time monitoring and alerts <br> 2. Integration with GitHub, GitLab <br> 3. Detects hardcoded secrets and sensitive data | 1. Catches issues immediately <br> 2. Easy to integrate into CI/CD <br> 3. Provides detailed alerts and reports | 1. Expensive for larger teams <br> 2. Limited free tier for small teams <br> 3. Can be overwhelming with too many alerts |
@@ -70,7 +62,7 @@ If any of these are found in the code, they could be a security risk because att
 | **AWS Macie**   | 1. Uses machine learning to classify sensitive data <br> 2. Works seamlessly with AWS services (S3, etc.) <br> 3. Detects personally identifiable information (PII) | 1. Tailored for AWS environments <br> 2. Automatic classification of sensitive data <br> 3. Can handle large volumes of data | 1. Limited to AWS services <br> 2. Cost can escalate with usage <br> 3. Not suitable for non-AWS projects |
 | **SpectralOps** | 1. Customizable with APIs for more control <br> 2. Scans code and configuration files <br> 3. Supports multiple integrations (Jenkins, GitLab, etc.) | 1. Works well with large projects <br> 2. Good for complex workflows <br> 3. Supports multiple file formats and environments | 1. Hard to set up for small teams <br> 2. Complex configuration <br> 3. Can require expert knowledge for customization |
 | **Shhgit**      | 1. Scans public GitHub repositories in real-time <br> 2. Lightweight and efficient <br> 3. Easy to deploy | 1. Great for monitoring public repos <br> 2. Real-time scanning of new commits <br> 3. Detects secrets as soon as they are pushed | 1. Limited to public repositories <br> 2. No advanced integrations <br> 3. Doesn’t scan private repositories |
-| **Talisman**    | 1. Works as a pre-commit hook to block sensitive data <br> 2. Prevents credentials from being committed <br> 3. Configurable to suit organizational policies | 1. Prevents secrets from entering Git in the first place <br> 2. Lightweight and easy to add to Git workflows <br> 3. Flexible and configurable for different file types | 1. Limited to pre-commit hooks <br> 2. Only works with Git, no history scanning <br> 3. Requires manual setup and configuration |
+
 
 
 ### Advantages of Credential Scanning
