@@ -66,20 +66,21 @@ Gitleaks can be installed using Homebrew, Docker, or Go. Gitleaks is also availa
 
 
 **Step 2**. Download the latest version of Gitleaks
+
 Copy the URL of latest version and paste it.
 ```
 wget https://github.com/gitleaks/gitleaks/releases/download/v8.19.2/gitleaks_8.19.2_linux_x64.tar.gz
 ```
 ![Screenshot from 2024-09-25 18-20-51](https://github.com/user-attachments/assets/1cf6a017-83a6-4081-84e7-e8b088f03848)
 
-**Step 3**: Extract
-Extract the file by using below command
+**Step 3**: Extract the file by using below command
 ```
 tar -zxvf gitleaks_8.19.2_linux_x64.tar.gz
 ```
 ![Screenshot from 2024-09-25 18-26-31](https://github.com/user-attachments/assets/6e8145fa-10c2-4c30-8d32-e3dd54027bc1)
 
 **Step 4**: Copy gitleaks file to /usr/local/bin
+
 After extracting the file, copy the file into this path
 ```
 sudo cp gitleaks /usr/local/bin/
@@ -96,6 +97,7 @@ cd <repo>
 ```
 
 **Step 2** Now run this below command to scan 
+
 Run this command it we show the result if any sensitive information detected
 ```
 gitleaks detect -v
