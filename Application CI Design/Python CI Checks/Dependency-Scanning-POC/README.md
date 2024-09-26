@@ -40,7 +40,7 @@ This document aims to provide a comprehensive overview of dependency scanning in
 
 ![attendance API](https://github.com/user-attachments/assets/484397af-313f-4890-b11e-4de7f849620b)
 
-```Note :- I am using **safety** as a Dependency Scanning tool in my POC.```
+### Note :- I am using safety as a Dependency Scanning tool in my POC.
 
 ## Step-by-step installation
 
