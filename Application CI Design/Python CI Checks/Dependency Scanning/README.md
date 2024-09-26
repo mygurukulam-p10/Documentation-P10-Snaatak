@@ -58,43 +58,6 @@ Here’s a simplified comparison of Python dependency scanning tools with emojis
 | **⚠️ Update Conflicts**                   | Suggested security updates may conflict with other dependencies or application requirements.                |
 | **📊 False Positives**                    | Some tools may report vulnerabilities that don't apply to your specific use case.                          |
 
-Note :- I am using ```safety``` as a Dependency Scanning tool in my POC.
-
-## 💡 Proof of Concept: Using Safety for Dependency Scanning
-
-Safety is a command-line tool that checks your installed dependencies for known security vulnerabilities. Here's how I am integrate it into my microservice of **ATTENDANCE-API**:
-
-1. **Install Safety**:
-   ```bash
-   pip install safety
-   ```
-2. **Go to Attendance-API**
-   ```
-   cd attendance-api/
-   ```
-  
-2. **Run a scan**:
-  First Run the scan on ``` pyproject.toml``` 
-   ```
-   safety check -r pyproject.toml 
-   ```
-![image](https://github.com/user-attachments/assets/54417b55-4943-46e8-aa1b-4c61967b62ff)
-
-  Now Run the scan on ```poetry.lock```
-  ```
-  safety check -r poetry.lock
-  ```
-
-![image](https://github.com/user-attachments/assets/62fcc804-4260-4529-ac2e-02e69df57197)
-![image](https://github.com/user-attachments/assets/dece325d-abbc-4a78-a744-f713666dca35)
-![image](https://github.com/user-attachments/assets/e257b470-898c-4e19-b479-2a2714b21d20)
-
-
-This configuration will run a safety check on every request, scanning the `pyproject.toml` and `poetry.lock` file for known vulnerabilities as in our ```ATTENDANCE-API``` , We are having these 2 files.
-
-![image](https://github.com/user-attachments/assets/732e63c8-d8d9-4aa7-afd3-ba304a1dea5f)
-![image](https://github.com/user-attachments/assets/dd51547e-3445-44e4-81da-e09368ec99a1)
-
 
 ## 🛡️ Best Practices for Dependency Scanning
 
