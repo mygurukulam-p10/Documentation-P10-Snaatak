@@ -5,7 +5,7 @@
 
 1. [Purpose](#purpose)
 2. [What is Dependency Scanning](#what-is-dependency-scanning)
-3. [Different Tools for Go Dependency Scanning](#different-tools-for-go-dependency-scanning)
+3. [Different Tools for Go Dependency Scanning and it's Comparison](#different-tools-for-go-dependency-scanning and-it's-comparison)
 4. [Advantages and Disadvantages of Dependency Scanning](#advantages-and-disadvantages-of-dependency-scanning)
 5. [Best Practices for Dependency Scanning](#best-practices-for-dependency-scanning)
 6. [Conclusion](#conclusion)
@@ -16,16 +16,11 @@
 
 This document provides a comprehensive guide on implementing effective dependency scanning in Go projects, focusing on the utilization of Snyk as a robust tool for identifying and addressing vulnerabilities within your software's dependencies. The goal is to equip you with the knowledge and practical steps to ensure the security of your Go applications throughout the development and deployment lifecycle.
 
-## Introduction
-
-In Go projects, scanning for vulnerable dependencies is essential for maintaining security. Dependency scanning in CI pipeline helps detect potential risks in the external libraries that the project relies on, ensuring that codebase stays secure.
 
 ## What is Dependency Scanning
 
 Dependency scanning is a security practice that involves analyzing an application's dependencies (external libraries, frameworks, and packages) for known vulnerabilities. These dependencies, while often essential for development efficiency, can introduce security risks if not properly managed.
 
-
-## Why Perform Dependency Scanning?
 
 | **Reason**              |             **Description**                                |
 |--------------------------------|-----------------------------------------------------|
@@ -34,7 +29,7 @@ Dependency scanning is a security practice that involves analyzing an applicatio
 | **🔧Maintenance**             | Keep dependencies updated to avoid technical issues.|
 | **📉 Risk Management**         | Proactively manage risks from third-party code.  |
 
-## Different Tools for Python Dependency Scanning and it's Comparision
+## Different Tools for Go Dependency Scanning and it's Comparision
 
 
 | Tool              | Description                                               | Key Features                                   | License          | Integration                          | Pros                                          | Cons                                         |
