@@ -9,10 +9,9 @@
 2. [Pre-requisites](#pre-requisites)
    - [System Requirements](#system-requirements)
    - [Dependencies](#dependencies)
-3. [Architecture](#architecture)
-4. [Step-by-step installation](#step-by-step-installation)
-5. [References](#references)
-6. [Contact Information](#contact-information)
+3. [Step-by-step installation](#step-by-step-installation)
+4. [References](#references)
+5. [Contact Information](#contact-information)
 
 ## Purpose 🎯
 This document aims to provide a comprehensive overview of dependency scanning in Python project like we have or ```Attendance-API``` , emphasizing its importance in Continuous Integration (CI) pipelines.
@@ -36,9 +35,6 @@ This document aims to provide a comprehensive overview of dependency scanning in
 | Python   | 3.10    | Programming language for the application |
 | pip      | 22.0.2  | To manage python packages and it's dependencies|
 
-## Architecture
-
-![attendance API](https://github.com/user-attachments/assets/484397af-313f-4890-b11e-4de7f849620b)
 
 ### Note :- I am using safety as a Dependency Scanning tool in my POC.
 
