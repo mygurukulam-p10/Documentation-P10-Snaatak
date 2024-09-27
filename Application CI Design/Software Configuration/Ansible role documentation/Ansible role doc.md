@@ -91,7 +91,6 @@ To use the role in your playbooks, you can include it as follows:
 - **Idempotency**: Ensure that the role is idempotent—running it multiple times should yield the same result.
 - **Thorough Testing**: Test the role thoroughly before deployment.
 - **Version Control**: Use version control to manage changes to the role.
-- **Parameterization**: Parameterize the role to allow for flexibility in configurations.
 - **Tags**: Apply tags to tasks for selective execution during playbooks.
 
 ## Advanced Role Concepts
