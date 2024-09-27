@@ -35,23 +35,24 @@ Dependency scanning is a security practice that involves analyzing an applicatio
 
 ## Different Tools for Go Dependency Scanning
 
+| Tool            | Description                                       | Key Features                                      | Pros                                         | Cons                                        |
+|-----------------|---------------------------------------------------|--------------------------------------------------|----------------------------------------------|---------------------------------------------|
+| 🛡️ **Snyk**       | Scans for security issues in open-source code.    | - Monitors `go.mod` <br> - Suggests fixes         | - Large database of issues <br> - Fix recommendations | - Some features require payment             |
+| 🤖 **Dependabot** | Automatically updates dependencies in GitHub.    | - Creates PRs for updates <br> - Works with GitHub | - Automates updates                          | - Only works with GitHub                    |
+| 🚨 **GoVulnCheck** | Scans Go modules for security vulnerabilities.   | - Checks `go.mod` <br> - Simple reports           | - Made for Go <br> - Easy to use             | - Limited features                          |
+| 🔍 **FOSSA**      | Scans for security and license issues.           | - Checks license compliance <br> - Security reports | - Good for projects needing compliance       | - Too complex for smaller projects          |
 
-| Tool              | Description                                               | Key Features                                   | License          | Integration                          | Pros                                          | Cons                                         |
-|-------------------|-----------------------------------------------------------|------------------------------------------------|------------------|--------------------------------------|-----------------------------------------------|----------------------------------------------|
-| **🛡️Snyk**        | Comprehensive vulnerability scanner for open-source dependencies. | - Monitors `go.mod`<br> - Provides fix suggestions | Free & Paid Plans | CLI, CI/CD, GitHub, GitLab           | - Large vulnerability database.<br> - Fix recommendations. | - Advanced features require a paid plan.     |
-| **🤖Dependabot**   | Automated dependency updates in GitHub.                   | - Auto PRs for updates.<br> - GitHub integration. | Free             | GitHub                               | - Automates dependency updates.               | - GitHub-only.                               |
-| **🚨GoVulnCheck**  | Checks Go modules for vulnerabilities.                   | - Scans `go.mod`.<br> - Simple reports.         | Open Source (Go Team) | CLI, CI/CD                           | - Native Go tool.                             | - Limited features.                          |
-| **🔍FOSSA**        | Security and license compliance scanner.                 | - Monitors for license compliance.<br> - Vulnerability reports. | Free & Paid Plans | CI/CD, GitHub, GitLab                | - Ideal for compliance-heavy projects.        | - Overly complex for smaller projects.       |
+
 
 ## Advantages and Disadvantages of Dependency Scanning
 
-| Advantage/Disadvantage | Description                                                              |
-|------------------------|--------------------------------------------------------------------------|
-| **🔍 Early Detection**  | Find security issues before they affect your project.                   |
-| **🤖 Automated Checks** | Easily integrate into CI pipelines to automate scanning.                |
-| **⚖️ Compliance**        | Ensure your project meets security and licensing standards.             |
-| **⚠️ Update Conflicts**  | Some updates may cause compatibility issues with other libraries.       |
-| **📊 False Positives**   | Some vulnerabilities might not be relevant to your specific use case.   |
+| Benefit                        | Drawback                                      |
+|---------------------------------|-----------------------------------------------|
+| **Security:** Detects vulnerabilities           | **False Positives:** Unnecessary alerts              |
+| **License Compliance:** Ensures legal use       | **Resource Intensive:** High CPU/memory usage        |
+| **Reduced Manual Effort**                       | **Over-Patching:** Upgrades may break functionality  |
+| **Improves Dependency Hygiene**                 | **Frequent Tool Updates:** Tools need regular updating |
+
 
 # Best Practices for Dependency Scanning
 
