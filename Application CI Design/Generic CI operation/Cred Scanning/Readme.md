@@ -62,8 +62,6 @@ If any of these are found in the code, they could be a security risk because att
 | **Gitleaks**    | 1. Simple command-line interface (CLI) <br> 2. CI/CD pipeline integration <br> 3. Scans Git history and pre-commit hooks | 1. Lightweight and fast <br> 2. Easy to use and set up <br> 3. Open-source and free to use | 1. Lacks advanced dashboards <br> 2. Minimal reporting features <br> 3. Less comprehensive for large, complex projects |
 | **AWS Macie**   | 1. Uses machine learning to classify sensitive data <br> 2. Works seamlessly with AWS services (S3, etc.) <br> 3. Detects personally identifiable information (PII) | 1. Tailored for AWS environments <br> 2. Automatic classification of sensitive data <br> 3. Can handle large volumes of data | 1. Limited to AWS services <br> 2. Cost can escalate with usage <br> 3. Not suitable for non-AWS projects |
 | **SpectralOps** | 1. Customizable with APIs for more control <br> 2. Scans code and configuration files <br> 3. Supports multiple integrations (Jenkins, GitLab, etc.) | 1. Works well with large projects <br> 2. Good for complex workflows <br> 3. Supports multiple file formats and environments | 1. Hard to set up for small teams <br> 2. Complex configuration <br> 3. Can require expert knowledge for customization |
-| **Shhgit**      | 1. Scans public GitHub repositories in real-time <br> 2. Lightweight and efficient <br> 3. Easy to deploy | 1. Great for monitoring public repos <br> 2. Real-time scanning of new commits <br> 3. Detects secrets as soon as they are pushed | 1. Limited to public repositories <br> 2. No advanced integrations <br> 3. Doesn’t scan private repositories |
-
 
 
 ### Advantages of Credential Scanning
