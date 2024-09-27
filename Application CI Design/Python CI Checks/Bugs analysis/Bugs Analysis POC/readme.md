@@ -117,5 +117,6 @@ Bandit helps developers identify security issues in Python applications, making 
 
 ## References
 Python Bugs Analysis Documentation[here](https://github.com/mygurukulam-p10/Documention/tree/main/Application%20CI%20Design/Python%20CI%20Checks/Bugs%20analysis/Bug%20analysis%20Doc)
-[HERE](https://pypi.org/project/bandit/)
+
+Bandit [HERE](https://pypi.org/project/bandit/)
 
