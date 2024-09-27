@@ -1,5 +1,5 @@
 
-# 🐍 Python Bugs Analysis
+# 🐍 Python Bugs Analysis Documentation
 
 # 🚀
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
