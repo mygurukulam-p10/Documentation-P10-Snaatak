@@ -38,17 +38,21 @@ Here are some of the most popular tools for analyzing and fixing bugs in Python:
 # Project Code Quality, Security, and Error Tracking Tools
 
 This project uses several tools to enhance code quality, enforce coding standards, detect errors, secure the codebase, and track runtime issues. Below is a summary of each tool, its description and purpose.
+# Code Quality, Security, and Error Tracking Tools
 
-| **Tool**          | **Description**                                                                                     | **Purpose**                                                                                     |
-|-------------------|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
-| **PyLint**        | A linting tool that finds coding errors and enforces coding standards.                             | Improves code quality by catching errors and enforcing best practices.                        |
-| **Flake8**        | Combines PyFlakes, pycodestyle, and McCabe for code linting and style checks.                      | Ensures code adheres to PEP 8, detects errors, and measures complexity.                       |
-| **Bandit**        | A security analysis tool that finds common security vulnerabilities in Python code.                | Identifies and helps fix security flaws to reduce the risk of vulnerabilities.                |
-| **MyPy**          | A static type checker that enforces type hints and checks for type-related errors.                 | Catches type inconsistencies, enhancing code reliability and readability.                     |
-| **Sentry**        | Real-time error tracking tool that captures runtime errors and provides insights.                  | Tracks and logs errors in production to help diagnose and fix issues faster.                  |
-| **Debugger (pdb)**| Python’s built-in interactive debugger for stepping through code and inspecting variables.         | Allows in-depth inspection of code execution to identify and fix bugs.                        |
+This project uses several tools to improve code quality, check for errors, ensure security, and track problems. Below is a quick overview of each tool, including what it does and why it's useful.
 
-Each tool plays a vital role in maintaining a high-quality, secure, and well-functioning codebase. Integrate them into your workflow to catch issues early, enforce standards, and ensure robust software performance.
+| **Tool**          | **Description**                                                             | **Purpose**                                                       |
+|-------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------|
+| **PyLint**        | A tool that checks Python code for errors and helps follow coding rules.   | Improves code quality by finding mistakes and enforcing standards.|
+| **Flake8**        | A combination of tools that checks code style and finds errors.            | Makes sure the code follows style guidelines and is error-free.  |
+| **Bandit**        | A tool that looks for security issues in Python code.                      | Helps find and fix security risks to keep the code safe.         |
+| **MyPy**          | A tool that checks for type-related errors in code.                        | Ensures that the right data types are used, reducing bugs.       |
+| **Sentry**        | A tool that tracks and logs errors that happen in running applications.    | Helps quickly find and fix problems in production.               |
+| **Debugger (pdb)**| Python's built-in tool for stepping through code and checking variables.   | Allows you to inspect code in detail to find and fix bugs.      |
+
+Using these tools will help keep the code clean, secure, and reliable. They are essential for catching problems early and maintaining high-quality software.
+
 
 ## 🔍 Comparison of Tools
 
