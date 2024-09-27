@@ -1,8 +1,8 @@
 # Generic CI Operation: Credential Scanning
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
 |--------------------|------------|--------------|--------------------------------|
-| 22-09-2024         | 0.1       | Aayush Gaur  | Credential Scanning               |
-| 26-09-2024         | 0.2        | Aayush Gaur  | Credential Scanning               | 
+| 22-09-2024         | 1.0      | Aayush Gaur  | Credential Scanning               |
+| 26-09-2024         | 1.1       | Aayush Gaur  |Modified Comparisons               | 
 
 ### Purpose 
 
