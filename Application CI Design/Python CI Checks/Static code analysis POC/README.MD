@@ -81,7 +81,7 @@ For questions or more info, you can reach out to:
 | **Brij Singh**| brij.singh.snaatak@mygurukulam.co |
 
 # Resources and References
-[Static Code Compilation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Static%20code%20analysis(Python%20CI%20Checks).md) 
+[Static Code Compilation]
 
-[POC](https://towardsdatascience.com/check-the-quality-of-your-code-with-pylint-f5d829bb441d)
+[POC]
 
