@@ -9,7 +9,6 @@
 # Table of Contents
 - [Introduction](#Introduction)
 - [Pre-requisites](#pre-requisites)
-- [Flow Diagram](#flow-diagram)
 - [POC of Static Code Compilation in Python](#POC-of-Static-Code-Compilation-in-Python)
 - [Output](#Output)
 - [Conclusion](#conclusion)
@@ -30,9 +29,6 @@ Static code analysis is the process of analyzing source code without executing i
 | **Code**               |
 | --------               | 
 |  Any Python code       |
-
-# Flow Diagram
-
 
 
 # POC of Static Code Compilation in Python
