@@ -50,13 +50,16 @@ This README outlines the PoC for implementing DNS for an application. It demonst
 ![image](https://github.com/user-attachments/assets/afc426e6-337f-473a-9208-978f65ee443d)
 
 
+**6. Go to Route 53 section of your AWS account and Create a hosted zone there.**
+
 ![image](https://github.com/user-attachments/assets/fdbd72dd-42d2-44cb-854e-cdb525266106)
 
-
+**7. Enter your Domain name you purchased and Choose public hosted zone.**
 
 ![image](https://github.com/user-attachments/assets/32edcfb8-741c-4ba1-899f-685ee17fc9ff)
 
 
+**8. You will get ns values there, copy those values and move to your Domain Registrar account**
 
 ![image](https://github.com/user-attachments/assets/c9fe5031-2c2f-4b64-9826-d9c2c352c73c)
 
