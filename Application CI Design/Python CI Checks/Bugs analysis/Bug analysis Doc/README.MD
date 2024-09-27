@@ -78,7 +78,7 @@ A typical bug analysis workflow using Python tools:
 
 
 
-```
+
  ## 📝  Best Practices 
 Run Automated Checks: Incorporate bug analysis tools in your CI pipeline to automatically scan for issues on each commit.
 Regularly Analyze Security: Use tools like Bandit to scan for vulnerabilities regularly, especially when dealing with sensitive data.
