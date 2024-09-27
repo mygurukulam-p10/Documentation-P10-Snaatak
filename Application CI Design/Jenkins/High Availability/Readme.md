@@ -44,7 +44,8 @@ The term “master-slave” describes the high availability of a Jenkins node, s
 ## 2. What is Jenkins HA?
 Here, “high availability” for Jenkins refers to the availability of the Jenkins instance; however, in the unfortunate scenario that your Jenkins server crashes and something goes wrong with the Jenkins instance, another instance will quickly arise and contain all of the data from the primary Jenkins instance. In to this blog, autoscaling groups can be used to achieve Jenkins HA.
 
-<img width="550" alt="Untitled" src="https://github.com/user-attachments/assets/cb231fcd-6a36-42a0-932f-90189bea2c82">
+<img width="277" alt="image" src="https://github.com/user-attachments/assets/7ffc35f1-fe64-4842-b941-b18298b60444">
+
 
 Now, let’s start to set up the master-slave architecture and highly available Jenkins,
 
