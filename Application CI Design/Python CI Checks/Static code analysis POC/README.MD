@@ -63,9 +63,7 @@ pylint app.py
 ```      
 +++++++++
 
-# Output
-The output we received from running pylint on app.py file indicates the quality of our Python code according to pylint's metrics.
-our code has been rated at 10.00/10: This means that pylint has evaluated Python code and assigned it a score of 10 out of 10. This is the highest possible score, indicating that pylint didn't find any issues or violations of Python coding standards in your code.
+
 
 # Conclusion
 
