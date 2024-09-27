@@ -46,7 +46,7 @@ Static code analysis is the process of analyzing source code without executing i
 
 ```
 
-![Alt text] (file:///home/brij/sanatak/Python/Screenshot%20from%202024-09-28%2004-09-33.png)
+
 
 **Step-2** Install python and pylint
 ``` shell 
@@ -54,13 +54,13 @@ sudo apt install python3
 sudo apt install pylint
 ``` 
 
-
+++++++++
 
 **Step-3** Run pylint
 ``` shell 
 pylint app.py
 ```      
-
++++++++++
 
 # Output
 The output we received from running pylint on app.py file indicates the quality of our Python code according to pylint's metrics.
@@ -83,7 +83,7 @@ For questions or more info, you can reach out to:
 | **Brij Singh**| brij.singh.snaatak@mygurukulam.co |
 
 # Resources and References
-[Static Code Compilation](https://github.com/avengers-p7/Documentation/blob/main/Application_CI/Design/04-%20Python%20CI%20Checks/Static%20code%20analysis(Python%20CI%20Checks).md) 
 
-[POC](https://towardsdatascience.com/check-the-quality-of-your-code-with-pylint-f5d829bb441d)
+
+[POC](https://medium.com/@tlilyskander/static-code-analysis-with-pylint-49a078f029cf)
 
