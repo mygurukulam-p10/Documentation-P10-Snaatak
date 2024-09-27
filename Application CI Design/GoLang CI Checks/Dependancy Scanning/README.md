@@ -50,7 +50,7 @@ Dependency scanning is a security practice that involves analyzing an applicatio
 |---------------------------------|-----------------------------------------------|
 | **Security:** Detects vulnerabilities           | **False Positives:** Unnecessary alerts              |
 | **License Compliance:** Ensures legal use       | **Resource Intensive:** High CPU/memory usage        |
-| **Reduced Manual Effort**                       | **Over-Patching:** Upgrades may break functionality  |
+| **Reduces Manual Effort**                       | **Over-Patching:** Upgrades may break functionality  |
 | **Improves Dependency Hygiene**                 | **Frequent Tool Updates:** Tools need regular updating |
 
 
