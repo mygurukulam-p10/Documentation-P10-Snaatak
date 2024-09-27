@@ -74,22 +74,27 @@
 - [FOSSA POC](https://github.com/mygurukulam-p10/Documention/blob/main/Application%20CI%20Design/Generic%20CI%20operation/License%20Scanning/%20License%20Scanning%20POC%20/Readme.md#contact-information)
 
 ---
-
 ## Advantages
-- **Avoid Legal Issues**: Ensures compliance with OSS and proprietary licenses.
-- **Identify Risks Early**: Detects license/security risks in OSS components.
-- **Prevent Costly Remediation**: Early detection is more cost-effective.
-- **Stay Up-to-Date**: Continuous monitoring for license changes.
+
+| **Advantage**              | **Description**                                                                       |
+|----------------------------|---------------------------------------------------------------------------------------|
+| **Avoid Legal Issues**      | Ensures compliance with OSS and proprietary licenses.                                 |
+| **Identify Risks Early**    | Detects license/security risks in OSS components.                                     |
+| **Prevent Costly Remediation** | Early detection is more cost-effective.                                             |
+| **Stay Up-to-Date**         | Continuous monitoring for license changes.                                            |
 
 ---
 
 ## Best Practices
-- **Start Early**: Include license scanning early in the development lifecycle.
-- **Update Databases**: Keep license databases up-to-date.
-- **Integrate with CI/CD**: Automate scans within the development workflow.
-- **Automate Workflows**: Use automated workflows for license approval.
-- **Regular Audits**: Regularly audit codebases for new dependencies.
-- **Monitor License Changes**: Track changes as the project evolves.
+
+| **Best Practice**           | **Description**                                                                       |
+|-----------------------------|---------------------------------------------------------------------------------------|
+| **Start Early**             | Include license scanning early in the development lifecycle.                          |
+| **Update Databases**        | Keep license databases up-to-date.                                                    |
+| **Integrate with CI/CD**     | Automate scans within the development workflow.                                       |
+| **Automate Workflows**      | Use automated workflows for license approval.                                         |
+| **Regular Audits**          | Regularly audit codebases for new dependencies.                                       |
+| **Monitor License Changes** | Track changes as the project evolves.                                                 |
 
 ---
 
