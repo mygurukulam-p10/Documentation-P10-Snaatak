@@ -16,6 +16,9 @@
 ### Introduction
 Credential scanning is very important for keeping software and IT environments secure. In the fast-paced tech world, developers often work together on code projects, and sometimes sensitive information like passwords, API keys, or access tokens accidentally ends up in the code. Tools like Gitleaks help by scanning the code to find these hidden risks before they become a problem. By catching these issues early, we can prevent security breaches and keep our systems safe.
 
+![Screenshot from 2024-09-27 15-28-31](https://github.com/user-attachments/assets/749d8180-ee87-4742-9392-ea96f7bbd40a)
+
+
 ### ⚙️ Pre-requisites for Credential Scanning
 
 - **Git**: For managing the repository where the scan will take place.
