@@ -50,6 +50,7 @@ git clone  https://github.com/OT-MICROSERVICES/attendance-api.git
 sudo apt install python3
 sudo apt install pylint
 ``` 
+![Alt text](path/to/your/image.png)
 
 ++++++++
 
