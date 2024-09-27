@@ -42,7 +42,8 @@ Static code analysis is the process of analyzing source code without executing i
 - Navigate to the desired directory using cd commands.
 - Clone the repository using 
 
-```git clone  https://github.com/OT-MICROSERVICES/attendance-api.git
+```
+git clone  https://github.com/OT-MICROSERVICES/attendance-api.git
 
 ```
 
