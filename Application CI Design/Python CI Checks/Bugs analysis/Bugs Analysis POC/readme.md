@@ -79,13 +79,13 @@ You can also exclude certain files or directories from the scan by using the -x 
 ```
 bandit -r . -x some_directory/
 ```
-****🚀  Proof of Concept (POC)****
+## 🚀  Proof of Concept (POC)
 
 **Example command:**
 ```
 bandit -r /home/Brij/sanatak/Python/attendance-api$
 ```
-📊 Bandit Report Analysis
+## 📊 Bandit Report Analysis
 
 ![image](https://github.com/user-attachments/assets/4aaac4e3-8548-412d-87c7-2a63e8fc458c)
 
@@ -101,7 +101,7 @@ bandit -r /home/Brij/sanatak/Python/attendance-api$
 
 
 
-Bandit reports include:
+## Bandit reports include:
 
 | Report | Description                                          |
 |-----------|------------------------------------------------------|
@@ -114,9 +114,9 @@ Bandit reports include:
 |🔄 Refactor Code | Address vulnerabilities by refactoring code.|
 |🔁 Automate Checks| Integrate Bandit into CI/CD pipelines for continuous security checks.|
 
-🏁 Conclusion
+## 🏁 Conclusion
 Bandit helps developers identify security issues in Python applications, making it a valuable tool to improve code security.
 
-References
+## References
 [HERE](https://pypi.org/project/bandit/)
 
