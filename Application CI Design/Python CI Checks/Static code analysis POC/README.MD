@@ -1,3 +1,5 @@
+
+https://res.cloudinary.com/demo/image/upload/sample.jpg
 # POC of Static Code analysis in Python
 
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                |
