@@ -4,18 +4,17 @@
  ## 📚 Table of Contents
 
 1. [Purpose](#purpose)
-2. [Introduction](#introduction)
-3. [What is Dependency Scanning](#what-is-dependency-scanning)
-4. [Different Tools for Go Dependency Scanning](#different-tools-for-go-dependency-scanning)
-5. [Advantages and Disadvantages of Dependency Scanning](#advantages-and-disadvantages-of-dependency-scanning)
-6. [Best Practices for Dependency Scanning](#best-practices-for-dependency-scanning)
-7. [Conclusion](#conclusion)
-8. [Reference](#reference)
-9. [Contact Information](#contact-information)
+2. [What is Dependency Scanning](#what-is-dependency-scanning)
+3. [Different Tools for Go Dependency Scanning](#different-tools-for-go-dependency-scanning)
+4. [Advantages and Disadvantages of Dependency Scanning](#advantages-and-disadvantages-of-dependency-scanning)
+5. [Best Practices for Dependency Scanning](#best-practices-for-dependency-scanning)
+6. [Conclusion](#conclusion)
+7. [Reference](#reference)
+8. [Contact Information](#contact-information)
 
 ## Purpose
 
-This document explains how to set up dependency scanning in Go projects, highlighting the use of Snyk as a key tool for identifying vulnerabilities during Continuous Integration (CI).
+This document provides a comprehensive guide on implementing effective dependency scanning in Go projects, focusing on the utilization of Snyk as a robust tool for identifying and addressing vulnerabilities within your software's dependencies. The goal is to equip you with the knowledge and practical steps to ensure the security of your Go applications throughout the development and deployment lifecycle.
 
 ## Introduction
 
@@ -23,7 +22,7 @@ In Go projects, scanning for vulnerable dependencies is essential for maintainin
 
 ## What is Dependency Scanning
 
-Dependency scanning automatically analyzes the third-party libraries that project depends on, like those listed in go.mod and go.sum. The goal is to check for known security vulnerabilities and ensure that we’re using up-to-date and secure packages.
+Dependency scanning is a security practice that involves analyzing an application's dependencies (external libraries, frameworks, and packages) for known vulnerabilities. These dependencies, while often essential for development efficiency, can introduce security risks if not properly managed.
 
 
 ## Why Perform Dependency Scanning?
