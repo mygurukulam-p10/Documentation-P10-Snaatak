@@ -9,16 +9,16 @@
 ## Table of Contents
 - [📘 Introduction](#-introduction)
 - [❓ What is Bug Analysis](#-what-is-bug-analysis)
-- [💡 Why is Bug Analysis Important](#why-is-bug-analysis-important)
-- [🛠️ Different Tools for Python Bug Analysis](#different-tools-for-python-bug-analysis)
-- [🔍 Comparison of Tools](#comparison-of-tools)
-- [🌟 Advantages of Bug Analysis](#advantages-of-bug-analysis)
-- [🔧 Proof of Concept (POC)](#proof-of-concept-poc)
-- [Example CI Workflow](#example-ci-workflow)
-- [📝  Best Practices](#best-practices)
-- [✅ Recommendation and Conclusion](#recommendation-and-conclusion)
-- [📧 Contact Information](#contact-information)
-- [📚 References](#references)
+- [💡 Why is Bug Analysis Important](#-why-is-bug-analysis-important)
+- [🛠️ Different Tools for Python Bug Analysis](#-different-tools-for-python-bug-analysis)
+- [🔍 Comparison of Tools](#-comparison-of-tools)
+- [🌟 Advantages of Bug Analysis](#-advantages-of-bug-analysis)
+- [🔧 Proof of Concept (POC)](#-proof-of-concept-poc)
+- [Example CI Workflow](#-example-ci-workflow)
+- [📝  Best Practices](#-best-practices)
+- [✅ Recommendation and Conclusion](#-recommendation-and-conclusion)
+- [📧 Contact Information](#-contact-information)
+- [📚 References](#-references)
 
 
 ## 📘 Introduction
