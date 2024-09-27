@@ -1,11 +1,13 @@
-# <img width="35" alt="image" src="https://github.com/user-attachments/assets/cd1cb06d-90e7-410e-bccc-3a4d645dd6c5"> Setup Pre-Commit Hook
+# Setup commit-hook  <img width="49" alt="image" src="https://github.com/user-attachments/assets/625f8c30-8c06-4eb0-be45-84696fc860f0">
 
+
+---
 
 | ✍️Author   | 📅Created on|📌 Version | 📝Last updated by   |📅 Last edited on |
 |-------------|-------------|------------|---------------------|------------------|
-| Megha Tyagi |  23-09-24   | Version 1  |    Megha Tyagi      | 23-09-24         |
+| Megha Tyagi |  27-09-24   | Version 1  |    Megha Tyagi      | 27-09-24         |
 
-
+---
 
 # Table of Content 
 1. [🔍 Purpose](#-purpose)
@@ -16,10 +18,10 @@
 6. [📚 References](#-references ) 
 7. [📧 Contact Information ](#-contact-information )
    
-
+---
      
 # 🔍 Purpose 
-This document provides a clear, step-by-step guide for setting up email notifications for code commits in GitHub. By following these instructions, users can stay informed about changes in their repositories without requiring any scripting or complex configurations. This enhances collaboration and keeps team members updated on project developments.
+The purpose of this document is to outline the implementation of a Git pre-commit hook that ensures every commit message includes a valid JIRA ticket ID. This practice enhances traceability and accountability in version control by linking code changes directly to project management tasks. By validating commit messages, it fosters better communication among team members regarding the context of changes. Overall, this document serves as a guide for maintaining consistent and informative commit practices within the development workflow.
 
 ## ✨ Workflow
 
