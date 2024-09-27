@@ -1,5 +1,5 @@
+![alt text](/image/screenshot%20from%202024-09-28%2004-09-33.png) 
 
-https://res.cloudinary.com/demo/image/upload/sample.jpg
 # POC of Static Code analysis in Python
 
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                |
