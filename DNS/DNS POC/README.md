@@ -25,19 +25,27 @@ This README outlines the PoC for implementing DNS for an application. It demonst
 
 ## Step by Step DNS Setup
 
+**1. Create an account on your choosen Domain Registrar which i am using Namechap** 
 
 ![image](https://github.com/user-attachments/assets/3990ca70-ba28-4959-9536-f9f2904d9931)
 
 
+**2. Click on Domains and search for your domain Availability**
+
 ![image](https://github.com/user-attachments/assets/40fe1234-db99-4bee-99e5-8c8c545bda62)
 
 
+**3. Choose Domain you want among the list of Domains and add it to your account cart.**
 ![image](https://github.com/user-attachments/assets/5b2b471d-412d-4056-87f8-a7686bca9862)
+
+
+**4. In your cart Section Click on checkout to purchase the Domain**
 
 
 ![image](https://github.com/user-attachments/assets/03a5e74d-30a8-40cf-9db7-f3e2c4b973d4)
 
 
+**5. Complete the payment and confirm the order to buy the Domain and You will get the Domain.**
 
 ![image](https://github.com/user-attachments/assets/afc426e6-337f-473a-9208-978f65ee443d)
 
