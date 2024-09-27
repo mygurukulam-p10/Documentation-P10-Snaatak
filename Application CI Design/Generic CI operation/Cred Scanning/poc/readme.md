@@ -7,6 +7,7 @@
 
 ### Table of Contents
 - [Introduction](#introduction)
+- [Flow Diagram](#flow-diagram)
 - [Steps To Install gitleaks](#steps-to-install-gitleaks)
 - [Perform Cred Scanning](#perform-cred-scanning)
 - [Conclusion](#conclusion)
@@ -14,10 +15,7 @@
 - [Refrences](#refrences)
 
 ### Introduction
-Credential scanning is very important for keeping software and IT environments secure. In the fast-paced tech world, developers often work together on code projects, and sometimes sensitive information like passwords, API keys, or access tokens accidentally ends up in the code. Tools like Gitleaks help by scanning the code to find these hidden risks before they become a problem. By catching these issues early, we can prevent security breaches and keep our systems safe.
-
-![Screenshot from 2024-09-27 15-28-31](https://github.com/user-attachments/assets/749d8180-ee87-4742-9392-ea96f7bbd40a)
-
+This POC is on cred scanning in which installation of gitleaks and step to perform cred scanning in mentioned by using gitleaks
 
 ### ⚙️ Pre-requisites for Credential Scanning
 
@@ -47,6 +45,10 @@ Credential scanning is very important for keeping software and IT environments s
 |---------|------------------|--------------------------------------------------|
 | **Git**  | 2.+              | Required for repository management during scans. |
 | **Gitleaks** | Latest         | Executes credential scanning on the repository.  |
+
+### Flow Diagram
+![Screenshot from 2024-09-27 20-30-32](https://github.com/user-attachments/assets/e60c796f-7372-43ad-852d-d89cc5e3c8b7)
+
 
 ### Steps To Install gitleaks
 
