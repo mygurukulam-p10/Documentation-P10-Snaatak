@@ -1,4 +1,4 @@
-![alt text](/image/screenshot%20from%202024-09-28%2004-09-33.png) 
+
 
 # POC of Static Code analysis in Python
 
@@ -32,7 +32,7 @@ Static code analysis is the process of analyzing source code without executing i
 |  Any Python code       |
 
 # Flow Diagram
-![image](https://github.com/avengers-p7/Documentation/assets/79625874/719436d6-e814-494e-aed1-138734eccebe)
+
 
 
 # POC of Static Code Compilation in Python
@@ -43,7 +43,7 @@ Static code analysis is the process of analyzing source code without executing i
 - Clone the repository using 
 
 ``` shell 
-git clone https://github.com/avengers-p7/Attendance-API.git
+
 ```
 
 ![Alt text] (file:///home/brij/sanatak/Python/Screenshot%20from%202024-09-28%2004-09-33.png)
@@ -60,7 +60,7 @@ sudo apt install pylint
 ``` shell 
 pylint app.py
 ```      
-![image](https://github.com/avengers-p7/Documentation/assets/79625874/87386afe-5989-4b36-9d05-3fbc2e977ec0)
+
 
 # Output
 The output we received from running pylint on app.py file indicates the quality of our Python code according to pylint's metrics.
