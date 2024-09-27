@@ -69,33 +69,6 @@ A typical bug analysis workflow using Python tools:
 4. **Error Tracking**: Integrate **Sentry** to track runtime errors and crashes.
 5. **Interactive Debugging**: Use Python’s built-in **pdb** to step through your code interactively.
 
-### Example CI Workflow
-```yaml
-name: Bug Analysis Workflow
-
-on:
-  push:
-    branches:
-      - main
-
-jobs:
-  bug-analysis:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
-      - name: Install dependencies
-        run: pip install pylint flake8 bandit mypy
-      - name: Run PyLint
-        run: pylint your_project/
-      - name: Run Bandit
-        run: bandit -r your_project/
-      - name: Run MyPy
-        run: mypy your_project/
 
 
 ```
