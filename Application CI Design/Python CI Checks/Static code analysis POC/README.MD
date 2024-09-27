@@ -82,7 +82,8 @@ For questions or more info, you can reach out to:
 | **Brij Singh**| brij.singh.snaatak@mygurukulam.co |
 
 # Resources and References
+Static Code Analysis with PyLint [here](https://medium.com/@tlilyskander/static-code-analysis-with-pylint-49a078f029cf)
 
 
-[POC](https://medium.com/@tlilyskander/static-code-analysis-with-pylint-49a078f029cf)
+
 
