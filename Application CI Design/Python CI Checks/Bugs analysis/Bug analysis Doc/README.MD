@@ -7,8 +7,8 @@
 | 18-09-2024         | 0.3        | Brij Singh   | Python Bugs Analysis         |
 
 ## Table of Contents
-- [📘 Introduction](#introduction)
-- [❓ What is Bug Analysis](#what-is-bug-analysis)
+- [📘 Introduction](#-introduction)
+- [❓ What is Bug Analysis](#-what-is-bug-analysis)
 - [💡 Why is Bug Analysis Important](#why-is-bug-analysis-important)
 - [🛠️ Different Tools for Python Bug Analysis](#different-tools-for-python-bug-analysis)
 - [🔍 Comparison of Tools](#comparison-of-tools)
