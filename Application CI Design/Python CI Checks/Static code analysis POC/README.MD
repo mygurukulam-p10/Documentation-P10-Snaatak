@@ -43,15 +43,16 @@ Static code analysis is the process of analyzing source code without executing i
 ``` shell 
 git clone https://github.com/avengers-p7/Attendance-API.git
 ```
-![image](https://github.com/avengers-p7/Documentation/assets/79625874/f841215a-499d-4c7a-b629-fc4a8237572a)
+
 
 
 **Step-2** Install python and pylint
 ``` shell 
 sudo apt install python3
 sudo apt install pylint
-```      
-![image](https://github.com/avengers-p7/Documentation/assets/79625874/7485e84c-3fc9-467b-a260-62462f4ed399)
+``` 
+
+
 
 **Step-3** Run pylint
 ``` shell 
