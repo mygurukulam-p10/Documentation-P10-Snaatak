@@ -1,7 +1,5 @@
 # 🚀 Setup authenticaion in Version Control System - GITHUB
 
-![image](https://github.com/user-attachments/assets/104d6006-91d6-4174-b5dd-9c0353dc94e9)
-
 
 ## Table of Contents
 
@@ -32,6 +30,10 @@ This document offers a comprehensive guide on implementing Two-Factor Authentica
 
 ### Enabling Two-factor authentication
 
+
+![image](https://github.com/user-attachments/assets/dc44164b-ca46-4710-82e0-21bb5f3074e8)
+
+
 Go to github sign in page and,
 
 Signin into your Github account with username/email and Password.
@@ -54,6 +56,9 @@ Complete Enablement.
 
 
 ##  Setting Up GitHub Authentication for CLI Access
+
+![image](https://github.com/user-attachments/assets/93ec8c7b-50f9-47c1-b787-6687b56e5c39)
+
 
 ### Generating and Using SSH Keys 
 
