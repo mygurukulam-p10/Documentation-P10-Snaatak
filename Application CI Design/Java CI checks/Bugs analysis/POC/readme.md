@@ -26,3 +26,18 @@ The Proof of Concept (POC) demonstrates the bug analysis process for the "salary
 ```
 git clone https://github.com/OT-MICROSERVICES/salary-api.git
 ```
+### Add the Spotbug dependency in pom.xml file
+
+
+        <plugin>
+          <groupId>com.github.spotbugs</groupId>
+          <artifactId>spotbugs-maven-plugin</artifactId>
+          <version>4.8.2.0</version>
+          <dependencies>
+            <dependency>
+              <groupId>com.github.spotbugs</groupId>
+              <artifactId>spotbugs</artifactId>
+              <version>4.8.3</version>
+            </dependency>
+          </dependencies>
+        </plugin>
