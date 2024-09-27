@@ -21,36 +21,15 @@
 Bandit is a tool that scans Python code to find common security issues. It processes each file, builds an abstract syntax tree (AST), and runs plugins against the AST nodes to detect vulnerabilities. After scanning, Bandit generates a report highlighting any issues found.
 
 ## ✨ Key Features
-- **🐍 Language Compatibility**: 
-  - Works with both Python 2.x and 3.x, ensuring compatibility across older and newer codebases.
-  
-- **🔍 Static Analysis**: 
-  - Analyzes code without running it, allowing safe inspection for vulnerabilities, reducing risks associated with dynamic analysis.
-
-- **🔌 Plugin Architecture**: 
-  - Easily extendable with custom plugins, allowing users to add their own security checks to meet specific needs.
-
-- **🛡️ Common Vulnerabilities**: 
-  - Detects issues like:
-    - **Hardcoded Secrets**: Identifies sensitive data like API keys or passwords embedded in the code.
-    - **Unsafe `eval()` Usage**: Flags dangerous use of `eval()` that could lead to code injection.
-    - **SQL Injection**: Detects potential SQL injection points that could be exploited by malicious input.
-    - **Cross-Site Scripting (XSS)**: Finds vulnerabilities that could lead to XSS attacks.
-    - **Command Injection**: Identifies code that could be manipulated to run unintended system commands.
-
-- **🔒 Security Checks**: 
-  - Built-in checks for common security flaws, providing detailed explanations and suggestions for remediation.
-
-- **🤖 CI/CD Integration**: 
-  - Integrates seamlessly into CI/CD pipelines for automated security checks during code builds, ensuring vulnerabilities are caught early.
-
+- **🐍 Language Compatibility**:-Supports Python 2.x and 3.x, ensuring broad compatibility across legacy and modern codebases.  
+- **🔍 Static Analysis**:-Analyzes Python code without execution, allowing safe vulnerability detection. 
+- **🔌 Plugin Architecture**:-Extendable with custom plugins to add new security checks as needed.
+- **🔒 Security Checks**:- Includes built-in checks for detecting critical security flaws, ensuring your code is secure by design.
+- **🤖 CI/CD Integration**:-Integrates seamlessly into CI/CD pipelines for automated security checks during code builds, ensuring vulnerabilities are caught early.
 - **📊 Extensive Reporting**: 
   - Generates comprehensive reports detailing each vulnerability, its severity, affected code lines, and suggested fixes. Supports formats like JSON, XML, and HTML for easy integration into other tools.
-
 - **⚙️ Configurable**: 
   - Highly customizable settings through configuration files, allowing users to ignore specific checks, set severity thresholds, and tailor analysis outputs.
-
-- **💻 Command Line Interface (CLI)**: 
 
 ## 📋 Pre-requisites
 - 🐍 **Python 3**: Bandit requires Python 3 to run.
