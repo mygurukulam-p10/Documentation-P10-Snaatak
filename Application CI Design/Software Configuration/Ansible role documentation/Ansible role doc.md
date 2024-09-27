@@ -38,7 +38,7 @@ Ansible roles provide a modular way to organize automation tasks, making it easi
 ## Structure of the Jenkins Ansible Role
 
 A typical structure for the Jenkins role might look like this:
-
+```
 ansible-jenkins/
 ├── defaults/
 │   └── main.yml          # Default variables for Jenkins role
@@ -57,6 +57,7 @@ ansible-jenkins/
 │   └── test.yml           # Test playbook for role functionality
 └── vars/
     └── main.yml          # Role-specific variables
+```
 
 ### Directory Purpose
 - `defaults`: Contains default variables for the role.
@@ -80,6 +81,7 @@ To use the role in your playbooks, you can include it as follows:
 - hosts: jenkins_servers
   roles:
     - ansible-jenkins
+```
 
 ## Best Practices for Role Development
 
