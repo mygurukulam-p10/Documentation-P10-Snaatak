@@ -58,7 +58,7 @@ sudo apt install pylint
 ``` shell 
 pylint app.py
 ```      
-![image](https://github.com/avengers-p7/Documentation/assets/79625874/87386afe-5989-4b36-9d05-3fbc2e977ec0)
+
 
 # Output
 The output we received from running pylint on app.py file indicates the quality of our Python code according to pylint's metrics.
