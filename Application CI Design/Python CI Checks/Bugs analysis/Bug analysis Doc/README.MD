@@ -35,14 +35,20 @@ In Python development, finding and fixing bugs early is essential for maintainin
 ## 🛠️ Different Tools for Python Bug Analysis
 Here are some of the most popular tools for analyzing and fixing bugs in Python:
 
-| Tool             | Description                               | Purpose                            |
-|------------------|-------------------------------------------|------------------------------------|
-| **PyLint**       | Linting tool for finding coding errors     | Code quality and error detection   |
-| **Flake8**       | Combines PyFlakes, pycodestyle, and McCabe | Code linting and style checks      |
-| **Bandit**       | Security-focused bug analysis              | Identifies security vulnerabilities|
-| **MyPy**         | Type checking tool                        | Catches bugs related to type errors|
-| **Sentry**       | Real-time error tracking                   | Tracks and logs runtime errors     |
-| **Debugger (pdb)**| Built-in Python debugger                  | Interactive debugging              |
+# Project Code Quality, Security, and Error Tracking Tools
+
+This project uses several tools to enhance code quality, enforce coding standards, detect errors, secure the codebase, and track runtime issues. Below is a summary of each tool, its description and purpose.
+
+| **Tool**          | **Description**                                                                                     | **Purpose**                                                                                     |
+|-------------------|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| **PyLint**        | A linting tool that finds coding errors and enforces coding standards.                             | Improves code quality by catching errors and enforcing best practices.                        |
+| **Flake8**        | Combines PyFlakes, pycodestyle, and McCabe for code linting and style checks.                      | Ensures code adheres to PEP 8, detects errors, and measures complexity.                       |
+| **Bandit**        | A security analysis tool that finds common security vulnerabilities in Python code.                | Identifies and helps fix security flaws to reduce the risk of vulnerabilities.                |
+| **MyPy**          | A static type checker that enforces type hints and checks for type-related errors.                 | Catches type inconsistencies, enhancing code reliability and readability.                     |
+| **Sentry**        | Real-time error tracking tool that captures runtime errors and provides insights.                  | Tracks and logs errors in production to help diagnose and fix issues faster.                  |
+| **Debugger (pdb)**| Python’s built-in interactive debugger for stepping through code and inspecting variables.         | Allows in-depth inspection of code execution to identify and fix bugs.                        |
+
+Each tool plays a vital role in maintaining a high-quality, secure, and well-functioning codebase. Integrate them into your workflow to catch issues early, enforce standards, and ensure robust software performance.
 
 ## 🔍 Comparison of Tools
 
