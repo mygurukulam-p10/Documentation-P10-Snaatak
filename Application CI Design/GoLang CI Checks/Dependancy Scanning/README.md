@@ -1,11 +1,15 @@
 # 🐹 Go CI Checks - Dependency Scanning
 
+|  Author        | Created on |  Version  | Last updated by   |   Last edited on   |
+|----------------|------------|-----------|-------------------|--------------------|
+| Abhinav Singh  |  23-09-24  | version 2 |   Abhinav Singh   |      26-09-24      |
+
 
  ## 📚 Table of Contents
 
 1. [Purpose](#purpose)
 2. [What is Dependency Scanning](#what-is-dependency-scanning)
-3. [Different Tools for Go Dependency Scanning and it's Comparison](#different-tools-for-go-dependency-scanning and-it's-comparison)
+3. [Different Tools for Go Dependency Scanning](#different-tools-for-go-dependency-scanning)
 4. [Advantages and Disadvantages of Dependency Scanning](#advantages-and-disadvantages-of-dependency-scanning)
 5. [Best Practices for Dependency Scanning](#best-practices-for-dependency-scanning)
 6. [Conclusion](#conclusion)
@@ -29,7 +33,7 @@ Dependency scanning is a security practice that involves analyzing an applicatio
 | **🔧Maintenance**             | Keep dependencies updated to avoid technical issues.|
 | **📉 Risk Management**         | Proactively manage risks from third-party code.  |
 
-## Different Tools for Go Dependency Scanning and it's Comparision
+## Different Tools for Go Dependency Scanning
 
 
 | Tool              | Description                                               | Key Features                                   | License          | Integration                          | Pros                                          | Cons                                         |
