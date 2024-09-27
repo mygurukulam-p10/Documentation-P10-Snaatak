@@ -115,5 +115,5 @@ Credential scanning is an essential practice for maintaining the security and in
 |links | Description |
 |-------| ----------|
 |https://github.com/gitleaks/gitleaks| GitLeaks |
-|https://www.jit.io/resources/appsec-tools/the-developers-guide-to-using-gitleaks-to-detect-hardcoded-secrets| 
+|https://www.jit.io/resources/appsec-tools/the-developers-guide-to-using-gitleaks-to-detect-hardcoded-secrets| Cred Scanning |
 
