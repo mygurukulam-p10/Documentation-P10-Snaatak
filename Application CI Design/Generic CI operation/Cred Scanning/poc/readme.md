@@ -2,8 +2,8 @@
 
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
 |--------------------|------------|--------------|--------------------------------|
-| 22-09-2024         | 0.1       | Aayush Gaur  | POC: Credential Scanning               |
-| 26-09-2024         | 0.2        | Aayush Gaur  | Updated Introduction & Flow Diagram               | 
+| 22-09-2024         | 1.0       | Aayush Gaur  | POC: Credential Scanning               |
+| 26-09-2024         | 1.1       | Aayush Gaur  | Updated Introduction & Flow Diagram               | 
 
 ### Table of Contents
 - [Introduction](#introduction)
