@@ -1,6 +1,11 @@
 # Java CI Checks | DAST Documentation
 
 
+| Author      | Created on  | Version    | Last updated by | Last edited on |
+|-------------|-------------|------------|-----------------|----------------|
+| Amit Nagar  | 28-09-24    | version 1  | Amit Nagar      | 29-09-24       |
+
+
 1. [Introduction](#1-introduction)
 2. [What is DAST?](#3-what-is-dast)
    - [Key Features of DAST](#31-key-features-of-dast)
