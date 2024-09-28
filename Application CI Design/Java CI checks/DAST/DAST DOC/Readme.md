@@ -12,7 +12,7 @@
 6. [Advantages of Using DAST](#7-advantages-of-using-dast)
 7. [Proof of Concept (POC)](#8-proof-of-concept-poc)
 8. [Best Practices for Java CI Checks and DAST](#9-best-practices-for-java-ci-checks-and-dast)
-9. [Recommendation and Conclusion](#10-recommendation-and-conclusion)
+9. [Recommendation Conclusion](#10-recommendation-and-conclusion)
 10. [Contact Information](#11-contact-information)
 11. [References](#12-references)
 
@@ -96,6 +96,9 @@ There are several tools available to perform dynamic testing on web applications
 - **Regularly Update Security Tools**: Keep DAST tools up-to-date with the latest security vulnerabilities and testing techniques.
 
 ---
+
+
+
 
 ## 9. Recommendation and Conclusion
 
