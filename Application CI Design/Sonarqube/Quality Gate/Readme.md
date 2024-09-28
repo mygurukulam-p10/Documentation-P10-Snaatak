@@ -12,9 +12,10 @@
 5. [Types of Quality Gates](#types-of-quality-gates)
 6. [Implementation of Quality Gates](#implementation-of-quality-gates)
 7. [Advantages of Using Quality Gates](#advantages-of-using-quality-gates)
-8. [Conclusion](#conclusion)
-9.  [Contact Information](#Contact-Information)
-10. [References](#references)
+8. [Advantages and Disadvantages of Using Quality Gates](#Advantages-disadvantage)
+9. [Conclusion](#conclusion)
+10.  [Contact Information](#Contact-Information)
+11. [References](#references)
 
 ## Introduction
 SonarQube is an open-source platform for continuous inspection of code quality. It helps developers manage code quality and security vulnerabilities while maintaining high standards across software projects. Quality gates are a crucial feature within SonarQube that determines whether a project meets the predefined quality criteria before moving to the next phase of development.
@@ -114,11 +115,22 @@ SonarQube allows the creation of different types of quality gates, including:
 
 ![Screenshot from 2024-09-25 00-57-44](https://github.com/user-attachments/assets/08b045dc-2b31-4baf-9fb3-bc261e0e7f48)
 
-## Advantages of Using Quality Gates
-- **Improved Code Quality**: Enforces consistent standards across the codebase.
-- **Reduced Technical Debt**: Helps manage and minimize technical debt by preventing poor quality code from being merged.
-- **Enhanced Collaboration**: Encourages communication among team members regarding code quality issues.
-- **Better Project Visibility**: Provides insights into code quality trends over time, aiding decision-making.
+
+# Advantages and Disadvantages of Using Quality Gates
+
+| Advantages                        | Disadvantages                   |
+|-----------------------------------|---------------------------------|
+| **Improved Code Quality**         | **Increased Development Time**  |
+| Ensures adherence to coding standards. | May slow down the development process. |
+| **Early Detection of Issues**     | **Resistance from Developers**  |
+| Identifies issues before they escalate. | Some may view them as obstacles. |
+| **Consistent Delivery**           | **Overhead of Maintenance**     |
+| Promotes uniformity in code delivery. | Requires continuous effort to manage. |
+| **Increased Transparency**        | **Potential for False Positives** |
+| Provides visibility into project health. | Tools may flag non-critical issues. |
+| **Higher Customer Satisfaction**  | **False Sense of Security**     |
+| Leads to fewer bugs and better user experience. | Meeting criteria doesn’t ensure a bug-free product. |
+
 
 ## Conclusion
 SonarQube Quality Gates play a vital role in maintaining code quality throughout the software development lifecycle. By implementing Quality Gates, organizations can ensure that their projects meet specific quality criteria, leading to more maintainable, reliable, and secure software products.
