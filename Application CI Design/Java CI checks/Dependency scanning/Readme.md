@@ -13,7 +13,8 @@
 + [Popular Tools](#popular-tools)
 + [Tool Comparison](#tool-comparison)
 + [Why Choose OWASP?](#why-choose-owasp)
-+ [Guide to Installation](#Installing-OWASP-Dependency-Check)
++ [Proof of Concept (POC) for Dependency-Check](#Proof-of-Concept-for-Dependency-Check)
++ [Advantages and Disadvantages](#Advantages-and-Disadvantages)
 + [Best Practices](#best-practices)
 + [Security Compliance](#security-compliance)
 + [Contact Information](#contact-information)
@@ -81,6 +82,18 @@ OWASP Dependency-Check stands out as a robust and widely adopted tool for identi
 [Here is the link to the POC. Click here to read it.](https://github.com/mygurukulam-p10/Documention/tree/main/Application%20CI%20Design/Java%20CI%20checks/Dependency%20scanning%20POC)
 
 ***
+
+### Advantages and Disadvantages
+
+| **Advantages**                                   | **Disadvantages**                                      |
+|-------------------------------------------------|-------------------------------------------------------|
+| **Better Security**: Finds security issues early. | **False Alerts**: Might flag safe dependencies as risky. |
+| **Compliance**: Helps meet industry standards.    | **Slow Build**: Can slow down the build process.       |
+| **Code Quality**: Keeps your code high-quality.   | **Setup Effort**: Initial setup can be time-consuming. |
+| **Saves Time & Cost**: Fixing issues early is cheaper. | **Regular Updates**: Tools need regular updates.       |
+| **Improved Visibility**: Shows dependency details. | **Incomplete Results**: Some issues may be missed.     |
+| **Real-Time Alerts**: Immediate notifications for new issues. | **Cost**: Advanced tools may have high licensing fees. |
+
 ## Best Practices
 
 1. **Regular Scanning Frequency** - Regular scanning of project dependencies is essential for maintaining a secure development environment. Conduct dependency scans at key points in the development lifecycle, such as during the build process, before major releases, and after significant changes.
