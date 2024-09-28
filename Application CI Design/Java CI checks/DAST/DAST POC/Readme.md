@@ -1,4 +1,3 @@
-
 # Proof of Concept (POC) for DAST
 
 
@@ -9,13 +8,21 @@
 ![image](https://github.com/user-attachments/assets/69e2000a-b7e2-428c-ad99-3dc29fdc9661)
 
 ## Table of Contents
-+ [Introduction](#Introduction)
-+ [OWASP ZAP](#owasp-zap)
-+ [Flow Diagram](#flow-diagram)
-+ [Proof of Concept](#Pre-requisite)
-+ [Conclusion](#conclusion)
-+ [Contact Information](#contact-information)
-+ [References](#references)
+- [Introduction](#introduction)
+- [OWASP ZAP](#owasp-zap)
+- [System Requirements](#system-requirements)
+- [Runtime Dependency](#runtime-dependency)
+- [Flow Diagram](#flow-diagram)
+- [Proof of Concept (PoC)](#proof-of-concept-poc)
+  - [Pre-requisites](#pre-requisites)
+    - [Setup ZAP](#setup-zap)
+    - [Run ZAP](#run-zap)
+    - [Scanning API URL](#scanning-api-url)
+    - [Verify Reports](#verify-reports)
+- [Conclusion](#conclusion)
+- [Contact Information](#contact-information)
+- [References](#references)
+
 
 ## Introduction 
 Dynamic Application Security Testing (DAST) is a security testing approach that analyzes web applications in their running state to identify vulnerabilities. By simulating real-world attacks, DAST tests for weaknesses that can be exploited by malicious actors. Unlike static analysis, which examines code without executing it, DAST evaluates applications in their live environment, providing insight into security issues that may only be apparent during runtime.
