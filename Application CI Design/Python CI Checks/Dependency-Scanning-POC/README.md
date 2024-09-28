@@ -103,6 +103,14 @@ cd attendance-api/
 </details>
 
 
+| Column             | Description                                                                        |
+|--------------------|------------------------------------------------------------------------------------|
+| Vulnerability ID    | The identifier for the vulnerability.                                             |
+| Affected Spec       | The version range that is affected.                                              |
+| Advisory            | A brief description of the advisory concerning the vulnerability.                 |
+| CVE ID             | The CVE (Common Vulnerabilities and Exposures) identifier.                       |
+| Additional Info     | Links for more information about the vulnerability.                              |
+
 
 This configuration will run a safety check on every request, scanning the `pyproject.toml` and `poetry.lock` file for known vulnerabilities as in our ```ATTENDANCE-API``` , We are having these 2 files.
 
