@@ -8,7 +8,7 @@
 
 1. [Purpose](#purpose)
 2. [System Prerequisites](#system-prerequisites)
-3. [Creating an Organisation and Adding Contributers](#Creating-an-organisation-and-adding-contributers)
+3. [Creating Organisation and Adding Contributers](#Creating-organisation-and-adding-contributers)
 4. [Assigning Roles to the users](#assigning-roles-to-the-users)
 5. [Protecting Critical Branches in GitHub](#protecting-critical-branches-in-github)
 6. [Conclusion](#conclusion)
@@ -28,7 +28,7 @@ Authorization in version control systems (VCS) ensures that only users with the 
 | Admin or Maintainer Access | Required to manage roles and permissions |
 | Branch Policies       | Enforced for critical branches like `main` |
 
-## Creating an Organisation and Adding Contributers
+## Creating Organisation and Adding Contributers
 
 **1. In your profile Section choose Your organisations**
 
