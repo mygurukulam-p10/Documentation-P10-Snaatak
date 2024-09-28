@@ -21,7 +21,7 @@ We are preparing this document so that we can easily provide a completed guide t
 - [Contact Information](#contact-information)
 - [ References](#references)
 
-  ## Introduction 
+## Introduction 
 * This document will guide you through a Proof of Concept (PoC) for setting up and compiling a Maven project. We will cover the necessary prerequisites, including Java and Maven installation, as well as the basic project structure.
 
 
