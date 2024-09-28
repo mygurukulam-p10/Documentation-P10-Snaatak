@@ -77,7 +77,7 @@ cd attendance-api/
     safety check -r pyproject.toml 
     ```
 
-   https://github.com/user-attachments/assets/54417b55-4943-46e8-aa1b-4c61967b62ff
+   ![safety 1](https://github.com/user-attachments/assets/fc275cf2-b465-436c-8937-4e352c11ff64)
 
   </details>
 
@@ -90,9 +90,9 @@ cd attendance-api/
     safety check -r poetry.lock
     ```
 
-   https://github.com/user-attachments/assets/62fcc804-4260-4529-ac2e-02e69df57197
-   https://github.com/user-attachments/assets/dece325d-abbc-4a78-a744-f713666dca35
-   https://github.com/user-attachments/assets/e257b470-898c-4e19-b479-2a2714b21d20
+   ![Safety 2](https://github.com/user-attachments/assets/35d48844-08c2-40c6-9ace-de72a1ea1648)
+   ![safety 3](https://github.com/user-attachments/assets/f8c1326e-fbac-4160-a2a8-be540196c119)
+   ![safety 4](https://github.com/user-attachments/assets/8b5ba782-7aa2-4325-ad20-1e20d0584b4c)
 
   </details>
 
