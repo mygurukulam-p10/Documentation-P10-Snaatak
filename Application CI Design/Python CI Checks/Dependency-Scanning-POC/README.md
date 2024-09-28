@@ -69,30 +69,30 @@ cd attendance-api/
   <summary>4. Run a scan</summary>
 
   <details>
-    <summary>1. First scan</summary>
+    <summary> i. First scan</summary>
 
-    Run the scan on `pyproject.toml`:
+   Run the scan on `pyproject.toml`:
 
     ```
     safety check -r pyproject.toml 
     ```
 
-    ![First Scan Image](https://github.com/user-attachments/assets/54417b55-4943-46e8-aa1b-4c61967b62ff)
+   https://github.com/user-attachments/assets/54417b55-4943-46e8-aa1b-4c61967b62ff
 
   </details>
 
   <details>
-    <summary>2. Second scan</summary>
+    <summary> ii. Second scan</summary>
 
-    Now run the scan on `poetry.lock`:
+   Now run the scan on `poetry.lock`:
 
     ```
     safety check -r poetry.lock
     ```
 
-    ![Second Scan Image 1](https://github.com/user-attachments/assets/62fcc804-4260-4529-ac2e-02e69df57197)
-    ![Second Scan Image 2](https://github.com/user-attachments/assets/dece325d-abbc-4a78-a744-f713666dca35)
-    ![Second Scan Image 3](https://github.com/user-attachments/assets/e257b470-898c-4e19-b479-2a2714b21d20)
+   https://github.com/user-attachments/assets/62fcc804-4260-4529-ac2e-02e69df57197
+   https://github.com/user-attachments/assets/dece325d-abbc-4a78-a744-f713666dca35
+   https://github.com/user-attachments/assets/e257b470-898c-4e19-b479-2a2714b21d20
 
   </details>
 
