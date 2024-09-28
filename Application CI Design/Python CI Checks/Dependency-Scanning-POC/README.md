@@ -73,9 +73,8 @@ cd attendance-api/
 
    Run the scan on `pyproject.toml`:
 
-    ```
     safety check -r pyproject.toml 
-    ```
+
 
    ![safety 1](https://github.com/user-attachments/assets/fc275cf2-b465-436c-8937-4e352c11ff64)
 
@@ -86,9 +85,9 @@ cd attendance-api/
 
    Now run the scan on `poetry.lock`:
 
-    ```
+    
     safety check -r poetry.lock
-    ```
+    
 
    ![Safety 2](https://github.com/user-attachments/assets/35d48844-08c2-40c6-9ace-de72a1ea1648)
    ![safety 3](https://github.com/user-attachments/assets/f8c1326e-fbac-4160-a2a8-be540196c119)
