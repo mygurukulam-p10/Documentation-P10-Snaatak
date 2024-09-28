@@ -2,57 +2,117 @@
 
 |  Author        | Created on |  Version  | Last updated by  | Last edited on |
 |----------------|------------|-----------|------------------|----------------|
-| Abhinav Singh  |   15-09-24 | version 1 |   Abhinav Singh  |     15-09-24   |
+| Abhinav Singh  |   15-09-24 | version 1 |   Abhinav Singh  |     22-09-24   |
   
 ## Table of Contents
-- [Purpose](#purpose)
-- [Authorization Overview](#authorization-overview)
-- [System Prerequisites](#system-prerequisites)
-- [Authorization Methods in Git](#authorization-methods-in-git)
-  - [Role-Based Access Control (RBAC)](#role-based-access-control-rbac)
-  - [Repository-Level Permissions](#repository-level-permissions)
-  - [Branch Protection Rules](#branch-protection-rules)
-- [Setting up Authorization](#setting-up-authorization)
-- [Common Authorization Errors and Solutions](#common-authorization-errors-and-solutions)
-- [Best Practices for Secure Authorization](#best-practices-for-secure-authorization)
-- [Conclusion](#conclusion)
-- [Contact Information](#contact-information)
-- [References](#references)
+
+1. [Purpose](#purpose)
+2. [System Prerequisites](#system-prerequisites)
+3. [Creating an Organisation and Adding Contributers](#Creating-an-organisation-and-adding-contributers)
+4. [Assigning Roles to the users](#assigning-roles-to-the-users)
+5. [Protecting Critical Branches in GitHub](#protecting-critical-branches-in-github)
+6. [Conclusion](#conclusion)
+7. [Contact Information](#contact-information)
+8. [References](#references)
 
 ## Purpose
 Authorization in version control systems (VCS) ensures that only users with the appropriate permissions can modify or manage resources within a repository. This guide explains the various methods of authorization in Git-based systems (GitHub, GitLab, Bitbucket), how to configure them, and best practices for maintaining secure access control to your repositories.
 
-## Authorization Overview
-Unlike authentication, which verifies user identity, authorization controls what actions a user can perform on a repository. Git-based VCS platforms provide a range of authorization mechanisms, including:
-
-- **Role-Based Access Control (RBAC)** – Defines roles such as admin, maintainer, and contributor.
-- **Repository-Level Permissions** – Limits access to specific repositories within an organization or team.
-- **Branch Protection** – Enforces rules on specific branches, such as restricting who can push or merge changes.
 
 ## System Prerequisites
 
-| Requirements         | Recommendation                |
+| Requirements         | Description                |
 |----------------------|-------------------------------|
-| VCS Platform          | GitHub, GitLab, Bitbucket     |
+|    GitHub Account     |   To create Organisation  |
 | Git Version           | 2.28 or higher                |
 | Admin or Maintainer Access | Required to manage roles and permissions |
 | Branch Policies       | Enforced for critical branches like `main` |
 
-## Authorization Methods in Git
+## Creating an Organisation and Adding Contributers
 
-| **Feature**                  | **Description**                                                                                              | **Use Case**                                                                                                      |
-|------------------------------|--------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| **Role-Based Access Control (RBAC)** | Uses predefined roles to manage permissions within a repository. Users are assigned roles like Admin, Maintainer, Developer, and Guest. | Ideal for teams where distinct roles manage permissions across different repositories or projects.                |
-| **Repository-Level Permissions**     | Allows specific repositories to have unique permission settings. Individual users or teams can be granted read/write/maintain/admin access. | For organizations with multiple repositories needing different permission structures for each repo.               |
-| **Branch Protection Rules**          | Protects critical branches by requiring reviews, disallowing force pushes, and enforcing commit signing.  | Essential for teams managing production code or sensitive projects with strict code integrity policies.            |
-## Setting up Authorization
+In your profile Section choose Your organisations
 
-### Role-Based Access Control (RBAC)
-RBAC is a fundamental way of managing access control in Git platforms. Here's how you can set it up on GitHub or GitLab:
+![image](https://github.com/user-attachments/assets/f5e3acfe-2d5b-495a-95c6-2cc2743aa49d)
 
-1. **Assign Roles**:
-   - In your Git repository, go to `Settings` > `Manage Access` and assign roles to users or teams. The common roles are:
-     - **Admin**: Full control over the repository, including managing roles and repository settings.
-     - **Maintainer**: Can manage repository content, but limited control over settings.
-     - **Developer/Contributor**: Can create branches, commit, and make pull requests.
-     - **Guest/Viewer**: Read-only access to the repository.
+In the right corner of the page Choose New organisation
+
+![image](https://github.com/user-attachments/assets/50ad0e87-8f06-406d-b90c-287baa0bddd3)
+
+Pick a plan for your organization and 
+
+![image](https://github.com/user-attachments/assets/4f032712-aa7d-40a6-9be8-66f89a9ac75e)
+
+Provide details about your organisation and choose Next
+
+![image](https://github.com/user-attachments/assets/db780aa6-6606-4490-bcc8-26197820ed2d)
+
+Add members to your Organisation and complete setup.
+
+![image](https://github.com/user-attachments/assets/fa0ec22c-07c5-462b-9201-441da7573705)
+
+You can add users to the organisation later also by sending invites.
+
+![image](https://github.com/user-attachments/assets/240d94b1-da56-4fbc-9006-e405151c97d9)
+
+We can create teams for different groups.
+
+![image](https://github.com/user-attachments/assets/c3b62744-014d-4185-ad4d-8a62066ffe4b)
+
+We can add users or collaborators to a team using "Add a member" icon in the team.
+
+![image](https://github.com/user-attachments/assets/20479523-05ba-4b8b-9aa0-75afe72c029a)
+
+
+## Assigning Roles to the users
+
+1. Choose the user you want to assign Permissions.
+
+![image](https://github.com/user-attachments/assets/1ed4a5f2-86fd-4233-9f80-0e4a90756573)
+
+2. Choose Manage access 
+
+![image](https://github.com/user-attachments/assets/4cb51e1d-0804-4e03-a15b-393f6d37bb63)
+
+
+3. We can edit privilages of the user and provide required permission
+
+![image](https://github.com/user-attachments/assets/b9ae0197-47e1-4f6a-b6fd-da7f9e21c3fe)
+
+![image](https://github.com/user-attachments/assets/ae3b052e-15e5-42f6-93e7-df138db4c5e8)
+
+
+## Protecting Critical Branches in GitHub
+
+**1. Navigate to Repository Settings**
+
+![image](https://github.com/user-attachments/assets/f10e220c-4813-4c49-addc-794fda11022a)
+
+**2. In the left sidebar, click on "Branches"**
+
+**Click on Rules and then Ruleset to create a New Ruleset**
+  
+![image](https://github.com/user-attachments/assets/9cbd88d1-4d4c-4dc1-a03b-3fc97e9d05ff)
+
+**3. Choose New Branch Ruleset**
+
+![image](https://github.com/user-attachments/assets/278f5b05-5cd3-49ac-aab6-2a593e429325)
+
+
+**4. Choose name and assign rules as per requirement**
+
+![image](https://github.com/user-attachments/assets/8bc5fcd4-e65a-44e5-b8f4-23416c37c163)
+
+
+![image](https://github.com/user-attachments/assets/c18d6960-7aa5-4f26-8d8f-6e7dbae1665c)
+
+
+
+
+
+
+
+
+
+
+
+
