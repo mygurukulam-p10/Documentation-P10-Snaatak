@@ -86,7 +86,7 @@ There are several tools available to perform dynamic testing on web applications
 ## 7. Proof of Concept (POC)
 
 
-## 8. Best Practices for Java CI Checks and DAST
+## 8. Best Practices for DAST
 
 - **Automate Security Scans**: Integrate DAST tools into the CI/CD pipeline for automatic scans with every build.
 - **Use Multiple Security Tools**: Combine DAST with Static Application Security Testing (SAST) to get comprehensive security coverage.
