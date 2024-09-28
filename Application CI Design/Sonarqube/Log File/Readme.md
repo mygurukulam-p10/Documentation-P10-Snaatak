@@ -12,7 +12,8 @@
 4. [Log Configuration](#log-configuration)
 5. [Viewing and Managing Logs](#viewing-and-managing-logs)
 6. [Conclusion](#conclusion)
-7. [References](#references)
+7. [Contact Information](#Contact-Information)
+8. [References](#references)
 
 
 ## Introduction
