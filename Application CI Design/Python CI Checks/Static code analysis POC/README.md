@@ -49,7 +49,7 @@ git clone  https://github.com/OT-MICROSERVICES/attendance-api.git
 sudo apt install python3
 sudo apt install pylint
 ``` 
-![Alt text](path/to/your/image.png)
+![Uploading Screenshot from 2024-09-28 04-09-33.png…]()
 
 ++++++++
 
@@ -57,7 +57,8 @@ sudo apt install pylint
 ``` shell 
 pylint app.py
 ```      
-![Alt text](images/
+![Screenshot from 2024-09-28 04-23-58](https://github.com/user-attachments/assets/91378106-3f06-425a-aefc-b3b8cf92ba96)
+
 
 
 
