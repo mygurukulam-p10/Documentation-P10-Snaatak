@@ -2,21 +2,19 @@
 
 
 1. [Introduction](#1-introduction)
-2. [What are Java CI Checks?](#2-what-are-java-ci-checks)
-   - [Key Components](#21-key-components)
-3. [What is DAST?](#3-what-is-dast)
+2. [What is DAST?](#3-what-is-dast)
    - [Key Features of DAST](#31-key-features-of-dast)
-4. [Why Use DAST?](#4-why-use-dast)
+3. [Why Use DAST?](#4-why-use-dast)
    - [Benefits of DAST](#41-benefits-of-dast)
-5. [Different DAST Tools](#5-different-dast-tools)
+4. [Different DAST Tools](#5-different-dast-tools)
    - [Popular DAST Tools](#51-popular-dast-tools)
-6. [Comparison of DAST Tools](#6-comparison-of-dast-tools)
-7. [Advantages of Using DAST](#7-advantages-of-using-dast)
-8. [Proof of Concept (POC)](#8-proof-of-concept-poc)
-9. [Best Practices for Java CI Checks and DAST](#9-best-practices-for-java-ci-checks-and-dast)
-10. [Recommendation and Conclusion](#10-recommendation-and-conclusion)
-11. [Contact Information](#11-contact-information)
-12. [References](#12-references)
+5. [Comparison of DAST Tools](#6-comparison-of-dast-tools)
+6. [Advantages of Using DAST](#7-advantages-of-using-dast)
+7. [Proof of Concept (POC)](#8-proof-of-concept-poc)
+8. [Best Practices for Java CI Checks and DAST](#9-best-practices-for-java-ci-checks-and-dast)
+9. [Recommendation and Conclusion](#10-recommendation-and-conclusion)
+10. [Contact Information](#11-contact-information)
+11. [References](#12-references)
 
 
     
@@ -26,19 +24,8 @@ This documentation outlines the implementation and best practices of integrating
 
 ---
 
-## 2. What are Java CI Checks?
 
-Java CI (Continuous Integration) checks are automated processes that validate the quality, security, and compliance of Java code before it is merged into the main codebase. These checks help in identifying potential bugs, vulnerabilities, and deviations from coding standards.
-
-### 2.1 Key Components
-- **Static Code Analysis**: Detects potential coding errors, vulnerabilities, and code smells using tools like Checkstyle, PMD, and SpotBugs.
-- **Unit Testing**: Validates code correctness through testing frameworks like JUnit or TestNG.
-- **Code Coverage**: Measures the extent to which the source code is tested.
-- **Dependency Analysis**: Checks for vulnerabilities in third-party libraries using tools like OWASP Dependency-Check.
-
----
-
-## 3. What is DAST?
+## 2. What is DAST?
 
 Dynamic Application Security Testing (DAST) is a security testing method that analyzes a running application to find vulnerabilities. It does so by simulating real-world attacks on the application to discover potential security flaws.
 
@@ -50,11 +37,11 @@ Dynamic Application Security Testing (DAST) is a security testing method that an
 
 ---
 
-## 4. Why Use DAST?
+## 3. Why Use DAST?
 
 DAST helps identify security vulnerabilities that are often missed by static analysis. It is crucial for ensuring the security of applications in real-time, especially during deployment.
 
-### 4.1 Benefits of DAST
+### 3.1 Benefits of DAST
 - **Real-time Vulnerability Detection**: Identifies vulnerabilities in the live environment that could be exploited by attackers.
 - **Enhanced Security**: Ensures that the application is not only functionally correct but also secure.
 - **Scalability**: Can be applied to multiple environments without requiring access to the source code.
@@ -62,11 +49,11 @@ DAST helps identify security vulnerabilities that are often missed by static ana
 
 ---
 
-## 5. Different DAST Tools
+## 4. Different DAST Tools
 
 There are several tools available to perform dynamic testing on web applications. Each tool offers different features, integrations, and ease of use.
 
-### 5.1 Popular DAST Tools
+### 4.1 Popular DAST Tools
 - **OWASP ZAP (Zed Attack Proxy)**: Open-source tool used for automated security testing of web applications.
 - **Burp Suite**: Comprehensive suite for web application security testing.
 - **Acunetix**: Automated web vulnerability scanner with extensive DAST features.
@@ -75,7 +62,7 @@ There are several tools available to perform dynamic testing on web applications
 
 ---
 
-## 6. Comparison of DAST Tools
+## 5. Comparison of DAST Tools
 
 | **Tool**        | **License**    | **Key Features**                    | **Pros**                                     | **Cons**                                      |
 |-----------------|----------------|------------------------------------|---------------------------------------------|----------------------------------------------|
@@ -87,7 +74,7 @@ There are several tools available to perform dynamic testing on web applications
 
 ---
 
-## 7. Advantages of Using DAST
+## 6. Advantages of Using DAST
 
 1. **Early Detection of Security Issues**: DAST can be integrated into CI/CD pipelines, enabling early detection of security vulnerabilities before they reach production.
 2. **Automated Testing**: Saves time and effort with automated scans, reducing manual intervention.
@@ -96,10 +83,10 @@ There are several tools available to perform dynamic testing on web applications
 
 ---
 
-## 8. Proof of Concept (POC)
+## 7. Proof of Concept (POC)
 
 
-## 9. Best Practices for Java CI Checks and DAST
+## 8. Best Practices for Java CI Checks and DAST
 
 - **Automate Security Scans**: Integrate DAST tools into the CI/CD pipeline for automatic scans with every build.
 - **Use Multiple Security Tools**: Combine DAST with Static Application Security Testing (SAST) to get comprehensive security coverage.
@@ -109,18 +96,18 @@ There are several tools available to perform dynamic testing on web applications
 
 ---
 
-## 10. Recommendation and Conclusion
+## 9. Recommendation and Conclusion
 
 
 
 ---
 
-## 11. Contact Information
+## 10. Contact Information
 
 
 ---
 
-## 12. References
+## 11. References
 
 
 | **Reference**                   | **Link**                                                   |
