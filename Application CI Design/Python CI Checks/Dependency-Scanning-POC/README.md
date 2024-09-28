@@ -64,18 +64,12 @@ pip install safety
 ```
 cd attendance-api/
 ```
+ 
+4. <details>
 
-<details>
-  <summary>Table of Contents</summary>
+<summary>**Run a scan**</summary>
 
-  1. [Introduction](#introduction)
-  2. [Usage](#usage)
-  3. [Installation](#installation)
-  4. [License](#license)
-
-</details>
-  
-4. **Run a scan**:
+1. <details>
 
 First Run the scan on ``` pyproject.toml``` 
 
@@ -84,6 +78,9 @@ safety check -r pyproject.toml
 ```
 ![image](https://github.com/user-attachments/assets/54417b55-4943-46e8-aa1b-4c61967b62ff)
 
+</details>
+
+2. <details>
 Now Run the scan on ```poetry.lock```
 
 ```
@@ -93,6 +90,10 @@ safety check -r poetry.lock
 ![image](https://github.com/user-attachments/assets/62fcc804-4260-4529-ac2e-02e69df57197)
 ![image](https://github.com/user-attachments/assets/dece325d-abbc-4a78-a744-f713666dca35)
 ![image](https://github.com/user-attachments/assets/e257b470-898c-4e19-b479-2a2714b21d20)
+
+</details>
+
+</details>
 
 
 This configuration will run a safety check on every request, scanning the `pyproject.toml` and `poetry.lock` file for known vulnerabilities as in our ```ATTENDANCE-API``` , We are having these 2 files.
