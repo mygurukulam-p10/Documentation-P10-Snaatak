@@ -52,18 +52,22 @@ https://github.com/OT-MICROSERVICES/attendance-api.git
 ![image](https://github.com/user-attachments/assets/732e63c8-d8d9-4aa7-afd3-ba304a1dea5f)
 ![image](https://github.com/user-attachments/assets/dd51547e-3445-44e4-81da-e09368ec99a1)
 
+---
 
 2. **Install Safety**:
 
 ```bash
 pip install safety
 ```
+---
 
 3. **Go to Attendance-API**
 
 ```
 cd attendance-api/
 ```
+
+---
  
 <details>
   <summary>4. Run a scan</summary>
