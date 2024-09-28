@@ -2,7 +2,7 @@
 
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
 |--------------------|------------|--------------|--------------------------------|
-| 25-09-2024         | 0.1       | Aayush Gaur  | Bugs Analysis              |
+| 25-09-2024         | 1.0       | Aayush Gaur  | Bugs Analysis              |
 
 ![spotbug](https://github.com/user-attachments/assets/3726e901-35ab-4378-b489-1cc9d1071d5d)
 
