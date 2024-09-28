@@ -25,7 +25,7 @@
     
 ## 1. Introduction
 
-This documentation outlines the implementation and best practices of integrating Java CI checks and Dynamic Application Security Testing (DAST) in a CI/CD pipeline. The goal is to ensure code quality, security compliance, and continuous security scanning as part of the development lifecycle.
+This documentation outlines the implementation and best practices of integrating Java checks and Dynamic Application Security Testing (DAST) in the development process. The goal is to ensure code quality, security compliance, and continuous security scanning throughout the application lifecycle.
 
 ---
 
