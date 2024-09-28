@@ -50,7 +50,6 @@ Code compilation in Java is the process where the Java compiler (javac) converts
 | **Dependency Management**    | Automatic from a central repository | Advanced, dynamic resolution | No built-in management (needs Ivy) | Strong caching and dependency management |
 | **Incremental Builds**       | No (compiles everything each time) | Yes                       | No                         | Yes                       |
 | **Standardization**          | Encourages a standardized project structure | Flexible, can lead to less standardization | Highly customizable but less standardized | Good for complex projects |
-| **Ease of Use**              | Yes        | No | No | No   |
 | **Community Support**        | Strong, widely used in enterprise projects | Growing rapidly in the Java ecosystem | Mature, but less popular for new projects | Strong support from Google  |
 | **Use Case**                | Standardized enterprise applications | Modern applications, microservices | Custom build processes      | Large applications needing fast builds |
 
