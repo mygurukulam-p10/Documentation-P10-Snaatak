@@ -108,6 +108,9 @@ There are several tools available to perform dynamic testing on web applications
 
 ## 10. Contact Information
 
+| Name       | Email address     |
+|------------|-------------------|
+| Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
 
 ---
 
