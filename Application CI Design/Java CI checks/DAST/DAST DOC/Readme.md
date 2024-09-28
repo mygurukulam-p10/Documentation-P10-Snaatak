@@ -120,9 +120,9 @@ There are several tools available to perform dynamic testing on web applications
 
 OWASP ZAP Proxy is selected due to its status as an open-source tool, which provides free access for organizations of all sizes. Its user-friendly interface caters to both beginners and experienced professionals, facilitating ease of use. The tool encompasses comprehensive features, including automated scanning and detailed reporting, essential for effective security testing. Furthermore, it integrates seamlessly with CI/CD pipelines, enabling automated security assessments within development workflows. Additionally, OWASP ZAP benefits from strong community support, ensuring regular updates and access to a wealth of resources for users.
 
+---
 
-
-### Conclusion
+### 10. Conclusion
 
 Choosing OWASP ZAP over other security testing tools provides a cost-effective, flexible, and comprehensive solution for identifying vulnerabilities in web applications. Its active community, extensive features, and integration capabilities make it a valuable asset in any security testing toolkit.
 
@@ -130,7 +130,7 @@ Choosing OWASP ZAP over other security testing tools provides a cost-effective, 
 
 ---
 
-## 10. Contact Information
+## 11. Contact Information
 
 | Name       | Email address     |
 |------------|-------------------|
@@ -138,7 +138,7 @@ Choosing OWASP ZAP over other security testing tools provides a cost-effective, 
 
 ---
 
-## 11. References
+## 12. References
 
 
 | **Reference**                   | **Link**                                                   |
