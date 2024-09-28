@@ -11,100 +11,83 @@
 
 # Table of Content 
 1. [🔍 Purpose](#-purpose)
+2. [🌟 Pre-Requisites](#-pre-requisites)
+3. [🖥️ Steps to Set Up Commit Message Validation](#-steps-to-set-up-commit-message-validation)
+   - [Navigate to the Repository](#1-navigate-to-the-repository)
+   - [Create the Commit Message Hook](#2-create-the-commit-message-hook)
+   - [Add Validation Logic](#3-add-validation-logic)
+   - [Test the Hook](#4-test-the-hook)
+4. [📜 Conclusion](#-conclusion)
+5. [📚 References](#-references ) 
+6. [📧 Contact Information ](#-contact-information )
+
+
+
+
+1. [🔍 Purpose](#-purpose)
 2. [✨ Workflow](#-workflow)
 3. [🌟 Pre-requisites](#-pre-requisites)
 4. [🖥️ Steps for Code Commit Notificatin](#-steps-for-code-commit-notification)
-5. [📜 Conclusion](#-conclusion)
-6. [📚 References](#-references ) 
-7. [📧 Contact Information ](#-contact-information )
+
    
 ---
      
 # 🔍 Purpose 
-The purpose of this document is to outline the implementation of a Git pre-commit hook that ensures every commit message includes a valid JIRA ticket ID. This practice enhances traceability and accountability in version control by linking code changes directly to project management tasks. By validating commit messages, it fosters better communication among team members regarding the context of changes. Overall, this document serves as a guide for maintaining consistent and informative commit practices within the development workflow.
+The purpose of this document is to outline the implementation of a Git commit message hook that ensures all commit messages contain valid JIRA ticket IDs. This practice enhances the clarity and traceability of code changes by directly linking them to specific tasks within the project management system. By enforcing this requirement, the hook fosters better communication among team members and ensures that every code change is documented with the appropriate context. Ultimately, this document serves as a guide for maintaining consistent and meaningful commit messages, facilitating a more organized development process.
 
-## ✨ Workflow
-
-![codecommit drawio (2)](https://github.com/user-attachments/assets/93433a96-f1ff-45a3-b38d-a198555dcf9a)
 
 ## 🌟 Pre-requisites
 - A GitHub account.
-- Access to the repository for which you want to receive notifications.
 
-##  🖥️ Steps for Code Commit Notification
+
+##  🖥️ Steps to Set Up Commit Message Validation
 
 ### 1. **Sign in to GitHub**: Go to [GitHub](https://github.com) and log in to your account.
 
 <img width="674" alt="image" src="https://github.com/user-attachments/assets/b115f76a-1561-4a0d-9de5-f8263192f393">
 
-
 ### 2. Create a repository for which you want to configure notifications for code commits.
 
-![Screenshot 2024-09-23 164450](https://github.com/user-attachments/assets/7488354d-04a7-4d07-8d28-6003db689937)
+<img width="928" alt="image" src="https://github.com/user-attachments/assets/5ae07dd6-b83e-4c3d-9bb6-cf7438eea8db">
 
-### 3. Now, click on the repository you created and navigate to the Settings tab at the top.
+### 3. Clone the repository -
 
-<img width="944" alt="Settings" src="https://github.com/user-attachments/assets/87d92c97-36b6-40a9-97a4-481ce455f185">
+<img width="622" alt="Clone" src="https://github.com/user-attachments/assets/194baa11-3c47-4896-8a5c-8aec0af2eeb9">
 
 
-### 4. Generate an App Password for Gmail: If you are using Gmail, you'll need to generate an App Password for your Google account:
+### 4. Navigate to the Repository
+```
+cd<repo name>
+```
+<img width="544" alt="change Dir" src="https://github.com/user-attachments/assets/ee6ddc41-f4a6-48e1-8a57-fc73bd3384dd">
 
-**Go to your Google Account.**
+### 5. Create the Commit Message Hook
+```
+touch commit-msg
+chmod +x commit-msg
+```
+<img width="625" alt="image" src="https://github.com/user-attachments/assets/4c993371-c5c6-4f2f-9b10-eadf2b97a3d0">
 
-**Navigate to Security -> Signing in to Google -> App Passwords.**
+### 6. Open the commit-msg file and add the Validation Logic script to validate commit messages against a list of valid JIRA tickets:
 
-**Choose Mail and select your device, then generate a password and copy it.**
+<img width="794" alt="script for pre commit" src="https://github.com/user-attachments/assets/6bd9aff8-b6ef-43a0-9ab4-42b7d3d6d972">
 
-![Screenshot 2024-09-23 200443](https://github.com/user-attachments/assets/065d60fb-63ab-4ed6-a9d9-449425c6238a)
-
-### 5. Set up GitHub Action Workflow:
-
-**Create a GitHub Actions workflow file in your repository to send an email when a code commit is made.**
-
-**In your GitHub repository, create a workflow file in .github/workflows/ (e.g., send-email-on-codecommit.yml):**
-
-![Screenshot 2024-09-23 200921](https://github.com/user-attachments/assets/e2b44183-c3ca-4533-aff7-c0643f904076)
-
-### 6. Add Gmail Credentials to GitHub Secrets:
-
-**Go to your GitHub repository.**
-
-**Click on Settings -> Secrets -> Actions -> New repository secret.**
-
-**Add two secrets:**
-
-**EMAIL_USERNAME: Your Gmail address (e.g., your-email@gmail.com).**
-
-**EMAIL_PASSWORD: The App Password you generated earlier from Gmail.**
-
-![Screenshot 2024-09-23 200808](https://github.com/user-attachments/assets/8b99b2d8-13b6-4b91-b2bd-52ffc6b12f10)
-
-### 7. Commit and Push the Workflow File:
-
-**Once you add the workflow file, every time a commit is pushed to the specified repo (e.g., code-commit-demo), the GitHub Action will send an email with the details of the commit (message, author, and URL).**
-
-![Screenshot 2024-09-23 235555](https://github.com/user-attachments/assets/8121b4ce-16f5-4847-ab52-0579bc8b8307)
-
-<img width="605" alt="image" src="https://github.com/user-attachments/assets/9e0d082c-0d01-457e-82a9-1a15a24d359b">
-
-![Screenshot 2024-09-23 202553](https://github.com/user-attachments/assets/4c1b23ab-c3b5-41a7-9851-a4519a3fcaeb)
-
-![Screenshot 2024-09-23 201433](https://github.com/user-attachments/assets/b0d72001-5fa1-4951-a1a8-6dbba9e674d5)
-
-![Screenshot 2024-09-23 201420](https://github.com/user-attachments/assets/04cb5dc1-14c0-4347-9852-aca8fcc78635)
-
-![Screenshot 2024-09-23 201803](https://github.com/user-attachments/assets/1351519b-17b9-4374-b279-90234bc27916)
+### 7. Test the Hook
+**After saving the hook, test it by attempting to commit changes with and without a valid JIRA ticket in the commit message:**
+<img width="538" alt="unscussfull" src="https://github.com/user-attachments/assets/8a90b635-91c1-4102-8532-0dfd717dfa7f">
+<img width="587" alt="commit successfull" src="https://github.com/user-attachments/assets/906c6867-35b8-4803-85e6-8f2d64918bd0">
 
 
 ## 📜 Conclusion
-The POC successfully demonstrates an automated email notification system for new code commits, in a GitHub repository. It uses GitHub Actions and a secure email integration via Gmail credentials. This solution ensures timely notifications for relevant code changes while filtering out unnecessary merge events.
- 
+This document has outlined the process for implementing a Git commit message hook that requires commit messages to include valid JIRA ticket IDs. By enforcing this practice, teams can improve the traceability of changes, ensure better alignment with project management workflows, and enhance overall communication among team members. Consistent and meaningful commit messages contribute to a more organized development process, facilitating easier tracking of progress and accountability. Following the steps provided in this guide will help maintain high standards for documentation within your repository, ultimately leading to a more efficient and effective development environment.
+
+
 ## 📚 References 
 |links | Description |
 |-------|------------|
-|https://youtu.be/oMU9MUIXPyI?feature=shared|**Rainbow talks** |
-|https://www.youtube.com/watch?v=qToZN5S67AM| **SDet Automation**|
-|https://tinyurl.com/bdpf3ajc|**GIT**|
+|https://devopedia.org/git-hooks|**Devopedia** |
+|https://fredrkl.com/blog/git-pre-commit-hooks/| **Fredrik**|
+|https://hydraulic.dev/blog/12-github-action.html|**Hydraulic**|
 
 ## 📧 Contact Information 
 |Name|Email Address|
