@@ -1,4 +1,9 @@
 # VCS Authorization Detailed Document
+
+| Author      | Created on  | Version    | Last updated by | Last edited on |
+|-------------|-------------|------------|-----------------|----------------|
+|Abhinav Singh| 18-09-24    | Version 1  | Abhinav Singh   | 22-09-24       |
+
 ![image](https://github.com/user-attachments/assets/30c3847f-047d-45c1-9a02-c76be5406941)
 
 VCS uses various strategies to manage repository access. This guide explains authorization methods in Git, their configuration, and best practices to secure permissions, ensuring only authorized users can modify your repositories.
@@ -8,10 +13,9 @@ VCS uses various strategies to manage repository access. This guide explains aut
 2. [Why we need Authorization](#why-we-need-authorization)
 3. [Access levels in VCS Authorization](#access-levels-in-vcs-authorization)
 4. [Audit trails in VCS authorization](#audit-trails-in-vcs-authorization)
-5. [Integration with identity providers](#integration-with-identity-providers)
-6. [Conclusion](#conclusion)
-7. [Contact Information](#contact-information)
-8. [References](#references)
+5. [Conclusion](#conclusion)
+6. [Contact Information](#contact-information)
+7. [References](#references)
 
 
 ## Introduction
@@ -37,7 +41,7 @@ Authorization in Version Control Systems (VCS) controls user permissions, ensuri
 | **Read-Only** | View and clone repositories. |
 | **Write-Access** | Push changes and create branches.|
 | **Admin** | Full control and configuration. |
-| **Maintainer** | Manage branches and merge pull requests. |
+| **Triage** | Manage issues and pull requests without write access to code.. |
 | **Guest** | Limited, often read-only access. |
 
 
@@ -49,17 +53,7 @@ Authorization in Version Control Systems (VCS) controls user permissions, ensuri
 | **Commits** | Records who made changes and what was changed. |
 | **Pull Requests** | Tracks review and merge history.|
 | **Access Changes** | Logs modifications to user permissions and roles. |
-| **Branch Actions** | Details creation, deletion, and modifications of branches. |
-
-## Integration with identity providers
-
-|    Integration Type    |   Description    |
-|--------------|--------------------|
-| **LDAP** | Connects to LDAP directories for user management and authentication. |
-| **SAML** | Uses SAML for Single Sign-On (SSO) and federated access. |
-| **OAuth** | Allows authentication and authorization through OAuth providers. |
-| **Active Directory** | Integrates with Microsoft Active Directory for user and group management. |
-| **Custom Providers** | Custom integrations with proprietary or specialized identity systems. |
+| **Branch Actions** | Tracks branch creation, deletion, and modifications of branches. |
 
 ## Conclusion
 
