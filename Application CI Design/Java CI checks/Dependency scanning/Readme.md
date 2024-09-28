@@ -13,7 +13,7 @@
 + [Popular Tools](#popular-tools)
 + [Tool Comparison](#tool-comparison)
 + [Why Choose OWASP?](#why-choose-owasp)
-+ [Proof of Concept (POC) for Dependency-Check](#Proof-of-Concept-for-Dependency-Check)
++ [Proof of Concept (POC) for Dependency-Check](#proof-of-concept-poc-for-dependency-check)
 + [Advantages and Disadvantages](#Advantages-and-Disadvantages)
 + [Best Practices](#best-practices)
 + [Security Compliance](#security-compliance)
