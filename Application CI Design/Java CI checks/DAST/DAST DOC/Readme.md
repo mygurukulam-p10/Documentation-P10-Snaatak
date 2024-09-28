@@ -85,6 +85,7 @@ There are several tools available to perform dynamic testing on web applications
 
 ## 7. Proof of Concept (POC)
 
+[Click here for JAVA DAST POC](https://github.com/mygurukulam-p10/Documention/blob/main/Application%20CI%20Design/Java%20CI%20checks/DAST/DAST%20POC/Readme.md#contact-information)
 
 ## 8. Best Practices for DAST
 
