@@ -46,7 +46,7 @@ Code compilation in Java is the process where the Java compiler (javac) converts
 | Feature                     | Maven                          | Gradle                     | Ant                        | Bazel                     |
 |-----------------------------|--------------------------------|---------------------------|----------------------------|---------------------------|
 | **Configuration Format**     | XML (pom.xml)                 | Groovy/Kotlin DSL (build.gradle) | XML (build.xml)            | Domain-specific language   |
-| **Build Lifecycle**          | Strict phases (clean, compile, package) | Flexible and customizable | Task-based without a strict lifecycle | Fast and scalable, not phase-based |
+| **Build Lifecycle**          | Strict phases (clean, compile, package) | Strict phases  | Task-based without a strict lifecycle | Fast and scalable, not phase-based |
 | **Dependency Management**    | Automatic from a central repository | Advanced, dynamic resolution | No built-in management (needs Ivy) | Strong caching and dependency management |
 | **Incremental Builds**       | No (compiles everything each time) | Yes                       | No                         | Yes                       |
 | **Standardization**          | Encourages a standardized project structure | Flexible, can lead to less standardization | Highly customizable but less standardized | Good for complex projects |
