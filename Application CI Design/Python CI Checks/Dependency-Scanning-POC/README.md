@@ -72,6 +72,7 @@ cd attendance-api/
 <details>
   <summary> 4. Run a scan </summary>
 
+
   <details>
     <summary> i. First scan</summary>
 
