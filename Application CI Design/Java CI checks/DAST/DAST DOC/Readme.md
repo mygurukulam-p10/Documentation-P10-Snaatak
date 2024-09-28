@@ -17,9 +17,10 @@
 6. [Advantages and Disadvantage DAST](#7-advantages-of-using-dast)
 7. [Proof of Concept (POC)](#8-proof-of-concept-poc)
 8. [Best Practices for DAST](#9-best-practices-for-java-ci-checks-and-dast)
-9. [Recommendation Conclusion](#10-recommendation-and-conclusion)
-10. [Contact Information](#11-contact-information)
-11. [References](#12-references)
+9. [Recommendation ](#10-recommendation-and-conclusion)
+10. [Conclusion](#Conclusion)
+11. [Contact Information](#11-contact-information)
+12. [References](#12-references)
 
 
     
@@ -115,38 +116,11 @@ There are several tools available to perform dynamic testing on web applications
 
 ---
 
-## 9. Recommendation and Conclusion
-### Reasons for Choosing OWASP ZAP
+## 9. Recommendation 
 
-1. **Open Source**:
-   - OWASP ZAP is free and open-source, making it accessible for organizations of all sizes without licensing costs.
+OWASP ZAP Proxy is selected due to its status as an open-source tool, which provides free access for organizations of all sizes. Its user-friendly interface caters to both beginners and experienced professionals, facilitating ease of use. The tool encompasses comprehensive features, including automated scanning and detailed reporting, essential for effective security testing. Furthermore, it integrates seamlessly with CI/CD pipelines, enabling automated security assessments within development workflows. Additionally, OWASP ZAP benefits from strong community support, ensuring regular updates and access to a wealth of resources for users.
 
-2. **Community Support**:
-   - A large and active community contributes to its continuous improvement and provides extensive documentation, tutorials, and support.
 
-3. **Ease of Use**:
-   - ZAP offers a user-friendly interface, making it suitable for both beginners and experienced security professionals.
-
-4. **Comprehensive Features**:
-   - It includes a wide range of features, such as automated scanning, passive scanning, spidering, and reporting, which cover various aspects of web application security.
-
-5. **Customizable and Extensible**:
-   - Users can customize ZAP's functionality through add-ons and plugins, allowing it to adapt to specific testing needs.
-
-6. **Integration Capabilities**:
-   - ZAP integrates easily with CI/CD pipelines and other development tools, enabling automated security testing within development workflows.
-
-7. **Active Development**:
-   - OWASP ZAP is actively maintained and updated, ensuring it stays current with the latest security vulnerabilities and testing techniques.
-
-8. **API Support**:
-   - It provides a robust REST API, allowing for automation and integration into various workflows and environments.
-
-9. **Multi-Platform Compatibility**:
-   - ZAP runs on multiple operating systems, including Windows, Linux, and macOS, making it versatile for different environments.
-
-10. **Focus on Security Awareness**:
-    - Being part of the OWASP community, ZAP promotes security awareness and education among developers and security professionals.
 
 ### Conclusion
 
