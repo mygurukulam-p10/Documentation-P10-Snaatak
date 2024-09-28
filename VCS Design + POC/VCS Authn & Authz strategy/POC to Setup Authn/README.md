@@ -10,11 +10,12 @@
 ## Table of Contents
 1. [Purpose](#purpose)
 2. [System Prerequisites](#system-prerequisites)
-3. [Step by Step Authentication Setup](#step-by-step-authentication-setup)
-4. [Best Practices for Secure Authentication](#best-practices-for-secure-authentication)
-5. [Conclusion](#conclusion)
-6. [Contact Information](#Contact-Information)
-7. [References](#References)
+3. [Step by Step Authentication Setup for CLI Access](#step-by-step-authentication-setup-for-cli-access)
+4. [Step by Step 2FA Authentication Setup for GUI-access](#step-by-step-2fa-authentication-setup-for-gui-access)
+5. [Best Practices for Secure Authentication](#best-practices-for-secure-authentication)
+6. [Conclusion](#conclusion)
+7. [Contact Information](#Contact-Information)
+8. [References](#References)
 
 ## Purpose
 VCS employs various methods to control repository access. This guide covers authentication methods used in git, their setup, and security best practices. Ensure only authorized users can interact with your repositories.
@@ -29,7 +30,7 @@ VCS employs various methods to control repository access. This guide covers auth
 |   **Software Dependencies**   |      OpenSSH      |
 
 
-## Step by Step Authentication Setup
+## Step by Step Authentication Setup for CLI Access
 
 ### Generating and Using SSH Keys 
 
@@ -66,6 +67,29 @@ Copy SSH URL
 
 Now when you clone the repo it won't ask for password and will provide secure login with SSH.
 ![image](https://github.com/user-attachments/assets/692969dc-3dd5-4ad7-9d13-26fb8c2de287)
+
+## Step by Step 2FA Authentication Setup for GUI Access
+
+Go to github sign in page and,
+
+Signin into your Github account with username/email and Password.
+![image](https://github.com/user-attachments/assets/d227944b-4185-40be-98a5-ee89eb16c0db)
+
+Navigate to settings page and choose Password and Authentication
+![image](https://github.com/user-attachments/assets/ff41b1a6-bd62-46af-ba7d-d2a43f32ec11)
+
+Under Two-factor Authentication Section You will see different options to choose -
+
+You need to Install any Authenticator app on your mobile phone in my case **Authy,**
+
+![image](https://github.com/user-attachments/assets/ed3df626-6528-4f77-a2c9-5950fcd5dbc8)
+
+
+Now open the authenticator app select add account and Capture the QR Code present under Two-factor authentication section
+![image](https://github.com/user-attachments/assets/3c4c7811-2bc3-4f9b-baa2-0805e832c3ac)
+
+Complete Enablement.
+
 
 ## Best Practices for Secure Authentication
 
