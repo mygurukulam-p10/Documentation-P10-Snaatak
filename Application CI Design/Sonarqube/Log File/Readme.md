@@ -20,14 +20,15 @@ SonarQube provides a comprehensive logging system to help monitor and troublesho
 
 ## Types of Logs
 
-| Log Type                  | Description                                                                 | Log File Location                  | Log Level    |
-|---------------------------|-----------------------------------------------------------------------------|------------------------------------|--------------|
-| Web Server Logs           | Logs HTTP requests and responses handled by the SonarQube web server.      | `<SONARQUBE_HOME>/logs/web.log`  | INFO, ERROR  |
-| Ce Logs (Compute Engine)  | Logs background tasks related to code analysis and project processing.     | `<SONARQUBE_HOME>/logs/ce.log`    | INFO, ERROR  |
-| Es Logs (Elasticsearch)   | Logs related to the Elasticsearch service, including indexing and queries. | `<SONARQUBE_HOME>/logs/es.log`    | DEBUG, INFO  |
-| Db Logs (Database)        | Logs SQL queries and database interactions.                                 | `<SONARQUBE_HOME>/logs/db.log`    | DEBUG, INFO  |
-| Scanner Logs              | Logs produced during the analysis performed by SonarQube scanners.         | Depends on the scanner used        | Varies       |
-| Security Logs             | Logs related to authentication, authorization, and security events.        | `<SONARQUBE_HOME>/logs/security.log` | INFO, ERROR  |
+| Log File                     | Description                                                                           |
+|------------------------------|---------------------------------------------------------------------------------------|
+| **`access.log`**            | Logs all HTTP access requests to the SonarQube server.                               |
+| **`ce.log`**                | Logs background tasks related to code analysis and project processing.               |
+| **`deprecation.log`**       | Logs warnings about deprecated features and their usage.                             |
+| **`es.log`**                | Ops information from the Elasticsearch service, such as startup and health status.  |
+| **`sonar.log`**             | General log for the main SonarQube process, including startup and shutdown info.   |
+| **`web.log`**               | Logs HTTP requests and responses handled by the SonarQube web server.               |
+
 
 ## Log Levels
 SonarQube supports several log levels to classify the importance of log messages:
