@@ -12,7 +12,7 @@
 # Table of Content 
 1. [🔍 Purpose](#-purpose)
 2. [🌟 Pre-Requisites](#-pre-requisites)
-3. [📋 Steps to Set up Commit Messgae Validation](#-steps-to-set-up-commit-message-validation)
+3. [📋 Steps to Set up Commit Message Validation](#-steps-to-set-up-commit-message-validation)
 4. [📜 Conclusion](#-conclusion)
 5. [📚 References](#-references ) 
 6. [📧 Contact Information ](#-contact-information )   
