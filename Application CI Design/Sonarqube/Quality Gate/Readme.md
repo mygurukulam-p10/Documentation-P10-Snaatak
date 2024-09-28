@@ -40,7 +40,7 @@ SonarQube allows the creation of different types of quality gates, including:
 | **Custom Quality Gate**  | User-defined gate tailored to project-specific needs.      |
 | **Branch Quality Gate**  | Conditions applied to branches (e.g., feature, release).   |
 
-# Steps to Implement SonarQube Quality Gate
+# Implementation of Quality Gates
 
 ## Step 1: Set Up a SonarQube Project
 
