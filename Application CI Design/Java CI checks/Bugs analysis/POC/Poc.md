@@ -74,7 +74,7 @@ Run this command to check bugs
 Run this  command to generate an html report & it will  generate various types of reports, such as HTML and XML: (target/spotbugs.html)(target/spotbugsXml.xml).
 
 ```
-	mvn spotbugs:spotbugs
+mvn spotbugs:spotbugs
 ```
 
 ![Screenshot from 2024-09-28 13-24-48](https://github.com/user-attachments/assets/080df602-18b9-4f32-8b71-967fd3cfb6aa)
