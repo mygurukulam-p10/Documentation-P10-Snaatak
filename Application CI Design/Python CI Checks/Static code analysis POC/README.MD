@@ -58,7 +58,7 @@ sudo apt install pylint
 ``` shell 
 pylint app.py
 ```      
-![Alt text](images/Screenshot from 2024-09-24 03-08-43.png)
+![Alt text](images/
 
 
 
