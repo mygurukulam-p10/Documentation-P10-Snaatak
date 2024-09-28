@@ -47,6 +47,10 @@ Safety is a command-line tool that checks your installed dependencies for known 
 ```
 https://github.com/OT-MICROSERVICES/attendance-api.git
 ```
+### In this Repository you will see these files in which we will perform the dependency scanning.
+
+![image](https://github.com/user-attachments/assets/732e63c8-d8d9-4aa7-afd3-ba304a1dea5f)
+![image](https://github.com/user-attachments/assets/dd51547e-3445-44e4-81da-e09368ec99a1)
 
 
 2. **Install Safety**:
@@ -82,9 +86,6 @@ safety check -r poetry.lock
 
 
 This configuration will run a safety check on every request, scanning the `pyproject.toml` and `poetry.lock` file for known vulnerabilities as in our ```ATTENDANCE-API``` , We are having these 2 files.
-
-![image](https://github.com/user-attachments/assets/732e63c8-d8d9-4aa7-afd3-ba304a1dea5f)
-![image](https://github.com/user-attachments/assets/dd51547e-3445-44e4-81da-e09368ec99a1)
 
 
 ## 📚 References
