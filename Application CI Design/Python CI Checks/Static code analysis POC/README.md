@@ -50,7 +50,8 @@ sudo apt install python3
 sudo apt install pylint
 ``` 
 
-![Uploading Screenshot from 2024-09-28 04-09-33.png…]()
+![Screenshot from 2024-09-24 03-08-43](https://github.com/user-attachments/assets/bbacc570-fa4c-40e6-886e-edfdc1df31c7)
+
 
 
 ++++++++
