@@ -34,8 +34,8 @@ We are preparing this document so that we can easily provide a completed guide t
 | Hardware Specifications | Minimum Recommendation  |
 |--------------------------|------------------------|
 | Processor                | dual-core              |
-| RAM                      | 4 GB                    |
-| Disk                     |20 GB free disk space                  |
+| RAM                      | 2 GB                    |
+| Disk                     |5 GB free disk space                  |
 | OS                       | Ubuntu 22.04 LTS         |
 
 
