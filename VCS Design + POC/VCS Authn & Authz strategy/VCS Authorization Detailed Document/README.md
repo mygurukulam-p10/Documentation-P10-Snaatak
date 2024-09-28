@@ -91,6 +91,7 @@ For more information, feedback, or assistance, feel free to contact:
 
 | Links                                             | Descriptions                           |
 |---------------------------------------------------|----------------------------------------|
+| https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20%2B%20POC/VCS%20Authn%20%26%20Authz%20strategy/POC%20to%20setup%20VCS%20Authz/README.md | Github Authorization POC |
 | https://docs.gitlab.com/ee/user/permissions.html  | Permissions and Roles in Gitlab|
 | https://docs.github.com/en/get-started/learning-about-github/access-permissions-on-github | Access Permissions on Github |
 
