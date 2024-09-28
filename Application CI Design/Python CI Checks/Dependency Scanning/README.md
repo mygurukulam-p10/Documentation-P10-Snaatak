@@ -91,7 +91,7 @@ In my Attendance API microservice, I recommend using Safety for its lightweight 
 |---------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 | **Safety Documentation**                                      | [Safety Docs](https://pyup.io/safety/)                                                           |
 | **Snyk Python Documentation**                                 | [Snyk Docs](https://docs.snyk.io/products/snyk-open-source/language-and-package-manager-support/snyk-for-python) |
-| **Python-CI POC **                           | [POC Doc](https://github.com/mygurukulam-p10/Documention/tree/main/Application%20CI%20Design/Python%20CI%20Checks/Dependency-Scanning-POC)                          |
+| **Python-CI POC**                           | [POC Doc](https://github.com/mygurukulam-p10/Documention/tree/main/Application%20CI%20Design/Python%20CI%20Checks/Dependency-Scanning-POC)                          |
 | **pip-audit Documentation**                                   | [pip-audit Docs](https://pypi.org/project/pip-audit/)                                          |
 | **OWASP Dependency-Check**                                   | [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/)                       |
 
