@@ -11,7 +11,7 @@
 - [Tool Comparison](#tool-comparison)
 - [Tool Recommendation](#tool-recommendation)
 - [Proof Of Concept: FOSSA](#proof-of-concept-fossa)
-- [Advantages and Disadvantages](#advantages)
+- [Advantages and Disadvantages](#advantages-and-disadvantage)
 - [Best Practices](#best-practices)
 - [Conclusion](#conclusion)
 - [Contact Information](#contact-information)
