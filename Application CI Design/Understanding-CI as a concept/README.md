@@ -3,12 +3,13 @@
 ---
 
 ## Table of Contents
-
+1. [🚀 Purpose](#-purpose)
 1. [🚀 Why CI?](#-why-ci)
 2. [🔍 What is CI?](#-what-is-ci)
 3. [🛠️ Key Components of CI](#️-key-components-of-ci)
 4. [🛤️ CI Workflow](#️-ci-workflow)
 5. [🌟 Benefits of CI](#-benefits-of-ci)
+6. [🌟 Disadvantages of CI](#-disadvantages-of-ci)
 6. [🎯 Best Practices](#-best-practices)
 7. [📜 Conclusion](#-conclusion)
 8. [📚 References](#-references)
@@ -16,7 +17,7 @@
 
 ---
 
-## Purpose 🚀 :
+## Purpose 🚀 
 
 Continuous Integration (CI) helps make software development easier, faster, and more collaborative. It reduces problems when merging code, improves the quality of the code, and speeds up feedback, making releases quicker and safer. As we are proceeding with diffrent phases of sprint with now testing and debugging, CI plays an important role in that.
 
@@ -49,10 +50,6 @@ Continuous Integration (CI) is a game-changer in modern software development. Im
 | **⚡ Fast Feedback**          | Immediate alerts if something goes wrong, so you can fix issues quickly.                        |
 | **🔧 Early Detection**        | Catch bugs and integration issues early, when they’re easier and cheaper to fix.                |
 
-### 🌟 Example:
-
-Imagine a team working on a new feature for an e-commerce platform. Each developer commits their code daily to a central repository. The CI system runs tests on each commit. If a test fails (say, the checkout process breaks), the developer gets an alert to fix it right away before the issue becomes bigger.
-
 ---
 
 ## 🛠️ Key Components of CI
@@ -73,23 +70,19 @@ Imagine a team working on a new feature for an e-commerce platform. Each develop
 
 Here’s a step-by-step breakdown of how the CI process flows:
 
-![image](https://github.com/user-attachments/assets/595ef343-c515-433d-82d8-d013f4a053ec)
+![CICD Pipeline ](https://github.com/user-attachments/assets/76be5dc9-0903-42cb-983e-3f5987a1e1b0)
 
 
-| **Step #** | **Action**                                                                                                                    |
-|------------|--------------------------------------------------------------------------------------------------------------------------------|
-| **1**      | 👨‍💻 **Code Commit**: A developer commits code to the VCS (e.g., GitHub).                                                      |
-| **2**      | 🔔 **CI Server Trigger**: The CI server detects the change and kicks off a new build.                                           |
-| **3**      | 🔧 **Build Process**: The code is compiled and any necessary dependencies are downloaded.                                       |
-| **4**      | 🧪 **Run Tests**: Automated tests (unit tests, integration tests, etc.) are executed.                                           |
-| **5**      | 📊 **Code Quality Check**: Tools analyze the quality of the code (e.g., checking for bugs or security issues).                  |
-| **6**      | 📦 **Build Artifacts**: If all tests pass, the build artifacts are generated and stored (e.g., Docker images, executable files). |
-| **7**      | 📢 **Feedback**: Results of the build/test process are reported back to the team via notifications.                             |
-| **8**      | 🔁 **Fix & Repeat**: If any issues arise, developers fix them and push their changes, restarting the CI cycle.                  |
-
-### 🌟 Example:
-
-Let's say a developer named Hitesh pushes a new feature for user authentication. The CI server runs the tests, but one fails because the login form doesn't validate the password correctly. Hitesh gets an instant notification via Slack, fixes the issue, and commits the update. The CI server reruns the tests, and this time everything passes!
+| Step                         | Description                                                                 |
+|------------------------------|-----------------------------------------------------------------------------|
+| ✍️ **Commit change**           | A developer makes changes and commits them to the code repository.          |
+| 🚀 **Trigger build**           | The commit automatically triggers a build process in the CI pipeline.       |
+| 🏗️ **Build**                   | The source code is compiled and built into a deployable artifact.           |
+| 📩 **Notify of build outcome** | Notifications are sent regarding the success or failure of the build.       |
+| ✅ **Run test**                | Automated tests are executed to ensure the build works as expected.         |
+| 🛎️ **Notify of test outcome**  | Notifications are sent about the results of the test run.                   |
+| 📦 **Deliver build to environment** | The successful build is delivered to a specified environment.          |
+| 🌍 **Deploy where necessary**  | The build is deployed to production or other environments based on needs.   |
 
 ---
 
@@ -104,6 +97,20 @@ Let's say a developer named Hitesh pushes a new feature for user authentication.
 | **👀 Increased Visibility**         | Everyone on the team knows the status of the build and tests.                |
 | **🤖 Less Manual Work**             | Automation of builds and tests means fewer manual steps.                     |
 | **🤝 Better Collaboration**         | Teams communicate more effectively and often when integrating frequently.    |
+
+
+## 🌟 Disadvantages of CI
+
+| Disadvantage                        | Description                                                                 |
+| ----------------------------------- | --------------------------------------------------------------------------- |
+| **⚙️ Setup Complexity**             | Setting up CI can be tricky and time-consuming initially.                    |
+| **💰 Increased Costs**              | CI requires infrastructure and tools, which can be expensive.                |
+| **🔧 Maintenance Required**         | Regular upkeep is needed to keep the CI pipeline running smoothly.           |
+| **⏳ Slow Test Runs**               | Large test suites can slow down the development process.                     |
+| **🤖 Over-Reliance on Automation**  | Teams might miss manual checks by depending too much on automated tests.      |
+| **🔔 Frequent Interruptions**       | Constant notifications can distract developers and interrupt their flow.     |
+| **⚠️ False Test Results**           | CI can sometimes give incorrect build or test results.                       |
+| **🙅 Cultural Resistance**          | Some teams may resist adopting CI due to changes in workflow.                |
 
 ---
 
@@ -125,10 +132,11 @@ Let's say a developer named Hitesh pushes a new feature for user authentication.
 
 ## 📜 Conclusion
 
-Continuous Integration (CI) is more than just a buzzword—it’s a vital practice for modern development. It not only helps teams build better software faster but also creates an environment of continuous learning and improvement. Implementing CI requires effort upfront, but the benefits in terms of **bug detection**, **team collaboration**, and **software quality** far outweigh the initial setup cost.
+As we move forward with our sprints and adopt more automation in our development process, Continuous Integration (CI) plays a crucial role in ensuring we stay agile and efficient.
 
-By automating the integration, testing, and quality checking processes, CI allows developers to focus on what matters—**building great software**. 🏗️
+CI is more than just a tool—it’s a practice that transforms the way teams collaborate and deliver software. By automating the integration, testing, and quality checks, we’re able to catch bugs early, improve team collaboration, and maintain high software quality. Though setting up CI requires initial effort, the long-term benefits far outweigh the costs. CI allows us to focus on what truly matters—building great microservices like the Employee API, Attendance API, and Salary API—while continuously improving and learning. 🏗️
 
+With CI integrated into our pipeline, we’re not only building better software but also creating a culture of continuous learning and improvement, setting us up for long-term success. 🚀
 
 ---
 
