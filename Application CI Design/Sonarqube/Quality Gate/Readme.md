@@ -12,7 +12,7 @@
 5. [Types of Quality Gates](#types-of-quality-gates)
 6. [Implementation of Quality Gates](#implementation-of-quality-gates)
 7. [Advantages of Using Quality Gates](#advantages-of-using-quality-gates)
-8. [Advantages and Disadvantages](#Advantages-disadvantage)
+8. [Advantages and Disadvantages](#advantages-and-disadvantages)
 9. [Conclusion](#conclusion)
 10.  [Contact Information](#Contact-Information)
 11. [References](#references)
