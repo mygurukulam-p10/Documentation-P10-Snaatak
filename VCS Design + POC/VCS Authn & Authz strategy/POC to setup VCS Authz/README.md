@@ -107,12 +107,23 @@ Authorization in version control systems (VCS) ensures that only users with the 
 
 
 
+## Conclusion
+
+Effective VCS authorization is essential for safeguarding your codebase. By implementing role-based access, branch protection, and pull request reviews, you can ensure secure and controlled access, fostering collaboration while maintaining code integrity.
+
+## Contact Information
+For more information, feedback, or assistance, feel free to contact:
+| Name                   | Email address          |
+|------------------------|------------------------|
+| Abhinav Singh          | abhinav.singh.snaatak@mygurukulam.co  |
 
 
+## References
 
-
-
-
-
+| Links                                             | Descriptions                           |
+|---------------------------------------------------|----------------------------------------|
+| https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20%2B%20POC/VCS%20Authn%20%26%20Authz%20strategy/VCS%20Authorization%20Detailed%20Document/README.md | Authorization Detailed Document |
+| https://docs.gitlab.com/ee/user/permissions.html  | Permissions and Roles in Gitlab|
+| https://docs.github.com/en/get-started/learning-about-github/access-permissions-on-github | Access Permissions on Github |
 
 
