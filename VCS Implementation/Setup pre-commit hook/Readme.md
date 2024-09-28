@@ -21,6 +21,7 @@
 # 🔍 Purpose 
 The purpose of this document is to outline the implementation of a Git commit message hook that ensures all commit messages contain valid JIRA ticket IDs. This practice enhances the clarity and traceability of code changes by directly linking them to specific tasks within the project management system. By enforcing this requirement, the hook fosters better communication among team members and ensures that every code change is documented with the appropriate context. Ultimately, this document serves as a guide for maintaining consistent and meaningful commit messages, facilitating a more organized development process.
 
+---
 ## 🌟 Pre-requisites
 - A GitHub account.
 
@@ -38,7 +39,6 @@ The purpose of this document is to outline the implementation of a Git commit me
 ### 3. Clone the repository -
 
 <img width="622" alt="Clone" src="https://github.com/user-attachments/assets/194baa11-3c47-4896-8a5c-8aec0af2eeb9">
-
 
 ### 4. Navigate to the Repository
 ```
