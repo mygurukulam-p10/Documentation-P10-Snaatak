@@ -64,6 +64,16 @@ pip install safety
 ```
 cd attendance-api/
 ```
+
+<details>
+  <summary>Table of Contents</summary>
+
+  1. [Introduction](#introduction)
+  2. [Usage](#usage)
+  3. [Installation](#installation)
+  4. [License](#license)
+
+</details>
   
 4. **Run a scan**:
 
