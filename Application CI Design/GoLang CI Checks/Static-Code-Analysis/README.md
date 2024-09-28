@@ -1,11 +1,11 @@
+
+# Golang CI Checks - Static Code Analysis - Documentation 🚀
+
 ![image](https://github.com/user-attachments/assets/f84296a1-8665-452c-a839-fbcea216796d)
 
-
-# Golang CI Checks - Static Code Analysis 🚀
-
 ## Table of Contents 📑
-1. [Introduction](#introduction)
-2. [Purpose](#purpose)
+1. [Purpose](#purpose)
+2. [Introduction](#introduction)
 3. [What is Static Code Analysis?](#what-is-static-code-analysis)
 4. [Why Use Static Code Analysis?](#why-use-static-code-analysis)
 5. [Different Tools for Static Code Analysis](#different-tools-for-static-code-analysis)
@@ -17,11 +17,11 @@
 11. [References](#references)
 12. [Contact Information](#contact-information)
 
-## Introduction 🌟
-Static code analysis is a crucial part of modern software development, especially in CI/CD pipelines. It helps identify potential issues in code before deployment, ensuring higher code quality and maintainability. This documentation focuses on Golangci-lint, a powerful linter for Golang that supports multiple linters and provides comprehensive analysis capabilities.
-
 ## Purpose 🎯
-The purpose of this documentation is to provide a comprehensive overview of static code analysis in Golang using Golangci-lint. It aims to guide developers and teams in integrating Golangci-lint into their CI/CD workflows, emphasizing best practices, benefits, and practical implementation steps.
+The purpose of this documentation is to provide a comprehensive overview of static code analysis in Golang  It aims to guide developers and teams in integrating Checks into their CI/CD workflows, emphasizing best practices, benefits, and practical implementation steps.
+
+## Introduction 🌟
+Static code analysis plays an important role in modern software development, particularly in CI/CD pipelines. It helps catch potential problems in the code before deployment, leading to improved code quality and easier maintenance. This documentation focuses on the checks involved in static code analysis, which provide thorough evaluation capabilities for various programming languages.
 
 ## What is Static Code Analysis? 📊
 Static code analysis is the process of examining source code without executing it to identify potential errors, code quality issues, and security vulnerabilities. This technique involves analyzing the code structure, syntax, and style, providing developers with insights that can improve the quality and maintainability of their software. Key benefits include early detection of bugs, enforcement of coding standards, and facilitation of code reviews.
@@ -77,7 +77,7 @@ Using Golangci-lint in your CI pipeline is highly recommended for ensuring code 
 
 | Reference                                     | Link                                                  |
 |-----------------------------------------------|-------------------------------------------------------|
-| Golangci-lint GitHub Repository               | [GitHub](https://github.com/golangci/golangci-lint)  |
+| Golangci-lint GitHub Repository               | [GitHub](https://github.com/mygurukulam-p10/Documention/tree/main/Application%20CI%20Design/GoLang%20CI%20Checks/Static-Code-Analysis-POC)  |
 | Go Blog on Linting                           | [Go Blog](https://blog.golang.org/lint)               |
 | Static Analysis Tools for Go                 | [Static Analysis](https://golang.org/doc/code.html#staticanalysis) |
 | CI/CD Best Practices                          | [Atlassian](https://www.atlassian.com/continuous-delivery/ci-vs-ci) |
