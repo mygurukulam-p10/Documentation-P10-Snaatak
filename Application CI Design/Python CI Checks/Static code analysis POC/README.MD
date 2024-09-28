@@ -10,7 +10,6 @@
 - [Introduction](#Introduction)
 - [Pre-requisites](#pre-requisites)
 - [POC of Static Code Compilation in Python](#POC-of-Static-Code-Compilation-in-Python)
-- [Output](#Output)
 - [Conclusion](#conclusion)
 - [Contact Information](#contact-information)
 - [Resources and References](#resources-and-references)
