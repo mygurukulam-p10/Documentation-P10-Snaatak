@@ -54,8 +54,6 @@ sudo apt install pylint
 
 
 
-++++++++
-
 **Step-3** Run pylint
 ``` shell 
 pylint app.py
