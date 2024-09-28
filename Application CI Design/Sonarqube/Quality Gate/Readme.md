@@ -12,7 +12,7 @@
 5. [Types of Quality Gates](#types-of-quality-gates)
 6. [Implementation of Quality Gates](#implementation-of-quality-gates)
 7. [Advantages of Using Quality Gates](#advantages-of-using-quality-gates)
-8. [Advantages and Disadvantages of Using Quality Gates](#Advantages-disadvantage)
+8. [Advantages and Disadvantages](#Advantages-disadvantage)
 9. [Conclusion](#conclusion)
 10.  [Contact Information](#Contact-Information)
 11. [References](#references)
@@ -116,7 +116,7 @@ SonarQube allows the creation of different types of quality gates, including:
 ![Screenshot from 2024-09-25 00-57-44](https://github.com/user-attachments/assets/08b045dc-2b31-4baf-9fb3-bc261e0e7f48)
 
 
-# Advantages and Disadvantages of Using Quality Gates
+## Advantages and Disadvantages
 
 | Advantages                        | Disadvantages                   |
 |-----------------------------------|---------------------------------|
