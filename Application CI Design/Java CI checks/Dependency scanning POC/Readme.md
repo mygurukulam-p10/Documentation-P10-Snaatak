@@ -31,8 +31,8 @@
 
 | Hardware Specifications | Minimum Recommendation  |
 |--------------------------|------------------------|
-| Processor                | single-core              |
-| RAM                      | 1GB                    |
+| Processor                | double-core              |
+| RAM                      | 4GB                    |
 | Disk                     | 10GB                   |
 | OS                       | Ubuntu(22.04)          |
 
