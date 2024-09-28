@@ -6,6 +6,22 @@
 
 ![spotbug](https://github.com/user-attachments/assets/3726e901-35ab-4378-b489-1cc9d1071d5d)
 
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Prerequisites](#prerequisites)
+3. [Steps](#steps)
+   - [Install Java 17 and Maven](#install-java-17-and-maven)
+   - [Cloning Repo](#cloning-repo)
+   - [Add the Spotbug Dependency in pom.xml](#add-the-spotbug-dependency-in-pomxml)
+   - [Integrate Find Security Bugs into spotbugs-maven-plugin](#integrate-find-security-bugs-into-spotbugs-maven-plugin)
+   - [Analyze Code with SpotBugs](#analyze-code-with-spotbugs)
+   - [Generate SpotBugs Reports](#generate-spotbugs-reports)
+4. [Conclusion](#conclusion)
+5. [Resources and References](#resources-and-references)
+6. [Contact Information](#contact-information)
+
+
 ## Introduction
 The Proof of Concept (POC) demonstrates the bug analysis process for the "salary-api" project from the OT-MICROSERVICES repository. This process focuses on identifying potential bugs and security vulnerabilities within the Java-based application 
 
@@ -80,6 +96,20 @@ mvn spotbugs:spotbugs
 ```
 
 ![Screenshot from 2024-09-28 13-24-48](https://github.com/user-attachments/assets/080df602-18b9-4f32-8b71-967fd3cfb6aa)
+
+## Conclusion
+This POC shows how integrating SpotBugs with Maven helps in detecting and analyzing code bugs and security vulnerabilities in the "salary-api" project. It provides easy-to-read reports (HTML/XML) that allow developers to identify, prioritize, and resolve issues early in the development process, improving both code quality and security.
+
+|Name|Email Address|
+|:---:|:---:|
+|Aayush|aayush.gaur.snaatak@mygurukulam.co|
+
+## Resources and References
+
+| Description                                      | References  
+| ------------------------------------------------- | ------------------------------------------------------------------- |
+| SpotBugs Maven Plugin – Usage                           | [Link](https://spotbugs.github.io/spotbugs-maven-plugin/usage.html#:~:text=To%20generate%20the%20SpotBugs%20report,xml%20.&text=Then%2C%20execute%20the%20site%20plugin%20to%20generate%20the%20report.) |
+| Usage Guide                           | [Link](https://github.com/find-sec-bugs/find-sec-bugs/wiki/Maven-configuration) |
 
 
 
