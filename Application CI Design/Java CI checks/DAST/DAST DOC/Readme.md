@@ -81,18 +81,14 @@ There are several tools available to perform dynamic testing on web applications
 
 ## 6. Advantages and Disadvantage DAST
 
-| Advantages                                      | Disadvantages                                    |
-|-------------------------------------------------|-------------------------------------------------|
-| **Early Detection of Security Issues**          | **Limited Scope**                               |
-| DAST can be integrated into CI/CD pipelines, enabling early detection of vulnerabilities before they reach production. | May not find all vulnerabilities, especially those that require source code access. |
-| **Automated Testing**                            | **False Positives/Negatives**                  |
-| Saves time and effort with automated scans, reducing manual intervention. | May generate false positives (incorrectly identified vulnerabilities) or false negatives (missed vulnerabilities). |
-| **Comprehensive Security Analysis**             | **Runtime Environment Dependency**              |
-| Tests all possible endpoints, including REST APIs and microservices. | Effectiveness depends on the environment; vulnerabilities only visible during runtime may be missed. |
-| **Integration with Development Workflows**      | **Resource Intensive**                           |
-| Can be seamlessly integrated with development workflows, making security testing a continuous process. | Scanning may require significant system resources, affecting application performance during tests. |
-| **Real-World Attack Simulation**                 | **Limited Context**                             |
-| Simulates real-world attacks to identify how an attacker might exploit vulnerabilities. | May lack context about the application logic or security controls in place, potentially missing some issues. |
+| Advantages                                  | Disadvantages                              |
+|---------------------------------------------|-------------------------------------------|
+| Finds security issues early in the development process. | May miss some vulnerabilities that need source code access. |
+| Saves time with automated scans.           | Can incorrectly identify issues or miss real ones. |
+| Tests all parts of the application, like APIs. | Depends on the runtime environment; some issues might not show up. |
+| Fits easily into development workflows.     | Scanning can use a lot of system resources, affecting performance. |
+| Mimics how attackers might exploit weaknesses. | May not understand application logic, missing some issues. |
+
 
 
 ---
