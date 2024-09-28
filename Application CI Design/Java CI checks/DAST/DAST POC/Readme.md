@@ -94,6 +94,7 @@ tar -xf ZAP_2.15.0_Linux.tar.gz
 ```
  ./zap.sh -cmd -quickurl https://7e8b-103-55-60-194.ngrok-free.app -quickprogress -quickout ~/report.html
 ```
+![Screenshot from 2024-09-29 02-01-07](https://github.com/user-attachments/assets/095cfb5b-a9c8-4ee1-b3cc-f282f79e5d8b)
 
 
 ### 4. Verify Reports 
