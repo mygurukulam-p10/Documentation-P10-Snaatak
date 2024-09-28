@@ -9,9 +9,9 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [OWASP ZAP](#owasp-zap)
 - [System Requirements](#system-requirements)
 - [Runtime Dependency](#runtime-dependency)
+- [OWASP ZAP](#owasp-zap)
 - [Flow Diagram](#flow-diagram)
 - [Proof of Concept (PoC)](#proof-of-concept-poc)
   - [Pre-requisites](#pre-requisites)
@@ -27,10 +27,6 @@
 ## Introduction 
 Dynamic Application Security Testing (DAST) is a security testing approach that analyzes web applications in their running state to identify vulnerabilities. By simulating real-world attacks, DAST tests for weaknesses that can be exploited by malicious actors. Unlike static analysis, which examines code without executing it, DAST evaluates applications in their live environment, providing insight into security issues that may only be apparent during runtime.
 
-
-
-## OWASP ZAP
-OWASP ZAP (Zed Attack Proxy) is an open-source security tool designed for testing the security of web applications. Developed by the Open Web Application Security Project (OWASP), ZAP is primarily used for performing Dynamic Application Security Testing (DAST). It helps identify vulnerabilities such as SQL Injection, Cross-Site Scripting (XSS), and other common security flaws by actively scanning and simulating attacks on running applications.
 
 
 ## System Requirements
@@ -50,6 +46,11 @@ OWASP ZAP (Zed Attack Proxy) is an open-source security tool designed for testin
 | Java       | 17.0.2   | Required for running Java applications and OWASP ZAP. |
 | OWASP ZAP  | 2.15.0   | Open source web application security scanner.       |
 
+
+
+
+## OWASP ZAP
+OWASP ZAP (Zed Attack Proxy) is an open-source security tool designed for testing the security of web applications. Developed by the Open Web Application Security Project (OWASP), ZAP is primarily used for performing Dynamic Application Security Testing (DAST). It helps identify vulnerabilities such as SQL Injection, Cross-Site Scripting (XSS), and other common security flaws by actively scanning and simulating attacks on running applications.
 
 
 ## Flow Diagram
