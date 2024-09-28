@@ -1,8 +1,5 @@
 # VCS Authentication Setup POC
 
-![image](https://github.com/user-attachments/assets/338a5d67-4fd9-4083-a9eb-5d2d8d830785)
-
-
 |  Author        | Created on |  Version  | Last updated by   |   Last edited on   |
 |----------------|------------|-----------|-------------------|--------------------|
 | Abhinav Singh  |  12-09-24  | version 1 |   Abhinav Singh   |      16-09-24      |
@@ -32,6 +29,9 @@ VCS employs various methods to control repository access. This guide covers auth
 
 ## Step by Step Authentication Setup for CLI Access
 
+![image](https://github.com/user-attachments/assets/1046f38f-13b1-4d79-8956-7f6da39219b8)
+
+
 ### Generating and Using SSH Keys 
 
 Open terminal on your Machine and run below command to **generate ssh public and private key** which by default get added to **.ssh** directory of the user. Simply hit enter for the prompt or you can define your own values if needed.
@@ -50,8 +50,7 @@ cat ~/.ssh/id_rsa.pub
 ```
 ![image](https://github.com/user-attachments/assets/6a6f6659-d826-45b2-972e-8347ea6ca99a)
 
-Paste it in your Git accounts, at SSH key section which you can find in settings of your account.
-
+**Paste it in your Git accounts, at SSH key section which you can find in settings of your account.**
 ![image](https://github.com/user-attachments/assets/5dc9d303-c3fd-4d5f-946d-7290c020308e)
 
 Choose for new SSH key and provide a title for your key and then choose for key type and paste the key in key bar and hit add SSH key button.
@@ -70,25 +69,30 @@ Now when you clone the repo it won't ask for password and will provide secure lo
 
 ## Step by Step 2FA Authentication Setup for GUI Access
 
-Go to github sign in page and,
+![image](https://github.com/user-attachments/assets/dc8d9fa8-dc92-4202-855e-cf4e68bc966e)
 
-Signin into your Github account with username/email and Password.
+**Go to github sign in page and,**
+
+**Signin into your Github account with username/email and Password,**
+
 ![image](https://github.com/user-attachments/assets/d227944b-4185-40be-98a5-ee89eb16c0db)
 
-Navigate to settings page and choose Password and Authentication
+**Navigate to settings page and choose Password and Authentication**
+
 ![image](https://github.com/user-attachments/assets/ff41b1a6-bd62-46af-ba7d-d2a43f32ec11)
 
-Under Two-factor Authentication Section You will see different options to choose -
+**Under Two-factor Authentication Section You will see different options to choose -**
 
 You need to Install any Authenticator app on your mobile phone in my case **Authy,**
 
 ![image](https://github.com/user-attachments/assets/ed3df626-6528-4f77-a2c9-5950fcd5dbc8)
 
 
-Now open the authenticator app select add account and Capture the QR Code present under Two-factor authentication section
+**Now open the authenticator app select add account and Capture the QR Code present under Two-factor authentication section**
+
 ![image](https://github.com/user-attachments/assets/3c4c7811-2bc3-4f9b-baa2-0805e832c3ac)
 
-Complete Enablement.
+**Complete Enablement.**
 
 
 ## Best Practices for Secure Authentication
@@ -98,6 +102,7 @@ Complete Enablement.
 | **Use SSH Keys**   | Prioritize SSH keys for secure repository access                                                                            |
 | **Limit PAT Scope** | Restrict PATs to essential permissions and timeframes   |
 | **Rotate Credentials**  | Regularly update SSH keys and PATs                  |
+| **Enable Two-factor Authentication**  | It will add an additional layer of Security. |
 
 ## Conclusion
 
