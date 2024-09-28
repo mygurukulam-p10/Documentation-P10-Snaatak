@@ -12,7 +12,7 @@
 # Table of Content 
 1. [🔍 Purpose](#-purpose)
 2. [🌟 Pre-Requisites](#-pre-requisites)
-3. [🖥️ Steps to Set Up Commit Message Validation](#-steps-to-set-up-commit-message-validation)
+3. [📋 Steps to Set up Commit Messgae Validation](#-steps-to-set-up-commit-message-validation)
 4. [📜 Conclusion](#-conclusion)
 5. [📚 References](#-references ) 
 6. [📧 Contact Information ](#-contact-information )   
@@ -25,7 +25,7 @@ The purpose of this document is to outline the implementation of a Git commit me
 - A GitHub account.
 
 ---
-##  🖥️ Steps to Set Up Commit Message Validation
+##  🖥️ Steps to Set up Commit Message Validation
 
 ### 1. **Sign in to GitHub**: Go to [GitHub](https://github.com) and log in to your account.
 
