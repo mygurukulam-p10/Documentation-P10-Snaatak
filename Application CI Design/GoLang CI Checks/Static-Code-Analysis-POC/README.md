@@ -9,10 +9,9 @@
 2. [Pre-requisites](#pre-requisites)
    - [System Requirements](#system-requirements)
    - [Dependencies](#dependencies)
-3. [Architecture](#architecture)
-4. [Step-by-step installation](#step-by-step-installation)
-5. [References](#references)
-6. [Contact Information](#contact-information)
+3. [Step-by-step installation](#step-by-step-installation)
+4. [References](#references)
+5. [Contact Information](#contact-information)
 
 ## Purpose 🎯
 The purpose of this documentation is to provide a comprehensive overview of static code analysis in Golang using Golangci-lint. It aims to guide developers and teams in integrating Golangci-lint into their CI/CD workflows, emphasizing best practices, benefits, and practical implementation steps.
@@ -34,9 +33,6 @@ The purpose of this documentation is to provide a comprehensive overview of stat
 |----------|---------|------------------------------------------|
 | Golang   | 1.18.1  | Programming language for the application |
 
-## Architecture
-
-![Employee](https://github.com/user-attachments/assets/6d888dad-2486-477f-a438-16ff486de2d5)
 
 ## Step-by-step installation
 
@@ -80,7 +76,7 @@ golangci-lint run
 
 | Reference                                     | Link                                                  |
 |-----------------------------------------------|-------------------------------------------------------|
-| Golangci-lint GitHub Repository               | [GitHub](https://github.com/mygurukulam-p10/Documention/edit/main/Application%20CI%20Design/GoLang%20CI%20Checks/Static-Code-Analysis/README.md)  |
+| Golangci checks GitHub Repository               | [GitHub](https://github.com/mygurukulam-p10/Documention/blob/main/Application%20CI%20Design/GoLang%20CI%20Checks/Static-Code-Analysis/README.md)  |
 | Go Blog on Linting                           | [Go Blog](https://blog.golang.org/lint)               |
 | Static Analysis Tools for Go                 | [Static Analysis](https://golang.org/doc/code.html#staticanalysis) |
 | CI/CD Best Practices                          | [Atlassian](https://www.atlassian.com/continuous-delivery/ci-vs-ci) |
