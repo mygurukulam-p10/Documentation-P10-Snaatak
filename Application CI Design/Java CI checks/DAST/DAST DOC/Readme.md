@@ -14,7 +14,7 @@
 4. [Different DAST Tools](#5-different-dast-tools)
    - [Popular DAST Tools](#51-popular-dast-tools)
 5. [Comparison of DAST Tools](#6-comparison-of-dast-tools)
-6. [Advantages of Using DAST](#7-advantages-of-using-dast)
+6. [Advantages and Disadvantage DAST](#7-advantages-of-using-dast)
 7. [Proof of Concept (POC)](#8-proof-of-concept-poc)
 8. [Best Practices for DAST](#9-best-practices-for-java-ci-checks-and-dast)
 9. [Recommendation Conclusion](#10-recommendation-and-conclusion)
@@ -81,13 +81,16 @@ There are several tools available to perform dynamic testing on web applications
 
 ## 6. Advantages and Disadvantage DAST
 
-| Advantages                                  | Disadvantages                              |
-|---------------------------------------------|-------------------------------------------|
-| Finds security issues early in the development process. | May miss some vulnerabilities that need source code access. |
-| Saves time with automated scans.           | Can incorrectly identify issues or miss real ones. |
-| Tests all parts of the application, like APIs. | Depends on the runtime environment; some issues might not show up. |
-| Fits easily into development workflows.     | Scanning can use a lot of system resources, affecting performance. |
-| Mimics how attackers might exploit weaknesses. | May not understand application logic, missing some issues. |
+| Advantages of DAST                               | Disadvantages of DAST                               |
+|--------------------------------------------------|----------------------------------------------------|
+| Identifies vulnerabilities in running applications | Cannot detect vulnerabilities in the source code   |
+| Tests applications in real-time scenarios         | May produce false positives or negatives            |
+| No access to the source code is required          | Limited coverage compared to static analysis        |
+| Simulates external attacks, providing realistic insights | Can be resource-intensive and time-consuming       |
+| Useful for testing web applications and APIs      | May require additional configurations for complex environments |
+| Helps ensure compliance with security standards    | Often requires specialized tools or expertise      |
+| Can be integrated into CI/CD pipelines            | Limited in identifying logic flaws and business logic vulnerabilities |
+
 
 
 
