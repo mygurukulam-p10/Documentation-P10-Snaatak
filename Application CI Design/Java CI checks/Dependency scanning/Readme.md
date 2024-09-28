@@ -83,7 +83,7 @@ OWASP Dependency-Check stands out as a robust and widely adopted tool for identi
 
 ***
 
-### Advantages and Disadvantages
+## Advantages and Disadvantages
 
 | **Advantages**                                   | **Disadvantages**                                      |
 |-------------------------------------------------|-------------------------------------------------------|
