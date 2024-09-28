@@ -75,21 +75,17 @@
 
 ---
 ## Advantages and Disadvantages
+
 | **Advantages**                                      | **Disadvantages**                                   |
 |-----------------------------------------------------|----------------------------------------------------|
-| **Compliance Management**                            | **False Positives**                                |
 | - Ensures legal compliance                           | - Misidentification of licenses                    |
 | - Identifies license types                           | - Overhead from alerts                             |
-| **Risk Mitigation**                                 | **Complexity**                                     |
 | - Reduces legal risks                               | - License interpretation challenges                 |
 | - Facilitates risk assessment                        | - Integration challenges                            |
-| **Efficiency**                                      | **Maintenance**                                    |
 | - Automated scanning                                | - Tool updates required                            |
 | - Centralized documentation                          | - Dependency management                             |
-| **Improved Decision-Making**                         | **Limited Scope**                                  |
 | - Informed choices                                  | - Doesn’t address all compliance issues            |
 | - Facilitates open source strategy                   | - Partial coverage                                 |
-| **Integration**                                     | **Cost**                                           |
 | - Seamless integration with CI/CD pipelines          | - Financial investment for comprehensive tools     |
 
 
