@@ -109,7 +109,7 @@ This POC shows how integrating SpotBugs with Maven helps in detecting and analyz
 | Description                                      | References  
 | ------------------------------------------------- | ------------------------------------------------------------------- |
 | SpotBugs Maven Plugin – Usage                           | [Link](https://spotbugs.github.io/spotbugs-maven-plugin/usage.html#:~:text=To%20generate%20the%20SpotBugs%20report,xml%20.&text=Then%2C%20execute%20the%20site%20plugin%20to%20generate%20the%20report.) |
-| Usage Guide                           | [Link](https://github.com/find-sec-bugs/find-sec-bugs/wiki/Maven-configuration) |
+| Bugs Analysis                           | [Link](https://www.cs.tufts.edu/~jfoster/papers/issre04.pdf) |
 
 
 
