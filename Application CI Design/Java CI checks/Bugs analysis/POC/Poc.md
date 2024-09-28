@@ -66,3 +66,13 @@ git clone https://github.com/OT-MICROSERVICES/salary-api.git
 ```
  mvn spotbugs:check
 ```
+
+![Screenshot from 2024-09-28 13-17-35](https://github.com/user-attachments/assets/5b57037c-fc96-44df-871b-b2c1734ecd99)
+
+### Generate SpotBugs Reports: 
+This command will generate an html report. After running this command, generate various types of reports, such as HTML and XML: (target/spotbugs.html)(target/spotbugsXml.xml).
+
+```
+	mvn spotbugs:spotbugs
+```
+
