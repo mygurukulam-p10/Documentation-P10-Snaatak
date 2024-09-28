@@ -1,8 +1,7 @@
-![image](https://github.com/user-attachments/assets/1da54ff0-a4e1-4910-8c19-d1ffdbe4f1b3)
-
 
 # 🐍 Python CI Checks: 🔍 Dependency Scanning - Documentation
 
+![image](https://github.com/user-attachments/assets/1da54ff0-a4e1-4910-8c19-d1ffdbe4f1b3)
 
 ## 📚 Table of Contents
 - [Purpose](#purpose)
@@ -10,7 +9,8 @@
 - [What is Dependency Scanning?](#what-is-dependency-scanning)
 - [Why Perform Dependency Scanning?](#why-perform-dependency-scanning)
 - [Different Tools for Python Dependency Scanning and Comparison](#different-tools-for-python-dependency-scanning-and-comparison)
-- [Advantages and Disadvantages of Dependency Scanning](#advantages-and-disadvantages-of-dependency-scanning)
+- [Advantages Dependency Scanning](#advantages-and-disadvantages-of-dependency-scanning)
+- [Disadvantages Dependency Scanning](#disadvantages-of-dependency-scanning)
 - [Using Safety for Dependency Scanning](#using-safety-for-dependency-scanning)
 - [Best Practices for Dependency Scanning](#best-practices-for-dependency-scanning)
 - [Recommendation/Conclusion](#recommendationconclusion)
@@ -48,15 +48,26 @@ Here’s a simplified comparison of Python dependency scanning tools with emojis
 | **4. Dependabot 🤖** | Automatically suggests dependency updates on GitHub.         | - Automated PRs for updates. <br> - GitHub integration.     | Free for public repos   | GitHub                          | - Seamless GitHub integration. <br> - Automates updates. | - Limited to GitHub. <br> - May create frequent PRs. |
 | **5. pip-audit 📋** | Audits installed packages for vulnerabilities.                 | - Checks installed packages. <br> - Provides detailed reports. | Open Source (Apache 2.0) | CLI, CI/CD (e.g., GitHub Actions) | - Simple and lightweight. <br> - Focuses on installed packages. | - Only checks installed packages; no update monitoring. |
 
-## ✅ Advantages and Disadvantages of Dependency Scanning
+## ✅ Advantages of Dependency Scanning
 
-| **Advantage/Disadvantage**                | **Description**                                                                                             |
+| **Advantage **                | **Description**                                                                                             |
 |-------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | **🔍 Early Detection**                    | Identify security issues in dependencies before they can be exploited.                                     |
 | **🤖 Automated Checks**                   | Integrate security into your CI/CD pipeline, reducing manual effort.                                       |
 | **⚖️ Compliance Support**                 | Helps maintain compliance with security standards and regulations.                                          |
 | **⚠️ Update Conflicts**                   | Suggested security updates may conflict with other dependencies or application requirements.                |
 | **📊 False Positives**                    | Some tools may report vulnerabilities that don't apply to your specific use case.                          |
+
+## 🌟 Disadvantages of Dependency Scanning
+
+| **Disadvantage**                        | **Description**                                                                                             |
+|-----------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| **⚠️ Update Conflicts**                 | Suggested security updates may conflict with other dependencies or application requirements.                |
+| **📊 False Positives**                  | Some tools may report vulnerabilities that don’t apply to your specific use case.                           |
+| **🕒 Time-Consuming**                   | Scanning large projects with many dependencies can be slow and time-consuming.                              |
+| **💻 Limited Context**                  | Tools may not always understand how a dependency is being used in your specific application.                |
+| **🔧 Maintenance Overhead**             | Regularly updating and managing dependency scanning tools requires extra effort.                            |
+| **💸 Additional Costs**                 | Some advanced dependency scanning tools or features might come with extra costs.                            |
 
 
 ## 🛡️ Best Practices for Dependency Scanning
@@ -80,7 +91,7 @@ In my Attendance API microservice, I recommend using Safety for its lightweight 
 |---------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 | **Safety Documentation**                                      | [Safety Docs](https://pyup.io/safety/)                                                           |
 | **Snyk Python Documentation**                                 | [Snyk Docs](https://docs.snyk.io/products/snyk-open-source/language-and-package-manager-support/snyk-for-python) |
-| **GitHub Dependabot Documentation**                           | [Dependabot Docs](https://docs.github.com/en/code-security/dependabot)                          |
+| **Python-CI POC **                           | [POC Doc](https://github.com/mygurukulam-p10/Documention/tree/main/Application%20CI%20Design/Python%20CI%20Checks/Dependency-Scanning-POC)                          |
 | **pip-audit Documentation**                                   | [pip-audit Docs](https://pypi.org/project/pip-audit/)                                          |
 | **OWASP Dependency-Check**                                   | [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/)                       |
 
