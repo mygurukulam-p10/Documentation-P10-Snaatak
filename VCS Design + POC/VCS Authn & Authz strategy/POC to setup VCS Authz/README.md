@@ -30,51 +30,51 @@ Authorization in version control systems (VCS) ensures that only users with the 
 
 ## Creating an Organisation and Adding Contributers
 
-In your profile Section choose Your organisations
+**1. In your profile Section choose Your organisations**
 
 ![image](https://github.com/user-attachments/assets/f5e3acfe-2d5b-495a-95c6-2cc2743aa49d)
 
-In the right corner of the page Choose New organisation
+**2. In the right corner of the page Choose New organisation**
 
 ![image](https://github.com/user-attachments/assets/50ad0e87-8f06-406d-b90c-287baa0bddd3)
 
-Pick a plan for your organization and 
+**3. Pick a plan for your organization** 
 
 ![image](https://github.com/user-attachments/assets/4f032712-aa7d-40a6-9be8-66f89a9ac75e)
 
-Provide details about your organisation and choose Next
+**4. Provide details about your organisation and choose Next**
 
 ![image](https://github.com/user-attachments/assets/db780aa6-6606-4490-bcc8-26197820ed2d)
 
-Add members to your Organisation and complete setup.
+**5. Add members to your Organisation and complete setup**.
 
 ![image](https://github.com/user-attachments/assets/fa0ec22c-07c5-462b-9201-441da7573705)
 
-You can add users to the organisation later also by sending invites.
+**6. You can add users to the organisation later also by sending invites.**
 
 ![image](https://github.com/user-attachments/assets/240d94b1-da56-4fbc-9006-e405151c97d9)
 
-We can create teams for different groups.
+**8. We can create teams for different groups.**
 
 ![image](https://github.com/user-attachments/assets/c3b62744-014d-4185-ad4d-8a62066ffe4b)
 
-We can add users or collaborators to a team using "Add a member" icon in the team.
+**9. We can add users or collaborators to a team using "Add a member" icon in the team.**
 
 ![image](https://github.com/user-attachments/assets/20479523-05ba-4b8b-9aa0-75afe72c029a)
 
 
 ## Assigning Roles to the users
 
-1. Choose the user you want to assign Permissions.
+**1. Choose the user you want to assign Permissions.**
 
 ![image](https://github.com/user-attachments/assets/1ed4a5f2-86fd-4233-9f80-0e4a90756573)
 
-2. Choose Manage access 
+**2. Choose Manage access** 
 
 ![image](https://github.com/user-attachments/assets/4cb51e1d-0804-4e03-a15b-393f6d37bb63)
 
 
-3. We can edit privilages of the user and provide required permission
+**3. We can edit privilages of the user and provide required permission**
 
 ![image](https://github.com/user-attachments/assets/b9ae0197-47e1-4f6a-b6fd-da7f9e21c3fe)
 
@@ -86,7 +86,7 @@ We can add users or collaborators to a team using "Add a member" icon in the tea
 **1. Navigate to Repository Settings**
 
 ![image](https://github.com/user-attachments/assets/f10e220c-4813-4c49-addc-794fda11022a)
-
+3. We can edit privilages of the user and provide required permission
 **2. In the left sidebar, click on "Branches"**
 
 **Click on Rules and then Ruleset to create a New Ruleset**
