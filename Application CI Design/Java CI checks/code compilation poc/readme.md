@@ -55,7 +55,7 @@ We are preparing this document so that we can easily provide a completed guide t
 
 
 ## Architecture
-![image](https://github.com/user-attachments/assets/4eeccef2-ef7f-4874-af1b-c8513684653e)
+<img width="605" alt="image" src="https://github.com/user-attachments/assets/d2bfd5ac-4075-4e22-a360-993f7a1017c6">
 
 ##  Step-by-step Installation
 
