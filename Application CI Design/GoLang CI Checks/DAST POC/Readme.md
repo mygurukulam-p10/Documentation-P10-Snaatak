@@ -95,13 +95,15 @@ tar -xf ZAP_2.15.0_Linux.tar.gz
 ```
  ./zap.sh -cmd -quickurl https://7e8b-103-55-60-194.ngrok-free.app -quickprogress -quickout ~/report.html
 ```
-![Screenshot from 2024-09-29 02-01-07](https://github.com/user-attachments/assets/095cfb5b-a9c8-4ee1-b3cc-f282f79e5d8b)
+![Screenshot from 2024-09-29 01-59-52](https://github.com/user-attachments/assets/f069d110-9e9b-4791-ae70-a09ffac92994)
+
 
 
 ### 4. Verify Reports 
 
 * Navigate to the location where you saved your reports. Locate the generated `.html` reports. Ensure that vulnerabilities are correctly identified.
-![Screenshot from 2024-09-29 00-55-16](https://github.com/user-attachments/assets/a7d3f24e-1369-4e58-afe8-b5c144f49719)
+![Screenshot from 2024-09-29 02-44-26](https://github.com/user-attachments/assets/a72d0f86-590c-4314-9d0a-c2c562d67264)
+
 
 
 
