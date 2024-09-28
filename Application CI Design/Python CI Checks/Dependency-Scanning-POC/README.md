@@ -65,8 +65,8 @@ pip install safety
 cd attendance-api/
 ```
  
-4. <details>
-  <summary>Run a scan</summary>
+<details>
+  <summary>4. Run a scan</summary>
 
   <details>
     <summary>1. First scan</summary>
