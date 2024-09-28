@@ -106,12 +106,12 @@ Chooses GitLeaks because:
 ### Conclusion
 Credential scanning is an essential practice for maintaining the security and integrity of codebases. By implementing regular scans, Access Controls, Using Secrets Managers, organizations can significantly reduce the risk of exposing sensitive information. GitLeaks offer robust solutions for integrating credential scanning into CI pipelines, ensuring continuous protection against credential leaks.
 
-## Contact Information 
+### Contact Information 
 |Name|Email Address|
 |:---:|:---:|
 |Aayush|aayush.gaur.snaatak@mygurukulam.co|
 
-## References 
+### References 
 |links | Description |
 |-------| ----------|
 |https://github.com/gitleaks/gitleaks| GitLeaks |
