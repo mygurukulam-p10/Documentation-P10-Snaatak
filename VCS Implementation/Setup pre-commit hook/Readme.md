@@ -1,6 +1,4 @@
 # Setup commit-hook  <img width="49" alt="image" src="https://github.com/user-attachments/assets/625f8c30-8c06-4eb0-be45-84696fc860f0">
-
-
 ---
 
 | ✍️Author   | 📅Created on|📌 Version | 📝Last updated by   |📅 Last edited on |
