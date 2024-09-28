@@ -1,4 +1,4 @@
-# Static Code Analysis
+# Static Code Analysis for Java
 
 ![java static](https://github.com/user-attachments/assets/16f124bd-65e8-45df-93ae-6611fd7617ed)
 
@@ -6,6 +6,8 @@
   |-------------|---------|-------------|-------------|---------|
   | Vinay Bansal | 21-09-24 | version 1 | Vinay Bansal | 22-09-24 |
 
+## Purpose
+The purpose of this document is to provide a comprehensive overview of Static Code Analysis for Java, including its importance, tools available, best practices, and recommendations.
 
 ## Table of Contents
 1. [Introduction](#introduction)
