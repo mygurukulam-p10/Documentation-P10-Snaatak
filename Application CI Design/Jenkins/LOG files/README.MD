@@ -96,7 +96,6 @@ For any queries or further information, feel free to contact:
 
 
 ## 📚 References
-- [Jenkins Log Management](https://www.jenkins.io/doc/book/managing/system-log/)
 - [Jenkins CLI Documentation](https://www.jenkins.io/doc/book/managing/cli/)
 - [How to Set Up Log Rotation](https://www.jenkins.io/doc/book/system-administration/monitoring/#log-rotation)
 
