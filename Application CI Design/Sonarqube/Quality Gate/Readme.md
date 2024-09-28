@@ -53,8 +53,8 @@ SonarQube allows the creation of different types of quality gates, including:
 
 2. **Create a New Project**
    - From the main dashboard, go to the **Projects** tab.
-   - Click on **Create Project**.
-   - Enter the project name (e.g., `Attendence`).
+   - Click on **Create Local Project**.
+ 
 
 
 ![Screenshot from 2024-09-25 00-44-25](https://github.com/user-attachments/assets/4fb008b5-331e-40c4-a71d-66f1c452f0a7)
@@ -63,6 +63,8 @@ SonarQube allows the creation of different types of quality gates, including:
 3. **Configure Project Key and Display Name**
    - Set the **Project Key** (a unique identifier for the project).
    - Set the **Display Name** (how it will appear on the dashboard).
+   - Enter the project name (e.g., `Attendence`).
+   - 
 ![Screenshot from 2024-09-25 00-44-43](https://github.com/user-attachments/assets/07acf260-d565-4dc4-8a5b-5e05717fe332)
 
 
