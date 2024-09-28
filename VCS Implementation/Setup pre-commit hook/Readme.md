@@ -19,27 +19,16 @@
    - [Test the Hook](#4-test-the-hook)
 4. [📜 Conclusion](#-conclusion)
 5. [📚 References](#-references ) 
-6. [📧 Contact Information ](#-contact-information )
-
-
-
-
-1. [🔍 Purpose](#-purpose)
-2. [✨ Workflow](#-workflow)
-3. [🌟 Pre-requisites](#-pre-requisites)
-4. [🖥️ Steps for Code Commit Notificatin](#-steps-for-code-commit-notification)
-
-   
+6. [📧 Contact Information ](#-contact-information )   
 ---
      
 # 🔍 Purpose 
 The purpose of this document is to outline the implementation of a Git commit message hook that ensures all commit messages contain valid JIRA ticket IDs. This practice enhances the clarity and traceability of code changes by directly linking them to specific tasks within the project management system. By enforcing this requirement, the hook fosters better communication among team members and ensures that every code change is documented with the appropriate context. Ultimately, this document serves as a guide for maintaining consistent and meaningful commit messages, facilitating a more organized development process.
 
-
 ## 🌟 Pre-requisites
 - A GitHub account.
 
-
+---
 ##  🖥️ Steps to Set Up Commit Message Validation
 
 ### 1. **Sign in to GitHub**: Go to [GitHub](https://github.com) and log in to your account.
@@ -77,11 +66,11 @@ chmod +x commit-msg
 <img width="538" alt="unscussfull" src="https://github.com/user-attachments/assets/8a90b635-91c1-4102-8532-0dfd717dfa7f">
 <img width="587" alt="commit successfull" src="https://github.com/user-attachments/assets/906c6867-35b8-4803-85e6-8f2d64918bd0">
 
-
+---
 ## 📜 Conclusion
 This document has outlined the process for implementing a Git commit message hook that requires commit messages to include valid JIRA ticket IDs. By enforcing this practice, teams can improve the traceability of changes, ensure better alignment with project management workflows, and enhance overall communication among team members. Consistent and meaningful commit messages contribute to a more organized development process, facilitating easier tracking of progress and accountability. Following the steps provided in this guide will help maintain high standards for documentation within your repository, ultimately leading to a more efficient and effective development environment.
 
-
+---
 ## 📚 References 
 |links | Description |
 |-------|------------|
@@ -89,10 +78,8 @@ This document has outlined the process for implementing a Git commit message hoo
 |https://fredrkl.com/blog/git-pre-commit-hooks/| **Fredrik**|
 |https://hydraulic.dev/blog/12-github-action.html|**Hydraulic**|
 
+---
 ## 📧 Contact Information 
 |Name|Email Address|
 |:---:|:---:|
 |**Megha Tyagi**|megha.tyagi.snaatak@mygurukulam.co|
-
-
-
