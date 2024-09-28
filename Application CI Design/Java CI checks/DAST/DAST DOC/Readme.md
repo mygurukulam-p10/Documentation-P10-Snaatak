@@ -79,12 +79,21 @@ There are several tools available to perform dynamic testing on web applications
 
 ---
 
-## 6. Advantages of Using DAST
+## 6. Advantages and Disadvantage DAST
 
-1. **Early Detection of Security Issues**: DAST can be integrated into CI/CD pipelines, enabling early detection of security vulnerabilities before they reach production.
-2. **Automated Testing**: Saves time and effort with automated scans, reducing manual intervention.
-3. **Comprehensive Security Analysis**: Tests all possible endpoints, including REST APIs and microservices.
-4. **Integration with Development Workflows**: Can be seamlessly integrated with development workflows, making security testing a continuous process.
+| Advantages                                      | Disadvantages                                    |
+|-------------------------------------------------|-------------------------------------------------|
+| **Early Detection of Security Issues**          | **Limited Scope**                               |
+| DAST can be integrated into CI/CD pipelines, enabling early detection of vulnerabilities before they reach production. | May not find all vulnerabilities, especially those that require source code access. |
+| **Automated Testing**                            | **False Positives/Negatives**                  |
+| Saves time and effort with automated scans, reducing manual intervention. | May generate false positives (incorrectly identified vulnerabilities) or false negatives (missed vulnerabilities). |
+| **Comprehensive Security Analysis**             | **Runtime Environment Dependency**              |
+| Tests all possible endpoints, including REST APIs and microservices. | Effectiveness depends on the environment; vulnerabilities only visible during runtime may be missed. |
+| **Integration with Development Workflows**      | **Resource Intensive**                           |
+| Can be seamlessly integrated with development workflows, making security testing a continuous process. | Scanning may require significant system resources, affecting application performance during tests. |
+| **Real-World Attack Simulation**                 | **Limited Context**                             |
+| Simulates real-world attacks to identify how an attacker might exploit vulnerabilities. | May lack context about the application logic or security controls in place, potentially missing some issues. |
+
 
 ---
 
