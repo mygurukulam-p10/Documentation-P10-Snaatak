@@ -11,7 +11,7 @@
 - [Tool Comparison](#tool-comparison)
 - [Tool Recommendation](#tool-recommendation)
 - [Proof Of Concept: FOSSA](#proof-of-concept-fossa)
-- [Advantages and Disadvantage](#advantages)
+- [Advantages and Disadvantages](#advantages)
 - [Best Practices](#best-practices)
 - [Conclusion](#conclusion)
 - [Contact Information](#contact-information)
@@ -74,7 +74,7 @@
 - [FOSSA POC](https://github.com/mygurukulam-p10/Documention/blob/main/Application%20CI%20Design/Generic%20CI%20operation/License%20Scanning/%20License%20Scanning%20POC%20/Readme.md#contact-information)
 
 ---
-## Advantages and Disadvantage
+## Advantages and Disadvantages
 | **Advantages**                                      | **Disadvantages**                                   |
 |-----------------------------------------------------|----------------------------------------------------|
 | **Compliance Management**                            | **False Positives**                                |
