@@ -11,7 +11,7 @@
 - [Tool Comparison](#tool-comparison)
 - [Tool Recommendation](#tool-recommendation)
 - [Proof Of Concept: FOSSA](#proof-of-concept-fossa)
-- [Advantages](#advantages)
+- [ Advantages and Disadvantage](#advantages)
 - [Best Practices](#best-practices)
 - [Conclusion](#conclusion)
 - [Contact Information](#contact-information)
@@ -74,14 +74,24 @@
 - [FOSSA POC](https://github.com/mygurukulam-p10/Documention/blob/main/Application%20CI%20Design/Generic%20CI%20operation/License%20Scanning/%20License%20Scanning%20POC%20/Readme.md#contact-information)
 
 ---
-## Advantages
+## Advantages and Disadvantage
+| **Advantages**                                      | **Disadvantages**                                   |
+|-----------------------------------------------------|----------------------------------------------------|
+| **Compliance Management**                            | **False Positives**                                |
+| - Ensures legal compliance                           | - Misidentification of licenses                    |
+| - Identifies license types                           | - Overhead from alerts                             |
+| **Risk Mitigation**                                 | **Complexity**                                     |
+| - Reduces legal risks                               | - License interpretation challenges                 |
+| - Facilitates risk assessment                        | - Integration challenges                            |
+| **Efficiency**                                      | **Maintenance**                                    |
+| - Automated scanning                                | - Tool updates required                            |
+| - Centralized documentation                          | - Dependency management                             |
+| **Improved Decision-Making**                         | **Limited Scope**                                  |
+| - Informed choices                                  | - Doesn’t address all compliance issues            |
+| - Facilitates open source strategy                   | - Partial coverage                                 |
+| **Integration**                                     | **Cost**                                           |
+| - Seamless integration with CI/CD pipelines          | - Financial investment for comprehensive tools     |
 
-| **Advantage**              | **Description**                                                                       |
-|----------------------------|---------------------------------------------------------------------------------------|
-| **Avoid Legal Issues**      | Ensures compliance with OSS and proprietary licenses.                                 |
-| **Identify Risks Early**    | Detects license/security risks in OSS components.                                     |
-| **Prevent Costly Remediation** | Early detection is more cost-effective.                                             |
-| **Stay Up-to-Date**         | Continuous monitoring for license changes.                                            |
 
 ---
 
