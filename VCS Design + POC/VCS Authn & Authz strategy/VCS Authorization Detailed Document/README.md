@@ -11,16 +11,18 @@ VCS uses various strategies to manage repository access. This guide explains aut
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Why we need Authorization](#why-we-need-authorization)
-3. [Access levels in VCS Authorization](#access-levels-in-vcs-authorization)
-4. [Audit trails in VCS authorization](#audit-trails-in-vcs-authorization)
-5. [Conclusion](#conclusion)
-6. [Contact Information](#contact-information)
-7. [References](#references)
+3. [Organization-Level Authorization](#organization-level-authorization)
+4. [Role-based Authorization](#role-based-authorization)
+5. [Audit trails in VCS authorization](#audit-trails-in-vcs-authorization)
+6. [Best Practices](#best-practices)
+7. [Conclusion](#conclusion)
+8. [Contact Information](#contact-information)
+9. [References](#references)
 
 
 ## Introduction
 
-Authorization in Version Control Systems (VCS) controls user permissions, ensuring only authorized actions like reading, writing, or managing repositories. Common strategies include role-based access, branch protection, and pull request approvals, safeguarding the codebase by restricting critical changes to trusted users.
+This document serves as a guide to understanding and implementing authorization methods within Version Control Systems (VCS), specifically focusing on Git. It outlines the importance of authorization, different access levels, and best practices for securing your codebase.
 
 ## Why we need Authorization
 
@@ -33,8 +35,15 @@ Authorization in Version Control Systems (VCS) controls user permissions, ensuri
 | **Collaboration** | Facilitates teamwork with appropriate access levels. |
 
 
+## Organization-Level Authorization
 
-## Access levels in VCS authorization
+| Role/Integration    | Description                                                                       |
+|---------------------|-----------------------------------------------------------------------------------|
+| **Admin Permissions**  | Full control over repositories, teams, members, and billing.                     |
+| **Member Permissions** | Access to repositories and teams without admin control.                          |
+ 
+
+## Role-based Authorization
 
 |    Levels    |    Description    |
 |--------------|--------------------|
@@ -45,6 +54,7 @@ Authorization in Version Control Systems (VCS) controls user permissions, ensuri
 | **Guest** | Limited, often read-only access. |
 
 
+**Note-** We can Create seperate groups/teams for different departments and can add users to the teams and assign permissions at group level.
 
 ## Audit trails in VCS authorization
 
@@ -54,6 +64,17 @@ Authorization in Version Control Systems (VCS) controls user permissions, ensuri
 | **Pull Requests** | Tracks review and merge history.|
 | **Access Changes** | Logs modifications to user permissions and roles. |
 | **Branch Actions** | Tracks branch creation, deletion, and modifications of branches. |
+
+## Best Practices 
+
+| Best Practice                       | Explanation                                                                                     |
+|-------------------------------------|-------------------------------------------------------------------------------------------------|
+| **Least Privilege Principle**       | Grant users only the minimum permissions necessary to perform their tasks.                     |
+| **Role-based Access Control (RBAC)**| Implement RBAC to assign permissions based on user roles and responsibilities.                 |
+| **Regular Reviews**                 | Periodically review and update user permissions to ensure alignment with roles.                |
+| **Strong Password Policies**        | Enforce strong password policies to protect user accounts from unauthorized access.            |
+| **Two-Factor Authentication (2FA)** | Require 2FA for additional security, especially for high-privilege accounts.                   |
+| **Audit Logs**                      | Regularly review audit logs to detect and respond to suspicious activity.                      |
 
 ## Conclusion
 
