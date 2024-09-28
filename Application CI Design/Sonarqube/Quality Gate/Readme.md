@@ -11,11 +11,10 @@
 4. [Why Use Quality Gates?](#why-use-quality-gates)
 5. [Types of Quality Gates](#types-of-quality-gates)
 6. [Implementation of Quality Gates](#implementation-of-quality-gates)
-7. [Advantages of Using Quality Gates](#advantages-of-using-quality-gates)
-8. [Advantages and Disadvantages](#advantages-and-disadvantages)
-9. [Conclusion](#conclusion)
-10.  [Contact Information](#Contact-Information)
-11. [References](#references)
+7. [Advantages and Disadvantages](#advantages-and-disadvantages)
+8. [Conclusion](#conclusion)
+9.  [Contact Information](#Contact-Information)
+10. [References](#references)
 
 ## Introduction
 SonarQube is an open-source platform for continuous inspection of code quality. It helps developers manage code quality and security vulnerabilities while maintaining high standards across software projects. Quality gates are a crucial feature within SonarQube that determines whether a project meets the predefined quality criteria before moving to the next phase of development.
