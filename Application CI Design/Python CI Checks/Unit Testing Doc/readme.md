@@ -26,7 +26,7 @@ The purpose of this document is to provide a comprehensive overview of Python Un
 - [References](#references)
 
 # Introduction
-Continuous Integration (CI) is a development practice that encourages developers to integrate their code into a shared repository frequently. Unit testing is a critical part of the software development process, ensuring that individual components of your application function as expected. This project showcases how to set up and run unit tests in Python.
+Continuous Integration (CI) is a development practice that encourages developers to integrate their code into a shared repository frequently. Unit testing is a critical part of the software development process, ensuring that individual components of your application function as expected. This project showcases how to use unit tests in Python.
 
 # What are Unit Testing?
 Unit testing involves testing individual components (or units) of code to verify that they perform as expected. In Python, this often involves testing functions, methods, or classes to ensure they return the correct results given a set of inputs.
