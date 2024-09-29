@@ -2,6 +2,10 @@
 
 ![image](https://github.com/user-attachments/assets/3a170719-a472-4a0c-8a38-1906e6bc461e)
 
+| Author      | Created on  | Version    | Last updated by | Last edited on |
+|-------------|-------------|------------|-----------------|----------------|
+| Komal       | 26-09-24    | Version 1  | Komal Jaiswal   | 29-09-24       |
+
 ## Table of Contents
 
 1. [Purpose of the Document](#1-purpose-of-the-document)
