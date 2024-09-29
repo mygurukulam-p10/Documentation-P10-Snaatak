@@ -508,7 +508,7 @@ public class SpringDataSalaryService {
   </details>
 
 ![ssucces](https://github.com/user-attachments/assets/4e12bbb5-0aed-4246-8234-3cec4d8d8687)
-
+-  When you run the command mvn checkstyle:check and it says “build success,” it means your code follows all the rules set by Checkstyle. Checkstyle is a tool that checks your Java code to make sure it meets certain standards and looks good.
 
 ## Conclusion
 Using Maven Checkstyle in your projects promotes code quality and consistency by enforcing coding standards and best practices. It helps identify issues early in the development process, improving readability and maintainability. By integrating Checkstyle into your build process, fostering a collaborative environment and reducing potential bugs. Overall, Checkstyle is a valuable tool for ensuring that your codebase remains clean and professional, ultimately enhancing the software development lifecycle.
