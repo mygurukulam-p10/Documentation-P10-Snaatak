@@ -104,6 +104,8 @@ pip install psycopg2
 ```
 </details>
 
+<details>
+  
 ![ue2](https://github.com/user-attachments/assets/1cc9c6dd-63ab-466a-8b67-de76d6bea345)
 
 - Using these imports, you can easily connect to a PostgreSQL database and utilize advanced features provided by psycopg2.
@@ -111,12 +113,20 @@ pip install psycopg2
 import psycopg2
 from psycopg2 import extras
 ```
+</details>
 
+ <details> 
+   
 ![ue1cp](https://github.com/user-attachments/assets/6d686ca4-4223-476d-bbe9-b7b691dc2cc5)
 -  running pip install pytest-mock installs the pytest-mock library, allowing you to effectively use mocking techniques in your pytest tests to isolate and test specific functionalities without relying on external dependencies.
 ```
 pip install pytest-mock
 ```
+ </details>details>
+
+
+   <details>
+     
 ![ue1rou](https://github.com/user-attachments/assets/6427ef04-2464-4aee-a3b6-0d62e463b28e)
 
 router
@@ -128,6 +138,11 @@ pip install Flask
 ```
 pip install Flask-Caching
 ```
+</details>
+
+
+<details>
+  
 ![ue1u](https://github.com/user-attachments/assets/361d64bc-fc4d-460f-93e1-2c08d2e050ef)
 
 utils/tests/test_json_encoder.py
@@ -147,6 +162,8 @@ utils/tests/test_validator.py
 ```
 pip install voluptuous
 ```
+</details>
+
 
 ## To check how many test cases have passed (or failed) when using pytest
 this command is a common way to run unit tests in Python projects, leveraging the capabilities of the pytest framework.
@@ -154,8 +171,7 @@ this command is a common way to run unit tests in Python projects, leveraging th
 python3 -m pytest
 ```
 ![usuccess](https://github.com/user-attachments/assets/157685e6-011f-4ea7-ae3a-eba410dfbfa7)
-
-
+- Running python3 -m pytest and seeing a success message means that all the tests in your test suite were collected and passed successfully. Specifically, pytest will exit with a code 0, indicating that there were no test failures, errors, or interruptions
 
 
 ## 📧 Contact Information
