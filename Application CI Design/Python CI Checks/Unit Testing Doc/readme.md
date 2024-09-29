@@ -73,7 +73,7 @@ Unit testing involves testing individual components (or units) of code to verify
 |-----------------------------|------------------------------------------------------------------------------------------------------|
 | **Learning Curve**          | For beginners, pytest can have a steeper learning curve compared to simpler testing frameworks, especially with its advanced features and plugins. |
 | **Mocking Complexity**      | Extensive use of mocking can complicate tests and make them harder to read and understand. |
-| **Dependency Management**   | Managing dependencies in tests can lead to challenges, especially when external resources or services are involved. |
+| **Dependency Management**   | Managing dependencies in tests can lead to challenges |
 
 
 # Best Practices
