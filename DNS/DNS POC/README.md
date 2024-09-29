@@ -15,7 +15,7 @@
 
 ## Purpose
 
-This README outlines the POC for implementing DNS for an application. It demonstrates how to purchase a domain, configure DNS records, and set up a DNS server for the application. The document includes step-by-step instructions, important considerations for performance and security.
+This Document outlines the POC for implementing DNS for an application. It demonstrates how to purchase a domain, configure DNS records, and set up a DNS server for the application. The document includes step-by-step instructions, important considerations for performance and security.
 
 
 ## Pre requisites
