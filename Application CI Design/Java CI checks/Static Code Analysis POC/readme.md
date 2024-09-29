@@ -74,7 +74,8 @@ mvn checkstyle:check
 ```
 ![e3](https://github.com/user-attachments/assets/ec2ed6fa-93d2-4b01-b20c-4b5ad4d0be73)
 ![e1](https://github.com/user-attachments/assets/92864196-b869-4123-8f14-002492226735)
-
+- When you run the command mvn checkstyle:check and it results in a “build failure,” it means that your code has violations according to the Checkstyle rules configured for your project. Checkstyle is a tool that checks your Java code against a set of coding standards.
+  
 ![e2](https://github.com/user-attachments/assets/ea380ede-2922-4c3c-acd0-4ef163b03eaf)
 <details>
   <summary>Error in src/main/java/com/opstree/microservice/salary/service</summary>
