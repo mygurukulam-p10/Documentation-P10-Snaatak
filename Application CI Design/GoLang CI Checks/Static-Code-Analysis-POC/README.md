@@ -72,6 +72,23 @@ golangci-lint run
 
 ![image](https://github.com/user-attachments/assets/8ba89f07-6075-43f2-bff6-df06e626d2d9)
 
+Note :- This is checking error in each file with extension ```.go ``` .
+
+| **File**                         | **Line**  | **Issue**                                                                | **Description**                                                       |
+|-----------------------------------|-----------|--------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| `main.go`                         | 47:12     | Error return value not checked (errcheck)                                | `router.Run(":8080")` – Error is not handled.                         |
+| `api/api.go`                      | 71:16     | Error return value not checked (errcheck)                                | `json.Unmarshal(jsonData, &designationResponse)` – Error is not handled. |
+| `api/api.go`                      | 95:17     | Error return value not checked (errcheck)                                | `json.Unmarshal([]byte(redisData), &locationResponse)` – Error is not handled. |
+| `api/api.go`                      | 128:16    | Error return value not checked (errcheck)                                | `json.Unmarshal(jsonData, &locationResponse)` – Error is not handled. |
+| `api/health_test.go`              | 82:31     | Error return value not checked (errcheck)                                | `mockRedisClient.Ping(ctx).Err()` – Error is not handled.             |
+| `api/api.go`                      | 97:3      | Redundant return statement (gosimple)                                    | The `return` statement is unnecessary and can be removed.             |
+| `api/api.go`                      | 130:2     | Redundant return statement (gosimple)                                    | Same as above.                                                        |
+| `api/api.go`                      | 235:3     | Loop unconditionally terminated (staticcheck)                            | The loop is always terminated by a `return`, making the loop useless. |
+| `client/scylladb_test.go`         | 40:24     | Error return value not checked (errcheck)                                | `gocql.CreateSessionMock()` – Error is not handled.                   |
+| `config/viper_test.go`            | 36:19     | Error return value not checked (errcheck)                                | `viperReadInConfig()` – Error is not handled.                         |
+| `config/viper.go`                 | 19:2      | Ineffectual assignment to `err` (ineffassign)                            | `err` is assigned but never used in `viper.Unmarshal(&config)`.       |
+
+
 ## References 📚
 
 | Reference                                     | Link                                                  |
