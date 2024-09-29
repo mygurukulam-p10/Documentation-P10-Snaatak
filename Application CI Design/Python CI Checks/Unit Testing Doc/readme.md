@@ -42,10 +42,10 @@ Unit testing involves testing individual components (or units) of code to verify
 
 
 # Different Tools for Unit Testing in Python
-- **unittest**: The built-in Python library for writing and running tests.
-- **pytest**: A powerful testing framework that supports fixtures, parameterized testing, and more.
- - **doctest**: A module that tests interactive Python examples embedded in docstrings.
-- **coverage.py**: A tool to measure code coverage of Python programs.
+- **Unittest**
+- **Pytest**
+ - **Doctest**
+- **Coverage.py**
 
 
 # Comparison of Tools
