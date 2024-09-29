@@ -138,11 +138,11 @@ ssh-keygen
 - **Copy your SSH key to your clipboard:**
 
 ```
-cat ~/.ssh/id_rsa.pub | clip  # Windows
+cat ~/.ssh/id_rsa.pub | clip  
 ```
 
-- Click on your Github Setting , Go to SSH and GPG keys.
-- Add the SSH key to your GitHub account under **"SSH and GPG keys."**
+- Click on your Github Settings , Go to SSH and GPG keys.
+- Then Click on New SSH and Then paste your SSH Key.
 
 ![image](https://github.com/user-attachments/assets/2cfe7f14-32e7-400e-ba67-37ab8fa79938)
 
