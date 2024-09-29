@@ -99,16 +99,16 @@ Unit testing involves testing individual components (or units) of code to verify
 | **Flexible Test Discovery** | Automatically discovers tests based on naming conventions, saving time in test organization. |
 
 
-## Conclusion
+# Conclusion
 Using `pytest` as your testing framework significantly enhances your testing strategy by providing a flexible and easy-to-use interface. Its features promote good testing practices, allowing for better code quality and maintainability. Embracing `pytest` in your development process, along with effective CI practices, ensures a robust and reliable codebase.
 
-## Contact Information
+# Contact Information
 
 | Name | Email address|
 |------|---------------------|
 | Vinay Bansal | vinay.bansal.snaatak@mygurukulam.co |
 
-## References
+# References
 For further reading and resources on GitOps, check out the following:
 
 | Links | Descriptions|
