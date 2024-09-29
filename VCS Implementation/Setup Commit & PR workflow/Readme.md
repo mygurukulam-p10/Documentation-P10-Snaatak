@@ -9,7 +9,7 @@
 # Table of Content 
 1. [🔍 Purpose](#-purpose)
 2. [🌟 Prerequisites](#-prerequisites)
-3. [Steps to Pull Request Workflow](#-steps-to-pull-request-workflow)
+3. [Steps to Pull Request Workflow](#steps-to-pull-request-workflow)
 4. [📜 Conclusion](#-conclusion)
 5. [📚 References](#-references ) 
 6. [📧 Contact Information ](#-contact-information )
@@ -18,6 +18,7 @@
      
 # 🔍 Purpose 
 The purpose of this document is to outline the procedure for creating a Pull Request (PR) in GitHub. It is important to note that only authorized personnel will have the ability to merge PRs into the main branch following a thorough review process. This ensures code quality and maintains the integrity of the project.
+
 ---
 
 ## 🌟 Prerequisites
@@ -64,10 +65,12 @@ The purpose of this document is to outline the procedure for creating a Pull Req
 ![Screenshot 2024-09-29 162523](https://github.com/user-attachments/assets/1c2b4be7-c7a2-4b55-93b4-d043d2009b24)
 
 ![Screenshot 2024-09-29 162652](https://github.com/user-attachments/assets/466c4cba-9561-4e87-9793-03aaa77153a1)
+
 ---
 
 ## 📜 Conclusion
 In summary, this document provides a clear process for creating Pull Requests (PRs) in GitHub while emphasizing the importance of a review before merging into the main branch. By adhering to these guidelines, we ensure a collaborative environment that upholds code quality and project integrity. We encourage all contributors to engage in this process diligently, fostering a culture of continuous improvement and teamwork.
+
 ---
 
 ## 📚 References 
@@ -75,6 +78,7 @@ In summary, this document provides a clear process for creating Pull Requests (P
 |-------|------------|
 |https://medium.com/@urna.hybesis/pull-request-workflow-with-git-6-steps-guide-3858e30b5fa4|**Medium** |
 |https://opensource.com/article/19/7/create-pull-request-github| **Opensource.com**|
+
 ---
 
 ## 📧 Contact Information 
