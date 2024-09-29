@@ -16,7 +16,7 @@
 
 ## Purpose
 
-This README outlines the PoC for implementing DNS for an application. It demonstrates how to purchase a domain, configure DNS records, and set up a DNS server for the application. The document includes step-by-step instructions, important considerations for performance and security.
+This README outlines the POC for implementing DNS for an application. It demonstrates how to purchase a domain, configure DNS records, and set up a DNS server for the application. The document includes step-by-step instructions, important considerations for performance and security.
 
 
 ## Prerequisites
@@ -50,44 +50,53 @@ This README outlines the PoC for implementing DNS for an application. It demonst
 ![image](https://github.com/user-attachments/assets/afc426e6-337f-473a-9208-978f65ee443d)
 
 
-**6. Go to Route 53 section of your AWS account and Create a hosted zone there.**
+**6. Login to your Cloudflare Account**
 
-![image](https://github.com/user-attachments/assets/fdbd72dd-42d2-44cb-854e-cdb525266106)
+![image](https://github.com/user-attachments/assets/c9deb623-45b4-4730-ac41-8a54387b2fb2)
 
-**7. Enter your Domain name you purchased and Choose public hosted zone.**
+**7. On your dashboard choose "Add site" option on the top right corner of the page.**
 
-![image](https://github.com/user-attachments/assets/32edcfb8-741c-4ba1-899f-685ee17fc9ff)
+![image](https://github.com/user-attachments/assets/40133ea3-89ef-4aed-be46-ced4dd4ce348)
 
+**8. Enter your purchased domain in the existing Domain field and choose Continue.**
 
-**8. You will get ns values there, copy those values and move to your Domain Registrar account**
+![image](https://github.com/user-attachments/assets/8c6afa0b-e248-4985-8278-dbc7477eabe7)
 
-![image](https://github.com/user-attachments/assets/c9fe5031-2c2f-4b64-9826-d9c2c352c73c)
+**9. Select a plan as per your requirement and choose continue.**
 
+![image](https://github.com/user-attachments/assets/63b9c958-15d8-46c9-9c71-4ba48b9f15d8)
 
+**10. You will be redirected to the home page where you can see that your domain got added.**
 
-![image](https://github.com/user-attachments/assets/c8bce4ab-0d43-429b-ab5b-5f93bb7bd3f9)
+![image](https://github.com/user-attachments/assets/ec551352-fc81-43d3-90f6-ef9b460ea16e)
 
+**11. Choose your added domain, You will get ns values there that you need to copy.**
 
+![image](https://github.com/user-attachments/assets/d7d1d420-cd7e-4180-aec7-23791007a0fe)
 
-![image](https://github.com/user-attachments/assets/425313aa-0906-4cae-bd9f-09096d292677)
+12. Move to Your Domain registrar and choose manage domain.
 
+![image](https://github.com/user-attachments/assets/63ab4bcc-bc5f-4822-a19f-9cec656ec0ad)
 
-Under nameservers choose custom nameserver and paste ns values that you got from hosted zone.
+**13. Choose custom DNS option and paste the nameserver values copied from Cloudflare and save.**
 
+![image](https://github.com/user-attachments/assets/a9a2944e-43f5-43a2-9f8d-db8df66bb908)
 
-![image](https://github.com/user-attachments/assets/9fda6ff7-1ff8-4540-8bf5-b1b890cae09e)
+![image](https://github.com/user-attachments/assets/012b2547-2e52-4cb6-ac35-1874b433778d)
 
+It will take some time to get nameservers updated.
 
-![image](https://github.com/user-attachments/assets/c7ac2a44-080c-446c-bbf3-d5412b268618)
+**14. Now move back to your cloudflare account and choose DNS option in left navigation bar.**
 
+![image](https://github.com/user-attachments/assets/0dccc458-b19d-47ba-a97e-93943e4da456)
 
-![image](https://github.com/user-attachments/assets/d11eda0c-a3ca-4943-a9d2-0b6000cd0706)
+**15. Add a DNS record you want to add and choose for type of record you want to create.**
 
+If you want to host your application using IP address of your application server then choose A type record and enter IP address of your server and simply save the record.
 
-![image](https://github.com/user-attachments/assets/e35374a3-bd74-4bc9-992f-65dc94dcdca0)
+Also you can add a subdomain in Name section of your record.
 
-
-![image](https://github.com/user-attachments/assets/ac43fe9c-6aef-4703-9b83-fcd4d5c9cf9c)
+![image](https://github.com/user-attachments/assets/dc943a9d-10fc-443b-a872-ecfa3d3bdb80)
 
 
 
