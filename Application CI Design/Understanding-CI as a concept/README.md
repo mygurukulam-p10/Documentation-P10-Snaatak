@@ -2,7 +2,7 @@
 
 | Author      | Created on  | Version    | Last updated by | Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-| Komal       | 06-09-24    | Version 1  | Komal Jaiswal   | 19-09-24       |
+| Komal       | 26-09-24    | Version 1  | Komal Jaiswal   | 29-09-24       |
 
 ---
 
