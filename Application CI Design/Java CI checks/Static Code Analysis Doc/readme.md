@@ -72,7 +72,7 @@ Several tools are available for static code analysis in Java, each with unique f
 |--------------------------------|---------------------------------------------------------------------------------------------------------|
 | **Limited Context Understanding** | These tools might not always catch problems in the code because they don’t fully understand the context. This means some issues might only show up when the code is actually running or in certain situations. |
 | **Lack of Runtime Testing**    | Static analysis cannot detect runtime issues, such as memory leaks that only occur during execution. |
-| **Code Complexity**            | Complex code structures or patterns may confuse static analysis tools, resulting in inadequate assessments. |
+| **Code Complexity**            | When code is very complicated or uses tricky patterns, static analysis tools might get confused |
 | **Maintenance Challenges**      | As codebases evolve, keeping static analysis rules and configurations up to date can be challenging, risking outdated or irrelevant findings. |
 
 
