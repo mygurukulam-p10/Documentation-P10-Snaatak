@@ -81,7 +81,7 @@ Below are the prerequisites required before setting up your application:
 
 ![image](https://github.com/user-attachments/assets/d7d1d420-cd7e-4180-aec7-23791007a0fe)
 
-12. Move to Your Domain registrar and choose manage domain.
+**12. Move to Your Domain registrar and choose manage domain.**
 
 ![image](https://github.com/user-attachments/assets/63ab4bcc-bc5f-4822-a19f-9cec656ec0ad)
 
