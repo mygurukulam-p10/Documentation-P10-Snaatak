@@ -1,31 +1,29 @@
-# Setup Commit & PR (Pull Request) workflow
+# Setup PR (Pull Request) workflow
 
 | ✍️Author   | 📅Created on|📌 Version | 📝Last updated by   |📅 Last edited on |
 |-------------|-------------|------------|---------------------|------------------|
-| Megha Tyagi |  26-09-24   | Version 1  |    Megha Tyagi      | 26-09-24         |
+| Megha Tyagi |  26-09-24   | Version 1  |    Megha Tyagi      | 29-09-24         |
 
-
+---
 
 # Table of Content 
 1. [🔍 Purpose](#-purpose)
 2. [🌟 Prerequisites](#-prerequisites)
-3. [Steps to Set up Email Notificatin](#steps-to-set-up-email-notification)
+3. [Steps to Pull Request Workflow](#-steps-to-pull-request-workflow)
 4. [📜 Conclusion](#-conclusion)
 5. [📚 References](#-references ) 
 6. [📧 Contact Information ](#-contact-information )
    
-
+---
      
 # 🔍 Purpose 
-This document provides a clear, step-by-step guide for setting up email notifications for code commits in GitHub. By following these instructions, users can stay informed about changes in their repositories without requiring any scripting or complex configurations. This enhances collaboration and keeps team members updated on project developments.
-
-![codecommit drawio (2)](https://github.com/user-attachments/assets/93433a96-f1ff-45a3-b38d-a198555dcf9a)
+The purpose of this document is to outline the procedure for creating a Pull Request (PR) in GitHub. It is important to note that only authorized personnel will have the ability to merge PRs into the main branch following a thorough review process. This ensures code quality and maintains the integrity of the project.
+---
 
 ## 🌟 Prerequisites
 - A GitHub account.
-- Access to the repository for which you want to receive notifications.
-
-##  Steps to Set up Email Notification
+---
+##  Steps to Pull Request Workflow
 
 ### 1. **Sign in to GitHub**: Go to [GitHub](https://github.com) and log in to your account.
 
@@ -33,68 +31,51 @@ This document provides a clear, step-by-step guide for setting up email notifica
 
 ### 2. Create a repository for which you want to configure notifications for code commits.
 
-![Screenshot 2024-09-23 164450](https://github.com/user-attachments/assets/7488354d-04a7-4d07-8d28-6003db689937)
+![Screenshot 2024-09-29 151007](https://github.com/user-attachments/assets/e2e1ad79-41a5-44d2-b809-42cff696fd97)
 
-### 3. Now, click on the repository you created and navigate to the Settings tab at the top.
 
-![Screenshot 2024-09-23 173912](https://github.com/user-attachments/assets/1aef0657-d0c8-48b0-9455-da153bc2c312)
+### 3. Now, click on the repository you created and add one branch `Feature-XXX`.
 
-### 4. Generate an App Password for Gmail: If you are using Gmail, you'll need to generate an App Password for your Google account:
+![Screenshot 2024-09-29 151050](https://github.com/user-attachments/assets/1ff4fbf8-f2d2-4872-956b-35249f8fa2d7)
 
-**Go to your Google Account.**
 
-**Navigate to Security -> Signing in to Google -> App Passwords.**
+### 4. Add new line in `Feature-X` branch for creating an pull request
 
-**Choose Mail and select your device, then generate a password and copy it.**
+![Screenshot 2024-09-29 160914](https://github.com/user-attachments/assets/f46a9fc1-5ddf-431c-b8f4-00fd23bd9c08)
 
-![Screenshot 2024-09-23 200443](https://github.com/user-attachments/assets/065d60fb-63ab-4ed6-a9d9-449425c6238a)
 
-### 5. Set up GitHub Action Workflow:
+### 5. After added, creat a pull request which can be merged by Senior Authority
 
-**Create a GitHub Actions workflow file in your repository to send an email when a code commit is made.**
+![Screenshot 2024-09-29 160854](https://github.com/user-attachments/assets/ef58ebda-4d3c-486f-a753-d278a3f01ec8)
 
-**In your GitHub repository, create a workflow file in .github/workflows/ (e.g., send-email-on-codecommit.yml):**
 
-![Screenshot 2024-09-23 200921](https://github.com/user-attachments/assets/e2b44183-c3ca-4533-aff7-c0643f904076)
+### 6. For this step we need to set rules in branch, go to Git repo-> click on the branch-> click on add set rules->
+<img width="936" alt="image" src="https://github.com/user-attachments/assets/65af1f7f-0b80-4afd-9ee7-32e2d237bb7a">
 
-### 6. Add Gmail Credentials to GitHub Secrets:
+![Screenshot 2024-09-29 161329](https://github.com/user-attachments/assets/1507b233-4215-4bcd-9c4f-b73bed1fb2b9)
 
-**Go to your GitHub repository.**
+### 7. Add the rules for merge the PR by Team Lead->click on rule set name-> add name-> click on require sign commit and restrict who can push the branch merge-> click on create
+![Screenshot 2024-09-29 161603](https://github.com/user-attachments/assets/020e6c22-fcd4-4d4a-b0fb-65a53005a299)
 
-**Click on Settings -> Secrets -> Actions -> New repository secret.**
+<img width="632" alt="image" src="https://github.com/user-attachments/assets/a89853c7-205f-4ec3-9819-d90615833bec">
 
-**Add two secrets:**
+### 8. After review the PR, Auth can merge the Feature branch in Main branch-
 
-**EMAIL_USERNAME: Your Gmail address (e.g., your-email@gmail.com).**
+![Screenshot 2024-09-29 162523](https://github.com/user-attachments/assets/1c2b4be7-c7a2-4b55-93b4-d043d2009b24)
 
-**EMAIL_PASSWORD: The App Password you generated earlier from Gmail.**
-
-![Screenshot 2024-09-23 200808](https://github.com/user-attachments/assets/8b99b2d8-13b6-4b91-b2bd-52ffc6b12f10)
-
-### 7. Commit and Push the Workflow File:
-
-**Once you add the workflow file, every time a commit is pushed to the specified repo (e.g., code-commit-demo), the GitHub Action will send an email with the details of the commit (message, author, and URL).**
-
-![Screenshot 2024-09-23 235555](https://github.com/user-attachments/assets/8121b4ce-16f5-4847-ab52-0579bc8b8307)
-
-![Screenshot 2024-09-23 202553](https://github.com/user-attachments/assets/4c1b23ab-c3b5-41a7-9851-a4519a3fcaeb)
-
-![Screenshot 2024-09-23 201433](https://github.com/user-attachments/assets/b0d72001-5fa1-4951-a1a8-6dbba9e674d5)
-
-![Screenshot 2024-09-23 201420](https://github.com/user-attachments/assets/04cb5dc1-14c0-4347-9852-aca8fcc78635)
-
-![Screenshot 2024-09-23 201803](https://github.com/user-attachments/assets/1351519b-17b9-4374-b279-90234bc27916)
-
+![Screenshot 2024-09-29 162652](https://github.com/user-attachments/assets/466c4cba-9561-4e87-9793-03aaa77153a1)
+---
 
 ## 📜 Conclusion
-The POC successfully demonstrates an automated email notification system for new code commits, in a GitHub repository. It uses GitHub Actions and a secure email integration via Gmail credentials. This solution ensures timely notifications for relevant code changes while filtering out unnecessary merge events.
- 
+In summary, this document provides a clear process for creating Pull Requests (PRs) in GitHub while emphasizing the importance of a review before merging into the main branch. By adhering to these guidelines, we ensure a collaborative environment that upholds code quality and project integrity. We encourage all contributors to engage in this process diligently, fostering a culture of continuous improvement and teamwork.
+---
+
 ## 📚 References 
 |links | Description |
 |-------|------------|
-|https://youtu.be/oMU9MUIXPyI?feature=shared|**Rainbow talks** |
-|https://www.youtube.com/watch?v=qToZN5S67AM| **SDet Automation**|
-|https://tinyurl.com/bdpf3ajc|**GIT**|
+|https://medium.com/@urna.hybesis/pull-request-workflow-with-git-6-steps-guide-3858e30b5fa4|**Medium** |
+|https://opensource.com/article/19/7/create-pull-request-github| **Opensource.com**|
+---
 
 ## 📧 Contact Information 
 |Name|Email Address|
