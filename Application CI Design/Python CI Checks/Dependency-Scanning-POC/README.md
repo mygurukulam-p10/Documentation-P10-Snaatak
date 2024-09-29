@@ -92,7 +92,7 @@ b. Second Scan on ```poetry.lock```
 
 
 <details>
-  <summary> Detailed Output of Above Scans </summary>
+  <summary> Detailed Output Report of Above Scans </summary>
 
 
   <details>
