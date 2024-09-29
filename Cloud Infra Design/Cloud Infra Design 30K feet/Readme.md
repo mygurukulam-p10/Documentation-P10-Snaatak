@@ -1,2 +1,2 @@
-![Cloud Infra](https://github.com/user-attachments/assets/c5c2af53-547a-45fc-a6de-d5dd7cbec580)
+![AWS Infra-Cloud 30 K drawio (1)](https://github.com/user-attachments/assets/b05aac73-ee93-460b-889b-a8aab7d797bc)
 
