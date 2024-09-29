@@ -78,7 +78,7 @@ mvn checkstyle:check
   
 ![e2](https://github.com/user-attachments/assets/ea380ede-2922-4c3c-acd0-4ef163b03eaf)
 <details>
-  <summary>Error in src/main/java/com/opstree/microservice/salary/service</summary>
+  <summary>Remove Error in src/main/java/com/opstree/microservice/salary/service</summary>
   
 - This error is for missing package, unused imports and missing Javadoc comment.
  
@@ -150,7 +150,7 @@ public class SpringDataSalaryService {
 
 ![e4](https://github.com/user-attachments/assets/f1377a82-1729-446f-91ba-5e667a3a66be)
 <details>
-  <summary>Error in src/main/java/com/opstree/microservice/salary</summary>
+  <summary>Remove Error in src/main/java/com/opstree/microservice/salary</summary>
 
 - This error is for missing package, unused imports and missing Javadoc comment.
 
@@ -235,7 +235,7 @@ public final class SalaryApplication {
  
  ![e9](https://github.com/user-attachments/assets/fc3480ea-7805-4430-b039-bce0f9970dc6)
 <details>
-  <summary>Error in src/main/java/com/opstree/microservice/salary/model</summary>
+  <summary>Remove Error in src/main/java/com/opstree/microservice/salary/model</summary>
 - This error is for missing package, unused imports and missing Javadoc comment.
 
 
@@ -356,7 +356,7 @@ public class Employee implements Serializable {
 
 
 <details>
-  <summary>Error in src/main/java/com/opstree/microservice/salary/model</summary>
+  <summary>Remove Error in src/main/java/com/opstree/microservice/salary/model</summary>
   - This error is for missing package, unused imports and missing Javadoc comment.
 **ADD package-info.java** here src/main/java/com/opstree/microservice/salary/model
 ```
@@ -399,7 +399,7 @@ public class Message {
 
 ![e5](https://github.com/user-attachments/assets/10f5bd58-deca-4341-8c70-1989337d7f45)
 <details>
-  <summary>Error in src/main/java/com/opstree/microservice/salary/repository</summary>
+  <summary>Remove Error in src/main/java/com/opstree/microservice/salary/repository</summary>
   - This error is for missing package, unused imports and missing Javadoc comment.
   **ADD package-info.java** here src/main/java/com/opstree/microservice/salary/repository
 ```
@@ -442,7 +442,7 @@ public interface EmployeeRepository
 ![e10](https://github.com/user-attachments/assets/23bb63f8-92b3-40e4-8f2a-b456d4becb61)
 
   <details>
-    <summary>Error in src/main/java/com/opstree/microservice/salary/contollers</summary>
+    <summary>Remove Error in src/main/java/com/opstree/microservice/salary/contollers</summary>
 - This error is for missing package, unused imports and missing Javadoc comment.
 **ADD package-info.java** here src/main/java/com/opstree/microservice/salary/contollers
 ```
