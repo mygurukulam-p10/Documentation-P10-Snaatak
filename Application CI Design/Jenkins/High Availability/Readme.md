@@ -98,8 +98,6 @@ After login to the Jenkins instance go to the Manage Jenkins section and then go
 
 -> Configure the node as the requirement bases.
 
-<img width="550" alt="new" src="https://github.com/user-attachments/assets/972534ee-d372-4b7d-907b-918762f9c821">
-
 -  **In the Usage section there are two options. Here, you can configure how Jenkins should use nodes:**
 
 **Use this node as much as possible:** Jenkins will try to utilize this node for as many jobs as possible.
