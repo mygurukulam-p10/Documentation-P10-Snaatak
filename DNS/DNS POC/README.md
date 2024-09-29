@@ -110,6 +110,10 @@ Also you can add a subdomain in Name section of your record.
 ![image](https://github.com/user-attachments/assets/70d17e30-ff29-49ad-a40a-fd096a10a87a)
 
 
+## Conclusion
+This proof of concept (POC) demonstrates the successful implementation of DNS for an application using Cloudflare as the DNS provider. The document outlines the steps involved, from purchasing a domain to configuring DNS records and setting up a DNS server.
+
+
 ## Contact Information
 
 For more information on how to setup Github or if you need any guidance, feel free to reach out:
