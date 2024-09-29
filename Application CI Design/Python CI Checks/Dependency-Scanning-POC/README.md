@@ -76,11 +76,28 @@ cd attendance-api/
   <details>
     <summary> i. First scan</summary>
 
+
    Run the scan on `pyproject.toml`:
 
     safety check -r pyproject.toml 
 
+   +======================================================================================================================================+
 
+ REPORT 
+
+  Safety v3.2.7 is scanning for Vulnerabilities...
+  Scanning dependencies in your files:
+
+  -> pyproject.toml
+
+  Using open-source vulnerability database
+  No packages found
+  Timestamp 2024-09-29 05:26:09
+  0 vulnerabilities reported
+  0 vulnerabilities ignored
++======================================================================================================================================+
+
+ No known security vulnerabilities reported. 
    ![safety 1](https://github.com/user-attachments/assets/fc275cf2-b465-436c-8937-4e352c11ff64)
 
   </details>
