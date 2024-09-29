@@ -10,10 +10,9 @@
 2. [Types of Logs](#types-of-logs)
 3. [Log Levels](#log-levels)
 4. [Log Configuration](#log-configuration)
-5. [Viewing and Managing Logs](#viewing-and-managing-logs)
-6. [Conclusion](#conclusion)
-7. [Contact Information](#Contact-Information)
-8. [References](#references)
+5. [Conclusion](#conclusion)
+6. [Contact Information](#Contact-Information)
+7. [References](#references)
 
 
 ## Introduction
