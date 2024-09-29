@@ -47,7 +47,8 @@ This POC is regarding performing cred scanning by using  gitleaks and step to pe
 | **Gitleaks** | Latest         | Executes credential scanning on the repository.  |
 
 ### Flow Diagram
-![Screenshot from 2024-09-27 20-30-32](https://github.com/user-attachments/assets/e60c796f-7372-43ad-852d-d89cc5e3c8b7)
+![Screenshot from 2024-09-29 14-03-14](https://github.com/user-attachments/assets/cb6fd9af-9e6c-4047-80c6-573babc3349b)
+
 
 
 ### Steps To Install gitleaks
