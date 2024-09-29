@@ -80,7 +80,7 @@ This command compiles the source code of the project according to the settings d
 mvn compile
 ```
 ![compile](https://github.com/user-attachments/assets/7a41dd76-d90a-40bf-a91a-c0bbe726cb70)
-
+- When you see a “BUILD SUCCESS” message after running the mvn compile command in Maven, it means that the source code of your project has been successfully compiled without any errors and your project’s source code is now ready for the next phases, such as testing or packaging.
 
 
 ## Conclusion
