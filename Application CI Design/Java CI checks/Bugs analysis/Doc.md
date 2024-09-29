@@ -95,3 +95,8 @@ Implementing Java CI checks with a focus on bug analysis is crucial for maintain
 |Aayush|aayush.gaur.snaatak@mygurukulam.co|
 
 ## References 
+
+| Description                                      | References  
+| ------------------------------------------------- | ------------------------------------------------------------------- |
+| concept of bugs in software development         | [Link](https://www.bacareers.in/what-is-bug-in-software-development/#google_vignette) |
+| Bugs Analysis                           | [Link](https://www.cs.tufts.edu/~jfoster/papers/issre04.pdf) |
