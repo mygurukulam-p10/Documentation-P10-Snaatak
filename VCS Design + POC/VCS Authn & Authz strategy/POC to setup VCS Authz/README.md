@@ -86,7 +86,7 @@ Authorization in version control systems (VCS) ensures that only users with the 
 **1. Navigate to Repository Settings**
 
 ![image](https://github.com/user-attachments/assets/f10e220c-4813-4c49-addc-794fda11022a)
-3. We can edit privilages of the user and provide required permission
+
 **2. In the left sidebar, click on "Branches"**
 
 **Click on Rules and then Ruleset to create a New Ruleset**
