@@ -16,7 +16,7 @@
 
 
 ## Introduction
-The purpose of this document is to provide a detailed overview of the logging system in SonarQube, including the types of logs generated, the significance of different log levels, and how to configure log settings. By outlining these elements, the documentation aims to assist administrators and users in understanding how to monitor and troubleshoot SonarQube effectively.
+The purpose of this document is to provide a detailed overview of the logging system in SonarQube, including the types of logs generated, the significance of different log levels, and how to configure log settings.
 
 
 
