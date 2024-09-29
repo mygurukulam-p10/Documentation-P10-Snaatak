@@ -43,7 +43,7 @@ SonarQube allows the creation of different types of quality gates, including:
 # Implementation of Quality Gates
 
 
-## step 1: Install sonarqube and login 
+## Step 1: Install sonarqube and login 
 
 ## Step 2: Set Up a SonarQube Project
 
