@@ -95,11 +95,15 @@ pip install pytest
 
 
 
-![ue1](https://github.com/user-attachments/assets/2f21f68c-1d57-4680-9824-f11cdf73dc77)
+<details>
+  <img width="758" alt="image" src="https://github.com/user-attachments/assets/8550edf4-6cd5-4e34-95a0-506454895fb0">
+
 - enabling your Python applications to communicate with PostgreSQL databases.
 ```
 pip install psycopg2
 ```
+</details>
+
 ![ue2](https://github.com/user-attachments/assets/1cc9c6dd-63ab-466a-8b67-de76d6bea345)
 
 - Using these imports, you can easily connect to a PostgreSQL database and utilize advanced features provided by psycopg2.
