@@ -106,7 +106,7 @@ pip install psycopg2
 </details>
 
 <details>
-  <summary><summary>Error in PostgreSQL</summary></summary> 
+  <summary>Error in PostgreSQL</summary>
   
 ![ue2](https://github.com/user-attachments/assets/1cc9c6dd-63ab-466a-8b67-de76d6bea345)
 
@@ -118,7 +118,7 @@ from psycopg2 import extras
 </details>
 
  <details> 
- <summary><summary>Error in PostgreSQL</summary></summary>
+ <summary>Error in PostgreSQL</summary>
    
 ![ue1cp](https://github.com/user-attachments/assets/6d686ca4-4223-476d-bbe9-b7b691dc2cc5)
 -  running pip install pytest-mock installs the pytest-mock library, allowing you to effectively use mocking techniques in your pytest tests to isolate and test specific functionalities without relying on external dependencies.
@@ -129,7 +129,7 @@ pip install pytest-mock
 
 
 <details>
-      <summary><summary>Error in PostgreSQL</summary></summary>
+      <summary>Error in Router</summary>
   
 ![ue1rou](https://github.com/user-attachments/assets/6427ef04-2464-4aee-a3b6-0d62e463b28e)
 
@@ -146,6 +146,7 @@ pip install Flask-Caching
 
 
 <details>
+  <summary>Error in Utils</summary>
   
 ![ue1u](https://github.com/user-attachments/assets/361d64bc-fc4d-460f-93e1-2c08d2e050ef)
 
