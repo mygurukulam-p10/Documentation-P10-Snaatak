@@ -96,6 +96,7 @@ pip install pytest
 
 
 <details>
+  <summary>Error in PostgreSQL</summary>
   <img width="758" alt="image" src="https://github.com/user-attachments/assets/8550edf4-6cd5-4e34-95a0-506454895fb0">
 
 - enabling your Python applications to communicate with PostgreSQL databases.
@@ -105,6 +106,7 @@ pip install psycopg2
 </details>
 
 <details>
+  <summary></summary> 
   
 ![ue2](https://github.com/user-attachments/assets/1cc9c6dd-63ab-466a-8b67-de76d6bea345)
 
@@ -122,10 +124,10 @@ from psycopg2 import extras
 ```
 pip install pytest-mock
 ```
- </details>details>
+ </details>
 
 
-   <details>
+<details>
      
 ![ue1rou](https://github.com/user-attachments/assets/6427ef04-2464-4aee-a3b6-0d62e463b28e)
 
