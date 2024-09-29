@@ -1,4 +1,4 @@
-# Bugs Analysis For Java
+# DOC Of Bugs Analysis For Java
 
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
 |--------------------|------------|--------------|--------------------------------|
