@@ -8,7 +8,7 @@
 
 # Table of Content 
 1. [🔍 Purpose](#-purpose)
-2. [🌟 Prerequisites](#-prerequisites)
+2. [🌟 Pre-requisites](#-pre-requisites)
 3. [Steps to Pull Request Workflow](#steps-to-pull-request-workflow)
 4. [📜 Conclusion](#-conclusion)
 5. [📚 References](#-references ) 
@@ -21,7 +21,7 @@ The purpose of this document is to outline the procedure for creating a Pull Req
 
 ---
 
-## 🌟 Prerequisites
+## 🌟 Pre-requisites
 - A GitHub account.
 ---
 ##  Steps to Pull Request Workflow
