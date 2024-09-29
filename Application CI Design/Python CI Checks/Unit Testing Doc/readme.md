@@ -54,7 +54,6 @@ Unit testing involves testing individual components (or units) of code to verify
 | **Type**          | Built-in Python testing framework  | Third-party testing framework     | Test embedded in docstrings       | Code coverage tool               |
 | **Syntax**        | Class-based                        | Function-based, class-based, and more | Simple assertions in docstrings    | Requires decorators for tracking  |
 | **Test Discovery**| Manual discovery                   | Automatic discovery                | Manual; runs on docstring parsing  | Not applicable                   |
-| **Assertions**    | `self.assertEqual`, etc.          | Simple `assert` statements        | Simple assertions in examples      | Not applicable                   |
 | **Fixtures**      | Setup/teardown methods             | Advanced fixture system            | Not available                      | Not applicable                   |
 | **Plugins**       | Limited                            | Extensive plugin system            | None                              | None                             |
 | **Output**        | Text-based                         | Rich and customizable              | Text-based                        | Coverage reports (HTML, XML)     |
