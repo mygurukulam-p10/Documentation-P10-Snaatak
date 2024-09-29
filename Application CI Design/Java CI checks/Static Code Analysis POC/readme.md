@@ -439,10 +439,11 @@ public interface EmployeeRepository
   </details>
 
 ![e10](https://github.com/user-attachments/assets/23bb63f8-92b3-40e4-8f2a-b456d4becb61)
-- This error is for missing package, unused imports and missing Javadoc comment.
+
   <details>
-  
-<summary>**ADD package-info.java** here src/main/java/com/opstree/microservice/salary/contollers</summary>
+    <summary>Error in src/main/java/com/opstree/microservice/salary/contollers</summary>
+- This error is for missing package, unused imports and missing Javadoc comment.
+**ADD package-info.java** here src/main/java/com/opstree/microservice/salary/contollers
 ```
 /**
  * This package contains classes related to the salary management APIs.
