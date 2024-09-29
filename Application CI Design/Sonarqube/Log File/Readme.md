@@ -45,7 +45,7 @@ SonarQube supports several log levels to classify the importance of log messages
 | FATAL     | Critical errors that may cause the system to crash.  |
 
 ## Log Configuration
-SonarQube allows you to configure logging settings through the `sonar.properties` file. You can set log levels for different components by modifying the following properties:
+SonarQube allows you to configure logging settings through the `<sonarqubeHome>/conf/sonar.properties` file. You can set log levels for different components by modifying the following properties:
 
 ```properties
 # Example configuration
