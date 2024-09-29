@@ -75,6 +75,8 @@ Bugs analysis in CI is the process of automatically detecting code defects (bugs
 
 ### Proof of Concept (POC)
 
+For Performing Bug Analysis https://github.com/mygurukulam-p10/Documention/blob/main/Application%20CI%20Design/Java%20CI%20checks/Bugs%20analysis/POC/Poc.md
+
 ### Best Practices
 | **Best Practice**           | **Description**                                                              |
 |-----------------------------|------------------------------------------------------------------------------|
