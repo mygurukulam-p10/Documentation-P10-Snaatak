@@ -68,18 +68,33 @@ cd attendance-api/
 ```
 
 ---
+
+4. **Run a Scan**
+
+1. First Scan on ```pyproject.toml```
+
+```
+safety check -r pyproject.toml 
+```
+
+ ![safety 1](https://github.com/user-attachments/assets/fc275cf2-b465-436c-8937-4e352c11ff64)
  
+2. Second Scan on ```poetry.lock```
+
+```
+ safety check -r poetry.lock
+```
+   ![Safety 2](https://github.com/user-attachments/assets/35d48844-08c2-40c6-9ace-de72a1ea1648)
+   ![safety 3](https://github.com/user-attachments/assets/f8c1326e-fbac-4160-a2a8-be540196c119)
+   ![safety 4](https://github.com/user-attachments/assets/8b5ba782-7aa2-4325-ad20-1e20d0584b4c)
+
+
 <details>
-  <summary> 4. Run a scan </summary>
+  <summary> Outputs of Above Scan </summary>
 
 
   <details>
-    <summary> i. First scan</summary>
-
-
-   Run the scan on `pyproject.toml`:
-
-    safety check -r pyproject.toml 
+    <summary> i. Output of First scan</summary>
 
  ```  +======================================================================================================================================+
 
@@ -100,18 +115,12 @@ cd attendance-api/
  No known security vulnerabilities reported. 
 ```
 
-   ![safety 1](https://github.com/user-attachments/assets/fc275cf2-b465-436c-8937-4e352c11ff64)
 
   </details>
 
   <details>
-    <summary> ii. Second scan</summary>
+    <summary> ii. Output of Second scan</summary>
 
-   Now run the scan on `poetry.lock`:
-
-    
-    safety check -r poetry.lock
-    
    ```
 +======================================================================================================================================+
 
@@ -232,10 +241,6 @@ cd attendance-api/
 +======================================================================================================================================+
 ```
 
-
-   ![Safety 2](https://github.com/user-attachments/assets/35d48844-08c2-40c6-9ace-de72a1ea1648)
-   ![safety 3](https://github.com/user-attachments/assets/f8c1326e-fbac-4160-a2a8-be540196c119)
-   ![safety 4](https://github.com/user-attachments/assets/8b5ba782-7aa2-4325-ad20-1e20d0584b4c)
 
   </details>
 
