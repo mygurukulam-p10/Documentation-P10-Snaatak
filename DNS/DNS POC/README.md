@@ -9,10 +9,9 @@
 1. [Purpose](#purpose)
 2. [Pre-requisites](#pre-requisites)
 3. [Step by Step DNS Setup](#step-by-step-DNS-setup)
-4. [Best Practices for DNS](#best-practices-for-DNS)
-5. [Conclusion](#conclusion)
-6. [Contact Information](#Contact-Information)
-7. [References](#References)
+4. [Conclusion](#conclusion)
+5. [Contact Information](#Contact-Information)
+6. [References](#References)
 
 ## Purpose
 
@@ -20,6 +19,14 @@ This README outlines the POC for implementing DNS for an application. It demonst
 
 
 ## Prerequisites
+
+Below are the prerequisites required before setting up your application:
+
+| Prerequisite                   | Description                                                                                  |
+|---------------------------------|----------------------------------------------------------------------------------------------|
+| **Registered Domain Name**      | A domain name purchased from a domain registrar like Namecheap or GoDaddy.                   |
+| **Cloudflare Account**          | A free or paid account on Cloudflare.                                                        |
+| **Application Server (Optional)** | If you plan to host your application using an IP address, a server with a known IP address. |
 
 
 
@@ -98,6 +105,9 @@ Also you can add a subdomain in Name section of your record.
 
 ![image](https://github.com/user-attachments/assets/dc943a9d-10fc-443b-a872-ecfa3d3bdb80)
 
+**16. Search for your domain with DNS record and you will see your application hosted on it.**
+
+![image](https://github.com/user-attachments/assets/70d17e30-ff29-49ad-a40a-fd096a10a87a)
 
 
 ## Contact Information
@@ -113,3 +123,6 @@ For more information on how to setup Github or if you need any guidance, feel fr
 
 |  Title   |                    Link                        |
 |----------|------------------------------------------------|
+|https://www.cloudflare.com/learning/dns/what-is-dns/|**CloudFlare**|
+|https://www.hostinger.com/tutorials/what-is-dns| **Hostiger Tutorials**|
+|https://en.wikipedia.org/wiki/OpenDNS|**Wikipedia**|
