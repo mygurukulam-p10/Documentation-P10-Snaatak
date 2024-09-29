@@ -15,7 +15,7 @@
 - [Refrences](#refrences)
 
 ### Introduction
-This POC is regarding performing cred scanning by using  gitleaks and step to perform cred scanning in mentioned by using gitleaks
+This POC is regarding performing cred scanning by using  gitleaks and step to perform cred scanning 
 
 ### ⚙️ Pre-requisites for Credential Scanning
 
