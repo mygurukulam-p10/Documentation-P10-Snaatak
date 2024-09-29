@@ -37,7 +37,7 @@ Unit testing involves testing individual components (or units) of code to verify
 |------------------------------|---------------------------------------------------------------------------------|
 | **Early Bug Detection**      | Catch issues before they reach production.                                      |
 | **Documentation**            | Unit tests serve as a form of documentation for how the code is supposed to behave. |
-| **Facilitates Refactoring**  | Confidence in code stability allows developers to improve code quality without fear of breaking existing functionality. |
+|**Regression Testing**| They help in regression testing by verifying that previously fixed bugs don’t reappear.|
 | **Improves Design**          | Writing tests can lead to better design decisions, encouraging modular, testable code. |
 
 
