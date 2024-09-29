@@ -2,7 +2,7 @@
 
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
 |--------------------|------------|--------------|--------------------------------|
-| 25-09-2024         | 0.1       | Aayush Gaur  |  SonarQube Authorization          |
+| 25-09-2024         | 1.0       | Aayush Gaur  |  SonarQube Authorization          |
 
 ### Table of Contents
 1. [Introduction](#introduction)
