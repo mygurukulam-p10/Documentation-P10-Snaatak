@@ -54,8 +54,7 @@ sonar.log.level.ce=DEBUG
 sonar.log.level.es=DEBUG
 sonar.log.level.db=INFO
 ```
-
-### Conclusion
+## Conclusion
 
 SonarQube provides a detailed logging system crucial for monitoring platform behavior, troubleshooting issues, and ensuring efficient performance. Logs such as **Web**, **Compute Engine**, **Elasticsearch**, and **Access** help administrators manage and optimize the platform effectively.
 
