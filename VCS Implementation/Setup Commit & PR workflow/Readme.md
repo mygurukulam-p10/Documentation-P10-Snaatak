@@ -28,7 +28,7 @@ The purpose of this document is to outline the procedure for creating a Pull Req
 
 ### 1. **Sign in to GitHub**: Go to [GitHub](https://github.com) and log in to your account.
 
-<img width="958" alt="image" src="https://github.com/user-attachments/assets/d6acff0d-0562-441c-813c-37cfbe5ebeec">
+![Screenshot 2024-09-25 155440](https://github.com/user-attachments/assets/07ed100c-331f-41d0-a043-06ae5a986689)
 
 ### 2. Create a repository for which you want to configure notifications for code commits.
 
