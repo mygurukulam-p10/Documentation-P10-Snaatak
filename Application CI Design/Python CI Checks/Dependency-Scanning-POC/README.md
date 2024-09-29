@@ -89,8 +89,10 @@ b. Second Scan on ```poetry.lock```
    ![safety 4](https://github.com/user-attachments/assets/8b5ba782-7aa2-4325-ad20-1e20d0584b4c)
 
 
+
+
 <details>
-  <summary> Outputs of Above Scan </summary>
+  <summary> DetailedOutputs of Above Scan </summary>
 
 
   <details>
