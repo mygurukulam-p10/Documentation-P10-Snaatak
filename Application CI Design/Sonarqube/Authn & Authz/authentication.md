@@ -1,5 +1,10 @@
 # SonarQube Authentication
 
+| 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
+|--------------------|------------|--------------|--------------------------------|
+| 25-09-2024         | 1.0       | Aayush Gaur  |  SonarQube Authentication         |
+
+
 ![Screenshot from 2024-09-26 12-19-20](https://github.com/user-attachments/assets/78ffa655-6866-43c8-a443-870e3ed92f63)
 
 ## Table of Contents
