@@ -17,7 +17,9 @@
 
 
 ## Introduction
-SonarQube provides a comprehensive logging system to help monitor and troubleshoot the various components and activities within the platform. Logs are crucial for understanding system behavior, diagnosing issues, and ensuring the stability of the environment. This documentation outlines the different types of logs available in SonarQube, their purposes, and key features.
+The purpose of this document is to provide a detailed overview of the logging system in SonarQube, including the types of logs generated, the significance of different log levels, and how to configure log settings. By outlining these elements, the documentation aims to assist administrators and users in understanding how to monitor and troubleshoot SonarQube effectively.
+
+
 
 ## Types of Logs
 
