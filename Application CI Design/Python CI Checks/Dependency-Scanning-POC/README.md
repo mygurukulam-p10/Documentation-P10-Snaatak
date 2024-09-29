@@ -71,7 +71,7 @@ cd attendance-api/
 
 4. **Run a Scan**
 
-1. First Scan on ```pyproject.toml```
+a.  First Scan on ```pyproject.toml```
 
 ```
 safety check -r pyproject.toml 
@@ -79,7 +79,7 @@ safety check -r pyproject.toml
 
  ![safety 1](https://github.com/user-attachments/assets/fc275cf2-b465-436c-8937-4e352c11ff64)
  
-2. Second Scan on ```poetry.lock```
+b. Second Scan on ```poetry.lock```
 
 ```
  safety check -r poetry.lock
