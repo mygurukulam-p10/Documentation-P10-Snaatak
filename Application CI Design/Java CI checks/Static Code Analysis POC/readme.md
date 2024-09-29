@@ -76,8 +76,10 @@ mvn checkstyle:check
 ![e1](https://github.com/user-attachments/assets/92864196-b869-4123-8f14-002492226735)
 
 ![e2](https://github.com/user-attachments/assets/ea380ede-2922-4c3c-acd0-4ef163b03eaf)
-- this documentation helps other developers understand the role of the package within the larger application, improving code readability and maintainability.
+- This error is for missing package, unused imports and missing Javadoc comment.
+ <details>
 **ADD package-info.java** here src/main/java/com/opstree/microservice/salary/service
+  - this documentation helps other developers understand the role of the package within the larger application, improving code readability and maintainability.
 ```
 /**
  * This package contains classes related to the salary management APIs.
@@ -140,11 +142,12 @@ public class SpringDataSalaryService {
     // Additional methods can be added as needed...
 }
 ```
-
+  </details>
 
 ![e4](https://github.com/user-attachments/assets/f1377a82-1729-446f-91ba-5e667a3a66be)
-- this documentation helps other developers understand the role of the package within the larger application, improving code readability and maintainability.
-#**ADD package-info.java** here src/main/java/com/opstree/microservice/salary
+- This error is for missing package, unused imports and missing Javadoc comment.
+<details>
+**ADD package-info.java** here src/main/java/com/opstree/microservice/salary
 ```
 /**
  * This package contains service classes for managing salary information.
@@ -219,8 +222,14 @@ public final class SalaryApplication {
     }
 }
 ```
+  </details>
+
+
+
 ![e9](https://github.com/user-attachments/assets/fc3480ea-7805-4430-b039-bce0f9970dc6)
-- this documentation helps other developers understand the role of the package within the larger application, improving code readability and maintainability.
+- This error is for missing package, unused imports and missing Javadoc comment.
+
+<details>
 **ADD package-info.java** here src/main/java/com/opstree/microservice/salary/model
 ```
 /**
@@ -331,9 +340,13 @@ public class Employee implements Serializable {
     }
 }
 ```
+  </details>
+
 
 ![e6](https://github.com/user-attachments/assets/7bc5f3a1-6f90-4e48-9c41-416287bd59ac)
-- this documentation helps other developers understand the role of the package within the larger application, improving code readability and maintainability.
+- This error is for missing package, unused imports and missing Javadoc comment.
+
+<details>
 **ADD package-info.java** here src/main/java/com/opstree/microservice/salary/model
 ```
 /**
@@ -368,14 +381,16 @@ public class Message {
     }
 }
 ```
-
+  </details>
 
 
 
 
 ![e5](https://github.com/user-attachments/assets/10f5bd58-deca-4341-8c70-1989337d7f45)
-- this documentation helps other developers understand the role of the package within the larger application, improving code readability and maintainability.
-**ADD package-info.java** here src/main/java/com/opstree/microservice/salary/repository
+- This error is for missing package, unused imports and missing Javadoc comment.
+
+<details>
+  **ADD package-info.java** here src/main/java/com/opstree/microservice/salary/repository
 ```
 /**
  * This package contains repositories for managing employee salary data.
@@ -411,9 +426,13 @@ public interface EmployeeRepository
     Employee findByIdAsString(String id);
 }
 ```
+  </details>
+
 ![e10](https://github.com/user-attachments/assets/23bb63f8-92b3-40e4-8f2a-b456d4becb61)
-- this documentation helps other developers understand the role of the package within the larger application, improving code readability and maintainability.
-**ADD package-info.java** here src/main/java/com/opstree/microservice/salary/contollers
+- This error is for missing package, unused imports and missing Javadoc comment.
+  <details>
+  
+<summary>**ADD package-info.java** here src/main/java/com/opstree/microservice/salary/contollers</summary>
 ```
 /**
  * This package contains classes related to the salary management APIs.
@@ -475,7 +494,7 @@ public class SpringDataSalaryService {
     // Additional methods can be added as needed...
 }
 ```
-
+  </details>
 
 ![ssucces](https://github.com/user-attachments/assets/4e12bbb5-0aed-4246-8234-3cec4d8d8687)
 
