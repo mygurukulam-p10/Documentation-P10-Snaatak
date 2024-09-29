@@ -65,6 +65,21 @@ cd employee-api/
  
 4. **Run Golangci-lint on Employee-API**:
 
+1. To Run it on Single file. Use command below
+
+```
+golangci-lint run < File name with extension .go>
+```
+
+Example 
+```
+golangci-lint run main.go
+
+```
+![image](https://github.com/user-attachments/assets/7b90ff4b-1942-41e9-89bc-b448b7accfa0)
+
+2. To run it on overall files use command below.
+
 ```
 golangci-lint run 
 
