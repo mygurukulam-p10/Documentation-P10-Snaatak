@@ -42,7 +42,10 @@ SonarQube allows the creation of different types of quality gates, including:
 
 # Implementation of Quality Gates
 
-## Step 1: Set Up a SonarQube Project
+
+## step 1: Install sonarqube and login 
+
+## Step 2: Set Up a SonarQube Project
 
 1. **Log in to SonarQube**
    - Open the SonarQube dashboard by navigating to the URL where SonarQube is hosted.
