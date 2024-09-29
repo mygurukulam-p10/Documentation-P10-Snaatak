@@ -74,19 +74,22 @@ Continuous Integration (CI) is a game-changer in modern software development. Im
 
 Here’s a step-by-step breakdown of how the CI process flows:
 
-![CICD Pipeline ](https://github.com/user-attachments/assets/76be5dc9-0903-42cb-983e-3f5987a1e1b0)
+![ci](https://github.com/user-attachments/assets/95b96844-f5e5-4d0f-a7ef-155159187bfd)
 
 
-| Step                         | Description                                                                 |
-|------------------------------|-----------------------------------------------------------------------------|
-| ✍️ **Commit change**           | A developer makes changes and commits them to the code repository.          |
-| 🚀 **Trigger build**           | The commit automatically triggers a build process in the CI pipeline.       |
-| 🏗️ **Build**                   | The source code is compiled and built into a deployable artifact.           |
-| 📩 **Notify of build outcome** | Notifications are sent regarding the success or failure of the build.       |
-| ✅ **Run test**                | Automated tests are executed to ensure the build works as expected.         |
-| 🛎️ **Notify of test outcome**  | Notifications are sent about the results of the test run.                   |
-| 📦 **Deliver build to environment** | The successful build is delivered to a specified environment.          |
-| 🌍 **Deploy where necessary**  | The build is deployed to production or other environments based on needs.   |
+| Category | Step                         | Description                                                                 |
+|----------|------------------------------|-----------------------------------------------------------------------------|
+| **Source** | ✍️ **Git push**                | A developer pushes changes to the code repository from their local environment. |
+| **Build**  | 🏗️ **Compile code**            | The source code is compiled as part of the build process.                   |
+| **Build**  | 🛠️ **Docker build**            | A Docker image is built to standardize the deployment process.               |
+| **Test**   | ✅ **Unit test**               | Unit tests are executed to verify the functionality of individual components. |
+| **Test**   | 🔄 **Integration test**        | Integration tests are run to ensure the application components work together as expected. |
+| **Deploy** | 📦 **Staging**                | The build is deployed to the staging environment for further validation and testing. |
+| **Deploy** | ✅ **QA**                      | The QA team manually verifies the build in the staging environment.          |
+| **Deploy** | 🚀 **Production**              | The build is finally deployed to the production environment after manual approval. |
+
+*Note: Source, Build, and Test are part of **Continuous Integration (CI)**, while Deploy is part of **Continuous Delivery (CD)**.*
+
 
 ---
 
