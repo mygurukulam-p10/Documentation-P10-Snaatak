@@ -45,7 +45,7 @@ If any of these are found in the code, they could be a security risk because att
 
  ### Tools for Credential Scanning
 
-| Tool          | Features                                                                 | 
+| Tool          | Description                                                                | 
 |---------------|--------------------------------------------------------------------------|
 | **GitGuardian** | Monitors repositories in real-time to detect hardcoded secrets and sends alerts when something is found. |
 | **TruffleHog**  | Looks for sensitive data by scanning for high-entropy strings, which might represent passwords or keys.
