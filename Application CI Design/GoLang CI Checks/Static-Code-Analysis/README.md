@@ -3,6 +3,10 @@
 
 ![image](https://github.com/user-attachments/assets/f84296a1-8665-452c-a839-fbcea216796d)
 
+| Author      | Created on  | Version    | Last updated by | Last edited on |
+|-------------|-------------|------------|-----------------|----------------|
+| Komal       | 26-09-24    | Version 1  | Komal Jaiswal   | 29-09-24       |
+
 ## Table of Contents 📑
 1. [Purpose](#purpose)
 2. [Introduction](#introduction)
