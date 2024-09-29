@@ -140,6 +140,8 @@ ssh-keygen
 ```
 cat ~/.ssh/id_rsa.pub | clip  # Windows
 ```
+
+- Click on your Github Setting , Go to SSH and GPG keys.
 - Add the SSH key to your GitHub account under **"SSH and GPG keys."**
 
 ![image](https://github.com/user-attachments/assets/2cfe7f14-32e7-400e-ba67-37ab8fa79938)
