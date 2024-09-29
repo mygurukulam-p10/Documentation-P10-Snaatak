@@ -1,4 +1,4 @@
-# Bugs Analysis
+# Bugs Analysis For Java
 
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
 |--------------------|------------|--------------|--------------------------------|
