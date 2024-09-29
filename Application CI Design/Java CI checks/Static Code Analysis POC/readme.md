@@ -1,4 +1,4 @@
-## Proof of Concept (POC)
+## Proof of Concept (POC) for Static Code Analysis for Java 
 
 ![java static](https://github.com/user-attachments/assets/16f124bd-65e8-45df-93ae-6611fd7617ed)
 
