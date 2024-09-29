@@ -99,6 +99,12 @@ gitleaks detect -v
 ```
 ![Screenshot from 2024-09-25 18-41-40](https://github.com/user-attachments/assets/933dba1e-9b5b-4555-877e-0b9666e523c5)
 
+**Step 3** If you want to scan a specific file, use below command
+```
+gitleaks detect -v <file_name.txt>
+```
+
+
 ### Conclusion
 Credential scanning is an essential practice for maintaining the security and integrity of codebases. By implementing regular scans, Access Controls, Using Secrets Managers, organizations can significantly reduce the risk of exposing sensitive information. GitLeaks offer robust solutions for integrating credential scanning into CI pipelines, ensuring continuous protection against credential leaks.
 
