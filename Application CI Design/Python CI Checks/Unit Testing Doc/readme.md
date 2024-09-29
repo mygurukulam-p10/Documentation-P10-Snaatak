@@ -58,7 +58,6 @@ Unit testing involves testing individual components (or units) of code to verify
 | **Output**        | Text-based                         | Rich and customizable              | Text-based                        | Coverage reports (HTML, XML)     |
 | **Parameterization**| Limited to subclasses             | Built-in support for parameterization | Not available                     | Not applicable                   |
 | **Compatibility**  | Python standard library            | Python 3.6+                       | Python standard library            | Python 2.7 and 3.6+             |
-| **Documentation** | Comprehensive, formal              | Excellent, with many examples      | Built-in documentation feature     | Good documentation, usage guides  |
 | **Use Case**      | Basic unit testing                 | Complex testing scenarios, fixtures | Testing examples and docstrings    | Measuring code coverage          |
 
 # Advantages
