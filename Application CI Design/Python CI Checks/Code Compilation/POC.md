@@ -15,3 +15,14 @@ The objective of this POC is to demonstrate how to use PyInstaller to compile a 
 
 # Step
 ### Step 1: Clone the Repository:
+
+### Step-2 Install python and pylint
+```
+sudo apt install python3
+pip install pyinstaller
+```
+
+### Step-3 Run pyinstaller
+```
+pyinstaller filename.py
+```
