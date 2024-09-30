@@ -60,7 +60,7 @@ Using these tools will help keep the code clean, secure, and reliable. They are 
 | **Interactive Debugging**| No   | No     | No     | No   | No     | Yes  |
 
 ## 🌟 Advantages of Bug Analysis
--| **Advantages **             | **Description**                                       |
+| **Advantages **             | **Description**                                       |
 |------------------------|------------------------------------------------------|
 | **Fewer Crashes**      | Finding problems early helps avoid crashes while running. |
 | **Improved Security**   | Spots security risks before they can be attacked.    |
