@@ -12,7 +12,7 @@
 - [Perform Cred Scanning](#perform-cred-scanning)
 - [Conclusion](#conclusion)
 - [Best Practices](#best-practices)
-- [Refrences](#refrences)
+- [References](#references)
 
 ### Introduction
 This POC is regarding performing cred scanning by using  gitleaks and step to perform cred scanning 
@@ -86,7 +86,7 @@ gitleaks version
 
 ### Perform Cred Scanning
 
-**Step 1.** Clone ths repo:
+**Step 1.** Clone the repo:
 ```
 git clone <repo>
 ```
