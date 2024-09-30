@@ -89,9 +89,7 @@ git config --global user.email "your_email@example.com"
 - Initialize the repository with a README if desired.
 - Click **"Create repository
 
-![image](https://github.com/user-attachments/assets/0742de68-9ce9-4e08-9367-90215b5fbfc0)
-![image](https://github.com/user-attachments/assets/ddc53494-496c-43dc-b6c4-292075d686ba)
-
+![Git setup](https://github.com/user-attachments/assets/59881fc1-9b94-41a7-bd3b-74eaae016ed8)
 
 #### 💻 CLI Setup:
 
