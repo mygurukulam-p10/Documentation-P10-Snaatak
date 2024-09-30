@@ -3,7 +3,7 @@
   
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-| Vinay Bansal | 23-09-24 | version 1 | Vinay Bansal | 24-09-24 |
+| Vinay Bansal | 27-09-24 | version 1 | Vinay Bansal | 28-09-24 |
 
 # Purpose
 The purpose of this document is to provide a comprehensive overview of GoLang code compilation, including its importance, tools available, best practices, and recommendations and conclusion.
