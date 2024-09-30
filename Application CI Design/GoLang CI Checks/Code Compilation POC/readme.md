@@ -1,4 +1,4 @@
-#  Proof of Concept (POC) for Code Compilation
+#  Proof of Concept (POC) for Code Compilation for Golang
 ![golang](https://github.com/user-attachments/assets/e431582b-cce1-48e9-9e95-ad8a47625b4d)
 
   | Author        | Created on | Version | Last updated by | Last edited on |
