@@ -34,20 +34,20 @@ Code compilation is the process of converting source code written in a programmi
 
 ## 🔧Different Tools for Go Compilation
 - **Go Compiler**
-- **Go Modules:**
-- **xgo**
-- **Third-Party Tools**
-- **Makefile**.
+- **Gccgo**
+- **Go Tools**
+- **Delve**
+- **GolangCI-Lint**
+- **GoReleaser**
 
 ## 🔬Comparison of Compilation Tools
-| Tool                | Description                                 | Ease of Use | 
-|---------------------|---------------------------------------------|-------------|
-| Go Compiler (`go build`) | Official compiler for Go projects        | High        | 
-| Go Modules          | Dependency management and versioning       | High        | 
-| xgo                 | Cross-compilation tool for Go              | Medium      | 
-|GCCGO	|Alternative Go compiler using GCC	|Medium	|
-|TinyGo	Go compiler for small devices and WebAssembly|	Medium|
-|Makefile|	Automates the build process using a Makefile|	Medium|
+| **Tool**          | **Description**                                                                 | **Usage**                          |
+|-------------------|---------------------------------------------------------------------------------|------------------------------------|
+| **Go Compiler (gc)** | The standard compiler provided by the Go language, optimized for performance. | `go build`, `go run`               |
+| **gccgo**         | An alternative Go compiler using the GCC backend, useful for integration with GCC-based tools. | `gccgo`                            |
+| **Delve**         | A debugger for the Go programming language.                                     | Debugging                          |
+| **GolangCI-Lint** | A fast linters runner for Go.                                                   | Code linting                       |
+| **GoReleaser**    | A release automation tool for Go projects.                                      | Release automation                 |
 
 ## 🌟Advantages of Go Code Compilation
 - **Speed:** Compiled code generally executes faster than interpreted languages.
