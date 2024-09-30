@@ -23,7 +23,7 @@ We are preparing this document so that we can easily provide a completed guide f
 
 
 ## Introduction 
-* This document will guide you through a Proof of Concept (PoC) for setting up static code. We will cover the necessary prerequisites, build time and run time dependency, as well as the how to resolve the error.
+* This document will guide you through a Proof of Concept (PoC) for setting up Static Code Analysis. We will cover the necessary prerequisites, build time and run time dependency, as well as the how to resolve the error.
 
 
 ##  Pre-requisites
