@@ -57,9 +57,9 @@ Here are the types of notifications we’ll be setting up:
   
 3. Go to the **Teams** tab and select the relevant team.
 
-5. ![Screenshot from 2024-09-30 15-16-43](https://github.com/user-attachments/assets/99add14c-53bd-4501-8cea-4ce6f9700b65)
+ ![Screenshot from 2024-09-30 15-16-43](https://github.com/user-attachments/assets/99add14c-53bd-4501-8cea-4ce6f9700b65)
 
-6. In the **Settings** tab, choose **Code Review** from the left-side menu.
+4. In the **Settings** tab, choose **Code Review** from the left-side menu.
 7. ![Screenshot from 2024-09-30 15-19-55](https://github.com/user-attachments/assets/b3db79b5-438b-4899-adf0-6bf596a31e45)
 
 8. 
