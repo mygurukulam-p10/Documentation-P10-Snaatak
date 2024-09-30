@@ -23,7 +23,7 @@ This POC is regarding performing cred scanning by using  gitleaks and step to pe
 - **Gitleaks**: For performing the actual credential scanning.
 
 ### System Requirements for Credential Scanning
-| Hardware Specifications | Minimum Recommendation  |
+| Hardware Specifications | Minimum Requirement  |
 |--------------------------|------------------------|
 | Processor                | dual-core              |
 | RAM                      | 4 GB                   |
