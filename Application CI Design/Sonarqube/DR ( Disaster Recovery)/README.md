@@ -152,8 +152,11 @@ sudo systemctl start sonarqube
 
 
 ## 🔗 References
-- [SonarQube Documentation](https://docs.sonarqube.org/)
-- [PostgreSQL Backup and Restore](https://www.postgresql.org/docs/current/backup-dump.html)
+
+| Resource                                   | Link                                               |
+|--------------------------------------------|----------------------------------------------------|
+| SonarQube Documentation                     | [SonarQube Documentation](https://docs.sonarqube.org/) |
+| PostgreSQL Backup and Restore               | [PostgreSQL Backup and Restore](https://www.postgresql.org/docs/current/backup-dump.html) |
 
 
 ## 📧 Contact Information
