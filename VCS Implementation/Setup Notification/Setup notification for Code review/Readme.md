@@ -1,4 +1,4 @@
-![Screenshot from 2024-09-30 15-15-38](https://github.com/user-attachments/assets/7e73c846-8800-4737-812c-816d88bfb97c)
+
 # 📬 GitHub Notifications
 
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
@@ -65,6 +65,8 @@ Here are the types of notifications we’ll be setting up:
 9. Adjust the settings based on your preferences and click **Save Changes**.
 
 ### 🛡️ **Configuring GitHub Notifications for Teams**
+![Screenshot from 2024-09-30 15-16-43](https://github.com/user-attachments/assets/5114b7a1-9a23-4ea5-9dff-dc400ac01913)
+
 
 1. In the **Settings** tab, select **Enable** under the team notifications and click **Save Changes**.
 
@@ -72,8 +74,12 @@ Here are the types of notifications we’ll be setting up:
 
 1. In your organization’s page, navigate to **Repositories** and pick the desired repository.
 2. Select **Settings** > **Integrations** > **Email Notifications**.
-3. Enter the email addresses (up to two) where notifications should be sent.
-4. Select **Active**, and click **Setup Notifications**.
+3. ![Screenshot from 2024-09-30 15-21-39](https://github.com/user-attachments/assets/123d0db1-7ee3-44b6-b825-2e206af12d6d)
+
+4. Enter the email addresses (up to two) where notifications should be sent.
+5. ![Screenshot from 2024-09-30 15-26-19](https://github.com/user-attachments/assets/4d64b94c-2212-4ca8-82d9-ed843bf7bc5d)
+
+6. Select **Active**, and click **Setup Notifications**.
 
 > **Note:** Individual users can manage notifications from their **Notifications** tab under **Settings**.
 
