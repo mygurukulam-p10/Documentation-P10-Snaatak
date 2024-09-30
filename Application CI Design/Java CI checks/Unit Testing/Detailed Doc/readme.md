@@ -66,6 +66,7 @@ In Java, common unit testing frameworks include JUnit and TestNG. These framewor
 | **Faster Feedback**          | Quick feedback loops help developers address issues early in the development lifecycle.               |
 
 ## Proof of Concept (POC)
+For performing unit testing in java you can refer this poc [Link](https://github.com/mygurukulam-p10/Documention/blob/main/Application%20CI%20Design/Java%20CI%20checks/Unit%20Testing/POC/readme.md)
 
 ## Best Practices
 | **Best Practice**                | **Explanation**                                                                                                     |
