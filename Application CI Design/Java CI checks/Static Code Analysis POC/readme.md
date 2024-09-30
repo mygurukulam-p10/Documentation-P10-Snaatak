@@ -62,7 +62,7 @@ cd salary-api
 ```
 
 ### Step 3: Maven Checkstyle Plugin
-- To use Checkstyle with Maven, you can add the following configuration to your pom.xml file:
+- To use Checkstyle with Maven, below is the extend plugin it automatically download from the central repository.
   ![image](https://github.com/user-attachments/assets/f7b64f67-5dd5-4c6b-82e8-bee5a88766be)
 
 
