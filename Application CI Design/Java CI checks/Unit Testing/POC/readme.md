@@ -22,3 +22,19 @@ src/test/java/com/opstree/microservice/salary
 - Java Version 17 (as specified in pom.xml)
 - Maven: Maven simplifies dependency management and project build processes, including testing.
 - JUnit: A necessary library for executing the unit tests.
+
+## Steps to perform
+
+### Cloning the Java Application
+To begin, clone the salary-api repository from GitHub into your local directory:
+```
+git clone https://github.com/OT-MICROSERVICES/salary-api.git
+```
+## nstall Java 17 and Maven
+Since the salary codebase relies on Java 17, it is essential to install the correct version of Java and Maven for managing project dependencies.
+```
+sudo apt update
+sudo apt install openjdk-17-jdk
+sudo apt install maven
+```
+
