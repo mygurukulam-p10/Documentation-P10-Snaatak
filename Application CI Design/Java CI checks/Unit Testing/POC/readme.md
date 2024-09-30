@@ -68,3 +68,9 @@ To resolve compatibility issues with JUnit, you may need to uncomment and adjust
 Make sure to update the Surefire plugin 3.0.0:
 ![Screenshot from 2024-09-30 11-23-38](https://github.com/user-attachments/assets/51c12b2b-7107-4443-8c56-0b5f77bdb976)
 
+## Execute Java Unit Tests
+Run the following Maven command to execute the unit tests:
+```
+mvn test
+```
+
