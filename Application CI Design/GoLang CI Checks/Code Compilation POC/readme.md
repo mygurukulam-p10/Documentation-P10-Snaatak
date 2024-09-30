@@ -6,7 +6,7 @@
   | Vinay Bansal | 23-09-24 | version 1 | Vinay Bansal | 25-09-24 |
 
 ## 🔍 Purpose
-The purpose of this document is to provide a completed guide to step code compilation.
+We are preparing this document so that we can easily provide a completed guide to step code compilation which is designed in GoLang to manage employee-api information.
 
   
 ## 📑 Table of Contents
