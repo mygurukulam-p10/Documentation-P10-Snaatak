@@ -115,12 +115,13 @@ git config user.email "work_email@example.com"
 #### 💻 CLI Setup:
 
 ```
-mkdir your-repo
-cd your-repo
-git init
-echo "# Your Repository Title" >> README.md
-git add README.md
-git commit -m "Initial commit"
+mkdir your-repo                           # Creates a new directory named 'your-repo'.
+cd your-repo                              # Changes the current directory to 'your-repo'.
+git init                                  # Initializes a new Git repository in the current directory.
+echo "# Your Repository Title" >> README.md  # Creates a README.md file with a title for the repository.
+git add README.md                         # Stages the README.md file for the next commit.
+git commit -m "Initial commit"           # Commits the staged changes with a message "Initial commit".
+
 ```
 ![image](https://github.com/user-attachments/assets/58ece8e0-ac04-45b6-97d6-1bfcf8f26560)
 
