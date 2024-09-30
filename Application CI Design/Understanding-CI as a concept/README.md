@@ -147,7 +147,7 @@ Here’s a step-by-step breakdown of how the CI process flows:
 
 As we move forward with our sprints and adopt more automation in our development process, Continuous Integration (CI) plays a crucial role in ensuring we stay agile and efficient.
 
-CI is more than just a tool—it’s a practice that transforms the way teams collaborate and deliver software. By automating the integration, testing, and quality checks, we’re able to catch bugs early, improve team collaboration, and maintain high software quality. Though setting up CI requires initial effort, the long-term benefits far outweigh the costs. CI allows us to focus on what truly matters—building great microservices like the Employee API, Attendance API, and Salary API—while continuously improving and learning. 🏗️
+CI is more than that—it’s a practice that transforms the way teams collaborate and deliver software. By automating the integration, testing, and quality checks, we’re able to catch bugs early, improve team collaboration, and maintain high software quality. Though setting up CI requires initial effort, the long-term benefits far outweigh the costs. CI allows us to focus on what truly matters—building great microservices like the Employee API, Attendance API, and Salary API—while continuously improving and learning. 🏗️
 
 With CI integrated into our pipeline, we’re not only building better software but also creating a culture of continuous learning and improvement, setting us up for long-term success. 🚀
 
