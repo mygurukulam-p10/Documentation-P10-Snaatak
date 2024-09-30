@@ -4,7 +4,7 @@
 
   | Author        | Created on | Version | Last updated by | Last edited on |
   |-------------|---------|-------------|-------------|---------|
-  | Vinay Bansal | 21-09-24 | version 1 | Vinay Bansal | 22-09-24 |
+  | Vinay Bansal | 21-09-24 | version 1 | Vinay Bansal | 29-09-24 |
 
 ## Purpose
 The purpose of this document is to provide a comprehensive overview of Static Code Analysis for Java, including its importance, tools available, best practices, and recommendations.
