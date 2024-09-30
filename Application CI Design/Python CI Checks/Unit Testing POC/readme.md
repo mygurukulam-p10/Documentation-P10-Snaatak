@@ -63,6 +63,7 @@ This document will guide you through setting up a Python project, including the 
 
 
 ## 🏗 Architecture
+This flowchart visually represents how pytest can be used to manage and execute test cases, with parameterization and plugins enhancing the testing process.
 <img width="581" alt="image" src="https://github.com/user-attachments/assets/cdc9a13d-0aab-4714-b435-0747b73128fe">
 
 
