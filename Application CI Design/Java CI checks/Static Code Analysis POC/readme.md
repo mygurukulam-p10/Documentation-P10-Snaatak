@@ -33,7 +33,7 @@ We are preparing this document so that we can easily provide a completed guide f
 - Integrated Development Environment (IDE): An IDE like IntelliJ IDEA, Eclipse, or VSCode is recommended for easier project management and development.
 
 ## System Requirements
-| Hardware Specifications | Minimum Recommendation  |
+| Hardware Specifications | Minimum Requirement  |
 |--------------------------|------------------------|
 | Processor                | Multi-Core              |
 | RAM                      | 2 GB                    |
