@@ -4,7 +4,7 @@
 
   | Author        | Created on | Version | Last updated by | Last edited on |
   |-------------|---------|-------------|-------------|---------|
-  | Vinay Bansal | 19-09-24 | version 1 | Vinay Bansal | 20-09-24 |
+  | Vinay Bansal | 19-09-24 | version 1 | Vinay Bansal | 29-09-24 |
 
 ## Purpose
 We are preparing this document so that we can easily provide a completed guide to step code compilation which is designed in Java to manage salary-api information.
