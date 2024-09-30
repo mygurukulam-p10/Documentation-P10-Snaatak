@@ -74,19 +74,25 @@ Continuous Integration (CI) is a game-changer in modern software development. Im
 
 Here’s a step-by-step breakdown of how the CI process flows:
 
-![ci](https://github.com/user-attachments/assets/95b96844-f5e5-4d0f-a7ef-155159187bfd)
+![image](https://github.com/user-attachments/assets/3234fe1d-ad8a-4a1f-bff0-34064196cf00)
+
+![image](https://github.com/user-attachments/assets/cbbad847-d66c-4ac0-86f7-f25f08efc65a)
 
 
-| Category | Step                         | Description                                                                 |
-|----------|------------------------------|-----------------------------------------------------------------------------|
-| **Source** | ✍️ **Git push**                | A developer pushes changes to the code repository from their local environment. |
-| **Build**  | 🏗️ **Compile code**            | The source code is compiled as part of the build process.                   |
-| **Build**  | 🛠️ **Docker build**            | A Docker image is built to standardize the deployment process.               |
-| **Test**   | ✅ **Unit test**               | Unit tests are executed to verify the functionality of individual components. |
-| **Test**   | 🔄 **Integration test**        | Integration tests are run to ensure the application components work together as expected. |
-| **Deploy** | 📦 **Staging**                | The build is deployed to the staging environment for further validation and testing. |
-| **Deploy** | ✅ **QA**                      | The QA team manually verifies the build in the staging environment.          |
-| **Deploy** | 🚀 **Production**              | The build is finally deployed to the production environment after manual approval. |
+
+| Stage                           | Description                                                                   |
+|----------------------------------|-------------------------------------------------------------------------------|
+| **👨‍💻 Create new branch**        | Developer creates a new branch                                                |
+| **🚀 Push code changes**          | Code changes are pushed to the repository                                     |
+| **🔄 Automated build and test**   | The system automatically builds and tests the code after push                 |
+| **🛠️ Push code fixes**            | Developer pushes code fixes after failed tests                                |
+| **🔄 Automated build and test**   | Automated build and test occurs again after fixes                             |
+| **📦 Deploy Review App**          | Review app is deployed after successful build                                 |
+| **📝 Review and approve**         | Code is reviewed and approved for merging                                     |
+| **🔗 Merge**                      | Merged to the main branch after approval                                      |
+| **🔄 Automated build, test, deploy** | Build, test, and deployment happens automatically on the production branch    |
+| **🚢 Deploy to production**       | Code is deployed to production environment after successful tests             |
+
 
 *Note: Source, Build, and Test are part of **Continuous Integration (CI)**, while Deploy is part of **Continuous Delivery (CD)**.*
 
