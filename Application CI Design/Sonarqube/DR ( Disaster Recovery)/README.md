@@ -33,8 +33,32 @@ The Disaster Recovery (DR) plan focuses on SonarQube's database, configuration f
 ### 📂 Database Backup
 Backup the SonarQube PostgreSQL database to ensure that critical data is preserved.
 
+#### 1. Command to Backup SonarQube Database.
+
+```
+pg_dump -U postgres sonarqube > /home/ubuntu/backup/sonarqube_backup.sql
+``` 
+
+#### 2. Verify the Backup
+```
+ls /home/ubuntu/backup/sonarqube_backup.sql
+```
+
+#### 3. Automate daily backup using Cron
+
+```
+crontab -e
+
+Add Line below to backup the database every midnight.
+
+0 0 * * * pg_dump -U postgres sonarqube > /path/to/backup/sonarqube_backup_$(date +\%F).sql
+
+```
+
 ### 🛠️ Configuration Backup
 Backup the SonarQube configuration files, including `sonar.properties` and `wrapper.conf`.
+```
+
 
 ### 🔍 Elasticsearch Data Backup (Optional)
 Backup Elasticsearch data, though it can be recreated from the database if necessary.
