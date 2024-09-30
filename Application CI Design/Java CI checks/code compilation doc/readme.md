@@ -68,9 +68,9 @@ Code compilation in Java is the process where the Java compiler (javac) converts
 ## Disadvantages of Code Compilation
 | Feature                     | Description                                                                                                                                              |
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Complexity**                   | The configuration of `pom.xml` can become complex, making it difficult for new developers to understand and manage project settings, dependencies, and plugins. |
-| **Dependency Management Issues** | While Maven's dependency management is powerful, it can sometimes lead to version conflicts or "dependency hell," where incompatible versions of libraries create runtime issues. |
-| **Learning Curve**               | For developers unfamiliar with Maven, there is a learning curve involved in understanding its lifecycle, commands, and configurations.                   |
+| **Complexity**                   | The configuration file can become complex, making it difficult for new developers to understand and manage project settings, dependencies, and plugins. |
+| **Dependency Management Issues** | While dependency management is powerful, it can sometimes lead to version conflicts or "dependency hell," where incompatible versions of libraries create runtime issues. |
+|**Compilation Time**| Compiling large Java projects can be time-consuming, which can slow down the development process, especially when frequent changes are made1.|
 
 ## Proof of Concept (POC)
 
