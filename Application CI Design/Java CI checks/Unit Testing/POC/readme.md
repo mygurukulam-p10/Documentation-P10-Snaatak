@@ -61,4 +61,8 @@ Add the Maven compiler plugin to your ```pom.xml``` file for compiling your Java
 </dependency>
 ```
 
+### Update Surefire Plugin Configuration in pom.xml
+To resolve compatibility issues with JUnit, you may need to uncomment and adjust the Surefire plugin configuration in the pom.xml file.
+Make sure to update the Surefire plugin 3.0.0:
+![Screenshot from 2024-09-30 11-23-38](https://github.com/user-attachments/assets/51c12b2b-7107-4443-8c56-0b5f77bdb976)
 
