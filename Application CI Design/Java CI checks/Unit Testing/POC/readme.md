@@ -4,6 +4,25 @@
 |--------------------|------------|--------------|--------------------------------|
 | 28-09-2024         | 1.0  | Aayush Gaur  |     POC: Unit Testing         |
 
+
+## Table of Contents
+
+1. [Introduction](#introduction)
+2. [Testing Framework](#testing-framework)
+   - [Overview](#overview)
+3. [Prerequisites](#prerequisites)
+4. [Steps to Perform](#steps-to-perform)
+   - [Cloning the Java Application](#cloning-the-java-application)
+   - [Install Java 17 and Maven](#install-java-17-and-maven)
+   - [Add the JUnit Dependency to `pom.xml`](#add-the-junit-dependency-to-pomxml)
+   - [Add Maven Dependency in `pom.xml`](#add-maven-dependency-in-pomxml)
+   - [Update Surefire Plugin Configuration in `pom.xml`](#update-surefire-plugin-configuration-in-pomxml)
+   - [Execute Java Unit Tests](#execute-java-unit-tests)
+   - [Generate HTML Report with Surefire](#generate-html-report-with-surefire)
+5. [POC Conclusion](#poc-conclusion)
+6. [Contact Information](#contact-information)
+7. [References](#references)
+
 ## Introduction
 Unit testing in Java is an essential practice for ensuring the correctness and functionality of individual code units. By isolating and testing these components, developers can improve code reliability and reduce the likelihood of errors. In this document, we will outline the steps for setting up and executing unit tests using the JUnit framework in a typical Java project.
 
@@ -93,6 +112,6 @@ This Proof of Concept (POC) demonstrates the process of setting up and executing
 ## References 
 |links | Description |
 |-------|-----------|
-||  |
-||  |
+|https://www.browserstack.com/guide/unit-testing-java | Unit Testing |
+| https://www.baeldung.com/java-unit-testing-best-practices | Best Practices for Unit Testing |
 
