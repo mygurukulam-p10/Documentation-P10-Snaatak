@@ -8,8 +8,7 @@
   | Vinay Bansal | 23-09-24 | version 1 | Vinay Bansal | 24-09-24 |
 
 ## Purpose
-The purpose of this document is to provide a completed guide to step Unit Testing.
-  
+We are preparing this document so that we can easily provide a completed guide to step for Unit Testing which is designed in Python to manage  attendance-api information.  
   ## Table of Contents
 - [Introduction](#introduction)
 - [⚙️ Pre-Requisites](#-pre-requisites)
