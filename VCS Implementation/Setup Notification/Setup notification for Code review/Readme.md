@@ -92,7 +92,13 @@ Here are the types of notifications we’ll be setting up:
 
 6. Select **Active**, and click **Setup Notifications**.
 
+![image](https://github.com/user-attachments/assets/e683a8f0-eb88-4b9d-8714-8f0ee3a33e40)
+
+
 > **Note:** Individual users can manage notifications from their **Notifications** tab under **Settings**.
+
+![Screenshot from 2024-09-30 15-26-19](https://github.com/user-attachments/assets/20c85b28-cece-4738-9bbf-1b1656b59ab9)
+
 
 ---
 
@@ -114,7 +120,7 @@ Following these practices will help you maintain focus and streamline your notif
 
 ## 📝 Conclusion
 
-GitHub notifications are vital for ensuring smooth collaboration in development projects. They provide timely updates that foster coordination among team members, allowing for quick responses and efficient project management. Thoughtful management of notifications helps maintain an organized workflow, reducing distractions and enhancing productivity.
+GitHub notifications are important for keeping teamwork in development projects on track. They give updates quickly, helping team members stay in sync and respond faster. By managing notifications well, you can keep your work organized, avoid distractions, and get more done efficiently.
 
 ---
 
