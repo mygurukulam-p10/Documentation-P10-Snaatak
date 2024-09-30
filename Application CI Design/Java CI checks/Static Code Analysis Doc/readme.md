@@ -19,10 +19,9 @@ The purpose of this document is to provide a comprehensive overview of Static Co
 7. [Disadvantages of Static Code Analysis](#disadvantages-of-static-code-analysis)
 8. [Proof of Concept (POC)](#proof-of-concept-poc)
 9. [Best Practices](#best-practices)
-10. [Recommendations](#recommendations)
-11. [Conclusion](#conclusion)
-12. [Contact Information](#contact-information)
-13. [References](#references)
+10. [Conclusion](#conclusion)
+11. [Contact Information](#contact-information)
+12. [References](#references)
 
 ## Introduction
 Static code analysis is a method of debugging that analyzes source code before it runs. In Java development, static analysis plays a crucial role in identifying potential errors, enforcing coding standards, and improving overall code quality.
@@ -89,11 +88,11 @@ Please Refer this https://github.com/mygurukulam-p10/Documention/blob/main/Appli
 | **Review Regularly**          | Regularly review from experienced developers        |
 |**Focus on Readability and Reusability**| Write code that is easy to read and understand for other developers.|
 
-## Recommendations 
-Using Checkstyle effectively enhances code quality, improves maintainability, and fosters a consistent coding culture within the team. By following these recommendations, organizations can ensure their codebases are cleaner, more readable, and easier to manage over time.
+
 
 ## ✅Conclusion
 In conclusion, static code analysis is a valuable tool in the software development process, offering benefits such as improved code quality, and observe to coding standards.
+We are using Checkstyle in our Project because effectively enhances code quality, improves maintainability, and fosters a consistent coding culture within the team.
 
 ##  📧Contact Information
 | Name | Email address|
