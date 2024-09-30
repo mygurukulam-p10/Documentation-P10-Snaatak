@@ -86,12 +86,17 @@ gitleaks version
 
 ### Perform Cred Scanning
 
-**Step 1.** Go to the repo in which have to perform scanning
+**Step 1.** Clone ths repo:
+```
+git clone <repo>
+```
+
+**Step 2.** Go to the repo in which you have to perform scanning
 ```
 cd <repo>
 ```
 
-**Step 2** Now run this below command to scan 
+**Step 3** Now run this below command to scan 
 
 Run this command it we show the result if any sensitive information detected
 ```
