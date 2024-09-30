@@ -65,8 +65,7 @@ The purpose of this document is to provide a completed guide to step code compil
   
 - Compiler: The compiler is a tool that translates the Go source code into machine code. Within the compiler, there’s a step labeled “asm” which stands for assembly. This step converts the high-level Go code into assembly language, a low-level representation of the code that is closer to machine language.
   
-- Executable Binary: The final output of the compilation process is the executable binary. This is the machine code that the computer can directly execute. It’s depicted as a column of binary code (1s and 0s), representing the instructions that the computer’s processor will run.
-
+- Executable Binary: The final output of the compilation process is the executable binary. This is the machine code that the computer can directly execute. 
 ## 📥 Step-by-step Installation
 
 ## Install git
