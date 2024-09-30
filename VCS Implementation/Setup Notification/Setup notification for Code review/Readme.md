@@ -1,4 +1,4 @@
-
+![Screenshot from 2024-09-30 15-15-38](https://github.com/user-attachments/assets/7e73c846-8800-4737-812c-816d88bfb97c)
 # 📬 GitHub Notifications
 
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
@@ -45,10 +45,24 @@ Here are the types of notifications we’ll be setting up:
 ### 🔧 **Configuring GitHub Notifications for Code Review**
 
 1. **Login to GitHub** and go to **Your organizations**.
+
+
+
 2. Choose the organization where you want to configure notifications.
-3. Go to the **Teams** tab and select the relevant team.
-4. In the **Settings** tab, choose **Code Review** from the left-side menu.
-5. Adjust the settings based on your preferences and click **Save Changes**.
+
+3. ![Screenshot from 2024-09-30 15-15-38](https://github.com/user-attachments/assets/b72aa626-8c5e-47db-be94-491b07ce4fb6)
+
+3. 
+3. 
+4. Go to the **Teams** tab and select the relevant team.
+
+5. ![Screenshot from 2024-09-30 15-16-43](https://github.com/user-attachments/assets/99add14c-53bd-4501-8cea-4ce6f9700b65)
+
+6. In the **Settings** tab, choose **Code Review** from the left-side menu.
+7. ![Screenshot from 2024-09-30 15-19-55](https://github.com/user-attachments/assets/b3db79b5-438b-4899-adf0-6bf596a31e45)
+
+8. 
+9. Adjust the settings based on your preferences and click **Save Changes**.
 
 ### 🛡️ **Configuring GitHub Notifications for Teams**
 
