@@ -31,7 +31,7 @@ This document will guide you through setting up a Python project, including the 
 - Version Control System:
 
 ## 🖥 System Requirements
-| Hardware Specifications | Minimum Recommendation  |
+| Hardware Specifications | Minimum Requirement  |
 |--------------------------|------------------------|
 | Processor                | dual-core              |
 | RAM                      | 2 GB                    |
