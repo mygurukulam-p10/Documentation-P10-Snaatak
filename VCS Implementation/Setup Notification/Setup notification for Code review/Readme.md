@@ -68,7 +68,7 @@ Here are the types of notifications we’ll be setting up:
 4. In the **Settings** tab, choose **Code Review** from the left-side menu.
 ![image](https://github.com/user-attachments/assets/0fcff9ed-ae6f-4415-bed4-9738bce746b8)
 
-6.Pick and configure the code review settings based on your requirement and click 'Save Changes'
+5.Pick and configure the code review settings based on your requirement and click 'Save Changes'
 
 ![image](https://github.com/user-attachments/assets/e0b60199-7509-4a2c-9fe2-8736d4bc457c)
 
