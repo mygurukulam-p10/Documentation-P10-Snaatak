@@ -115,7 +115,7 @@ Note :- This is checking error in each file with extension ```.go ``` .
 
 ## 📧 Contact Information
 
-For more information on how to implement CI or if you need any guidance, feel free to reach out:
+For more information on how to implement or if you need any guidance, feel free to reach out:
 
 | Name  | Email Address                                  |
 |-------|------------------------------------------------|
