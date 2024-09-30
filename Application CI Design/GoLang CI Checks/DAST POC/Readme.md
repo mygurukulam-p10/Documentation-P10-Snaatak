@@ -63,7 +63,7 @@ OWASP ZAP (Zed Attack Proxy) is an open-source security tool designed for testin
 * Run the following command to download zap linux package using `wget`, then to extract the package.
 
 ```
-wget https://github.com/zaproxy/zaproxy/releases/download/v2.14.0/ZAP_2.14.0_Linux.tar.gz
+wget https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Linux.tar.gz
 tar -xf ZAP_2.15.0_Linux.tar.gz
 ```
 
