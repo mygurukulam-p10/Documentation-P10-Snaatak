@@ -31,7 +31,7 @@ We are preparing this document so that we can easily provide a completed guide t
 - Maven
 
 ## System Requirements
-| Hardware Specifications | Minimum Recommendation  |
+| Hardware Specifications | Minimum Requirement  |
 |--------------------------|------------------------|
 | Processor                | dual-core              |
 | RAM                      | 2 GB                    |
