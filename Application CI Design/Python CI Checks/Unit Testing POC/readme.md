@@ -35,7 +35,7 @@ This document will guide you through setting up a Python project, including the 
 | Hardware Specifications | Minimum Recommendation  |
 |--------------------------|------------------------|
 | Processor                | dual-core              |
-| RAM                      | 4 GB                    |
+| RAM                      | 2 GB                    |
 | Disk                     |10 GB free disk space                  |
 | OS                       | Ubuntu 22.04 LTS         |
 
