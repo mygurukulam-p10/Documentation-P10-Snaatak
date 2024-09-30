@@ -17,7 +17,6 @@ We are preparing this document so that we can easily provide a completed guide t
 - [Run-Time Dependency](#run-time-dependency)
 - [Architecture](#architecture)
 - [Step-by-step Installation](#step-by-step-installation)
-- [Conclusion](#conclusion)
 - [Contact Information](#contact-information)
 - [ References](#references)
 
@@ -83,8 +82,6 @@ mvn compile
 - When you see a “BUILD SUCCESS” message after running the mvn compile command in Maven, it means that the source code of your project has been successfully compiled without any errors and your project’s source code is now ready for the next phases, such as testing or packaging.
 
 
-## Conclusion
-The mvn compile command is a fundamental part of the Maven build lifecycle, responsible for compiling the source code of a Java project. By following a structured process, Maven ensures that all dependencies are resolved, and the code is compiled efficiently. This makes Maven an essential tool for managing and building Java projects, especially in enterprise environments where standardization and integration with CI/CD practices are crucial.
 
 ## Contact Information
 
