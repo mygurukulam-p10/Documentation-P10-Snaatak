@@ -7,7 +7,7 @@
   | Vinay Bansal | 19-09-24 | version 1 | Vinay Bansal | 20-09-24 |
 
 ## Purpose
-We are preparing this document so that we can easily provide a completed guide to step code compilation which is designed in Java to manage employee-api information.
+We are preparing this document so that we can easily provide a completed guide to step code compilation which is designed in Java to manage salary-api information.
 
 ## Table of Contents
 - [Introduction](#Introduction)
