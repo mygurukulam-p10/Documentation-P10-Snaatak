@@ -75,3 +75,24 @@ mvn test
 ```
 ![Screenshot from 2024-09-30 12-25-03](https://github.com/user-attachments/assets/140aafdd-6e1e-4053-9ff7-86c6e7b1a81f)
 
+## Generate HTML Report with Surefire
+To generate an HTML report from the test execution, run the following command:
+```
+mvn surefire-report:report
+```
+Navigate to target/site to view the generated report in your browser.
+
+## POC Conclusion
+This Proof of Concept (POC) demonstrates the process of setting up and executing unit tests in a Java project using JUnit and Maven. By incorporating unit tests into the development lifecycle, you can ensure code reliability, early bug detection, and maintainability. Tools like Maven and JUnit, along with best practices such as isolating tests and automating the testing process, significantly improve software quality. The continuous integration setup automates the testing process, ensuring that any new changes do not break existing functionality.
+
+## Contact Information 
+|Name|Email Address|
+|:---:|:---:|
+|Aayush|aayush.gaur.snaatak@mygurukulam.co|
+
+## References 
+|links | Description |
+|-------|-----------|
+||  |
+||  |
+
