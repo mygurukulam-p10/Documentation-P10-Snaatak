@@ -13,7 +13,8 @@ Java unit testing is facilitated by various testing frameworks, with JUnit being
 Overview
 The salary microservice has pre-existing unit test cases authored by the developer, which are located in the following directory path:
 
-```src/test/java/com/opstree/microservice/salary
+```
+src/test/java/com/opstree/microservice/salary
 ```
 
 
