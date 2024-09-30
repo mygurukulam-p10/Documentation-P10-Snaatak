@@ -40,3 +40,25 @@ sudo apt install maven
 
 ## Add the JUnit Dependency to ```pom.xml```
 Ensure that the JUnit dependency is added to your ```pom.xml``` file:
+```
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.12</version>
+    <scope>test</scope>
+</dependency>
+```
+![Screenshot from 2024-09-30 11-11-44](https://github.com/user-attachments/assets/eed82ec6-fc50-4982-8789-868f90016385)
+
+## Add Maven Dependency in ```pom.xml```
+Add the Maven compiler plugin to your ```pom.xml``` file for compiling your Java project:
+```
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.11.0</version>
+    <type>maven-plugin</type>
+</dependency>
+```
+
+
