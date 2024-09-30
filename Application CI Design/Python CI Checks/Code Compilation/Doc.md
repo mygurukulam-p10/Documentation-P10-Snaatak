@@ -10,7 +10,8 @@
 + [What is Code compilation](#What-is-Code-compilation)
 + [Why Code Compilation](#Why-Code-Compilation)
 + [Different Tools](#Different-Tools)
-+ [Advantages](#Advantages)
++ [Comparison of Compilation Tools](#comparison-of-compilation-tools)
++ [Advantages of Code Compilation](#advantages-of-code-compilation)
 + [Proof of Concept](#Proof-of-Concept)
 + [Best Practices](#Best-Practices)
 + [Conclusion and Recommendation](#Conclusion-and-Recommendation)
@@ -32,7 +33,7 @@ Compilation in programming is the process of converting human-readable code into
 | **Cross-Platform Compatibility**              | Compiled bytecode can run on any platform with a compatible Python interpreter. |
 | **Error Checking**                            | Compilation can catch syntax errors before the program runs, making debugging easier. |
 
-# Different Tools for Compilation
+# Different Tools
 | **Tool**       | **Description**                                                                                                         |
 |----------------|-------------------------------------------------------------------------------------------------------------------------|
 | **CPython**     | The default Python interpreter, which compiles Python code to bytecode and executes it.                                |
@@ -59,7 +60,7 @@ Compilation in programming is the process of converting human-readable code into
 |            |                           | - Good for distributing applications without needing a Python interpreter |                                                 |
 
 
-# Advantages of Code Compilation in Python
+# Advantages of Code Compilation 
 | **Advantages of Code Compilation in Python** | **Description**                                                                            |
 |-----------------------------------------------|--------------------------------------------------------------------------------------------|
 | **Increased Speed**                           | Compiling code can lead to faster execution times, especially for long-running scripts.    |
@@ -76,5 +77,22 @@ For performing code compilation in python you can refer this poc
 - **Use Cython for Performance-Critical Sections**: If performance is a concern, consider using Cython for sections of your code that require speed.
 - **Test Compatibility**: Always test your compiled code to ensure compatibility with the rest of your application.
 
+# Recommendation
+Using PyInstaller for code compilation is a highly effective choice for developing Python applications that need to be distributed to users without requiring them to manage dependencies or installation. Its ability to create standalone executables, support for multiple platforms, and ease of use make it a valuable tool in any Python developer’s toolkit.
+
+# Conclusion
+
+
+### Contact Information 
+|Name|Email Address|
+|:---:|:---:|
+|Aayush|aayush.gaur.snaatak@mygurukulam.co|
+
+## References 
+
+| Refrences                                   | Description
+| ------------------------------------------------- | ------------------------------------------------------------------- |
+|  https://realpython.com/cpython-source-code-guide/      | Cpython |
+|   https://pyinstaller.org/en/stable/                         | PyInstaller |
 
 
