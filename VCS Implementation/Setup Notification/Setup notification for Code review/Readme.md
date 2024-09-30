@@ -3,7 +3,7 @@
 
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
 |--------------------|------------|--------------|--------------------------------|
-| 06-09-2024         | 0.2        | Brij Singh   | Documentation on Salary API    |
+| 06-09-2024         | 0.2        | Brij Singh   | GitHub Notifications Code Review   |
 
 ---
 
@@ -19,7 +19,7 @@
 ---
 
 ## 🔍 Introduction
-GitHub notifications help users stay updated on repository activities, issues, pull requests, and other collaborative tasks. This document explores how to configure some essential GitHub notifications for better workflow management.
+GitHub notifications help users stay informed about changes in a project, like updates to files, issues, or pull requests. This guide explains how to set up important GitHub notifications to manage your work more easily.
 
 ---
 
@@ -104,17 +104,20 @@ Here are the types of notifications we’ll be setting up:
 
 ## 💡 Best Practices
 
-Effectively managing notifications helps prevent overload while ensuring you stay informed. Here are some tips:
+# 🚨 GitHub Notification Management
 
-| **Best Practice**                | **Description**                                                                 |
-| -------------------------------- | --------------------------------------------------------------------------------|
-| **Customize Notifications**      | Adjust notification preferences for specific activities.                         |
-| **Use "Watching," "Starring," and "Ignoring"** | Watch for all notifications, Star for updates, or Ignore to skip notifications. |
-| **Prioritize Repositories**       | Pin essential repositories to keep them accessible at the top of your dashboard. |
-| **Unsubscribe from Irrelevant Threads** | Unsubscribe from unimportant threads to declutter your inbox.                 |
-| **Use Filters and Labels**        | Sort notifications by type or use labels for easier tracking.                    |
-| **Limit Mentions**                | Only mention teammates when absolutely necessary to reduce unnecessary pings.    |
-Following these practices will help you maintain focus and streamline your notification flow.
+Effectively managing notifications helps prevent overload while ensuring you stay informed. Below are some simple tips to help you stay organized and keep your workflow smooth.
+
+| **🔧 Best Practice**                    | **📄 Description**                                                                 |
+| -------------------------------------- | ---------------------------------------------------------------------------------- |
+| **🛠️ Customize Notifications**         | Set your preferences for different activities to control what alerts you get.      |
+| **👁️ Use "Watching," "Starring," and "Ignoring"** | Watch to see all updates, Star for important ones, or Ignore to skip some.        |
+| **📌 Prioritize Repositories**          | Pin key projects so they stay at the top of your GitHub dashboard.                 |
+| **❌ Unsubscribe from Irrelevant Threads** | Leave unimportant conversations to keep your inbox clear.                       |
+| **🏷️ Use Filters and Labels**           | Organize notifications by type or label for easy tracking.                         |
+| **🔕 Limit Mentions**                   | Only tag team members when it's necessary to reduce extra alerts.                  |
+
+By following these practices, you can keep your focus and streamline your notification flow!
 
 ---
 
