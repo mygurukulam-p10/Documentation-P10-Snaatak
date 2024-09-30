@@ -17,7 +17,7 @@ The purpose of this document is to provide a comprehensive overview of Java code
 - [Comparison of Different Tools](#comparison-of-different-tools)
 - [Advantages of Code Compilation](#advantages-of-code-compilation)
 - [Disadvantages of Code Compilation](#disadvantages-of-code-compilation)
-- [Proof of Concept (POC)](#poc)
+- [Proof of Concept (POC)](#proof-of-concept-poc)
 - [Best Practices](#best-practices)
 - [Recommendation](#recommendation)
 - [Contact Information](#contact-information)
