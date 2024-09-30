@@ -63,7 +63,7 @@ This document will guide you through setting up a Python project, including the 
 
 
 ## 🏗 Architecture
-<img width="574" alt="image" src="https://github.com/user-attachments/assets/8e846750-c125-45af-8bf1-22e6dccbd2a1">
+<img width="582" alt="image" src="https://github.com/user-attachments/assets/7c205d87-f1aa-48f5-9240-3151d158676d">
 
 
 ## 📥 Step-by-step Installation
