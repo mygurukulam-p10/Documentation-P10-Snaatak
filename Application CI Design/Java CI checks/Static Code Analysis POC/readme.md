@@ -9,7 +9,7 @@
 
 
 ## Purpose
-The purpose of this document is to provide a completed guide to step up Static Code.
+We are preparing this document so that we can easily provide a completed guide for Static Code Analysis which is designed in Java to manage Salary-api information.
 
 ## Table of Contents
 - [Introduction](#introduction)
