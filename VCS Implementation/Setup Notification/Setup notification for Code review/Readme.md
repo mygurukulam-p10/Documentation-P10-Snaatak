@@ -25,12 +25,15 @@ GitHub notifications help users stay informed about changes in a project, like u
 
 ---
 
-## ⚙️ Prerequisites 
-Before configuring notifications, make sure you have the following:
-1. A valid GitHub account
-2. An organization and team set up
-3. A repository to work with
-4. Authorization to configure notifications
+
+## ✅ Prerequisites 
+
+Make sure you have the following in place:
+
+- 🔑 A **valid GitHub account**
+- 🏢 An **organization and team** set up
+- 📂 A **repository** to work with
+- ✅ Authorization to **configure notifications**
 
 ---
 
