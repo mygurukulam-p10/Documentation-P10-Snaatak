@@ -17,7 +17,7 @@ The purpose of this document is to provide a comprehensive overview of Static Co
 5. [Comparison of Static Code Analysis Tools](#comparison-of-static-code-analysis-tools)
 6. [Advantages of Static Code Analysis](#advantages-of-static-code-analysis)
 7. [Disadvantages of Static Code Analysis](#disadvantages-of-static-code-analysis)
-8. [Proof of Concept (POC)](#POC)
+8. [Proof of Concept (POC)](#proof-of-concept-poc)
 9. [Best Practices](#best-practices)
 10. [Recommendations](#recommendations)
 11. [Conclusion](#conclusion)
