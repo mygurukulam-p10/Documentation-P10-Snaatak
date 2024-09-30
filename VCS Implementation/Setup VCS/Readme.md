@@ -73,10 +73,29 @@ sudo apt install git
 
 #### 🖥️ CLI Setup 
 ```
-git config --global user.name "Your Name"
-git config --global user.email "your_email@example.com"
+## Set Your Git Username and Email
+
 ```
+# Set your Git username globally (for all repositories)
+git config --global user.name "Your Name"   
+# This command sets your name for Git commits. Replace "Your Name" with your actual name.
+# Using global config means this username will apply to all repositories on your machine.
+```
+```
+```
+# Set your Git email globally (for all repositories)
+git config --global user.email "your_email@example.com"   
+# This command sets your email for Git commits. Replace with your actual email.
+# Using global config ensures consistency across all your projects, so you don't have to set it for each one.
+```
+
 ![image](https://github.com/user-attachments/assets/4bf6af48-9fed-40e4-ac04-7ae5b0ca4751)
+
+### Note :- We can also use Local credentials which will be applied to a specific repository. 
+```
+git config user.name "Work Name"
+git config user.email "work_email@example.com"
+```
 
 ## 4. ✨ Creating and Managing GitHub Repositories
 
