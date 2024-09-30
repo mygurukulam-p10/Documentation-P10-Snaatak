@@ -45,7 +45,8 @@ Here are the types of notifications we’ll be setting up:
 ### 🔧 **Configuring GitHub Notifications for Code Review**
 
 1. **Login to GitHub** and go to **Your organizations**.
-![image](https://github.com/user-attachments/assets/7d94141d-c2ef-4401-9863-348a554c29dc)
+![image](https://github.com/user-attachments/assets/0d51a7c8-7b8e-4345-aa35-5b93e141d154)
+
 
 
 
