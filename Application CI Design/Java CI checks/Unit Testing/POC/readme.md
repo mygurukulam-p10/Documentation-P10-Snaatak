@@ -44,7 +44,7 @@ Ensure that the JUnit dependency is added to your ```pom.xml``` file:
 <dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
-    <version>4.13.2</version>
+    <version>4.12</version>
     <scope>test</scope>
 </dependency>
 ```
@@ -73,4 +73,5 @@ Run the following Maven command to execute the unit tests:
 ```
 mvn test
 ```
+![Screenshot from 2024-09-30 12-25-03](https://github.com/user-attachments/assets/140aafdd-6e1e-4053-9ff7-86c6e7b1a81f)
 
