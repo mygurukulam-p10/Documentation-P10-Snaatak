@@ -83,7 +83,6 @@ Unit testing involves testing individual components (or units) of code to verify
 | **Write Tests First**          | Adopt Test-Driven Development (TDD) where possible.                            |
 | **Keep Tests Independent**     | Ensure each test runs independently of others.                                 |
 | **Use Descriptive Names**      | Name your tests clearly to indicate their purpose.                             |
-| **Cover Edge Cases**           | Ensure tests account for edge cases and potential errors.                      |
 | **Run Tests Frequently**       | Integrate tests into your CI pipeline to run automatically.                   |
 
 
