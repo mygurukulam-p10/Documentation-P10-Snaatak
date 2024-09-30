@@ -62,11 +62,11 @@ cd salary-api
 ```
 
 ### Step 3: Maven Checkstyle Plugin
-- To use Checkstyle with Maven, below is the extend plugin it automatically download from the central repository.
+- To use Checkstyle with Maven, below is the extend plugin it will automatically download from the central repository when you will run
   ![image](https://github.com/user-attachments/assets/f7b64f67-5dd5-4c6b-82e8-bee5a88766be)
 
 
-### Step 4: now we have to do Static Code Analysis using checkstyle
+### Step 4: tatic Code Analysis using checkstyle
 This command will execute the Checkstyle plugin to analyze the code based on the configured rules.
 
 ```
