@@ -44,11 +44,12 @@ Ensure that the JUnit dependency is added to your ```pom.xml``` file:
 <dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
-    <version>4.12</version>
+    <version>4.13.2</version>
     <scope>test</scope>
 </dependency>
 ```
-![Screenshot from 2024-09-30 11-11-44](https://github.com/user-attachments/assets/eed82ec6-fc50-4982-8789-868f90016385)
+![Screenshot from 2024-09-30 11-26-29](https://github.com/user-attachments/assets/9440f179-d1f9-49db-ad64-3bd18cddd81a)
+
 
 ## Add Maven Dependency in ```pom.xml```
 Add the Maven compiler plugin to your ```pom.xml``` file for compiling your Java project:
@@ -60,6 +61,7 @@ Add the Maven compiler plugin to your ```pom.xml``` file for compiling your Java
     <type>maven-plugin</type>
 </dependency>
 ```
+![Screenshot from 2024-09-30 11-25-10](https://github.com/user-attachments/assets/c5eeed17-8b8e-4d73-9e1c-a2b29954e880)
 
 ### Update Surefire Plugin Configuration in pom.xml
 To resolve compatibility issues with JUnit, you may need to uncomment and adjust the Surefire plugin configuration in the pom.xml file.
