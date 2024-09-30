@@ -76,12 +76,19 @@ Here are the types of notifications we’ll be setting up:
 
 ### 🔔 **Configuring GitHub Notifications for Repository Push Events**
 
-1. In your organization’s page, navigate to **Repositories** and pick the desired repository.
-2. Select **Settings** > **Integrations** > **Email Notifications**.
-3. ![Screenshot from 2024-09-30 15-21-39](https://github.com/user-attachments/assets/123d0db1-7ee3-44b6-b825-2e206af12d6d)
+2. In your organization’s page, navigate to **Repositories** and pick the desired repository.
+![image](https://github.com/user-attachments/assets/9dd1ab99-9acc-4c4f-8fb6-45a5b9c8e100)
 
-4. Enter the email addresses (up to two) where notifications should be sent.
-5. ![Screenshot from 2024-09-30 15-26-19](https://github.com/user-attachments/assets/4d64b94c-2212-4ca8-82d9-ed843bf7bc5d)
+3.Pick the repository you want to configure notifications for
+![image](https://github.com/user-attachments/assets/103a0445-d4a2-4ea5-84a4-6695db721277)
+
+4. Select **Settings** > **Integrations** > **Email Notifications**.
+
+![Screenshot from 2024-09-30 15-21-39](https://github.com/user-attachments/assets/e4647113-d849-4da9-9e58-1f89f897c503)
+
+5.In the "Address" field, type up to two email addresses, separated by whitespace, where you'd like notifications to be sent. If you'd like to send emails to more than two accounts, set one of the email addresses to a group email address.
+![image](https://github.com/user-attachments/assets/0024da53-de9c-4db7-9935-2f6c07e657d7)
+
 
 6. Select **Active**, and click **Setup Notifications**.
 
