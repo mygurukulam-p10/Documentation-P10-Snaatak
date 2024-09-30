@@ -1,4 +1,4 @@
-# 🛠️ SonarQube Disaster Recovery Plan
+# 🛠️ SonarQube Disaster Recovery - Documentation
 
 | Author      | Created on  | Version    | Last updated by | Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
