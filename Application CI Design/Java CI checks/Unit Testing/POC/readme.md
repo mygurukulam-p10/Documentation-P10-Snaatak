@@ -30,7 +30,7 @@ To begin, clone the salary-api repository from GitHub into your local directory:
 ```
 git clone https://github.com/OT-MICROSERVICES/salary-api.git
 ```
-## nstall Java 17 and Maven
+## Install Java 17 and Maven
 Since the salary codebase relies on Java 17, it is essential to install the correct version of Java and Maven for managing project dependencies.
 ```
 sudo apt update
@@ -38,3 +38,5 @@ sudo apt install openjdk-17-jdk
 sudo apt install maven
 ```
 
+## Add the JUnit Dependency to ```pom.xml```
+Ensure that the JUnit dependency is added to your ```pom.xml``` file:
