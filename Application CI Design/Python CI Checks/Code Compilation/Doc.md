@@ -45,8 +45,8 @@ Compilation in programming is the process of converting human-readable code into
 | **Tool**   | **Type**                  | **Pros**                                                                   | **Cons**                                        |
 |------------|---------------------------|---------------------------------------------------------------------------|-------------------------------------------------|
 | **CPython**| Standard Interpreter       | - Widely used, stable, great community support                           | - Slower execution compared to JIT             |
-                                           - Extensive standard library and third-party modules                       - Limited performance optimization capabilities  
-|                                        - Well-documented and widely taught in educational institutions                                                          |
+|            |                           | - Extensive standard library and third-party modules                      | - Limited performance optimization capabilities  |
+|            |                           | - Well-documented and widely taught in educational institutions           |                                                 |
 | **PyPy**   | JIT Compiler              | - Faster execution, automatic optimization                                | - Compatibility issues with some libraries      |
 |            |                           | - Supports Stackless mode for micro-threading                             | - Not fully compatible with all CPython extensions|
 |            |                           | - Can execute long-running programs faster due to JIT compilation         |                                                 |
@@ -57,5 +57,6 @@ Compilation in programming is the process of converting human-readable code into
 |            |                           | - Generates standalone executables                                         | - Longer compilation times                       |
 |            |                           | - Good for distributing applications without needing a Python interpreter |                                                 |
 
+|            |                           | - Good for distributing applications without needing a Python interpreter |                                                 |
 
 
