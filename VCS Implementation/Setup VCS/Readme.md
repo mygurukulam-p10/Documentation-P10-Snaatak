@@ -24,9 +24,10 @@
    2. [Use SSH for Authentication](#use-ssh-for-authentication)
    3. [Regularly Review Permissions](#regularly-review-permissions)
    4. [Keep Your Software Updated](#keep-your-software-updated)
-6. [Conclusion](#6-conclusion)
-7. [Reference](#7-reference)
-8. [Contact](#8-contact)
+6. [Best Practice](#6-best-practice)
+7. [Conclusion](#6-conclusion)
+8. [Reference](#7-reference)
+9. [Contact](#8-contact)
 
 ## 1. 🎯 Purpose of the Document
 
@@ -132,8 +133,9 @@ git commit -m "Initial commit"           # Commits the staged changes with a mes
 #### 💻 CLI Setup:
 
 ```
-git remote add origin https://github.com/username/your-repo.git
-git branch -M main
+git remote add origin https://github.com/username/your-repo.git  # Links your local repository to the remote repository on GitHub.
+git branch -M main                                               # Renames the current branch to 'main', creating it if it doesn't exist.
+
 ```
 ![image](https://github.com/user-attachments/assets/6dcca27d-c81c-4ac1-bb8c-50cbaf4a9fd7)
 
@@ -166,19 +168,20 @@ cat ~/.ssh/id_rsa.pub | clip
 
 ![image](https://github.com/user-attachments/assets/2cfe7f14-32e7-400e-ba67-37ab8fa79938)
 
+## 6. Best Practice
 
-### 3. Regularly Review Permissions:
+### 1. Regularly Review Permissions
 
 - Check and manage repository permissions and collaborators.
 
-### 4.  Keep Your Software Up to Date:
+### 2. Keep Your Software Up to Date
 
 - Regularly update Git and any development tools you use.
 
-## 6. 🏁 Conclusion
+## 7. 🏁 Conclusion
 This document provides a comprehensive guide for setting up and managing a version control system using GitHub. By following the outlined steps and implementing security recommendations, we can effectively collaborate and maintain our codes which we will be using our sprints micro repositories.
 
-## 7. 📚 Reference
+## 8. 📚 Reference
 
 | Title                                 | Link                                                                                           |
 |---------------------------------------|------------------------------------------------------------------------------------------------|
@@ -188,7 +191,7 @@ This document provides a comprehensive guide for setting up and managing a versi
 | SSH Key Generation                    | [Generating a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key) |
 | Features of VCS                       | [Feature of VCS](https://github.com/mygurukulam-p10/Documention/blob/main/VCS%20Design%20%2B%20POC/Features%20of%20VCS/POC%20to%20setup%20recommeded%20VCS%20as%20per%20conclusion%20doc/README.md) |
 
-## 8. 📧 Contact Information
+## 9. 📧 Contact Information
 
 For more information on how to setup Github or if you need any guidance, feel free to reach out:
 
