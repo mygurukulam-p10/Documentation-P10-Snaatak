@@ -1,4 +1,4 @@
-# Code Compilation in Python CI Checks
+# Doc: Code Compilation in Python
 
 |   Author     |  Created on   |  Version   | Last updated by | Last edited on |
 | ------------ | --------------| -----------|---------------- |--------------- |
