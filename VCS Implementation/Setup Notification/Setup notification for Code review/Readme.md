@@ -1,4 +1,6 @@
 
+![automated-github-code-reviews-min-1160x385](https://github.com/user-attachments/assets/91869df4-4462-43ea-85a8-55b8a6a31ab0)
+
 # 📬 GitHub Notifications
 
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
