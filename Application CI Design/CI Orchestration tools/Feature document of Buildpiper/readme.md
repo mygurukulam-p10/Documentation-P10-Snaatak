@@ -35,7 +35,7 @@ BuildPiper is a developer and engineering teams’ centric, fully-featured, end-
 | **4. Monitoring and Alerts**| Real-time Monitoring                                   | Users can monitor build and deployment status in real-time to ensure transparency.                 |
 |                             | Notifications and Alerts                               | Get instant notifications about build statuses, failures, and successes through various channels.   |
 | **5. Scalability**          | Cloud-Based Architecture                               | Easily scales resources up or down according to project demands.                                   |
-|                             | Parallel Execution                                     | Supports running multiple builds and tests concurrently to expedite processes.                      |
+|                             | Parallel Execution                                     | Supports running multiple builds and tests concurrently to speed up processes.                      |
 | **6. User Management and Security** | Role-Based Access Control                       | Enables administrators to define user roles and permissions for enhanced security.                  |
 |                             | Audit Logs                                            | Maintains comprehensive logs of all actions for compliance and accountability.                      |
 | **7. Integration with Tools**| Third-Party Integrations                             | Compatible with popular tools like Jira, Jenkins, Docker, and Kubernetes.                          |
