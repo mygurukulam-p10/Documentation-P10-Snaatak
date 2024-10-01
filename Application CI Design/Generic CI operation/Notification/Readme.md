@@ -25,10 +25,13 @@ This guide will walk you through setting up Slack and Jenkins to collaborate, pr
 ## 📝 Step 1: Create a Slack Account
 
 1. Go to [Slack’s official website](https://slack.com) and click **Sign Up**.
-2. Follow the prompts to create your Slack account and workspace.
-3. Name your workspace `Jenkins` (or any name you prefer).
-4. Optionally, invite teammates or skip this step.
-5. Your Slack workspace and channel are now ready for use!
+
+   ![1-ezgif com-webp-to-jpg-converter](https://github.com/user-attachments/assets/4d899bce-471f-419f-adcd-59febcddb54d)
+
+3. Follow the prompts to create your Slack account and workspace.
+4. Name your workspace `Jenkins` (or any name you prefer).
+5. Optionally, invite teammates or skip this step.
+6. Your Slack workspace and channel are now ready for use!
 
 ## 🖥️ Step 2: Launch an EC2 Instance and Install Jenkins
 
