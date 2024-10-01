@@ -63,7 +63,7 @@ Code compilation is the process of converting source code written in a programmi
 | **Use Go Modules**       | Always use modules for dependency management. This allows for versioning and better isolation.  |
 | **Organize Code**        | Follow Go's conventions for project structure: place code in `pkg`, `cmd`, `internal`, etc.     |
 | **Cross-Compile as Needed** | Utilize cross-compilation to build binaries for different platforms (e.g., Linux, Windows).     |
-| **Automate Builds**      | Use CI/CD pipelines (like GitHub Actions or Travis CI) to automate the compilation process.     |
+| **Automate Builds**      | Use CI/CD pipelines (like GitHub Actions) to automate the compilation process.     |
 
 ## Recommendation
 **go build**
