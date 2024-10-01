@@ -151,7 +151,7 @@ git branch -M main                                               # Renames the c
 
 ### 2. Use SSH for Authentication:
 
-- **Generate an SSH key:**
+- **Generate SSH key:**
 ```
 ssh-keygen                                                                                                                  
 ```
