@@ -1,2 +1,1 @@
-![Sonarqube drawio](https://github.com/user-attachments/assets/15daa5f4-5d41-4897-a35f-a23b22e01a98)
-
+![Sonarqube Infra](https://github.com/user-attachments/assets/4b0f8687-ba1f-4a52-8827-c234d50ef9a7)
