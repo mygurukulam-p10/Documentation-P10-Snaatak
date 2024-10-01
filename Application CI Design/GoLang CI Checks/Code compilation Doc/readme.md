@@ -68,7 +68,7 @@ Code compilation is the process of converting source code written in a programmi
 ## Recommendation
 **go build**
 - Use Go Modules: Always initialize projects with Go modules for better dependency management.
-- Leverage Build Flags: Utilize flags like -o for output names and -ldflags for linker options to customize builds.
+- Leverage Build Flags: Utilize flags like -o for output names.
 - Automate with CI/CD: Integrate go build into CI/CD pipelines to ensure consistent and efficient builds across environments.
 
 ## 📝Conclusion
