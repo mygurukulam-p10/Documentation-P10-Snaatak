@@ -100,7 +100,7 @@ go version
 
 ### Step 4: Unit Testing
 <img width="565" alt="image" src="https://github.com/user-attachments/assets/1ce2e032-3447-492d-ab8c-1bf9e2956abb">
-
+- Running go test ./... in Go executes all the tests in the current directory and its subdirectories. If the output shows Ok, it means all the tests have passed successfully, indicating that the code is functioning as expected
 
 ##  📧 Contact Information
 | Name | Email address|
