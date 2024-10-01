@@ -112,10 +112,6 @@ In this Proof of Concept (PoC), OWASP ZAP was used to perform Dynamic Applicatio
 
 
 
-
-
-
-
 ## Contact Information
 
 | Name       | Email address     |
