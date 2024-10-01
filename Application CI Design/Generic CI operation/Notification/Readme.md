@@ -34,6 +34,7 @@ This guide will walk you through setting up Slack and Jenkins to collaborate, pr
 3. Name your workspace `Jenkins` (or any name you prefer).
  ![3](https://github.com/user-attachments/assets/d24b3986-3c72-454e-9a10-13ee9c918ed5)
 ![4](https://github.com/user-attachments/assets/29adc01b-2a9d-481f-a404-8d2ddc196432)
+![6](https://github.com/user-attachments/assets/1df1956e-a16f-4a01-9997-a2768bdc9dfb)
 
 4. Optionally, invite teammates or skip this step.
    ![5](https://github.com/user-attachments/assets/0688fb05-0b0a-45cf-bddc-d26b3d53dba5)
