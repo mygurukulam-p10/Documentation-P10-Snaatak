@@ -1,7 +1,13 @@
+![1_Kk997Ugq1UncaJkWb8MRnA-_1_](https://github.com/user-attachments/assets/26ef9667-0807-492e-991e-d4059952da83)
 
 
 
 # Slack and Jenkins Integration Setup
+
+| 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
+|--------------------|------------|--------------|--------------------------------|
+| 28-09-2024         | 0.2        | Brij Singh   | Slack and Jenkins Integration    |
+
 
 Integrate Slack with Jenkins for real-time notifications and efficient DevOps communication.
 
@@ -157,5 +163,13 @@ pipeline {
 
 ![1_uPxwZb7OfKUqAdERSl5ySw-_1_](https://github.com/user-attachments/assets/f88d10e2-5243-4fd6-8fa3-2cd961bd3efc)
 
+## 📧 Contact Information
 
+For any queries or further information, feel free to contact:
 
+| 📛 Name       | ✉️ Email Address                    |
+|---------------|-------------------------------------|
+| **Brij Singh**| brij.singh.snaatak@mygurukulam.co   |
+
+***References ***
+[here](https://www.blazemeter.com/blog/how-to-integrate-your-github-repository-to-your-jenkins-project)
