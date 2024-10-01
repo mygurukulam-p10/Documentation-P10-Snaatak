@@ -51,9 +51,11 @@ Code compilation is the process of converting source code written in a programmi
 | **GoReleaser**    | A release automation tool for Go projects.                                      | Release automation                 |
 
 ## 🌟Advantages of Go Code Compilation
-- **Speed:** Compiled code generally executes faster than interpreted languages.
-- **Safety:** Errors are caught during compilation, reducing runtime failures.
-- **Simplicity:** The Go toolchain is straightforward, making it easy to compile projects.
+| **Aspect**   | **Description**                                                                 |
+|--------------|---------------------------------------------------------------------------------|
+| **Speed**    | Compiled code generally executes faster than interpreted languages.             |
+| **Safety**   | Errors are caught during compilation, reducing runtime failures.                |
+| **Simplicity** | The Go toolchain is straightforward, making it easy to compile projects.      |
 
 
 ## Proof of Concept (POC)
