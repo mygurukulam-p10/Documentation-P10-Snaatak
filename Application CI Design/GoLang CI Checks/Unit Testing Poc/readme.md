@@ -46,7 +46,11 @@ We are preparing this document so that we can easily provide a completed guide t
 
 
 ## 🏗 Architecture
+<img width="449" alt="image" src="https://github.com/user-attachments/assets/577e4cbf-9235-48cc-8fec-51bcccd41dd1">
 
+- Input: This is the data you provide to the function you want to test.
+- Function: The function being tested. It processes the input and produces an output.
+- Output: The result produced by the function after processing the input.
 
 ## 📥 Step-by-step Installation
 
@@ -95,6 +99,7 @@ go version
 
 
 ### Step 4: Unit Testing
+<img width="565" alt="image" src="https://github.com/user-attachments/assets/1ce2e032-3447-492d-ab8c-1bf9e2956abb">
 
 
 ##  📧 Contact Information
