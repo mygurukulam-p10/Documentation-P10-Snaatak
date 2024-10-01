@@ -258,8 +258,6 @@ b. Second Scan on ```poetry.lock```
 | Additional Info     | Links for more information about the vulnerability.                              |
 
 
-This configuration will run a safety check on every request, scanning the `pyproject.toml` and `poetry.lock` file for known vulnerabilities as in our ```ATTENDANCE-API``` , We are having these 2 files.
-
 
 ## 📚 References
 
