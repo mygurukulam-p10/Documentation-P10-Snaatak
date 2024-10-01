@@ -95,7 +95,7 @@ This guide will walk you through setting up Slack and Jenkins to collaborate, pr
    - Select **Secret Text**, then enter the Slack integration token copied earlier.
      ![20](https://github.com/user-attachments/assets/ce060509-d7f3-4341-a913-2341cd582324)
 
-5. Configure the Slack settings in Jenkins:
+5. **Configure the Slack settings in Jenkins:**
    - Go to **Manage Jenkins** > **Configure System**.
    - In the **Slack** section:
      - Set **Workspace** to your Slack team subdomain.
@@ -103,7 +103,7 @@ This guide will walk you through setting up Slack and Jenkins to collaborate, pr
      - Set a default Slack channel for notifications.
        ![21](https://github.com/user-attachments/assets/749b2881-751e-4c9e-8d9d-ae29ce04e691)
 
-**Create the Jenkins job:**
+6.**Create the Jenkins job:**
    - Go to Jenkins Dashboard and click on **New Item** or create a Pipeline job.
    - Add the following pipeline script to the job.
 
@@ -146,4 +146,15 @@ pipeline {
         }
     }
 }
+
+![23](https://github.com/user-attachments/assets/b900aee8-db33-421e-b513-33e3b021f95b)
+
+![24](https://github.com/user-attachments/assets/e5c5fe58-ab70-4434-86e1-26fe02f66d9b)
+
+##7. You will get a Notification in Slack ###
+
+
+![1_uPxwZb7OfKUqAdERSl5ySw-_1_](https://github.com/user-attachments/assets/f88d10e2-5243-4fd6-8fa3-2cd961bd3efc)
+
+
 
