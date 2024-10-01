@@ -62,8 +62,8 @@ This guide will walk you through setting up Slack and Jenkins to collaborate, pr
    sudo systemctl start jenkins
    sudo systemctl status jenkins
    sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-
-   ### Step 3: Install Jenkins CI App on Slack
+```
+### Step 3: Install Jenkins CI App on Slack
 1. Open Slack and click on your workspace name at the top left.
 2. Select **Settings & Administration** > **Manage Apps**.
 3. Search for **Jenkins CI** and click **Add to Slack**.
