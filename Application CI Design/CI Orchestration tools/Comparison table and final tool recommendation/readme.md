@@ -36,7 +36,7 @@ The purpose of this document is to provide a comprehensive overview of various t
 | **Monitoring and Alerts**      | Real-time Monitoring, Notifications and Alerts    | Observability features                     | Can integrate with monitoring tools       |
 | **Scalability**                | Cloud-Based Architecture, Parallel Execution      | Scalable through cloud or self-hosted options | Scalable through distributed builds      |
 | **User Management and Security**| Role-Based Access Control, Audit Logs            | Security features, Audit and Compliance    | Server-based Security, Role Management     |
-| **Integration with Tools**     | Third-Party Integrations, APIs for Customization  | Native integrations with popular tools      | Extensive plugin ecosystem for integrations |
+| **Integration with Tools**     | Third-Party Integrations| Native integrations with popular tools      | Extensive plugin ecosystem for integrations |
 | **Dashboard and Reporting**    | User-Friendly Dashboard, Detailed Reports         | Built-in dashboards and reporting capabilities | Customizable dashboards through plugins   |
 | **Open Source**                | No (Proprietary)                                 | Yes                                       | Yes                                      |
 | **Extensibility**              | APIs for Customization                           | Limited customization without plugins      | Highly extensible through plugins         |
