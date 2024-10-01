@@ -23,7 +23,7 @@
 
 ## Purpose 🚀 
 
-Continuous Integration (CI) helps make software development easier, faster, and more collaborative. It reduces problems when merging code, improves the quality of the code, and speeds up feedback, making releases quicker and safer. As we are proceeding with diffrent phases of sprint with now testing and debugging, CI plays an important role in that.
+Continuous Integration (CI) helps make software development easier, faster, and more collaborative. It reduces problems when merging code, improves the quality of the code, and speeds up feedback, making releases quicker and safer. As we are proceeding with different phases of sprint with now testing and debugging, CI plays an important role in that.
 
 ## 🚀 Why CI?
 
@@ -145,7 +145,7 @@ Here’s a step-by-step breakdown of how the CI process flows:
 
 ## 📜 Conclusion
 
-As we move forward with our sprints and adopt more automation in our development process, Continuous Integration (CI) plays a crucial role in ensuring we stay agile and efficient.
+As we move forward with our sprints and adopt more automation in our development process, Continuous Integration (CI) plays a crucial role in ensuring we stay agile and efficient. We are using "Jenkins" as our tool in our further Sprints.
 
 CI is more than that—it’s a practice that transforms the way teams collaborate and deliver software. By automating the integration, testing, and quality checks, we’re able to catch bugs early, improve team collaboration, and maintain high software quality. Though setting up CI requires initial effort, the long-term benefits far outweigh the costs. CI allows us to focus on what truly matters—building great microservices like the Employee API, Attendance API, and Salary API—while continuously improving and learning. 🏗️
 
