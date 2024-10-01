@@ -60,7 +60,7 @@ In Java, common unit testing frameworks include JUnit and TestNG. These framewor
 | **Benefit**                  | **Explanation**                                                                                      |
 |------------------------------|------------------------------------------------------------------------------------------------------|
 | **Automation**               | Unit tests can be automatically executed every time code is pushed, ensuring consistency.             |
-| **Scalability**              | As the project grows, more tests can be added to cover new features and components.                   |
+| **Efficiency**              | As the project grows, more tests can be added to cover new features and components.                   |
 | **Confidence in Code Changes**| Unit tests provide assurance that the codebase remains functional even after frequent updates.        |
 | **Documentation**            | Well-written unit tests serve as documentation for the expected behavior of code components.          |
 | **Faster Feedback**          | Quick feedback loops help developers address issues early in the development lifecycle.               |
