@@ -17,8 +17,7 @@
 
 
 ## 🔍 Purpose 
-The purpose of this document is to provide a comprehensive overview of key features and functionalities of Buildpiper. It aims to explain important aspects such as its extensibility, server-based security features, and ease of distribution. By detailing these features, the document seeks to help users understand how Buildpiper can be effectively utilized and customized to meet their Continuous Integration and Continuous Delivery (CI/CD) needs. Additionally, it offers insights into the tools and capabilities Buildpiper provides to enhance build automation, manage security, and streamline development workflows.
-
+The purpose of this document is to provide a comprehensive overview of key features and functionalities of Buildpiper. It aims to explain important aspects such as its extensibility, server-based security features, and ease of distribution. 
 ## 🌟 What is Buildpiper?
 BuildPiper is a developer and engineering teams’ centric, fully-featured, end-to-end Kubernetes & Microservices Application Delivery Platform. It enables teams to onboard & securely manage Kubernetes & Microservices applications in a seamless manner. Also, the platform empowers teams with the ability to run zero-touch, fully automated & secured CI/CD pipelines.
 
