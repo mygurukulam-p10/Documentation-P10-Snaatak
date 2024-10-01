@@ -146,12 +146,13 @@ pipeline {
         }
     }
 }
+```
 
 ![23](https://github.com/user-attachments/assets/b900aee8-db33-421e-b513-33e3b021f95b)
 
 ![24](https://github.com/user-attachments/assets/e5c5fe58-ab70-4434-86e1-26fe02f66d9b)
 
-##7. You will get a Notification in Slack ###
+*** You will get a Notification in Slack ***
 
 
 ![1_uPxwZb7OfKUqAdERSl5ySw-_1_](https://github.com/user-attachments/assets/f88d10e2-5243-4fd6-8fa3-2cd961bd3efc)
