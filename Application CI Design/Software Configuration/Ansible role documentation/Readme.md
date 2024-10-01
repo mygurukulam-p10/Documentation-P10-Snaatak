@@ -22,9 +22,8 @@
 The purpose of Ansible Roles is to provide a standardized way to structure automation code in Ansible. Roles allow for:
 
 1. Breaking down complex automation tasks into manageable, reusable components
-2. Sharing and distributing automation code within teams and the wider Ansible community
-3. Improving the maintainability and readability of Ansible projects
-4. Enabling more efficient and scalable infrastructure-as-code practices
+2. Improving the maintainability and readability of Ansible projects
+
 
 ## Introduction to Ansible Roles
 
@@ -33,8 +32,7 @@ Ansible roles provide a way to organize playbooks and related files in a standar
 **Key Benefits:**
 - Modularity
 - Reusability
-- Organization
-- Scalability
+
 
 ## Structure of an Ansible Role
 
