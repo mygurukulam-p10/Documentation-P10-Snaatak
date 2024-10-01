@@ -12,4 +12,4 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 
 ## Infrastructure Diagram
 
-For Infra Refer This link [Link](https://app.diagrams.net/)
+For Infra Refer This link [Link](https://drive.google.com/file/d/1IIRQ93tpGuQwZh29pL64rKm18MOrS-pE/view?usp=drive_link)
