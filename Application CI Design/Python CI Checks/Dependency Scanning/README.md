@@ -86,7 +86,7 @@ Dependency scanning is the process of automatically analyzing a project's depend
 
 ## 💼 Recommendation/Conclusion
 
-In my Attendance API microservice, I recommend using Safety for its lightweight and efficient vulnerability scanning capabilities, ensuring that all installed dependencies are regularly checked against known vulnerabilities. This proactive approach enhances the security of the microservice, safeguarding user data and maintaining system integrity.
+In my Attendance API microservice, I recommend using **Safety** Tool for its lightweight and efficient vulnerability scanning capabilities, ensuring that all installed dependencies are regularly checked against known vulnerabilities. This proactive approach enhances the security of the microservice, safeguarding user data and maintaining system integrity.
 
 
 ## 📚 References
