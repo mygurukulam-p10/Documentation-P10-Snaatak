@@ -142,7 +142,7 @@ To add an extra layer of security, administrators can restrict access to the Son
 
 ## Conclusion
 
-SonarQube provides flexible authentication mechanisms, from local user management to enterprise-level integrations such as LDAP, OAuth2, and SAML. Each method enhances security and simplifies the login process based on the organization’s needs. By implementing proper authentication measures, organizations can ensure that their code quality data and project integrity remain protected.
+SonarQube provides flexible authentication mechanisms, from local user management to enterprise-level integrations such as LDAP, OAuth2, and SAML. Each method enhances security and simplifies the login process based on the organization’s needs. By implementing proper authentication measures, organizations can ensure that their code quality data and project integrity remain protected. the recommended authentication method is SonarQube's built-in authentication due to its simplicity and ease of setup. It allows for quick user and group management without the need for complex external integrations like LDAP or OAuth2, making it ideal for smaller teams. 
 
 
 ## Contact Information 
