@@ -171,5 +171,8 @@ For any queries or further information, feel free to contact:
 |---------------|-------------------------------------|
 | **Brij Singh**| brij.singh.snaatak@mygurukulam.co   |
 
-***References ***
+## References
+--------------
+Slack and Jenkins Integration 
+
 [here](https://www.blazemeter.com/blog/how-to-integrate-your-github-repository-to-your-jenkins-project)
