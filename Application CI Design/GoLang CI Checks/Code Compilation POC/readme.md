@@ -32,7 +32,7 @@ We are preparing this document so that we can easily provide a completed guide t
 - Familiarity with Go modules.
 
 ## 🖥 System Requirements
-| Hardware Specifications | Minimum Recommendation  |
+| Hardware Specifications | Minimum Requirement  |
 |--------------------------|------------------------|
 | Processor                | dual-core              |
 | RAM                      | 4 GB                    |
