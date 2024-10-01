@@ -19,7 +19,7 @@ The purpose of this document is to provide a comprehensive overview of Java code
 - [Disadvantages of Code Compilation](#disadvantages-of-code-compilation)
 - [Proof of Concept (POC)](#proof-of-concept-poc)
 - [Best Practices](#best-practices)
-- [Recommendation](#recommendation)
+- [Recommendation Conclusion](#recommendation-conclusion)
 - [Contact Information](#contact-information)
 - [References](#references)
 
@@ -36,11 +36,11 @@ Code compilation in Java is the process where the Java compiler (javac) converts
 - Security: Bytecode is not human-readable, which can provide a layer of security against direct code manipulation.
 
 ## Different Tools for Code Compilation
-- Build Tools:
-  - Maven 
-  - Gradle
-  - Ant
-  - Bazel
+- ![image](https://github.com/user-attachments/assets/0d598e48-9931-44be-98e7-8b4e5792b796)
+- ![image](https://github.com/user-attachments/assets/6204546d-356a-480c-a5b8-87d6e0a39f17)
+- ![image](https://github.com/user-attachments/assets/f0ca7cf3-0121-4213-93c2-4bf7d3813aa8)
+- ![image](https://github.com/user-attachments/assets/ad25d854-5ff4-45c7-9cbe-21c0f4593f89)|
+
 
 
 ## Comparison of Different Tools
@@ -87,7 +87,7 @@ Please Refer this https://github.com/mygurukulam-p10/Documention/blob/main/Appli
 | **Use Build Tools**             | For larger projects, consider using Maven or Gradle to manage dependencies and builds. |
 
 
-## Recommendation/Conclusion
+## Recommendation Conclusion
 “We are using Maven in our project. By following a structured process, Maven ensures that all dependencies are resolved and the code is compiled efficiently. This makes Maven an essential tool for managing and building Java projects, especially in enterprise environments where standardization and integration with CI/CD practices are crucial.”
 
 ## Contact Information
