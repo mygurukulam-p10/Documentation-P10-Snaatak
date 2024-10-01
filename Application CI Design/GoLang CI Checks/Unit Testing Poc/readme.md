@@ -1,7 +1,7 @@
 #  Proof of Concept (POC) for Unit Testing for Golang
 ![image](https://github.com/user-attachments/assets/2cc227ca-7629-47af-811b-624b25ba6e9c)
 
-  | Author        | Created on | Version | Last updated by | Last edited on |
+  | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on | 
   |-------------|---------|-------------|-------------|---------|
   | Vinay Bansal | 01-10-24 | version 1 | Vinay Bansal | 02-10-24 |
 
