@@ -20,7 +20,7 @@
 
 
 ## Introduction 
-Dynamic Application Security Testing (DAST) is a security testing approach that analyzes web applications in their running state to identify vulnerabilities. By simulating real-world attacks, DAST tests for weaknesses that can be exploited by malicious actors. Unlike static analysis, which examines code without executing it, DAST evaluates applications in their live environment, providing insight into security issues that may only be apparent during runtime.
+In this document, I will show how to set up and run DAST using OWASP ZAP, an open-source security tool. This Proof of Concept (PoC) will demonstrate how DAST can help detect and fix security issues to make  web application more secure before it's launched.
 
 
 
@@ -102,14 +102,13 @@ tar -xf ZAP_2.15.0_Linux.tar.gz
 
 The reports include information about the risk level and the number of alerts categorized. Following this overview, the reports provide specific details on each alert, presenting the alert name along with a concise description
 
-Like we found Content **Security Policy Header is not set **. Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.
+Like we found Content **Security Policy Header is not set **. Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. 
 
 ***
 ## Conclusion
+In this Proof of Concept (PoC), OWASP ZAP was used to perform Dynamic Application Security Testing (DAST) on the salary-api application. The testing revealed several security issues, including the absence of a Content Security Policy (CSP) header. CSP helps protect the application against Cross-Site Scripting (XSS) and data injection attacks by allowing developers to specify which sources of content are safe to load.
 
-* In conclusion, ZAP to check the security of our Java application, and it helped us find and fix some problems. But, it's important to know that keeping the application secure is an ongoing task. The information we got from this test is like a good starting point to make the application even more secure. It is advised to treat these findings seriously and implement appropriate remediation measures for overall security of our application.
 
-* Since, security risks are always changing, it's really important to keep paying attention and regularly test and fix any issues in our applications. This ongoing effort is key to making sure our application stays strong and secure.
 
 
 
