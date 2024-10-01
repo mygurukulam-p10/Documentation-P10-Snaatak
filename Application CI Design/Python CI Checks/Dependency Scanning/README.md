@@ -42,7 +42,7 @@ Dependency scanning is the process of automatically analyzing a project's depend
 
 ## 🛠️ Different Tools for Python Dependency Scanning and it's Comparision
 
-Here’s a simplified comparison of Python dependency scanning tools with emojis for a more engaging presentation:
+
 
 | **Tool**      | **Description**                                                   | **Key Features**                                             | **License**             | **Integration**                  | **Pros**                                                | **Cons**                                               |
 |---------------|-------------------------------------------------------------------|-------------------------------------------------------------|-------------------------|----------------------------------|---------------------------------------------------------|--------------------------------------------------------|
@@ -60,7 +60,7 @@ Here’s a simplified comparison of Python dependency scanning tools with emojis
 | **🤖 Automated Checks**                   | Integrate security into your CI/CD pipeline, reducing manual effort.                                       |
 | **⚖️ Compliance Support**                 | Helps maintain compliance with security standards and regulations.                                          |
 | **⚠️ Update Conflicts**                   | Suggested security updates may conflict with other dependencies or application requirements.                |
-| **📊 False Positives**                    | Some tools may report vulnerabilities that don't apply to your specific use case.                          |
+
 
 ## 🌟 Disadvantages of Dependency Scanning
 
