@@ -103,4 +103,47 @@ This guide will walk you through setting up Slack and Jenkins to collaborate, pr
      - Set a default Slack channel for notifications.
        ![21](https://github.com/user-attachments/assets/749b2881-751e-4c9e-8d9d-ae29ce04e691)
 
+**Create the Jenkins job:**
+   - Go to Jenkins Dashboard and click on **New Item** or create a Pipeline job.
+   - Add the following pipeline script to the job.
+
+## Usage
+
+Add this script to your pipeline job:
+
+```groovy
+def COLOR_MAP = [
+    'FAILURE' : 'danger',
+    'SUCCESS' : 'good'
+]
+
+pipeline {
+    agent any
+    stages {
+        stage('Hello') {
+            steps {
+                echo "Hello world"
+            }
+        }
+    }
+    post {
+        always {
+            script {
+                def slackColor = COLOR_MAP[currentBuild.currentResult] ?: 'warning' // Default to 'warning' if the result is not explicitly defined
+
+                echo 'Sending Slack Notifications'
+
+                slackSend(
+                    channel: '#channel-name', // Change your channel name
+                    color: slackColor,
+                    message: """
+                    *${currentBuild.currentResult}:* Job ${env.JOB_NAME}
+                    build ${env.BUILD_NUMBER}
+                    More info at: ${env.BUILD_URL}
+                    """
+                )
+            }
+        }
+    }
+}
 
