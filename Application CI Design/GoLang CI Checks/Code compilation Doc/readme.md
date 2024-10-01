@@ -15,11 +15,12 @@ The purpose of this document is to provide a comprehensive overview of GoLang co
 4. [🔧Different Tools for Go Compilation](#different-tools-for-go-compilation)
 5. [🔬Comparison of Compilation Tools](#comparison-of-compilation-tools)
 6. [🌟Advantages of Go Code Compilation](#advantages-of-go-code-compilation)
-7. [📏Best Practices](#best-practices)
-8. [Recommendation](#recommendation)
-9. [📝Conclusion](#conclusion)
-10. [📧 Contact Information](#-contact-information)
-11. [📚References](#references)
+7. [Proof of Concept (POC)](#proof-of-concept-poc)
+8. [📏Best Practices](#best-practices)
+9. [Recommendation](#recommendation)
+10. [📝Conclusion](#conclusion)
+11. [📧 Contact Information](#-contact-information)
+12. [📚References](#references)
 
 ## 📖Introduction
 Go, also known as Golang, is a statically typed, compiled programming language designed for simplicity and efficiency. This document provides an overview of code compilation in Go, highlighting tools, benefits, and best practices.
@@ -55,7 +56,9 @@ Code compilation is the process of converting source code written in a programmi
 - **Simplicity:** The Go toolchain is straightforward, making it easy to compile projects.
 
 
+## Proof of Concept (POC)
 
+Please Refer this https://github.com/mygurukulam-p10/Documention/blob/main/Application%20CI%20Design/GoLang%20CI%20Checks/Code%20Compilation%20POC/readme.md
 
 ## 📏Best Practices
 | Practice                  | Description                                                                                      |
