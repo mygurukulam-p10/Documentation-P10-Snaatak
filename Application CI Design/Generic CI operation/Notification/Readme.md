@@ -1,3 +1,6 @@
+
+
+![Uploading 1.jpg…]()
 # Slack and Jenkins Integration Setup
 
 Integrate Slack with Jenkins for real-time notifications and efficient DevOps communication.
