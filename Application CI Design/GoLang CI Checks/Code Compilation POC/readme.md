@@ -100,8 +100,7 @@ Running this command starts the employee API service, making it ready to handle 
 ```
 ![ccsuccess](https://github.com/user-attachments/assets/3089ecee-144a-4fc4-a54d-fec1eff6539f)
 
-## 📝Conclusion
-Compilation Successful: The Go source code has been successfully compiled into an executable binary named employee-api. The service is now ready to be executed and handle incoming requests. 
+- Compilation Successful: The Go source code has been successfully compiled into an executable binary named employee-api. The service is now ready to be executed and handle incoming requests. 
 
 
 ##  📧 Contact Information
