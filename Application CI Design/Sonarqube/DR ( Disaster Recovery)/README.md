@@ -15,7 +15,6 @@
 4. [♻️ Restoration Procedures](#restoration-procedures)
    - [💾 Database Restoration](#database-restoration)
    - [🔧 Configuration Restoration](#configuration-restoration)
-   - [📊 Elasticsearch Data Restoration (Optional)](#elasticsearch-data-restoration-optional)
 5. [⏱️ Mean Time to Recovery (MTTR)](#mean-time-to-recovery-mttr)
 6. [🚨 Disaster Recovery Testing](#disaster-recovery-testing)
 7. [📞 Contact](#contact)
