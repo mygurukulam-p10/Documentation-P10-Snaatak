@@ -96,6 +96,7 @@ source ~/.profile
 ```
 go version
 ```
+<img width="403" alt="go version" src="https://github.com/user-attachments/assets/596ad6be-bc96-4d59-9ffe-c541878000cb">
 
 
 ### Step 4: Unit Testing
