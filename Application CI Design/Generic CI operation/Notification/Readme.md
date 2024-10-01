@@ -47,3 +47,25 @@ This guide will walk you through setting up Slack and Jenkins to collaborate, pr
    sudo systemctl status jenkins
    sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
+   ### Step 3: Install Jenkins CI App on Slack
+1. Open Slack and click on your workspace name at the top left.
+2. Select **Settings & Administration** > **Manage Apps**.
+3. Search for **Jenkins CI** and click **Add to Slack**.
+4. Choose the Slack channel where you want to receive Jenkins notifications, then click **Add Jenkins CI Integration**.
+5. Copy the **team subdomain** and **integration token** for later use in Jenkins.
+
+
+
+### Step 4: Install Slack Notification Plugin in Jenkins
+1. In Jenkins, navigate to **Manage Jenkins** > **Manage Plugins**.
+2. Search for **Slack Notification Plugin** and install it.
+3. After installation, configure the Slack credentials:
+   - Go to **Manage Jenkins** > **Credentials** > **Global** > **Add Credentials**.
+   - Select **Secret Text**, then enter the Slack integration token copied earlier.
+4. Configure the Slack settings in Jenkins:
+   - Go to **Manage Jenkins** > **Configure System**.
+   - In the **Slack** section:
+     - Set **Workspace** to your Slack team subdomain.
+     - Select the credentials (integration token) you created earlier.
+     - Set a default Slack channel for notifications.
+
