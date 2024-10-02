@@ -45,7 +45,6 @@ Code compilation is the process of converting source code written in a programmi
 | **Type**            | Standard Go compiler                  | GCC-based Go compiler                | General-purpose                  | Go compiler for small devices  |
 | **Primary Use**     | Compiling Go code                     | Compiling Go code with GCC backend   | Compiling for multiple platforms  | Compiling for WebAssembly and embedded systems |
 | **Performance**     | Optimized for performance             | Depends on GCC optimizations         | Varies by tool                   | Optimized for low memory usage  |
-| **Integration**     | Part of the Go toolchain              | Integrates with GCC tools            | Supported by the Go toolchain    | Good for embedded and web environments |
 | **Cross-Compilation**| Supported                           | Strong support                       | Core feature                     | Strong support                  |
 | **Ease of Use**     | User-friendly                        | More complex setup                   | Varies based on tools            | User-friendly for specific cases|
 | **Output Format**   | Compiled binaries                    | Compiled binaries                    | Compiled binaries for target OS  | Compiled binaries for WASM and microcontrollers |
