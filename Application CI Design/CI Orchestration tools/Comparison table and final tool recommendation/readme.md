@@ -7,7 +7,7 @@
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-|  Vinay Bansal | 26-09-24    | Version 1  | Vinay Bansal     | 27-09-24       |
+|  Vinay Bansal | 26-09-24    | Version 1  | Vinay Bansal     | 01-10-24       |
 
 # Table of Content 
 1. [🔍 Purpose](#-purpose)
@@ -42,7 +42,7 @@ The purpose of this document is to provide a comprehensive overview of various t
 | **Extensibility**              | APIs for Customization                           | Limited customization without plugins      | Highly extensible through plugins         |
 | **Installation**               | Cloud-based, easy setup                          | Cloud or self-hosted, straightforward     | Simple installation, requires configuration|
 | **Documentation**              | Limited documentation features                   | Wiki and Documentation                    | Community-driven documentation            |
-
+|**Cost**|	Subscription-based, varies by plan and usage|	Free and paid plans (starting from $19/user/month)	|Free (open-source), but infrastructure costs apply|
 
 
 ## 📜 Recommendation
