@@ -82,10 +82,13 @@ cd attendance-api
 
 ```
 wget https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Linux.tar.gz
+
+* Extract the tar.gz file
+```
 tar -xf ZAP_2.15.0_Linux.tar.gz
 ```
 
-
+### 
 
 ### Step 4. Run ZAP
 * Now, to run our zap for analysis process.  Now running zap via zap.sh via -cmd or in daemon mode as it run the zap in Cli mode as shown below
@@ -98,6 +101,7 @@ tar -xf ZAP_2.15.0_Linux.tar.gz
 * The -port specifies the port on which ZAP will listen.
 * -cmd indicates that the command should be executed in command-line mode.
 * The -quickurl flag followed by the <url_of_website> parameter starts ZAP with the specified target URL.
+
 
 ### Step 5. Scanning API url
 
