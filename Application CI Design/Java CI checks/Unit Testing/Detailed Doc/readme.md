@@ -43,7 +43,6 @@ In Java, common unit testing frameworks include JUnit and TestNG. These framewor
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | **JUnit**   | The most popular Java testing framework. Supports test execution, assertions, and result reporting. Integrates well with CI tools like Jenkins, Travis CI, and GitLab CI.                |
 | **TestNG**  | Similar to JUnit, but offers more configuration options, such as test dependencies and grouping. Supports data-driven testing and parameterization.                                      |
-| **Mockito** | A framework used for mocking dependencies in unit tests. Used alongside JUnit or TestNG to simulate the behavior of complex objects.                                                   |
 | **Spock**   | A Groovy-based testing framework. Works with Java code and provides a highly expressive syntax.                                                                                         |
 | **AssertJ** | A rich assertion library that can be used with JUnit or TestNG. Provides more readable assertions compared to JUnit’s native assertions.                                                |
 
@@ -52,7 +51,6 @@ In Java, common unit testing frameworks include JUnit and TestNG. These framewor
 |------------|------------------------------------------|--------------------------------------------|------------------------------------------|
 | **JUnit**  | Standard, used in most Java projects      | Wide support and integration               | Limited configuration options            |
 | **TestNG** | Flexible with advanced configuration      | Parallel test execution, more options      | Learning curve for beginners             |
-| **Mockito**| Mocking framework                        | Simplifies testing of complex objects      | Requires additional setup                |
 | **Spock**  | Groovy-based, expressive syntax           | Clear, readable tests                      | Learning Groovy is required              |
 | **AssertJ**| Rich assertion library                   | More readable assertions                   | Used as an add-on to JUnit/TestNG        |
 
