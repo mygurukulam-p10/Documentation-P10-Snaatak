@@ -1,4 +1,4 @@
-# GoLang CI Checks and Unit Testing
+# GoLang CI Checks for Unit Testing
 ![image](https://github.com/user-attachments/assets/2cc227ca-7629-47af-811b-624b25ba6e9c)
 
 
