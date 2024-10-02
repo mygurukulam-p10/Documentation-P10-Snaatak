@@ -39,12 +39,21 @@ In Java, common unit testing frameworks include JUnit and TestNG. These framewor
 | **Automated Testing**         | CI pipelines automate the testing process, reducing manual effort and human error.                |
 
 ## Different Tools for Unit Testing in Java
-| **Tool**    | **Description**                                                                                                                                   |
-|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| **JUnit**   | The most popular Java testing framework. Supports test execution, assertions, and result reporting. Integrates well with CI tools like Jenkins, Travis CI, and GitLab CI.                |
-| **TestNG**  | Similar to JUnit, but offers more configuration options, such as test dependencies and grouping. Supports data-driven testing and parameterization.                                      |
-| **Spock**   | A Groovy-based testing framework. Works with Java code and provides a highly expressive syntax.                                                                                         |
-| **AssertJ** | A rich assertion library that can be used with JUnit or TestNG. Provides more readable assertions compared to JUnit’s native assertions.                                                |
+| Tool    | Key Features                                  | Strengths                                             | Limitations                                        |
+|---------|-----------------------------------------------|------------------------------------------------------|---------------------------------------------------|
+| **JUnit**  | Standard, used in most Java projects           | - Wide support and integration                         | - Limited configuration options                    |
+|         | Annotation-based framework                    | - Easy to set up and use in CI/CD pipelines            | - Less advanced compared to TestNG for complex cases|
+|         | Supports parameterized tests                  | - Active community support and regular updates         | - Requires external libraries for mocking          |
+| **TestNG** | Flexible with advanced configuration          | - Parallel test execution, more options                | - Learning curve for beginners                     |
+|         | Supports data-driven testing                  | - Great for running large test suites                  | - Somewhat heavier than JUnit for simple tests      |
+|         | Dependency injection support                  | - Better handling of complex test configurations       | - Integration with some tools may need extra effort |
+| **Spock**  | Groovy-based, expressive syntax               | - Clear, readable tests                                | - Learning Groovy is required                      |
+|         | Powerful data-driven testing support           | - Combines JUnit, Mockito, and data-driven testing     | - Smaller community compared to JUnit/TestNG        |
+|         | Provides advanced mocking and stubbing         | - Highly readable and concise syntax                   | - May require JVM tuning for large test suites      |
+| **AssertJ** | Rich assertion library                        | - More readable assertions                             | - Used as an add-on to JUnit/TestNG                |
+|         | Fluent API for chaining assertions             | - Supports custom assertions                          | - Limited by JUnit/TestNG functionality             |
+|         | Strong IDE support and auto-completion         | - Simplifies writing complex assertions                | - Requires familiarity with functional-style programming |
+                                             |
 
 ## Comparison of Unit Testing Tools
 | **Tool**   | **Key Features**                         | **Strengths**                              | **Limitations**                          |
