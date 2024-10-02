@@ -40,7 +40,7 @@
 
 | Name    | Version | Description                                    |
 |---------|---------|------------------------------------------------|
-| java    | 11      | For running ScyllaDB driver and sample scripts |
+| Java    | 11      | For running ScyllaDB driver and sample scripts |
 
 ### Important Ports
 
