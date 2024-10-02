@@ -36,19 +36,24 @@ Code compilation is the process of converting source code written in a programmi
 ## 🔧Different Tools for Go Compilation
 - **Go Compiler**
 - **Gccgo**
-- **Go Tools**
-- **Delve**
-- **GolangCI-Lint**
-- **GoReleaser**
+- **Cross-Compilation**
+- **TinyGo**
 
 ## 🔬Comparison of Compilation Tools
-| **Tool**          | **Description**                                                                 | **Usage**                          |
-|-------------------|---------------------------------------------------------------------------------|------------------------------------|
-| **Go Compiler (gc)** | The standard compiler provided by the Go language, optimized for performance. | `go build`, `go run`               |
-| **gccgo**         | An alternative Go compiler using the GCC backend, useful for integration with GCC-based tools. | `gccgo`                            |
-| **Delve**         | A debugger for the Go programming language.                                     | Debugging                          |
-| **GolangCI-Lint** | A fast linters runner for Go.                                                   | Code linting                       |
-| **GoReleaser**    | A release automation tool for Go projects.                                      | Release automation                 |
+| Feature/Tool        | Go Compiler (gc)                      | gccgo                                | Cross-Compilation                | TinyGo                         |
+|---------------------|---------------------------------------|--------------------------------------|----------------------------------|--------------------------------|
+| **Type**            | Standard Go compiler                  | GCC-based Go compiler                | General-purpose                  | Go compiler for small devices  |
+| **Primary Use**     | Compiling Go code                     | Compiling Go code with GCC backend   | Compiling for multiple platforms  | Compiling for WebAssembly and embedded systems |
+| **Performance**     | Optimized for performance             | Depends on GCC optimizations         | Varies by tool                   | Optimized for low memory usage  |
+| **Integration**     | Part of the Go toolchain              | Integrates with GCC tools            | Supported by the Go toolchain    | Good for embedded and web environments |
+| **Cross-Compilation**| Supported                           | Strong support                       | Core feature                     | Strong support                  |
+| **Ease of Use**     | User-friendly                        | More complex setup                   | Varies based on tools            | User-friendly for specific cases|
+| **Output Format**   | Compiled binaries                    | Compiled binaries                    | Compiled binaries for target OS  | Compiled binaries for WASM and microcontrollers |
+| **Community Support**| Strong, widely used                 | Smaller community                    | Active community for various tools| Growing community               |
+
+
+### Tool Descriptions
+
 
 ## 🌟Advantages of Go Code Compilation
 | **Aspect**   | **Description**                                                                 |
@@ -71,13 +76,13 @@ Please Refer this https://github.com/mygurukulam-p10/Documention/blob/main/Appli
 | **Automate Builds**      | Use CI/CD pipelines (like GitHub Actions) to automate the compilation process.     |
 
 ## Recommendation
-**go build**
+**Go Compiler**
 - Use Go Modules: Always initialize projects with Go modules for better dependency management.
 - Leverage Build Flags: Utilize flags like -o for output names.
 - Automate with CI/CD: Integrate go build into CI/CD pipelines to ensure consistent and efficient builds across environments.
 
 ## 📝Conclusion
-The go build command is a fundamental tool in the Go development workflow, enabling developers to compile their applications efficiently. By following best practices and recommendations, such as using Go modules, optimizing build flags, and leveraging cross-compilation, developers can enhance their build processes and ensure consistent, high-quality application performance across various platforms.
+The Go Compiler is a fundamental tool in the Go development workflow, enabling developers to compile their applications efficiently. By following best practices and recommendations, such as using Go modules, optimizing build flags, and leveraging cross-compilation, developers can enhance their build processes and ensure consistent, high-quality application performance across various platforms.
 
 ##  📧 Contact Information
 | Name | Email address|
