@@ -33,8 +33,7 @@
 ## 🔑 Pre-requisites
 
 - Access to the AWS Management Console or AWS CLI with appropriate permissions.
-- Knowledge of your application's [network requirements](https://github.com/CodeOps-Hub/Documentation/blob/main/Application_CI/Design/09-%20Cloud%20Infra%20Design/Cloud-Infra-Design-Dev.md).
-
+- Knowledge of your application's [network requirements]
 ---
 
 ## 🛠️ Steps to Setup Auto Scaling
@@ -47,8 +46,7 @@
 4. Click **Create image**.
 
    The AMI will appear under the **AMIs** section after creation.
-
-![Create Image](https://github.com/CodeOps-Hub/Documentation/assets/156056444/374d4dcb-c5ba-41e9-ac70-522d3d790a08)
+///
 
 ---
 
@@ -68,7 +66,7 @@
 
 7. Click **Create launch template**.
 
-![Create Launch Template](https://github.com/CodeOps-Hub/Documentation/assets/156056444/bd57c86a-f302-4557-a5e3-18f6411f8d03)
+////
 
 ---
 
@@ -83,15 +81,15 @@
 7. Optionally, set up notifications and tags.
 8. Review and create your Auto Scaling group.
 
-![Create Auto Scaling Group](https://github.com/CodeOps-Hub/Documentation/assets/156056444/8a8cdb98-9104-45ce-a8c9-d1ba4d2afe9f)
-
+///
 ---
 
 ## 📊 Output
 
-Once the Auto Scaling group is created, EC2 instances will automatically scale based on demand.
+Once the Auto Scaling group is created, EC2 instances will automatically scale based on demand
 
-![Auto Scaling Output](https://github.com/CodeOps-Hub/Documentation/assets/156056444/0a8fdff2-1bdd-4476-a7c2-30bacea8d901)
+
+///
 
 ---
 
