@@ -11,7 +11,7 @@
 1. [💥 Introduction](#-introduction)
 2. [⚙️ Pre-requisites](#-pre-requisites)
 3. [🔍 System Requirements](#-system-requirements)
-4. [💥 Steps to Configuration Declarative pipelines for Code Compilation](#-steps-to-conguration-declarative-pipelines-for-code-compilation)
+4. [💥 Steps to Configuration Declarative pipelines for Code Compilation](#--steps-to-conguration-declarative-pipelines-for-code-compilation)
 5. [📛 Conclusion](#-conclusion)
 6. [📧 Contact Information](#-contact-information)
 7. [📚 References](#-references)
@@ -47,49 +47,15 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 ![3](https://github.com/user-attachments/assets/4cce2993-aeb1-469c-b97c-e3b644c3bf41)
 
 ### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for code-compilation in the pipeline configuration...>Click on Save to store the configuration.
-<details>
-    <summary>Declarative Jenkins Pipeline</summary>
-    ```
-pipeline {
-    agent any
-    stages {
-        stage('Clone Repository') {
-            steps {
-                git branch: 'main', url: 'https://github.com/OT-MICROSERVICES/salary-api.git'
-            }
-        }
-        stage('Build and Run Tests') {
-            steps {
-                script {
-                    // Navigate to the root directory where the pom.xml file is located
-                    dir('/var/lib/jenkins/workspace/code-compilation') {
-                        // List files for debugging
-                        sh 'ls -R'
-                    }
-                    // Assuming the pom.xml is at the root of the repository
-                    sh 'mvn compile' // Build the project and install dependencies
-                    
-                    }
-            }
-        }
-    }
-    post {
-        success {
-            echo 'Build succeeded!'
-        }
-        failure {
-            echo 'Build failed!'
-        }
-    }
-}
+![4](https://github.com/user-attachments/assets/86687d99-016f-4ec7-9132-addffb296fcd)
 
-```
-</details>
+
 
 ### 5. 🚀 Then Click on build to run the pipeline to perform
 <img width="952" alt="build" src="https://github.com/user-attachments/assets/8e0b140e-3cb9-4b40-babd-75fb6963a653">
 
 ### 6.🚀 Now we are able to see build complete-
+![6](https://github.com/user-attachments/assets/edc403b0-0e63-4aca-8ce9-aa7ec6a5fe6c)
 
 ### 7.🚀 Click on Console Output to see the complete build.
 ![7](https://github.com/user-attachments/assets/e03d8595-d089-4a88-b812-6f1f75ca8d39)
