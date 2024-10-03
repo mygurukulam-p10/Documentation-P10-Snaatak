@@ -42,33 +42,40 @@ This document outlines the process for setting up **Trivy** to perform license s
 ## 💥 Steps to Configuration Declarative pipelines for License scanning
 
 ### 1. 🚀 Open your Jenkins Dashboard.
-https://github.com/mygurukulam-p10/Documention/blob/main/CI%20Implementation/Declarative%20Jenkins%20Pipeline/License%20Scanning/Dashboard.png
+<img width="944" alt="Dashboard" src="https://github.com/user-attachments/assets/32ea261e-9e15-4dc4-9dfe-237965e974be">
 
 ### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `License-scanning`).
-https://github.com/mygurukulam-p10/Documention/blob/main/CI%20Implementation/Declarative%20Jenkins%20Pipeline/License%20Scanning/click%20iten.png
+<img width="947" alt="click iten" src="https://github.com/user-attachments/assets/5bf27cc4-0246-437d-9b50-7c3c3c57f1c9">
+
 
 ### 3. 🚀 Provide a description for the pipeline that performs License scanning.
-https://github.com/mygurukulam-p10/Documention/blob/main/CI%20Implementation/Declarative%20Jenkins%20Pipeline/License%20Scanning/description.png
+<img width="959" alt="description" src="https://github.com/user-attachments/assets/88d12b31-909e-4c70-98cd-683d8c67c8dd">
+
 
 ### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for License scanning in the pipeline configuration...>Click on Save to store the configuration.
-https://github.com/mygurukulam-p10/Documention/blob/main/CI%20Implementation/Declarative%20Jenkins%20Pipeline/License%20Scanning/script.png
+<img width="932" alt="script" src="https://github.com/user-attachments/assets/35484b01-080e-4b53-b114-cb17cc530da9">
+
 
 ### 5. 🚀 Then Click on build to run the pipeline to perform
-https://github.com/mygurukulam-p10/Documention/blob/main/CI%20Implementation/Declarative%20Jenkins%20Pipeline/License%20Scanning/build.png
+<img width="952" alt="build" src="https://github.com/user-attachments/assets/c82d9cba-0169-4495-8193-2cadac88f833">
+
 
 ### 6.🚀 Now we are able to see build complete-
-https://github.com/mygurukulam-p10/Documention/blob/main/CI%20Implementation/Declarative%20Jenkins%20Pipeline/License%20Scanning/build%20status.png
+<img width="944" alt="build status" src="https://github.com/user-attachments/assets/49018077-c6d0-4932-95a7-2234104acf87">
+
 
 ### 7.🚀 Click on Console Output to see the complete build.
-https://github.com/mygurukulam-p10/Documention/blob/main/CI%20Implementation/Declarative%20Jenkins%20Pipeline/License%20Scanning/console%20output-1.png
-https://github.com/mygurukulam-p10/Documention/blob/main/CI%20Implementation/Declarative%20Jenkins%20Pipeline/License%20Scanning/console%20output-2.png
-https://github.com/mygurukulam-p10/Documention/blob/main/CI%20Implementation/Declarative%20Jenkins%20Pipeline/License%20Scanning/console%20output-3.png
+<img width="959" alt="console output-1" src="https://github.com/user-attachments/assets/043588ff-d61c-47ba-a012-6448486dbbbd">
+<img width="944" alt="console output-2" src="https://github.com/user-attachments/assets/db195395-d0d6-4101-af10-302296070893">
+<img width="941" alt="console output-3" src="https://github.com/user-attachments/assets/764fdb1b-0193-4312-8f07-14371e008f4f">
 
 ### 8. 🚀 Once the report is generated, you will be able to see the JSON report.
-https://github.com/mygurukulam-p10/Documention/blob/main/CI%20Implementation/Declarative%20Jenkins%20Pipeline/License%20Scanning/Json%20Report.png
+<img width="702" alt="Json Report" src="https://github.com/user-attachments/assets/5f504303-a041-4193-9c99-1b209626bb77">
+
 
 ### 9.🚀 Review the stages of the build process in the console output.
-https://github.com/mygurukulam-p10/Documention/blob/main/CI%20Implementation/Declarative%20Jenkins%20Pipeline/License%20Scanning/build%20stage.png
+<img width="951" alt="build stage" src="https://github.com/user-attachments/assets/829ace03-ceee-4f03-9a3a-cecc6a641635">
+
 
 ---
 
