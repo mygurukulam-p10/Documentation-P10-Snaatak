@@ -9,7 +9,7 @@
 ---
 ## Table of Contents
 1. [💥 Introduction](#-introduction)
-2. [⚙️ Pre-requisites](#-pre-requisites)
+2. [⚙ Pre-requisites](#-pre-requisites)
 3. [🔍 System Requirements](#-system-requirements)
 4. [💥 Steps to Configuration Declarative pipelines for Code Compilation](#--steps-to-conguration-declarative-pipelines-for-code-compilation)
 5. [📛 Conclusion](#-conclusion)
@@ -21,7 +21,7 @@
 This document outlines how to set up a Declarative Jenkins Pipeline specifically for Java code compilation. Jenkins, as a popular automation server, supports a variety of build configurations.
 
 
-## ⚙️ Pre-requisites
+## ⚙ Pre-requisites
 1. **Jenkins**: Ensure you have a Jenkins instance running.
 2. **Java**: Required to run the built Java application.
 3. **Maven**: Simplifies build management
