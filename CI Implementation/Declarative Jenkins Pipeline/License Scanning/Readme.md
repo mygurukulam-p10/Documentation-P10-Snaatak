@@ -25,7 +25,7 @@ This document outlines the process for setting up **Trivy** to perform license s
 ---
 
 ## ⚙️ Pre-requisites
-1. **Trivy Installation**: Trivy, for performing the license scanning.
+1. **Trivy**: Trivy, for performing the license scanning.
 2. **Jenkins**: If you are integrating license scanning in a pipeline, ensure you have a CI/CD tool like Jenkins set up.
 3. **Git**: Your project repository should be accessible via Git, and Git should be installed on the system where Trivy will run.
 ---
