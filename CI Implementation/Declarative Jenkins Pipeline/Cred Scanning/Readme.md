@@ -10,7 +10,7 @@
 1. [💥 Introduction](#-introduction)
 2. [⚙️ Pre-requisites](#-pre-requisites)
 3. [🔍 System Requirements](#-system-requirements)
-4. [💥 Steps to Configuration of Declarative pipelines for cred scanning](#-steps-to-conguration-of-declarative-pipelines-for-cred-scanning)
+4. [💥 Steps to Configuration Declarative pipelines for cred scanning](#-steps-to-conguration-declarative-pipelines-for-cred-scanning)
 5. [📛 Conclusion](#-conclusion)
 6. [📧 Contact Information](#-contact-information)
 7. [📚 References](#-references)
@@ -35,7 +35,7 @@ This guide outlines the steps to set up **GitLeaks** for scanning your Git repos
 
 ---
 
-## 💥 Steps to Configuration of Declarative pipelines for cred scanning
+## 💥 Steps to Configuration Declarative pipelines for cred scanning
 
 ### 1. 🚀 Open your Jenkins Dashboard.
 <img width="951" alt="Screenshot 2024-10-03 171617" src="https://github.com/user-attachments/assets/e6448943-be68-4a6f-91d1-76e29d206a2f">
