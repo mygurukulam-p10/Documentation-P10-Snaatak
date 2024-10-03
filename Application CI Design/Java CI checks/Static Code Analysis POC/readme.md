@@ -30,8 +30,7 @@ We are preparing this document so that we can easily provide a completed guide f
 
 - Java Development Kit (JDK): Ensure you have JDK installed (preferably JDK 8 or higher).
 - Apache Maven: Install Maven (version 3.x is recommended).
-- Integrated Development Environment (IDE): An IDE like IntelliJ IDEA, Eclipse, or VSCode is recommended for easier project management and development.
-
+  
 ## System Requirements
 | Hardware Specifications | Minimum Requirement  |
 |--------------------------|------------------------|
