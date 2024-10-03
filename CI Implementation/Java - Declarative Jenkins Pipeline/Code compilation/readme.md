@@ -11,7 +11,7 @@
 1. [💥 Introduction](#-introduction)
 2. [⚙️ Pre-requisites](#-pre-requisites)
 3. [🔍 System Requirements](#-system-requirements)
-4. [💥 Steps to Configuration Declarative pipelines for cred scanning](#-steps-to-conguration-declarative-pipelines-for-cred-scanning)
+4. [💥 Steps to Configuration Declarative pipelines for Code Compilation](#-steps-to-conguration-declarative-pipelines-for-code-compilation)
 5. [📛 Conclusion](#-conclusion)
 6. [📧 Contact Information](#-contact-information)
 7. [📚 References](#-references)
@@ -35,7 +35,7 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 | **OS**            |Ubuntu 22.04 LTS           |
 
 
-## 💥 Steps to Configuration Declarative pipelines for cred scanning
+## 💥 Steps to Configuration Declarative pipelines for Code Compilation
 
 ### 1. 🚀 Open your Jenkins Dashboard.
 ![1](https://github.com/user-attachments/assets/59bb5e6e-68e1-4d41-8147-cd7acceeb2d8)
