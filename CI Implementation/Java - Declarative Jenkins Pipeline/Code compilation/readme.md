@@ -83,5 +83,5 @@ By following this guide, you have successfully configured Maven for code compila
 ## 📚 References
 | Links | Descriptions|
 |------|---------------------|
-|||
+|https://www.jenkins.io/doc/tutorials/build-a-java-app-with-maven/|Build a Java app with Maven |
 |https://tinyurl.com/su8ennjz|(POC): code-compilation |
