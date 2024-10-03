@@ -112,7 +112,7 @@ For any queries or further information, feel free to contact:
 
 | Description                               | Link                                                                                                  |
 | ----------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| Documentation Template                    | [Application-Template](https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template) |
-| Cloud Infra Design                        | [Dev Infra Design](https://github.com/CodeOps-Hub/Documentation/blob/main/Application_CI/Design/09-%20Cloud%20Infra%20Design/Cloud-Infra-Design-Dev.md) |
+| Documentation Template                    | [Application-Template](
+| Cloud Infra Design                        | [Dev Infra Design]
 | Create Launch Template                    | [AWS Docs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/create-launch-template.html) |
 | Create Auto Scaling Group                 | [AWS Docs](https://docs.aws.amazon.com/autoscaling/ec2/userguide/create-asg-launch-template.html) |
