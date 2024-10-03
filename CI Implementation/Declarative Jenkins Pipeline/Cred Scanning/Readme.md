@@ -55,7 +55,7 @@ This guide outlines the steps to set up **GitLeaks** for scanning your Git repos
 ### 6.🚀 Now we are able to see build complete-
 <img width="959" alt="build completed" src="https://github.com/user-attachments/assets/598eeb56-73b2-4d9f-a144-ac2f7d570091">
 
-### 7.🚀 Click Build Now to run the pipeline and perform the credential scan.
+### 7.🚀 Click on Console Output to see the complete build.
 <img width="959" alt="console 1" src="https://github.com/user-attachments/assets/6f7e4f8e-360f-4459-9564-12622bdf65e8">
 <img width="929" alt="console 2" src="https://github.com/user-attachments/assets/5bce25f8-31ae-4e52-90b1-4016690e6424">
 <img width="941" alt="console 3" src="https://github.com/user-attachments/assets/4b507ffe-c08b-4e41-804b-6f9bba05786e">
