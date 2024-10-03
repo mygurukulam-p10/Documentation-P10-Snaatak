@@ -17,7 +17,7 @@
 
 ---
 ### 💥 Introduction
-This document outlines how to set up a Declarative Jenkins Pipeline specifically for Java code compilation. Jenkins, as a popular automation server, supports a variety of build configurations.
+This document outlines how to set up a Declarative Jenkins Pipeline specifically for Java Static code analysis. Jenkins, as a popular automation server, supports a variety of build configurations.Static code analysis is the process of examining source code without executing it to identify potential issues, improve quality.
 
 
 ## ⚙ Pre-requisites
