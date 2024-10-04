@@ -20,3 +20,16 @@ Before starting, make sure you have the following tools:
 ### Step 2: Configure Go in Jenkins
 ![Screenshot from 2024-10-04 14-40-27](https://github.com/user-attachments/assets/03a80c25-3980-4baa-9e32-08ff4bf7d092)
 
+## Code Compilation Setup
+
+### Step 1: Create a New Pipeline Job
+- In the Jenkins dashboard, click New Item.
+- Name your job (e.g., "GoLang Code Compilation").
+- Select Pipeline and click OK.
+
+### Step 2: Configure the Pipeline Script
+- In the job configuration, scroll to the Pipeline section.
+- Choose Pipeline script from SCM.
+- Enter your GitHub repository URL and credentials.
+
+
