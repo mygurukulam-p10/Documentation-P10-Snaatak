@@ -32,4 +32,14 @@ Before starting, make sure you have the following tools:
 - Choose Pipeline script from SCM.
 - Enter your GitHub repository URL and credentials.
 
+### Step 3: Save the Configuration
+- Click Save to save the pipeline settings.
+
+### Step 4: Trigger the Build
+- Go back to your Jenkins job and click Build Now to run the pipeline.
+
+### Step 5: View Build Output
+- After starting the build, click on the build number to see the console output.
+- This will show you each step, including Go code checkout and compilation.
+
 
