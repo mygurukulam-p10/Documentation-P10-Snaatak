@@ -1,1 +1,2 @@
-![30 K new](https://github.com/user-attachments/assets/a93705ef-1585-4e8f-ac80-2d2ab2f6689b)
+![30 k new 1](https://github.com/user-attachments/assets/10cc04ce-9b7a-49b0-8f92-83688d381cd3)
+
