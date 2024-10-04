@@ -64,6 +64,7 @@ This document provides a guide on setting up automated email notifications in Je
 
 ### 7.🚀 Beside we get the notification on email with the Report(JSON, HTML etc.).
 <img width="740" alt="email ss" src="https://github.com/user-attachments/assets/3220cc10-3d7c-4b1b-b671-a9a80e924b81">
+
 ![html](https://github.com/user-attachments/assets/da85494b-af00-45f7-aa44-ab2e69f359ec)
 
 ---
