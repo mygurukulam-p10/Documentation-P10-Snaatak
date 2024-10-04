@@ -83,4 +83,4 @@ This POC shows how integrating SpotBugs with Maven helps in detecting and analyz
 | Links | Descriptions|
 |------|---------------------|
 |https://tinyurl.com/66cr6xeh|SpotBugs Maven Plugin |
-|https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/Application%20CI%20Design/Java%20CI%20checks/Bugs%20analysis/POC/Poc.md|(POC): Bug Analysis|
+|https://tinyurl.com/56k8jfwp|(POC): Bug Analysis|
