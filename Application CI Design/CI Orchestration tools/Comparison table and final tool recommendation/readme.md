@@ -11,7 +11,7 @@
 
 # Table of Content 
 1. [🔍 Purpose](#-purpose)
-2. [🌟 Differnet Tools](#-differnet-tools)
+2. [🌟 Different Tools](#-different-tools)
 3. [🛠️ Comparison table](#-comparison-table)
 4. [📜 Recommendation](#-recommendation )
 5. [📧 Contact Information ](#-contact-information )
@@ -21,14 +21,14 @@
 ## 🔍 Purpose 
 The purpose of this document is to provide a comprehensive overview of various tools used in software development and deployment, specifically focusing on Buildpiper, GitLab, and Jenkins. This document aims to help teams and stakeholders understand the functionalities, advantages, and limitations of each tool.
 
-## 🌟 Differnet Tools
+## 🌟 Different Tools
 - **Buildpiper**
-- **GitLab**
+- **GitLab CI/CD**
 - **Jenkins**
 
   
 ## 🛠 Comparison table
-| Feature                       | Buildpiper                                       | GitLab                                    | Jenkins                                  |
+| Feature                       | Buildpiper                                       | GitLab CI/CD                         | Jenkins                                  |
 |-------------------------------|-------------------------------------------------|-------------------------------------------|------------------------------------------|
 | **Automated Builds**          | Customizable Pipelines, Multi-Environment Support | CICD Pipelines, Source Code Management    | Various Plugins, Simple Installation      |
 | **Continuous Integration**     | Version Control Integration, Automated Testing   | Built-in CI/CD features, Version Control  | Strong CI capabilities through plugins    |
