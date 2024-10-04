@@ -15,12 +15,12 @@
 4. [Contact Information](#contact-information)
 5. [References](#references)
 
-***
+
 
 ## 📘 Introduction
 This README explains how to set up Jenkins on Amazon Web Services (AWS) cloud infrastructure, including a diagram of the architecture and deployment details.
 
-***
+
 
 ## ⚙️ Prerequisites
 
@@ -28,7 +28,7 @@ This README explains how to set up Jenkins on Amazon Web Services (AWS) cloud in
 |-----------------------|----------------------------------------------|
 | AWS Management Console | Required for provisioning AWS resources.    |
 
-***
+
 
 ## 🛠️ Description
 | Name           |  Description                                                      |
@@ -43,8 +43,9 @@ This README explains how to set up Jenkins on Amazon Web Services (AWS) cloud in
 
 ## 🖼️ Infrastructure Diagram
 
+![301283624-61ab2369-21e0-4ac5-b044-ddf02a9a1804 (1)](https://github.com/user-attachments/assets/1fed3eeb-f671-44c5-959e-0586bee1f224)
 
-***
+
 
 ## 📧 Contact Information
 
