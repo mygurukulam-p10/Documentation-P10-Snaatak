@@ -41,37 +41,35 @@ This document provides a guide on setting up automated email notifications in Je
 ### 1. 🚀 Open your Jenkins Dashboard.
 <img width="951" alt="Screenshot 2024-10-03 171617" src="https://github.com/user-attachments/assets/e6448943-be68-4a6f-91d1-76e29d206a2f">
 
-### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `cred-scanning`).
-![Screenshot 2024-10-03 171735](https://github.com/user-attachments/assets/898d9d35-3c76-4a15-8570-8eb5b5bbbbab)
+### 2. 🚀 Go to the **Manage Jenkins**.** ---> **click on the credentials.
+<img width="941" alt="manage jenkins" src="https://github.com/user-attachments/assets/598345b0-9f54-4989-9df1-ce7be107b852">
 
-### 3. 🚀 Provide a description for the pipeline that performs credential scanning.
-<img width="947" alt="image" src="https://github.com/user-attachments/assets/df35108b-2228-48f0-86b5-bd310c3b9da7">
+![credentials](https://github.com/user-attachments/assets/88417a5b-e380-4d81-a85b-10fc438c7cf4)
 
-### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for credential scanning in the pipeline configuration...>Click on Save to store the configuration.
-<img width="956" alt="image" src="https://github.com/user-attachments/assets/3c946e0b-3656-47fe-80dd-cd67427662fe">
+
+### 3. 🚀 Go to the global and add email credential.
+<img width="959" alt="add cred" src="https://github.com/user-attachments/assets/a41e8ffa-b6b1-470f-bbd4-17c9901708c5">
+
+
+### 4. 🚀 Now, when you write the pipeline, add one step for email notification in your declarative pipeline-
+<img width="947" alt="email script" src="https://github.com/user-attachments/assets/c1a0acdd-1244-40de-a964-30ecf2ab9096">
+
 
 ### 5. 🚀 Then Click on build to run the pipeline to perform
 <img width="952" alt="build" src="https://github.com/user-attachments/assets/8e0b140e-3cb9-4b40-babd-75fb6963a653">
 
-### 6.🚀 Now we are able to see build complete-
-<img width="959" alt="build completed" src="https://github.com/user-attachments/assets/598eeb56-73b2-4d9f-a144-ac2f7d570091">
+### 6.🚀 Once the build is successfull, here we can see the build report status-
+<img width="947" alt="build report status" src="https://github.com/user-attachments/assets/2b6b6161-e22d-42cf-8d51-94488b0d0f6f">
 
-### 7.🚀 Click on Console Output to see the complete build.
-<img width="959" alt="console 1" src="https://github.com/user-attachments/assets/6f7e4f8e-360f-4459-9564-12622bdf65e8">
-<img width="929" alt="console 2" src="https://github.com/user-attachments/assets/5bce25f8-31ae-4e52-90b1-4016690e6424">
-<img width="941" alt="console 3" src="https://github.com/user-attachments/assets/4b507ffe-c08b-4e41-804b-6f9bba05786e">
 
-### 8. 🚀 Once the report is generated, you will be able to see the JSON report.
-<img width="571" alt="json report" src="https://github.com/user-attachments/assets/b1b41e7b-bd0c-4fae-84a1-0c7acf64cc7b">
+### 7.🚀 Beside we get the notification on email with the Report(JSON, HTML etc.).
+<img width="740" alt="email ss" src="https://github.com/user-attachments/assets/3220cc10-3d7c-4b1b-b671-a9a80e924b81">
+![html](https://github.com/user-attachments/assets/da85494b-af00-45f7-aa44-ab2e69f359ec)
 
-### 9.🚀 Review the stages of the build process in the console output.
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/a5045da9-237a-45a6-8bcf-bda1138c9642">
 ---
 
 ## 📛 Conclusion
-
-By following this guide, you have successfully configured GitLeaks for credential scanning in your Jenkins Declarative Pipeline without using Docker. This setup ensures that your Git repository is continuously monitored for hardcoded secrets and sensitive data, helping you maintain the security and integrity of your codebase. 
-Regularly scanning for credentials using automated tools like GitLeaks helps in identifying potential security risks early in the development process. Be sure to monitor the reports generated and integrate the scanning process into your CI/CD pipeline to catch vulnerabilities before code is deployed.
+This document has outlined the steps to set up automated email notifications in Jenkins, enabling seamless communication of build status to recipients. By implementing this pipeline, you can ensure timely updates on project progress, whether the build succeeds or fails. 
 
 ---
 
@@ -85,7 +83,6 @@ For more information, feedback, or assistance, feel free to contact us:
 ## 📚 References
 | Links                                             | Descriptions                                                    |
 |---------------------------------------------------|-----------------------------------------------------------------|
-|https://github.com/gitleaks/gitleaks| **GitLeaks Understanding** |
-|https://www.jit.io/resources/appsec-tools/the-developers-guide-to-using-gitleaks-to-detect-hardcoded-secrets| **Cred Scanning** |
-|https://tinyurl.com/2tbfm9w3|(POC): **Cred Snanning**|
+|https://pradeep-sg406.medium.com/how-to-configure-email-notification-in-jenkins-227b58d3c017| **Medium** |
+|https://datavalley.ai/configure-email-notification-in-jenkins/?srsltid=AfmBOorJMlxZmvIwsAMNaz8ftmMwI8p24s0PPywNVp6pLRrlwZjfysJZ| **Datavalley** |
 
