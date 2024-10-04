@@ -41,10 +41,13 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 ![1](https://github.com/user-attachments/assets/59bb5e6e-68e1-4d41-8147-cd7acceeb2d8)
 
 ### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `Bugs analysis`).
+![2](https://github.com/user-attachments/assets/0162417c-5db4-4ff6-b875-dab4bb16beaa)
 
 ### 3. 🚀 Provide a description for the pipeline that performs Bugs analysis.
+![3](https://github.com/user-attachments/assets/f8aa2ae9-0333-45b5-83b3-f40fb077dc3a)
 
 ### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Bugs analysis in the pipeline configuration...>Click on Save to store the configuration.
+![4](https://github.com/user-attachments/assets/42e9b6ad-3dc4-4926-ab76-ca077f9fadcf)
 
 
 
@@ -54,11 +57,15 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 ### 6.🚀 Now we are able to see build complete-
 
 ### 7.🚀 Click on Console Output to see the complete build.
+![7](https://github.com/user-attachments/assets/6230dc67-c07d-4fb2-ab04-d81e77d5159a)
+
+![8](https://github.com/user-attachments/assets/2f298c39-fb71-49fa-ac12-95805e05fd86)
 
 
 
 
 ### 9.🚀 Review the stages of the build process in the console output.
+![9](https://github.com/user-attachments/assets/25f61bf1-0998-4161-9922-27f9837c1fa4)
 
 
 ## 📛 Conclusion
