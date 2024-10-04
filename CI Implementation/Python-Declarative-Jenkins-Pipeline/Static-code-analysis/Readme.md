@@ -10,7 +10,7 @@
 1. [💥 Introduction](#-introduction)
 2. [⚙️ Pre-requisites](#-pre-requisites)
 3. [🔍 System Requirements](#-system-requirements)
-4. [💥 Steps to Configuration Python Declarative pipelines for Static Code Analysis](#-steps-to-conguration-python-declarative-pipelines-for-static-code-analysis)
+4. [💥 Steps to Configuration Static Code Analysis](#-steps-to-conguration-static-code-analysis)
 5. [📛 Conclusion](#-conclusion)
 6. [📧 Contact Information](#-contact-information)
 7. [📚 References](#-references)
@@ -42,7 +42,7 @@ Static code analysis is essential for maintaining code quality and identifying p
 
 ---
 
-## 💥 Steps to Configuration Python Declarative pipelines for Static Code Analysis
+## 💥 Steps to Configuration Static Code Analysis
 
 ### 1. 🚀 Open your Jenkins Dashboard.
 <img width="944" alt="Dashboard" src="https://github.com/user-attachments/assets/32ea261e-9e15-4dc4-9dfe-237965e974be">
