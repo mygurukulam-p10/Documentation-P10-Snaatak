@@ -24,7 +24,7 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 1. **Jenkins**: Ensure you have a Jenkins instance running.
 2. **Java**: Required to run the built Java application.
 3. **Maven**: Simplifies build management
-4. **Spotbug**: A static analysis tool that finds bugs in Java programs by analyzing bytecode.
+4. **JUnit**: A necessary library for executing the unit tests.
 
 ## 🔍 System Requirements
 | Hardware Specifications | Minimum Requirement  |
