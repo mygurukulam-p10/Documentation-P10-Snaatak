@@ -47,7 +47,7 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 ![3](https://github.com/user-attachments/assets/f8aa2ae9-0333-45b5-83b3-f40fb077dc3a)
 
 ### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Bugs analysis in the pipeline configuration...>Click on Save to store the configuration.
-![4](https://github.com/user-attachments/assets/42e9b6ad-3dc4-4926-ab76-ca077f9fadcf)
+![4](https://github.com/user-attachments/assets/9db9c1ca-337d-4a43-b24c-86d85cf711d2)
 
 
 
