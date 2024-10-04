@@ -29,7 +29,7 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 | Hardware Specifications | Minimum Requirement  |
 |-------------------|---------------------------|
 | **Processor**     | Dual-core CPU             | 
-| **Memory**        | 4 GB RAM                  | 
+| **Memory**        | 2 GB RAM                  | 
 | **Disk Space**    | 10 GB                      | 
 | **OS**            |Ubuntu 22.04 LTS           |
 
