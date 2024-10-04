@@ -5,7 +5,7 @@
 
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
 |--------------------|------------|--------------|--------------------------------|
-| 24-09-2024         | 0.1        | Brij Singh   | Jenkins AWS Infrastructure   |
+| 02-10-2024         | 0.1        | Brij Singh   | Jenkins AWS Infrastructure   |
 
 ## 📑 Table of Contents
 
