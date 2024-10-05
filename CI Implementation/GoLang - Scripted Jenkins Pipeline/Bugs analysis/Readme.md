@@ -52,23 +52,70 @@ This document provides an overview of implementing bug analysis in a Go project 
 
 ### 2. 🚀 Click on **New Item**. 
 **-->** Enter a name for your job (e.g., `Bug Analysis`).
+![Screenshot from 2024-10-05 17-53-20](https://github.com/user-attachments/assets/c5005c0d-6a5b-4420-9095-774dc3269006)
 
 ### 3. 🚀 Provide a description for the pipeline detailing what it will perform.
+![Screenshot from 2024-10-05 17-53-38](https://github.com/user-attachments/assets/ed9a7530-b788-46ac-9a27-8b8962e68460)
 
 ### 4. 🚀 Choose **Pipeline** as the job type. 
-**-->** Add your pipeline script for static code analysis in the pipeline configuration... 
+**-->** Add your pipeline script for bug analysis in the pipeline configuration... 
 **-->** Click on **Save** to store the configuration.
+![Screenshot from 2024-10-05 18-13-20](https://github.com/user-attachments/assets/be9e8ad6-e2dc-4fc9-bec9-42748504cdc0)
 
 ### 5. 🚀 Click on **Build** to run the pipeline for static code analysis.
+![Screenshot from 2024-10-05 17-53-55](https://github.com/user-attachments/assets/505b5117-910b-4e44-93e9-6a19aa6bf0da)
 
 ### 6. 🚀 Now, you should be able to see the build complete.
+![Screenshot from 2024-10-05 18-12-31](https://github.com/user-attachments/assets/e44e97f3-3c40-4a78-a8c8-6fc2ff6f601f)
+
 
 ### 7. 🚀 Click on **Console Output** to see the complete build results.
+![Screenshot from 2024-10-05 18-13-20](https://github.com/user-attachments/assets/88ac7059-2000-4b54-a214-0e4675d3619c)
+![Screenshot from 2024-10-05 18-13-28](https://github.com/user-attachments/assets/59c7a636-42e0-495c-aa12-ad721d360fce)
+
 
 ### 8. 🚀 Review the stages of the static code analysis process in the console output.
+![Screenshot from 2024-10-05 16-47-23](https://github.com/user-attachments/assets/dee17a65-0725-452c-bb9b-2ed12b378663)
 
 
+## Pipeline
+```
 
+
+node {
+    // Define the Go tool name
+    def goTool = tool name: 'golang', type: 'go'
+
+    stage("Checkout") {
+        git branch: 'main', url: 'git@github.com:mygurukulam-p10/employee-api.git', credentialsId: "amit_cred"
+    }
+
+    stage("Install Dependencies") {
+
+        sh "${goTool}/bin/go mod tidy"
+    }
+ 
+        stage("Linting") {
+        script {
+            // Set the PATH to include the Go tool directory
+            env.PATH = "${goTool}/bin:${env.PATH}"
+
+            sh '''
+                echo "Running golangci-lint..."
+                golangci-lint run ./... || true
+            '''
+        }
+    }
+
+    stage('genernate report'){
+        sh 'golangci-lint run ./...  --out-format html > report.html || true'
+
+    
+
+}
+
+
+```
 ## 📛 Conclusion
 Effective bug analysis  helps developers identify and fix issues quickly, ensuring the reliability of their Go applications. By leveraging GoLand's debugging and testing features, the development workflow becomes more efficient, ultimately enhancing code quality.
 
