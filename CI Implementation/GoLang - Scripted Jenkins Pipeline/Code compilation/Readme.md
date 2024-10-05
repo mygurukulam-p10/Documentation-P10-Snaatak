@@ -45,15 +45,17 @@
 # Steps to Configuration Code Compilation
 ### 1. 🚀 Open your Jenkins Dashboard.
 
-
 ### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `Code Compilation`).
+![Screenshot from 2024-10-05 11-42-53](https://github.com/user-attachments/assets/85f6e0ef-e8c7-48d4-a254-a4ee7e806e3d)
 
 
 
 ### 3. 🚀 Provide a description for the pipeline in detail what will perform.
+![Screenshot from 2024-10-05 11-43-43](https://github.com/user-attachments/assets/70b71bf9-2333-46f5-ab21-6ce59dd430d8)
 
 
-### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for code coverage in the pipeline configuration...>Click on Save to store the configuration.
+### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for code compilation in the pipeline configuration...>Click on Save to store the configuration.
+
 
 
 
