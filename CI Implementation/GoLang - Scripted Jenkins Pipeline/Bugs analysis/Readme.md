@@ -48,31 +48,29 @@ This document provides an overview of implementing bug analysis in a Go project 
 
 ## 💥 Steps to Configuration for Bug Analysis
 
-### 1. 🚀 Open GoLand.
+### 1. 🚀 Open your Jenkins Dashboard.
 
-### 2. 🚀 Open your Go project in GoLand.
+### 2. 🚀 Click on **New Item**. 
+**-->** Enter a name for your job (e.g., `Bug Analysis`).
 
-### 3. 🚀 Navigate to **Run** > **Edit Configurations**.
-**-->** Create a new configuration for running tests or debugging the application.
+### 3. 🚀 Provide a description for the pipeline detailing what it will perform.
 
-### 4. 🚀 Select the appropriate **Test** or **Go Build** configuration.
-**-->** Specify the package or directory containing the tests you want to run.
+### 4. 🚀 Choose **Pipeline** as the job type. 
+**-->** Add your pipeline script for static code analysis in the pipeline configuration... 
+**-->** Click on **Save** to store the configuration.
 
-### 5. 🚀 Use the **Debug** feature for live debugging.
-**-->** Set breakpoints in your code where you suspect bugs may exist.
+### 5. 🚀 Click on **Build** to run the pipeline for static code analysis.
 
-### 6. 🚀 Run your tests or the application with the debugging configuration.
-**-->** Monitor the output for any failures or errors during the execution.
+### 6. 🚀 Now, you should be able to see the build complete.
 
-### 7. 🚀 Analyze the output in the **Debug** or **Run** window.
-**-->** Check for stack traces or specific errors that indicate where the bug may be.
+### 7. 🚀 Click on **Console Output** to see the complete build results.
 
-### 8. 🚀 Use GoLand's built-in tools to inspect variables, watch expressions, and step through code execution.
-**-->** Adjust your code based on the insights gained from the analysis.
+### 8. 🚀 Review the stages of the static code analysis process in the console output.
+
 
 
 ## 📛 Conclusion
-Effective bug analysis in GoLand helps developers identify and fix issues quickly, ensuring the reliability of their Go applications. By leveraging GoLand's debugging and testing features, the development workflow becomes more efficient, ultimately enhancing code quality.
+Effective bug analysis  helps developers identify and fix issues quickly, ensuring the reliability of their Go applications. By leveraging GoLand's debugging and testing features, the development workflow becomes more efficient, ultimately enhancing code quality.
 
 ## 📧 Contact Information
 
