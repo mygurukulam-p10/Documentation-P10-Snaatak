@@ -19,7 +19,7 @@
 
 
 ## Introduction 
-This document provides an overview of implementing code compilation in a Go project using a Jenkins declarative pipeline.
+This document provides an overview of implementing code compilation in a Go project using a Jenkins scripted pipeline.
 ## ⚙️ Pre-requisites
 
 | Requirement         | Description                                                                 |
