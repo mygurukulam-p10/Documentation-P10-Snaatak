@@ -10,7 +10,7 @@
 ---
 ## Table of Contents
 1. [💥 Introduction](#-introduction)
-2. [⚙️ Pre-requisites](#⚙️-pre-requisites)
+2. [⚙️ Pre-requisites](#pre-requisites)
 3. [🔍 System Requirements](#-system-requirements)
 4. [💥 Steps to Configuration Code Compilation](#-steps-to-conguration-code-compilation)
 5. [📛 Conclusion](#-conclusion)
