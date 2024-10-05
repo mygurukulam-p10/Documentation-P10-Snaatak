@@ -26,11 +26,11 @@ This document provides an overview of implementing bug analysis in a Go project 
 
 | Requirement          | Description                                                                 |
 |----------------------|-----------------------------------------------------------------------------|
-| **✔️ GoLand**          | GoLand IDE installed and configured for Go development.                    |
-| **✔️ Go**               | Go programming language must be installed on the development machine.      |
-| **✔️ Git**              | Git must be installed for version control and repository management.       |
-| **✔️ Jenkins**          | Jenkins must be installed and configured for continuous integration.        |
-
+| **✔️ Jenkins**          | Jenkins installed and configured for CI/CD processes.                       |
+| **✔️ Go**               | Go programming language must be installed on the Jenkins server.            |
+| **✔️ Git**              | Git must be installed on the Jenkins server for repository checkout.        |
+| **✔️ Git Credentials**  | Add your GitHub credentials (e.g., `git-token`) in Jenkins for repository access. |
+| **✔️ GolangCI-Lint**   | Install GolangCI-Lint on the Jenkins server for static code analysis.       |
 ---
 
 ## 🔍 System Requirements
@@ -82,9 +82,4 @@ Effective bug analysis in GoLand helps developers identify and fix issues quickl
 
 ## 📚 References
 
-| Topic                   | Reference Link                       |
-|-------------------------|-------------------------------------|
-| Go Documentation        | [Go Documentation](https://golang.org/doc/) |
-| GoLand Documentation    | [GoLand Documentation](https://www.jetbrains.com/help/go/GoLand.html) |
-| Go Testing              | [Go Testing Documentation](https://golang.org/pkg/testing/) |
-| Debugging in GoLand     | [Debugging in GoLand](https://www.jetbrains.com/help/go/debug.html) |
+
