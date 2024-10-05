@@ -9,7 +9,6 @@
 - [What is Unit Testing](#what-is-unit-testing)
 - [Why is Unit Testing Important](#why-is-unit-testing-important)
 - [Different Tools for Unit Testing in Java](#different-tools-for-unit-testing-in-java)
-- [Comparison of Unit Testing Tools](#comparison-of-unit-testing-tools)
 - [Advantages of Unit Testing](#advantages-of-unit-testing)
 - [Proof of Concept (POC)](#proof-of-concept-poc)
 - [Best Practices](#best-practices)
@@ -53,15 +52,7 @@ In Java, common unit testing frameworks include JUnit and TestNG. These framewor
 | **AssertJ** | Rich assertion library                        | - More readable assertions                             | - Used as an add-on to JUnit/TestNG                |
 |         | Fluent API for chaining assertions             | - Supports custom assertions                          | - Limited by JUnit/TestNG functionality             |
 |         | Strong IDE support and auto-completion         | - Simplifies writing complex assertions                | - Requires familiarity with functional-style programming |
-                                             |
 
-## Comparison of Unit Testing Tools
-| **Tool**   | **Key Features**                         | **Strengths**                              | **Limitations**                          |
-|------------|------------------------------------------|--------------------------------------------|------------------------------------------|
-| **JUnit**  | Standard, used in most Java projects      | Wide support and integration               | Limited configuration options            |
-| **TestNG** | Flexible with advanced configuration      | Parallel test execution, more options      | Learning curve for beginners             |
-| **Spock**  | Groovy-based, expressive syntax           | Clear, readable tests                      | Learning Groovy is required              |
-| **AssertJ**| Rich assertion library                   | More readable assertions                   | Used as an add-on to JUnit/TestNG        |
 
 ## Advantages of Unit Testing
 | **Benefit**                  | **Explanation**                                                                                      |
