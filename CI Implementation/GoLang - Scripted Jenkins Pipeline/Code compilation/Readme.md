@@ -13,9 +13,10 @@
 2. [⚙️ Pre-requisites](#-pre-requisites)
 3. [🔍 System Requirements](#-system-requirements)
 4. [💥 Steps to Configuration Code Compilation](#-steps-to-conguration-code-compilation)
-5. [📛 Conclusion](#-conclusion)
-6. [📧 Contact Information](#-contact-information)
-7. [📚 References](#-references)
+5. [Pipeline](#pipeline)
+6. [📛 Conclusion](#-conclusion)
+7. [📧 Contact Information](#-contact-information)
+8. [📚 References](#-references)
 
 
 ## ⭐ Introduction 
@@ -83,6 +84,29 @@ This document provides an overview of implementing code compilation in a Go proj
 ![Screenshot from 2024-10-05 12-10-42](https://github.com/user-attachments/assets/a4c8fb82-151a-4de0-87f7-93f29c02e03b)
 
 
+```
+#Pipeline 
+node {
+    // Define the Go tool name
+    def goTool = tool name: 'golang', type: 'go'
+
+    stage("Checkout") {
+        // Checkout the source code from the Git repository
+        git branch: 'main', url: 'git@github.com:mygurukulam-p10/employee-api.git', credentialsId: "amit_cred"
+    }
+
+    stage("Install Dependencies") {
+        // Use the Go tool to tidy dependencies
+        sh "${goTool}/bin/go mod tidy"
+    }
+   
+    stage("Code Compilation") {
+     // Compile the Go application
+    sh "${goTool}/bin/go build -o employee main.go"
+     }
+}
+
+```
 
 ## 🏁 Conclusion
 The code compilation stage successfully transforms the Go source code into an executable binary, ensuring that the application is free from syntax errors and meets the necessary requirements.
