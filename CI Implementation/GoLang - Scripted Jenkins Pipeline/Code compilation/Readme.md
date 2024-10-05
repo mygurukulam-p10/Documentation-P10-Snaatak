@@ -24,10 +24,10 @@
 
 | Requirement          | Specification                                                     |
 |----------------------|-------------------------------------------------------------------|
-| **Processor**        | Minimum 2-core CPU (4-core recommended)                           |
-| **Memory (RAM)**     | Minimum 4 GB (8 GB recommended)                                   |
-| **Storage**          | Minimum 20 GB of free disk space (SSD recommended for performance)|
-| **Operating System** | Ubuntu 20.04 or later (or any compatible Linux distribution)      |
+| **Processor**        | Minimum 2-core CPU                          |
+| **Memory (RAM)**     | Minimum 4 GB                                   |
+| **Storage**          | Minimum 20 GB|
+| **Operating System** | Ubuntu 22.04       |
 
 
 
