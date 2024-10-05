@@ -14,7 +14,7 @@
 2. [⚙️ Pre-requisites](#-pre-requisites)
 3. [🔍 System Requirements](#-system-requirements)
 4. [💥 Steps to Configuration for Bug Analysis](#-steps-to-configuration-for-bug-analysis)
-5. [Bug Analysis Process](#bug-analysis-process)
+5. [Pipeline](#pipeline)
 6. [📛 Conclusion](#-conclusion)
 7. [📧 Contact Information](#-contact-information)
 8. [📚 References](#-references)
