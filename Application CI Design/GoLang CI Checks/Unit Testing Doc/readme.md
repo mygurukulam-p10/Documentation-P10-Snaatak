@@ -99,7 +99,6 @@ We are using Go Testing in our Project.
 | Vinay Bansal | vinay.bansal.snaatak@mygurukulam.co |
 
 # References
-For further reading and resources on GitOps, check out the following:
 
 | Links | Descriptions|
 |------|---------------------|
