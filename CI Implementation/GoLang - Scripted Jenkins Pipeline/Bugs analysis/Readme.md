@@ -1,5 +1,5 @@
 
-# Bug Analysis - GoLand
+# Bug Analysis - Scripted Jenkins Pipeline
 
 ---
 
