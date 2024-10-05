@@ -19,7 +19,7 @@
 
 
 ## 🔍 Purpose 
-The purpose of this document is to provide a comprehensive overview of various tools used in software development and deployment, specifically focusing on Buildpiper, GitLab, and Jenkins. This document aims to help teams and stakeholders understand the functionalities, advantages, and limitations of each tool.
+The purpose of this document is to provide a comprehensive comparison of three major CI Orchestration tools: Buildpiper, GitLab CI/CD, and Jenkins. By analyzing their features, integrations, this document aims to guide teams and organizations in selecting the best platform that fits their development and operational needs.
 
 ## 🌟 Different Tools
 - **Buildpiper**
