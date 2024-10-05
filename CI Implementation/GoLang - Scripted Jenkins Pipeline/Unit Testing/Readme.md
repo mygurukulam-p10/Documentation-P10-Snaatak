@@ -84,9 +84,6 @@ node {
 
     stage("Unit Testing") {
         script {
-            // Set the PATH to include the Go tool directory
-            env.PATH = "${goTool}/bin:${env.PATH}"
-
             sh '''
                 echo "Running unit tests..."
                 go test ./... -v
