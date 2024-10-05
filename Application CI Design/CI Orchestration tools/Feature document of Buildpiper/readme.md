@@ -5,7 +5,7 @@
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-|  Vinay Bansal | 25-09-24    | Version 1  | Vinay Bansal     | 26-09-24       |
+|  Vinay Bansal | 25-09-24    | Version 1  | Vinay Bansal     | 02-10-24       |
 
 # Table of Content 
 1. [🔍 Purpose](#-purpose)
