@@ -18,6 +18,8 @@
 7. [📚 References](#-references)
 
 
+## Introduction 
+This document provides an overview of implementing code compilation in a Go project using a Jenkins declarative pipeline.
 ## ⚙️ Pre-requisites
 
 | Requirement         | Description                                                                 |
