@@ -83,9 +83,9 @@ This document provides an overview of implementing code compilation in a Go proj
 ### 8.🚀 Review the stages of the build process in the console output.
 ![Screenshot from 2024-10-05 12-10-42](https://github.com/user-attachments/assets/a4c8fb82-151a-4de0-87f7-93f29c02e03b)
 
-
+# Pipeline
 ```
-#Pipeline 
+
 node {
     // Define the Go tool name
     def goTool = tool name: 'golang', type: 'go'
