@@ -56,21 +56,45 @@
 
 ### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for code compilation in the pipeline configuration...>Click on Save to store the configuration.
 
+![Screenshot from 2024-10-05 12-05-35](https://github.com/user-attachments/assets/57cbffb8-526d-41f1-91c4-920cf2b0b84d)
 
 
 
 ### 5. 🚀 Then Click on build to run the pipeline to perform
-
+![Screenshot from 2024-10-05 12-11-28](https://github.com/user-attachments/assets/7548fea1-4c3e-4c87-87af-a10ce3241090)
 
 
 ### 6.🚀 Now we are able to see build complete-
 
+![Screenshot from 2024-10-05 12-13-09](https://github.com/user-attachments/assets/62f3a6fa-7a94-4aa7-8b88-9dbaaaf1ebd6)
 
 
 ### 7.🚀 Click on Console Output to see the complete build.
+![Screenshot from 2024-10-05 12-07-04](https://github.com/user-attachments/assets/6bdf0edc-e00e-4cb3-8d51-f015f089da8e)
 
+![Screenshot from 2024-10-05 12-10-02](https://github.com/user-attachments/assets/f7c9c60a-02ca-4386-94f1-9b18a85ca978)
 
+![Screenshot from 2024-10-05 12-10-08](https://github.com/user-attachments/assets/b615a9ee-0b4b-4917-90ad-64f7fc425bb9)
 
 ### 8.🚀 Review the stages of the build process in the console output.
+![Screenshot from 2024-10-05 12-10-42](https://github.com/user-attachments/assets/a4c8fb82-151a-4de0-87f7-93f29c02e03b)
 
 ---
+
+# Conclusion
+The code compilation stage successfully transforms the Go source code into an executable binary, ensuring that the application is free from syntax errors and meets the necessary requirements.
+
+## Contact Information
+
+| Name       | Email address     |
+|------------|-------------------|
+| Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
+
+## References
+
+| Topic                   | Reference Link                                           |
+|-------------------------|---------------------------------------------------------|
+| Go Build and Test       | [Go Build and Test Documentation](https://golang.org/doc/code.html)  |
+| Go Command              | [Go Command](https://golang.org/ref/go)                |
+| Jenkins Pipeline        | [Jenkins Pipeline](https://www.jenkins.io/doc/book/pipeline/) |
+| Go Testing              | [Go Testing](https://golang.org/pkg/testing/)          |
