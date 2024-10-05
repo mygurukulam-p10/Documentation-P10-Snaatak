@@ -47,5 +47,32 @@
 
 
 # Steps to Configuration Code Compilation
+### 1. 🚀 Open your Jenkins Dashboard.
 
-1) Create a pipeline job called golang-code-compilation
+
+### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `Code Compilation`).
+
+
+
+### 3. 🚀 Provide a description for the pipeline in detail what will perform.
+
+
+### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for code coverage in the pipeline configuration...>Click on Save to store the configuration.
+
+
+
+### 5. 🚀 Then Click on build to run the pipeline to perform
+
+
+
+### 6.🚀 Now we are able to see build complete-
+
+
+
+### 7.🚀 Click on Console Output to see the complete build.
+
+
+
+### 8.🚀 Review the stages of the build process in the console output.
+
+---
