@@ -96,6 +96,10 @@ mvn spotbugs:spotbugs
 ```
 
 ![Screenshot from 2024-09-28 13-24-48](https://github.com/user-attachments/assets/080df602-18b9-4f32-8b71-967fd3cfb6aa)
+Here is the report you will get on path (target/spotbugs.html)(target/spotbugsXml.xml)
+
+![Screenshot from 2024-10-05 19-41-41](https://github.com/user-attachments/assets/7440e4af-fef8-440d-9a26-c294595e49e5)
+
 
 ## Conclusion
 This POC shows how integrating SpotBugs with Maven helps in detecting and analyzing code bugs and security vulnerabilities in the "salary-api" project. It provides easy-to-read reports (HTML/XML) that allow developers to identify, prioritize, and resolve issues early in the development process, improving both code quality and security.
