@@ -22,11 +22,13 @@
 This document provides an overview of implementing code compilation in a Go project using a Jenkins scripted pipeline.
 ## ⚙️ Pre-requisites
 
-| Requirement         | Description                                                                 |
-|---------------------|-----------------------------------------------------------------------------|
-| **Jenkins**          | Jenkins installed and configured.                                           |
+| Requirement          | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| **Jenkins**          | Jenkins installed and configured for CI/CD processes.                       |
+| **Go**               | Go programming language must be installed on the Jenkins server.            |
 | **Git**              | Git must be installed on the Jenkins server for repository checkout.        |
-| **Git Credentials**  | Add your GitHub credentials (e.g., `git-token`) in Jenkins for repository access.|
+| **Git Credentials**  | Add your GitHub credentials (e.g., `git-token`) in Jenkins for repository access. |
+.|
 
 ---
 
