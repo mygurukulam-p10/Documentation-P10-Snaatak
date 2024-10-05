@@ -55,6 +55,7 @@ This document provides an overview of implementing unit testing in a Go project 
 ![Screenshot from 2024-10-05 16-38-53](https://github.com/user-attachments/assets/1c1e543d-fe5d-40db-ac7e-b1efabf71c3b)
 
 ### 3. 🚀 Provide a description for the pipeline detailing what it will perform.
+![Screenshot from 2024-10-05 16-51-50](https://github.com/user-attachments/assets/7b04590f-5f0a-4886-8d46-62cfc2c2473a)
 
 ### 4. 🚀 Choose **Pipeline** as the job type. 
 **-->** Add your pipeline script for unit testing in the pipeline configuration... 
