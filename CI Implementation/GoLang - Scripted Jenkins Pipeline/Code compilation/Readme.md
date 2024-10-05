@@ -12,7 +12,7 @@
 1. [💥 Introduction](#-introduction)
 2. [⚙️ Pre-requisites](#-pre-requisites)
 3. [🔍 System Requirements](#-system-requirements)
-4. [💥 Steps to Configuration Code compilation](#-steps-to-conguration-code-compilation)
+4. [💥 Steps to Configuration Code Compilation](#-steps-to-conguration-code-compilation)
 5. [📛 Conclusion](#-conclusion)
 6. [📧 Contact Information](#-contact-information)
 7. [📚 References](#-references)
