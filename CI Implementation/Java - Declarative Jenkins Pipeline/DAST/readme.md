@@ -41,10 +41,13 @@ This document outlines how to set up a Declarative Jenkins Pipeline for DAST usi
 ![1](https://github.com/user-attachments/assets/59bb5e6e-68e1-4d41-8147-cd7acceeb2d8)
 
 ### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `DAST`).
+![2](https://github.com/user-attachments/assets/4ec96951-e3bb-4de2-a0ee-55350a9cb889)
 
 ### 3. 🚀 Provide a description for the pipeline that performs DAST.
+![3](https://github.com/user-attachments/assets/de0685e5-2982-4653-8e94-c76dc8ca765a)
 
 ### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for DAST in the pipeline configuration...>Click on Save to store the configuration.
+![4](https://github.com/user-attachments/assets/78e24a90-955f-490c-93ae-954555106842)
 
 
 
@@ -52,13 +55,17 @@ This document outlines how to set up a Declarative Jenkins Pipeline for DAST usi
 <img width="952" alt="build" src="https://github.com/user-attachments/assets/8e0b140e-3cb9-4b40-babd-75fb6963a653">
 
 ### 6.🚀 Now we are able to see build complete-
+![6](https://github.com/user-attachments/assets/e22b3868-193c-4bca-ada6-3df5d1173088)
 
 ### 7.🚀 Click on Console Output to see the complete build.
 
+![7](https://github.com/user-attachments/assets/3c637f46-42b9-451f-8242-682cb7e97dd2)
+![8](https://github.com/user-attachments/assets/c2403f61-89bf-4a2b-87ec-d186f782616f)
 
 
 
 ### 9.🚀 Review the stages of the build process in the console output.
+![9](https://github.com/user-attachments/assets/5e509411-232f-428f-bac8-f64e9b5622cb)
 
 
 ## 📛 Conclusion
@@ -74,6 +81,6 @@ In this Proof of Concept (PoC), OWASP ZAP was used to perform Dynamic Applicatio
 ## 📚 References
 | Links | Descriptions|
 |------|---------------------|
-
-||(POC): DAST|
+|https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/Application%20CI%20Design/Java%20CI%20checks/DAST/DAST%20DOC|(DOC): DAST|
+|https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/Application%20CI%20Design/Java%20CI%20checks/DAST/DAST%20POC|(POC): DAST|
 
