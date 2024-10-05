@@ -1,7 +1,7 @@
 
 # Comparison and Final Tool for CI/CD
 
-|![buildpiper](https://github.com/user-attachments/assets/0d027906-2d9b-41d0-9ed3-132ffbcc5541)![gitlab](https://github.com/user-attachments/assets/b6b9e5ec-5a42-45c0-8a9e-ba7ed98c3061)![jenkins](https://github.com/user-attachments/assets/c11beeb0-c54c-4f7b-862c-89d5c1670d70)
+![buildpiper](https://github.com/user-attachments/assets/0d027906-2d9b-41d0-9ed3-132ffbcc5541)![gitlab](https://github.com/user-attachments/assets/b6b9e5ec-5a42-45c0-8a9e-ba7ed98c3061)![jenkins](https://github.com/user-attachments/assets/c11beeb0-c54c-4f7b-862c-89d5c1670d70)
 
 
 
@@ -13,7 +13,7 @@
 1. [🔍 Purpose](#-purpose)
 2. [🌟 Different Tools](#-different-tools)
 3. [🛠️ Comparison table](#-comparison-table)
-4. [📜 Recommendation](#-recommendation )
+4. [📜 Conclusion](#-conclusion)
 5. [📧 Contact Information ](#-contact-information )
 6. [📚 References](#-references ) 
 
@@ -45,8 +45,15 @@ The purpose of this document is to provide a comprehensive comparison of three m
 |**Cost**|	Subscription-based, varies by plan and usage|	Free and paid plans (starting from $19/user/month)	|Free (open-source), but infrastructure costs apply|
 
 
-## 📜 Recommendation
-- **Jenkins**:Jenkins is an excellent choice for teams looking for a powerful, flexible, and community-supported CI/CD tool. Its extensibility and strong CI capabilities make it particularly suitable for complex development environments and diverse project requirements. While it may require some initial setup and ongoing management, the benefits it provides can greatly enhance productivity and collaboration in software development.
+## 📜 Conclusion
+The choice between Buildpiper, GitLab CI/CD, and Jenkins depends on your organization's specific needs:
+
+- Select **Buildpiper** for simplicity and ease of use.
+- Opt for **GitLab CI/CD** if you need a complete DevOps solution with integrated CI/CD.
+- Choose **Jenkins** Organizations needing a highly customizable and extensible CI/CD solution.
+
+### Which is Best?
+- We are using **Jenkins** in our project. Jenkins is an excellent choice for teams looking for a powerful, flexible, and community-supported CI/CD tool. Its extensibility and strong CI capabilities make it particularly suitable for complex development environments and diverse project requirements. While it may require some initial setup and ongoing management, the benefits it provides can greatly enhance productivity and collaboration in software development.
 
   
  ## 📧 Contact Information 
