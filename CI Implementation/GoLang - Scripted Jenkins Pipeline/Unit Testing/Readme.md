@@ -52,20 +52,28 @@ This document provides an overview of implementing unit testing in a Go project 
 
 ### 2. 🚀 Click on **New Item**. 
 **-->** Enter a name for your job (e.g., `Unit Testing`).
+![Screenshot from 2024-10-05 16-38-53](https://github.com/user-attachments/assets/1c1e543d-fe5d-40db-ac7e-b1efabf71c3b)
 
 ### 3. 🚀 Provide a description for the pipeline detailing what it will perform.
 
 ### 4. 🚀 Choose **Pipeline** as the job type. 
 **-->** Add your pipeline script for unit testing in the pipeline configuration... 
 **-->** Click on **Save** to store the configuration.
+![Screenshot from 2024-10-05 16-46-28](https://github.com/user-attachments/assets/8d0576ce-ffbe-4b19-9423-f476db4db53f)
 
 ### 5. 🚀 Click on **Build** to run the pipeline for unit testing.
+![Screenshot from 2024-10-05 16-39-44](https://github.com/user-attachments/assets/f858f2c1-ad1d-4cae-931f-64341b956a87)
 
 ### 6. 🚀 Now, you should be able to see the build complete.
+![Screenshot from 2024-10-05 16-46-45](https://github.com/user-attachments/assets/56ead5a2-e956-4aba-8643-48c91018c420)
 
 ### 7. 🚀 Click on **Console Output** to see the complete build results.
+![Screenshot from 2024-10-05 16-45-58](https://github.com/user-attachments/assets/fba85534-e64b-4c33-bb79-7dc8223aeb25)
+![Screenshot from 2024-10-05 16-46-06](https://github.com/user-attachments/assets/beb22ec8-12ce-4a1b-a8f3-a55625faa6b1)
+
 
 ### 8. 🚀 Review the results of the unit testing process in the console output.
+![Screenshot from 2024-10-05 16-47-23](https://github.com/user-attachments/assets/bc3a7d99-0190-4390-8480-ce501a7fafc4)
 
 # Pipeline
 
