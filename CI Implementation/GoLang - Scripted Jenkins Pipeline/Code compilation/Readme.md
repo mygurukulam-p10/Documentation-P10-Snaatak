@@ -18,17 +18,18 @@
 7. [📚 References](#-references)
 
 
-## Introduction 
+## ⭐ Introduction 
 This document provides an overview of implementing code compilation in a Go project using a Jenkins scripted pipeline.
+
 ## ⚙️ Pre-requisites
 
 | Requirement          | Description                                                                 |
 |----------------------|-----------------------------------------------------------------------------|
-| **Jenkins**          | Jenkins installed and configured for CI/CD processes.                       |
-| **Go**               | Go programming language must be installed on the Jenkins server.            |
-| **Git**              | Git must be installed on the Jenkins server for repository checkout.        |
-| **Git Credentials**  | Add your GitHub credentials (e.g., `git-token`) in Jenkins for repository access. |
-.|
+| **✔️ Jenkins**          | Jenkins installed and configured for CI/CD processes.                       |
+| **✔️ Go**               | Go programming language must be installed on the Jenkins server.            |
+| **✔️ Git**              | Git must be installed on the Jenkins server for repository checkout.        |
+| **✔️ Git Credentials**  | Add your GitHub credentials (e.g., `git-token`) in Jenkins for repository access. |
+
 
 ---
 
@@ -81,18 +82,18 @@ This document provides an overview of implementing code compilation in a Go proj
 ### 8.🚀 Review the stages of the build process in the console output.
 ![Screenshot from 2024-10-05 12-10-42](https://github.com/user-attachments/assets/a4c8fb82-151a-4de0-87f7-93f29c02e03b)
 
----
 
-## Conclusion
+
+## 🏁 Conclusion
 The code compilation stage successfully transforms the Go source code into an executable binary, ensuring that the application is free from syntax errors and meets the necessary requirements.
 
-## Contact Information
+## 📞 Contact Information
 
 | Name       | Email address     |
 |------------|-------------------|
 | Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
 
-## References
+## 📚 References
 
 | Topic                   | Reference Link                                           |
 |-------------------------|---------------------------------------------------------|
@@ -100,3 +101,4 @@ The code compilation stage successfully transforms the Go source code into an ex
 | Go Command              | [Go Command](https://golang.org/ref/go)                |
 | Jenkins Pipeline        | [Jenkins Pipeline](https://www.jenkins.io/doc/book/pipeline/) |
 | Go Testing              | [Go Testing](https://golang.org/pkg/testing/)          |
+
