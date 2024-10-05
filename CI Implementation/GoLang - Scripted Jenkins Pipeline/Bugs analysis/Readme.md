@@ -70,31 +70,6 @@ This document provides an overview of implementing bug analysis in a Go project 
 ### 8. 🚀 Use GoLand's built-in tools to inspect variables, watch expressions, and step through code execution.
 **-->** Adjust your code based on the insights gained from the analysis.
 
-## Bug Analysis Process
-
-### 1. **Identify the Bug**
-- Review the reported bug, error messages, or stack traces to determine the expected vs. actual behavior of the application.
-
-### 2. **Reproduce the Issue**
-- Attempt to reproduce the bug by following the steps outlined in the bug report. This helps verify its existence and understand its scope.
-
-### 3. **Analyze the Code**
-- Use GoLand's features such as code navigation, search, and refactoring tools to analyze the relevant sections of code associated with the bug.
-
-### 4. **Run Tests**
-- Execute any existing unit tests or write new ones that cover the buggy functionality to confirm whether the tests pass or fail.
-
-### 5. **Implement Fixes**
-- Modify the code to fix the bug. Ensure that the changes maintain existing functionality and don’t introduce new issues.
-
-### 6. **Retest**
-- Rerun the tests to ensure the bug is resolved and the application behaves as expected.
-
-### 7. **Document Changes**
-- Update any relevant documentation, including comments in the code, issue tracking systems, or user-facing documentation to reflect the changes made.
-
-### 8. **Deploy Changes**
-- Once verified, deploy the changes to the appropriate environment, ensuring that the bug is resolved in production.
 
 ## 📛 Conclusion
 Effective bug analysis in GoLand helps developers identify and fix issues quickly, ensuring the reliability of their Go applications. By leveraging GoLand's debugging and testing features, the development workflow becomes more efficient, ultimately enhancing code quality.
