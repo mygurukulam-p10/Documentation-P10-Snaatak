@@ -107,7 +107,7 @@ node {
 }
 
 
-``
+```
 ## 📛 Conclusion
 The static code analysis stage successfully analyzes the Go source code for adherence to coding standards, ensuring that the application is free from common issues and follows best practices.
 
