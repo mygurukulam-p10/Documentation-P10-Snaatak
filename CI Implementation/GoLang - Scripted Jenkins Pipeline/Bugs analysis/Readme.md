@@ -29,7 +29,7 @@ This document provides an overview of implementing bug analysis in a Go project 
 | **✔️ GoLand**          | GoLand IDE installed and configured for Go development.                    |
 | **✔️ Go**               | Go programming language must be installed on the development machine.      |
 | **✔️ Git**              | Git must be installed for version control and repository management.       |
-| **✔️ Project Setup**    | A Go project must be set up and properly configured in GoLand.            |
+| **✔️ Jenkins**          | Jenkins must be installed and configured for continuous integration.        |
 
 ---
 
