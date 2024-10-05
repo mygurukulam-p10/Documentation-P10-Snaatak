@@ -12,12 +12,8 @@
 
 | Requirement         | Description                                                                 |
 |---------------------|-----------------------------------------------------------------------------|
-| **Python Version**   | Python 3.10 or later.                                                       |
 | **Jenkins**          | Jenkins installed and configured.                                           |
 | **Git**              | Git must be installed on the Jenkins server for repository checkout.        |
-| **Python3-venv**     | Install the `python3-venv` package on the Jenkins server for virtualenv setup.|
-| **pip**              | Python package installer (pip) must be available to install dependencies.   |
-| **pytest**           | pytest and pytest-cov packages must be installed for testing and coverage.  |
 | **Git Credentials**  | Add your GitHub credentials (e.g., `git-token`) in Jenkins for repository access.|
 
 ---
