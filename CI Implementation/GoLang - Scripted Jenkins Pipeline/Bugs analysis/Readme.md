@@ -83,3 +83,9 @@ Effective bug analysis in GoLand helps developers identify and fix issues quickl
 ## 📚 References
 
 
+| Topic                   | Reference Link                                           |
+|-------------------------|---------------------------------------------------------|
+| Go Build and Test       | [Go Build and Test Documentation](https://golang.org/doc/code.html)  |
+| Go Command              | [Go Command](https://golang.org/ref/go)                |
+| Jenkins Pipeline        | [Jenkins Pipeline](https://www.jenkins.io/doc/book/pipeline/) |
+| GolangCI-Lint          | [GolangCI-Lint Documentation](https://golangci-lint.run) |
