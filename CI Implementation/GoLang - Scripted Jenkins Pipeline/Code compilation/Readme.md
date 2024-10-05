@@ -7,6 +7,16 @@
 |-------------|-------------|------------|-----------------|----------------|
 | Amit Nagar | 05-10-2024  | Version 1  | Amit Nagar   | 05-10-2024     |
 
+---
+## Table of Contents
+1. [💥 Introduction](#-introduction)
+2. [⚙️ Pre-requisites](#-pre-requisites)
+3. [🔍 System Requirements](#-system-requirements)
+4. [💥 Steps to Configuration Code compilation](#-steps-to-conguration-code-compilation)
+5. [📛 Conclusion](#-conclusion)
+6. [📧 Contact Information](#-contact-information)
+7. [📚 References](#-references)
+
 
 ## ⚙️ Pre-requisites
 
@@ -28,18 +38,6 @@
 | **Memory (RAM)**     | Minimum 4 GB                                   |
 | **Storage**          | Minimum 20 GB|
 | **Operating System** | Ubuntu 22.04       |
-
-
-
----
-## Table of Contents
-1. [💥 Introduction](#-introduction)
-2. [⚙️ Pre-requisites](#-pre-requisites)
-3. [🔍 System Requirements](#-system-requirements)
-4. [💥 Steps to Configuration Code compilation](#-steps-to-conguration-code-compilation)
-5. [📛 Conclusion](#-conclusion)
-6. [📧 Contact Information](#-contact-information)
-7. [📚 References](#-references)
 
 
 # Steps to Configuration Code Compilation
