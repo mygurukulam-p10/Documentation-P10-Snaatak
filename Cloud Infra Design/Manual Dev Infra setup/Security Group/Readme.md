@@ -73,12 +73,18 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 
 1. **Create a New Security Group** by clicking **Create Security Group**, or select an existing one.
 2. Provide a **name**, **description**, and **VPC assignment** for your new security group.
+![image](https://github.com/user-attachments/assets/eb09ab96-2c8a-4b8d-a29d-24113e235fbc)
 
 
 ### Step 5: Define Inbound Rules
 
 1. Click the **Inbound Rules** tab.
-2. Click **Edit Inbound Rules** and add rules based on your requirements:
+   ![image](https://github.com/user-attachments/assets/96716ab8-c53e-4f10-9afb-04e9c50ffd8a)
+
+3. Click **Edit Inbound Rules** and add rules based on your requirements:
+ ![image](https://github.com/user-attachments/assets/c99906d1-c159-41da-91b6-b6d73539b060)
+
+
 
 | Security Group Name | Port  | Source          |
 |---------------------|-------|-----------------|
@@ -89,7 +95,11 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 ### Step 6: Define Outbound Rules
 
 1. Click the **Outbound Rules** tab.
-2. Click **Edit Outbound Rules** and set outbound traffic settings:
+   ![image](https://github.com/user-attachments/assets/7f7acee0-ef63-4149-878a-cecafedec25b)
+
+3. Click **Edit Outbound Rules** and set outbound traffic settings:
+   ![image](https://github.com/user-attachments/assets/3c352fec-fdff-42a7-82d4-e62e30a3b6ac)
+
 
 | Security Group Name | Port        | Protocol  | Destination  |
 |---------------------|-------------|-----------|--------------|
