@@ -75,7 +75,6 @@ This document provides an overview of integrating Dynamic Application Security T
 ### 7. 🚀 Analyze the vulnerabilities identified by OWASP ZAP, and export the report for further review.  
 ![Screenshot from 2024-10-07 00-23-16](https://github.com/user-attachments/assets/c91d898d-a6c7-4bc4-880b-f634641b083e)
 
-
 ## Pipeline
 ```
 node {
