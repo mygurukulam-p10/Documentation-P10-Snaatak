@@ -13,7 +13,7 @@
 1. [💥 Introduction](#-introduction)
 2. [⚙️ Pre-requisites](#-pre-requisites)
 3. [🔍 System Requirements](#-system-requirements)
-4. [💥 Steps to Configuration Scripted pipelines for License scanning](#-steps-to-conguration-scripted-pipelines-for-license-scanning)
+4. [💥 Steps to Configuration Scripted pipelines for License Scanning](#-steps-to-configuration-scripted-pipelines-for-license-scanning)
 5. [📛 Conclusion](#-conclusion)
 6. [📧 Contact Information](#-contact-information)
 7. [📚 References](#-references)
@@ -24,7 +24,7 @@ This document outlines the process for setting up **Trivy** to perform license s
 
 ---
 
-## ⚙️ Pre-requisites
+## ⚙ Pre-requisites
 1. **Trivy**: Trivy, for performing the license scanning.
 2. **Jenkins**: If you are integrating license scanning in a pipeline, ensure you have a CI/CD tool like Jenkins set up.
 3. **Git**: Your project repository should be accessible via Git, and Git should be installed on the system where Trivy will run.
@@ -39,7 +39,7 @@ This document outlines the process for setting up **Trivy** to perform license s
 
 ---
 
-## 💥 Steps to Configuration Scripted pipelines for License scanning
+## 💥 Steps to Configuration Scripted pipelines for License Scanning
 
 ### 1. 🚀 Open your Jenkins Dashboard.
 ![10](https://github.com/user-attachments/assets/11ac0745-d068-436d-9f97-6a6d356be797)
