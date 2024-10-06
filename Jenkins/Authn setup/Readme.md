@@ -104,10 +104,25 @@ Here are different ways to prove the concept of authentication in Jenkins:
 
 ### 1. Install GitHub Authentication Plugin
 - Go to **Manage Jenkins** > **Manage Plugins**.
+  ![image](https://github.com/user-attachments/assets/41758104-dd3f-4344-b4a4-c0caba44c605)
+![image](https://github.com/user-attachments/assets/68664af8-b2e7-47fe-8e6d-c8ea39a71d2a)
+
 - Search for and install **GitHub Authentication Plugin**.
+  ![image](https://github.com/user-attachments/assets/5c1c07aa-c225-4efb-8884-2d172ab4019d)
+![image](https://github.com/user-attachments/assets/b91535db-a253-41a5-9fab-3acfc0d5f475)
+
 
 ### 2. Configure GitHub Authentication
-- Go to **Manage Jenkins** > **Configure Global Security**.
+After installing the plugin, go back to the Jenkins dashboard
+![image](https://github.com/user-attachments/assets/2013290b-96f9-4c6d-939e-ce043618d307)
+
+Select "Configure Global Security
+
+![image](https://github.com/user-attachments/assets/78c1e4b6-55de-4ed2-8b11-13cca520e8b4)
+
+
+- Go to **Manage Jenkins** >
+ -**Configure Global Security**.
 - Under **Security Realm**, choose **GitHub Authentication Plugin**.
 - Set up an OAuth app on GitHub and enter the required info:
     - **Client ID** and **Client Secret** from GitHub.
