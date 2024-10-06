@@ -140,4 +140,4 @@ NAT Gateways, Internet Gateways, and Route Tables are essential components in AW
 
 | Name             | Email                        |
 |------------------|------------------------------|
-| Komal Jaiswal    | komal.jaiswal@example.com    |
+| Komal Jaiswal    | komal.jaiswal.snaatak@mygurukulam.co|
