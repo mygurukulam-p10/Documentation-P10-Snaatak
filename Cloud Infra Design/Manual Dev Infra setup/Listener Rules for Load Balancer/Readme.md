@@ -31,8 +31,7 @@ This guide will walk you through the steps of setting up **listener rules** to r
 
 ## 🔧 Pre-requisites
 * 🛠️ **Access** to the AWS Management Console or AWS CLI with the necessary permissions.
-* 📄 **Understanding** of your application's [network requirements](https://github.com/CodeOps-Hub/Documentation/blob/main/Application_CI/Design/09-%20Cloud%20Infra%20Design/Cloud-Infra-Design-Dev.md).
-
+* 📄 **Understanding** of your application's 
 ---
 
 ## 🚀 Steps to Setup Listener Rules
@@ -91,6 +90,6 @@ For any queries or further information, feel free to contact:
 | Description              | Link                                                                 |
 | ------------------------ | -------------------------------------------------------------------- |
 | Documentation Template   | [Application Template](https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template) |
-| Dev Infra Design         | [Cloud Infra Design](https://github.com/CodeOps-Hub/Documentation/blob/main/Application_CI/Design/09-%20Cloud%20Infra%20Design/Cloud-Infra-Design-Dev.md) |
+
 | Listener Rules           | [AWS Documentation](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/listener-update-rules.html) |
 
