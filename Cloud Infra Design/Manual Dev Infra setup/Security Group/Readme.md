@@ -1,4 +1,4 @@
-# 🔒 Security Group Setup (Salary API)
+![image](https://github.com/user-attachments/assets/1c690ac3-0739-47b7-96e1-8c6ab253820e)# 🔒 Security Group Setup (Salary API)
 
 
 |
@@ -73,16 +73,19 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 
 1. **Create a New Security Group** by clicking **Create Security Group**, or select an existing one.
 2. Provide a **name**, **description**, and **VPC assignment** for your new security group.
-![image](https://github.com/user-attachments/assets/eb09ab96-2c8a-4b8d-a29d-24113e235fbc)
+![image](https://github.com/user-attachments/assets/ab6550ac-146e-4e71-8927-d95845d32e88)
+
 
 
 ### Step 5: Define Inbound Rules
 
 1. Click the **Inbound Rules** tab.
-   ![image](https://github.com/user-attachments/assets/96716ab8-c53e-4f10-9afb-04e9c50ffd8a)
+  ![image](https://github.com/user-attachments/assets/e380f43f-989a-4731-b4b6-2bc995acfbeb)
 
-3. Click **Edit Inbound Rules** and add rules based on your requirements:
- ![image](https://github.com/user-attachments/assets/c99906d1-c159-41da-91b6-b6d73539b060)
+
+2. Click **Edit Inbound Rules** and add rules based on your requirements:
+   ![image](https://github.com/user-attachments/assets/fcdef1dd-e3c8-4e02-adab-f4006be92cce)
+
 
 
 
@@ -95,10 +98,12 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 ### Step 6: Define Outbound Rules
 
 1. Click the **Outbound Rules** tab.
-   ![image](https://github.com/user-attachments/assets/7f7acee0-ef63-4149-878a-cecafedec25b)
+  ![image](https://github.com/user-attachments/assets/c7ee7f89-89aa-4077-a220-a33f6f5b6cf3)
+
 
 3. Click **Edit Outbound Rules** and set outbound traffic settings:
-   ![image](https://github.com/user-attachments/assets/3c352fec-fdff-42a7-82d4-e62e30a3b6ac)
+   ![image](https://github.com/user-attachments/assets/1f8493ab-0ccf-4f3b-b9c8-63c811669a70)
+
 
 
 | Security Group Name | Port        | Protocol  | Destination  |
