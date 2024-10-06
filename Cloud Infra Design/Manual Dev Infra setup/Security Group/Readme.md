@@ -1,7 +1,7 @@
 # 🔒 Security Group Setup (Salary API)
 
 
-|
+
 | 📅 CREATED/UPDATED | 📋 VERSION | 👨‍💻 AUTHOR | 📝 COMMENT |
 |--------------------|------------|--------------|--------------------------------|
 | 05-10-2024         | 0.1        | Brij Singh   | Security Group Setup              |
