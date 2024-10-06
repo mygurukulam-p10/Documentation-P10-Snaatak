@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1c690ac3-0739-47b7-96e1-8c6ab253820e)# 🔒 Security Group Setup (Salary API)
+# 🔒 Security Group Setup (Salary API)
 
 
 |
@@ -101,8 +101,9 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
   ![image](https://github.com/user-attachments/assets/c7ee7f89-89aa-4077-a220-a33f6f5b6cf3)
 
 
-3. Click **Edit Outbound Rules** and set outbound traffic settings:
-   ![image](https://github.com/user-attachments/assets/1f8493ab-0ccf-4f3b-b9c8-63c811669a70)
+2. Click **Edit Outbound Rules** and set outbound traffic settings:
+![image](https://github.com/user-attachments/assets/717d9433-5af4-4685-aa18-3ba6f7013e5e)
+
 
 
 
