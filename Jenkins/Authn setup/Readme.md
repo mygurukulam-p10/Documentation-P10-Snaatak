@@ -1,6 +1,4 @@
-# Saving the simplified README as a markdown file
 
-readme_content = """
 # 🛡️ Authentication in Jenkins
 
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
