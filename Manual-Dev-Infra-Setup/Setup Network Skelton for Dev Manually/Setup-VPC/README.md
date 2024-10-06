@@ -1,4 +1,9 @@
-# 🌐 AWS Virtual Private Cloud (VPC) Overview
+# 🌐 Setup AWS Virtual Private Cloud (VPC)-Documentation
+
+| Author      | Created on  | Version    | Last updated by | Last edited on | Reviewed By L0 | Reviewed By L1 | Reviewed By L2 |
+|-------------|-------------|------------|-----------------|----------------|----------------|----------------|----------------| 
+| Komal       | 3-10-24    | Version 1  | Komal Jaiswal   | 06-10-24       |                  |               |                |
+ 
 
 An **AWS Virtual Private Cloud (VPC)** is a secure, isolated section of the AWS cloud where users can define and manage their virtual networks. VPCs offer the flexibility to design a network environment with granular control over IP address ranges, subnets, route tables, and security settings, making it a powerful tool for hosting applications and data securely in the cloud.
 
