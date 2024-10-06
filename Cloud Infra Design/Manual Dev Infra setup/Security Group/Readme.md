@@ -42,8 +42,8 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 
 | Security Group Name | Port  | Source                |
 |---------------------|-------|-----------------------|
-| Backend-sg          | 22    | 20.0.0.0/28           |
-| Backend-sg          | 8080  | Frontend-lb-sg        |
+| Salary-Devb-SG        | 22    | 20.0.0.0/28           |
+| Salary-Devb-SG          | 8080  | Frontend-lb-sg        |
 
 ### Outbound Rules
 
@@ -91,8 +91,8 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 
 | Security Group Name | Port  | Source          |
 |---------------------|-------|-----------------|
-| Backend-sg          | 22    | 20.0.0.0/28     |
-| Backend-sg          | 8080  | Frontend-lb-sg  |
+| Salary-Devb-SG         | 22    | 20.0.0.0/28     |
+| Salary-Devb-SG        | 8080  | Frontend-lb-sg  |
 
 
 ### Step 6: Define Outbound Rules
