@@ -64,30 +64,41 @@ In this section, we create a development environment infrastructure with two pub
 
 1. **Public Subnet 1**  
    - **Purpose**: Used for internet-facing resources such as load balancers and NAT gateways.
-   - **CIDR**: Specify the CIDR block for this subnet.
+   - **CIDR**: 10.0.1.0/27
    - **Route Table**: Associated with a route table that directs traffic to the internet gateway.
+
+![image](https://github.com/user-attachments/assets/041333c5-fd81-453f-a1d6-f06eec296ed1)
 
 2. **Public Subnet 2**  
    - **Purpose**: Provides redundancy and load balancing for internet-facing applications.
-   - **CIDR**: Specify the CIDR block for this subnet.
+   - **CIDR**: 10.0.1.32/28
    - **Route Table**: Also connected to the internet gateway for public access.
+![image](https://github.com/user-attachments/assets/05cda3ec-c138-4b40-bfe7-50af957dc16b)
+
 
 ### 🔒 Private Subnets (DEV-Infra)
 
-1. **Private Subnet 1**  
+1. **Private Subnet 1 (OT-Dev-Frontend-Subnet)**  
    - **Purpose**: Hosts internal services like databases that do not need internet access.
-   - **CIDR**: Specify the CIDR block for this subnet.
+   - **CIDR**: 10.0.1.48/28
    - **Route Table**: Configured to route traffic through the NAT gateway for secure outbound internet access.
 
-2. **Private Subnet 2**  
+![image](https://github.com/user-attachments/assets/3fc89211-935e-4206-ac62-a7b16e9f214d)
+
+
+2. **Private Subnet 2 (OT-Dev-Application-Subnet)**  
    - **Purpose**: Provides redundancy for internal services.
-   - **CIDR**: Specify the CIDR block for this subnet.
+   - **CIDR**: 10.0.1.64/27
    - **Route Table**: Also configured to use the NAT gateway.
 
-3. **Private Subnet 3**  
+![image](https://github.com/user-attachments/assets/385fa236-013e-4be3-ab50-8532c0bc37fe)
+
+3. **Private Subnet 3 (OT-Dev-Database-Subnet)**  
    - **Purpose**: Used for additional backend services or application servers.
-   - **CIDR**: Specify the CIDR block for this subnet.
+   - **CIDR**: 10.0.1.96/27
    - **Route Table**: Configured similarly to ensure secure access to the internet through the NAT gateway.
+
+![image](https://github.com/user-attachments/assets/46194a66-a826-4408-afcd-c90c4614fbdb)
 
 ---
 
