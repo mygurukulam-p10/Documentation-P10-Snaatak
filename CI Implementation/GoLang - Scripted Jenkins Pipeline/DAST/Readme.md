@@ -68,8 +68,8 @@ This document provides an overview of integrating Dynamic Application Security T
 
 ![Screenshot from 2024-10-06 19-04-13](https://github.com/user-attachments/assets/8e7592e6-2f02-4d43-8de1-c97ce249bbc6)
 ![Screenshot from 2024-10-06 19-34-15](https://github.com/user-attachments/assets/3b23452f-db6b-4e0f-968f-bcf61ff37fad)
+![Screenshot from 2024-10-07 01-34-06](https://github.com/user-attachments/assets/d86da67a-76e0-4508-8d0f-882c6d0fe576)
 
-![Screenshot from 2024-10-07 01-07-03](https://github.com/user-attachments/assets/1c1c83ed-80d5-4a03-b2af-6fd4e29b0e5a)
 
 ### 7. 🚀 Analyze the Vulnerabilities Identified by OWASP ZAP and Export the Report for Further Review
 
