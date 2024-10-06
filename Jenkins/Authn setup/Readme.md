@@ -112,4 +112,46 @@ Here are different ways to prove the concept of authentication in Jenkins:
 - Set up an OAuth app on GitHub and enter the required info:
     - **Client ID** and **Client Secret** from GitHub.
     - **Authorization Callback URL** to Jenkins
+    - 
+
+    ## 🧪 POC: Setting up Authentication
+
+### 1. Install GitHub Authentication Plugin
+- Go to **Manage Jenkins** > **Manage Plugins**.
+- Search for and install **GitHub Authentication Plugin**.
+
+### 2. Configure GitHub Authentication
+- Go to **Manage Jenkins** > **Configure Global Security**.
+- Under **Security Realm**, choose **GitHub Authentication Plugin**.
+- Set up an OAuth app on GitHub and enter the required info:
+    - **Client ID** and **Client Secret** from GitHub.
+    - **Authorization Callback URL** to Jenkins.
+
+---
+
+## 📌 Conclusion
+
+Jenkins offers many ways to authenticate users, from using its built-in database to integrating with external providers like LDAP or SAML. The best method depends on the size of your team and the security requirements of your organization.
+
+---
+
+## 📧 Contact Information
+
+For any queries or further information, feel free to contact:
+
+| 📛 Name       | ✉️ Email Address                    |
+|---------------|-------------------------------------|
+| **Brij Singh**| brij.singh.snaatak@mygurukulam.co   |
+
+---
+
+## 📚 References
+
+| Link | Description |
+|------|-------------|
+| [Jenkins Documentation](https://github.com/OT-MICROSERVICES/documentation-template/wiki/Application-Template) | Jenkins Application Template |
+| [GitHub OAuth Setup](https://stackoverflow.com/questions/60559456/configuring-jenkins-with-github-authorization) | Guide to setting up GitHub OAuth |
+"""
+
+
 
