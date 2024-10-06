@@ -12,6 +12,7 @@ The Cloud Infra Design Dev documentation provides an in-depth overview of the de
 
 ## Infrastructure Diagram
 
-![Screenshot from 2024-10-05 22-33-26](https://github.com/user-attachments/assets/66553bc0-b3ff-4813-9c65-5162d1b5a097)
+![dev-infra-updated](https://github.com/user-attachments/assets/22236c0e-5d76-4621-b328-9cfa10e16a76)
+
 
 
