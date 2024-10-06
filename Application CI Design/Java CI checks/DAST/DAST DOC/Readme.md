@@ -35,7 +35,7 @@ This documentation outlines the implementation and best practices of integrating
 
 Dynamic Application Security Testing (DAST) is a security testing method that analyzes a running application to find vulnerabilities. It does so by simulating real-world attacks on the application to discover potential security flaws.
 
-### 3.1 Key Features of DAST
+### 2.1 Key Features of DAST
 - **Black-box Testing**: Tests the application without access to the source code, emulating an external attacker.
 - **Automated Scanning**: Identifies vulnerabilities like SQL injection, cross-site scripting (XSS), and security misconfigurations.
 - **Behavioral Analysis**: Analyzes the application's behavior and response to various inputs.
