@@ -27,7 +27,6 @@ This document provides an overview of integrating Dynamic Application Security T
 |----------------------|-----------------------------------------------------------------------------|
 | **✔️ Jenkins**          | Jenkins installed and configured for CI/CD processes.                       |
 | **✔️ OWASP ZAP**        | OWASP ZAP must be installed and configured on the Jenkins server.            |
-| **✔️ Docker**           | Docker must be installed if you want to use the OWASP ZAP Docker image.       |
 | **✔️ Git**              | Git must be installed on the Jenkins server for repository checkout.        |
 | **✔️ Git Credentials**  | Add your GitHub credentials (e.g., `git-token`) in Jenkins for repository access. |
 
@@ -72,11 +71,13 @@ This document provides an overview of integrating Dynamic Application Security T
 
 ![Screenshot from 2024-10-07 01-07-03](https://github.com/user-attachments/assets/1c1c83ed-80d5-4a03-b2af-6fd4e29b0e5a)
 
-### 7. 🚀 Analyze the vulnerabilities identified by OWASP ZAP, and export the report for further review.  
-![Screenshot from 2024-10-07 00-23-16](https://github.com/user-attachments/assets/c91d898d-a6c7-4bc4-880b-f634641b083e)
+### 7. 🚀 Analyze the Vulnerabilities Identified by OWASP ZAP and Export the Report for Further Review
+
+![Screenshot from 2024-10-07 01-32-13](https://github.com/user-attachments/assets/1bd4ea88-5ab6-4762-87a7-5b4454f0ad42)
 
 ## Pipeline
-```
+
+```groovy
 node {
     // Define the Go tool name
     def goTool = tool name: 'golang', type: 'go'
@@ -86,39 +87,37 @@ node {
     }
 
     stage("Install Dependencies") {
-
         sh "${goTool}/bin/go mod tidy"
     }
-    
 
-stage("Install zap"){
-    sh 'wget https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Linux.tar.gz'
-    sh 'tar -xvf ZAP_2.15.0_Linux.tar.gz'
+    stage("Install ZAP") {
+        sh 'wget https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Linux.tar.gz'
+        sh 'tar -xvf ZAP_2.15.0_Linux.tar.gz'
+    }
 
-}
-stage('Run ZAP Scan') {
-    // Define the path to the ZAP installation dynamically using the job name
-    def zapPath = "/var/lib/jenkins/workspace/${env.JOB_NAME}/ZAP_2.15.0/zap.sh"
+    stage('Run ZAP Scan') {
+        // Define the path to the ZAP installation dynamically using the job name
+        def zapPath = "/var/lib/jenkins/workspace/${env.JOB_NAME}/ZAP_2.15.0/zap.sh"
 
-    // Run the ZAP scan with the dynamically constructed path using double quotes around the entire command
-    sh """
-        "${zapPath}" -cmd -port 8090 -quickurl http://3.111.35.135:8080/swagger/index.html -quickprogress -quickout ./report.html
-    """
-}
+        // Run the ZAP scan with the dynamically constructed path using double quotes around the entire command
+        sh """
+            "${zapPath}" -cmd -port 8090 -quickurl http://3.111.35.135:8080/swagger/index.html -quickprogress -quickout ./report.html
+        """
+    }
 
-stage("Publish Dast Report"){
-
-    publishHTML([allowMissing: false, 
-     reportDir: "/var/lib/jenkins/workspace/${env.JOB_NAME}/ZAP_2.15.0", 
-     reportFiles: 'report.html', 
-     reportName: 'DAST Report', 
-     reportTitles: 'DAST', useWrapperFileDirectly: true])
-}
-
+    stage("Publish DAST Report") {
+        publishHTML([
+            allowMissing: false, 
+            reportDir: "/var/lib/jenkins/workspace/${env.JOB_NAME}/ZAP_2.15.0", 
+            reportFiles: 'report.html', 
+            reportName: 'DAST Report', 
+            reportTitles: 'DAST', 
+            useWrapperFileDirectly: true
+        ])
+    }
 }
 
 ```
-
 ## 📛 Conclusion
 
 The DAST integration using OWASP ZAP ensures that the application undergoes comprehensive security testing during the build process. By incorporating this step into the CI/CD pipeline, teams can identify and remediate vulnerabilities before the application is deployed.
