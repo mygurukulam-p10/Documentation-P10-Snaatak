@@ -53,7 +53,25 @@ This document outlines the process for manually installing ScyllaDB in a standal
 ---
 
 ## ⚙️ Step-by-step Installation of ScyllaDB
-### Step 1: Add ScyllaDB repository
+
+
+### 1. Create the ScyllaDB Instance
+Launch another EC2 instance for ScyllaDB:
+- Select the private subnet where the ScyllaDB instance will reside.
+- Choose an AMI appropriate for ScyllaDB (e.g., Amazon Linux or Ubuntu).
+- Choose an instance type based on your requirements (e.g., `t2.medium` or higher).
+- Assign the `ScyllaDB-SG` security group to this instance.
+- Add storage and tags as needed.
+- Review and launch the instance, ensuring to use the same key pair as before for SSH access.
+
+### 2. Connect to the Bastion Host
+Open your terminal or command prompt.  
+Use the SSH command to connect to the bastion host:
+
+```bash
+ssh -i /path/to/your-key.pem ec2-user@<bastion-host-public-ip>
+```
+### Step 3: Add ScyllaDB repository
 
 ```bash
 sudo gpg --homedir /tmp --no-default-keyring --keyring /etc/apt/keyrings/scylladb.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 491c93b9de7496a7
@@ -61,13 +79,13 @@ sudo wget -O /etc/apt/sources.list.d/scylla.list http://downloads.scylladb.com/d
 ```
 ![Screenshot from 2024-10-08 02-31-29](https://github.com/user-attachments/assets/a1396798-7743-477a-be6e-9a3c1b35ad03)
 
-### Step 2: Update package cache
+### Step 4: Update package cache
 
 ```bash
 sudo apt-get update
 ```
 
-### Step 3:  Now need to install java 11 with below commands
+### Step 5:  Now need to install java 11 with below commands
    
 ```
 sudo apt-get install -y openjdk-11-jre-headless
@@ -80,14 +98,14 @@ sudo update-java-alternatives --jre-headless -s java-1.11.0-openjdk-amd64
 ```
 ![Screenshot from 2024-10-08 02-33-15](https://github.com/user-attachments/assets/df7b868b-20ab-477b-b66f-817d32da30a2)
 
-### Step 4: Install ScyllaDB
+### Step 6: Install ScyllaDB
 
 ```bash
 sudo apt-get install scylla
 ```
 ![Screenshot from 2024-10-08 02-37-00](https://github.com/user-attachments/assets/3824a62f-d378-4b9e-8db6-9c5b2ceebb6e)
 
-### Step 5: Configure ScyllaDB
+### Step 7: Configure ScyllaDB
 
 ```bash
 sudo scylla_setup
@@ -99,7 +117,7 @@ sudo scylla_setup
 
 Follow the prompts to configure ScyllaDB according to your system specifications.
 
-### Step 6: Start ScyllaDB service and check its status
+### Step 8: Start ScyllaDB service and check its status
 
 Start the ScyllaDB service:
 
@@ -117,7 +135,7 @@ sudo systemctl status scylla-server
 ![Screenshot from 2024-10-08 02-48-36](https://github.com/user-attachments/assets/d1facbb8-35fa-455b-989a-d16847e8311a)
 
 
-### Step 7: Verify ScyllaDB Installation
+### Step 9: Verify ScyllaDB Installation
 
 ```
  Use nodetool to check the status of your ScyllaDB nodes
@@ -127,7 +145,7 @@ nodetool status
 ```
 ![Screenshot from 2024-10-08 02-49-24](https://github.com/user-attachments/assets/24e99352-967f-4bab-ad56-7475ae1c7676)
 
-### Step 8. Configure user Scylla 
+### Step 10. Configure user Scylla 
 ```
 sudo vi /etc/scylla/scylla.yaml
 ```
