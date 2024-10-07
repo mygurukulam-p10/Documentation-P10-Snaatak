@@ -27,8 +27,6 @@ Security groups act as virtual firewalls that control inbound and outbound traff
 | Port  | Protocol | Description                             |
 |-------|----------|-----------------------------------------|
 | 9042  | TCP      | CQL native transport (Client connections) |
-| 7000  | TCP      | Internode communication (not encrypted) |
-| 7001  | TCP      | Internode communication (encrypted)    |
 
 ---
 
@@ -39,8 +37,6 @@ Inbound rules determine what traffic is allowed to reach the ScyllaDB instances.
 | Source IP/CIDR   | Port  | Protocol | Description                               |
 |-------------------|-------|----------|-------------------------------------------|
 | `<your-client-ip>`| 9042  | TCP      | Allow client connections to ScyllaDB.    |
-| `<scylla-node-cidr>` | 7000  | TCP      | Allow internode communication (unencrypted). |
-| `<scylla-node-cidr>` | 7001  | TCP      | Allow internode communication (encrypted). |
 
 ---
 
