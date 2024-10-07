@@ -9,9 +9,10 @@
 3. [⬇️ Inbound Rules](#-inbound-rules)
 4. [⬆️ Outbound Rules](#-outbound-rules)
 5. [🛡️ Steps to Create Security Group for ScyllaDB](#-steps-to-create-security-group-for-scylladb)
-6. [💡 Best Practices for Security](#-best-practices-for-security)
-7. [📞 Contact Information](#-contact-information)
-8. [🔗 References](#-references)
+6. [✅ Conclusion](#-conclusion)
+7. [💡 Best Practices for Security](#-best-practices-for-security)
+8. [📞 Contact Information](#-contact-information)
+9. [🔗 References](#-references)
 
 ---
 
@@ -103,6 +104,11 @@ Outbound rules define the traffic allowed to leave the ScyllaDB instances.
 - Monitor logs for unauthorized access attempts.
 
 ---
+
+## ✅ Conclusion
+
+Creating a security group specifically for ScyllaDB enhances the security of your application by controlling access to the database. By following the outlined steps, you can effectively manage inbound and outbound traffic, ensuring that only authorized IP addresses can communicate with your ScyllaDB instance.
+
 
 ## 📞 Contact Information
 
