@@ -14,8 +14,9 @@
    - [📦 Dependencies](#-dependencies)
    - [🔗 Important Ports](#-important-ports)
 3. [⚙️ Step-by-step Installation of ScyllaDB](#️-step-by-step-installation-of-scylladb)
-4. [📧 Contact Information](#-contact-information)
-5. [📚 References](#-references)
+4. [#Conclusion](#conclusion)
+5. [📧 Contact Information](#-contact-information)
+6. [📚 References](#-references)
 
 ---
 
@@ -179,6 +180,8 @@ Here are some basic CQL commands to get started with ScyllaDB:
    CREATE KEYSPACE employee_db WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
    ```
    ![Screenshot from 2024-10-08 03-26-18](https://github.com/user-attachments/assets/c5c89f26-59de-4aed-8c7f-7d2d9fa2a750)
+
+## Conclusion
 
 
 ## 📞 Contact Information
