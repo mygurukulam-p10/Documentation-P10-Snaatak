@@ -1,3 +1,4 @@
+![Uploading 2021-04-26-17_03_00-Photos.png…]()
 
 
 # Setup Auto Scaling for Salary API
@@ -105,10 +106,17 @@
 
 7. Optionally, link your Auto Scaling group to a **Load Balancer**.
 8. Define the group size, scaling policies, and desired instance count.
-9. Optionally, set up notifications and tags.
-10. Review and create your Auto Scaling group.
+![image](https://github.com/user-attachments/assets/023a56db-9dd9-417e-8239-1b6af870836d)
 
-///
+9. Optionally, set up notifications and tags.
+![image](https://github.com/user-attachments/assets/27a19e12-9d36-4fa7-b86c-9a51fe3c44d5)
+
+11. Review and create your Auto Scaling group.
+![image](https://github.com/user-attachments/assets/fa1a2c46-6c84-46e3-9495-70cee61d5dd7)
+![image](https://github.com/user-attachments/assets/d6b920e2-b13d-47fb-a6c4-656c20d40b9e)
+
+
+
 ---
 
 ## 📊 Output
@@ -116,7 +124,8 @@
 Once the Auto Scaling group is created, EC2 instances will automatically scale based on demand
 
 
-///
+![image](https://github.com/user-attachments/assets/bf5a4f80-94e0-44cb-95e8-c2489f94e9fb)
+
 
 ---
 
