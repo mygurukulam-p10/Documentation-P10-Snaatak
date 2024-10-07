@@ -1,10 +1,7 @@
 
-![Uploading 1684234129196.jpg…]()
 
 
 # Setup Auto Scaling for Salary API
-![Uploading 2021-04-26-17_03_00-Photos.png…]()
-
 
 
 
