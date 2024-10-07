@@ -10,11 +10,10 @@
 ## Table of Contents
 1. [💥 Introduction](#-introduction)
 2. [⚙️ Pre-requisites](#-pre-requisites)
-3. [🔍 System Requirements](#-system-requirements)
-4. [💥 Steps to Configuration Dependency Scanning](#-steps-to-conguration-dependency-scanning)
-5. [📛 Conclusion](#-conclusion)
-6. [📧 Contact Information](#-contact-information)
-7. [📚 References](#-references)
+3. [💥 Steps to Configuration Dependency Scanning](#-steps-to-conguration-dependency-scanning)
+4. [📛 Conclusion](#-conclusion)
+5. [📧 Contact Information](#-contact-information)
+6. [📚 References](#-references)
 
 ---
 ### 💥 Introduction
@@ -34,15 +33,6 @@ This Readme.md provides Dependency scanning is crucial for identifying security 
 | **Jenkins**            | Automation server for setting up CI/CD pipelines.         | 
 
 ---
-## 🔍 System Requirements
-
-| **Component**      | **Minimum Requirement**           | **Recommended Requirement**    |
-|--------------------|-----------------------------------|--------------------------------|
-| **CPU**            | Dual-core processor (2 GHz)       | Quad-core processor (3 GHz)    |
-| **RAM**            | 4 GB                              | 8 GB or higher                 |
-| **Storage**        | 20 GB free disk space             | 50 GB free disk space          |
-
----
 
 ## 💥 Steps to Configuration Static Code Analysis
 
@@ -50,33 +40,41 @@ This Readme.md provides Dependency scanning is crucial for identifying security 
 <img width="944" alt="Dashboard" src="https://github.com/user-attachments/assets/32ea261e-9e15-4dc4-9dfe-237965e974be">
 
 ### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `Dependency Scanning`).
-<img width="949" alt="New item" src="https://github.com/user-attachments/assets/94557093-db06-4ef9-abc0-d5a1e70d93ea">
+<img width="951" alt="image" src="https://github.com/user-attachments/assets/8b9e87e9-c46a-43b3-a6ca-c51efbdfefc4">
+
 
 ### 3. 🚀 Provide a description for the pipeline in detail what will perform.
-<img width="941" alt="Description " src="https://github.com/user-attachments/assets/b7bf0eff-5e19-4f76-aeae-caf15ba92aec">
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/397a56ca-d515-49d0-be38-34898620b7e9">
 
 
-### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for static code analysis in the pipeline configuration...>Click on Save to store the configuration.
-<img width="914" alt="script" src="https://github.com/user-attachments/assets/3718cb50-a4d4-4bf9-96d4-3a490940a8b6">
+### 4. 🚀 Create the repo for add jenkinfile which will be using in pipeline script for SCM.
+![Screenshot 2024-10-07 190107](https://github.com/user-attachments/assets/4fc641ab-5e53-45b1-94fe-1c1e9dd3de93)
+![Screenshot 2024-10-07 190125](https://github.com/user-attachments/assets/53feff3b-6d59-4957-834e-43c4079c6f21)
 
 
-### 5. 🚀 Then Click on build to run the pipeline to perform
+### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Static Code analysis in the pipeline script for SCM ...> add repo link & credintial, file path.
+![Screenshot 2024-10-07 190216](https://github.com/user-attachments/assets/4a5cd386-e1e0-4b8c-abdc-b2a1f66dc91a)
+
+
+
+### 6. 🚀 Then Click on build to run the pipeline to perform
 <img width="952" alt="build" src="https://github.com/user-attachments/assets/c82d9cba-0169-4495-8193-2cadac88f833">
 
 
-### 6.🚀 Now we are able to see build complete-
-![build steps](https://github.com/user-attachments/assets/de15fa25-4c67-43fa-9b95-17f5dd2946f6)
+### 7.🚀 Now we are able to see build complete-
+![Screenshot 2024-10-07 190744](https://github.com/user-attachments/assets/9e96c6a4-f2fc-4b77-95b8-b91638ff67a8)
 
 
-### 7.🚀 Click on Console Output to see the complete build.
-<img width="932" alt="console -1" src="https://github.com/user-attachments/assets/945ae170-d5d8-4fd0-a3da-9e6f61771bf9">
-<img width="920" alt="console -2" src="https://github.com/user-attachments/assets/853791b0-baee-450f-a747-ccb38df483cf">
-<img width="932" alt="console -3" src="https://github.com/user-attachments/assets/cb312415-659d-4533-b916-eac903b37562">
-<img width="932" alt="console -4" src="https://github.com/user-attachments/assets/f8931aff-0d68-49ec-b918-9c2e6e7afe8a">
 
-### 8.🚀 Review the stages of the build process in the console output.
-<img width="956" alt="final stage" src="https://github.com/user-attachments/assets/05dfb206-10cf-4725-8a2d-dd61b82d803d">
+### 8.🚀 Click on Console Output to see the complete build.
+![Screenshot 2024-10-07 190850](https://github.com/user-attachments/assets/e32aee98-2f35-481c-98cc-cf6b999053a2)
+![Screenshot 2024-10-07 191635](https://github.com/user-attachments/assets/553b8b64-8df8-4f10-92a8-82a983867f88)
+![Screenshot 2024-10-07 191617](https://github.com/user-attachments/assets/33ad5fa3-c074-4659-8ef4-f018148f0578)
 
+
+
+### 9.🚀 Review the stages of the build process in the console output.
+![Screenshot 2024-10-07 190310](https://github.com/user-attachments/assets/82a9371c-59ea-4abf-88cf-757209071496)
 
 ---
 
