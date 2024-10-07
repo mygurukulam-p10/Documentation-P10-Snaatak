@@ -25,6 +25,7 @@ This Readme.md provides Dependency scanning is crucial for identifying security 
 
 | **Pre-requisite**     | **Description**                                           |
 |-----------------------|-----------------------------------------------------------|
+| **Pip**               | Install package for dependency|
 | **Safety**             | Dependency vulnerability scanner for Python.              | 
 | **Git**                | Version control system for cloning repositories.          |
 | **Jenkins**            | Automation server for setting up CI/CD pipelines.         | 
