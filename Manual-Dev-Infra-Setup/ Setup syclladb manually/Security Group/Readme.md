@@ -69,11 +69,11 @@ Outbound rules define the traffic allowed to leave the ScyllaDB instances. You m
 
 ## 🔗 References
 
-| 🌐 **Links**                                                                                 | 📄 **Descriptions**                                        |
-|---------------------------------------------------------------------------------------------|-----------------------------------------------------------|
-| [📘 ScyllaDB Documentation](https://docs.scylladb.com/)                                      | Official ScyllaDB documentation.                           |
-| [🔧 ScyllaDB Installation Guide](https://docs.scylladb.com/stable/operating-scylla/procedures/install/install-ubuntu.html) | Official installation guide for Ubuntu.                   |
-| [🎓 ScyllaDB University](https://university.scylladb.com/)                                   | Free online courses to get started with ScyllaDB.          |
+This section provides important resources and links for further reading on security groups and ScyllaDB configurations.
 
----
+| 🌐 **Links**                                                                                     | 📄 **Descriptions**                                        |
+|------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
+| [📖 AWS Security Groups Documentation](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html) | Comprehensive guide to understanding and configuring AWS Security Groups. |
+| [📚 ScyllaDB Security Configuration](https://docs.scylladb.com/stable/architecture/security/) | Overview of security best practices and configurations for ScyllaDB. |
+| [🔧 AWS Security Best Practices](https://aws.amazon.com/architecture/security-identity-compliance-best-practices/) | AWS best practices for securing applications and infrastructure. |
 
