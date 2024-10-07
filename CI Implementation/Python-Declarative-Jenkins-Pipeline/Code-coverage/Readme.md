@@ -5,17 +5,16 @@
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-| Megha Tyagi | 04-10-2024  | Version 1  | Megha Tyagi     | 04-10-2024     |
+| Megha Tyagi | 04-10-2024  | Version 1.2  | Megha Tyagi     | 07-10-2024     |
 
 ---
 ## Table of Contents
 1. [💥 Introduction](#-introduction)
 2. [⚙️ Pre-requisites](#-pre-requisites)
-3. [🔍 System Requirements](#-system-requirements)
-4. [💥 Steps to Configuration Static Code Analysis](#-steps-to-conguration-static-code-analysis)
-5. [📛 Conclusion](#-conclusion)
-6. [📧 Contact Information](#-contact-information)
-7. [📚 References](#-references)
+3. [💥 Steps to Configuration Static Code Analysis](#-steps-to-conguration-static-code-analysis)
+4. [📛 Conclusion](#-conclusion)
+5. [📧 Contact Information](#-contact-information)
+6. [📚 References](#-references)
 
 ---
 ### 💥 Introduction
@@ -37,19 +36,6 @@ This document provides an overview of implementing code coverage in a Python pro
 
 ---
 
-## 🔍 System Requirements
-
-## Hardware System Requirements
-
-| Requirement          | Specification                                                     |
-|----------------------|-------------------------------------------------------------------|
-| **Processor**        | Minimum 2-core CPU (4-core recommended)                           |
-| **Memory (RAM)**     | Minimum 4 GB (8 GB recommended)                                   |
-| **Storage**          | Minimum 20 GB of free disk space (SSD recommended for performance)|
-| **Operating System** | Ubuntu 20.04 or later (or any compatible Linux distribution)      |
-
----
-
 ## 💥 Steps to Configuration Static Code Analysis
 
 ### 1. 🚀 Open your Jenkins Dashboard.
@@ -59,35 +45,40 @@ This document provides an overview of implementing code coverage in a Python pro
 <img width="942" alt="item" src="https://github.com/user-attachments/assets/f6ace938-8206-4294-a6ee-88742d4d7851">
 
 
-### 3. 🚀 Provide a description for the pipeline in detail what will perform.
+### 3. 🚀 Provide a description for the pipeline that performs Code Coverage in Python code.
 <img width="946" alt="description" src="https://github.com/user-attachments/assets/337ceba5-2491-4f45-9283-07a841e989b0">
 
+### 4. Create the repo for add jenkinfile which will be using in pipeline script for SCM.
+![Screenshot 2024-10-07 131850](https://github.com/user-attachments/assets/dc9db802-faad-4cb9-bd26-8a30a7ef5d1e)
+![Screenshot 2024-10-07 131906](https://github.com/user-attachments/assets/b9525bd1-4592-4472-8e1b-1a672f862d4f)
 
-### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for code coverage in the pipeline configuration...>Click on Save to store the configuration.
-<img width="927" alt="script" src="https://github.com/user-attachments/assets/a0ee88c3-1ed4-4e05-832b-a69ff1d42057">
+
+### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Code Coverage in the pipeline script for SCM ...> add repo link & credintial, file path.
+![Screenshot 2024-10-07 131923](https://github.com/user-attachments/assets/bec0556f-651e-4bdc-bf6b-85ebeabad995)
 
 
-### 5. 🚀 Then Click on build to run the pipeline to perform
+### 6. 🚀 Then Click on build to run the pipeline to perform
 <img width="952" alt="build" src="https://github.com/user-attachments/assets/c82d9cba-0169-4495-8193-2cadac88f833">
 
 
-### 6.🚀 Now we are able to see build complete-
-<img width="947" alt="build status" src="https://github.com/user-attachments/assets/eb81d3ce-1226-4395-8537-aa851b3ab6d1">
+### 7.🚀 Now we are able to see build complete-
+![Screenshot 2024-10-07 131943](https://github.com/user-attachments/assets/c200152d-86d3-4680-b4c3-c82a4f20a27b)
 
 
-### 7.🚀 Click on Console Output to see the complete build.
-<img width="947" alt="console output -1" src="https://github.com/user-attachments/assets/c825e840-5480-48f3-a550-1b627f5da9aa">
-<img width="940" alt="console output -2" src="https://github.com/user-attachments/assets/5cc5c207-ce1c-4c87-a3e0-f19caa6acd11">
-<img width="931" alt="console output -3" src="https://github.com/user-attachments/assets/f3a60b55-6aa5-46e0-870c-65181007b46c">
+### 8.🚀 Click on Console Output to see the complete build.
+![Screenshot 2024-10-07 132034](https://github.com/user-attachments/assets/7b7001ac-4983-4172-ab92-639bce1226a8)
+![Screenshot 2024-10-07 132045](https://github.com/user-attachments/assets/43bf8466-f527-4bf4-949b-e03402cac058)
+![Screenshot 2024-10-07 132056](https://github.com/user-attachments/assets/8d4bfd79-156b-44bc-923e-b3ba93b273b1)
 
 
-### 8.🚀 Review the stages of the build process in the console output.
-<img width="959" alt="build steps status" src="https://github.com/user-attachments/assets/33548ca1-b66b-4132-a6ae-0126cb254872">
+### 9.🚀 Review the stages of the build process in the console output.
+![Screenshot 2024-10-07 132119](https://github.com/user-attachments/assets/3094fecc-a340-4470-ba48-d207372026b9)
+
 
 ---
 
 ## 📛 Conclusion
-In summary, implementing code coverage in your project is essential for ensuring code quality and reliability. By utilizing tools like `pytest` and `pytest-cov`, you can systematically evaluate how well your tests cover your codebase. This practice not only helps identify untested areas but also encourages writing comprehensive test cases, ultimately leading to more robust and maintainable code. Regularly monitoring code coverage will enhance your development workflow, foster collaboration among team members, and contribute to the overall success of your software projects.
+In summary, implementing code coverage in your project is essential for ensuring code quality and reliability. By utilizing tools like `pytest` and `pytest-cov`, you can systematically evaluate how well your tests cover your codebase. Regularly monitoring code coverage will enhance your development workflow, foster collaboration among team members, and contribute to the overall success of your software projects.
 
 
 ##  📧 Contact Information
