@@ -1,28 +1,33 @@
-# ScyllaDB Manually setup
+# 🚀 ScyllaDB Manual Setup
 
-| Author | Created on | Version | Last updated by | Last edited on |
-|--------|------------|---------|----------------|----------------|
-| Amit Nagar | 04-10-2024 | 1.0 | Amit Nagar | 08-10-2024 |
+| Author      | Created on   | Version | Last updated by | Last edited on  |
+|-------------|--------------|---------|-----------------|-----------------|
+| Amit Nagar  | 04-10-2024   | 1.0     | Amit Nagar      | 08-10-2024      |
 
-## Table of Contents
+---
 
-1. [Purpose](#purpose)
-2. [Pre-requisites](#pre-requisites)
-   - [System Requirements](#system-requirements)
-   - [Dependencies](#dependencies)
-   - [Important Ports](#important-ports)
-3. [Step-by-step installation of ScyllaDB](#step-by-step-installation-of-scylladb)
-4. [Contact Information](#contact-information)
-5. [References](#references)
-    
+## 📑 Table of Contents
 
-## Purpose
+1. [📌 Purpose](#-purpose)
+2. [🛠️ Pre-requisites](#-pre-requisites)
+   - [💻 System Requirements](#-system-requirements)
+   - [📦 Dependencies](#-dependencies)
+   - [🔗 Important Ports](#-important-ports)
+3. [⚙️ Step-by-step Installation of ScyllaDB](#️-step-by-step-installation-of-scylladb)
+4. [📧 Contact Information](#-contact-information)
+5. [📚 References](#-references)
 
- This Document will showcase standalone ScyllaDB's installation process.
+---
 
-## Pre-requisites
+## 📌 Purpose
 
-### System Requirements
+This document outlines the process for manually installing ScyllaDB in a standalone environment.
+
+---
+
+## 🛠️ Pre-requisites
+
+### 💻 System Requirements
 
 | Hardware Specifications | Minimum Recommendation |
 |-------------------------|------------------------|
@@ -31,22 +36,23 @@
 | Disk                    | 15GB SSD               |
 | OS                      | Ubuntu 22.04 LTS       |
 
-### Dependencies
+### 📦 Dependencies
 
-#### Run time Dependency
+#### Run-time Dependency
 
 | Name    | Version | Description                                    |
 |---------|---------|------------------------------------------------|
-| Java    | 11      | For running ScyllaDB driver and sample scripts |
+| Java    | 11      | Required for running ScyllaDB driver and sample scripts |
 
-### Important Ports
+### 🔗 Important Ports
 
-| Inbound Traffic | Description                    |
-|-----------------|--------------------------------|
-| 9042            | CQL native transport port      |
+| Inbound Traffic | Description               |
+|-----------------|---------------------------|
+| 9042            | CQL native transport port |
 
+---
 
-##  Step-by-step installation
+## ⚙️ Step-by-step Installation of ScyllaDB
 
 
 ### 1.  Now need to install java 11 with below commands
