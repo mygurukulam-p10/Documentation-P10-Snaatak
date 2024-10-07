@@ -83,7 +83,7 @@ AWS VPC components like NAT Gateway, Internet Gateway, and Route Tables help man
 2. **Configure Route Tables** to associate the IGW with public subnets, allowing instances to access the internet.
 3. **Set Security Group Rules** for instances in public subnets to permit necessary inbound and outbound traffic.
 
-![image](https://github.com/user-attachments/assets/b2614f40-7c4b-462a-8310-3c24d5162cee)
+![image](https://github.com/user-attachments/assets/214ec00a-1c7a-4964-a791-78295eb4a04e)
 
 ---
 
