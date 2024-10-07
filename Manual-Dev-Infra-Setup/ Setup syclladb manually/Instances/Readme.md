@@ -66,8 +66,12 @@ Open your terminal or command prompt.
 Use the SSH command to connect to the bastion host:
 
 ```bash
-ssh -i /path/to/your-key.pem ec2-user@<bastion-host-public-ip>
+ssh -i /path/to/your-key.pem ubuntu@<bastion-host-public-ip>
 ```
+
+### login to scylladb server from bastian host
+```bash
+ssh -/path/to/your-key.pem ubuntu@<scylladb-host-private-ip>
 ### Step 3: Add ScyllaDB repository
 
 ```bash
