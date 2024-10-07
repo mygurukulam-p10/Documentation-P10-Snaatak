@@ -25,9 +25,6 @@ This Readme.md provides Dependency scanning is crucial for identifying security 
 
 | **Pre-requisite**     | **Description**                                           |
 |-----------------------|-----------------------------------------------------------|
-| **Python 3.2           | Required for running Python scripts and tools.            |
-| **Pip**                | Python package manager for installing dependencies.       | 
-| **Pylint**             | Python static code analysis tool for linting.             | 
 | **Safety**             | Dependency vulnerability scanner for Python.              | 
 | **Git**                | Version control system for cloning repositories.          |
 | **Jenkins**            | Automation server for setting up CI/CD pipelines.         | 
