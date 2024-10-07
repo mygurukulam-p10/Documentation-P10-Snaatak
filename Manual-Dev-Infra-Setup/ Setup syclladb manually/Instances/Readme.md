@@ -18,7 +18,7 @@
 
 ## Purpose
 
- This POC will showcase standalone ScyllaDB's installation process, basic operations.
+ This Document will showcase standalone ScyllaDB's installation process.
 
 ## Pre-requisites
 
