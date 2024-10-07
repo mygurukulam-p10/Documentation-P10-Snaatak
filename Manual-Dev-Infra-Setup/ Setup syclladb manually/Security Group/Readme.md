@@ -43,8 +43,7 @@ Inbound rules determine what traffic is allowed to reach the ScyllaDB instances.
 
 ## ⬆️ Outbound Rules
 
-Outbound rules define the traffic allowed to leave the ScyllaDB instances. You may use the following rule:
-
+Outbound rules define the traffic allowed to leave the ScyllaDB instances. 
 | Destination IP/CIDR  | Port  | Protocol | Description                              |
 |-----------------------|-------|----------|------------------------------------------|
 | `0.0.0.0/0`           | All   | All      | Allow all outbound traffic (customize as needed). |
