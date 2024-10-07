@@ -3,7 +3,7 @@
 
 | 📅 CREATED/UPDATED | 📋 VERSION | 👨‍💻 AUTHOR | 📝 COMMENT |
 |--------------------|------------|--------------|--------------------------------|
-| 05-10-2024         | 0.1        | Brij Singh   | Security Group Setup              |
+| 05-10-2024         | 0.1        | Brij Singh   | Salary API Instance Setup              |
 
 
 ---
@@ -64,23 +64,24 @@ An instance in Amazon EC2 is essentially a virtual server within the AWS cloud, 
 
 1. **Login** to your [AWS Console](https://aws.amazon.com/console/).  
 2. Navigate to the **EC2 Dashboard**.
-3. ![image](https://github.com/user-attachments/assets/32eaeb3a-f4a9-421e-a983-c4870fa38ca3)
+ ![image](https://github.com/user-attachments/assets/32eaeb3a-f4a9-421e-a983-c4870fa38ca3)
  
-4. Select `Launch Instance`.  
-5. Enter a **name** for the instance under **Name and Tags**.
-6. ![image](https://github.com/user-attachments/assets/46b1661c-520b-4b89-b453-a0e38fad6f8e)
+3. Select `Launch Instance`.  
+4. Enter a **name** for the instance under **Name and Tags**.
+ ![image](https://github.com/user-attachments/assets/46b1661c-520b-4b89-b453-a0e38fad6f8e)
 
-7. Select the appropriate **Amazon Machine Image (AMI)** (e.g., Amazon Linux).
-8. ![image](https://github.com/user-attachments/assets/fa05141c-9cd8-4e54-a3e7-2f242bcf2398)
+5. Select the appropriate **Amazon Machine Image (AMI)** (e.g., Amazon Linux).
+![image](https://github.com/user-attachments/assets/fa05141c-9cd8-4e54-a3e7-2f242bcf2398)
  
-9. Choose your **instance type**, key pair, and network settings.
-10. ![image](https://github.com/user-attachments/assets/776a6465-ac87-4767-89a9-2ae1bf7f730a)
+6. Choose your **instance type**, key pair, and network settings.
+ ![image](https://github.com/user-attachments/assets/776a6465-ac87-4767-89a9-2ae1bf7f730a)
  
-11. Configure **security group settings** for your instance.
-12. ![image](https://github.com/user-attachments/assets/3e9fda51-abac-48aa-80ee-459b3f5c53ea)
+7. Configure **security group settings** for your instance.
+ ![image](https://github.com/user-attachments/assets/3e9fda51-abac-48aa-80ee-459b3f5c53ea)
 
-13. Finally, click **Launch** and your instance will be up shortly! 🎉
-    ![image](https://github.com/user-attachments/assets/a04af7b8-8d7b-4265-b4bb-7faf068fe6c2)
+8 Finally, click **Launch** and your instance will be up shortly! 🎉
+    
+![image](https://github.com/user-attachments/assets/a04af7b8-8d7b-4265-b4bb-7faf068fe6c2)
 
 
 ---
