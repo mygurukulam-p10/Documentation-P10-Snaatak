@@ -136,6 +136,8 @@ After entering, Edit these entries for security purpose
 authenticator: PasswordAuthenticator
 authorizer: CassandraAuthorizer
 ```
+![Screenshot from 2024-10-08 02-56-58](https://github.com/user-attachments/assets/493adee9-ad6a-466d-903a-60897f2e27fc)
+
 ### Authentication and Authorization in ScyllaDB
 
 #### `authenticator: PasswordAuthenticator`
@@ -147,11 +149,6 @@ authorizer: CassandraAuthorizer
 - **Description**: The `CassandraAuthorizer` setting allows you to control access to database resources using roles and permissions. It is similar to how Apache Cassandra manages authorization and helps in defining who can access what data and perform what operations.
 
 
-
-
-
-
-
 ## Basic Operations
 
 Here are some basic CQL commands to get started with ScyllaDB:
@@ -160,12 +157,15 @@ Here are some basic CQL commands to get started with ScyllaDB:
    ```bash
    cqlsh -u cassandra -p cassandra
    ```
-  
+  ![Screenshot from 2024-10-08 03-25-27](https://github.com/user-attachments/assets/2c96db4a-c9f3-42d3-9973-768084b4982f)
+
 
 2. Create a keyspace:
    ```sql
    CREATE KEYSPACE employee_db WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
    ```
+   ![Screenshot from 2024-10-08 03-26-18](https://github.com/user-attachments/assets/c5c89f26-59de-4aed-8c7f-7d2d9fa2a750)
+
 
 ## 📞 Contact Information
 
