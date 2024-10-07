@@ -59,7 +59,7 @@ This document outlines the process for manually installing ScyllaDB in a standal
    
 ### 2. Below Commands to setup scylla db
 
-#### Install a repo file and add the ScyllaDB APT repository to your system.
+#### Add ScyllaDB APT repository to your system.
 
   ```
   sudo mkdir -p /etc/apt/keyrings
