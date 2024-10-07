@@ -1,4 +1,4 @@
-# 🔒 ScyllaDB Security Group and Rules PoC
+# 🔒 ScyllaDB Security Group 
 
 ---
 
