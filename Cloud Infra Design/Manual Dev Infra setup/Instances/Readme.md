@@ -63,13 +63,25 @@ An instance in Amazon EC2 is essentially a virtual server within the AWS cloud, 
 ## 🛠 Steps to Launch an EC2 Instance
 
 1. **Login** to your [AWS Console](https://aws.amazon.com/console/).  
-2. Navigate to the **EC2 Dashboard**.  
-3. Select `Launch Instance`.  
-4. Enter a **name** for the instance under **Name and Tags**.  
-5. Select the appropriate **Amazon Machine Image (AMI)** (e.g., Amazon Linux).  
-6. Choose your **instance type**, key pair, and network settings.  
-7. Configure **security group settings** for your instance.  
-8. Finally, click **Launch** and your instance will be up shortly! 🎉
+2. Navigate to the **EC2 Dashboard**.
+3. ![image](https://github.com/user-attachments/assets/32eaeb3a-f4a9-421e-a983-c4870fa38ca3)
+ 
+4. Select `Launch Instance`.  
+5. Enter a **name** for the instance under **Name and Tags**.
+6. ![image](https://github.com/user-attachments/assets/46b1661c-520b-4b89-b453-a0e38fad6f8e)
+
+7. Select the appropriate **Amazon Machine Image (AMI)** (e.g., Amazon Linux).
+8. ![image](https://github.com/user-attachments/assets/fa05141c-9cd8-4e54-a3e7-2f242bcf2398)
+ 
+9. Choose your **instance type**, key pair, and network settings.
+10. ![image](https://github.com/user-attachments/assets/776a6465-ac87-4767-89a9-2ae1bf7f730a)
+ 
+11. Configure **security group settings** for your instance.
+12. ![image](https://github.com/user-attachments/assets/3e9fda51-abac-48aa-80ee-459b3f5c53ea)
+
+13. Finally, click **Launch** and your instance will be up shortly! 🎉
+    ![image](https://github.com/user-attachments/assets/a04af7b8-8d7b-4265-b4bb-7faf068fe6c2)
+
 
 ---
 
@@ -92,5 +104,5 @@ For any queries or further information, feel free to contact:
 
 - [AWS EC2 Documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
 - [Instance Launch Process](https://github.com/CodeOps-Hub/Documentation/blob/main/OT%20Micro%20Services/Application/Salary%20API/README.md)
-- [Cloud Infra Design](https://github.com/CodeOps-Hub/Documentation/blob/main/Application_CI/Design/09-%20Cloud%20Infra%20Design/Cloud-Infra-Design-Dev.md)
+- [Cloud Infra Design](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/Cloud%20Infra%20Design/Cloud%20Infra%20Design%2030K%20feet/Readme.md). 
 
