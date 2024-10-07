@@ -67,14 +67,7 @@ In this section, we create a development environment infrastructure with two pub
    - **CIDR**: 10.0.1.0/27
    - **Route Table**: Associated with a route table that directs traffic to the internet gateway.
 
-![image](https://github.com/user-attachments/assets/041333c5-fd81-453f-a1d6-f06eec296ed1)
-
-2. **Public Subnet 2**  
-   - **Purpose**: Provides redundancy and load balancing for internet-facing applications.
-   - **CIDR**: 10.0.1.32/28
-   - **Route Table**: Also connected to the internet gateway for public access.
-![image](https://github.com/user-attachments/assets/05cda3ec-c138-4b40-bfe7-50af957dc16b)
-
+![image](https://github.com/user-attachments/assets/2c61e6c7-9bec-4fdd-b7a6-984ce1b01d6b)
 
 ### 🔒 Private Subnets (DEV-Infra)
 
@@ -83,7 +76,7 @@ In this section, we create a development environment infrastructure with two pub
    - **CIDR**: 10.0.1.48/28
    - **Route Table**: Configured to route traffic through the NAT gateway for secure outbound internet access.
 
-![image](https://github.com/user-attachments/assets/3fc89211-935e-4206-ac62-a7b16e9f214d)
+![image](https://github.com/user-attachments/assets/a37e2cf2-adff-4a99-9f32-b94333dc8f2a)
 
 
 2. **Private Subnet 2 (OT-Dev-Application-Subnet)**  
@@ -91,14 +84,14 @@ In this section, we create a development environment infrastructure with two pub
    - **CIDR**: 10.0.1.64/27
    - **Route Table**: Also configured to use the NAT gateway.
 
-![image](https://github.com/user-attachments/assets/385fa236-013e-4be3-ab50-8532c0bc37fe)
+![image](https://github.com/user-attachments/assets/911fe46e-3cde-4bdb-8f42-748e5f6c2be4)
 
 3. **Private Subnet 3 (OT-Dev-Database-Subnet)**  
    - **Purpose**: Used for additional backend services or application servers.
    - **CIDR**: 10.0.1.96/27
    - **Route Table**: Configured similarly to ensure secure access to the internet through the NAT gateway.
 
-![image](https://github.com/user-attachments/assets/46194a66-a826-4408-afcd-c90c4614fbdb)
+![image](https://github.com/user-attachments/assets/766a5fc9-9d03-4bb6-9921-89231650e539)
 
 ---
 
