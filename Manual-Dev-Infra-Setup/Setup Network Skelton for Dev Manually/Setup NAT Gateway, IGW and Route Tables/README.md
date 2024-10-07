@@ -58,7 +58,7 @@ AWS VPC components like NAT Gateway, Internet Gateway, and Route Tables help man
 2. **Associate NAT Gateways** with the public subnets, and update route tables to route traffic from private subnets through the NAT Gateway.
 3. **Attach Elastic IP Addresses** to each NAT Gateway for internet access.
 
-![image](https://github.com/user-attachments/assets/bee8e552-429f-4f89-9962-5a433c955bc2)
+![image](https://github.com/user-attachments/assets/9c9e03e6-f99b-4e5d-b0ef-2d7ad857336b)
 
 ---
 
@@ -84,6 +84,7 @@ AWS VPC components like NAT Gateway, Internet Gateway, and Route Tables help man
 3. **Set Security Group Rules** for instances in public subnets to permit necessary inbound and outbound traffic.
 
 ![image](https://github.com/user-attachments/assets/214ec00a-1c7a-4964-a791-78295eb4a04e)
+![image](https://github.com/user-attachments/assets/8ae7f80b-7dae-4298-96ca-ad19beeed91d)
 
 ---
 
@@ -109,11 +110,15 @@ AWS VPC components like NAT Gateway, Internet Gateway, and Route Tables help man
 
    - **Public Subnets**: Add routes to direct internet-bound traffic to the Internet Gateway.
 
-![image](https://github.com/user-attachments/assets/bc04d94f-3591-4259-85fc-1a4658e0b0bf)
+![image](https://github.com/user-attachments/assets/d53ae22e-b9b7-44f0-8deb-16ef20a2f06a)
+
 
    - **Private Subnets**: Add routes to direct internet-bound traffic through the NAT Gateway for secure outbound access.
 
-![image](https://github.com/user-attachments/assets/0e16f0d5-d8b0-4e5e-8f6b-34b22d3af890)
+![image](https://github.com/user-attachments/assets/b02bbcd1-5123-4d25-a69c-df0cfe8554ad)
+
+
+![image](https://github.com/user-attachments/assets/ab2edeb2-9405-4314-bae4-c373fbbac7f1)
 
 2. **Set Default Routes** as required for public and private traffic within the VPC like IGW for Public and NAT for Private
 
