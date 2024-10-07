@@ -161,17 +161,19 @@ GRANT ALL PERMISSIONS ON KEYSPACE employee_db TO scylla;
 
 
 
-## Contact Information
+## 📞 Contact Information
 
-| Name       | Email address     |
-|------------|-------------------|
-| Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
+| 👤 **Name**     | 📧 **Email Address**                                                   |
+|-----------------|-----------------------------------------------------------------------|
+| **Amit Nagar**  | [amit.nagar.snaatak@mygurukulam.com](mailto:amit.nagar.snaatak@mygurukulam.com) |
 
-## References
+---
 
-| Links                                                | Descriptions                             |
-|------------------------------------------------------|------------------------------------------|
-| [ScyllaDB Documentation](https://docs.scylladb.com/) | Official ScyllaDB documentation          |
-| [ScyllaDB Installation Guide](https://docs.scylladb.com/stable/operating-scylla/procedures/install/install-ubuntu.html) | Official installation guide for Ubuntu |
-| [ScyllaDB University](https://university.scylladb.com/) | Free online courses on ScyllaDB       |
+## 🔗 References
+
+| 🌐 **Links**                                                                                     | 📄 **Descriptions**                                    |
+|------------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| [📘 ScyllaDB Documentation](https://docs.scylladb.com/)                                         | Official ScyllaDB documentation                        |
+| [🔧 ScyllaDB Installation Guide](https://docs.scylladb.com/stable/operating-scylla/procedures/install/install-ubuntu.html) | Official installation guide for Ubuntu                 |
+| [🎓 ScyllaDB University](https://university.scylladb.com/)                                      | Free online courses to get started with ScyllaDB       |
 
