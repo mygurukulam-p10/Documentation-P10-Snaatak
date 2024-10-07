@@ -10,11 +10,10 @@
 ## Table of Contents
 1. [💥 Introduction](#-introduction)
 2. [⚙️ Pre-requisites](#-pre-requisites)
-3. [🔍 System Requirements](#-system-requirements)
-4. [💥 Steps to Configuration Declarative pipelines for Notifications](#-steps-to-conguration-declarative-pipelines-for-notification)
-5. [📛 Conclusion](#-conclusion)
-6. [📧 Contact Information](#-contact-information)
-7. [📚 References](#-references)
+3. [💥 Steps to Configuration Declarative pipelines for Notifications](#-steps-to-conguration-declarative-pipelines-for-notification)
+4. [📛 Conclusion](#-conclusion)
+5. [📧 Contact Information](#-contact-information)
+6. [📚 References](#-references)
 
 ---
 ### 💥 Introduction
@@ -26,14 +25,6 @@ This document provides a guide on setting up automated email notifications in Je
 1. **Jenkins**: Ensure you have a Jenkins instance running.
 2. **Email Notification Plugin**: For performing the actual notification.
 3. **Jenkins Credentials**: Add any required credentials (e.g., GitHub tokens) in Jenkins.
----
-## 🔍 System Requirements
-| Component         | Minimum Requirement       | Recommended Requirement     |
-|-------------------|---------------------------|-----------------------------|
-| **Processor**     | Dual-core CPU             | Quad-core CPU or higher     |
-| **Memory**        | 4 GB RAM                  | 8 GB RAM or more            |
-| **Disk Space**    | 1 GB                      | 10 GB or more (for larger repositories) |
-
 ---
 
 ## 💥 Steps to Configuration Declarative pipelines for Notifications.
