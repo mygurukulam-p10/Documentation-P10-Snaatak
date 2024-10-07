@@ -3,7 +3,7 @@
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-| Megha Tyagi | 03-10-2024  | Version 1.2  | Megha Tyagi     | 03-10-2024     |
+| Megha Tyagi | 03-10-2024  | Version 1.2  | Megha Tyagi     | 07-10-2024     |
 
 ---
 ## Table of Contents
