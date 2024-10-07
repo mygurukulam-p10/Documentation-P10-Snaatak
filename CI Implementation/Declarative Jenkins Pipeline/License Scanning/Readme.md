@@ -1,26 +1,23 @@
 # License Scanning- Declarative Jenkins Pipeline  ![pluginIcon](https://github.com/user-attachments/assets/99182f40-0f7a-47bb-b1d0-2e014689d2dd)
 
-
-
 ---  
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-| Megha Tyagi | 03-10-2024  | Version 1  | Megha Tyagi     | 03-10-2024     |
+| Megha Tyagi | 03-10-2024  | Version 1.2  | Megha Tyagi     | 07-10-2024     |
 
 ---
 ## Table of Contents
 1. [💥 Introduction](#-introduction)
 2. [⚙️ Pre-requisites](#-pre-requisites)
-3. [🔍 System Requirements](#-system-requirements)
-4. [💥 Steps to Configuration Declarative pipelines for License scanning](#-steps-to-conguration-declarative-pipelines-for-license-scanning)
-5. [📛 Conclusion](#-conclusion)
-6. [📧 Contact Information](#-contact-information)
-7. [📚 References](#-references)
+3. [💥 Steps to Configuration Declarative pipelines for License scanning](#-steps-to-conguration-declarative-pipelines-for-license-scanning)
+4. [📛 Conclusion](#-conclusion)
+5. [📧 Contact Information](#-contact-information)
+6. [📚 References](#-references)
 
 ---
 ### 💥 Introduction
-This document outlines the process for setting up **Trivy** to perform license scanning on your project. Trivy is a versatile open-source vulnerability and security scanner, which can also be used to check for open source license compliance in your project's dependencies. By integrating Trivy into your pipeline, you can ensure that the licenses of third-party dependencies are properly managed, helping to avoid legal and compliance issues.
+This document outlines the process of implementing license scanning in your project using a declarative Jenkins pipeline,by integrating Trivy.The provided pipeline automates the scanning process, archives the results, and notifies the team via email upon completion. This approach enhances code quality and adherence to open-source licensing standards.
 
 ---
 
@@ -28,15 +25,6 @@ This document outlines the process for setting up **Trivy** to perform license s
 1. **Trivy**: Trivy, for performing the license scanning.
 2. **Jenkins**: If you are integrating license scanning in a pipeline, ensure you have a CI/CD tool like Jenkins set up.
 3. **Git**: Your project repository should be accessible via Git, and Git should be installed on the system where Trivy will run.
----
-## 🔍 System Requirements
-| Component         | Minimum Requirement       | Recommended Requirement     |
-|-------------------|---------------------------|-----------------------------|
-| **Processor**     | Dual-core CPU             | Quad-core CPU or higher     |
-| **Memory**        | 2 GB RAM                  | 4 GB RAM or more            |
-| **Disk Space**    | 500 MB                    | 1 GB or more                |
-| **Operating System** | Linux, macOS, or Windows | Linux or macOS for best compatibility |
-
 ---
 
 ## 💥 Steps to Configuration Declarative pipelines for License scanning
@@ -51,31 +39,36 @@ This document outlines the process for setting up **Trivy** to perform license s
 ### 3. 🚀 Provide a description for the pipeline that performs License scanning.
 <img width="959" alt="description" src="https://github.com/user-attachments/assets/88d12b31-909e-4c70-98cd-683d8c67c8dd">
 
+### 4. Create the repo for add jenkinfile which will be using in pipeline script for SCM.
+![Screenshot 2024-10-07 125808](https://github.com/user-attachments/assets/6459a3dd-758e-4ba4-b613-39b789c7a8b1)
+![Screenshot 2024-10-07 125038](https://github.com/user-attachments/assets/deb44112-f8b6-4733-a476-6909b97f8118)
 
-### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for License scanning in the pipeline configuration...>Click on Save to store the configuration.
-<img width="932" alt="script" src="https://github.com/user-attachments/assets/35484b01-080e-4b53-b114-cb17cc530da9">
+
+### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for License scanning in the pipeline script for SCM ...> add repo link & credintial, file path.
+![Screenshot 2024-10-07 124914](https://github.com/user-attachments/assets/fb01dd8a-a280-4a28-89e4-ec923ded631d)
 
 
-### 5. 🚀 Then Click on build to run the pipeline to perform
+### 6. 🚀 Then Click on build to run the pipeline to perform
 <img width="952" alt="build" src="https://github.com/user-attachments/assets/c82d9cba-0169-4495-8193-2cadac88f833">
 
 
-### 6.🚀 Now we are able to see build complete-
-<img width="944" alt="build status" src="https://github.com/user-attachments/assets/49018077-c6d0-4932-95a7-2234104acf87">
+### 7.🚀 Now we are able to see build complete-
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/abcdc72d-8e8a-4680-b077-7c30bfdc3936">
 
 
-### 7.🚀 Click on Console Output to see the complete build.
-<img width="959" alt="console output-1" src="https://github.com/user-attachments/assets/043588ff-d61c-47ba-a012-6448486dbbbd">
-<img width="944" alt="console output-2" src="https://github.com/user-attachments/assets/db195395-d0d6-4101-af10-302296070893">
-<img width="941" alt="console output-3" src="https://github.com/user-attachments/assets/764fdb1b-0193-4312-8f07-14371e008f4f">
-
-### 8. 🚀 Once the report is generated, you will be able to see the JSON report.
-<img width="702" alt="Json Report" src="https://github.com/user-attachments/assets/5f504303-a041-4193-9c99-1b209626bb77">
+### 8.🚀 Click on Console Output to see the complete build.
+![Screenshot 2024-10-07 125004](https://github.com/user-attachments/assets/eaebff54-463a-4216-8470-7432e221e137)
+![Screenshot 2024-10-07 125016](https://github.com/user-attachments/assets/6efc0b45-a52a-40e1-bc8c-c2f0b513201c)
 
 
-### 9.🚀 Review the stages of the build process in the console output.
-<img width="951" alt="build stage" src="https://github.com/user-attachments/assets/829ace03-ceee-4f03-9a3a-cecc6a641635">
 
+### 9. 🚀 Once the report is generated, you will be able to see the JSON report.
+![Screenshot 2024-10-07 124540](https://github.com/user-attachments/assets/e892dbcc-b027-40ea-b085-52a22479c477)
+
+
+
+### 10.🚀 Review the stages of the build process in the console output.
+![Screenshot 2024-10-07 125256](https://github.com/user-attachments/assets/c6820ed7-c0bc-4b61-8141-8f01522b62ab)
 
 ---
 
