@@ -41,26 +41,30 @@ Static code analysis is essential for maintaining code quality and identifying p
 ### 3. 🚀 Provide a description for the pipeline in detail what will perform.
 <img width="944" alt="description" src="https://github.com/user-attachments/assets/b1066678-79ab-4517-b716-12a4986b4ba0">
 
+### 4. 🚀 Create the repo for add jenkinfile which will be using in pipeline script for SCM.
+![Screenshot 2024-10-07 133123](https://github.com/user-attachments/assets/8bb95046-8c1d-467a-b776-d35d457631e0)
+![Screenshot 2024-10-07 133131](https://github.com/user-attachments/assets/af42d98a-b1dd-4a2d-971b-d6c37816aa6c)
 
-### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for static code analysis in the pipeline configuration...>Click on Save to store the configuration.
-<img width="947" alt="code script" src="https://github.com/user-attachments/assets/722a5ff4-456f-432d-ab79-7ec010b0cd50">
+
+### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Static Code analysis in the pipeline script for SCM ...> add repo link & credintial, file path.
+![Screenshot 2024-10-07 133207](https://github.com/user-attachments/assets/cc1ca081-7b7d-4ba9-a2bb-885659b2472e)
 
 
-### 5. 🚀 Then Click on build to run the pipeline to perform
+### 6. 🚀 Then Click on build to run the pipeline to perform
 <img width="952" alt="build" src="https://github.com/user-attachments/assets/c82d9cba-0169-4495-8193-2cadac88f833">
 
 
-### 6.🚀 Now we are able to see build complete-
-<img width="948" alt="build status" src="https://github.com/user-attachments/assets/2b13d03a-dc5f-4785-acb3-187b511340eb">
+### 7.🚀 Now we are able to see build complete-
+![Screenshot 2024-10-07 133245](https://github.com/user-attachments/assets/4f32f8bb-c26e-4927-bbcf-3ad5629e9460)
 
 
-### 7.🚀 Click on Console Output to see the complete build.
-<img width="926" alt="console-1" src="https://github.com/user-attachments/assets/1c1b7918-6d6e-42e4-9ec2-30d4b5687fef">
-<img width="923" alt="console-2" src="https://github.com/user-attachments/assets/02255e67-6f19-4f87-8369-487699fc263e">
-<img width="925" alt="console-3" src="https://github.com/user-attachments/assets/b686d1d9-fd75-4b8c-80fa-02cf213e76ab">
+### 8.🚀 Click on Console Output to see the complete build.
+![Screenshot 2024-10-07 134245](https://github.com/user-attachments/assets/2728bf40-49a6-46fa-a64a-be5d845cbd3b)
+![Screenshot 2024-10-07 134257](https://github.com/user-attachments/assets/fd2a6c7f-50ad-4be7-81e8-8d03d1b1080b)
 
-### 8.🚀 Review the stages of the build process in the console output.
-<img width="957" alt="build step" src="https://github.com/user-attachments/assets/653a9abe-2e74-491e-80cc-7cef2fd37208">
+### 9.🚀 Review the stages of the build process in the console output.
+![Screenshot 2024-10-07 134324](https://github.com/user-attachments/assets/b7a0b419-94b2-4610-86d4-6fc15ced8475)
+
 ---
 
 ## 📛 Conclusion
