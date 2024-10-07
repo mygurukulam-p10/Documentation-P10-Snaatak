@@ -46,111 +46,114 @@
 | 9042            | CQL native transport port      |
 
 
+##  Step-by-step installation
 
-## Step-by-step installation of ScyllaDB
 
-### Step 1: Add ScyllaDB repository
-
-```bash
-sudo gpg --homedir /tmp --no-default-keyring --keyring /etc/apt/keyrings/scylladb.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 491c93b9de7496a7
-sudo wget -O /etc/apt/sources.list.d/scylla.list http://downloads.scylladb.com/deb/debian/scylla-6.1.list
-```
-
-### Step 2: Update package cache
-
-```bash
-sudo apt-get update
-```
-
-### Step 3:  Now need to install java 11 with below commands
+### 1.  Now need to install java 11 with below commands
    
-```
-sudo apt-get install -y openjdk-11-jre-headless
-```
-```
-sudo update-java-alternatives --jre-headless -s java-1.11.0-openjdk-amd64
-```
+### 2. Below Commands to setup scylla db
 
-### Step 4: Install ScyllaDB
+#### Install a repo file and add the ScyllaDB APT repository to your system.
 
-```bash
-sudo apt-get install scylla
+  ```
+  sudo mkdir -p /etc/apt/keyrings
 ```
-
-### Step 5: Configure ScyllaDB
-
-```bash
-sudo scylla_setup
+  
+  ```
+  sudo gpg --homedir /tmp --no-default-keyring --keyring /etc/apt/keyrings/scylladb.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 491c93b9de7496a7
+```
+  
+  ```
+  sudo wget -O /etc/apt/sources.list.d/scylla.list http://downloads.scylladb.com/deb/debian/scylla-6.1.list
 ```
 
-Follow the prompts to configure ScyllaDB according to your system specifications.
 
-### Step 6: Start ScyllaDB service and check its status
 
-Start the ScyllaDB service:
 
-```bash
-sudo systemctl start scylla-server
+#### Install ScyllaDB packages.
 
+  ```
+  sudo apt-get update
 ```
-Check the status of the ScyllaDB service
-
-```bash
-sudo systemctl status scylla-server
-
+  
+  ```
+  sudo apt-get install -y Scylla
 ```
 
-![Screenshot from 2024-09-16 23-52-10](https://github.com/user-attachments/assets/2ffffcc9-e5df-4e0c-8580-b21311e0d833)
 
 
 
-### Step 7: Verify ScyllaDB Installation
+#### Now Run the scylla_setup script to tune the system settings and determine the optimal configuration.
+
+  ```
+  sudo scylla_setup
+```
+
+
+
+#### Run ScyllaDB as a service (if not already running).
+
+ ```
+ sudo systemctl start scylla-server
+```
+    
+
+     Run "cqlsh" to check if it connects.
+
+
+#### then create database named employee_db using below command under cqlsh
+
+CREATE KEYSPACE employee_db 
+   WITH REPLICATION = {
+   'class' : 'SimpleStrategy', 
+   'replication_factor' : 1 
+   };
+
+
+### check if db is created using command "describe keyspaces;"
+
+### make below changes in **/etc/scylla/scylla.yaml **and add below lines at the top of the file
+
+      authenticator: PasswordAuthenticator
+      authorizer: CassandraAuthorizer
+
+
+
+
+#### Restart scylla-server with below command
+
 
 ```
- Use nodetool to check the status of your ScyllaDB nodes
+sudo systemctl restart scylla-server
 ```
-```bash
-nodetool status
+
+
+#### Firstly switch to by default super user of scylla with below command
+
+
 ```
-### Step 8. Configure user Scylla 
+cqlsh -u cassandra -p cassandra;
 ```
-sudo vi /etc/scylla/scylla.yaml
+
+
+#### Now create a user in cqlsh with below command, 
+
+
 ```
-After entering, Edit these entries for security purpose
+CREATE USER scylla WITH PASSWORD 'password';
 ```
-authenticator: PasswordAuthenticator
-authorizer: CassandraAuthorizer
+
+
+#### Give all permissions on keyspace employee_db to the scylla user with below command
+
+
 ```
-### Authentication and Authorization in ScyllaDB
-
-#### `authenticator: PasswordAuthenticator`
-- **Purpose**: Specifies the method used for authentication in ScyllaDB.
-- **Description**: The `PasswordAuthenticator` setting means that users must provide a username and password to authenticate. It uses a password-based authentication method, where credentials are checked against the stored user data.
-
-#### `authorizer: CassandraAuthorizer`
-- **Purpose**: Defines the authorization method used in ScyllaDB.
-- **Description**: The `CassandraAuthorizer` setting allows you to control access to database resources using roles and permissions. It is similar to how Apache Cassandra manages authorization and helps in defining who can access what data and perform what operations.
+GRANT ALL PERMISSIONS ON KEYSPACE employee_db TO scylla;
+```
 
 
 
-![Screenshot from 2024-09-16 17-06-07](https://github.com/user-attachments/assets/d5cef51d-2122-427d-8d32-2203cbef1737)
 
-
-
-## Basic Operations
-
-Here are some basic CQL commands to get started with ScyllaDB:
-
-1. Connect to ScyllaDB using cqlsh:
-   ```bash
-   cqlsh -u cassandra -p cassandra
-   ```
-   ![Screenshot from 2024-09-16 23-51-51](https://github.com/user-attachments/assets/5070a12a-a4ef-4bcc-8e46-9e682dd2947e)
-
-2. Create a keyspace:
-   ```sql
-   CREATE KEYSPACE mykeyspace WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
-   ```
 
 ## Contact Information
 
