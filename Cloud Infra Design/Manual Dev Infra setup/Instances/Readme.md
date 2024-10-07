@@ -84,6 +84,8 @@ An instance in Amazon EC2 is essentially a virtual server within the AWS cloud, 
 ![image](https://github.com/user-attachments/assets/a04af7b8-8d7b-4265-b4bb-7faf068fe6c2)
 
 
+NOTE : for Detalis [here](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/OT%20MS%20Understanding/Salary/Setup%20and%20POC/README.md)
+
 ---
 
 ## 💡 Conclusion
