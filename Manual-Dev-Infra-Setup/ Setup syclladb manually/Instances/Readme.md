@@ -59,6 +59,7 @@ This document outlines the process for manually installing ScyllaDB in a standal
 sudo gpg --homedir /tmp --no-default-keyring --keyring /etc/apt/keyrings/scylladb.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 491c93b9de7496a7
 sudo wget -O /etc/apt/sources.list.d/scylla.list http://downloads.scylladb.com/deb/debian/scylla-6.1.list
 ```
+![Screenshot from 2024-10-08 02-31-29](https://github.com/user-attachments/assets/a1396798-7743-477a-be6e-9a3c1b35ad03)
 
 ### Step 2: Update package cache
 
@@ -71,21 +72,30 @@ sudo apt-get update
 ```
 sudo apt-get install -y openjdk-11-jre-headless
 ```
+
+![Screenshot from 2024-10-08 02-32-44](https://github.com/user-attachments/assets/d72a5007-fbab-412b-a041-f5cdf62c1734)
+
 ```
 sudo update-java-alternatives --jre-headless -s java-1.11.0-openjdk-amd64
 ```
+![Screenshot from 2024-10-08 02-33-15](https://github.com/user-attachments/assets/df7b868b-20ab-477b-b66f-817d32da30a2)
 
 ### Step 4: Install ScyllaDB
 
 ```bash
 sudo apt-get install scylla
 ```
+![Screenshot from 2024-10-08 02-37-00](https://github.com/user-attachments/assets/3824a62f-d378-4b9e-8db6-9c5b2ceebb6e)
 
 ### Step 5: Configure ScyllaDB
 
 ```bash
 sudo scylla_setup
 ```
+![Screenshot from 2024-10-08 02-39-55](https://github.com/user-attachments/assets/44da817c-5a3d-45ae-b603-5e87671020f8)
+![Screenshot from 2024-10-08 02-40-50](https://github.com/user-attachments/assets/a9130cec-09ca-4069-87e9-73a98744ea88)
+![Screenshot from 2024-10-08 02-42-32](https://github.com/user-attachments/assets/0c2d319e-4bb2-440d-b6fd-a54970b914ee)
+
 
 Follow the prompts to configure ScyllaDB according to your system specifications.
 
@@ -104,7 +114,7 @@ sudo systemctl status scylla-server
 
 ```
 
-
+![Screenshot from 2024-10-08 02-48-36](https://github.com/user-attachments/assets/d1facbb8-35fa-455b-989a-d16847e8311a)
 
 
 ### Step 7: Verify ScyllaDB Installation
@@ -115,6 +125,8 @@ sudo systemctl status scylla-server
 ```bash
 nodetool status
 ```
+![Screenshot from 2024-10-08 02-49-24](https://github.com/user-attachments/assets/24e99352-967f-4bab-ad56-7475ae1c7676)
+
 ### Step 8. Configure user Scylla 
 ```
 sudo vi /etc/scylla/scylla.yaml
