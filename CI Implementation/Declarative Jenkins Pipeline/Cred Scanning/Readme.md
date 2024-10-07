@@ -47,20 +47,20 @@ This guide outlines the steps to set up **GitLeaks** for scanning your Git repos
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for credential scanning in the pipeline script for SCM ...> add repo link & credintial, file path.
 ![Screenshot 2024-10-07 114130](https://github.com/user-attachments/assets/6817dc45-4998-4f46-86c7-523d646af706)
 
-### 5. 🚀 Then Click on build to run the pipeline to perform
+### 6. 🚀 Then Click on build to run the pipeline to perform
 <img width="952" alt="build" src="https://github.com/user-attachments/assets/8e0b140e-3cb9-4b40-babd-75fb6963a653">
 
-### 6.🚀 Now we are able to see build complete-
+### 7.🚀 Now we are able to see build complete-
 <img width="959" alt="build completed" src="https://github.com/user-attachments/assets/598eeb56-73b2-4d9f-a144-ac2f7d570091">
 
-### 7.🚀 Click on Console Output to see the complete build.
+### 8.🚀 Click on Console Output to see the complete build.
 ![Screenshot 2024-10-07 114403](https://github.com/user-attachments/assets/e38f126d-3528-4814-ae4a-2d788046c353)
 ![Screenshot 2024-10-07 114349](https://github.com/user-attachments/assets/69ec0316-2b8e-4fb6-89a7-962214691a38)
 
-### 8. 🚀 Once the report is generated, you will be able to see the HTML report.
+### 9. 🚀 Once the report is generated, you will be able to see the HTML report.
 ![Screenshot 2024-10-07 120849](https://github.com/user-attachments/assets/0f86bc89-e2af-403b-9105-2e0467567e3f)
 
-### 9.🚀 Review the stages of the build process in the console output.
+### 10.🚀 Review the stages of the build process in the console output.
 ![Screenshot 2024-10-07 121001](https://github.com/user-attachments/assets/92ccc100-5bed-4f17-9579-c026e0d7f9ca)
 
 ---
