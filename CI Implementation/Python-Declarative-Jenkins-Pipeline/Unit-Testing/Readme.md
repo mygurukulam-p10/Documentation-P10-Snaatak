@@ -31,8 +31,7 @@ This document provides a comprehensive guide for setting up unit testing using p
 
 ---
 
-## 💥 Steps to Configuration Static Code Analysis
-
+## 💥 Steps to Configuration to Unit Testing
 ### 1. 🚀 Open your Jenkins Dashboard.
 <img width="944" alt="Dashboard" src="https://github.com/user-attachments/assets/32ea261e-9e15-4dc4-9dfe-237965e974be">
 
