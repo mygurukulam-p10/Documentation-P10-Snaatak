@@ -80,7 +80,7 @@ Outbound rules define the traffic allowed to leave the ScyllaDB instances.
      - **Type**: Custom TCP Rule
      - **Protocol**: TCP
      - **Port Range**: 9042 (for ScyllaDB)
-     - **Source**: Specify the IP address of the app (e.g., `124.34.35.0/32`) or a CIDR range.
+     - **Source**: Specify the security group  of the employee app.
    - Click on **Save rules**.
 
 ![Screenshot from 2024-10-08 04-10-26](https://github.com/user-attachments/assets/2ece7246-d93f-47db-b61e-c204dafdc423)
