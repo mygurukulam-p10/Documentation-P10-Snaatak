@@ -72,6 +72,7 @@ ssh -i /path/to/your-key.pem ubuntu@<bastion-host-public-ip>
 ### login to scylladb server from bastian host
 ```bash
 ssh -/path/to/your-key.pem ubuntu@<scylladb-host-private-ip>
+```
 ### Step 3: Add ScyllaDB repository
 
 ```bash
