@@ -9,11 +9,10 @@
 ## Table of Contents
 1. [💥 Introduction](#-introduction)
 2. [⚙️ Pre-requisites](#-pre-requisites)
-3. [🔍 System Requirements](#-system-requirements)
-4. [💥 Steps to Configuration Static Code Analysis](#-steps-to-conguration-static-code-analysis)
-5. [📛 Conclusion](#-conclusion)
-6. [📧 Contact Information](#-contact-information)
-7. [📚 References](#-references)
+3. [💥 Steps to Configuration Static Code Analysis](#-steps-to-conguration-static-code-analysis)
+4. [📛 Conclusion](#-conclusion)
+5. [📧 Contact Information](#-contact-information)
+6. [📚 References](#-references)
 
 ---
 ### 💥 Introduction
@@ -28,17 +27,6 @@ Static code analysis is essential for maintaining code quality and identifying p
 | Jenkins Installed                   | Ensure Jenkins is installed and properly configured on your server. |
 | Git Plugin for Jenkins              | The Git plugin must be installed in Jenkins to allow for repository checkouts. |
 | Python and Pylint Installed         | Python and Pylint should be installed in the environment where Jenkins runs. |
-| Java Installed                      | Java is required for Jenkins to run effectively. Ensure you have an appropriate version of the Java Runtime Environment (JRE). |
-
----
-## 🔍 System Requirements
-
-| Component          | Minimum Requirements                                    | Recommended Requirements                        |
-|--------------------|--------------------------------------------------------|--------------------------------------------------|
-| CPU                | 2 cores                                                | 4 cores or more                                  |
-| RAM                | 4 GB                                                  | 8 GB or more                                    |
-| Disk Space         | 10 GB available (for Jenkins and project files)      | 20 GB or more                                   |
-| Operating System    | Linux, Windows, or macOS (64-bit)                     | Latest stable version of Linux (Ubuntu/CentOS), Windows Server, or macOS |
 
 ---
 
@@ -90,7 +78,7 @@ For more information, feedback, or assistance, feel free to contact us:
 | Links                                             | Descriptions                                                    |
 |---------------------------------------------------|-----------------------------------------------------------------|
 |https://medium.com/@tlilyskander/static-code-analysis-with-pylint-49a078f029cf| **Medium** |
-|https://stackoverflow.com/questions/61110808/how-to-do-code-analysis-for-python-inheritance| **Stackoverflow** |
+|https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/Application%20CI%20Design/Python%20CI%20Checks/Static%20code%20analysis| **Documentation** |
 |https://tinyurl.com/ycxxt6py|**Manual POC**|
 
 
