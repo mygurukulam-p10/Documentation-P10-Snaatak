@@ -62,13 +62,13 @@
 ### Step 2: Create a Launch Template
 
 1. In the EC2 console, go to **Launch Templates** and click **Create launch template**.
-2. ![image](https://github.com/user-attachments/assets/8f6569e6-9c63-439c-a11f-c8ce6bcbe6e7)
+![image](https://github.com/user-attachments/assets/8f6569e6-9c63-439c-a11f-c8ce6bcbe6e7)
 ![image](https://github.com/user-attachments/assets/40b114ac-13a8-461e-a4a8-e6d3b108408c)
 
-3. Give the template a name and description.
+2. Give the template a name and description.
  ![image](https://github.com/user-attachments/assets/0a37d4b1-b6bc-40ed-bd33-7d3b61984935)
 
-4. Select the previously created AMI.
+3. Select the previously created AMI.
  ![image](https://github.com/user-attachments/assets/3b7a82d8-f020-4e8b-b065-4496c57d7203)
 
 4. Choose the instance type and key pair.
@@ -94,13 +94,19 @@
 ### Step 3: Create an Auto Scaling Group
 
 1. Open **Auto Scaling Groups** in the EC2 console.
+![image](https://github.com/user-attachments/assets/27230a57-8273-4e50-ab6c-cc0be260c91d)
+
 2. Click **Create Auto Scaling group** and name it.
 3. Select your launch template.
+ ![image](https://github.com/user-attachments/assets/c542c4a5-df98-46db-aee8-eee36403d844)
+
 4. Choose your **VPC** and subnets for availability zones.
-5. Optionally, link your Auto Scaling group to a **Load Balancer**.
-6. Define the group size, scaling policies, and desired instance count.
-7. Optionally, set up notifications and tags.
-8. Review and create your Auto Scaling group.
+. ![image](https://github.com/user-attachments/assets/cf90890c-884f-4678-baa3-52e35b42314d)
+
+7. Optionally, link your Auto Scaling group to a **Load Balancer**.
+8. Define the group size, scaling policies, and desired instance count.
+9. Optionally, set up notifications and tags.
+10. Review and create your Auto Scaling group.
 
 ///
 ---
