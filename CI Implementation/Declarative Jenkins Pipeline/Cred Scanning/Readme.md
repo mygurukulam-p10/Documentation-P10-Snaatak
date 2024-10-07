@@ -41,6 +41,7 @@ This guide outlines the steps to set up **GitLeaks** for scanning your Git repos
 
 ### 4. Create the repo for add jenkinfile which will be using in pipeline script for SCM
 ![Screenshot 2024-10-07 114436](https://github.com/user-attachments/assets/32ce93b8-47fc-4b06-aeaa-76a96fc5ba49)
+<img width="920" alt="image" src="https://github.com/user-attachments/assets/61dd60c2-bacc-4820-ab39-a0c6fb0ddda1">
 
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for credential scanning in the pipeline script for SCM ...> add repo link & credintial, file path.
@@ -65,9 +66,7 @@ This guide outlines the steps to set up **GitLeaks** for scanning your Git repos
 ---
 
 ## 📛 Conclusion
-
-By following this guide, you have successfully configured GitLeaks for credential scanning in your Jenkins Declarative Pipeline without using Docker. This setup ensures that your Git repository is continuously monitored for hardcoded secrets and sensitive data, helping you maintain the security and integrity of your codebase. 
-Regularly scanning for credentials using automated tools like GitLeaks helps in identifying potential security risks early in the development process. Be sure to monitor the reports generated and integrate the scanning process into your CI/CD pipeline to catch vulnerabilities before code is deployed.
+By following this guide, you have successfully configured GitLeaks for credential scanning in your Jenkins Declarative Pipeline. This setup ensures that your Git repository is continuously monitored for hardcoded secrets and sensitive data, helping you maintain the security and integrity of your codebase. Regularly scanning for credentials using automated tools like GitLeaks helps in identifying potential security risks early in the development process. Be sure to monitor the reports generated and integrate the scanning process into your CI/CD pipeline to catch vulnerabilities before code is deployed.
 
 ---
 
