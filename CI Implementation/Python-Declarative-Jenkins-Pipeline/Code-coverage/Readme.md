@@ -36,8 +36,7 @@ This document provides an overview of implementing code coverage in a Python pro
 
 ---
 
-## 💥 Steps to Configuration Static Code Analysis
-
+## 💥 Steps to Configuration Code Coverage
 ### 1. 🚀 Open your Jenkins Dashboard.
 <img width="944" alt="Dashboard" src="https://github.com/user-attachments/assets/32ea261e-9e15-4dc4-9dfe-237965e974be">
 
