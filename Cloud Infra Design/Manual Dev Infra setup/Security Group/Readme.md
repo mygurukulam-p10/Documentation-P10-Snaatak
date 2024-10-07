@@ -42,8 +42,8 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 
 | Security Group Name | Port  | Source                |
 |---------------------|-------|-----------------------|
-| Salary-SG-Dev-OT-Microservice	      | 22    | 20.0.0.0/28           |
-| Salary-SG-Dev-OT-Microservice	        | 8080  | Frontend-lb-sg        |
+| Salary-Non-Prod-Dev-SG	      | 22    | 20.0.0.0/28           |
+| Salary-Non-Prod-Dev-SG        | 8080  | Frontend-lb-sg        |
 
 ### Outbound Rules
 
@@ -66,6 +66,7 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 ### Step 3: Navigate to Security Groups
 
 1. In the **EC2 Dashboard**, select **Security Groups** from the left-hand navigation menu.
+![image](https://github.com/user-attachments/assets/1a83c27e-96d5-4278-8278-7af466625b73)
 
 
 
@@ -73,7 +74,8 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 
 1. **Create a New Security Group** by clicking **Create Security Group**, or select an existing one.
 2. Provide a **name**, **description**, and **VPC assignment** for your new security group.
-![image](https://github.com/user-attachments/assets/a0bf14d5-bfa7-4f63-ba37-9868d7f81ca2)
+![image](https://github.com/user-attachments/assets/6e8162ff-bbb7-4e8c-8906-b00911f81b17)
+
 
 
 
@@ -81,12 +83,14 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 ### Step 5: Define Inbound Rules
 
 1. Click the **Inbound Rules** tab.
-![image](https://github.com/user-attachments/assets/8363080a-2de2-4fda-8178-3ef28df9071c)
+![image](https://github.com/user-attachments/assets/e532ebea-2104-4725-9d3d-29fab341644b)
+
 
 
 
 2. Click **Edit Inbound Rules** and add rules based on your requirements:
-   ![image](https://github.com/user-attachments/assets/b0126fd3-ca95-4b5f-b7f0-9168ded3cf4a)
+   ![image](https://github.com/user-attachments/assets/3fa33b72-d76c-4428-95ed-99531c165d7f)
+
 
 
 
@@ -94,19 +98,21 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 
 | Security Group Name | Port  | Source          |
 |---------------------|-------|-----------------|
-| Salary-SG-Dev-OT-Microservice        | 22    | 20.0.0.0/28     |
-| Salary-SG-Dev-OT-Microservice      | 8080  | Frontend-lb-sg  |
+| Salary-Non-Prod-Dev-SG       | 22    | 20.0.0.0/28     |
+| Salary-Non-Prod-Dev-SG      | 8080  | Frontend-lb-sg  |
 
 
 ### Step 6: Define Outbound Rules
 
 1. Click the **Outbound Rules** tab.
-  ![image](https://github.com/user-attachments/assets/806c1618-44a1-4cbc-812e-48fea5a4a93c)
+![image](https://github.com/user-attachments/assets/5de54eb9-b416-4e27-9892-015f3bd61358)
+
 
 
 
 2. Click **Edit Outbound Rules** and set outbound traffic settings:
-![image](https://github.com/user-attachments/assets/5ee38148-6c01-40ab-8c88-f045d4dfed77)
+![image](https://github.com/user-attachments/assets/a597065e-de4e-42a9-8b9c-b4676cb1aebe)
+
 
 
 
