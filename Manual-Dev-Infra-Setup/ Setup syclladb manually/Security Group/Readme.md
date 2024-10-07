@@ -8,9 +8,10 @@
 2. [🔍 Security Group Overview](#-security-group-overview)
 3. [⬇️ Inbound Rules](#-inbound-rules)
 4. [⬆️ Outbound Rules](#-outbound-rules)
-5. [💡 Best Practices for Security](#-best-practices-for-security)
-6. [📞 Contact Information](#-contact-information)
-7. [🔗 References](#-references)
+5. [🛡️ Steps to Create Security Group for ScyllaDB](#-steps-to-create-security-group-for-scylladb)
+6. [💡 Best Practices for Security](#-best-practices-for-security)
+7. [📞 Contact Information](#-contact-information)
+8. [🔗 References](#-references)
 
 ---
 
@@ -47,6 +48,51 @@ Outbound rules define the traffic allowed to leave the ScyllaDB instances. You m
 | Destination IP/CIDR  | Port  | Protocol | Description                              |
 |-----------------------|-------|----------|------------------------------------------|
 | `0.0.0.0/0`           | All   | All      | Allow all outbound traffic (customize as needed). |
+
+---
+
+
+## 🛡️ Steps to Create Security Group for ScyllaDB
+
+1. **Log in to AWS Management Console**
+   - Go to the [AWS Management Console](https://aws.amazon.com/console/).
+
+2. **Navigate to the EC2 Dashboard**
+   - In the Services menu, select **EC2**.
+
+3. **Create a Security Group**
+   - In the left sidebar, click on **Security Groups** under the **Network & Security** section.
+   - Click the **Create Security Group** button.
+
+  ![Screenshot from 2024-10-08 02-19-27](https://github.com/user-attachments/assets/7001318b-db7a-425e-8bc8-77766fcf72bf)
+
+4. **Configure Security Group Settings**
+   - **Name**: Enter `OTMS-Dev-SG-scyllaDB`.
+   - **Description**: Provide a description, e.g., "Security group for ScyllaDB in OTMS Development".
+   - **VPC**: Select the VPC where you want to create this security group.
+![Screenshot from 2024-10-08 02-19-27](https://github.com/user-attachments/assets/7001318b-db7a-425e-8bc8-77766fcf72bf)
+![Screenshot from 2024-10-08 02-19-37](https://github.com/user-attachments/assets/2bb35ae0-f710-46bc-a654-01f9f46e8ab9)
+
+
+5. **Set Inbound Rules**
+   - Click on the **Inbound rules** tab.
+   - Click on **Edit inbound rules**.
+   - Add rules based on your requirements:
+     - **Type**: Custom TCP Rule
+     - **Protocol**: TCP
+     - **Port Range**: 9042 (for ScyllaDB)
+     - **Source**: Specify the IP address of the app (e.g., `124.34.35.0/32`) or a CIDR range.
+   - Click on **Save rules**.
+
+![Screenshot from 2024-10-08 04-10-26](https://github.com/user-attachments/assets/2ece7246-d93f-47db-b61e-c204dafdc423)
+
+6. **Set Outbound Rules**
+   - Click on the **Outbound rules** tab (defaults allow all traffic).
+   - Optionally modify outbound rules as needed.
+![Screenshot from 2024-10-08 04-11-05](https://github.com/user-attachments/assets/33d768b0-2aef-483f-a79b-5715ef376f47)
+
+7. **Review and Create**
+   - Review the settings and click on the **Create security group** button.
 
 ---
 
