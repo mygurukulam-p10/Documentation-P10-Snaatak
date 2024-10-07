@@ -23,16 +23,18 @@ This Readme.md provides Dependency scanning is crucial for identifying security 
 
 ## ⚙️ Pre-requisites
 
-| **Pre-requisite**     | **Description**                                           |
-|-----------------------|-----------------------------------------------------------|
-| **Pip**               | Install package for dependency|
-| **Safety**             | Dependency vulnerability scanner for Python.              | 
-| **Git**                | Version control system for cloning repositories.          |
-| **Jenkins**            | Automation server for setting up CI/CD pipelines.         | 
+## Dependencies
+
+| Dependency      | Version   | Description                                                     |
+|-----------------|-----------|-----------------------------------------------------------------|
+| **Python3**         | >= 3.6    | Required to run the Python virtual environment and install packages. |
+| **pip**             | Latest    | Python package manager used to install and manage dependencies. |
+| **venv**            | Built-in  | Python module for creating virtual environments.                |
+| **safety**          | Latest    | A security tool to check for known vulnerabilities in dependencies. |
 
 ---
 
-## 💥 Steps to Configuration Static Code Analysis
+## 💥 Steps to Configuration Dependency Scanning
 
 ### 1. 🚀 Open your Jenkins Dashboard.
 <img width="944" alt="Dashboard" src="https://github.com/user-attachments/assets/32ea261e-9e15-4dc4-9dfe-237965e974be">
