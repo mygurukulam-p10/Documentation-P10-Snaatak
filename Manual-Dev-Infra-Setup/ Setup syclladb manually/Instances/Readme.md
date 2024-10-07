@@ -53,113 +53,107 @@ This document outlines the process for manually installing ScyllaDB in a standal
 ---
 
 ## ⚙️ Step-by-step Installation of ScyllaDB
+### Step 1: Add ScyllaDB repository
 
+```bash
+sudo gpg --homedir /tmp --no-default-keyring --keyring /etc/apt/keyrings/scylladb.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 491c93b9de7496a7
+sudo wget -O /etc/apt/sources.list.d/scylla.list http://downloads.scylladb.com/deb/debian/scylla-6.1.list
+```
 
-### 1.  Now need to install java 11 with below commands
+### Step 2: Update package cache
+
+```bash
+sudo apt-get update
+```
+
+### Step 3:  Now need to install java 11 with below commands
    
-### 2. Below Commands to setup scylla db
-
-#### Add ScyllaDB APT repository to your system.
-
-  ```
-  sudo mkdir -p /etc/apt/keyrings
 ```
+sudo apt-get install -y openjdk-11-jre-headless
+```
+```
+sudo update-java-alternatives --jre-headless -s java-1.11.0-openjdk-amd64
+```
+
+### Step 4: Install ScyllaDB
+
+```bash
+sudo apt-get install scylla
+```
+
+### Step 5: Configure ScyllaDB
+
+```bash
+sudo scylla_setup
+```
+
+Follow the prompts to configure ScyllaDB according to your system specifications.
+
+### Step 6: Start ScyllaDB service and check its status
+
+Start the ScyllaDB service:
+
+```bash
+sudo systemctl start scylla-server
+
+```
+Check the status of the ScyllaDB service
+
+```bash
+sudo systemctl status scylla-server
+
+```
+
+
+
+
+### Step 7: Verify ScyllaDB Installation
+
+```
+ Use nodetool to check the status of your ScyllaDB nodes
+```
+```bash
+nodetool status
+```
+### Step 8. Configure user Scylla 
+```
+sudo vi /etc/scylla/scylla.yaml
+```
+After entering, Edit these entries for security purpose
+```
+authenticator: PasswordAuthenticator
+authorizer: CassandraAuthorizer
+```
+### Authentication and Authorization in ScyllaDB
+
+#### `authenticator: PasswordAuthenticator`
+- **Purpose**: Specifies the method used for authentication in ScyllaDB.
+- **Description**: The `PasswordAuthenticator` setting means that users must provide a username and password to authenticate. It uses a password-based authentication method, where credentials are checked against the stored user data.
+
+#### `authorizer: CassandraAuthorizer`
+- **Purpose**: Defines the authorization method used in ScyllaDB.
+- **Description**: The `CassandraAuthorizer` setting allows you to control access to database resources using roles and permissions. It is similar to how Apache Cassandra manages authorization and helps in defining who can access what data and perform what operations.
+
+
+
+
+
+
+
+## Basic Operations
+
+Here are some basic CQL commands to get started with ScyllaDB:
+
+1. Connect to ScyllaDB using cqlsh:
+   ```bash
+   cqlsh -u cassandra -p cassandra
+   ```
   
-  ```
-  sudo gpg --homedir /tmp --no-default-keyring --keyring /etc/apt/keyrings/scylladb.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 491c93b9de7496a7
-```
-  
-  ```
-  sudo wget -O /etc/apt/sources.list.d/scylla.list http://downloads.scylladb.com/deb/debian/scylla-6.1.list
-```
 
-
-
-
-#### Install ScyllaDB packages.
-
-  ```
-  sudo apt-get update
-```
-  
-  ```
-  sudo apt-get install -y Scylla
-```
-
-
-
-
-#### Now Run the scylla_setup script to tune the system settings and determine the optimal configuration.
-
-  ```
-  sudo scylla_setup
-```
-
-
-
-#### Run ScyllaDB as a service (if not already running).
-
- ```
- sudo systemctl start scylla-server
-```
-    
-
-     Run "cqlsh" to check if it connects.
-
-
-#### then create database named employee_db using below command under cqlsh
-
-CREATE KEYSPACE employee_db 
-   WITH REPLICATION = {
-   'class' : 'SimpleStrategy', 
-   'replication_factor' : 1 
-   };
-
-
-### check if db is created using command "describe keyspaces;"
-
-### make below changes in **/etc/scylla/scylla.yaml **and add below lines at the top of the file
-
-      authenticator: PasswordAuthenticator
-      authorizer: CassandraAuthorizer
-
-
-
-
-#### Restart scylla-server with below command
-
-
-```
-sudo systemctl restart scylla-server
-```
-
-
-#### Firstly switch to by default super user of scylla with below command
-
-
-```
-cqlsh -u cassandra -p cassandra;
-```
-
-
-#### Now create a user in cqlsh with below command, 
-
-
-```
-CREATE USER scylla WITH PASSWORD 'password';
-```
-
-
-#### Give all permissions on keyspace employee_db to the scylla user with below command
-
-
-```
-GRANT ALL PERMISSIONS ON KEYSPACE employee_db TO scylla;
-```
-
-
-
-
+2. Create a keyspace:
+   ```sql
+   CREATE KEYSPACE employee_db WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
+   ```
 
 ## 📞 Contact Information
 
