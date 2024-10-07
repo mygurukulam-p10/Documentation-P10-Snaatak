@@ -3,17 +3,16 @@
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-| Megha Tyagi | 03-10-2024  | Version 1  | Megha Tyagi     | 03-10-2024     |
+| Megha Tyagi | 03-10-2024  | Version 1.2  | Megha Tyagi     | 03-10-2024     |
 
 ---
 ## Table of Contents
 1. [💥 Introduction](#-introduction)
 2. [⚙️ Pre-requisites](#-pre-requisites)
-3. [🔍 System Requirements](#-system-requirements)
-4. [💥 Steps to Configuration Declarative pipelines for cred scanning](#-steps-to-conguration-declarative-pipelines-for-cred-scanning)
-5. [📛 Conclusion](#-conclusion)
-6. [📧 Contact Information](#-contact-information)
-7. [📚 References](#-references)
+3. [💥 Steps to Configuration Declarative pipelines for cred scanning](#-steps-to-conguration-declarative-pipelines-for-cred-scanning)
+4. [📛 Conclusion](#-conclusion)
+5. [📧 Contact Information](#-contact-information)
+6. [📚 References](#-references)
 
 ---
 ### 💥 Introduction
@@ -24,15 +23,9 @@ This guide outlines the steps to set up **GitLeaks** for scanning your Git repos
 ## ⚙️ Pre-requisites
 1. **Jenkins**: Ensure you have a Jenkins instance running.
 2. **GitLeaks**: For performing the actual credential scanning
+3. **Go**: To ensure performance and concurrency
 3. **Jenkins Credentials**: Add any required credentials (e.g., GitHub tokens) in Jenkins.
----
-## 🔍 System Requirements
-| Component         | Minimum Requirement       | Recommended Requirement     |
-|-------------------|---------------------------|-----------------------------|
-| **Processor**     | Dual-core CPU             | Quad-core CPU or higher     |
-| **Memory**        | 4 GB RAM                  | 8 GB RAM or more            |
-| **Disk Space**    | 1 GB                      | 10 GB or more (for larger repositories) |
-
+4. **Repo**: To apply cred scanning.
 ---
 
 ## 💥 Steps to Configuration Declarative pipelines for cred scanning
@@ -46,8 +39,12 @@ This guide outlines the steps to set up **GitLeaks** for scanning your Git repos
 ### 3. 🚀 Provide a description for the pipeline that performs credential scanning.
 <img width="947" alt="image" src="https://github.com/user-attachments/assets/df35108b-2228-48f0-86b5-bd310c3b9da7">
 
-### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for credential scanning in the pipeline configuration...>Click on Save to store the configuration.
-<img width="956" alt="image" src="https://github.com/user-attachments/assets/3c946e0b-3656-47fe-80dd-cd67427662fe">
+### 4. Create the repo for add jenkinfile which will be using in pipeline script for SCM
+![Screenshot 2024-10-07 114436](https://github.com/user-attachments/assets/32ce93b8-47fc-4b06-aeaa-76a96fc5ba49)
+
+
+### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for credential scanning in the pipeline script for SCM ...> add repo link & credintial, file path.
+![Screenshot 2024-10-07 114130](https://github.com/user-attachments/assets/6817dc45-4998-4f46-86c7-523d646af706)
 
 ### 5. 🚀 Then Click on build to run the pipeline to perform
 <img width="952" alt="build" src="https://github.com/user-attachments/assets/8e0b140e-3cb9-4b40-babd-75fb6963a653">
@@ -56,15 +53,15 @@ This guide outlines the steps to set up **GitLeaks** for scanning your Git repos
 <img width="959" alt="build completed" src="https://github.com/user-attachments/assets/598eeb56-73b2-4d9f-a144-ac2f7d570091">
 
 ### 7.🚀 Click on Console Output to see the complete build.
-<img width="959" alt="console 1" src="https://github.com/user-attachments/assets/6f7e4f8e-360f-4459-9564-12622bdf65e8">
-<img width="929" alt="console 2" src="https://github.com/user-attachments/assets/5bce25f8-31ae-4e52-90b1-4016690e6424">
-<img width="941" alt="console 3" src="https://github.com/user-attachments/assets/4b507ffe-c08b-4e41-804b-6f9bba05786e">
+![Screenshot 2024-10-07 114403](https://github.com/user-attachments/assets/e38f126d-3528-4814-ae4a-2d788046c353)
+![Screenshot 2024-10-07 114349](https://github.com/user-attachments/assets/69ec0316-2b8e-4fb6-89a7-962214691a38)
 
-### 8. 🚀 Once the report is generated, you will be able to see the JSON report.
-<img width="571" alt="json report" src="https://github.com/user-attachments/assets/b1b41e7b-bd0c-4fae-84a1-0c7acf64cc7b">
+### 8. 🚀 Once the report is generated, you will be able to see the HTML report.
+![Screenshot 2024-10-07 120849](https://github.com/user-attachments/assets/0f86bc89-e2af-403b-9105-2e0467567e3f)
 
 ### 9.🚀 Review the stages of the build process in the console output.
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/a5045da9-237a-45a6-8bcf-bda1138c9642">
+![Screenshot 2024-10-07 121001](https://github.com/user-attachments/assets/92ccc100-5bed-4f17-9579-c026e0d7f9ca)
+
 ---
 
 ## 📛 Conclusion
