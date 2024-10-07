@@ -66,7 +66,10 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 ### Step 3: Navigate to Security Groups
 
 1. In the **EC2 Dashboard**, select **Security Groups** from the left-hand navigation menu.
+
 ![image](https://github.com/user-attachments/assets/1a83c27e-96d5-4278-8278-7af466625b73)
+
+
 
 
 
