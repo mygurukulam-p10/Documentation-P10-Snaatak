@@ -92,5 +92,5 @@ AWS Security Groups provide a robust solution for managing access to AWS resourc
 
 | Name             | Email                        |
 |------------------|------------------------------|
-| Komal Jaiswal    | komal.jaiswal@example.com    |
+| Komal Jaiswal    | komal.jaiswal.snaatak@mygurukulam.co    |
 
