@@ -80,7 +80,7 @@ An instance in Amazon EC2 is essentially a virtual server within the AWS cloud, 
  ![image](https://github.com/user-attachments/assets/776a6465-ac87-4767-89a9-2ae1bf7f730a)
  
 7. Configure **security group settings** for your instance.
-![7](https://github.com/user-attachments/assets/7821beb6-a857-4096-940d-212125477c81)
+![7](https://github.com/user-attachments/assets/a8ec03c1-8f40-4018-a423-303c6e0acb38)
 
 
 8. Finally, click **Launch** and your instance will be up shortly! 🎉
