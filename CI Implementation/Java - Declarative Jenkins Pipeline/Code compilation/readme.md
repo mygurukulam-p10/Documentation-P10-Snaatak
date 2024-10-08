@@ -46,18 +46,20 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 ### 3. 🚀 Provide a description for the pipeline that performs code-compilation.
 ![3](https://github.com/user-attachments/assets/4cce2993-aeb1-469c-b97c-e3b644c3bf41)
 
-### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for code-compilation in the pipeline configuration...>Click on Save to store the configuration.
-![4](https://github.com/user-attachments/assets/86687d99-016f-4ec7-9132-addffb296fcd)
+### 4. 🚀 Create the repo for add jenkinfile which will be using in pipeline script for SCM
+![4](https://github.com/user-attachments/assets/8eba668d-9025-42d3-8b82-fa9fa8785557)
 
 
+### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for credential scanning in the pipeline script for SCM ...> add repo link & credintial, file path.
+![5](https://github.com/user-attachments/assets/9b41936a-f3fc-4d2d-8228-828a66428902)
 
-### 5. 🚀 Then Click on build to run the pipeline to perform
+### 6. 🚀 Then Click on build to run the pipeline to perform
 <img width="952" alt="build" src="https://github.com/user-attachments/assets/8e0b140e-3cb9-4b40-babd-75fb6963a653">
 
-### 6.🚀 Now we are able to see build complete-
-![6](https://github.com/user-attachments/assets/edc403b0-0e63-4aca-8ce9-aa7ec6a5fe6c)
+### 7.🚀 Now we are able to see build complete-
+![7](https://github.com/user-attachments/assets/87b0bd65-387d-472b-a082-c029d105275b)
 
-### 7.🚀 Click on Console Output to see the complete build.
+### 8.🚀 Click on Console Output to see the complete build.
 ![7](https://github.com/user-attachments/assets/e03d8595-d089-4a88-b812-6f1f75ca8d39)
 ![8](https://github.com/user-attachments/assets/154334b8-c48a-4fa4-a9b8-460e021c7682)
 
@@ -65,7 +67,7 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 
 
 ### 9.🚀 Review the stages of the build process in the console output.
-![9](https://github.com/user-attachments/assets/6ea6223c-57c6-4888-83e9-eff267caf0f8)
+![9](https://github.com/user-attachments/assets/9c85a377-5c68-4cb3-b441-e35bc71d61e2)
 
 
 ## 📛 Conclusion
