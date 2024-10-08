@@ -88,7 +88,7 @@ An instance in Amazon EC2 is essentially a virtual server within the AWS cloud, 
 ![Screenshot from 2024-10-09 02-01-48](https://github.com/user-attachments/assets/e1713398-4970-4ba3-8732-48d1b2e4161f)
 
 
-NOTE : After successfully launching the instance follow this Employee API Setup Document. [here]
+NOTE : After successfully launching the instance follow this Employee API Setup Document. [here](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/OT%20MS%20Understanding/Employee/Setup%20and%20run%20the%20App%20for%20POC%20)
 
 ## 💡 Conclusion
 
