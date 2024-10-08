@@ -17,8 +17,8 @@
 6. [Contact Information](#-contact-information)
 7. [References](#references)
 
-📚 Introduction
-This document serves as a comprehensive guide for installing and configuring OpenVPN, aimed at simplifying the setup process for users of all skill levels. 
+## 📚 Introduction
+This document serves as a comprehensive guide for installing and configuring OpenVPN.
 
 ---
 ## ⚙ Pre-requisites
