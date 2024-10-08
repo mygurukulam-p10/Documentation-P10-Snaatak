@@ -43,7 +43,7 @@ Download the OpenVPN installation script from the official repository:
 
 ```bash
 curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
-
+```
 
 # OpenVPN Installation and Setup Guide
 
