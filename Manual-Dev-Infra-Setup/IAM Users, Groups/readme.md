@@ -74,7 +74,8 @@ Creating IAM users and groups is important for keeping AWS accounts secure. By g
 
 ***
 ###  From the IAM console select Users on the left-handside and click Add Users
-![image](https://github.com/avengers-p7/Documentation/assets/156056746/20dc7c1c-263d-4c27-a250-bada6be0824d)
+![Screenshot from 2024-10-08 06-09-02](https://github.com/user-attachments/assets/7a09f0b0-9fe2-492b-bff2-d39301280cd0)
+
 
 ***
  **Under User name type 'Administrator'**
@@ -84,11 +85,13 @@ Creating IAM users and groups is important for keeping AWS accounts secure. By g
  **create a custom password & create**
 
  **Click: permissions**
-![Screenshot from 2024-10-08 04-52-58](https://github.com/user-attachments/assets/4cb3765a-45f7-4b44-933e-abc5a1c770d0)
+![Screenshot from 2024-10-08 04-52-58](https://github.com/user-attachments/assets/4923c0a5-5555-4035-98d2-1d796a3e128f)
+
 
  ***
  ## Navigate to Users and click 'Add permissions'
-![Screenshot from 2024-10-08 04-56-18](https://github.com/user-attachments/assets/67d3be21-d376-44cb-bea2-92fa4ebac203)
+![Screenshot from 2024-10-08 04-55-05](https://github.com/user-attachments/assets/2943820d-d6a9-4f86-abfd-8b1d774aff4b)
+
 
  ![Screenshot from 2024-10-08 04-55-05](https://github.com/user-attachments/assets/1859345d-cf72-4a82-8a32-683aeade0b39)
 
