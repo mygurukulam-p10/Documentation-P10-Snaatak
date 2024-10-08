@@ -1,5 +1,5 @@
 ## Pre-existing IAM Policies
-![Screenshot from 2024-10-08 06-00-47](https://github.com/user-attachments/assets/1e66616a-744e-49e7-a7e1-22177d7587b4)
+![Screenshot from 2024-10-08 06-00-47](https://github.com/user-attachments/assets/a42922aa-17b9-4c06-af6b-451bd9ce051b)
 
 
 ***
@@ -62,19 +62,20 @@ Identifying and using pre-existing IAM policies in AWS helps organizations take 
 ***
 ## Pre-existing IAM Policies
 ### Step1: Specify user details
-![Screenshot from 2024-10-08 06-20-24](https://github.com/user-attachments/assets/8f9e5cd9-ebef-4a6b-b263-336f46709d62)
+![Screenshot from 2024-10-08 06-20-24](https://github.com/user-attachments/assets/3f3f7387-e013-4b27-9590-67aae629af74)
+
 
 ***
 ### step2: Explore The Policies & Attach As Per Requirement
-![Screenshot from 2024-10-08 06-22-38](https://github.com/user-attachments/assets/94789362-b0dc-4281-9702-7bd269085578)
+![Screenshot from 2024-10-08 06-22-38](https://github.com/user-attachments/assets/42e417a7-601f-41b2-b41c-dc1051265186)
 
-![Screenshot from 2024-10-08 06-23-58](https://github.com/user-attachments/assets/c7dcb287-c8b2-4177-afc8-e39e08d08ab2)
+![Screenshot from 2024-10-08 06-23-58](https://github.com/user-attachments/assets/3a0a6270-6487-4b10-86d7-d0d8d4ed4dad)
 
 
 ***
 ### Step3: Review and create
-![Screenshot from 2024-10-08 06-25-21](https://github.com/user-attachments/assets/aa48f0f1-45c0-4f97-977d-86cdfec31b7e)
-![Screenshot from 2024-10-08 06-26-49](https://github.com/user-attachments/assets/38b7c53e-3c5b-4edf-8fcc-6ccfc94e4077)
+![Screenshot from 2024-10-08 06-25-21](https://github.com/user-attachments/assets/6a24b6cf-bae2-4b5c-9c04-7510bb606e26)
+![Screenshot from 2024-10-08 06-26-49](https://github.com/user-attachments/assets/063f3ca1-c9fe-43e7-8889-bea3cd8a0a9b)
 
 ***
 
