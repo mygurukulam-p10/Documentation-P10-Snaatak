@@ -34,6 +34,8 @@ This document outlines how to set up a Declarative Jenkins Pipeline for DAST usi
 | **Disk Space**    | 10 GB                      | 
 | **OS**            |Ubuntu 22.04 LTS           |
 
+![image](https://github.com/user-attachments/assets/84d198c2-e6af-44e5-afb1-53dfe43110dc)
+
 
 ## 💥 Steps to Configuration Declarative pipelines for DAST
 
