@@ -1,4 +1,4 @@
-# Java - Declarative Jenkins Pipeline for Static code analysis
+# Java - Declarative Jenkins Pipeline for Static Code Analysis
 
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
