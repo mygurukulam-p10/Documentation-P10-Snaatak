@@ -103,24 +103,14 @@ Outbound rules define the traffic allowed to leave the ScyllaDB instances.
 ![Screenshot 2024-10-08 161247](https://github.com/user-attachments/assets/9fc33a03-e675-4670-b4b1-acb968a26530)
 
 
-2. Click **Edit Outbound Rules** and set outbound traffic settings:
-![image](https://github.com/user-attachments/assets/a597065e-de4e-42a9-8b9c-b4676cb1aebe)
-
-
-
-| Security Group Name | Port        | Protocol  | Destination  |
-|---------------------|-------------|-----------|--------------|
-| *                   | All Traffic | All       | 0.0.0.0/0    |
-
-
 
 ---
 
 ##  📧 Contact Information
 For more information, feedback, or assistance, feel free to contact us:
-| Name         | Email address          |
-|--------------|------------------------|
-| Megha Tyagi  | megha.tyagi.snaatak@mygurukulam.co  |
+| Name | Email address|
+|------|---------------------|
+| Vinay Bansal | vinay.bansal.snaatak@mygurukulam.co |
 
 
 ---
