@@ -1,4 +1,4 @@
-# 🌐 Setup AWS Security Groups - Documentation
+# 🌐 Setup Redis Manually AWS Security Groups - Documentation
 
 | Author      | Created on | Version   | Last updated by | Last edited on | Reviewed By L0 | Reviewed By L1 | Reviewed By L2 |
 |-------------|------------|-----------|-----------------|----------------|----------------|----------------|----------------| 
