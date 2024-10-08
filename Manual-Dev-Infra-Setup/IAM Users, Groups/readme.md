@@ -59,12 +59,18 @@ Creating IAM users and groups is important for keeping AWS accounts secure. By g
 ***
 
 ***
-### How to create your first IAM user and user group
-![image](https://github.com/avengers-p7/Documentation/assets/156056746/1361ef75-84a7-4a07-935e-9ea77ff166aa)
+## Creating IAM User and Group
+
+###  Login to the AWS management console using your AWS Root credentials
+```https://aws.amazon.com/console/```
+
+![Screenshot from 2024-10-08 06-04-36](https://github.com/user-attachments/assets/05f9bebc-e05c-4b78-9453-448cc5dc851b)
+
 
 ***
 ### Navigate to AWS Services and search for IAM to access the IAM console.
-![image](https://github.com/avengers-p7/Documentation/assets/156056746/3e256943-917a-4af7-821f-af8ba4ea6267)
+![Screenshot from 2024-10-08 06-05-28](https://github.com/user-attachments/assets/7d3c9a55-f491-4c0a-8ef0-e5d8a52ab664)
+
 
 ***
 ###  From the IAM console select Users on the left-handside and click Add Users
