@@ -18,7 +18,7 @@
 
 ---
 ### 💥 Introduction
-This document provides an overview of implementing code coverage in a Python project using a Jenkins declarative pipeline. Code coverage is a metric that measures how much of the source code is executed while running automated tests. By integrating code coverage tools such as pytest-cov, we can ensure that their test suite effectively covers critical parts of the codebase, leading to better software quality and reliability. The steps outlined in this pipeline automate the testing and code coverage reporting process.
+This document provides an overview of implementing code coverage in a Python project using a Jenkins declarative pipeline. By integrating code coverage tools such as pytest-cov, we can ensure that their test suite effectively covers critical parts of the codebase, leading to better software quality and reliability. The steps outlined in this pipeline automate the testing and code coverage reporting process.
 
 ---
 
