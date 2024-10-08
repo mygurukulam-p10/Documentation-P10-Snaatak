@@ -1,4 +1,4 @@
-# 🔒 Security Group Setup for Postgresql manually 
+# 🔒 Security Group Setup for Postgresql Manually 
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
@@ -34,18 +34,19 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 -  
 ## 🔍 Security Group Overview
 
-Security groups act as virtual firewalls that control inbound and outbound traffic for ScyllaDB nodes. They define rules that specify the allowed ports, protocols, and IP ranges for communication between nodes, clients, and external systems.
+Security groups act as virtual firewalls that control inbound and outbound traffic for Postgresql. They define rules that specify the allowed ports, protocols, and IP ranges for communication between nodes, clients, and external systems.
 
 
 ## ⬇️ Inbound Rules
 
-Inbound rules determine what traffic is allowed to reach the ScyllaDB instances. The following rules should be considered:
+Inbound rules determine what traffic is allowed to reach the Postgresql instances. The following rules should be considered:
 
 | Port  | Protocol | Description                             |
 |-------|----------|-----------------------------------------|
+| 22	      | SSH    |     To securely connect to a remote device      |
 | 5432  | TCP      | used by the PostgreSQL Database Server |
 
----
+
 
 ## ⬆️ Outbound Rules
 
@@ -89,16 +90,11 @@ Outbound rules define the traffic allowed to leave the ScyllaDB instances.
 2.Add rules based on your requirements.
 3. Type: Custom TCP Rule
 4. Protocol: TCP
-5. Port Range: 5432 (for ScyllaDB)
+5. Port Range: 5432 (for Postgresql)
 6. Source: Specify the security group of the employee app and bastian host security group.
 7. Click on Save rules.
 ![6](https://github.com/user-attachments/assets/58f23946-ca2c-4ee3-a3bc-a9bf570751db)
 
-
-| Security Group Name | Port  | Source          |
-|---------------------|-------|-----------------|
-|   | 22    | 20.0.0.0/28           |
-|   |5432|Postgres|
 
 
 ### Step 6: Define Outbound Rules
