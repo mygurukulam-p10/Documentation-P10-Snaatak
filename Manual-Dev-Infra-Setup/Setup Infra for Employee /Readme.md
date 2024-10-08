@@ -105,9 +105,7 @@ Amazon EC2 provides versatile, scalable, and cost-efficient instances, enabling 
 ---
 
 ## 📚 References
-
-- [AWS EC2 Documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
-- [Cloud Infra Design](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/Cloud%20Infra%20Design/Cloud%20Infra%20Design%2030K%20feet/Readme.md). 
-
-
-
+| Topic                   | Reference Link                                                                                              |
+|-------------------------|-------------------------------------------------------------------------------------------------------------|
+| AWS EC2 Documentation    | [AWS EC2 Documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)          |
+| Cloud Infra Design      | [Cloud Infra Design](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/Cloud%20Infra%20Design/Cloud%20Infra%20Design%2030K%20feet/Readme.md) |
