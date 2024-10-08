@@ -86,7 +86,11 @@ An instance in Amazon EC2 is essentially a virtual server within the AWS cloud, 
 8. Finally, click **Launch** and your instance will be up shortly! 🎉
 ![Screenshot 2024-10-08 162041](https://github.com/user-attachments/assets/71f8b640-b50b-4bb8-8208-aca6bb47b308)
 
-9.
+9. Verify
+![8](https://github.com/user-attachments/assets/3a3848d9-d78b-458c-892a-3416c53629d0)
+
+![9](https://github.com/user-attachments/assets/cd82d434-9e19-43e1-b286-1dea42b35dd7)
+
 NOTE : After successfully launching the instance follow this Postgresql Setup Document. [here]([https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/OT%20MS%20Understanding/Attendance/%20%20%20%09%20Setup%20and%20run%20the%20App%20for%20POC](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/OT%20MS%20Understanding/PostgreSQL/Setup%20and%20run%20the%20PostgreSQL%20for%20POC))
 
 ---
