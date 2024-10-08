@@ -19,6 +19,11 @@
 6. [References](#references)
 
 ---
+## 📧 Contact Information
+
+| Name       | Email Address                              |
+|------------|--------------------------------------------|
+| Amit Nagar | amit.nagar.snaatak@mygurukulam.com       |
 
 ## 📝 Introduction
 
