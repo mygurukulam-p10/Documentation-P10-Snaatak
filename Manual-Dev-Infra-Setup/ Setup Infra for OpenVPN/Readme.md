@@ -7,7 +7,19 @@
 
 ---
 
-This guide provides detailed instructions for setting up OpenVPN using an automated script, making it easy to deploy a secure VPN server.
+
+## 📚 Table of Contents
+
+1. [📚 Introduction](#Introduction)
+2. [Pre-requisites](#⚙-pre-requisites)
+3. [System Requirements](#🔍-system-requirements)
+4. [Steps to Install and Configure OpenVPN](#💥-steps-to-install-and-configure-openvpn)
+5. [Conclusion](#conclusion)
+6. [Contact](#contact)
+7. [References](#references)
+
+📚 Introduction
+This document serves as a comprehensive guide for installing and configuring OpenVPN, aimed at simplifying the setup process for users of all skill levels. 
 
 ---
 ## ⚙ Pre-requisites
@@ -19,8 +31,8 @@ This guide provides detailed instructions for setting up OpenVPN using an automa
 | **CPU**                          | 1 CPU core |
 | **RAM**                          | Minimum of 512 MB (1 GB recommended). |
 | **Disk Space**                  | At least 10 GB of free disk space. |
-| **Operating System**            | Ubuntu 20.04+, Debian 10+, or CentOS 7+. |
-| **Network**                     | A public IP address and open ports for VPN (default: 1194). |
+| **Operating System**            | Ubuntu 20.04+ |
+
 
 ---
 
