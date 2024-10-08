@@ -14,7 +14,7 @@
 3. [System Requirements](#🔍-system-requirements)
 4. [Steps to Install and Configure OpenVPN](#💥-steps-to-install-and-configure-openvpn)
 5. [Conclusion](#conclusion)
-6. [Contact Information](#contact)
+6. [Contact Information](#-contact-information)
 7. [References](#references)
 
 📚 Introduction
