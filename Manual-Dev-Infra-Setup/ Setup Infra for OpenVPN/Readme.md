@@ -45,8 +45,6 @@ Download the OpenVPN installation script from the official repository:
 curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
 ```
 
-# OpenVPN Installation and Setup Guide
-
 ## 2. Make the Script Executable
 
 Change the permissions of the downloaded script to make it executable:
