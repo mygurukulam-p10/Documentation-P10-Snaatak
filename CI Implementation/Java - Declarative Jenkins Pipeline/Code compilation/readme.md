@@ -60,7 +60,8 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 ![7](https://github.com/user-attachments/assets/87b0bd65-387d-472b-a082-c029d105275b)
 
 ### 8.🚀 Click on Console Output to see the complete build.
-![7](https://github.com/user-attachments/assets/e03d8595-d089-4a88-b812-6f1f75ca8d39)
+![8](https://github.com/user-attachments/assets/3387888b-ed63-4032-87fd-0a35697c612f)
+
 ![8](https://github.com/user-attachments/assets/154334b8-c48a-4fa4-a9b8-460e021c7682)
 
 
