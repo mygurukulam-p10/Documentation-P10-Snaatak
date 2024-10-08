@@ -64,18 +64,22 @@
 2. Click on **Listeners** and select **Protocol Port HTTP:80** to add a new rule.
   
 3. Define the **Name** and add any relevant **Tags**.
+   ![image](https://github.com/user-attachments/assets/9fabb414-52a5-494e-9514-75af93144596)
+
 ![image](https://github.com/user-attachments/assets/fcce0547-520b-4ea9-a981-a2c992ee9b54)
 
-4. Set the **Path Condition** (e.g., `/item/*`) for traffic routing.
+5. Set the **Path Condition** (e.g., `/item/*`) for traffic routing.
  
-5. Choose the **Target Group** to forward the traffic to. Adjust the weights if using multiple target groups.
-6. Assign a **Priority** for the rule and review all settings.
-7. Once verified, click **Create Rule**.
+6. Choose the **Target Group** to forward the traffic to. Adjust the weights if using multiple target groups.
+7. Assign a **Priority** for the rule and review all settings.
+8. Once verified, click **Create Rule**.
 
 ---
 
 ## **Output** 📊
 After setting up the listener rules, the load balancer will correctly distribute traffic as per your rules. Use the DNS endpoint of the load balancer to test the Salary API.
+
+![image](https://github.com/user-attachments/assets/3581b0fe-1090-4a95-9071-b9514dbce1c0)
 
 ---
 
