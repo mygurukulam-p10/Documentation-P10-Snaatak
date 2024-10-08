@@ -2,7 +2,7 @@
 
 | ✍️ Author      | 📅 Created on  | 📌 Version  | 📝 Last updated by | 📅 Last edited on  |
 |----------------|----------------|------------|--------------------|--------------------|
-| Vinay Bansal   | 03-10-2024     | Version 1  | Vinay Bansal       | 09-10-2024         |
+|Brij Singh   | 03-10-2024     | Version 1  | Brij Singh       | 09-10-2024         |
 
 ---
 
@@ -44,11 +44,18 @@ This document provides steps to configure a **Scripted Jenkins Pipeline** for Ja
 ### 1. 🚀 **Open Jenkins Dashboard**
 1. Go to the Jenkins dashboard.
 2. Click on **New Item**.
+![image](https://github.com/user-attachments/assets/942061a3-4727-4f5c-83ce-4155ee08b2cb)
+
+
 3. Name the job (e.g., `code-compilation-scripted`).
+![image](https://github.com/user-attachments/assets/09b4950f-bb5b-47c8-967e-bba9c2c041e3)
 
 ### 2. 🚀 **Select Pipeline**
 1. Choose **Pipeline** as the job type and click **OK**.
-2. In the "Pipeline" section, switch to "Pipeline script" and enter your scripted pipeline.
+![image](https://github.com/user-attachments/assets/496bbc72-0fbc-4a28-847f-3d14970c52db)
+
+2. In the "Pipeline" section, switch to "Pipeline script From SCM" and enter your scripted pipeline.
+![image](https://github.com/user-attachments/assets/0a4eaff5-fa47-45ef-b137-2765ecc78ee6)
 
 ### 3. 🚀 **Pipeline Script for Java Code Compilation**
 
