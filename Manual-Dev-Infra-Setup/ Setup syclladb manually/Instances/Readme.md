@@ -58,7 +58,8 @@ This document outlines the process for manually installing ScyllaDB in a standal
 
 ### 1. Create the ScyllaDB Instance in Database subnet.
 Create  EC2 instance for ScyllaDB:
-![Screenshot from 2024-10-08 10-52-52-1](https://github.com/user-attachments/assets/2c02deda-5e98-4d3f-8211-01df00dbf56f)
+![Screenshot from 2024-10-08 10-54-50](https://github.com/user-attachments/assets/41ff5919-7b41-4684-8f78-972542953f87)
+
 
 
 ![Screenshot from 2024-10-08 03-40-12](https://github.com/user-attachments/assets/8f23e1a3-4b00-4ab3-9b76-ef21831602d0)
