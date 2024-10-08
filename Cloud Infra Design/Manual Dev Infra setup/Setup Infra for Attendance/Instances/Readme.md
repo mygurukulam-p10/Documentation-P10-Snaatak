@@ -8,14 +8,14 @@
 ---
 
 ## 📑 Table of Contents
-1. [Introduction](#introduction)
-2. [EC2 Instance Types](#ec2-instance-types)
-3. [Why Use AWS EC2 Instance](#why-use-aws-ec2-instance)
-4. [Pre-requisites](#pre-requisites)
-5. [Steps to Launch an EC2 Instance](#steps-to-launch-an-ec2-instance)
-6. [Conclusion](#conclusion)
-7. [Contact Information](#contact-information)
-8. [References](#references)
+1. [📝 Introduction](#-introduction)
+2. [📊 EC2 Instance Types](#-ec2-instance-types)
+3. [🌟 Why Use AWS EC2 Instance](#-why-use-aws-ec2-instance)
+4. [⚙️ Pre-requisites](#-pre-requisites)
+5. [🛠  Steps to Launch an EC2 Instance](#-steps-to-launch-an-ec2-instance)
+6. [💡 Conclusion](#-conclusion)
+7. [📧 Contact Information](#-contact-information)
+8. [📚 References](#-references)
 
 ---
 
