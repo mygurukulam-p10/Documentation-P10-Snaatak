@@ -30,7 +30,7 @@ This document serves as a comprehensive guide for installing and configuring Ope
 | **CPU**                          | 1 CPU core |
 | **RAM**                          | Minimum of 512 MB (1 GB recommended). |
 | **Disk Space**                  | At least 10 GB of free disk space. |
-| **Operating System**            | Ubuntu 20.04+ |
+| **Operating System**            | Ubuntu 22.04 |
 
 
 ---
