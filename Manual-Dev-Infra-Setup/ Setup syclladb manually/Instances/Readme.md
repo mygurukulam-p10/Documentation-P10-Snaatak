@@ -22,7 +22,7 @@
 
 ## 📌 Purpose
 
-This document outlines the process for manually installing ScyllaDB in a standalone environment.
+This document outlines the process for manually installing standalone ScyllaDB.
 
 ---
 
