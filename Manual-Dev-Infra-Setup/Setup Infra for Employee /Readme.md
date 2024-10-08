@@ -68,18 +68,19 @@ An instance in Amazon EC2 is essentially a virtual server within the AWS cloud, 
  
 3. Select `Launch Instance`.  
 4. Enter a **name** for the instance under **Name and Tags**.
-<img width="956" alt="image" src="https://github.com/user-attachments/assets/978bb67c-d246-4589-bbaa-778988337920">
+![Screenshot from 2024-10-09 01-53-54](https://github.com/user-attachments/assets/29a4e440-ccd2-40f8-be34-476947d0f5eb)
+
 
 5. Select the appropriate **Amazon Machine Image (AMI)** (e.g., Amazon Linux).
-<img width="955" alt="image" src="https://github.com/user-attachments/assets/8d87279f-a057-4422-814a-d93a36dbcc7b">
+![Screenshot from 2024-10-09 01-55-12](https://github.com/user-attachments/assets/8a0effc3-9b29-445e-bd74-27e065f18b75)
+
 
  
 6. Choose your **instance type**, key pair, and network settings.
  ![image](https://github.com/user-attachments/assets/776a6465-ac87-4767-89a9-2ae1bf7f730a)
  
 7. Configure **security group settings** for your instance.
- ![Screenshot 2024-10-08 162010](https://github.com/user-attachments/assets/5f829c57-2d04-4157-b8cc-e7b9ce86e4a4)
-
+ 
 
 8 Finally, click **Launch** and your instance will be up shortly! 🎉
 ![Screenshot 2024-10-08 162041](https://github.com/user-attachments/assets/71f8b640-b50b-4bb8-8208-aca6bb47b308)
