@@ -47,11 +47,11 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 ![3](https://github.com/user-attachments/assets/c8d597f6-4654-4587-b99f-663ca3ec7764)
 
 ### 4. 🚀 Create the repo for add jenkinfile which will be using in pipeline script for SCM
-![4](https://github.com/user-attachments/assets/8038c415-ffe1-40a2-b54a-cd9e9cd4042f)
+![5](https://github.com/user-attachments/assets/52a69592-a185-485c-9700-0aabc193716a)
 
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for credential scanning in the pipeline script for SCM ...> add repo link & credintial, file path.
-![5](https://github.com/user-attachments/assets/52a69592-a185-485c-9700-0aabc193716a)
+![4](https://github.com/user-attachments/assets/8038c415-ffe1-40a2-b54a-cd9e9cd4042f)
 
 ### 6. 🚀 Then Click on build to run the pipeline to perform
 <img width="952" alt="build" src="https://github.com/user-attachments/assets/8e0b140e-3cb9-4b40-babd-75fb6963a653">
