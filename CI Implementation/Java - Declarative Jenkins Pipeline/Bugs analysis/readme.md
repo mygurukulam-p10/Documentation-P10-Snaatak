@@ -46,27 +46,28 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 ### 3. 🚀 Provide a description for the pipeline that performs Bugs analysis.
 ![3](https://github.com/user-attachments/assets/f8aa2ae9-0333-45b5-83b3-f40fb077dc3a)
 
-### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Bugs analysis in the pipeline configuration...>Click on Save to store the configuration.
-![4](https://github.com/user-attachments/assets/9db9c1ca-337d-4a43-b24c-86d85cf711d2)
+### 4. 🚀 Create the repo for add jenkinfile which will be using in pipeline script for SCM
+![4](https://github.com/user-attachments/assets/8ffd51b8-115b-4a6e-a663-18b7b634d946)
 
+### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for credential scanning in the pipeline script for SCM ...> add repo link & credintial, file path.
+![5](https://github.com/user-attachments/assets/11b9d8d0-4b3e-453a-b194-6fe15a70a385)
 
-
-### 5. 🚀 Then Click on build to run the pipeline to perform
+### 6. 🚀 Then Click on build to run the pipeline to perform
 <img width="952" alt="build" src="https://github.com/user-attachments/assets/8e0b140e-3cb9-4b40-babd-75fb6963a653">
 
-### 6.🚀 Now we are able to see build complete-
-![6](https://github.com/user-attachments/assets/7836be27-234a-4810-97df-6e132460d06b)
+### 7.🚀 Now we are able to see build complete-
+![7](https://github.com/user-attachments/assets/05b1b6a6-7cc7-4b9b-8923-9d7c1c7e1ed4)
 
-### 7.🚀 Click on Console Output to see the complete build.
-![7](https://github.com/user-attachments/assets/6230dc67-c07d-4fb2-ab04-d81e77d5159a)
+### 8.🚀 Click on Console Output to see the complete build.
+![8](https://github.com/user-attachments/assets/5043b246-6c7c-445e-9dc3-06ffda77b4cc)
 
-![8](https://github.com/user-attachments/assets/2f298c39-fb71-49fa-ac12-95805e05fd86)
+![8 1](https://github.com/user-attachments/assets/df7346f7-8ad3-4630-b37b-dfa99be352d4)
 
 
 
 
 ### 9.🚀 Review the stages of the build process in the console output.
-![9](https://github.com/user-attachments/assets/25f61bf1-0998-4161-9922-27f9837c1fa4)
+![9](https://github.com/user-attachments/assets/d0049f4c-a81d-4655-9e95-2f55e9c3c8bf)
 
 
 ## 📛 Conclusion
