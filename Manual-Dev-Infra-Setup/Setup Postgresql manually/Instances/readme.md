@@ -1,4 +1,6 @@
 # Setup Postgresql Manually for Instances 🚀
+![image](https://github.com/user-attachments/assets/4ca84bf2-3510-426f-a3c2-56b53a916f31)
+
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
