@@ -61,65 +61,6 @@ Provide a description for the pipeline that performs code-compilation.
 
 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for credential scanning in the pipeline script for SCM ...> add repo link & credintial, file path.
 
-### 3. 🚀 **Pipeline Script for Java Code Compilation**
-
-Here’s an example of a **Scripted Pipeline** for Java code compilation using Maven. This pipeline includes testing stages.
-
-```groovy
-node {
-    stage('Checkout') {
-        // Clone the repository
-        git url: 'https://github.com/your-repo/your-java-project.git'
-    }
-
-    stage('Set Up Maven') {
-        // Install and set up Maven (assumes Maven is already installed in Jenkins)
-        echo 'Setting up Maven environment...'
-        tool name: 'Maven 3.6.3', type: 'maven'
-    }
-
-    stage('Build') {
-        try {
-            // Compile the Java code using Maven
-            echo 'Starting build...'
-            sh 'mvn clean compile'
-        } catch (Exception e) {
-            error 'Build failed!'
-        }
-    }
-
-    stage('Run Unit Tests') {
-        try {
-            // Run the unit tests using Maven
-            echo 'Running tests...'
-            sh 'mvn test'
-        } catch (Exception e) {
-            error 'Tests failed!'
-        }
-    }
-
-    stage('Package') {
-        try {
-            // Package the Java application using Maven
-            echo 'Packaging application...'
-            sh 'mvn package'
-        } catch (Exception e) {
-            error 'Packaging failed!'
-        }
-    }
-
-    stage('Archive Artifacts') {
-        // Archive the generated .jar or .war files
-        echo 'Archiving build artifacts...'
-        archiveArtifacts artifacts: '**/target/*.jar', fingerprint: true
-    }
-
-    stage('Post-Build Cleanup') {
-        // Clean up after the build process
-        echo 'Cleaning up workspace...'
-        cleanWs()
-    }
-}
 
 Explanation of the Stages:
 Checkout: Clones your repository from a Git source.
