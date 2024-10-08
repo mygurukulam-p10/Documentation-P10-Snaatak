@@ -94,6 +94,6 @@ AWS Security Groups provide a powerful mechanism for controlling access to resou
 
 ## 📞 Contact Information
 
-| Name             | Email                        | Phone           |
-|------------------|------------------------------|-----------------|
-| Komal Jaiswal    | komal.jaiswal@example.com    | +1 (555) 123-4567 |
+| Name             | Email                        |
+|------------------|------------------------------|
+| Komal Jaiswal    | komal.jaiswal.snaatak@mygurukulam.co    |
