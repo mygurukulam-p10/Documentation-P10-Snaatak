@@ -35,18 +35,37 @@
 ### **Step 1: Create Target Group** 🖥️
 1. Open the **Amazon EC2 console** at [AWS EC2 Console](https://console.aws.amazon.com/ec2/).
 2. In the navigation pane, choose **Target Groups** and click on **Create Target Group**.
-   
+
+ ![image](https://github.com/user-attachments/assets/f95a951b-479b-40d0-ae5e-8e4d29a55f68)
+  
 3. Choose the target type: either **Instances** or **IP**.
-4. Enter a target group name (e.g., `Dev-salary-tg`) and choose the appropriate **VPC**.
-   
+![image](https://github.com/user-attachments/assets/8b565cbe-2b2d-4e06-8422-ede712b9ce8c)
+
+4. Enter a target group name (e.g., `OTMS-Dev-Salary-TG) and choose the appropriate **VPC**.
+ 
+![image](https://github.com/user-attachments/assets/0b320c47-b20e-426b-bb21-3572a0d0c94f)
+
+  
 5. Configure the **Health Check** settings and register the targets. Ensure the port is set to `8080`.
+
+![image](https://github.com/user-attachments/assets/5faf012e-4736-49b4-a462-73d9f7bc8221)
+
 6. Review the configuration and click **Create Target Group**.
 
+![image](https://github.com/user-attachments/assets/8e194483-8ffc-44bb-ac25-be015f48cd67)
+
 ### **Step 2: Add Listener Rules to Load Balancer** 🔄
-1. Go to the **Load Balancers** section in the EC2 console and select your load balancer (`Dev-ALB`).
+1. Go to the **Load Balancers** section in the EC2 console and select your load balancer (`OTMS-Dev-Salary-ALB`).
+![image](https://github.com/user-attachments/assets/93401816-7bbb-41a2-9dc0-5bff7fe272db)
+
+![image](https://github.com/user-attachments/assets/db927234-f1ed-4d8f-a265-673ea050919a)
+
+
 2. Click on **Listeners** and select **Protocol Port HTTP:80** to add a new rule.
   
 3. Define the **Name** and add any relevant **Tags**.
+![image](https://github.com/user-attachments/assets/fcce0547-520b-4ea9-a981-a2c992ee9b54)
+
 4. Set the **Path Condition** (e.g., `/item/*`) for traffic routing.
  
 5. Choose the **Target Group** to forward the traffic to. Adjust the weights if using multiple target groups.
