@@ -12,8 +12,10 @@
 2. [✅ Pre-requisites](#-pre-requisites)
 3. [🔑 Important Ports](#-important-ports)
 4. [🛠️ Setup Steps](#-setup-steps)
-5. [📧 Contact Information](#-contact-information)
-6. [📚 References](#-references)
+5. [💡 Best Practices for Security](#-best-practices-for-security)
+6. [✅ Conclusion](#-conclusion)
+7. [📧 Contact Information](#-contact-information)
+8. [📚 References](#-references)
 
 ---
 
@@ -23,9 +25,6 @@ This guide walks you through setting up **Security Groups** for the Postgresql. 
 
 A **security group** acts as a virtual firewall for your EC2 instances to control inbound and outbound traffic. Once linked to an instance, it regulates the traffic entering or leaving that instance.
 
-
-
----
 
 ## ✅ Pre-requisites
 
@@ -103,8 +102,15 @@ Outbound rules define the traffic allowed to leave the ScyllaDB instances.
 ![Screenshot 2024-10-08 161247](https://github.com/user-attachments/assets/9fc33a03-e675-4670-b4b1-acb968a26530)
 
 
+#### 💡 Best Practices for Security
+- Limit access to known IP addresses for inbound rules to minimize exposure.
+- Regularly review and update security group rules to reflect changes in the network environment.
+- Use strong passwords and enable encryption for internal communication between nodes.
 
----
+  
+## ✅ Conclusion
+
+Creating a security group specifically for PostgreSQL enhances the security of your application by controlling access to the database. By following the outlined steps, you can effectively manage inbound and outbound traffic, ensuring that only authorized IP addresses can communicate with your PostgreSQL instance.
 
 ##  📧 Contact Information
 For more information, feedback, or assistance, feel free to contact us:
