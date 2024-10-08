@@ -80,15 +80,15 @@ An instance in Amazon EC2 is essentially a virtual server within the AWS cloud, 
  ![image](https://github.com/user-attachments/assets/776a6465-ac87-4767-89a9-2ae1bf7f730a)
  
 7. Configure **security group settings** for your instance.
- 
+ ![Screenshot from 2024-10-09 02-00-57](https://github.com/user-attachments/assets/bd51abcb-6f02-4b95-bf5d-382554e2df3d)
+
 
 8 Finally, click **Launch** and your instance will be up shortly! 🎉
 ![Screenshot 2024-10-08 162041](https://github.com/user-attachments/assets/71f8b640-b50b-4bb8-8208-aca6bb47b308)
+![Screenshot from 2024-10-09 02-01-48](https://github.com/user-attachments/assets/e1713398-4970-4ba3-8732-48d1b2e4161f)
 
 
-NOTE : After successfully launching the instance follow this Attendance API Setup Document. [here](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/OT%20MS%20Understanding/Attendance/%20%20%20%09%20Setup%20and%20run%20the%20App%20for%20POC)
-
----
+NOTE : After successfully launching the instance follow this Employee API Setup Document. [here]
 
 ## 💡 Conclusion
 
