@@ -1,26 +1,26 @@
 # 💥 OpenVPN Installation and Configuration Guide
 
+
+| Author      | Created on   | Version | Last updated by | Last edited on  |
+|-------------|--------------|---------|-----------------|-----------------|
+| Amit Nagar  | 04-10-2024   | 1.0     | Amit Nagar      | 08-10-2024      |
+
+---
+
 This guide provides detailed instructions for setting up OpenVPN using an automated script, making it easy to deploy a secure VPN server.
 
 ---
-
 ## ⚙ Pre-requisites
-
-Before starting, ensure you have the following:
-
-- A server running a Linux distribution such as Ubuntu, Debian, or CentOS.
-- SSH access to the server.
-- Root or sudo privileges.
-
----
 
 ## 🔍 System Requirements
 
-- **CPU**: 1 CPU core (2 cores recommended for higher performance).
-- **RAM**: Minimum of 512 MB (1 GB recommended).
-- **Disk Space**: At least 10 GB of free disk space.
-- **Operating System**: Ubuntu 20.04+, Debian 10+, or CentOS 7+.
-- **Network**: A public IP address and open ports for VPN (default: 1194).
+| Specification                    | Requirement                         |
+|----------------------------------|-------------------------------------|
+| **CPU**                          | 1 CPU core |
+| **RAM**                          | Minimum of 512 MB (1 GB recommended). |
+| **Disk Space**                  | At least 10 GB of free disk space. |
+| **Operating System**            | Ubuntu 20.04+, Debian 10+, or CentOS 7+. |
+| **Network**                     | A public IP address and open ports for VPN (default: 1194). |
 
 ---
 
