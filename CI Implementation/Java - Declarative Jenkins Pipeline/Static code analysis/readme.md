@@ -73,7 +73,7 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 
 ## 📛 Conclusion
 
-We ran Checkstyle and found 88 code violations. This means there are parts of the code that don't follow our coding standards. These issues can make the code harder to read and maintain.
+We run Checkstyle and found 88 code violations. This means there are parts of the code that don't follow our coding standards. These issues can make the code harder to read and maintain.
 
 
 ##  📧 Contact Information
