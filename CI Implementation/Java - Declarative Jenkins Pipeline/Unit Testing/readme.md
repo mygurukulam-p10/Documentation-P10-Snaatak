@@ -34,6 +34,7 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 | **Disk Space**    | 10 GB                      | 
 | **OS**            |Ubuntu 22.04 LTS           |
 
+![image](https://github.com/user-attachments/assets/dc89a11e-c25f-4ad5-8221-9f9c7b442682)
 
 ## 💥 Steps to Configuration Declarative pipelines for Unit Testing
 
