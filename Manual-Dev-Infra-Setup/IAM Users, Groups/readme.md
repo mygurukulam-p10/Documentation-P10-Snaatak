@@ -18,7 +18,7 @@
 +  [IAM Users and Groups add best practices ](#IAMUsersandGroupsaddbestpractices )
 + [Conclusion](#Conclusion)
 + [Contact Information](#Contact-Information)
-+ [Resources and References](#Resources-and-References)
++ [References](#References)
 
 ***
 ## Introduction
@@ -93,7 +93,8 @@ Creating IAM users and groups is important for keeping AWS accounts secure. By g
 ![Screenshot from 2024-10-08 04-55-05](https://github.com/user-attachments/assets/2943820d-d6a9-4f86-abfd-8b1d774aff4b)
 
 
- ![Screenshot from 2024-10-08 04-55-05](https://github.com/user-attachments/assets/1859345d-cf72-4a82-8a32-683aeade0b39)
+![Screenshot from 2024-10-08 04-56-18](https://github.com/user-attachments/assets/f6716c32-0e6e-4eac-b597-ca06b517ccd3)
+
 
 
  ***
@@ -104,22 +105,24 @@ Creating IAM users and groups is important for keeping AWS accounts secure. By g
 
 **Attach policies and then click "Create group"**
  
-![Screenshot from 2024-10-08 05-03-13](https://github.com/user-attachments/assets/543b8d7e-a136-48bb-bc0a-43c417141a15)
+![Screenshot from 2024-10-08 05-03-13](https://github.com/user-attachments/assets/23d80a01-7cd6-4901-8bca-57f8c971b33c)
+
 
 
 ***
 ## After creating the group, now you can see the group in 'Users group' section.
-![Screenshot from 2024-10-08 05-06-01](https://github.com/user-attachments/assets/0ff88d3a-acf6-464b-85ff-e041b86514a6)
+![Screenshot from 2024-10-08 05-06-01](https://github.com/user-attachments/assets/84036aaf-89ba-4f01-a3d6-f2550322dabd)
+
 
 
 ***
 ## Under the Dev group 'User 1' is attached with Ec2 full access 
-![Screenshot from 2024-10-08 05-24-19](https://github.com/user-attachments/assets/1cd6d137-058c-4b4c-8bc7-6df427514743)
+![Screenshot from 2024-10-08 05-24-19](https://github.com/user-attachments/assets/da4f2497-b7f1-4d8d-9091-2178424b6634)
 
 
 ***
 
-## IAM Users and Groups add best practices 
+## IAM Users and Groups best practices 
 | **Best Practice**                  | **Explanation**                                                                                          |
 |------------------------------------|----------------------------------------------------------------------------------------------------------|
 | **Follow Least Privilege Principle**| Give users only the permissions they need to do their job, nothing more. This keeps your AWS environment safer. |
