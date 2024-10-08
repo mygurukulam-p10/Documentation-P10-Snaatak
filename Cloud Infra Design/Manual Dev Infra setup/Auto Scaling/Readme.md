@@ -165,9 +165,7 @@ For any queries or further information, feel free to contact:
 ## 🔗 References
 
 | Description                               | Link                                                                                                  |
-| ----------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| Documentation Template                    | [Application-Template](
-| Cloud Infra Design                        | [Dev Infra Design]
+| ----------------------------------------- | --------------------------------------------------------------------------------
 | Create Launch Template                    | [AWS Docs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/create-launch-template.html) |
 | Create Auto Scaling Group                 | [AWS Docs](https://k21academy.com/amazon-web-services/aws-solutions-architect/aws-auto-scaling/) |
 
