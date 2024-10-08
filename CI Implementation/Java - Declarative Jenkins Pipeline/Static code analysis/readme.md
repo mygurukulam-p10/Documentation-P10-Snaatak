@@ -45,19 +45,21 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 ### 3. 🚀 Provide a description for the pipeline that performs Static Code Analysis.
 ![2](https://github.com/user-attachments/assets/de6eac31-cd05-4848-9bf1-ac63960402a4)
 
-### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Static Code Analysis in the pipeline configuration...>Click on Save to store the configuration.
-![3](https://github.com/user-attachments/assets/71859180-adea-46d6-b605-3c64fed6a074)
+### 4. 🚀 Create the repo for add jenkinfile which will be using in pipeline script for SCM
+![4](https://github.com/user-attachments/assets/49a6c368-0382-4da0-af4b-ad9d1822f13f)
 
 
+### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for credential scanning in the pipeline script for SCM ...> add repo link & credintial, file path.
+![5](https://github.com/user-attachments/assets/19409866-550d-47bf-bb77-df8567e19701)
 
-### 5. 🚀 Then Click on build to run the pipeline to perform
+### 6. 🚀 Then Click on build to run the pipeline to perform
 <img width="952" alt="build" src="https://github.com/user-attachments/assets/8e0b140e-3cb9-4b40-babd-75fb6963a653">
 
-### 6.🚀 Now we are able to see build complete-
-![6](https://github.com/user-attachments/assets/c7f3dfaa-f13f-46b4-9cd6-931165099045)
+### 7.🚀 Now we are able to see build complete-
+![7](https://github.com/user-attachments/assets/20681cb0-e833-4179-b2bc-bea812826659)
 
-### 7.🚀 Click on Console Output to see the complete build.
-![4](https://github.com/user-attachments/assets/736614e1-c66f-4454-bc62-02750024f614)
+### 8.🚀 Click on Console Output to see the complete build.
+![8](https://github.com/user-attachments/assets/a686fe61-bbe5-4bf7-8016-8577182a10f6)
 
 ![5](https://github.com/user-attachments/assets/66e44902-daf0-4569-b349-de9816bb528b)
 
@@ -65,7 +67,7 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 
 
 ### 9.🚀 Review the stages of the build process in the console output.
-![7](https://github.com/user-attachments/assets/a1174bde-bc70-4d9c-a83d-1fa7b46eab1f)
+![9](https://github.com/user-attachments/assets/af7844d6-d0fd-490d-90ff-a7537b644d52)
 
 
 ## 📛 Conclusion
