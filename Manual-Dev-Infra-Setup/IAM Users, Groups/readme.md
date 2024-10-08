@@ -1,5 +1,6 @@
 ##  IAM Users and Groups
-![image](https://github.com/avengers-p7/Documentation/assets/156056746/75cb9f03-0340-46bd-b882-7c5e5849aa4e)
+![Screenshot from 2024-10-08 06-00-47](https://github.com/user-attachments/assets/6ae4b754-5700-4fec-9e5b-d0bb99ed3a20)
+
 
 ***
 
