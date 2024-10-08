@@ -1,4 +1,4 @@
-# Setup Postgresql manually for Instances 🚀
+# Setup Postgresql Manually for Instances 🚀
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
