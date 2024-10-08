@@ -1,4 +1,4 @@
-# **Setup Listener Rules for Load Balancer (Salary API)**
+# **Setup Listener Rules for Load Balancer (Employee API)**
 
 
 | Author      | Created on   | Version | Last updated by | Last edited on  |
