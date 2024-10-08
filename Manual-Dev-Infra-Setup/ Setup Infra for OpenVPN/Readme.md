@@ -7,7 +7,6 @@
 
 ---
 
-
 ## 📚 Table of Contents
 
 1. [📚 Introduction](#Introduction)
@@ -127,25 +126,6 @@ To verify that the VPN is working correctly:
 - **Check Your IP Address**: Use a service like whatismyip.com before and after connecting to the VPN to see if your IP address has changed.
 - **Ping the VPN Server**: Verify connectivity by pinging your VPN server's private IP address.
 
-## 9. Additional Configuration
-
-After the basic setup, you may want to perform additional configurations, such as:
-
-### Setting up Firewall Rules
-
-Ensure that your server's firewall allows VPN traffic on the chosen port (e.g., 1194).
-
-### Enabling IP Forwarding
-
-Modify the system's settings to enable IP forwarding by uncommenting `net.ipv4.ip_forward=1` in `/etc/sysctl.conf` and running:
-
-```bash
-sysctl -p
-```
-
-### Customizing Client Configurations
-
-Modify the .ovpn client files to include specific DNS settings or routes as needed.
 
 ## Conclusion
 
