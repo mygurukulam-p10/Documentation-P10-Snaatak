@@ -75,3 +75,15 @@ IAM roles are created to securely give temporary access to AWS resources without
 
 
 ***
+
+## Steps to Create IAM Role
+
+### Step 1: Search IAM in the search section and click on it to navigate to IAM 
+![Screenshot from 2024-10-08 19-55-17](https://github.com/user-attachments/assets/c8c8d889-ee13-4726-bfaa-be882af75673)
+
+### Step 2: Access the IAM Roles Section
+![Screenshot from 2024-10-08 19-57-41](https://github.com/user-attachments/assets/0be72506-8b52-4cb7-bff1-7731ea4aa445)
+
+### Step 3: 
+
+
