@@ -68,7 +68,7 @@ An instance in Amazon EC2 is essentially a virtual server within the AWS cloud, 
  
 3. Select `Launch Instance`.  
 4. Enter a **name** for the instance under **Name and Tags**.
-<img width="956" alt="image" src="https://github.com/user-attachments/assets/978bb67c-d246-4589-bbaa-778988337920">
+![4](https://github.com/user-attachments/assets/f91b5490-ac4e-48cc-b1a4-236b7264a5c1)
 
 5. Select the appropriate **Amazon Machine Image (AMI)** (e.g., Amazon Linux).
 <img width="955" alt="image" src="https://github.com/user-attachments/assets/8d87279f-a057-4422-814a-d93a36dbcc7b">
@@ -78,12 +78,13 @@ An instance in Amazon EC2 is essentially a virtual server within the AWS cloud, 
  ![image](https://github.com/user-attachments/assets/776a6465-ac87-4767-89a9-2ae1bf7f730a)
  
 7. Configure **security group settings** for your instance.
+![7](https://github.com/user-attachments/assets/7821beb6-a857-4096-940d-212125477c81)
 
 
-8 Finally, click **Launch** and your instance will be up shortly! 🎉
+8. Finally, click **Launch** and your instance will be up shortly! 🎉
 ![Screenshot 2024-10-08 162041](https://github.com/user-attachments/assets/71f8b640-b50b-4bb8-8208-aca6bb47b308)
 
-
+9.
 NOTE : After successfully launching the instance follow this Postgresql Setup Document. [here](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/OT%20MS%20Understanding/Attendance/%20%20%20%09%20Setup%20and%20run%20the%20App%20for%20POC)
 
 ---
