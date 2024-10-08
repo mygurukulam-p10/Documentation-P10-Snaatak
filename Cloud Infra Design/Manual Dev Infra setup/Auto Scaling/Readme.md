@@ -1,5 +1,7 @@
 ![2021-04-26-17_03_00-Photos](https://github.com/user-attachments/assets/69dc8349-aa1f-453e-96b1-925fef30915d)
 
+<img width="470" alt="1684234129196" src="https://github.com/user-attachments/assets/da7044c3-99d8-4790-8577-10d4e7fc5683">
+
 
 
 # Setup Auto Scaling for Salary API
