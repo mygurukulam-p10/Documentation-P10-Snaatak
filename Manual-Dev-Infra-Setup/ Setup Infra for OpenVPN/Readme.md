@@ -9,7 +9,7 @@
 
 ## 📚 Table of Contents
 
-1. [📚 Introduction](#Introduction)
+1. [Introduction](#Introduction)
 2. [Pre-requisites](#⚙-pre-requisites)
 3. [System Requirements](#🔍-system-requirements)
 4. [Steps to Install and Configure OpenVPN](#💥-steps-to-install-and-configure-openvpn)
