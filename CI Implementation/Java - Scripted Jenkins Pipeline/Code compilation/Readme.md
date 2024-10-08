@@ -50,12 +50,16 @@ This document provides steps to configure a **Scripted Jenkins Pipeline** for Ja
 3. Name the job (e.g., `code-compilation-scripted`).
 ![image](https://github.com/user-attachments/assets/09b4950f-bb5b-47c8-967e-bba9c2c041e3)
 
-### 2. 🚀 **Select Pipeline**
-1. Choose **Pipeline** as the job type and click **OK**.
+Provide a description for the pipeline that performs code-compilation.
 ![image](https://github.com/user-attachments/assets/496bbc72-0fbc-4a28-847f-3d14970c52db)
 
 2. In the "Pipeline" section, switch to "Pipeline script From SCM" and enter your scripted pipeline.
 ![image](https://github.com/user-attachments/assets/0a4eaff5-fa47-45ef-b137-2765ecc78ee6)
+
+3. 🚀 Create the repo for add jenkinfile which will be using in pipeline script for SCM
+![image](https://github.com/user-attachments/assets/1473d05e-c051-4665-840a-223702287f09)
+
+4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for credential scanning in the pipeline script for SCM ...> add repo link & credintial, file path.
 
 ### 3. 🚀 **Pipeline Script for Java Code Compilation**
 
