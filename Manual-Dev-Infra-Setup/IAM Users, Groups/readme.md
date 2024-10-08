@@ -136,7 +136,7 @@ Creating IAM users and groups is important for keeping AWS accounts secure. By g
 
 
 ## Conclusion
-AM users and groups are key parts of AWS security that help organizations control who can access their AWS resources and what they can do. By setting up clear user permissions, businesses can keep their data safe and make sure they follow security rules. While IAM provides strong security and can easily grow with your needs, it can sometimes feel complex, and mistakes can happen if not managed carefully. Overall, IAM users and groups are important for protecting AWS resources, and using them correctly helps maintain a secure and organized environment. It’s also crucial to regularly review and update permissions to ensure everything stays secure as your needs change.
+IAM users and groups are key parts of AWS security that help organizations control who can access their AWS resources and what they can do. By setting up clear user permissions, businesses can keep their data safe and make sure they follow security rules. While IAM provides strong security and can easily grow with your needs, it can sometimes feel complex, and mistakes can happen if not managed carefully. Overall, IAM users and groups are important for protecting AWS resources, and using them correctly helps maintain a secure and organized environment. It’s also crucial to regularly review and update permissions to ensure everything stays secure as your needs change.
 
 ***
 
