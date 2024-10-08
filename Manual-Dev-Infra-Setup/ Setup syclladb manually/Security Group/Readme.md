@@ -67,7 +67,7 @@ Outbound rules define the traffic allowed to leave the ScyllaDB instances.
   ![Screenshot from 2024-10-08 02-19-27](https://github.com/user-attachments/assets/7001318b-db7a-425e-8bc8-77766fcf72bf)
 
 4. **Configure Security Group Settings**
-   - **Name**: Enter `OTMS-Dev-SG-scyllaDB`.
+   - **Name**: Enter `OTMS-Dev-SG-ScyllaDB`.
    - **Description**: Provide a description, e.g., "Security group for ScyllaDB in OTMS Development".
    - **VPC**: Select the VPC where you want to create this security group.
 ![Screenshot from 2024-10-08 10-56-52](https://github.com/user-attachments/assets/ed71c1da-3709-4868-a1aa-9f9007de6bf9)
