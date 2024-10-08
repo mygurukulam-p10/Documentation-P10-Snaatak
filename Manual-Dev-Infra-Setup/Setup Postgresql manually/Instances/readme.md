@@ -57,6 +57,7 @@ An instance in Amazon EC2 is essentially a virtual server within the AWS cloud, 
 - Access to **AWS Management Console** or **AWS CLI**.
 - Knowledge of your application’s [network requirements](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/Cloud%20Infra%20Design/Cloud%20Infra%20Design%2030K%20feet/Readme.md).
 
+
 ---
 
 ## 🛠 Steps to Launch an EC2 Instance
