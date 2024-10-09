@@ -84,7 +84,7 @@ An instance in Amazon EC2 is essentially a virtual server within the AWS cloud, 
 
 
 8 Finally, click **Launch** and your instance will be up shortly! 🎉
-![Screenshot 2024-10-08 162041](https://github.com/user-attachments/assets/71f8b640-b50b-4bb8-8208-aca6bb47b308)
+
 ![Screenshot from 2024-10-09 02-01-48](https://github.com/user-attachments/assets/e1713398-4970-4ba3-8732-48d1b2e4161f)
 
 
