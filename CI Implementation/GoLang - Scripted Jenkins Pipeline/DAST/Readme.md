@@ -58,7 +58,8 @@ This document provides an overview of integrating Dynamic Application Security T
 
 ### 4. 🚀 Choose **Pipeline** as the job type, add your pipeline script for DAST integration in the pipeline configuration, and click on **Save** to store the configuration.  
 ![Screenshot from 2024-10-09 19-29-36](https://github.com/user-attachments/assets/56a9c36a-bc86-4574-b4e5-e48332b19379)
-![Uploading Screenshot from 2024-10-09 19-34-22.png…]()
+![Screenshot from 2024-10-09 19-34-22](https://github.com/user-attachments/assets/af9e9445-a57a-4c61-aa1e-2175c1b4d201)
+
 
 
 
