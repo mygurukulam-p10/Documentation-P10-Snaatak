@@ -9,15 +9,15 @@
 ***
 ## Table of Contents
 + [Introduction](#Introduction)
-+  [Why Custom IAM Policies](#WhyCustomIAMPolicies)
-+ [Features Custom IAM Policies ](#FeaturesCustomIAMPolicies)
-+ [Advantages of Custom IAM Policies](#Advantages)
-+ [Disadvantages of Custom IAM Policies](#Disadvantages)
-+ [ Create Custom IAM Policies](#CreateCustomIAMPolicies)
-+  [Custom IAM Policies best practices](#Custom-iAMPoliciesbestpractices)
++  [Why Custom IAM Policies](#why-custom-iam-policies)
++ [Features Custom IAM Policies ](#features-custom-iam-policies)
++ [Advantages of Custom IAM Policies](#advantages-of-custom-iam-policies)
++ [Disadvantages of Custom IAM Policies](#disadvantages-of-custom-iam-policies)
++ [ Create Custom IAM Policies](#create-custom-iam-policies)
++  [Custom IAM Policies best practices](#Custom-iam-policies-best-practices)
 + [Conclusion](#Conclusion)
-+ [Contact Information](#Contact-Information)
-+ [Resources and References](#Resources-and-References)
++ [Contact Information](#contact-information)
++ [Resources and References](#resources-and-references)
 
 ***
 ## Introduction
