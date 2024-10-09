@@ -86,6 +86,20 @@ IAM roles are created to securely give temporary access to AWS resources without
 ### Step 3: Choose the type of trusted entity: AWS Service
 ![Screenshot from 2024-10-08 20-03-17](https://github.com/user-attachments/assets/7c0b5467-c481-40a5-a2f3-13edae2a0889)
 
-### Steps 4: 
+### Step 4: Attach permissions policies
+![Screenshot from 2024-10-09 18-14-57](https://github.com/user-attachments/assets/ee060908-f4c5-412a-a591-9d5c49248c33)
 
+### Step 5: Set the role name and description
+![Screenshot from 2024-10-09 18-18-05](https://github.com/user-attachments/assets/f95368a5-a2ed-460e-ad9a-032992e1b0e2)
+
+### Step 6: Configure the role creation
+![Screenshot from 2024-10-09 18-18-29](https://github.com/user-attachments/assets/94379ef8-c66d-4a89-b0da-8f74fccaed4a)
+
+## Conclusion
+IAM roles are important for securely managing access to AWS resources. They provide temporary credentials, detailed permissions, and allow cross-account access, helping organizations control who can do what in AWS. While IAM roles offer strong security and flexibility, managing them can sometimes be complex, especially when dealing with many policies. Despite these challenges, IAM roles are key to keeping an AWS environment secure and compliant, while still meeting the needs of the business effectively.
+
+## Contact Information
+|     Name         | Email  |
+| -----------------| ------------------------------------ |
+| Aayush Gaur   | aayush.gaur.snaatak@mygurukulam.co |
 
