@@ -49,7 +49,8 @@
   
 5. Configure the **Health Check** settings and register the targets. Ensure the port is set to `8080`.
 
-![Uploading Screenshot from 2024-10-09 19-03-22.png…]()
+![Screenshot from 2024-10-09 19-03-22](https://github.com/user-attachments/assets/ddba9aed-6ac2-4c9e-96ec-95f10df44a32)
+
 
 
 
