@@ -14,7 +14,6 @@ We are preparing this document so that we can easily provide a completed guide t
 - [⚙️ Pre-Requisites](#-pre-requisites)
 - [🖥️ System Requirements](#-system-requirements)
 - [🛠️ Dependencies](#-dependencies)
-- [🏗️ Architecture](#-architecture)
 - [📥 Step-by-step Installation](#-step-by-step-installation)
 - [📝Conclusion](#conclusion)
 - [📧 Contact Information ](#-contact-information )
@@ -42,15 +41,8 @@ We are preparing this document so that we can easily provide a completed guide t
 
 | Name     | Version | Description                              |
 |----------|---------|------------------------------------------|
-| Golang   | 1.18.1  | Programming language for the application |
+| Golang   | 1.20  | Programming language for the application |
 
-
-## 🏗 Architecture
-<img width="449" alt="image" src="https://github.com/user-attachments/assets/577e4cbf-9235-48cc-8fec-51bcccd41dd1">
-
-- Input: This is the data you provide to the function you want to test.
-- Function: The function being tested. It processes the input and produces an output.
-- Output: The result produced by the function after processing the input.
 
 ## 📥 Step-by-step Installation
 
@@ -100,6 +92,9 @@ go version
 
 
 ### Step 4: Unit Testing
+```
+go test ./...
+```
 <img width="565" alt="image" src="https://github.com/user-attachments/assets/1ce2e032-3447-492d-ab8c-1bf9e2956abb">
 
 - Running go test ./... in Go executes all the tests in the current directory and its subdirectories. If the output shows Ok, it means all the tests have passed successfully, indicating that the code is functioning as expected
