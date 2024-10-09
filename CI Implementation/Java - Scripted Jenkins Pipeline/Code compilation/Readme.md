@@ -79,12 +79,12 @@ Click Build Now to start the pipeline. You can monitor the build status and revi
 6. 🚀 Console Output
 After the build is complete, check the console output for logs and any issues encountered during the pipeline execution.
 
-📛 Conclusion
+***📛 Conclusion***
 By following this guide, you've successfully created a Scripted Jenkins Pipeline for Java code compilation. Regular builds and testing using Maven ensures continuous integration, allowing early detection of issues. Integrate this scripted pipeline into your CI/CD workflow for optimal performance.
 
 
 
-📚 References
+***📚 References***
 🔗 Links	📄 Descriptions
 Build a Java app with Maven	Jenkins Tutorial on Maven Builds
 Apache Maven Documentation	Official Apache Maven Documentation
