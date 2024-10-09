@@ -69,7 +69,8 @@
 ### Step 2: Create a Launch Template
 
 1. In the EC2 console, go to **Launch Templates** and click **Create launch template**.
-   ![Uploading Screenshot from 2024-10-09 11-06-25.png…]()
+  ![Screenshot from 2024-10-09 11-12-50](https://github.com/user-attachments/assets/962dd221-6559-40e8-bcad-f11ada8d90c1)
+
 
 
 
