@@ -85,7 +85,7 @@ cd employee-api
 ```
 
 ### Step 3: Code Compilation
-This command compiles the source code of the project according to the settings defined in the pom.xml file.
+This command compiles the source code of the project according to the settings defined in the main.go file.
 - **go build:** This command compiles the Go source code in the current directory and produces an executable binary.
 If successful, it will create a binary file named employee-api.
 ```
