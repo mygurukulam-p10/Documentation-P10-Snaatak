@@ -24,6 +24,7 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 1. **Jenkins**: Ensure you have a Jenkins instance running.
 2. **Java**: Required to run the built Java application.
 3. **Maven**: Simplifies build management
+4. **Tools for Static Code Analysis** [here](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/Application%20CI%20Design/Java%20CI%20checks/Static%20Code%20Analysis%20Doc).
 
 ## 🔍 System Requirements
 | Hardware Specifications | Minimum Requirement  |
@@ -36,6 +37,7 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 ![image](https://github.com/user-attachments/assets/5cf827f1-be38-4711-95ca-ffbe432b80cd)
 
 ## 💥 Steps to Configuration Declarative pipelines for Static Code Analysis
+### Understand Declarative Pipeline syntax [here](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/CI%20Implementation/Java%20-%20Declarative%20Jenkins%20Pipeline/Code%20compilation/readme.md#understand-declarative-pipeline-syntax)
 
 ### 1. 🚀 Open your Jenkins Dashboard.
 ![1](https://github.com/user-attachments/assets/59bb5e6e-68e1-4d41-8147-cd7acceeb2d8)
