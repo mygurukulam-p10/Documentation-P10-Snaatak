@@ -86,7 +86,7 @@ By following this guide, you've successfully created a Scripted Jenkins Pipeline
 
 
 ***📚 References***
-🔗 Links	📄 Descriptions
-Build a Java app with Maven	Jenkins Tutorial on Maven Builds
+|🔗 Links	|📄 Descriptions|
+|Build a Java app with Maven	Jenkins Tutorial on Maven Builds
 Apache Maven Documentation	Official Apache Maven Documentation
 
