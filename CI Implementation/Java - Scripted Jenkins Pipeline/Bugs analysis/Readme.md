@@ -57,17 +57,21 @@ Follow these steps to set up and execute the scripted Jenkins pipeline for bugs 
 ### 1. Open the Jenkins Dashboard 🖥️
    Navigate to your Jenkins instance.
 
-   ![Jenkins Dashboard](https://github.com/user-attachments/assets/59bb5e6e-68e1-4d41-8147-cd7acceeb2d8)
+  ![image](https://github.com/user-attachments/assets/26a84e60-edb8-4045-9e96-b74371e39e06)
+
 
 ### 2. Create a New Pipeline Project ➕
-   - Click **New Item** and enter a project name, such as `Bugs analysis`.
+   - Click **New Item** and enter a project name, such as `Bug-analysis`.
 
-   ![New Item](https://github.com/user-attachments/assets/0162417c-5db4-4ff6-b875-dab4bb16beaa)
+  ![image](https://github.com/user-attachments/assets/d089c688-1596-4326-9f26-a8de529ad9b8)
+
 
 ### 3. Add a Project Description 📝
    Provide a detailed description for your pipeline, outlining its purpose (e.g., performing Java Bugs analysis).
 
-   ![Job Description](https://github.com/user-attachments/assets/f8aa2ae9-0333-45b5-83b3-f40fb077dc3a)
+ ![image](https://github.com/user-attachments/assets/6723d20a-51c5-4125-8c00-c73ca581d1c8)
+
+
 
 ### 4. Set Up SCM (Source Code Management) 🗂️
    - Create a repository and add a **Jenkinsfile**.
@@ -84,19 +88,23 @@ Follow these steps to set up and execute the scripted Jenkins pipeline for bugs 
 ### 6. Build the Pipeline 🏗️
    - Click **Build Now** to trigger the pipeline and begin the bugs analysis process.
 
-   ![Build Now](https://github.com/user-attachments/assets/8e0b140e-3cb9-4b40-babd-75fb6963a653)
+   ![image](https://github.com/user-attachments/assets/dc2c69fb-ebeb-496b-a943-20b5d9cb37d7)
+
 
 ### 7. Check Build Status ✅
    - Once the build is completed, view the success/failure status.
 
-   ![Build Complete](https://github.com/user-attachments/assets/05b1b6a6-7cc7-4b9b-8923-9d7c1c7e1ed4)
+  ![image](https://github.com/user-attachments/assets/efca2501-79ec-4e4f-8851-77649da59a42)
+
 
 ### 8. View Console Output 🖨️
    - Click **Console Output** to review detailed logs and steps executed during the pipeline.
 
-   ![Console Output](https://github.com/user-attachments/assets/5043b246-6c7c-445e-9dc3-06ffda77b4cc)
+  ![image](https://github.com/user-attachments/assets/476ffd1c-dc47-4b55-b7ef-df0168fda38d)
 
-   ![Console Stages](https://github.com/user-attachments/assets/d0049f4c-a81d-4655-9e95-2f55e9c3c8bf)
+
+   ![image](https://github.com/user-attachments/assets/21acb411-ca22-4c92-a535-d3d5d1b07e55)
+
 
 ---
 
