@@ -49,7 +49,8 @@
   
 5. Configure the **Health Check** settings and register the targets. Ensure the port is set to `8080`.
 
-![Screenshot from 2024-10-09 11-30-14](https://github.com/user-attachments/assets/40933414-90e8-41ea-a6fb-f4505332e28c)
+![Uploading Screenshot from 2024-10-09 19-03-22.png…]()
+
 
 
 6. Review the configuration and click **Create Target Group**.
