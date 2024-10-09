@@ -99,7 +99,7 @@ mkdir <dir_name>
 
 **Step 5: Create playbook**
 * This file is defining a set of tasks to be executed on hosts belonging to the _jenkins_server group.
-* 
+  
 ![image](https://github.com/user-attachments/assets/76ecfb62-10be-4ded-a58c-a0294d6d0ace)
 
 
@@ -116,25 +116,30 @@ ansible-galaxy init <RoleName>
 **Step 7: Tasks**
 1. `main.yml`: This main.yml file is acting as an orchestrator, importing tasks from the `install_jenkins.yml` file. This separation of tasks into different files is a good practice for better organization, especially when dealing with complex configurations or roles.
 
-![Screenshot from 2024-09-22 02-38-38](https://github.com/user-attachments/assets/8567b099-75e9-40a8-b644-4e76c2f3a288)
-
+```
+---
+# tasks file for postgresql_role
+- include_tasks: install.yml
+- include_tasks: configure.yml
+- include_tasks: start.yml
+```
 2. `vars.yaml`:  The vars/main.yml file in an Ansible role is where variables specific to the role are defined.
 
-```yaml
----
-# vars file for jenkins-role
-
-dependencies:
-  - curl
-  - apt-transport-https
-  - gnupg
-
-jenkins_repo_key_url: "https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key"
-
-jenkins_repo_url: "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian-stable/ binary/"
-
-
 ```
+# vars/main.yml
+postgresql_packages:
+  Debian: 
+    - postgresql
+    - postgresql-contrib
+  RedHat: 
+    - postgresql{{ postgresql_version }}
+    - postgresql-contrib
+
+postgresql_service_name:
+  Debian: "postgresql"
+  RedHat: "postgresql-{{ postgresql_version }}"
+```
+
 
 > [!NOTE]
 > To customize the Jenkins version based on your specific requirements, you can override these default values in your playbook. This is particularly useful when you want to install a different version of Jenkins.
