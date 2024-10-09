@@ -100,19 +100,27 @@
 
 ### Step 3: Create an Auto Scaling Group
 
+
 1. Open **Auto Scaling Groups** in the EC2 console.
+![Screenshot from 2024-10-09 11-17-09](https://github.com/user-attachments/assets/e167d642-93b8-412e-b842-ccc8d771305c)
 
 
 2. Click **Create Auto Scaling group** and name it.
+![Screenshot from 2024-10-09 11-18-31](https://github.com/user-attachments/assets/aac5c755-eaed-4224-9deb-0343f4c016b1)
+
 
 3. Select your launch template.
- 
+ ![Screenshot from 2024-10-09 11-18-42](https://github.com/user-attachments/assets/33ccda70-6865-4b25-9e7f-c4136a236956)
+
  
 4. Choose your **VPC** and subnets for availability zones.
 
+![Screenshot from 2024-10-09 11-19-18](https://github.com/user-attachments/assets/93db40ef-21f5-43e7-bcfe-b6ca25ceaa7b)
+![Screenshot from 2024-10-09 11-19-25](https://github.com/user-attachments/assets/198a15ba-8b73-414b-b24c-25190d610923)
 
 
 5. Optionally, link your Auto Scaling group to a **Load Balancer**.
+
 
 6. Define the group size, scaling policies, and desired instance count.
 
