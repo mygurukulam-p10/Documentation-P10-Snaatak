@@ -90,7 +90,6 @@ mkdir <dir_name>
  
 - Create a file called aws_ec2.yaml for the dynamic inventory inside your created folder
 
-![Screenshot from 2024-09-23 22-00-46](https://github.com/user-attachments/assets/ee7141b4-d130-4d64-b71b-8a6babca9a22)
 
 
  **Step 4: Create ansible.cfg**
@@ -101,17 +100,17 @@ mkdir <dir_name>
 **Step 5: Create playbook**
 * This file is defining a set of tasks to be executed on hosts belonging to the _jenkins_server group.
 * 
-  ![Screenshot from 2024-09-22 02-26-48](https://github.com/user-attachments/assets/e5fd8f2b-15c0-4a42-a458-7904270ffd70)
+![image](https://github.com/user-attachments/assets/76ecfb62-10be-4ded-a58c-a0294d6d0ace)
 
 
 **step 6: Create ansible role in a directory we have created**
 ```
 ansible-galaxy init <RoleName>
 ```
+![image](https://github.com/user-attachments/assets/7cdd0703-3422-4d7e-bbf4-24b1b3706067)
 
-![Screenshot from 2024-09-23 14-06-26](https://github.com/user-attachments/assets/7163a987-7bdc-4ce4-aae5-3de68887f57d)
 
-![Screenshot from 2024-09-23 14-06-54](https://github.com/user-attachments/assets/27f3ba56-cceb-44fd-84f5-b58c523fa4b7)
+![image](https://github.com/user-attachments/assets/bf47c565-16b8-41f9-863a-f4e3e25ce2f6)
 
 
 **Step 7: Tasks**
