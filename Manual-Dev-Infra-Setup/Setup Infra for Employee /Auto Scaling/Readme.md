@@ -136,6 +136,7 @@
 Once the Auto Scaling group is created, EC2 instances will automatically scale based on demand
 
 ![Screenshot from 2024-10-09 18-19-29](https://github.com/user-attachments/assets/1d7901e8-b74e-4f6e-b68d-275ba4c7ba6b)
+![Screenshot from 2024-10-09 19-00-53](https://github.com/user-attachments/assets/bbc5e7fb-1d3c-4afd-bce6-bfc6697aa8a5)
 
 
 ---
