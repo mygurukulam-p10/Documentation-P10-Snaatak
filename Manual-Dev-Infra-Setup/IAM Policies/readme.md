@@ -69,7 +69,7 @@ Creating custom IAM policies allows you to have precise control over who can do 
 
  ***
 
- ## Create custom IAM policies
+ ## Custom IAM policies
 
 ### Step1: Navigate to the IAM Service & Go to policies 
 ![Screenshot from 2024-10-09 18-47-41](https://github.com/user-attachments/assets/ad772223-8b86-4dc4-80e0-c7216dfdd10f)
