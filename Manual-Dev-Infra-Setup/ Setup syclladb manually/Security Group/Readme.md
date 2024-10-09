@@ -82,10 +82,10 @@ Outbound rules define the traffic allowed to leave the ScyllaDB instances.
      - **Type**: Custom TCP Rule
      - **Protocol**: TCP
      - **Port Range**: 9042 (for ScyllaDB)
-     - **Source**: Specify the security group  of the employee app and bastian host security group.
+     - **Source**: Specify the security group  of the employee app , salary app and bastian host security group.
    - Click on **Save rules**.
 
-![Screenshot from 2024-10-08 04-10-26](https://github.com/user-attachments/assets/2ece7246-d93f-47db-b61e-c204dafdc423)
+![Screenshot from 2024-10-09 10-37-58](https://github.com/user-attachments/assets/582805f2-bb5a-46f9-a47f-bf9808953edf)
 
 6. **Set Outbound Rules**
    - Click on the **Outbound rules** tab (defaults allow all traffic).
