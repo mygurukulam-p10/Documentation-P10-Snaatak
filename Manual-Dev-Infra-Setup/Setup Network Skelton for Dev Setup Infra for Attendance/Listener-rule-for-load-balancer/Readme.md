@@ -6,6 +6,7 @@
 | Megha Tyagi | 08-10-2024  | Version 1.0  | Megha Tyagi     | 08-10-2024     |
 
 ---
+---
 
 ## **Table of Contents** 📑
 1. [Introduction](#Introduction)
@@ -19,7 +20,7 @@
 ---
 
 ## **Introduction** 🌐
-**Load balancing** in AWS ensures high availability and reliability by distributing network traffic across multiple resources. This guide will walk you through configuring listener rules for your Salary API to optimize traffic routing and performance using AWS Load Balancers.
+**Load balancing** in AWS ensures high availability and reliability by distributing network traffic across multiple resources. This guide will walk you through configuring listener rules for your Attendance API to optimize traffic routing and performance using AWS Load Balancers.
 
 ---
 
@@ -38,54 +39,55 @@
  ![image](https://github.com/user-attachments/assets/f95a951b-479b-40d0-ae5e-8e4d29a55f68)
   
 3. Choose the target type: either **Instances** or **IP**.
-![image](https://github.com/user-attachments/assets/8b565cbe-2b2d-4e06-8422-ede712b9ce8c)
+![Screenshot 2024-10-09 100906](https://github.com/user-attachments/assets/ec4703e6-a285-44a4-ae90-ce894b9a8e0b)
 
-4. Enter a target group name (e.g., `OTMS-Dev-Salary-TG) and choose the appropriate **VPC**.
- 
-![image](https://github.com/user-attachments/assets/0b320c47-b20e-426b-bb21-3572a0d0c94f)
+
+4. Enter a target group name (e.g., `OTMS-Dev-TG-Attendance) and choose the appropriate **VPC**.
+![Screenshot 2024-10-09 101005](https://github.com/user-attachments/assets/3fdfbad7-88cf-4bb8-8ae8-0fb4e0836f12)
+
+
 
   
 5. Configure the **Health Check** settings and register the targets. Ensure the port is set to `8080`.
 
-![image](https://github.com/user-attachments/assets/5faf012e-4736-49b4-a462-73d9f7bc8221)
+![Screenshot 2024-10-09 172026](https://github.com/user-attachments/assets/e5260f21-1000-46a3-878c-7254d08b423f)
+
+
 
 6. Review the configuration and click **Create Target Group**.
 
-![image](https://github.com/user-attachments/assets/8e194483-8ffc-44bb-ac25-be015f48cd67)
-
 ### **Step 2: Add Listener Rules to Load Balancer** 🔄
-1. Go to the **Load Balancers** section in the EC2 console and select your load balancer (`OTMS-Dev-Salary-ALB`).
-![image](https://github.com/user-attachments/assets/93401816-7bbb-41a2-9dc0-5bff7fe272db)
+1. Go to the **Load Balancers** section in the EC2 console and select your load balancer (`OTMS-Dev-ALB-Attendance`).
+![Screenshot 2024-10-09 100308](https://github.com/user-attachments/assets/abf97acc-2882-4352-87f6-3a5d3dc0e958)
 
-![image](https://github.com/user-attachments/assets/db927234-f1ed-4d8f-a265-673ea050919a)
+<img width="686" alt="image" src="https://github.com/user-attachments/assets/cd7a4b02-86e8-4075-b0a4-e7728285c930">
 
 
-2. Click on **Listeners** and select **Protocol Port HTTP:80** to add a new rule.
-  
-3. Define the **Name** and add any relevant **Tags**.
-   ![image](https://github.com/user-attachments/assets/9fabb414-52a5-494e-9514-75af93144596)
-
-![image](https://github.com/user-attachments/assets/fcce0547-520b-4ea9-a981-a2c992ee9b54)
-
-5. Set the **Path Condition** (e.g., `/item/*`) for traffic routing.
  
-6. Choose the **Target Group** to forward the traffic to. Adjust the weights if using multiple target groups.
-7. Assign a **Priority** for the rule and review all settings.
-8. Once verified, click **Create Rule**.
+ 2. .Choose the **Target Group** to forward the traffic to. Adjust the weights if using multiple target groups.
+ ![Screenshot 2024-10-09 101304](https://github.com/user-attachments/assets/0dc3183e-1994-4d2b-83f9-061af19596d9)
+
+   
+3. Click on create LoadBalancer.
+
+![Screenshot 2024-10-09 101326](https://github.com/user-attachments/assets/21c99bf4-82b2-4c0a-b933-c8ae5aa2e6fd)
 
 ---
 
 ## **Output** 📊
-After setting up the listener rules, the load balancer will correctly distribute traffic as per your rules. Use the DNS endpoint of the load balancer to test the Salary API.
+After setting up the listener rules, the load balancer will correctly distribute traffic as per your rules. Use the DNS endpoint of the load balancer to test the Attendance API.
 
-![image](https://github.com/user-attachments/assets/3581b0fe-1090-4a95-9071-b9514dbce1c0)
+![Screenshot 2024-10-09 171230](https://github.com/user-attachments/assets/70db2393-748f-4089-8a32-9970fa39c091)
+
+
 
 ---
 
 ## **Conclusion** 🎯
-Configuring listener rules is essential for effective traffic management in AWS. By following this guide, you’ll ensure your Salary API handles traffic efficiently, leading to improved performance and optimized resource utilization.
+Configuring listener rules is essential for effective traffic management in AWS. By following this guide, you’ll ensure your Attendance API handles traffic efficiently, leading to improved performance and optimized resource utilization.
 
 ---
+
 
 ##  📧 Contact Information
 For more information, feedback, or assistance, feel free to contact us:
