@@ -61,7 +61,10 @@ This document provides an overview of implementing static code analysis in a Go 
 ### 4. 🚀 Choose **Pipeline** as the job type. 
 **-->** Add your pipeline script for static code analysis in the pipeline configuration... 
 **-->** Click on **Save** to store the configuration.
-![Screenshot from 2024-10-05 14-51-39](https://github.com/user-attachments/assets/4dcd0efa-32b9-4a0d-ba3b-1acdc008759f)
+![Screenshot from 2024-10-09 19-29-36](https://github.com/user-attachments/assets/ebeb8762-fbcd-4279-8972-55f1f9911a73)
+
+![Screenshot from 2024-10-09 19-38-09](https://github.com/user-attachments/assets/feeefac5-f633-4e9c-a995-3efd25d0a7aa)
+
 
 ### 5. 🚀 Click on **Build** to run the pipeline for static code analysis.
 ![Screenshot from 2024-10-05 12-54-06](https://github.com/user-attachments/assets/bff3c873-923e-4497-ac04-5147a29b3461)
