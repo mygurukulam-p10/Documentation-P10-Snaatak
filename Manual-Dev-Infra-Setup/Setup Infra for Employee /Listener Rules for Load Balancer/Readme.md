@@ -42,18 +42,17 @@
 3. Choose the target type: either **Instances** or **IP**.
 ![image](https://github.com/user-attachments/assets/8b565cbe-2b2d-4e06-8422-ede712b9ce8c)
 
-4. Enter a target group name (e.g., `OTMS-Dev-Salary-TG) and choose the appropriate **VPC**.
- 
-![image](https://github.com/user-attachments/assets/0b320c47-b20e-426b-bb21-3572a0d0c94f)
+4. Enter a target group name (e.g., `OTMS-Dev-TG-Employee) and choose the appropriate **VPC**.
+ ![Screenshot from 2024-10-09 11-30-01](https://github.com/user-attachments/assets/0231c814-25e8-45c0-a157-14f498f7889f)
+
 
   
 5. Configure the **Health Check** settings and register the targets. Ensure the port is set to `8080`.
 
-![image](https://github.com/user-attachments/assets/5faf012e-4736-49b4-a462-73d9f7bc8221)
+![Screenshot from 2024-10-09 11-30-14](https://github.com/user-attachments/assets/40933414-90e8-41ea-a6fb-f4505332e28c)
+
 
 6. Review the configuration and click **Create Target Group**.
-
-![image](https://github.com/user-attachments/assets/8e194483-8ffc-44bb-ac25-be015f48cd67)
 
 ### **Step 2: Add Listener Rules to Load Balancer** 🔄
 1. Go to the **Load Balancers** section in the EC2 console and select your load balancer (`OTMS-Dev-Salary-ALB`).
