@@ -21,7 +21,7 @@
 
 ## 📝 Introduction
 
-This guide walks you through setting up **Security Groups** for the Salary API. Security groups control network traffic to and from your Salary API instances, enhancing security by managing access.
+This guide walks you through setting up **Security Groups** for the Employee API. Security groups control network traffic to and from your Employee API instances, enhancing security by managing access.
 
 A **security group** acts as a virtual firewall for your EC2 instances to control inbound and outbound traffic. Once linked to an instance, it regulates the traffic entering or leaving that instance.
 
