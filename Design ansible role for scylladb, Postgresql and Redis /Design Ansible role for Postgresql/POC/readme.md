@@ -29,7 +29,7 @@ This role is designed to automate the installation and configuration of Jenkins 
 | Hardware Specifications | Minimum Recommendation  |
 |--------------------------|------------------------|
 | Processor                | Dual-core              |
-| RAM                      | 4GB                    |
+| RAM                      | 1GB                    |
 | Disk                     | 10GB                   |
 | OS                       | Ubuntu(22.04)          |
 
@@ -40,7 +40,7 @@ Before creating the Jenkins Ansible role, [click here](https://github.com/myguru
 
 | Name           | Version      | Description                                                      |
 |----------------|--------------|------------------------------------------------------------------|
-| Ansible        | 2.16.7      | Automation tool for configuration management and deployment.     |
+| Ansible        | 2.9 or higher     | Automation tool for configuration management and deployment.     |
 | Python         | 3.10.12     | Required for running Ansible and executing modules.              |
 | Jinja          | 3.1.4       | Templating engine used by Ansible for dynamic content generation. |
 | boto3          | 1.34.98     | AWS SDK for Python, used for interacting with AWS services.      |
