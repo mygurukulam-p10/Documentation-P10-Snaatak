@@ -98,10 +98,10 @@ node {
     }
 
     stage('Run ZAP Scan') {
-        // Define the path to the ZAP installation dynamically using the job name
+       
         def zapPath = "/var/lib/jenkins/workspace/${env.JOB_NAME}/ZAP_2.15.0/zap.sh"
 
-        // Run the ZAP scan with the dynamically constructed path using double quotes around the entire command
+       
         sh """
             "${zapPath}" -cmd -port 8090 -quickurl http://3.111.35.135:8080/swagger/index.html -quickprogress -quickout ./report.html
         """
