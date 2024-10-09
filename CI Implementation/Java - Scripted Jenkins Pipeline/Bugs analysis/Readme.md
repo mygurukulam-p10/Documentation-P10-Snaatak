@@ -49,6 +49,8 @@ Your system must meet these minimum requirements to run the Jenkins pipeline:
 | 🖥️ **Operating System**    | Ubuntu 22.04 LTS           |
 
 ---
+![374439409-eb91843f-c210-491f-8ba6-6ed7a61a4961](https://github.com/user-attachments/assets/7479895e-037e-48de-a088-9dcf892c8437)
+
 
 ## 🚀 Steps to Configure Scripted Jenkins Pipelines for Bugs Analysis
 
