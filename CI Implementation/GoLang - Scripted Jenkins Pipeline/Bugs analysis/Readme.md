@@ -60,7 +60,9 @@ This document provides an overview of implementing bug analysis in a Go project 
 ### 4. 🚀 Choose **Pipeline** as the job type. 
 **-->** Add your pipeline script for bug analysis in the pipeline configuration... 
 **-->** Click on **Save** to store the configuration.
-![Screenshot from 2024-10-05 18-13-20](https://github.com/user-attachments/assets/be9e8ad6-e2dc-4fc9-bec9-42748504cdc0)
+![Screenshot from 2024-10-09 19-20-56](https://github.com/user-attachments/assets/a1f2fd1e-5686-424b-b2f1-f6ba9f5965dd)
+![Screenshot from 2024-10-09 19-21-15](https://github.com/user-attachments/assets/a5be010c-8306-415e-9b6a-b0ef69bf7a35)
+
 
 ### 5. 🚀 Click on **Build** to run the pipeline for static code analysis.
 ![Screenshot from 2024-10-05 17-53-55](https://github.com/user-attachments/assets/505b5117-910b-4e44-93e9-6a19aa6bf0da)
