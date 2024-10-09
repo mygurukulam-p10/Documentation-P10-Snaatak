@@ -97,7 +97,7 @@ node {
         script {
             sh '''
                 echo "Running unit tests..."
-                ${goTool}/bin/go go test ./... -v
+                ${goTool}/bin/go  test ./... -v
             '''
         }
     }
