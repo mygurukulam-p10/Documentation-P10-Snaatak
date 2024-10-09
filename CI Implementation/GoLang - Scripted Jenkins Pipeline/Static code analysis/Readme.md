@@ -14,7 +14,7 @@
 2. [⚙️ Pre-requisites](#-pre-requisites)
 3. [🔍 System Requirements](#-system-requirements)
 4. [💥 Steps to Configuration for Static Code Analysis](#-steps-to-configuration-for-static-code-analysis)
-5. [Pipeline](#pipeline)
+5. [Jenkinsfile](#Jenkinsfile)
 6. [📛 Conclusion](#-conclusion)
 7. [📧 Contact Information](#-contact-information)
 8. [📚 References](#-references)
@@ -81,7 +81,7 @@ This document provides an overview of implementing static code analysis in a Go 
 ![Screenshot from 2024-10-05 16-13-02](https://github.com/user-attachments/assets/3703f13d-472f-4382-915c-b6916a085749)
 
 
-# Pipeline
+# Jenkinsfile
 
 ```
 node {
