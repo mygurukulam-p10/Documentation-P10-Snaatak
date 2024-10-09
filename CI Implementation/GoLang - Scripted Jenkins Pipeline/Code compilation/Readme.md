@@ -13,7 +13,7 @@
 2. [⚙️ Pre-requisites](#-pre-requisites)
 3. [🔍 System Requirements](#-system-requirements)
 4. [💥 Steps to Configuration Code Compilation](#-steps-to-conguration-code-compilation)
-5. [Pipeline](#pipeline)
+5. [Jenkinsfile](#Jenkinsfile)
 6. [📛 Conclusion](#-conclusion)
 7. [📧 Contact Information](#-contact-information)
 8. [📚 References](#-references)
@@ -60,8 +60,10 @@ This document provides an overview of implementing code compilation in a Go proj
 
 ### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for code compilation in the pipeline configuration...>Click on Save to store the configuration.
 
-![Screenshot from 2024-10-05 12-05-35](https://github.com/user-attachments/assets/57cbffb8-526d-41f1-91c4-920cf2b0b84d)
+![Screenshot from 2024-10-09 19-29-36](https://github.com/user-attachments/assets/95e197ac-ec7d-40b6-a020-931606de5e4c)
 
+
+![Screenshot from 2024-10-09 19-29-41](https://github.com/user-attachments/assets/df35c45f-4848-47c8-8d62-496a5fae0fcb)
 
 
 ### 5. 🚀 Then Click on build to run the pipeline to perform
@@ -83,7 +85,7 @@ This document provides an overview of implementing code compilation in a Go proj
 ### 8.🚀 Review the stages of the build process in the console output.
 ![Screenshot from 2024-10-05 12-10-42](https://github.com/user-attachments/assets/a4c8fb82-151a-4de0-87f7-93f29c02e03b)
 
-# Pipeline
+# Jenkinsfile
 ```
 
 node {
