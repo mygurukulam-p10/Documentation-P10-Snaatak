@@ -2,7 +2,7 @@
 
 | ✍️ Author      | 📅 Created on  | 📌 Version  | 📝 Last updated by | 📅 Last edited on  |
 |----------------|----------------|------------|--------------------|--------------------|
-|Brij Singh   | 03-10-2024     | Version 1  | Brij Singh       | 09-10-2024         |
+|Brij Singh   | 10-10-2024     | Version 2  | Brij Singh       | 09-10-2024         |
 
 ---
 
