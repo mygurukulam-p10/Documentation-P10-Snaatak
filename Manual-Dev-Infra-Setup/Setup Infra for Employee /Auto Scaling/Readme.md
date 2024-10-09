@@ -56,9 +56,10 @@
 
 
 
-6. Click **Create image**.
+5. Click **Create image**.
+   ![image](https://github.com/user-attachments/assets/42ad3c01-a22a-4eec-bbee-1576c8b8777f)
 
- 5.The AMI will appear under the **AMIs** section after creation.
+6.The AMI will appear under the **AMIs** section after creation.
    
 ![Screenshot from 2024-10-09 11-05-51](https://github.com/user-attachments/assets/8658d92c-c5ec-41c9-8db4-c4cd9e79c7c9)
 
@@ -73,27 +74,25 @@
 
 
 2. Give the template a name and description.
- 
+ ![Screenshot from 2024-10-09 11-10-03](https://github.com/user-attachments/assets/c4db740c-e5dd-4a1e-81ed-2f028208d3b2)
+
 
 3. Select the previously created AMI.
+![Screenshot from 2024-10-09 11-10-46](https://github.com/user-attachments/assets/234a8d9b-38cd-45ca-88ba-59fd34988855)
 
 
 4. Choose the instance type and key pair.
- 
+ ![Screenshot from 2024-10-09 11-11-21](https://github.com/user-attachments/assets/d8426aab-92a7-488d-a72b-02f0504739b3)
+
  
 
 5. Configure network settings as needed.
- 
- 
+ ![Screenshot from 2024-10-09 11-12-22](https://github.com/user-attachments/assets/bf3416b4-92d4-47f9-b0bd-10494dc98cc8)
 
-6 Optionally, add a user data script for custom setup.
-
-   ```bash
-   #!/bin/bash
-   java -jar Salary-API/target/salary-0.1.0-RELEASE.jar
-   ```
+ 
 
 11. Click **Create launch template**.
+![Screenshot from 2024-10-09 11-12-50](https://github.com/user-attachments/assets/a7a2e52d-e306-40ed-9ebf-31d09077a6ed)
 
 
 ---
