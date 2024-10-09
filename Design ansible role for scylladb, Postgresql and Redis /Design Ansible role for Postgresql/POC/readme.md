@@ -156,7 +156,7 @@ postgresql_service_name:
 
 - `configure.yml`: This file is included in the postgresql_role/tasks/configure.yml file
 ```
-# tasks/configure.yml
+#tasks/configure.yml
 - name: Ensure PostgreSQL configuration directory exists
   file:
     path: "{{ postgresql_data_dir }}"
@@ -176,7 +176,7 @@ postgresql_service_name:
 
 - `start.yml`: This file is included in the postgresql_role/tasks/start.yml file
 ```
-# tasks/start.yml
+#tasks/start.yml
 - name: Ensure PostgreSQL is started and enabled
   service:
     name: "{{ postgresql_service_name[ansible_os_family | lower] }}"
