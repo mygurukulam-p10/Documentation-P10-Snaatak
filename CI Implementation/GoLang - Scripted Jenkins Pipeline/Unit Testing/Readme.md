@@ -13,7 +13,7 @@
 2. [⚙️ Pre-requisites](#-pre-requisites)
 3. [🔍 System Requirements](#-system-requirements)
 4. [💥 Steps to Configuration for Unit Testing](#-steps-to-configuration-for-unit-testing)
-5. [Pipeline](#pipeline)
+5. [Jenskinfile](#jenkinsfile)
 6. [📛 Conclusion](#-conclusion)
 7. [📧 Contact Information](#-contact-information)
 8. [📚 References](#-references)
@@ -78,7 +78,7 @@ This document provides an overview of implementing unit testing in a Go project 
 ### 8. 🚀 Review the results of the unit testing process in the console output.
 ![Screenshot from 2024-10-05 16-47-23](https://github.com/user-attachments/assets/bc3a7d99-0190-4390-8480-ce501a7fafc4)
 
-# Pipeline
+# Jenskinfile
 
 ```groovy
 node {
