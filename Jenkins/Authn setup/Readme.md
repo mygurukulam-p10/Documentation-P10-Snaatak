@@ -122,12 +122,15 @@ After installing the plugin, go back to the Jenkins dashboard
 ![image](https://github.com/user-attachments/assets/c0e36b51-0ad9-48fb-9ce9-d80b15badd0f)
 
 **Setting Up an Application in GitHub**
+
 Once you have installed the GitHub authentication plugin, you need to set up an application within GitHub. Here’s how:
 
 Log into your GitHub account.
+
 ![image](https://github.com/user-attachments/assets/04c3dd6f-e5d1-4017-985e-61d88e14fa82)
 
 Scroll to the bottom of the page and click on “Developer settings”.
+
 ![image](https://github.com/user-attachments/assets/f81854cc-76db-428d-b37e-d8d78c0acb12)
 
 Click on “OAuth Apps” and then on “Register a new application”.
