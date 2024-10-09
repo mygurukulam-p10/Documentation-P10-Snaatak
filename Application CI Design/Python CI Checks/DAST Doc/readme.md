@@ -5,7 +5,7 @@
 | Vinay Bansal | 01-10-24 | version 1 | Vinay Bansal | 02-10-24 |
 
 # Purpose
-The purpose of this document is to provide a comprehensive overview of DAST for Python, including its importance, tools available, best practices, and recommendations and conclusion.
+The purpose of this document is to provide a comprehensive overview of Python Application using DAST, including its importance, tools available, best practices, and recommendations and conclusion., including its importance, tools available, best practices, and recommendations and conclusion.
 
 ##  🗂️Table of Contents
 1. [📖Introduction](#introduction)
