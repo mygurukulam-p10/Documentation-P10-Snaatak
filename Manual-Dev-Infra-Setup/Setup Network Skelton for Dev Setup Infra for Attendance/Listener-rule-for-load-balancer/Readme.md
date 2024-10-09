@@ -9,28 +9,28 @@
 ---
 
 ## **Table of Contents** 📑
-1. [Introduction](#introduction)
-2. [Pre-requisites](#pre-requisites)
-3. [Steps to Setup Listener Rules for Load Balancer](#steps-to-setup-listener-rules-for-load-balancer)
-4. [Output](#output)
-5. [Conclusion](#conclusion)
-6. [Contact Information](#contact-information)
-7. [References](#references)
+1. [🌐 Introduction](#-introduction)
+2. [✔️ Pre-requisites](#-pre-requisites)
+3. [⚙️ Steps to Setup Listener Rules for Load Balancer](#-steps-to-setup-listener-rules-for-load-balancer)
+4. [📊 Output](#-output)
+5. [🎯 Conclusion](#-conclusion)
+6. [📧 Contact Information](#-contact-information)
+7. [📚 References](#-references)
 
 ---
 
-## **Introduction** 🌐
+## 🌐 Introduction 
 **Load balancing** in AWS ensures high availability and reliability by distributing network traffic across multiple resources. This guide will walk you through configuring listener rules for your Attendance API to optimize traffic routing and performance using AWS Load Balancers.
 
 ---
 
-## **Pre-requisites** ✔️
+## ✔️ Pre-requisites ✔
 - **Access** to the AWS Management Console or AWS CLI with appropriate permissions.
 - **Understanding** of your application's [network requirements](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/Cloud%20Infra%20Design/Cloud%20Infra%20Design%2030K%20feet/Readme.md).
 
 ---
 
-## **Steps to Setup Listener Rules for Load Balancer** ⚙️
+## ⚙️ Steps to Setup Listener Rules for Load Balancer ⚙️
 
 ### **Step 1: Create Target Group** 🖥️
 1. Open the **Amazon EC2 console** at [AWS EC2 Console](https://console.aws.amazon.com/ec2/).
@@ -74,7 +74,7 @@
 
 ---
 
-## **Output** 📊
+## 📊 Output 
 After setting up the listener rules, the load balancer will correctly distribute traffic as per your rules. Use the DNS endpoint of the load balancer to test the Attendance API.
 
 ![Screenshot 2024-10-09 171230](https://github.com/user-attachments/assets/70db2393-748f-4089-8a32-9970fa39c091)
@@ -83,7 +83,7 @@ After setting up the listener rules, the load balancer will correctly distribute
 
 ---
 
-## **Conclusion** 🎯
+## 🎯 Conclusion 
 Configuring listener rules is essential for effective traffic management in AWS. By following this guide, you’ll ensure your Attendance API handles traffic efficiently, leading to improved performance and optimized resource utilization.
 
 ---
@@ -97,7 +97,7 @@ For more information, feedback, or assistance, feel free to contact us:
 
 ---
 
-## **References** 📚
+## 📚 References 
 
 | Description               | Link                                                                 |
 | --------------------------| -------------------------------------------------------------------- |
