@@ -5,7 +5,7 @@
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-|  Vinay Bansal | 25-09-24    | Version 1  | Vinay Bansal     | 02-10-24       |
+|  Vinay Bansal | 25-09-24    | Version 1  | Vinay Bansal     | 09-10-24       |
 
 # Table of Content 
 1. [🔍 Purpose](#-purpose)
@@ -43,6 +43,8 @@ BuildPiper is a developer and engineering teams’ centric, fully-featured, end-
 | **8. Dashboard and Reporting**| User-Friendly Dashboard                             | Intuitive interface for easy access to build, deployment statuses, and historical data.            |
 |                             | Detailed Reports                                       | Offers insights into build performance, success rates, and other critical metrics.                  |
 |**9. Cost**|Comprehensive Cost Management|Resource Planning: Identifying what resources (people, equipment, materials) and quantities are needed.Cost Estimating: Predicting the costs of the resources required for the project|
+|**10. Open Source**| Offers a marketplace|	A feature or platform where users can access, share, or integrate various tools, plugins, or services related to the software development and CI/CD|
+
 
 ## 📜 Conclusion
 BuildPiper is a great tool for simplifying and speeding up the software development process. With features like customizable pipelines, support for different environments, and easy integration with version control systems, it helps teams work more efficiently and collaborate better. BuildPiper provides everything developers need to automate builds, run tests, and deploy applications smoothly, making it easier to deliver high-quality software quickly. Whether you're a startup or a large company.
