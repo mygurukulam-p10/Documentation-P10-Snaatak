@@ -121,8 +121,20 @@ After installing the plugin, go back to the Jenkins dashboard
 
 ![image](https://github.com/user-attachments/assets/c0e36b51-0ad9-48fb-9ce9-d80b15badd0f)
 
+Under the "Security Realm" section, choose "GitHub Authentication Plugin
+
+Configure the required settings
+
+GitHub Web URI: https://github.com
+![image](https://github.com/user-attachments/assets/04c3dd6f-e5d1-4017-985e-61d88e14fa82)
 
 
+![image](https://github.com/user-attachments/assets/f81854cc-76db-428d-b37e-d8d78c0acb12)
+
+![image](https://github.com/user-attachments/assets/4025766d-6b63-41f7-b082-e65a3f4743f0)
+
+
+![image](https://github.com/user-attachments/assets/36d7b245-bd3a-4293-b1f2-df48e75d49d1)
 
 
 ---
