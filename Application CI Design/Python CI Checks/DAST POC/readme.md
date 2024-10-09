@@ -100,7 +100,7 @@ cd ZAP_2.15.0
 ```
 
 ### Step 5. Run ZAP
-* Now, to run our zap for analysis process.  Now running zap via zap.sh via -cmd or in daemon mode as it run the zap in Cli mode as shown below
+* Now, to run our zap for analysis process.  Now running zap.sh via -cmd or in daemon mode as it run the zap in Cli mode as shown below
 
 ```
 <path to zap.sh> -port <port_no> -cmd -quickurl <url of website>
