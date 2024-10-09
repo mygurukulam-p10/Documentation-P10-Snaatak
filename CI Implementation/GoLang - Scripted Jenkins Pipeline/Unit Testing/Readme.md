@@ -60,7 +60,9 @@ This document provides an overview of implementing unit testing in a Go project 
 ### 4. 🚀 Choose **Pipeline** as the job type. 
 **-->** Add your pipeline script for unit testing in the pipeline configuration... 
 **-->** Click on **Save** to store the configuration.
-![Screenshot from 2024-10-05 16-46-28](https://github.com/user-attachments/assets/8d0576ce-ffbe-4b19-9423-f476db4db53f)
+![Screenshot from 2024-10-09 19-29-36](https://github.com/user-attachments/assets/798e66bc-7ab3-43ea-9eb4-562af49b46c2)
+
+![Screenshot from 2024-10-09 19-43-33](https://github.com/user-attachments/assets/606a7046-1757-432a-b354-0159cfbe526a)
 
 ### 5. 🚀 Click on **Build** to run the pipeline for unit testing.
 ![Screenshot from 2024-10-05 16-39-44](https://github.com/user-attachments/assets/f858f2c1-ad1d-4cae-931f-64341b956a87)
