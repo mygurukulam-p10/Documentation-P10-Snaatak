@@ -98,6 +98,7 @@ Change Directory to where your Zap file is
 ```
 cd ZAP_2.15.0
 ```
+![image](https://github.com/user-attachments/assets/f4b7c1b8-dc67-4568-a6a1-d259c44a7399)
 
 ### Step 5. Run ZAP
 * Now, to run our zap for analysis process. 
