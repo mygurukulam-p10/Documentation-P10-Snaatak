@@ -9,13 +9,13 @@
 ---
 
 ## **Table of Contents** 📑
-1. [Introduction](#Introduction)
-2. [Pre-requisites](#Pre-requisites)
-3. [Steps to Setup Listener Rules for Load Balancer](#Steps-to-setup-Listener-Rules-for-Load-Balancer)
-4. [Output](#Output)
-5. [Conclusion](#Conclusion)
-6. [Contact Information](#Contact-Information)
-7. [References](#References)
+1. [Introduction](#introduction)
+2. [Pre-requisites](#pre-requisites)
+3. [Steps to Setup Listener Rules for Load Balancer](#steps-to-setup-listener-rules-for-load-balancer)
+4. [Output](#output)
+5. [Conclusion](#conclusion)
+6. [Contact Information](#contact-information)
+7. [References](#references)
 
 ---
 
