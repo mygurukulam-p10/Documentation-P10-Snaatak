@@ -7,7 +7,7 @@
 | Vinay Bansal | 01-10-24 | version 1 | Vinay Bansal | 02-10-24 |
 
 ## 🔍 Purpose
-We are preparing this document so that we can easily provide a completed guide to step DAST which is designed in Python to manage attendance-api information.
+We are preparing this document so that we can easily provide a completed guide to Perform DAST on application which is designed in Python to manage attendance-api information.
 
   
 ## 📑 Table of Contents
