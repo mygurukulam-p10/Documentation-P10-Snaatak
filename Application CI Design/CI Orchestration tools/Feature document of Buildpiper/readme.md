@@ -42,7 +42,10 @@ BuildPiper is a developer and engineering teams’ centric, fully-featured, end-
 |                             | APIs for Customization                                 | Provides APIs for building custom integrations and workflows tailored to specific needs.           |
 | **8. Dashboard and Reporting**| User-Friendly Dashboard                             | Intuitive interface for easy access to build, deployment statuses, and historical data.            |
 |                             | Detailed Reports                                       | Offers insights into build performance, success rates, and other critical metrics.                  |
-|**9. Cost**|Comprehensive Cost Management|Resource Planning: Identifying what resources (people, equipment, materials) and quantities are needed.Cost Estimating: Predicting the costs of the resources required for the project|
+|**9. Cost**|Comprehensive Cost Management|Subscription Fees: Costs for different tiers of service based on usage levels or features.
+|||Infrastructure Costs: Expenses related to the cloud services or hardware required to run your pipelines.
+|||Resource Costs: Charges for using specific tools, plugins, or integrations available in the BuildPiper marketplace.
+|||Operational Costs: Costs incurred from managing and maintaining the CI/CD pipelines, such as team salaries or training.|
 |**10. Open Source**| Offers a marketplace|	A feature or platform where users can access, share, or integrate various tools, plugins, or services related to the software development and CI/CD|
 
 
