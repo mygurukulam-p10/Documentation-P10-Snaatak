@@ -79,7 +79,8 @@ Follow these steps to set up and execute the scripted Jenkins pipeline for bugs 
    - Create a repository and add a **Jenkinsfile**.
    - This file will define the pipeline steps for the bugs analysis.
 
-   ![Repository Setup](https://github.com/user-attachments/assets/8ffd51b8-115b-4a6e-a663-18b7b634d946)
+   ![image](https://github.com/user-attachments/assets/b64fc769-a347-4118-b1c9-e68c263f942f)
+
 
 ### 5. Configure Pipeline as the Job Type 🛠️
    - Choose **Pipeline** as the job type.
