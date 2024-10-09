@@ -25,7 +25,7 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 1. **Jenkins**: Ensure you have a Jenkins instance running.
 2. **Java**: Required to run the built Java application.
 3. **Maven**: Simplifies build management
-4. - Knowledge of your Tool's [here](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/Application%20CI%20Design/Java%20CI%20checks/code%20compilation%20doc).
+4. Knowledge of your Tool's [here](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/Application%20CI%20Design/Java%20CI%20checks/code%20compilation%20doc).
 
 
 ## 🔍 System Requirements
