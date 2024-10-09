@@ -114,7 +114,7 @@ ansible-galaxy init <RoleName>
 
 
 **Step 7: Tasks**
-1. `main.yml`: This main.yml file is acting as an orchestrator, importing tasks from the `install_jenkins.yml` file. This separation of tasks into different files is a good practice for better organization, especially when dealing with complex configurations or roles.
+1. `main.yml`: This main.yml file is acting as an orchestrator, importing tasks from the file. This separation of tasks into different files is a good practice for better organization, especially when dealing with complex configurations or roles.
 
 ```
 ---
@@ -141,16 +141,48 @@ postgresql_service_name:
 ```
 
 
-> [!NOTE]
-> To customize the Jenkins version based on your specific requirements, you can override these default values in your playbook. This is particularly useful when you want to install a different version of Jenkins.
 
 
-3. `install_jenkins.yml`: This file is included in the jenkins/tasks/main.yml file
+3. `install.yml`: This file is included in the jenkins/tasks/install.yml file
 
-```yaml
+```
+# tasks/install.yml
+- name: Install PostgreSQL
+  package:
+    name: "{{ postgresql_packages[ansible_os_family] }}"
+    state: present
+  when: ansible_os_family in ['Debian', 'RedHat']
 ---
 
+- `configure.yml`: This file is included in the postgresql_role/tasks/configure.yml file
+```
+# tasks/configure.yml
+- name: Ensure PostgreSQL configuration directory exists
+  file:
+    path: "{{ postgresql_data_dir }}"
+    state: directory
+    owner: "{{ postgresql_user }}"
+    group: "{{ postgresql_user }}"
+    mode: '0700'
 
+- name: Generate postgresql.conf
+  template:
+    src: postgresql.conf.j2
+    dest: "{{ postgresql_config_file }}"
+    owner: "{{ postgresql_user }}"
+    group: "{{ postgresql_user }}"
+    mode: '0600'
+```
+
+- `start.yml`: This file is included in the postgresql_role/tasks/start.yml file
+```
+# tasks/start.yml
+- name: Ensure PostgreSQL is started and enabled
+  service:
+    name: "{{ postgresql_service_name[ansible_os_family | lower] }}"
+    state: started
+    enabled: true
+```
 #Installing required dependancy 
 
 - name: Check if the all dependancy  are installed
