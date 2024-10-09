@@ -135,6 +135,7 @@
 
 Once the Auto Scaling group is created, EC2 instances will automatically scale based on demand
 
+![Screenshot from 2024-10-09 18-19-29](https://github.com/user-attachments/assets/1d7901e8-b74e-4f6e-b68d-275ba4c7ba6b)
 
 
 ---
@@ -158,4 +159,3 @@ Amazon EC2 Auto Scaling ensures that your application is always running the righ
 | Create Launch Template                    | [AWS Docs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/create-launch-template.html) |
 | Create Auto Scaling Group                 | [AWS Docs](https://k21academy.com/amazon-web-services/aws-solutions-architect/aws-auto-scaling/) |
 
-![2021-04-26-17_03_00-Photos](https://github.com/user-attachments/assets/69dc8349-aa1f-453e-96b1-925fef30915d)
