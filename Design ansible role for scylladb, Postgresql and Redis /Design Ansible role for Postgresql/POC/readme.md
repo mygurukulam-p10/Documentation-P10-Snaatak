@@ -182,142 +182,31 @@ postgresql_service_name:
     state: started
     enabled: true
 ```
-#Installing required dependancy 
 
-- name: Check if the all dependancy  are installed
-  apt:
-    name: "{{ item }}"
-    state: present
-  loop: "{{ dependencies}}"
-
-- name: Add Jenkins apt repository key
-  get_url:
-    url: "{{ jenkins_repo_key_url }}"
-    dest: /usr/share/keyrings/jenkins-keyring.asc
-    mode: "0644"
-
-
-- name: Add jenkins repository
-  apt_repository:
-    repo: "{{ jenkins_repo_url }}"
-    state: present
-    update_cache: yes
-
-
-- name: Install JDK 17
-  apt:
-    name: openjdk-17-jdk
-    state: present
-
-- name: Install Jenkins
-  apt:
-    name: jenkins
-    state: present
-
-- name: Ensure Jenkins is started and enabled
-  service:
-    name: jenkins
-    state: started
-    enabled: true
-
-
-- name: Check jenkins service status
-  systemd:
-    name: jenkins
-    state: started
-  register: jenkins_service_status
-
-
-
-- name: Display jenkins service status
-  debug:
-    var: jenkins_service_status
-   
-
-- name: Get admin password
-  slurp:
-    src: /var/lib/jenkins/secrets/initialAdminPassword 
-  register: admin_password
-
-- name: debugging admin password
-  debug:
-    var: admin_password['content']
-
-
-- name: setfact admin_password
-  set_fact:
-    jenkins_admin_password: "{{ admin_password['content'] | b64decode | trim }}"
-
-
-- name: check value
-  debug:
-    var: jenkins_admin_password
-
-- name: Install Jenkins plugins
-  jenkins_plugin:
-    name: "{{ item.key }}"
-    # version: "{{ item.version }}"
-    url_username: admin
-    url_password: "{{ jenkins_admin_password }}"
-    url: "http://localhost:8080"
-    state: present
-  loop:
-    - { key: "gitlab-plugin" }
-  register: install_result
-
-- name: Show installation status
-  debug:
-    var: install_result
-  notify: Restart Jenkins
-```
 4.handlers/main.yaml: In this file we define our handlers.
 
 ```
-- name: Restart Jenkins
-  systemd:
-    name: jenkins 
+# handlers file for postgresql_role
+- name: Restart PostgreSQL
+  service:
+    name: "{{ postgresql_service_name[ansible_os_family | lower] }}"
     state: restarted
 ```
+
 **Step 8: Playbook Execution**
 
-* To set up Jenkins on your target servers, you will execute the Ansible playbook using the following command:
 
 ```bash
 ansible-playbook -i aws_ec2.yml playbook.yml
 ```
-![Screenshot from 2024-09-22 03-01-44](https://github.com/user-attachments/assets/2701f21a-89ed-4e53-9502-7a099aa34eed)
 
 
 ## Output
-1.  **Host-level output**: Output for host would indicate whether the playbook execution was successful or not.
 
 
-![Screenshot from 2024-09-22 03-05-34](https://github.com/user-attachments/assets/d9f19482-95ec-4cf9-8d38-6f6aa2d27cb8)
-
-***
-## Post-Installation Setup
-* Open your web browser and navigate to `http://your-jenkins-server:8080`.
-
-![Screenshot from 2024-09-22 03-07-15](https://github.com/user-attachments/assets/bfde866f-51f1-43a4-bdda-8bc8f093e803)
-
->[!IMPORTANT]
->
->Ensure that port `8080` is open on your Jenkins server.
-
-* Retrieve the initial administrator password from the Jenkins server.
-![Screenshot from 2024-09-22 03-13-39](https://github.com/user-attachments/assets/e230a9d5-33c8-4086-a6ce-c603999aa48e)
-
-* Install required plugins and you are set
-![Screenshot from 2024-09-22 03-14-53](https://github.com/user-attachments/assets/2b66ff36-efb9-40fd-acd6-b071fb746e2f)
-
-* Login to jenkins Dashboard
-![Screenshot from 2024-09-22 03-17-30](https://github.com/user-attachments/assets/0bb30c96-2e7c-48f2-9b6c-ace9149ca5c0)
-
-
-***
 ## Conclusion 
 
-* This guide illustrates the process of deploying Jenkins in a development environment through Ansible. By adhering to these instructions, you can effectively provision and set up Jenkins within your AWS infrastructure.
+
 
 
 ## Contact Information
@@ -332,7 +221,6 @@ ansible-playbook -i aws_ec2.yml playbook.yml
 | Title                                      | URL                                           |
 |--------------------------------------------|-----------------------------------------------|
 | Ansible documentation           | https://docs.ansible.com/ansible/latest/index.html    |
-| Jenkins Installation    | https://www.jenkins.io/doc/book/installing/linux/  |
 | Dyanmic Inventory               | https://www.youtube.com/watch?v=junPdh2yvbU&t=454s | 
 
 
