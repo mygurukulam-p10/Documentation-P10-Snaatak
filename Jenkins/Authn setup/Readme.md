@@ -131,14 +131,12 @@ Once you have installed the GitHub authentication plugin, you need to set up an 
 
 **Scroll to the bottom of the page and click on “Developer settings”.**
 
-![image](https://github.com/user-attachments/assets/f81854cc-76db-428d-b37e-d8d78c0acb12)
+![image](https://github.com/user-attachments/assets/f81854cc-76db-428d-b37e-d8d78c0acb12)  ![image](https://github.com/user-attachments/assets/4025766d-6b63-41f7-b082-e65a3f4743f0)
+
+
 
 
 **Click on “OAuth Apps” and then on “Register a new application”.**
-
-
-![image](https://github.com/user-attachments/assets/4025766d-6b63-41f7-b082-e65a3f4743f0)
-
 
 ![image](https://github.com/user-attachments/assets/36d7b245-bd3a-4293-b1f2-df48e75d49d1)
 
