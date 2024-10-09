@@ -55,16 +55,16 @@
 6. Review the configuration and click **Create Target Group**.
 
 ### **Step 2: Add Listener Rules to Load Balancer** 🔄
-1. Go to the **Load Balancers** section in the EC2 console and select your load balancer (`OTMS-Dev-Salary-ALB`).
+1. Go to the **Load Balancers** section in the EC2 console and select your load balancer (`OTMS-Dev-ALB-Employee`).
 ![image](https://github.com/user-attachments/assets/93401816-7bbb-41a2-9dc0-5bff7fe272db)
 
-![image](https://github.com/user-attachments/assets/db927234-f1ed-4d8f-a265-673ea050919a)
 
+![Screenshot from 2024-10-09 14-08-28](https://github.com/user-attachments/assets/badd6eb3-2133-4696-95d6-843a2016ed2d)
 
 2. Click on **Listeners** and select **Protocol Port HTTP:80** to add a new rule.
   
 3. Define the **Name** and add any relevant **Tags**.
-   ![image](https://github.com/user-attachments/assets/9fabb414-52a5-494e-9514-75af93144596)
+   
 
 ![image](https://github.com/user-attachments/assets/fcce0547-520b-4ea9-a981-a2c992ee9b54)
 
