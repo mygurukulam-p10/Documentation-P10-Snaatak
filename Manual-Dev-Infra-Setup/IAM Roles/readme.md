@@ -34,7 +34,6 @@ IAM roles are created to securely give temporary access to AWS resources without
 | **No Permanent Association** | Unlike IAM users, roles aren't tied to a specific user. Any trusted entity—like an AWS service or application—can assume a role when needed. |
 | **Federated Access**       | IAM roles allow external users (from identity providers like Google) to access AWS resources temporarily, without creating IAM users for them. |
 
-***
 
 ***
 ## Types of IAM Role in aws
