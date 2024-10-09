@@ -59,18 +59,14 @@
 ![image](https://github.com/user-attachments/assets/93401816-7bbb-41a2-9dc0-5bff7fe272db)
 
 
-
-
-2. Click on **Listeners** and select **Protocol Port HTTP:80** to add a new rule.
-  
 ![Screenshot from 2024-10-09 14-09-57](https://github.com/user-attachments/assets/6e33ea5b-8f99-49c6-bc98-f00626309e0e)
 
  
-3. Choose the **Target Group** to forward the traffic to. Adjust the weights if using multiple target groups.
+ 2. .Choose the **Target Group** to forward the traffic to. Adjust the weights if using multiple target groups.
    ![Screenshot from 2024-10-09 16-50-31](https://github.com/user-attachments/assets/21117ca3-163a-4ed9-8d06-e7447d1f3833)
 
    
-4. Click on create LoadBalancer.
+3. Click on create LoadBalancer.
 ---
 
 ## **Output** 📊
