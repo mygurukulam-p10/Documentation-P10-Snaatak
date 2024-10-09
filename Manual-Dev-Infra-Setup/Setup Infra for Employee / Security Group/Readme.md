@@ -90,26 +90,13 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 ![Screenshot from 2024-10-09 16-09-10](https://github.com/user-attachments/assets/88c3fd17-1b0a-4918-9162-03d3660abee4)
 
 
-
-
-2. Click **Edit Inbound Rules** and add rules based on your requirements:
-   ![Screenshot from 2024-10-09 16-23-25](https://github.com/user-attachments/assets/d63e2a12-31c7-426f-a989-add4e9226964)
-
-
-
-
 ### Step 6: Define Outbound Rules
 
 1. Click the **Outbound Rules** tab.
-![image](https://github.com/user-attachments/assets/5de54eb9-b416-4e27-9892-015f3bd61358)
-
-
 
 
 2. Click **Edit Outbound Rules** and set outbound traffic settings:
-![image](https://github.com/user-attachments/assets/a597065e-de4e-42a9-8b9c-b4676cb1aebe)
-
-
+![image](https://github.com/user-attachments/assets/5de54eb9-b416-4e27-9892-015f3bd61358)
 
 ---
 
