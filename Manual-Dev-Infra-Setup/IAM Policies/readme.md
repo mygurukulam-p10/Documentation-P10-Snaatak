@@ -70,24 +70,27 @@ Creating custom IAM policies allows you to have precise control over who can do 
  ***
 
  ## Create custom IAM policies
-**Step**1: Navigate to the IAM Service & Go to policies 
+
+### Step1: Navigate to the IAM Service & Go to policies 
 ![Screenshot from 2024-10-09 18-47-41](https://github.com/user-attachments/assets/ad772223-8b86-4dc4-80e0-c7216dfdd10f)
 
 ***
 Click on create policy
 ![Screenshot from 2024-10-09 18-48-43](https://github.com/user-attachments/assets/a892c057-c973-4054-a3ef-e7dbc6197f77)
 
-
+***
+### Step 2: Select a Policy Creation Method & Define Permissions
+![Screenshot from 2024-10-09 18-51-13](https://github.com/user-attachments/assets/81a490be-4d35-4203-a4c7-32cff2f54c96)
 
 ***
-**Step**2: 
+### Step 3: Review the Policy
+![Screenshot from 2024-10-09 18-53-01](https://github.com/user-attachments/assets/e3a2809d-3c1d-4114-b339-e03a36bcafd6)
 
 ***
-**Step** 3: 
+### Step 4: Create Successfully
+![Screenshot from 2024-10-09 18-55-21](https://github.com/user-attachments/assets/e49fd178-2f1e-4b6a-a760-170c2e30758b)
 
-
-***
-
+*** 
 ## Best Practices for Custom IAM Policies
 
 | Best Practice                    | Explanation                                                                                          |
@@ -118,4 +121,4 @@ Custom IAM policies allow organizations to manage access to AWS resources carefu
 
 | Description                                   | References  
 | --------------------------------------------  | -------------------------------------------------|
-| Link ||
+| Link |https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html|
