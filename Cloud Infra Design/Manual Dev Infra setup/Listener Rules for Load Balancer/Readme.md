@@ -68,11 +68,6 @@
 
 ![image](https://github.com/user-attachments/assets/fcce0547-520b-4ea9-a981-a2c992ee9b54)
 
-5. Set the **Path Condition** (e.g., `/item/*`) for traffic routing.
- 
-6. Choose the **Target Group** to forward the traffic to. Adjust the weights if using multiple target groups.
-7. Assign a **Priority** for the rule and review all settings.
-8. Once verified, click **Create Rule**.
 
 ---
 
