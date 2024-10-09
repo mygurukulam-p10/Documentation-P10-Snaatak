@@ -70,13 +70,14 @@ Run Unit Tests: Runs unit tests to ensure the code is functional.
 Package: Packages the compiled code into a JAR or WAR file.
 Archive Artifacts: Archives the generated build artifacts.
 Post-Build Cleanup: Cleans the workspace to avoid conflicts with future builds.
-4. 🚀 Configure SCM
+
+***4. 🚀 Configure SCM***
 In the "Pipeline" section, configure the SCM settings with your Git repository URL and Jenkins credentials.
 
-5. 🚀 Run the Build
+**5. 🚀 Run the Build**
 Click Build Now to start the pipeline. You can monitor the build status and review the output in the Console.
 
-6. 🚀 Console Output
+**6. 🚀 Console Output**
 After the build is complete, check the console output for logs and any issues encountered during the pipeline execution.
 
 ***📛 Conclusion***
