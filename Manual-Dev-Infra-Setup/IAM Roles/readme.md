@@ -9,7 +9,7 @@
 + [Introduction to IAM Role](#Introduction-to-iam-role)
 +  [Why IAM Role](#Why-iam-role)
 + [Features of to IAM Role](#Features-of-iam-role)
-+ [Types of IAM Role in aws](#TypesofIAMRoleinaws)
++ [Types of IAM Role in aws](#Types-of-IAM-Role-in-aws)
 + [Advantages of IAM Role](#Advantages-of-iam-role)
 + [Disadvantages of IAM Role](#Disadvantages-of-iam-role)
 + [Conclusion](#Conclusion)
