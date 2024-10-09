@@ -1,4 +1,4 @@
-# 🔒 Security Group Setup (Salary API)
+# 🔒 Security Group Setup (Employee API)
 
 
 | Author      | Created on   | Version | Last updated by | Last edited on  |
