@@ -1,5 +1,5 @@
 
-# Ansible Role to setup Jenkins (Ubuntu)
+# Ansible Role for Postgresql
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
