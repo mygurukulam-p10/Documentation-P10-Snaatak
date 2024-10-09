@@ -90,7 +90,7 @@ Please Refer this https://github.com/mygurukulam-p10/Documention/blob/main/Appli
 We are using Go Testing in our Project.
 
 ## 📝Conclusion
- Go’s standard testing package because it’s simple, efficient, and integrates seamlessly with the Go toolchain. It encourages best practices and ensures your code is robust and reliable.
+The Go testing package is simple, efficient, and integrates seamlessly with the Go toolchain. It encourages best practices and ensures that your code is robust and reliable.
 
 ## 📧 Contact Information
 
