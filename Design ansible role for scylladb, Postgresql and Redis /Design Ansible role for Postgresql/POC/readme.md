@@ -8,9 +8,9 @@
 
 ***
 ## Table of Contents
-+ [Introduction](#Introduction)
++ [Introduction](#introduction)
 + [System Requirements](#system-requirements)
-+ [Runtime Dependency](#Runtime-Dependency)
++ [Runtime Dependency](#runtime-dependency)
 + [Flow_Diagram](#flow-diagram)
 + [Setup Ansible Role](#steps)
 + [Output Verification](#output)
@@ -144,7 +144,6 @@ postgresql_service_name:
 
 
 3. `install.yml`: This file is included in the jenkins/tasks/install.yml file
-
 ```
 # tasks/install.yml
 - name: Install PostgreSQL
