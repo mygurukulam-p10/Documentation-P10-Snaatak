@@ -13,7 +13,7 @@
 2. [⚙️ Pre-requisites](#-pre-requisites)
 3. [🔍 System Requirements](#-system-requirements)
 4. [💥 Steps to Configure DAST Integration using OWASP ZAP](#-steps-to-configure-dast-integration-using-owasp-zap)
-5. [Pipeline](#pipeline)
+5. [Jenkinsfile](#Jenkinsfile)
 6. [📛 Conclusion](#-conclusion)
 7. [📧 Contact Information](#-contact-information)
 8. [📚 References](#-references)
@@ -57,7 +57,9 @@ This document provides an overview of integrating Dynamic Application Security T
 
 
 ### 4. 🚀 Choose **Pipeline** as the job type, add your pipeline script for DAST integration in the pipeline configuration, and click on **Save** to store the configuration.  
-![Screenshot from 2024-10-07 01-05-38](https://github.com/user-attachments/assets/7186df23-195c-4374-878a-30fd6e305ec7)
+![Screenshot from 2024-10-09 19-29-36](https://github.com/user-attachments/assets/56a9c36a-bc86-4574-b4e5-e48332b19379)
+![Screenshot from 2024-10-09 19-29-41](https://github.com/user-attachments/assets/6d5511b9-8e5a-4441-83e0-bd8737b526a7)
+
 
 
 ### 5. 🚀 Click on **Build** to run the pipeline and perform DAST integration.  
@@ -75,7 +77,7 @@ This document provides an overview of integrating Dynamic Application Security T
 
 ![Screenshot from 2024-10-07 01-32-13](https://github.com/user-attachments/assets/1bd4ea88-5ab6-4762-87a7-5b4454f0ad42)
 
-## Pipeline
+## Jenkinsfile
 
 ```groovy
 node {
