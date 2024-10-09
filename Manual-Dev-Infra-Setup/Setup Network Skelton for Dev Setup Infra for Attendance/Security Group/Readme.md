@@ -37,12 +37,12 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 
 ### Inbound Rules
 
-| Security Group Name | Port  | Source                |
+| Security Group Name | Port  | Description                |
 |---------------------|-------|-----------------------|
-| Attendance-Non-Prod-Dev-SG  | 22    | 10.0.1.64/27  |
+| Attendance-Non-Prod-Dev-SG  | 22    | To securely connect to a remote device  |
 | Attendance-Non-Prod-Dev-SG  | 8080  | Frontend-lb-sg|
-|Attendance-Non-Prod-Dev-SG   |5432| Redis|
-|Attendance-Non-Prod-Dev-SG   |6379|Postgres|
+|Attendance-Non-Prod-Dev-SG   |6379| used by the Redis Database Server|
+|Attendance-Non-Prod-Dev-SG   |5432|used by the PostgreSQL Database Server|
 
 ### Outbound Rules
 
