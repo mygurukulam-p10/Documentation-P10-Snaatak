@@ -14,7 +14,7 @@
 2. [⚙️ Pre-requisites](#-pre-requisites)
 3. [🔍 System Requirements](#-system-requirements)
 4. [💥 Steps to Configuration for Bug Analysis](#-steps-to-configuration-for-bug-analysis)
-5. [Pipeline](#pipeline)
+5. [Jenkinsfile](#pipeline)
 6. [📛 Conclusion](#-conclusion)
 7. [📧 Contact Information](#-contact-information)
 8. [📚 References](#-references)
@@ -78,7 +78,7 @@ This document provides an overview of implementing bug analysis in a Go project 
 ![Screenshot from 2024-10-05 16-47-23](https://github.com/user-attachments/assets/dee17a65-0725-452c-bb9b-2ed12b378663)
 
 
-## Pipeline
+## Jenkinsfile
 ```
 
 
