@@ -1,5 +1,4 @@
 ## Create IAM Role
-![image](https://github.com/avengers-p7/Documentation/assets/156056746/2c667c75-38b7-4758-b009-1d38fa556a86)
 
 ***
 | Author | Created on | Last updated by | Last edited on |
@@ -84,6 +83,9 @@ IAM roles are created to securely give temporary access to AWS resources without
 ### Step 2: Access the IAM Roles Section
 ![Screenshot from 2024-10-08 19-57-41](https://github.com/user-attachments/assets/0be72506-8b52-4cb7-bff1-7731ea4aa445)
 
-### Step 3: 
+### Step 3: Choose the type of trusted entity: AWS Service
+![Screenshot from 2024-10-08 20-03-17](https://github.com/user-attachments/assets/7c0b5467-c481-40a5-a2f3-13edae2a0889)
+
+### Steps 4: 
 
 
