@@ -38,6 +38,16 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 
 
 ## 💥 Steps to Configuration Declarative pipelines for Code Compilation
+### Understand Declarative Pipeline syntax
+- **pipeline { ... }**: This block defines the entire pipeline structure.
+
+- **agent any:** This line specifies that the pipeline can run on any available Jenkins agent (worker node). It allows flexibility in choosing where the stages will be executed.
+
+- **stages { ... }:** This block contains all the stages of the pipeline. Each stage can contain one or more steps to perform specific tasks.
+
+- **stage('Clone Repository') { ... }:** This defines a stage named "Clone Repository." Each stage typically represents a logical part of the build process.
+
+- **steps { ... }:** This block defines the individual steps that will be executed within the stage.
 
 ### 1. 🚀 Open your Jenkins Dashboard.
 ![1](https://github.com/user-attachments/assets/59bb5e6e-68e1-4d41-8147-cd7acceeb2d8)
