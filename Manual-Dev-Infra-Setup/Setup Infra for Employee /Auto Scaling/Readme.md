@@ -47,19 +47,20 @@
 1. Go to the [Amazon EC2 console](https://console.aws.amazon.com/ec2/).
    !
 
-2. Select the **OTMS-Dev-ScyllaDB-Salary-Ec2** instance, and choose `Actions --> Image and templates --> Create image`.
+2. Select the **OTMS-Dev-Ec2-Employee** instance, and choose `Actions --> Image and templates --> Create image`.
+![Screenshot from 2024-10-09 10-56-54](https://github.com/user-attachments/assets/4220d502-bcef-42a9-a0f7-f0b07c1cc431)
 
    
 4. Name your AMI and add a description.
- 
+ ![Screenshot from 2024-10-09 10-58-14](https://github.com/user-attachments/assets/3c11344a-2d41-4b36-bc27-89408776bfa5)
+
 
 
 6. Click **Create image**.
 
-
-
  5.The AMI will appear under the **AMIs** section after creation.
    
+![Screenshot from 2024-10-09 11-05-51](https://github.com/user-attachments/assets/8658d92c-c5ec-41c9-8db4-c4cd9e79c7c9)
 
 
 ---
@@ -67,7 +68,8 @@
 ### Step 2: Create a Launch Template
 
 1. In the EC2 console, go to **Launch Templates** and click **Create launch template**.
-   
+   ![Uploading Screenshot from 2024-10-09 11-06-25.png…]()
+
 
 
 2. Give the template a name and description.
