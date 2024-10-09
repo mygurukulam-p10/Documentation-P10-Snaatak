@@ -112,8 +112,13 @@ ansible-galaxy init <RoleName>
 
 ![image](https://github.com/user-attachments/assets/bf47c565-16b8-41f9-863a-f4e3e25ce2f6)
 
+**Step 7: Defaults**
+**Step 8: files**
+**Step 9: handlers**
+- handlers/main.yaml: In this file we define our handlers.
+**Step 10: meta**
 
-**Step 7: Tasks**
+**Step 11: Tasks**
 1. `main.yml`: This main.yml file is acting as an orchestrator, importing tasks from the file. This separation of tasks into different files is a good practice for better organization, especially when dealing with complex configurations or roles.
 
 ```
@@ -182,6 +187,9 @@ postgresql_service_name:
     state: started
     enabled: true
 ```
+**Step 11: templates**
+**Step 12: tests**
+**Step 13: vars**
 
 4.handlers/main.yaml: In this file we define our handlers.
 
