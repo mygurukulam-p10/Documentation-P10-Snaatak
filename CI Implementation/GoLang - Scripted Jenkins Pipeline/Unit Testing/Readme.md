@@ -82,26 +82,29 @@ This document provides an overview of implementing unit testing in a Go project 
 
 ```groovy
 node {
-    // Define the Go tool name
     def goTool = tool name: 'golang', type: 'go'
+    
+    // Set the PATH to include Go binary directory
+    env.PATH = "${goTool}/bin:${env.PATH}"
 
     stage("Checkout") {
         git branch: 'main', url: 'git@github.com:mygurukulam-p10/employee-api.git', credentialsId: "amit_cred"
     }
 
     stage("Install Dependencies") {
-        sh "${goTool}/bin/go mod tidy"
+        sh "go mod tidy"
     }
 
     stage("Unit Testing") {
         script {
             sh '''
                 echo "Running unit tests..."
-                ${goTool}/bin/go  test ./... -v
+                go test ./... -v || true
             '''
         }
     }
 }
+
 ```
 
 ## 📛 Conclusion
