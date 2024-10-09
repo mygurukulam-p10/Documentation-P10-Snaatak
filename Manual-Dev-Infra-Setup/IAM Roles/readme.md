@@ -6,7 +6,7 @@
 |Aayush Gaur| 08-10-2024 | Aayush Gaur | 08-10-2024|
 ***
 ## Table of Contents
-+ [Introduction to C](#Introduction-to-iam-role)
++ [Introduction to IAM Role](#Introduction-to-iam-role)
 +  [Why IAM Role](#Why-iam-role)
 + [Features of to IAM Role](#Features-of-iam-role)
 + [Types of IAM Role in aws](#TypesofIAMRoleinaws)
