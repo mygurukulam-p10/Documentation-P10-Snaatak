@@ -4,7 +4,7 @@
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-| Vinay Bansal | 01-10-24 | version 1 | Vinay Bansal | 02-10-24 |
+| Vinay Bansal | 01-10-24 | version 1 | Vinay Bansal | 09-10-24 |
 
 ## 🔍 Purpose
 We are preparing this document so that we can easily provide a completed guide to Perform DAST on application which is designed in Python to manage attendance-api information.
@@ -100,8 +100,7 @@ cd ZAP_2.15.0
 ```
 
 ### Step 5. Run ZAP
-* Now, to run our zap for analysis process.  Now running zap.sh via -cmd or in daemon mode as it run the zap in Cli mode as shown below
-
+* Now, to run our zap for analysis process. 
 ```
 <path to zap.sh> -port <port_no> -cmd -quickurl <url of website>
 ```
