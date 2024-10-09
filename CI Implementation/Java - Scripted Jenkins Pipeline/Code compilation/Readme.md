@@ -60,6 +60,8 @@ Provide a description for the pipeline that performs code-compilation.
 ![image](https://github.com/user-attachments/assets/1473d05e-c051-4665-840a-223702287f09)
 
 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for credential scanning in the pipeline script for SCM ...> add repo link & credintial, file path.
+![image](https://github.com/user-attachments/assets/7fb98be3-a6d6-4839-9c2c-02132d4d1b72)
+
 
 
 Explanation of the Stages:
@@ -76,9 +78,15 @@ In the "Pipeline" section, configure the SCM settings with your Git repository U
 
 **5. 🚀 Run the Build**
 Click Build Now to start the pipeline. You can monitor the build status and review the output in the Console.
+![image](https://github.com/user-attachments/assets/bf14cdfd-8089-47bf-88af-4cb07f1219b1)
+
 
 **6. 🚀 Console Output**
 After the build is complete, check the console output for logs and any issues encountered during the pipeline execution.
+![image](https://github.com/user-attachments/assets/1fad35a7-a1ba-4515-a111-ce06c68ec9a6)
+
+![image](https://github.com/user-attachments/assets/c154bece-cb2b-4ec9-b782-7151f6bcc926)
+
 
 ***📛 Conclusion***
 By following this guide, you've successfully created a Scripted Jenkins Pipeline for Java code compilation. Regular builds and testing using Maven ensures continuous integration, allowing early detection of issues. Integrate this scripted pipeline into your CI/CD workflow for optimal performance.
