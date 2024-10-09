@@ -116,17 +116,17 @@
 4. Choose your **VPC** and subnets for availability zones.
 
 ![Screenshot from 2024-10-09 11-19-18](https://github.com/user-attachments/assets/93db40ef-21f5-43e7-bcfe-b6ca25ceaa7b)
-![Screenshot from 2024-10-09 11-19-25](https://github.com/user-attachments/assets/198a15ba-8b73-414b-b24c-25190d610923)
 
+![Screenshot from 2024-10-09 16-55-04](https://github.com/user-attachments/assets/0b0f857c-6e9d-4862-891c-b6029252b895)
 
 5. Optionally, link your Auto Scaling group to a **Load Balancer**.
 
+![Screenshot from 2024-10-09 18-15-02](https://github.com/user-attachments/assets/786bb7bf-25d2-4ba2-adf1-59a72f71bf8d)
 
 6. Define the group size, scaling policies, and desired instance count.
+![Screenshot from 2024-10-09 18-15-29](https://github.com/user-attachments/assets/3c453a0a-01f0-402e-84b9-60305f8f59c7)
 
-7. Optionally, set up notifications and tags.
-
-8. Review and create your Auto Scaling group.
+7. Review and create your Auto Scaling group.
 
 
 ---
