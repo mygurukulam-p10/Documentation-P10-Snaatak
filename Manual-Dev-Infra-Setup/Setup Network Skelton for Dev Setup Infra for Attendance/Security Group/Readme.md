@@ -87,7 +87,7 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 | Security Group Name | Port  | Source          |
 |---------------------|-------|-----------------|
 | Attendance-Non-Prod-Dev-SG  | 22    | 20.0.0.0/28           |
-| Attendance-Non-Prod-Dev-SG  | 8080  | Frontend-lb-sg        |
+| Attendance-Non-Prod-Dev-SG  | 8080  | End Point        |
 |Attendance-Non-Prod-Dev-SG   |5432| Redis|
 |Attendance-Non-Prod-Dev-SG   |6379|Postgres|
 
