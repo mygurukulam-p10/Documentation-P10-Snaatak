@@ -52,12 +52,12 @@ This document outlines the process for setting up **Trivy** to perform license s
 ![3](https://github.com/user-attachments/assets/b4ed058b-d2d8-4bab-90ad-8da333f6ec66)
 
 
-### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for License scanning in the pipeline configuration...>Click on Save to store the configuration.
-![4](https://github.com/user-attachments/assets/566b81c8-3884-425e-94f1-1e0f08916596)
+### 4. Create the repo for add jenkinfile which will be using in pipeline script for SCM.
+![image](https://github.com/user-attachments/assets/5932baee-8d4a-408a-ad12-01de2c3de8df)
 
 
-### 5. 🚀 Then Click on build to run the pipeline to perform
-<img width="952" alt="build" src="https://github.com/user-attachments/assets/c82d9cba-0169-4495-8193-2cadac88f833">
+### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for License scanning in the pipeline script for SCM ...> add repo link & credintial, file path.
+![image](https://github.com/user-attachments/assets/19f80128-a236-4b3b-b55a-20f76c7ef643)
 
 
 ### 6.🚀 Now we are able to see build complete-
@@ -69,6 +69,7 @@ This document outlines the process for setting up **Trivy** to perform license s
 ![8](https://github.com/user-attachments/assets/893d45c0-aa1e-4a82-aa84-1b340d4d2da7)
 
 ### 8. 🚀 Once the report is generated, you will be able to see the JSON report.
+![image](https://github.com/user-attachments/assets/5380a416-e52b-4455-939f-34f360231023)
 
 
 ### 9.🚀 Review the stages of the build process in the console output.
