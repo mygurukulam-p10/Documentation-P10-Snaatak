@@ -119,6 +119,6 @@ This pipeline will check out your source code, build the project using Maven, an
 
 | Topic                   | Reference Link                       |
 |-------------------------|-------------------------------------|
-| Jenkins Pipeline             | [Jenkins Pipeline Documentation]([https://golang.org/pkg/testing/](https://www.jenkins.io/doc/book/pipeline/)) |
+| Jenkins Pipeline             | [Jenkins Pipeline Documentation](https://www.jenkins.io/doc/book/pipeline/)) |
 
 
