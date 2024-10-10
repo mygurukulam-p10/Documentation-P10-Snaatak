@@ -30,7 +30,6 @@ This document provides an overview of implementing unit testing in a Go project 
 | **✔️ Java 17**               | Required for compiling Jenkins and Spring Boot projects            |
 | **✔️ Git**              | Git must be installed on the Jenkins server for repository checkout.        |
 | **✔️ Git Credentials**  | Add your GitHub credentials (e.g., `git-token`) in Jenkins for repository access. |
-| **✔️ Testing Framework**| Ensure you have a testing framework (like `testing` and `testify`) available for Go. |
 |**✔️ Maven(3.6.9)**|Handles build automation and dependency management|
 |**✔️ Junit (4.12)**|Facilitates Unit testing|
 
