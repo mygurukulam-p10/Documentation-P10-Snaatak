@@ -40,7 +40,7 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 | Security Group Name | Port  | Description                |
 |---------------------|-------|-----------------------|
 | Attendance-Non-Prod-Dev-SG  | 22    | To securely connect to a remote device  |
-| Attendance-Non-Prod-Dev-SG  | 8080  | Frontend-lb-sg|
+| Attendance-Non-Prod-Dev-SG  | 8080  | enf point|
 |Attendance-Non-Prod-Dev-SG   |6379| used by the Redis Database Server|
 |Attendance-Non-Prod-Dev-SG   |5432|used by the PostgreSQL Database Server|
 
