@@ -76,6 +76,10 @@ This document serves as a guide to manually setting up **Redis on AWS**. It prov
    - Allocate sufficient **storage** as per your needs, and tag the instance for easy identification.
    ![image](https://github.com/user-attachments/assets/798885f6-6162-47a9-8030-f1718cea8ebb)
 
+4. **Launch and See the Instance**
+   - Click on Launch Instance and it will launch your Instance you can see that on Dashboard.
+   ![image](https://github.com/user-attachments/assets/eb32c74c-1f44-4aaf-92ff-923c02818f89)
+
 ---
 
 ## 🔐 Configuring Security Groups for Redis
