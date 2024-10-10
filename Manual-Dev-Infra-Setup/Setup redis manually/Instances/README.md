@@ -1,4 +1,4 @@
-# 🌐 Setup Redis Manually on AWS - Documentation
+# 🌐 Setup Redis Instance Manually on AWS - Documentation
 
 | Author      | Created on | Version   | Last updated by | Last edited on | Reviewed By L0 | Reviewed By L1 | Reviewed By L2 |
 |-------------|------------|-----------|-----------------|----------------|----------------|----------------|----------------| 
