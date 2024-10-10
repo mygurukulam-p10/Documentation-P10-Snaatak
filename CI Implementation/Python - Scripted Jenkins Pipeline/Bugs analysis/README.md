@@ -80,13 +80,12 @@ This section outlines the steps to configure a Jenkins job for bug analysis usin
 ![image](https://github.com/user-attachments/assets/f608d85f-a33a-4829-83f3-a33200191f94)
 
 #### Report
-```
+
 ![image](https://github.com/user-attachments/assets/809da3de-434d-42d8-8e44-7212c2b3e573)
 ![image](https://github.com/user-attachments/assets/7b5977d5-a1e8-4bfb-a3cd-95a40a87058d)
 ![image](https://github.com/user-attachments/assets/ef86cdaa-aec7-4a5c-83c9-d1babb1c6c10)
 ![image](https://github.com/user-attachments/assets/280010f6-a128-4613-99ac-c9c24b2b59c1)
 
-```
 
 
 ---
