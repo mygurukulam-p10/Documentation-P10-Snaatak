@@ -82,12 +82,16 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 
 1. Click the **Inbound Rules** tab....> Click Edit Inbound Rules and add rules based on your requirements:
 
-| Security Group Name | Port  | Description                |
-|---------------------|-------|-----------------------|
-| Attendance-Non-Prod-Dev-SG  | 22    | To securely connect to a remote device  |
-| Attendance-Non-Prod-Dev-SG  | 8080  | End point|
-|Attendance-Non-Prod-Dev-SG   |6379| used by the Redis Database Server|
-|Attendance-Non-Prod-Dev-SG   |5432|used by the PostgreSQL Database Server|
+Below is the list of security groups used for the Attendance-Non-Prod-Dev environment, along with their associated ports and descriptions.
+
+| Security Group Name             | Port  | Description                              | Destination               |
+|----------------------------------|-------|------------------------------------------|---------------------------|
+| Attendance-Non-Prod-Dev-SG       | 22    | To securely connect to a remote device   | Remote SSH Clients         |
+| Attendance-Non-Prod-Dev-SG       | 8080  | End point                               | Web Servers/Services       |
+| Attendance-Non-Prod-Dev-SG       | 6379  | Used by the Redis Database Server        | Redis Clients/Applications |
+| Attendance-Non-Prod-Dev-SG       | 5432  | Used by the PostgreSQL Database Server   | PostgreSQL Clients         |
+
+
 
 
 ### Step 6: Define Outbound Rules
