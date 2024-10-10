@@ -153,11 +153,36 @@ C.Search for GitHub Authentication Plugin under the "Available" tab.
 D. Install the plugin and restart Jenkins if required.
 ![image](https://github.com/user-attachments/assets/1276a311-215e-4fa8-b743-f428e7fadb77)
 
+3. Configure GitHub OAuth in Jenkins:
 
-Save and Test the Integration:
+A.Go to Manage Jenkins > Configure Global Security.
+
+![image](https://github.com/user-attachments/assets/3e65dab8-b26a-4df5-9752-bc39f3eb274b)
+
+B.Under Security Realm, select GitHub Authentication.
+
+![image](https://github.com/user-attachments/assets/4409e104-300f-45c4-bf08-d96a969a8883)
+
+C.Enter the Client ID and Client Secret that you obtained from GitHub when creating the OAuth App.
+
+![image](https://github.com/user-attachments/assets/d2b668eb-8a54-41d6-a7d0-e9a235135b1e)
+
+
+D.For GitHub Web URI, set https://github.com and For GitHub API URI, set https://api.github.com.
+
+
+![image](https://github.com/user-attachments/assets/2b412fdd-801c-49d7-b85c-543a8cd6070b)
+
+
+
+**Save and Test the Integration:**
+
 Save the settings and go to the Jenkins login page.
+
 You should see the option to Login with GitHub.
+
 Click on the button, and you will be redirected to GitHub to authorize Jenkins.
+
 After granting access, you will be logged into Jenkins using your GitHub credentials.
 
 ![image](https://github.com/user-attachments/assets/6f114c5d-2dbb-4a75-abb6-d954c1a6f0aa)
