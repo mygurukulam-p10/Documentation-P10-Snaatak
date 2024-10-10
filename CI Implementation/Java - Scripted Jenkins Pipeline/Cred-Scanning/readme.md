@@ -1,4 +1,5 @@
 
+![image](https://github.com/user-attachments/assets/81fb5b81-9d2b-47d0-976e-c624f33ad38c)
 
 # 🐞 Scripted Pipeline: Credential Scanning
 
