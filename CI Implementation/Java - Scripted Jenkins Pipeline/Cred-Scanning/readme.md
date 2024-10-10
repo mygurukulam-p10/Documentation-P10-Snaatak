@@ -1,3 +1,4 @@
+![Uploading 23W11-blog-HowToHandleSecretsWithJenkins.png…]()
 
 
 
