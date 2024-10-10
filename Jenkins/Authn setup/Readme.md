@@ -141,6 +141,15 @@ Once you have installed the GitHub authentication plugin, you need to set up an 
 ![image](https://github.com/user-attachments/assets/36d7b245-bd3a-4293-b1f2-df48e75d49d1)
 
 
+Save and Test the Integration:
+Save the settings and go to the Jenkins login page.
+You should see the option to Login with GitHub.
+Click on the button, and you will be redirected to GitHub to authorize Jenkins.
+After granting access, you will be logged into Jenkins using your GitHub credentials.
+
+![image](https://github.com/user-attachments/assets/6f114c5d-2dbb-4a75-abb6-d954c1a6f0aa)
+
+
 ---
 
 ## 📌 Conclusion
