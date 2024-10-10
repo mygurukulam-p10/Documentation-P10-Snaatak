@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/5b7f3b57-8600-476b-abd7-612566449a47)
+
+
 # Dependency Scanning - Scripted Jenkins Pipeline
 
 ---  
@@ -55,6 +58,7 @@ This README provides a comprehensive guide to setting up dependency scanning wit
 ### 6. 🖥️ Click on **Build** to initiate the pipeline.
 
 ### 7. 🖥️ Observe as the build completes.
+![image](https://github.com/user-attachments/assets/c8a5f6ac-5bac-40b3-8112-647cd2b212d9)
 
 ### 8. 🖥️ Review the **Console Output** for build details.
 ![image](https://github.com/user-attachments/assets/c0e18b7c-fb74-40df-8497-b820279f70a6)
