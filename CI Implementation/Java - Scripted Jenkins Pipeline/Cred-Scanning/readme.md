@@ -1,5 +1,5 @@
 
-![image](https://github.com/user-attachments/assets/81fb5b81-9d2b-47d0-976e-c624f33ad38c)
+
 
 # 🐞 Scripted Pipeline: Credential Scanning
 
@@ -22,7 +22,7 @@
 ---
 
 ## 📖 Introduction
-Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using the **Groovy** scripting language. This approach offers flexibility and customization for defining complex workflows. It provides an imperative, programmatic approach where scripts are executed sequentially, with direct access to Jenkins APIs for advanced automation.
+Scripted Pipelines in Jenkins let you create CI/CD pipelines using Groovy. This method offers flexibility for complex workflows, allowing you to write scripts that run step-by-step with full access to Jenkins APIs for advanced automation.
 
 ### 🔐 Credential Scanning Tool Used: GitLeaks
 [GitLeaks](https://github.com/gitleaks/gitleaks) is a powerful open-source tool designed to scan Git repositories for sensitive information such as credentials, API keys, and passwords. It ensures that confidential data is not accidentally leaked in version-controlled codebases.
@@ -58,7 +58,7 @@ Scripted Pipeline in Jenkins allows users to define CI/CD pipelines using the **
 ---
 
 ## 🔧 Setup of Credential Scanning
-Follow this [document](#) for the complete setup.
+
 
 *Insert relevant screenshots or additional details here.*
 
@@ -96,8 +96,7 @@ node {
 
 
 🔚 Conclusion
-Scripted Pipeline is a powerful and flexible way to define Jenkins pipelines using Groovy scripting language. It is suitable for environments that require fine-grained control, advanced automation, and integration capabilities. However, it may involve a steeper learning curve and more complexity in debugging compared to Declarative Pipelines.
-
+Scripted Pipelines in Jenkins allow you to define pipelines using Groovy code, giving you more control over each step. It's ideal for cases where you need detailed customization and advanced automation features. However, since you're writing code, it can be more challenging to learn, troubleshoot, and maintain compared to Declarative Pipelines, which are easier to set up but less flexible.
 
 ## 📧 Contact Information
 
