@@ -40,10 +40,10 @@ This README provides a comprehensive guide to setting up Dynamic Application Sec
 
 ### 2. 🖥️ Click **New Item** → Enter a job name, such as `OWASP-ZAP-DAST-Pipeline`.
 ![image](https://github.com/user-attachments/assets/8e37a852-ab27-408a-99fc-3782c0171273)
-![image](https://github.com/user-attachments/assets/440c1f2e-dba3-4c55-a26e-42bef0864da9)
+![image](https://github.com/user-attachments/assets/5666213b-8935-406f-8843-bb390ec4ed94)
 
 ### 3. 🖥️ Provide a detailed description of the pipeline's purpose and tasks.
-![image](https://github.com/user-attachments/assets/48247d1c-75cc-4e6d-b6f2-925da04615bc)
+![image](https://github.com/user-attachments/assets/f758e119-0c51-4f2d-90d6-6c21321d2195)
 
 ### 4. 🖥️ Create a repository to add the `Jenkinsfile` that will contain the pipeline script.
 ![image](https://github.com/user-attachments/assets/636e7e85-40bb-40ae-90a3-035b1030d951)
