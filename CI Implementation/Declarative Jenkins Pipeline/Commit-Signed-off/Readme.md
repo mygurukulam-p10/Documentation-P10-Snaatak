@@ -9,7 +9,7 @@
 ## Table of Contents
 1. [💥 Introduction](#-introduction)
 2. [⚙️ Pre-requisites](#-pre-requisites)
-3. [💥 Steps to Configuration Declarative pipelines for cred scanning](#-steps-to-conguration-declarative-pipelines-for-cred-scanning)
+3. [💥 Steps to Configuration Declarative pipelines for Commit Signed Off](#-steps-to-conguration-declarative-pipelines-for-commit-signed-off)
 4. [📛 Conclusion](#-conclusion)
 5. [📧 Contact Information](#-contact-information)
 6. [📚 References](#-references)
@@ -33,7 +33,7 @@ it maintains accountability in the development workflow. This pipeline enhances 
 
 ---
 
-## 💥 Steps to Configuration Declarative pipelines for cred scanning
+## 💥 Steps to Configuration Declarative pipelines for Commit Signed Off
 
 ### 1. 🚀 Open your Jenkins Dashboard.
 <img width="951" alt="Screenshot 2024-10-03 171617" src="https://github.com/user-attachments/assets/e6448943-be68-4a6f-91d1-76e29d206a2f">
@@ -75,8 +75,8 @@ it maintains accountability in the development workflow. This pipeline enhances 
 ---
 
 ## 📛 Conclusion
-This Jenkins pipeline streamlines the process of ensuring that all commits are properly signed off, enhancing code quality and compliance. By automating the verification and amendment of commit messages,
-it fosters a more responsible and accountable development workflow.
+This Jenkins pipeline streamlines the process of ensuring that all commits are properly signed off, enhancing code quality and compliance. 
+By automating the verification and amendment of commit messages,it fosters a more responsible and accountable development workflow.
 
 ---
 
