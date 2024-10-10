@@ -11,7 +11,7 @@
 1. [🔍 Overview](#-overview)
 2. [⚡ Requirements](#-requirements)
 3. [🛠️ Configuring Dependency Scanning](#-configuring-dependency-scanning)
-4. [📌 Summary](#-summary)
+4. [📌 Conclusion](#-conclusion)
 5. [📞 Contact Information](#-contact-information)
 6. [📖 References](#-references)
 
@@ -37,13 +37,18 @@ This README provides a comprehensive guide to setting up dependency scanning wit
 
 ## 🛠️ Configuring Dependency Scanning
 
-### 1. 🖥️ Open your Jenkins Dashboard.
+### 1. 🖥️ Go to your Jenkins Dashboard.
+![image](https://github.com/user-attachments/assets/f8013644-3ae2-4f6f-9c2d-c67f94650f62)
 
-### 2. 🖥️ Click **New Item** → Enter a job name, such as `Dependency Scanning`.
+### 2. 🖥️ Click **New Item** → Enter a job name, such as `Python-Dependency-Scanning-Scripted-pipeline`.
+![image](https://github.com/user-attachments/assets/66dc78e0-2460-4330-8758-ca2a70d04c6b)
 
 ### 3. 🖥️ Provide a detailed description of the pipeline's purpose and tasks.
+![image](https://github.com/user-attachments/assets/619bbc9f-4e8f-4a88-bbfb-ddd01c874a3b)
 
 ### 4. 🖥️ Create a repository to add the `Jenkinsfile` that will contain the pipeline script.
+![image](https://github.com/user-attachments/assets/aacaef0c-8e59-4451-a7a7-41719a83ed58)
+![image](https://github.com/user-attachments/assets/b2f2b1f5-5498-4737-90f1-b2f43fdd691a)
 
 ### 5. 🖥️ Choose Pipeline as the job type → Add your pipeline script for dependency scanning under the Pipeline section → Provide the repository link, credentials, and file path.
 
@@ -58,7 +63,7 @@ This README provides a comprehensive guide to setting up dependency scanning wit
 ---
 
 ## 📌 Conclusion
-Incorporating dependency scanning into a Jenkins scripted pipeline enhances the security of third-party libraries used in a project. This proactive step allows early identification of vulnerabilities, contributing to robust and reliable software development practices, especially for the Attendance API microservice.
+When we are using dependency scanning into a Jenkins scripted pipeline it enhances the security of third-party libraries used in our project. This step allows early identification of vulnerabilities, contributing to robust and reliable software development practices, especially for the Attendance API microservice as we are using that.
 
 ## 📞 Contact Information
 For questions, feedback, or further assistance, reach out to:
