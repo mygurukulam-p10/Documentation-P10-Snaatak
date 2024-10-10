@@ -43,8 +43,6 @@ Scripted Pipelines in Jenkins let you create CI/CD pipelines using Groovy. This 
 
 ---
 
-## 📝 Flow Diagram
-*Insert a flow diagram showing the steps of the Scripted Pipeline for credential scanning.*
 
 ---
 
