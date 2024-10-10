@@ -102,6 +102,6 @@ Scripted Pipelines in Jenkins allow you to define pipelines using Groovy code, g
 ---
 
 📚 Resources and References
-📄 Description	🔗 Source
+
 Credential Scanning POC Steps	[Link](https://medium.com/@srianis/credential-scanning-tool-detect-secrets-installation-and-usage-4afeb2be50c4)
 
