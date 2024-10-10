@@ -48,7 +48,7 @@ This README provides a comprehensive guide to setting up code coverage analysis 
 ![image](https://github.com/user-attachments/assets/48247d1c-75cc-4e6d-b6f2-925da04615bc)
 
 ### 4. 🖥️ Create a repository to add the `Jenkinsfile` that will contain the pipeline script.
-
+![image](https://github.com/user-attachments/assets/636e7e85-40bb-40ae-90a3-035b1030d951)
 
 ### 5. 🖥️ Choose Pipeline as the job type → Add your pipeline script for code coverage under the Pipeline section → Provide the repository link, credentials, and file path.
 
