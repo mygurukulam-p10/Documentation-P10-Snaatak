@@ -71,11 +71,10 @@ This README provides a comprehensive guide to setting up dependency scanning wit
 ![image](https://github.com/user-attachments/assets/24d9ce3a-d70f-403f-a16d-a690c5079109)
 
 #### Report
-```
+
 ![image](https://github.com/user-attachments/assets/749c6574-d622-49f8-8c10-24b32d34a26e)
 ![image](https://github.com/user-attachments/assets/c1e767f3-4b34-4411-94f7-8ef7798ec450)
 ![image](https://github.com/user-attachments/assets/bf1b4b04-cd00-45f2-9f47-129eb5308c01)
-```
 
 ---
 
