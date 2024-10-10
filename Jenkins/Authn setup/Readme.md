@@ -183,10 +183,14 @@ You should see the option to Login with GitHub.
 
 Click on the button, and you will be redirected to GitHub to authorize Jenkins.
 
+![image](https://github.com/user-attachments/assets/9a103c97-4f1c-4c0b-b20d-06cb31b43355)
+
 After granting access, you will be logged into Jenkins using your GitHub credentials.
 
 ![image](https://github.com/user-attachments/assets/6f114c5d-2dbb-4a75-abb6-d954c1a6f0aa)
 
+
+![image](https://github.com/user-attachments/assets/c58f6f5d-d9c0-4a73-bbc0-4b8d4d40ea07)
 
 ---
 
