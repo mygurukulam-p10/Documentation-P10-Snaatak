@@ -59,40 +59,37 @@ Scripted Pipelines in Jenkins let you create CI/CD pipelines using Groovy. This 
 
 ## 🔧 Setup of Credential Scanning
 
+💥 Steps to Configuration Declarative pipelines for cred scanning
 
-*Insert relevant screenshots or additional details here.*
+1. 🚀 Open your Jenkins Dashboard.
 
----
+![image](https://github.com/user-attachments/assets/07f44dd1-f056-428a-87da-eaf75218abe9)
 
-## 📝 Jenkinsfile
+2. 🚀 Click on New Item.** ---> **Enter a name for your job (e.g., cred-scanning).
 
-```groovy
-node {
-  // Checkout SCM
-  stage('Checkout SCM') {
-      git branch: 'main', url: 'https://github.com/OT-MICROSERVICES/employee-api.git'
-  }
+![image](https://github.com/user-attachments/assets/23917a60-7ee6-47a1-ac3f-3088fa61e3aa)
 
-  // Download and Install Gitleaks
-  stage('Download and Install Gitleaks') {
-      sh 'wget https://github.com/gitleaks/gitleaks/releases/download/v8.18.2/gitleaks_8.18.2_linux_x64.tar.gz'
-      sh 'tar xvzf gitleaks_8.18.2_linux_x64.tar.gz'
-  }
+3. 🚀 Provide a description for the pipeline that performs credential scanning.
 
-  // Gitleaks Scan
-  stage('Gitleaks Scan') {
-       try {
-          sh './gitleaks detect -r credScanReport'
-      } catch (Exception e) {
-          echo "Gitleaks scan failed. Archiving report."
-          archiveArtifacts artifacts: 'credScanReport', allowEmptyArchive: true
-          error 'Gitleaks scan failed'
-      }
-  }
+![image](https://github.com/user-attachments/assets/35046bd5-5d40-4daf-9df9-70e287bfb3d0)
 
-  // Post-build actions
-  cleanWs()
-}
+4. Create the repo for add jenkinfile which will be using in pipeline script for SCM
+
+![image](https://github.com/user-attachments/assets/02401704-3722-48c5-8f02-c6388cf6aa36)
+
+![image](https://github.com/user-attachments/assets/40ec69e4-81fc-4069-b5d9-747a1c704b29)
+
+5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for credential scanning in the pipeline script for SCM ...> add repo link & credintial, file path.
+
+![image](https://github.com/user-attachments/assets/d3ed2a70-6782-4399-a006-f65170057721)
+ 
+![image](https://github.com/user-attachments/assets/d5ceb3aa-ad9a-4632-832d-a6f31cdff771)
+
+6. 🚀 Then Click on build to run the pipeline to perform
+ 
+
+
+
 
 
 🔚 Conclusion
