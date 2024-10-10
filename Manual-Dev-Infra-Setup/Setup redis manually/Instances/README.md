@@ -55,16 +55,26 @@ This document serves as a guide to manually setting up **Redis on AWS**. It prov
 
 1. **Launch an EC2 Instance**:
    - Open the **EC2 Dashboard** in the AWS Management Console.
+    ![image](https://github.com/user-attachments/assets/4180a262-b718-4b2f-acf6-4f9bee16a0e9)
+
    - Select **Instances** and click **Launch Instances**.
+    ![image](https://github.com/user-attachments/assets/129860bb-c4b3-46fd-ae48-68ee5bf2689a)
+
    - Choose the Amazon Machine Image (AMI) based on your requirements (e.g., Amazon Linux or Ubuntu).
+    ![image](https://github.com/user-attachments/assets/f9f780ec-b1b8-42ed-9816-4989f5caa271)
+  
    - Select an instance type suitable for Redis (e.g., t2.micro for testing, larger instances for production).
+    ![image](https://github.com/user-attachments/assets/521a0e4a-dee2-4b97-a748-a76a66e58ed5)
 
 2. **Instance Configuration**:
    - Configure **Network** and **Subnet** based on your VPC setup.
+    ![image](https://github.com/user-attachments/assets/e7f71b71-fc5b-4444-8f11-f5ac233b8e52)
+
    - Assign an **Elastic IP** (optional) if you need a static IP address.
 
 3. **Storage and Tags**:
    - Allocate sufficient **storage** as per your needs, and tag the instance for easy identification.
+   ![image](https://github.com/user-attachments/assets/798885f6-6162-47a9-8030-f1718cea8ebb)
 
 ---
 
