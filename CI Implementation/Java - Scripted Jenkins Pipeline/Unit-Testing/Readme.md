@@ -54,20 +54,26 @@ This document provides an overview of implementing unit testing in a Go project 
 
 ### 2. 🚀 Click on **New Item**. 
 **-->** Enter a name for your job (e.g., `Unit Testing`).
-![Screenshot from 2024-10-05 16-38-53](https://github.com/user-attachments/assets/1c1e543d-fe5d-40db-ac7e-b1efabf71c3b)
+
+![image](https://github.com/user-attachments/assets/e388d316-a672-44cf-821e-7fed3f91bfd5)
+
 
 ### 3. 🚀 Provide a description for the pipeline detailing what it will perform.
-![Screenshot from 2024-10-05 16-51-50](https://github.com/user-attachments/assets/7b04590f-5f0a-4886-8d46-62cfc2c2473a)
+![image](https://github.com/user-attachments/assets/d2f8884e-de9a-4056-a54d-801718257f82)
+
 
 ### 4. 🚀 Choose **Pipeline** as the job type. 
 **-->** Add your pipeline script for unit testing in the pipeline configuration... 
 **-->** Click on **Save** to store the configuration.
-![Screenshot from 2024-10-09 19-29-36](https://github.com/user-attachments/assets/798e66bc-7ab3-43ea-9eb4-562af49b46c2)
+![image](https://github.com/user-attachments/assets/e0c0d9d0-f0d1-4986-af37-e1f990d4e7ce)
 
-![Screenshot from 2024-10-09 19-43-33](https://github.com/user-attachments/assets/606a7046-1757-432a-b354-0159cfbe526a)
+
+![image](https://github.com/user-attachments/assets/659fea5d-e591-4caa-9393-0d7f08e56385)
+
 
 ### 5. 🚀 Click on **Build** to run the pipeline for unit testing.
-![Screenshot from 2024-10-05 16-39-44](https://github.com/user-attachments/assets/f858f2c1-ad1d-4cae-931f-64341b956a87)
+![image](https://github.com/user-attachments/assets/29acad30-12a6-4a9a-858e-11c70e5f089e)
+
 
 ### 6. 🚀 Now, you should be able to see the build complete.
 ![Screenshot from 2024-10-05 16-46-45](https://github.com/user-attachments/assets/56ead5a2-e956-4aba-8643-48c91018c420)
@@ -82,48 +88,37 @@ This document provides an overview of implementing unit testing in a Go project 
 
 # Jenskinfile
 
-```groovy
-node {
-    def goTool = tool name: 'golang', type: 'go'
-    
-    // Set the PATH to include Go binary directory
-    env.PATH = "${goTool}/bin:${env.PATH}"
-
-    stage("Checkout") {
-        git branch: 'main', url: 'git@github.com:mygurukulam-p10/employee-api.git', credentialsId: "amit_cred"
-    }
-
-    stage("Install Dependencies") {
-        sh "go mod tidy"
-    }
-
-    stage("Unit Testing") {
-        script {
-            sh '''
-                echo "Running unit tests..."
-                go test ./... -coverprofile=coverage.out || true
-            '''
-        }
-    }
-}
+```node {
+         // Define tools
+         def mvnHome = tool 'mvn'
+     
+         // Checkout stage
+         stage('Checkout') {
+             git branch: 'main', url: 'https://github.com/OT-MICROSERVICES/salary-api.git'
+         }
+     
+         // Test stage
+         stage('Test') {
+             echo "Executing Java Unit Testing"
+             sh "${mvnHome}/bin/mvn test"
+         }
+     }
 
 ```
 
 ## 📛 Conclusion
-The unit testing stage successfully executes the Go tests, helping to ensure that the code behaves as expected and identifying any issues before deployment. This integration within the Jenkins pipeline enhances the overall development workflow, ensuring quality and reliability in the codebase.
+This pipeline will check out your source code, build the project using Maven, and run JUnit tests.
 
 ## 📧 Contact Information
 
 | Name       | Email address                     |
 |------------|-----------------------------------|
-| Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
+| BrijSingh | brij.Singh.snaatak@mygurukulam.com |
 
 ## 📚 References
 
 | Topic                   | Reference Link                       |
 |-------------------------|-------------------------------------|
-| Go Testing              | [Go Testing Documentation](https://golang.org/pkg/testing/) |
-| Go Command              | [Go Command](https://golang.org/ref/go) |
-| Jenkins Pipeline        | [Jenkins Pipeline](https://www.jenkins.io/doc/book/pipeline/) |
-| Go Test                 | [Go Test Documentation](https://golang.org/pkg/testing/#hdr-Testable) |
+| Jenkins Pipeline             | [Jenkins Pipeline Documentation]([https://golang.org/pkg/testing/](https://www.jenkins.io/doc/book/pipeline/)) |
+
 
