@@ -46,7 +46,6 @@ BuildPiper is a developer and engineering teams’ centric, fully-featured, end-
 |||Infrastructure Costs: Expenses related to the cloud services or hardware required to run your pipelines.
 |||Resource Costs: Charges for using specific tools, plugins, or integrations available in the BuildPiper marketplace.
 |||Operational Costs: Costs incurred from managing and maintaining the CI/CD pipelines, such as team salaries or training.|
-|**10. Open Source**| Offers a marketplace|	A feature or platform where users can access, share, or integrate various tools, plugins, or services related to the software development and CI/CD|
 
 
 ## 📜 Conclusion
