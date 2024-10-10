@@ -1,4 +1,5 @@
-![Uploading 23W11-blog-HowToHandleSecretsWithJenkins.png…]()
+![23W11-blog-HowToHandleSecretsWithJenkins](https://github.com/user-attachments/assets/8d42c822-36f5-4cbe-973d-3ec87b66816a)
+
 
 
 
