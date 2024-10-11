@@ -97,5 +97,42 @@ To ensure effective authorization in Jenkins, follow these best practices:
 | **Backup Authorization Settings**| Backup configurations to quickly restore them if needed.       |
 
 ---
+## ⚠️ Common Configuration Mistakes
 
+Avoid these common mistakes when configuring authorization in Jenkins:
+
+1. **Overly Permissive Access**: Giving too much control to users.
+2. **Ignoring Least Privilege**: Assigning more permissions than necessary.
+3. **Failure to Audit**: Not tracking user actions regularly.
+
+---
+
+## 📦 Proof of Concept (POC) for Authorization
+
+Follow these steps to implement **Role-based Authorization** in Jenkins:
+
+1. **Install the Plugin**:  
+   - Go to **Manage Jenkins > Manage Plugins**.
+   - Search for "Role-based Authorization Strategy" and install it without a restart.
+
+   ![Install Plugin](https://github.com/avengers-p7/Documentation/assets/156644891/3660b040-948b-485e-b791-aa6aa3e8dd2e)
+
+2. **Configure Global Security**:  
+   - Go to **Manage Jenkins > Configure Global Security** and select **Role-Based Strategy**.
+
+   ![Configure Security](https://github.com/avengers-p7/Documentation/assets/156644891/4c881dcf-d5fe-4fb9-892f-658e9749a5b9)
+
+3. **Manage and Assign Roles**:
+   - Navigate to **Manage Jenkins > Manage and Assign Roles**.
+   - Define global and item roles, such as "Test_DEVs" for specific projects.
+
+   ![Manage Roles](https://github.com/avengers-p7/Documentation/assets/156644891/ec17afa1-3ee2-4882-aa61-308bf4983629)
+
+---
+
+## ✅ Conclusion
+
+The **Role-Based Authorization Strategy** provides a secure and scalable way to manage permissions in Jenkins. By assigning roles and following best practices, Jenkins administrators can control access effectively and ensure a compliant CI/CD environment.
+
+---
 ##
