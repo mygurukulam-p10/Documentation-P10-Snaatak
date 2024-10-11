@@ -68,8 +68,8 @@ An **AWS Virtual Private Cloud (VPC)** is a secure, isolated section of the AWS 
 
 ## 🛠 VPC Creation for DEV-Infra
 
-![image](https://github.com/user-attachments/assets/e5cbd626-0ec6-47cb-9e08-b099cfd5b824)
-![image](https://github.com/user-attachments/assets/07923886-1f52-43eb-9058-7e74ac6ab740)
+![image](https://github.com/user-attachments/assets/7bf61ec7-e1e0-4743-9799-08a16427b4fb)
+![image](https://github.com/user-attachments/assets/80809b21-8a65-4a74-8b51-33ce22c4ad29)
 
 
 ---
