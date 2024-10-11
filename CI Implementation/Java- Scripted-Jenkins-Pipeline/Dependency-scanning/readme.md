@@ -81,6 +81,6 @@ In conclusion, integrating OWASP Dependency-Check into your development process 
 ## 📚 References
 | Links | Descriptions|
 |---------------|---------------------|
-| https://owasp.org/ | OWASP Overview |
-| https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/Application%20CI%20Design/Java%20CI%20checks/Dependency%20scanning%20POC | (POC): Dependency scanning |
+|  OWASP Overview |[link](https://owasp.org/) ||
+| Dependency scanning |[link](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/Application%20CI%20Design/Java%20CI%20checks/Dependency%20scanning%20POC) |
 
