@@ -50,15 +50,19 @@ This README provides a comprehensive guide to setting up dependency scanning wit
 ![image](https://github.com/user-attachments/assets/619bbc9f-4e8f-4a88-bbfb-ddd01c874a3b)
 
 ### 4. 🖥️ Create a repository to add the `Jenkinsfile` that will contain the pipeline script.
-![image](https://github.com/user-attachments/assets/aacaef0c-8e59-4451-a7a7-41719a83ed58)
-![image](https://github.com/user-attachments/assets/b2f2b1f5-5498-4737-90f1-b2f43fdd691a)
+![image](https://github.com/user-attachments/assets/66958772-e1ff-402b-bb0d-d9ae7282622c)
+![image](https://github.com/user-attachments/assets/236301aa-7a67-4fb8-ae70-4d8d0acff2fe)
 
 ### 5. 🖥️ Choose Pipeline as the job type → Add your pipeline script for dependency scanning under the Pipeline section → Provide the repository link, credentials, and file path.
+![image](https://github.com/user-attachments/assets/ebb21928-5b36-4801-962d-c5fd961b9868)
+![image](https://github.com/user-attachments/assets/f9263c52-c63b-4f47-9601-f4c7e79e5492)
+
 
 ### 6. 🖥️ Click on **Build** to initiate the pipeline.
+![image](https://github.com/user-attachments/assets/3d2a6392-3a0b-4640-90b9-af9c6c349d09)
 
 ### 7. 🖥️ Observe as the build completes.
-![image](https://github.com/user-attachments/assets/c8a5f6ac-5bac-40b3-8112-647cd2b212d9)
+![image](https://github.com/user-attachments/assets/5dd5d4a9-f8e3-46aa-b5a8-f6d857b4b1a7)
 
 ### 8. 🖥️ Review the **Console Output** for build details.
 ![image](https://github.com/user-attachments/assets/c0e18b7c-fb74-40df-8497-b820279f70a6)
