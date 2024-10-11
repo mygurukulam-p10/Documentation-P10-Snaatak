@@ -48,27 +48,30 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 ![3](https://github.com/user-attachments/assets/c8d597f6-4654-4587-b99f-663ca3ec7764)
 
 ### 4. 🚀 Create the repo for add jenkinsfile which will be using in pipeline script for SCM
-![5](https://github.com/user-attachments/assets/52a69592-a185-485c-9700-0aabc193716a)
+![image](https://github.com/user-attachments/assets/ba76a525-7fd6-44eb-9904-c0ce2ac18b6f)
 
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for credential scanning in the pipeline script for SCM ...> add repo link & credintial, file path.
-![4](https://github.com/user-attachments/assets/8038c415-ffe1-40a2-b54a-cd9e9cd4042f)
+![image](https://github.com/user-attachments/assets/3868e87f-a93a-4586-908c-e662b18443a5)
+![image](https://github.com/user-attachments/assets/a7576d77-b40f-4c1d-8758-261dc96c7ef8)
+
 
 ### 6. 🚀 Then Click on build to run the pipeline to perform
 <img width="952" alt="build" src="https://github.com/user-attachments/assets/8e0b140e-3cb9-4b40-babd-75fb6963a653">
 
 ### 7.🚀 Now we are able to see build complete-
-![7](https://github.com/user-attachments/assets/1f4c672e-173c-4490-a953-7a8ff68ccb9a)
+![image](https://github.com/user-attachments/assets/49dd67c7-9d21-4d12-ac5f-c7529c30efef)
 
 ### 8.🚀 Click on Console Output to see the complete build.
-![8](https://github.com/user-attachments/assets/1ef0c681-1c75-420e-9b0a-d0db2ef09e2a)
-![8 1](https://github.com/user-attachments/assets/5a28307f-7c64-4444-aade-ef8dcab1902c)
+![image](https://github.com/user-attachments/assets/680a1f07-9f61-4c17-bc53-eb75f529bc75)
+
+![image](https://github.com/user-attachments/assets/023cfeab-90b0-43ce-a5e3-569857232eb3)
 
 
 
 
 ### 9.🚀 Review the stages of the build process in the console output.
-![9](https://github.com/user-attachments/assets/a5dabe92-d39f-4c8b-9d22-3063cbbddbd3)
+![image](https://github.com/user-attachments/assets/21cdfce3-4cb3-4544-99fa-cf88ee48ebd0)
 
 
 ## 📛 Conclusion
