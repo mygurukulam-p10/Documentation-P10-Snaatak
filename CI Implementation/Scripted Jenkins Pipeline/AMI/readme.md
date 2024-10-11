@@ -43,16 +43,21 @@ are built with the latest configurations and software. This guide will provide s
 ### 1. 🚀 Open your Jenkins Dashboard.
 
 ### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `AMI`).
+![2](https://github.com/user-attachments/assets/96480aec-8a30-41db-be80-c190a013ad01)
 
 ### 3. 🚀 Provide a description for the pipeline that performs AMI.
+![3](https://github.com/user-attachments/assets/64e8aba7-c051-467f-b8d9-48f8081e9f21)
 
 
 ### 4. Create the repo for add jenkinsfile which will be using in pipeline script for SCM
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for AMI in the pipeline script for SCM ...> add repo link & credintial, file path.
+![5](https://github.com/user-attachments/assets/46a83d2c-03c0-4004-afd1-68167106301b)
+![6](https://github.com/user-attachments/assets/0bcd6d03-d49d-4b5e-b8bd-c7bd7b2b1868)
 
 
 ### 6. 🚀 Then Click on build to run the pipeline to perform
+<img width="952" alt="build" src="https://github.com/user-attachments/assets/8e0b140e-3cb9-4b40-babd-75fb6963a653">
 
 ### 7.🚀 Now we are able to see build complete-
 
