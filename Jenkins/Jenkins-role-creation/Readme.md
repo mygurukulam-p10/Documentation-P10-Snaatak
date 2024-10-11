@@ -23,9 +23,10 @@ Ansible is an open-source automation tool for configuration management and appli
 Jenkins is a continuous integration and delivery tool for software development. 💻
 
 Pre-requisites 📝
-| ---------| ---------------------------------          |
-|Ansible 📦 |Install Ansible on the control machine. 💻 |
-|SSH Access 🔒 |Ensure SSH access to the target servers. 🔑 |
+Ansible 📦
+Install Ansible on the control machine. 💻
 
+SSH Access 🔒
+Ensure SSH access to the target servers. 🔑
 
 
