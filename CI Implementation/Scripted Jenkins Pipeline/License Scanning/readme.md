@@ -52,7 +52,7 @@ This document outlines the process for setting up **Trivy** to perform license s
 ![3](https://github.com/user-attachments/assets/b4ed058b-d2d8-4bab-90ad-8da333f6ec66)
 
 
-### 4. Create the repo for add jenkinfile which will be using in pipeline script for SCM.
+### 4. Create the repo for add jenkinsfile which will be using in pipeline script for SCM.
 ![image](https://github.com/user-attachments/assets/5932baee-8d4a-408a-ad12-01de2c3de8df)
 
 
