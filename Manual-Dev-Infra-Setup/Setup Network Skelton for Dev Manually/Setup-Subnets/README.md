@@ -62,6 +62,9 @@ In this section, we create a development environment infrastructure with two pub
 
 ### 🌐 Public Subnets (DEV-Infra)
 
+#### CIDR Calculation
+![image](https://github.com/user-attachments/assets/fec3aac6-a9aa-4bdd-8945-62f4977ecb22)
+
 1. **Public Subnet 1**  
    - **Purpose**: Used for internet-facing resources such as load balancers and NAT gateways.
    - **CIDR**: 10.0.1.0/27
