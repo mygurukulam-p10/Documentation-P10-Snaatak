@@ -2,7 +2,7 @@
 
 | Author      | Created on | Version   | Last updated by | Last edited on | Reviewed By L0 | Reviewed By L1 | Reviewed By L2 |
 |-------------|------------|-----------|-----------------|----------------|----------------|----------------|----------------| 
-| Komal       | 03-10-24   | Version 1 | Komal Jaiswal   | 07-10-24       |                |                |                |
+| Komal       | 03-10-24   | Version 1 | Komal Jaiswal   | 11-10-24       |                |                |                |
 
 ---
 
@@ -69,7 +69,42 @@ This document provides a guide for setting up and configuring **AWS Security Gro
    - Under the **EC2 Instances** page, select an instance, and click **Actions** > **Networking** > **Change Security Groups**.
    - Choose the newly created security group from the list and apply it to the instance.
 
-![image](https://github.com/user-attachments/assets/1372ece7-e765-4820-8954-badb7d9da96f)
+#### Open VPN
+![image](https://github.com/user-attachments/assets/d0f52d6c-5bd7-4474-b9c5-1fbc1e9066af)
+![image](https://github.com/user-attachments/assets/043ce987-40e7-4573-a46e-fbe65fbdd060)
+
+#### ALB - SG
+![image](https://github.com/user-attachments/assets/8fd53e57-e4de-4d2d-a480-8a5aa26003ae)
+![image](https://github.com/user-attachments/assets/763a0001-0f95-460b-8b54-dd821c9b6952)
+
+#### Frontend-SG
+![image](https://github.com/user-attachments/assets/6fa23dc4-1ab7-4440-a78b-0cc988b15845)
+![image](https://github.com/user-attachments/assets/1b4eaccb-8347-445b-9761-3c38aff0857d)
+
+#### Attendance- SG
+![image](https://github.com/user-attachments/assets/76f9b88a-77d9-4149-908c-410db4467eb7)
+![image](https://github.com/user-attachments/assets/f456153d-788f-4a31-8688-f8e3a00d1e65)
+
+
+#### Employee-SG
+![image](https://github.com/user-attachments/assets/8291919e-6ea8-4f20-85c9-7779b5a88751)
+![image](https://github.com/user-attachments/assets/d2b4cb3b-ab77-4bd7-aef2-d5b726ae3fc3)
+
+#### Salary-SG
+![image](https://github.com/user-attachments/assets/4c7bf117-27a7-46f7-8d88-bceb5907398e)
+![image](https://github.com/user-attachments/assets/2611e1ae-d53a-4341-806f-19678ca52e48)
+
+#### Redis-SG
+![image](https://github.com/user-attachments/assets/fe31d460-f87e-4ba2-b5ee-83c707b15cc4)
+![image](https://github.com/user-attachments/assets/971293cc-5ce8-4e07-8a10-8e4aa84628e3)
+
+#### Postgres-SG
+![image](https://github.com/user-attachments/assets/efee1411-8006-4960-9c8f-d1801ca89b3b)
+![image](https://github.com/user-attachments/assets/2d8c2556-a070-4e36-8433-c3c145864cf1)
+
+#### ScyllaDB-SG
+![image](https://github.com/user-attachments/assets/f90559b3-aab1-4c63-b88d-ecb272cda118)
+![image](https://github.com/user-attachments/assets/44dc019e-8c8e-4df2-a4ec-09cda69f5426)
 
 ---
 
