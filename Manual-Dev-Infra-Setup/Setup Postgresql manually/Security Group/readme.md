@@ -92,7 +92,7 @@ Outbound rules define the traffic allowed to leave the ScyllaDB instances.
 5. Port Range: 5432 (for Postgresql)
 6. Source: Specify the security group of the employee app and bastian host security group.
 7. Click on Save rules.
-![6](https://github.com/user-attachments/assets/58f23946-ca2c-4ee3-a3bc-a9bf570751db)
+![image](https://github.com/user-attachments/assets/f99f3235-bf33-408d-8f15-ebdc78e5801a)
 
 
 
