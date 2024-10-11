@@ -62,7 +62,7 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 ### 3. 🚀 Provide a description for the pipeline that performs code-compilation.
 ![3](https://github.com/user-attachments/assets/4cce2993-aeb1-469c-b97c-e3b644c3bf41)
 
-### 4. 🚀 Create the repo for add jenkinfile which will be using in pipeline script for SCM
+### 4. 🚀 Create the repo for add jenkinsfile which will be using in pipeline script for SCM
 ![4](https://github.com/user-attachments/assets/8eba668d-9025-42d3-8b82-fa9fa8785557)
 
 
