@@ -48,7 +48,7 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 ### 3. 🚀 Provide a description for the pipeline that performs Static Code Analysis.
 ![2](https://github.com/user-attachments/assets/de6eac31-cd05-4848-9bf1-ac63960402a4)
 
-### 4. 🚀 Create the repo for add jenkinfile which will be using in pipeline script for SCM
+### 4. 🚀 Create the repo for add jenkinsfile which will be using in pipeline script for SCM
 ![4](https://github.com/user-attachments/assets/49a6c368-0382-4da0-af4b-ad9d1822f13f)
 
 
