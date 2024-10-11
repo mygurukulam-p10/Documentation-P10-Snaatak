@@ -48,20 +48,26 @@ This README provides a comprehensive guide to setting up code coverage analysis 
 ![image](https://github.com/user-attachments/assets/48247d1c-75cc-4e6d-b6f2-925da04615bc)
 
 ### 4. 🖥️ Create a repository to add the `Jenkinsfile` that will contain the pipeline script.
-![image](https://github.com/user-attachments/assets/636e7e85-40bb-40ae-90a3-035b1030d951)
+![image](https://github.com/user-attachments/assets/65d46cf8-8dbe-44e8-95f0-ebfad5b49866)
+![image](https://github.com/user-attachments/assets/c84ff085-6af4-4b18-aaab-6cc6ab704910)
+
 
 ### 5. 🖥️ Choose Pipeline as the job type → Add your pipeline script for code coverage under the Pipeline section → Provide the repository link, credentials, and file path.
+![image](https://github.com/user-attachments/assets/54b89f13-05f0-4b73-9228-c29fab3f59b2)
+![image](https://github.com/user-attachments/assets/fa12e088-175e-4f3a-b659-e4487008fbdd)
+
 
 ### 6. 🖥️ Click on **Build** to initiate the pipeline.
+![image](https://github.com/user-attachments/assets/e983e2c7-4cc8-4c16-ae6d-5b7d56a7dd6b)
 
 ### 7. 🖥️ Observe as the build completes.
-![image](https://github.com/user-attachments/assets/64906f37-7281-4c33-b7a1-24b1e5c882ce)
+![image](https://github.com/user-attachments/assets/a3d65707-56ea-40fd-ae03-7255b6929993)
 
 ### 8. 🖥️ Review the **Console Output** for build details.
 ![image](https://github.com/user-attachments/assets/bce9013b-b3ab-4798-834f-5e42744e09cb)
 
 ### 9. 🖥️ Check each stage in the console output for successful completion.
-![image](https://github.com/user-attachments/assets/29c12bb5-95e2-404d-9a70-21fa942ec17a)
+![image](https://github.com/user-attachments/assets/2a081c4f-0f45-41be-b0b8-d4c00337f3bd)
 
 ### 10. 🖥️ Check the report of the coverage analysis.
 ![image](https://github.com/user-attachments/assets/e4db0490-d2c0-49a8-a7d8-ea2ef79e347b)
