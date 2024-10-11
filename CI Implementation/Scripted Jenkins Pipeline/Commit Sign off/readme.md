@@ -3,7 +3,7 @@
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-| Vinay Bansal| 10-10-2024  | Version 1  | Vinay Bansal    | 10-10-2024     |
+| Vinay Bansal| 11-10-2024  | Version 1  | Vinay Bansal    | 11-10-2024     |
 
 ---
 ## Table of Contents
@@ -36,6 +36,7 @@ it maintains accountability in the development workflow. This pipeline enhances 
 ## 💥 Steps to Configuration Scripted pipelines for Commit Signed Off
 
 ### 1. 🚀 Open your Jenkins Dashboard.
+
 
 ### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `Commit-Signed Off`).
 
