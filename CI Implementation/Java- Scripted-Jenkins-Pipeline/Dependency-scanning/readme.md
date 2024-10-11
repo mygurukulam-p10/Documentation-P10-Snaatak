@@ -53,25 +53,35 @@ This document outlines how to set up a Scripted Jenkins Pipeline  for Dependency
 
 
 ### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Dependency scanning in the pipeline configuration...>Click on Save to store the configuration.
-![4](https://github.com/user-attachments/assets/13a83b88-712a-4c81-8c4b-59e398c71120)
+![image](https://github.com/user-attachments/assets/3bbca678-5495-49b5-8937-5dcc5aca32ac)
+
+
 
 
 
 ### 5. 🚀 Then Click on build to run the pipeline to perform
-<img width="952" alt="build" src="https://github.com/user-attachments/assets/8e0b140e-3cb9-4b40-babd-75fb6963a653">
+![image](https://github.com/user-attachments/assets/dbd7caaf-b587-454d-878f-6a65c300dc18)
+
 
 ### 6.🚀 Now we are able to see build complete-
-![6](https://github.com/user-attachments/assets/0e85f208-00fb-498d-85e2-6bfeb11bfb3f)
+![image](https://github.com/user-attachments/assets/368e3144-740d-47d4-94f8-09df9bc63158)
+
+
 
 ### 7.🚀 Click on Console Output to see the complete build.
-![7](https://github.com/user-attachments/assets/3a399168-b736-442e-886d-fd4ad037d02a)
-![8](https://github.com/user-attachments/assets/0d6d929f-b14c-4335-8f39-96cb0ec040c2)
+![image](https://github.com/user-attachments/assets/2d644f62-4ace-44cb-8e1f-466c4bd18958)
 
 
+### 8.🚀 Click on Console Output to see the complete build.
+![image](https://github.com/user-attachments/assets/557263d6-6c1f-451c-9804-1c6cdc09e59a)
 
+![image](https://github.com/user-attachments/assets/e00fa847-dedc-45d2-9359-21d2d28a2b22)
+
+![image](https://github.com/user-attachments/assets/2deb4d93-bb4f-4c0c-9a37-5a561df60ea1)
 
 ### 9.🚀 Review the stages of the build process in the console output.
-![9](https://github.com/user-attachments/assets/ec8425b1-5e66-4dee-860c-f66f3e0d96a1)
+![image](https://github.com/user-attachments/assets/1d1af06c-1be5-4656-af99-c4e2a0d9c256)
+
 
 
 ## 📛 Conclusion
