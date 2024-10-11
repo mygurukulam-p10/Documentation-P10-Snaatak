@@ -48,8 +48,9 @@ This document provides a comprehensive guide to setting up unit testing using **
 ![image](https://github.com/user-attachments/assets/ed83a840-a0e3-4d1f-bd85-45b693854e12)
 
 ### 4. 🖥️ Create a repository to add the `Jenkinsfile` that will contain the pipeline script.
-![image](https://github.com/user-attachments/assets/2f76c7dc-dac1-49d1-9370-22444094e988)
-![image](https://github.com/user-attachments/assets/6de360dd-a3f6-4ce6-a83c-e4e7cec22e03)
+![image](https://github.com/user-attachments/assets/2020bd6d-32ec-4a63-aa09-6d44bd8405f5)
+![image](https://github.com/user-attachments/assets/43506432-7818-4166-95fb-8b8c52977ccd)
+
 
 ### 5. 🖥️ Choose Pipeline as the job type → Add your pipeline script for unit testing under the Pipeline section → Provide the repository link, credentials, and file path.
 
