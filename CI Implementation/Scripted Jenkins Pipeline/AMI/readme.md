@@ -1,4 +1,4 @@
-# AMI- Declarative Jenkins Pipeline  
+# AMI- Scripted Jenkins Pipeline  
 ---  
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
@@ -9,7 +9,7 @@
 ## Table of Contents
 1. [💥 Introduction](#-introduction)
 2. [⚙️ Pre-requisites](#-pre-requisites)
-3. [💥 Steps to Configuration Declarative pipelines for AMI](#-steps-to-conguration-declarative-pipelines-for-ami)
+3. [💥 Steps to Configuration Scripted pipelines for AMI](#-steps-to-conguration-scripted-pipelines-for-ami)
 4. [📛 Conclusion](#-conclusion)
 5. [📧 Contact Information](#-contact-information)
 6. [📚 References](#-references)
@@ -38,7 +38,7 @@ are built with the latest configurations and software. This guide will provide s
 
 ---
 
-## 💥 Steps to Configuration Declarative pipelines for AMI
+## 💥 Steps to Configuration Scripted pipelines for AMI
 
 ### 1. 🚀 Open your Jenkins Dashboard.
 
