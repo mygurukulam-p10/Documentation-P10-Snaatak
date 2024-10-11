@@ -3,7 +3,7 @@
 ---  
 | Author          | Created on | Version   | Last updated by | Last edited on | Reviewed By L0 | Reviewed By L1 | Reviewed By L2 |
 |-----------------|------------|-----------|-----------------|----------------|----------------|----------------|----------------| 
-| Komal Jaiswal   | 10-10-24   | Version 1 | Komal Jaiswal   | 10-10-24       |                |                |                |
+| Komal Jaiswal   | 10-10-24   | Version 1 | Komal Jaiswal   | 11-10-24       |                |                |                |
 
 ---
 
@@ -62,20 +62,28 @@ This section outlines the steps to configure a Jenkins job for static code analy
 
 4. **Source Control Setup:**  
    - Link the job to your source control repository that contains the Jenkinsfile for pipeline configuration.
+![image](https://github.com/user-attachments/assets/c38d6172-6f6c-4e45-8527-3395f56b878b)
+![image](https://github.com/user-attachments/assets/5c4e4753-01d8-458c-b193-c26ea13dee4e)
+
 
 
 5. **Choose Pipeline as the job type** → Add your pipeline script for static code analysis under the Pipeline section → Provide the repository link, credentials, and file path.
+![image](https://github.com/user-attachments/assets/796b803c-8155-4882-a2d7-8412f2cf498b)
+![image](https://github.com/user-attachments/assets/39571aff-688d-4d0c-b6b6-765657454b84)
+
 
 6. **Click on Build** to initiate the pipeline.
+![image](https://github.com/user-attachments/assets/3ea4c1fd-4b05-453a-8d73-5e9791b0640a)
+
 
 7. **Observe as the build completes.**
-![image](https://github.com/user-attachments/assets/85943629-5192-47d3-adf4-a7ea580a21d2)
+![image](https://github.com/user-attachments/assets/c6bb0b28-0bb1-462d-bf82-8e497231381a)
 
 8. **Review the Console Output** for build details.
 ![image](https://github.com/user-attachments/assets/f8dd442d-44b1-464e-91c7-edf8d9acc59f)
 
 9. **Check each stage in the console output for successful completion.**
-![image](https://github.com/user-attachments/assets/017c64fe-f990-4ef6-b99e-12d282d7579a)
+![image](https://github.com/user-attachments/assets/c05fccfd-d6fb-40e7-9b82-7820ac102c7b)
 
 10. **Check the pylint report generated during the scan.**
 ![image](https://github.com/user-attachments/assets/f97a532c-cbc3-40ce-893c-4e76df69bf84)
