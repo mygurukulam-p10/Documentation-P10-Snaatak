@@ -47,7 +47,7 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 ### 3. 🚀 Provide a description for the pipeline that performs Unit Testing.
 ![3](https://github.com/user-attachments/assets/c8d597f6-4654-4587-b99f-663ca3ec7764)
 
-### 4. 🚀 Create the repo for add jenkinfile which will be using in pipeline script for SCM
+### 4. 🚀 Create the repo for add jenkinsfile which will be using in pipeline script for SCM
 ![5](https://github.com/user-attachments/assets/52a69592-a185-485c-9700-0aabc193716a)
 
 
