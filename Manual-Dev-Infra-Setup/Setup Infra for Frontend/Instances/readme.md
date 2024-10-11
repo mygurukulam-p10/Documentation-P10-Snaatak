@@ -42,5 +42,9 @@ You can easily manage these instances—start them when needed, stop them when n
 | **Burstable Instances**   | Offers low-cost instances that can handle spikes in workload with higher performance when needed, ideal for apps with inconsistent traffic (e.g., t3).          |
 | **High Performance**      | High-end instances for demanding applications that need direct hardware access and large amounts of computing power (e.g., bare-metal instances).               |
 
+## Pre-requisites
+**AWS Acount**
+
+## Steps to Launch an Ec2 Instance
 
 
