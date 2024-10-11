@@ -60,17 +60,22 @@ This document outlines how to set up a Declarative Jenkins Pipeline for Dependen
 <img width="952" alt="build" src="https://github.com/user-attachments/assets/8e0b140e-3cb9-4b40-babd-75fb6963a653">
 
 ### 7.🚀 Now we are able to see build complete-
-![6](https://github.com/user-attachments/assets/0e85f208-00fb-498d-85e2-6bfeb11bfb3f)
+![image](https://github.com/user-attachments/assets/18a09ec2-6c68-432c-b167-8af86047577b)
+
+
 
 ### 8.🚀 Click on Console Output to see the complete build.
+![image](https://github.com/user-attachments/assets/b7403eab-f5c1-4e12-bb50-e8b1b4ef6d0c)
 ![image](https://github.com/user-attachments/assets/017b49c2-25f6-4e16-b664-49b374699200)
+![image](https://github.com/user-attachments/assets/ca7bf04f-8fac-4247-bd68-54990e8a8576)
+![image](https://github.com/user-attachments/assets/34ba7433-975b-462e-a86b-f69f60410e51)
 
 
 
 
 
 ### 9.🚀 Review the stages of the build process in the console output.
-![9](https://github.com/user-attachments/assets/ec8425b1-5e66-4dee-860c-f66f3e0d96a1)
+![image](https://github.com/user-attachments/assets/44ff86fa-a711-403f-b7e5-d00bdbf8604f)
 
 
 ## 📛 Conclusion
