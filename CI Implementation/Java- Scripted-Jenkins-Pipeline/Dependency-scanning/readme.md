@@ -39,13 +39,18 @@ This document outlines how to set up a Scripted Jenkins Pipeline  for Dependency
 ## 💥 Steps to Configuration Scripted Jenkins Pipeline for Dependency scanning
 
 ### 1. 🚀 Open your Jenkins Dashboard.
-![1](https://github.com/user-attachments/assets/59bb5e6e-68e1-4d41-8147-cd7acceeb2d8)
+
+![image](https://github.com/user-attachments/assets/ccfbe1a0-dce5-4df6-a265-7268b26d8c80)
+
 
 ### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `Dependency scanning`).
-![2](https://github.com/user-attachments/assets/7449f5ee-c0f5-4afd-968d-127b7fbdce94)
+
+![image](https://github.com/user-attachments/assets/f1db9473-3f34-40a1-9246-fc699df19756)
+
 
 ### 3. 🚀 Provide a description for the pipeline that performs Dependency scanning.
-![3](https://github.com/user-attachments/assets/81e1e782-18f7-45e2-a440-822cd273b048)
+![image](https://github.com/user-attachments/assets/5180b764-2ac1-430f-aa97-0c010d600ade)
+
 
 ### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Dependency scanning in the pipeline configuration...>Click on Save to store the configuration.
 ![4](https://github.com/user-attachments/assets/13a83b88-712a-4c81-8c4b-59e398c71120)
