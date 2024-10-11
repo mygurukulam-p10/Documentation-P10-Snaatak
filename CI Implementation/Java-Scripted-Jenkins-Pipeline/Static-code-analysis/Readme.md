@@ -37,41 +37,53 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 
 ![image](https://github.com/user-attachments/assets/5cf827f1-be38-4711-95ca-ffbe432b80cd)
 
-## 💥 Steps to Configuration Declarative pipelines for Static Code Analysis
-### Understand Declarative Pipeline syntax [here](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/CI%20Implementation/Java%20-%20Declarative%20Jenkins%20Pipeline/Code%20compilation/readme.md#understand-declarative-pipeline-syntax)
+## 💥 Steps to Configuration Scripted Pipeline for Static Code Analysis
+#
 
 ### 1. 🚀 Open your Jenkins Dashboard.
-![1](https://github.com/user-attachments/assets/59bb5e6e-68e1-4d41-8147-cd7acceeb2d8)
+ ![image](https://github.com/user-attachments/assets/6d4e90fc-179f-4a0c-b6bf-554a9227fc5d)
 
-### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `Static Code Analysis`).
-![1](https://github.com/user-attachments/assets/5bc5a337-706e-43aa-9283-69c8c0858560)
 
-### 3. 🚀 Provide a description for the pipeline that performs Static Code Analysis.
-![2](https://github.com/user-attachments/assets/de6eac31-cd05-4848-9bf1-ac63960402a4)
+### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `Static-Code-Analysis`).
+
+![image](https://github.com/user-attachments/assets/9632140f-f2b9-4c7d-8c44-dc666fb721e9)
+
+
+### 3. 🚀 Provide a description for the pipeline that performs Static-Code-Analysis.
+![image](https://github.com/user-attachments/assets/7af9d84d-6a18-4787-a3bf-60c591ada1f3)
+
 
 ### 4. 🚀 Create the repo for add jenkinsfile which will be using in pipeline script for SCM
-![4](https://github.com/user-attachments/assets/49a6c368-0382-4da0-af4b-ad9d1822f13f)
+![image](https://github.com/user-attachments/assets/17f43a3e-8d3f-4603-96a2-9999cc998697)
+
 
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for credential scanning in the pipeline script for SCM ...> add repo link & credintial, file path.
 ![5](https://github.com/user-attachments/assets/19409866-550d-47bf-bb77-df8567e19701)
 
 ### 6. 🚀 Then Click on build to run the pipeline to perform
-<img width="952" alt="build" src="https://github.com/user-attachments/assets/8e0b140e-3cb9-4b40-babd-75fb6963a653">
+![image](https://github.com/user-attachments/assets/a0a5fd3d-4fd5-43e0-aa16-218a1c1cd6ab)
+
 
 ### 7.🚀 Now we are able to see build complete-
-![7](https://github.com/user-attachments/assets/20681cb0-e833-4179-b2bc-bea812826659)
+![image](https://github.com/user-attachments/assets/fdaf2b03-05e7-4e06-af5a-2fd6df1faf0d)
+
 
 ### 8.🚀 Click on Console Output to see the complete build.
-![8](https://github.com/user-attachments/assets/a686fe61-bbe5-4bf7-8016-8577182a10f6)
+![image](https://github.com/user-attachments/assets/6e52b87c-1e92-4bc8-927f-60848007654a)
 
-![5](https://github.com/user-attachments/assets/66e44902-daf0-4569-b349-de9816bb528b)
+![image](https://github.com/user-attachments/assets/daced57f-d1c7-433b-bc11-58f3e553a410)
+
+![image](https://github.com/user-attachments/assets/2e4255e6-337e-4d7d-b13b-f7fe5380ae07)
+
+![image](https://github.com/user-attachments/assets/badc9c19-54a4-44fb-835b-a34261ab2ba6)
 
 
 
 
 ### 9.🚀 Review the stages of the build process in the console output.
-![9](https://github.com/user-attachments/assets/af7844d6-d0fd-490d-90ff-a7537b644d52)
+![image](https://github.com/user-attachments/assets/f9209c2c-6c6d-4cb9-9798-dc61c03a7ca6)
+
 
 
 ## 📛 Conclusion
@@ -82,7 +94,7 @@ We run Checkstyle and found 88 code violations. This means there are parts of th
 ##  📧 Contact Information
 | Name | Email address|
 |------|---------------------|
-| Vinay Bansal | vinay.bansal.snaatak@mygurukulam.co |
+| Brij Singh | Brij.singh.snaatak@mygurukulam.co |
 
 ---
 ## 📚 References
