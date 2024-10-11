@@ -30,7 +30,7 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 
 - Access to the AWS Management Console or AWS CLI.
 - Basic understanding of your Database.
--  
+  
 ## 🔍 Security Group Overview
 
 Security groups act as virtual firewalls that control inbound and outbound traffic for Postgresql. They define rules that specify the allowed ports, protocols, and IP ranges for communication between nodes, clients, and external systems.
