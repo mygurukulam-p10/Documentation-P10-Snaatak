@@ -119,6 +119,11 @@ node {
             useWrapperFileDirectly: true
         ])
     }
+
+    stage("Archive DAST Report") {
+    // Archive the report as an artifact in Jenkins
+    archiveArtifacts artifacts: 'ZAP_2.15.0/report.html', allowEmptyArchive: false
+    }
 }
 
 ```
