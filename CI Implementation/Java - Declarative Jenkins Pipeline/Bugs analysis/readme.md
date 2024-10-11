@@ -3,7 +3,7 @@
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-| Vinay Bansal | 04-10-2024  | Version 1  | Vinay Bansal    | 04-10-2024     |
+| Vinay Bansal | 04-10-2024  | Version 1  | Vinay Bansal    | 11-10-2024     |
 
 ---
 ## Table of Contents
@@ -48,27 +48,28 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 ![3](https://github.com/user-attachments/assets/f8aa2ae9-0333-45b5-83b3-f40fb077dc3a)
 
 ### 4. 🚀 Create the repo for add jenkinsfile which will be using in pipeline script for SCM
-![4](https://github.com/user-attachments/assets/8ffd51b8-115b-4a6e-a663-18b7b634d946)
+![image](https://github.com/user-attachments/assets/7a101075-f65a-44ef-a72c-150e067ed2da)
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for credential scanning in the pipeline script for SCM ...> add repo link & credintial, file path.
-![5](https://github.com/user-attachments/assets/11b9d8d0-4b3e-453a-b194-6fe15a70a385)
+![image](https://github.com/user-attachments/assets/c9ed5684-1744-40a7-9094-f8788083eb8b)
+![image](https://github.com/user-attachments/assets/4b6b0573-10aa-4542-ac2b-729986148b54)
+
 
 ### 6. 🚀 Then Click on build to run the pipeline to perform
 <img width="952" alt="build" src="https://github.com/user-attachments/assets/8e0b140e-3cb9-4b40-babd-75fb6963a653">
 
 ### 7.🚀 Now we are able to see build complete-
-![7](https://github.com/user-attachments/assets/05b1b6a6-7cc7-4b9b-8923-9d7c1c7e1ed4)
+![image](https://github.com/user-attachments/assets/889976fb-0b38-49f5-bdc8-454a4af01d42)
 
 ### 8.🚀 Click on Console Output to see the complete build.
-![8](https://github.com/user-attachments/assets/5043b246-6c7c-445e-9dc3-06ffda77b4cc)
-
-![8 1](https://github.com/user-attachments/assets/df7346f7-8ad3-4630-b37b-dfa99be352d4)
+![image](https://github.com/user-attachments/assets/41c4ccad-d723-43e3-b742-8e53d824fcca)
+![image](https://github.com/user-attachments/assets/47eefaeb-24f7-4502-892b-6f92c95eab3d)
 
 
 
 
 ### 9.🚀 Review the stages of the build process in the console output.
-![9](https://github.com/user-attachments/assets/d0049f4c-a81d-4655-9e95-2f55e9c3c8bf)
+![image](https://github.com/user-attachments/assets/d9a97542-1e4e-40ab-b6a1-595ab54ed07c)
 
 
 ## 📛 Conclusion
