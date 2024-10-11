@@ -48,26 +48,33 @@ This document outlines how to set up a Declarative Jenkins Pipeline for DAST usi
 ### 3. 🚀 Provide a description for the pipeline that performs DAST.
 ![3](https://github.com/user-attachments/assets/de0685e5-2982-4653-8e94-c76dc8ca765a)
 
-### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for DAST in the pipeline configuration...>Click on Save to store the configuration.
-![4](https://github.com/user-attachments/assets/78e24a90-955f-490c-93ae-954555106842)
+### 4. Create the repo for add jenkinsfile which will be using in pipeline script for SCM
+![image](https://github.com/user-attachments/assets/dd399547-d9de-4877-b665-7bc62788000c)
+
+
+### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for DAST in the pipeline script for SCM ...> add repo link & credintial, file path.
+![image](https://github.com/user-attachments/assets/821bbe42-63eb-4cbc-a8f1-cbddbce0e7bf)
+![image](https://github.com/user-attachments/assets/6e38e445-1c1c-45fb-9288-4e085e04baac)
 
 
 
-### 5. 🚀 Then Click on build to run the pipeline to perform
+
+### 6. 🚀 Then Click on build to run the pipeline to perform
 <img width="952" alt="build" src="https://github.com/user-attachments/assets/8e0b140e-3cb9-4b40-babd-75fb6963a653">
 
-### 6.🚀 Now we are able to see build complete-
-![6](https://github.com/user-attachments/assets/e22b3868-193c-4bca-ada6-3df5d1173088)
+### 7.🚀 Now we are able to see build complete-
+![image](https://github.com/user-attachments/assets/e98f1e18-f97c-4c7c-be06-b058575a29eb)
 
-### 7.🚀 Click on Console Output to see the complete build.
 
-![7](https://github.com/user-attachments/assets/3c637f46-42b9-451f-8242-682cb7e97dd2)
-![8](https://github.com/user-attachments/assets/c2403f61-89bf-4a2b-87ec-d186f782616f)
+### 8.🚀 Click on Console Output to see the complete build.
+![image](https://github.com/user-attachments/assets/eeafc50c-0c03-4586-8fa1-dab035a97d91)
+![image](https://github.com/user-attachments/assets/a29ac895-a618-4549-9d6c-eb07b1777886)
+
 
 
 
 ### 9.🚀 Review the stages of the build process in the console output.
-![9](https://github.com/user-attachments/assets/5e509411-232f-428f-bac8-f64e9b5622cb)
+![image](https://github.com/user-attachments/assets/5d678f5d-d0dd-4509-9ce4-275ff126b27d)
 
 
 ## 📛 Conclusion
