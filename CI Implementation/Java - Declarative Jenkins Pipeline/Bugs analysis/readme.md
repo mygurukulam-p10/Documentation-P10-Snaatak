@@ -47,7 +47,7 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 ### 3. 🚀 Provide a description for the pipeline that performs Bugs analysis.
 ![3](https://github.com/user-attachments/assets/f8aa2ae9-0333-45b5-83b3-f40fb077dc3a)
 
-### 4. 🚀 Create the repo for add jenkinfile which will be using in pipeline script for SCM
+### 4. 🚀 Create the repo for add jenkinsfile which will be using in pipeline script for SCM
 ![4](https://github.com/user-attachments/assets/8ffd51b8-115b-4a6e-a663-18b7b634d946)
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for credential scanning in the pipeline script for SCM ...> add repo link & credintial, file path.
