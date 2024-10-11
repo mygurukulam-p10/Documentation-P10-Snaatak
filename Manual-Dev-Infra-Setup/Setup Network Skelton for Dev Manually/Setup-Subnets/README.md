@@ -72,29 +72,48 @@ In this section, we create a development environment infrastructure with two pub
 
 ![image](https://github.com/user-attachments/assets/2c61e6c7-9bec-4fdd-b7a6-984ce1b01d6b)
 
+2. **Public Subnet 1**  
+   - **Purpose**: Used for internet-facing resources such as load balancers and NAT gateways.
+   - **CIDR**: 10.0.0.32/27
+   - **Route Table**: Associated with a route table that directs traffic to the internet gateway.
+
+
+![image](https://github.com/user-attachments/assets/2bd6df07-2f59-4d1d-95c1-48b72475275f)
+
+#### Subnets Created 
+
+![image](https://github.com/user-attachments/assets/bdb5e3ad-17e1-4946-b3ec-6678cee5cf19)
+
 ### 🔒 Private Subnets (DEV-Infra)
 
 1. **Private Subnet 1 (OT-Dev-Frontend-Subnet)**  
    - **Purpose**: Hosts internal services like databases that do not need internet access.
-   - **CIDR**: 10.0.1.48/28
+   - **CIDR**: 10.0.0.64/26
    - **Route Table**: Configured to route traffic through the NAT gateway for secure outbound internet access.
 
-![image](https://github.com/user-attachments/assets/a37e2cf2-adff-4a99-9f32-b94333dc8f2a)
+![image](https://github.com/user-attachments/assets/a67a3694-14bb-4e40-83ed-5065fc7f5537)
 
 
 2. **Private Subnet 2 (OT-Dev-Application-Subnet)**  
    - **Purpose**: Provides redundancy for internal services.
-   - **CIDR**: 10.0.1.64/27
+   - **CIDR**: 10.0.0.128/26
    - **Route Table**: Also configured to use the NAT gateway.
 
-![image](https://github.com/user-attachments/assets/911fe46e-3cde-4bdb-8f42-748e5f6c2be4)
+![image](https://github.com/user-attachments/assets/785c47cf-87cc-41f5-89cb-72698f10d99b)
+
 
 3. **Private Subnet 3 (OT-Dev-Database-Subnet)**  
    - **Purpose**: Used for additional backend services or application servers.
-   - **CIDR**: 10.0.1.96/27
+   - **CIDR**: 10.0.0.192/26
    - **Route Table**: Configured similarly to ensure secure access to the internet through the NAT gateway.
 
-![image](https://github.com/user-attachments/assets/766a5fc9-9d03-4bb6-9921-89231650e539)
+![image](https://github.com/user-attachments/assets/b744822f-33e2-45c2-b5ad-5a93c415612d)
+
+
+
+#### Subnets Created
+
+![image](https://github.com/user-attachments/assets/7b9e0f24-a88d-4877-9493-5ab8daf9d4b5)
 
 ---
 
