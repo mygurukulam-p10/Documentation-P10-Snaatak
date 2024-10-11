@@ -47,20 +47,24 @@ This document outlines how to set up a Declarative Jenkins Pipeline for Dependen
 ### 3. 🚀 Provide a description for the pipeline that performs Dependency scanning.
 ![3](https://github.com/user-attachments/assets/81e1e782-18f7-45e2-a440-822cd273b048)
 
-### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Dependency scanning in the pipeline configuration...>Click on Save to store the configuration.
-![4](https://github.com/user-attachments/assets/13a83b88-712a-4c81-8c4b-59e398c71120)
+### 4. Create the repo for add jenkinsfile which will be using in pipeline script for SCM
+![image](https://github.com/user-attachments/assets/f892b536-b19d-40ff-91c9-ba9e22083fe3)
 
 
+### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for DAST in the pipeline script for SCM ...> add repo link & credintial, file path.
+![image](https://github.com/user-attachments/assets/38cf7790-6d5e-4988-a151-7a162b9a4356)
+![image](https://github.com/user-attachments/assets/981ccfc4-c80a-4fe0-8b2b-4a90a36d577c)
 
-### 5. 🚀 Then Click on build to run the pipeline to perform
+
+### 6. 🚀 Then Click on build to run the pipeline to perform
 <img width="952" alt="build" src="https://github.com/user-attachments/assets/8e0b140e-3cb9-4b40-babd-75fb6963a653">
 
-### 6.🚀 Now we are able to see build complete-
+### 7.🚀 Now we are able to see build complete-
 ![6](https://github.com/user-attachments/assets/0e85f208-00fb-498d-85e2-6bfeb11bfb3f)
 
-### 7.🚀 Click on Console Output to see the complete build.
-![7](https://github.com/user-attachments/assets/3a399168-b736-442e-886d-fd4ad037d02a)
-![8](https://github.com/user-attachments/assets/0d6d929f-b14c-4335-8f39-96cb0ec040c2)
+### 8.🚀 Click on Console Output to see the complete build.
+![image](https://github.com/user-attachments/assets/017b49c2-25f6-4e16-b664-49b374699200)
+
 
 
 
