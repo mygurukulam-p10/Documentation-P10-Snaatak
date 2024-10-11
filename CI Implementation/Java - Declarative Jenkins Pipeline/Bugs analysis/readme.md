@@ -38,6 +38,23 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 
 ## 💥 Steps to Configuration Declarative pipelines for Bugs analysis
 
+### Add the Spotbug dependency in pom.xml file (present in salary api)
+```
+    <plugin>
+      <groupId>com.github.spotbugs</groupId>
+      <artifactId>spotbugs-maven-plugin</artifactId>
+      <version>4.8.2.0</version>
+      <dependencies>
+        <dependency>
+          <groupId>com.github.spotbugs</groupId>
+          <artifactId>spotbugs</artifactId>
+          <version>4.8.3</version>
+        </dependency>
+      </dependencies>
+    </plugin>
+```
+
+
 ### 1. 🚀 Open your Jenkins Dashboard.
 ![1](https://github.com/user-attachments/assets/59bb5e6e-68e1-4d41-8147-cd7acceeb2d8)
 
