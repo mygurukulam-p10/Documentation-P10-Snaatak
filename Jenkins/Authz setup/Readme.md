@@ -112,21 +112,38 @@ Avoid these common mistakes when configuring authorization in Jenkins:
 Follow these steps to implement **Role-based Authorization** in Jenkins:
 
 1. **Install the Plugin**:  
-   - Go to **Manage Jenkins > Manage Plugins**.
-   - Search for "Role-based Authorization Strategy" and install it without a restart.
+   - Go to **Manage Jenkins**
+      ![image](https://github.com/user-attachments/assets/2b02f173-00ab-4385-b0fc-7c92e48ffd8c)
 
-   ![Install Plugin](https://github.com/avengers-p7/Documentation/assets/156644891/3660b040-948b-485e-b791-aa6aa3e8dd2e)
+   - Go to **Manage Plugins**.
+     ![image](https://github.com/user-attachments/assets/cd2aedd1-a89b-4ab0-8b85-dbdff70614d3)
 
-2. **Configure Global Security**:  
+   - Search for **"Role-based Authorization Strategy"** and install it without a restart.
+
+    ![image](https://github.com/user-attachments/assets/5762e2bf-a237-44ee-976f-d1f0acedf840)
+
+
+
+ 
+
+3. **Configure Global Security**:  
    - Go to **Manage Jenkins > Configure Global Security** and select **Role-Based Strategy**.
 
-   ![Configure Security](https://github.com/avengers-p7/Documentation/assets/156644891/4c881dcf-d5fe-4fb9-892f-658e9749a5b9)
+    ![image](https://github.com/user-attachments/assets/311e1e99-d461-4968-9725-f5d970e2a8c6)
 
-3. **Manage and Assign Roles**:
+
+4. **Manage and Assign Roles**:
    - Navigate to **Manage Jenkins > Manage and Assign Roles**.
-   - Define global and item roles, such as "Test_DEVs" for specific projects.
+     ![image](https://github.com/user-attachments/assets/bbf9e5ec-fd78-43a6-83ad-27c6fe44a956)
 
-   ![Manage Roles](https://github.com/avengers-p7/Documentation/assets/156644891/ec17afa1-3ee2-4882-aa61-308bf4983629)
+     ![image](https://github.com/user-attachments/assets/385d754a-fa39-475e-a9bb-0126b33672c2)
+
+   - Define global and item roles, such as "Test_DEVs" for specific projects.
+  
+   - 
+
+   ![image](https://github.com/user-attachments/assets/7b8e083f-7165-404a-9e16-f6f03dc1fbe9)
+
 
 ---
 
