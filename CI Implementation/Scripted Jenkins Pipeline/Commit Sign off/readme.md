@@ -69,9 +69,9 @@ By automating the verification and amendment of commit messages,it fosters a mor
 
 ##  📧 Contact Information
 For more information, feedback, or assistance, feel free to contact us:
-| Name         | Email address          |
-|--------------|------------------------|
-| Megha Tyagi  | megha.tyagi.snaatak@mygurukulam.co  |
+| Name | Email address|
+|------|---------------------|
+| Vinay Bansal | vinay.bansal.snaatak@mygurukulam.co |
 
 ---
 ## 📚 References
