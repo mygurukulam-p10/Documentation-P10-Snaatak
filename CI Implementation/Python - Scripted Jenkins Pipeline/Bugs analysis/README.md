@@ -3,7 +3,7 @@
 ---  
 | Author          | Created on | Version   | Last updated by | Last edited on | Reviewed By L0 | Reviewed By L1 | Reviewed By L2 |
 |-----------------|------------|-----------|-----------------|----------------|----------------|----------------|----------------| 
-| Komal Jaiswal   | 10-10-24   | Version 1 | Komal Jaiswal   | 10-10-24       |                |                |                |
+| Komal Jaiswal   | 10-10-24   | Version 1 | Komal Jaiswal   | 11-10-24       |                |                |                |
 
 ---
 
@@ -60,21 +60,28 @@ This section outlines the steps to configure a Jenkins job for bug analysis usin
 
 4. **Source Control Setup:**  
    - Link the job to your source control repository that contains the `Jenkinsfile` for pipeline configuration.
-![image](https://github.com/user-attachments/assets/8fad0210-fe65-4932-bcb9-c638de41755a)
+![image](https://github.com/user-attachments/assets/aa1a3e4b-dea6-472f-bc40-da4164db22f9)
+![image](https://github.com/user-attachments/assets/50e86cb0-879d-4380-b0a3-4ae0ffffe2ce)
+
 
 ### 5. 🖥️ Choose Pipeline as the job type → Add your pipeline script for dependency scanning under the Pipeline section → Provide the repository link, credentials, and file path.
 
+![image](https://github.com/user-attachments/assets/7004a8a9-551d-4746-b992-bb6dacbb8579)
+![image](https://github.com/user-attachments/assets/49b8e0f2-c565-40f7-b2af-cbe70830692c)
+
 ### 6. 🖥️ Click on **Build** to initiate the pipeline.
+![image](https://github.com/user-attachments/assets/2c592001-9805-4559-9527-5fd94073b84f)
+
 
 ### 7. 🖥️ Observe as the build completes.
-![image](https://github.com/user-attachments/assets/8975737e-1419-46c7-9d12-3ec2bb0cafa9)
+![image](https://github.com/user-attachments/assets/2c592001-9805-4559-9527-5fd94073b84f)
 
 ### 8. 🖥️ Review the **Console Output** for build details.
 ![image](https://github.com/user-attachments/assets/db907520-1973-4556-b91a-e540758bb300)
 
 ### 9. 🖥️ Check each stage in the console output for successful completion.
 
-![image](https://github.com/user-attachments/assets/587c1b5e-be4b-4fb5-96bf-199162e36821)
+![image](https://github.com/user-attachments/assets/80e482b2-99bc-4877-bc7e-31d8a3eab9ad)
 
 ### 10. 🖥️ Chek the report of the scan 
 ![image](https://github.com/user-attachments/assets/f608d85f-a33a-4829-83f3-a33200191f94)
