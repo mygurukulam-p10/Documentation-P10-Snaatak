@@ -93,6 +93,9 @@ This document outlines how to set up a Declarative Jenkins Pipeline for Dependen
 ### 9.🚀 Review the stages of the build process in the console output.
 ![image](https://github.com/user-attachments/assets/44ff86fa-a711-403f-b7e5-d00bdbf8604f)
 
+### 10.🚀 Verification.
+![image](https://github.com/user-attachments/assets/7679e89a-5978-4c84-827b-617de10d4e86)
+
 
 ## 📛 Conclusion
 In conclusion, integrating OWASP Dependency-Check into your development process offers a proactive approach to identifying and mitigating potential security risks associated with third-party dependencies. By regularly scanning and analyzing your project dependencies, you can stay ahead of known vulnerabilities, ensuring the overall security and reliability of your software applications
