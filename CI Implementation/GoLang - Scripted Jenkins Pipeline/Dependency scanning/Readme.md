@@ -84,8 +84,34 @@ This document provides an overview of implementing dependency scanning in a proj
 ### 8. 🚀 Review the results of the dependency scanning in the console output.
 ![Screenshot from 2024-10-12 11-32-17](https://github.com/user-attachments/assets/a654dad5-91c5-41f2-9586-d26f8fee96f6)
 
-# Pipeline
+# Jenkinsfile
+```
 
+node {
+    // Set up Go and Snyk tool paths
+    def goTool = tool name: 'golang', type: 'go'
+    env.PATH = "${goTool}/bin:${env.PATH}"
+
+    stage('Clone Repository') {
+        // Clone the specified repository from GitHub
+        git branch: 'main', url: 'git@github.com:mygurukulam-p10/employee-api.git', credentialsId: "amit_cred"
+    }
+
+    stage('Run Snyk Test') {
+        // Run Snyk test command to generate the report
+        script {
+            snykSecurity(
+          snykInstallation: 'snyk',
+          snykTokenId: 'snyk_token',
+    
+        )
+        }
+    }
+}
+
+
+
+```
 
 
 
