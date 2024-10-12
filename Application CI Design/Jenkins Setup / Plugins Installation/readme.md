@@ -7,15 +7,17 @@
 
 ## Table of Contents
 1. [💥 Introduction](#-introduction)
-2. [⚙ Pre-requisites](#-pre-requisites)
-3. [🔍 System Requirements](#-system-requirements)
-4. [💥 Steps to Configuration Declarative pipelines for Code Compilation](#-steps-to-configuration-declarative-pipelines-for-code-compilation)
-5. [📛 Conclusion](#-conclusion)
-6. [📧 Contact Information](#-contact-information)
-7. [📚 References](#-references)
+2. [❓What is a Plugin in Jenkins?](#what-is-a-plugin-in-jenkins)
+3. [❓Why is a Plugin Important?](#why-is-a-plugin-important)
+4. [⚙ Pre-requisites](#-pre-requisites)
+5. [🔍 System Requirements](#-system-requirements)
+6. [💥 Steps to Configuration Declarative pipelines for Code Compilation](#-steps-to-configuration-declarative-pipelines-for-code-compilation)
+7. [📛 Conclusion](#-conclusion)
+8. [📧 Contact Information](#-contact-information)
+9. [📚 References](#-references)
 
-- [❓What is a Plugin in Jenkins?](#what-is-a-plugin-in-jenkins)
-- [Why is a Plugin Important?](#why-is-a-plugin-important)
+- 
+- 
 - [Plugin Methods](#plugin-methods)
 - [Limitations](#limitations)
 - [Best Practices](#best-practices)
@@ -28,11 +30,13 @@ Jenkins is a powerful automation server widely used for continuous integration a
 ## ❓What is a Plugin in Jenkins?
 A plugin in Jenkins is an additional piece of software that extends the core functionalities of Jenkins. These plugins can add new features, enhance existing ones, or integrate Jenkins with other tools and services.
 
-## Why is a Plugin Important?
+## ❓Why is a Plugin Important?
 Plugins are essential for customizing Jenkins to meet specific project needs. They allow teams to:
-- Integrate with various version control systems, build tools, and deployment platforms.
-- Automate workflows and enhance CI/CD processes.
-- Improve user experience with new interfaces and functionalities.
+| Benefit                                       | Description                                                                |
+|-----------------------------------------------|----------------------------------------------------------------------------|
+| Integration                                   | Integrate with various version control systems, build tools, and deployment platforms. |
+| Automation                                    | Automate workflows and enhance CI/CD processes.                           |
+| User Experience                               | Improve user experience with new interfaces and functionalities.          |
 
 ## Plugin Methods
 Jenkins plugins can be categorized into several methods based on their purpose, such as:
