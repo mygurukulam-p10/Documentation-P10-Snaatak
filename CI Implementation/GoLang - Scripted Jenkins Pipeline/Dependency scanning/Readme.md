@@ -12,7 +12,7 @@
 2. [⚙️ Pre-requisites](#-pre-requisites)
 3. [🔍 System Requirements](#-system-requirements)
 4. [💥 Steps to Configuration Dependency Scanning](#-steps-to-configuration-dependency-scanning)
-5. [Pipeline](#pipeline)
+5. 
 6. [📛 Conclusion](#-conclusion)
 7. [📧 Contact Information](#-contact-information)
 8. [📚 References](#-references)
@@ -53,6 +53,17 @@ This document provides an overview of implementing dependency scanning in a proj
 - Click **Save** to apply the changes.
 
 - ![Screenshot from 2024-10-12 02-36-07](https://github.com/user-attachments/assets/95268ff4-1a89-4773-b3a7-11104847f05e)
+
+
+### 3. Configure Snyk Tool in Jenkins:
+- Navigate to **Jenkins Dashboard > Manage Jenkins > Global Tool Configuration**.
+- Under the **Snyk** section, click **Add Snyk**.
+- Provide a name for the tool (e.g., `Snyk`).
+- Specify the installation method (manual or automatic).
+  - For **automatic installation**, Jenkins will download Snyk automatically.
+  ![Screenshot from 2024-10-12 02-08-17](https://github.com/user-attachments/assets/2287c7c1-3d5b-44cf-a3ad-bec3f77d39a1)
+
+
 
 # Steps to Configuration Dependency Scanning
 ### 1. 🚀 Open your Jenkins Dashboard.
@@ -110,11 +121,33 @@ node {
 }
 
 
-
+Jenkinsfile
 ```
 
+node {
+    // Set up Go and Snyk tool paths
+    def goTool = tool name: 'golang', type: 'go'
+    env.PATH = "${goTool}/bin:${env.PATH}"
+
+    stage('Clone Repository') {
+        // Clone the specified repository from GitHub
+        git branch: 'main', url: 'git@github.com:mygurukulam-p10/employee-api.git', credentialsId: "amit_cred"
+    }
+
+    stage('Run Snyk Test') {
+        // Run Snyk test command to generate the report
+        script {
+            snykSecurity(
+          snykInstallation: 'snyk',
+          snykTokenId: 'snyk_token',
+    
+        )
+        }
+    }
+}
 
 
+```
 ## 🏁 Conclusion
 The dependency scanning stage successfully analyzes the project's dependencies, identifying any known vulnerabilities and providing a report to ensure the application is secure.
 
