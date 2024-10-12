@@ -22,6 +22,15 @@ This document provides an overview of implementing dependency scanning in a proj
 
 
 ---
+## ⚙️ Prerequisites
+
+| Requirement          | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| **✔️ Jenkins**        | Jenkins installed and configured for CI/CD processes.                       |
+| **✔️ Snyk CLI**       | Snyk CLI must be installed on the Jenkins server.                           |
+| **✔️ Git**            | Git must be installed on the Jenkins server for repository checkout.        |
+| **✔️ Git Credentials**| Add your GitHub credentials (e.g., git-token) in Jenkins for repository access. |
+| **✔️ Snyk API Token** | Add your Snyk API token in Jenkins to authenticate Snyk scans.              |
 
 ## 🔍 System Requirements
 
@@ -137,6 +146,6 @@ The dependency scanning stage successfully analyzes the project's dependencies, 
 
 | Topic                   | Reference Link                                           |
 |-------------------------|---------------------------------------------------------|
-| OWASP Dependency-Check   | [OWASP Dependency-Check Documentation](https://owasp.org/www-project-dependency-check/) |
-| OWASP Dependency-Check CLI | [Dependency-Check CLI Usage](https://jeremylong.github.io/DependencyCheck/dependency-check-maven/) |
-| Jenkins Pipeline        | [Jenkins Pipeline](https://www.jenkins.io/doc/book/pipeline/) |
+| Snyk Documentation       | [Snyk Documentation](https://docs.snyk.io/)             |
+| Snyk CLI Usage           | [Snyk CLI Documentation](https://docs.snyk.io/snyk-cli) |
+| Jenkins Pipeline         | [Jenkins Pipeline](https://www.jenkins.io/doc/book/pipeline/) |
