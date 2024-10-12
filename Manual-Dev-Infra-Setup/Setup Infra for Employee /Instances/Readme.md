@@ -90,6 +90,8 @@ An instance in Amazon EC2 is essentially a virtual server within the AWS cloud, 
 
 NOTE : After successfully launching the instance follow this Employee API Setup Document. [here](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/OT%20MS%20Understanding/Employee/Setup%20and%20run%20the%20App%20for%20POC%20)
 
+   ![Screenshot from 2024-10-12 13-20-31](https://github.com/user-attachments/assets/d3f1a5f6-a2cc-45b6-a9b1-e96acbd829fe)
+
 ## 💡 Conclusion
 
 Amazon EC2 provides versatile, scalable, and cost-efficient instances, enabling users to deploy applications quickly. The instances come with a wide array of options for OS, storage, and networking, making it a reliable choice for any cloud computing needs.
