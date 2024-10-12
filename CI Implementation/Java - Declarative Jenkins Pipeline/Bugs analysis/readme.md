@@ -91,7 +91,7 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 
 ## 📛 Conclusion
 
-We use 'spotbugs' in the current project and in the plugin groups. Integrating SpotBugs with Maven helps in detecting and analyzing code bugs and security vulnerabilities in the "salary-api" project. It provides easy-to-read reports (HTML/XML) that allow developers to identify, prioritize, and resolve issues early in the development process, improving both code quality and security.
+We are using 'spotbugs' in the current project and in the plugin groups. Integrating SpotBugs with Maven helps in detecting and analyzing code bugs and security vulnerabilities in the "salary-api" project. It provides easy-to-read reports (HTML/XML) that allow developers to identify, prioritize, and resolve issues early in the development process, improving both code quality and security.
 
 ##  📧 Contact Information
 | Name | Email address|
