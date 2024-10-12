@@ -46,5 +46,13 @@ You can easily manage these instances—start them when needed, stop them when n
 **AWS Acount**
 
 ## Steps to Launch an Ec2 Instance
+**Step-1 :** Go to the AWS console and sign into your account.
+ 
+**Step-2 :** After logging into the Amazon Management Console, navigate to the EC2 Dashboard.
+![Screenshot from 2024-10-11 19-06-45](https://github.com/user-attachments/assets/3f039af3-26d2-4803-b9d0-ace35254443e)
+
+**Step-3 :** Choose `Launch Instance` from the panel.
+
+
 
 
