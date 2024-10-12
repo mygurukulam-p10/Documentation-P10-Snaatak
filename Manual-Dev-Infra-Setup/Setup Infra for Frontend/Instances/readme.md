@@ -46,12 +46,30 @@ You can easily manage these instances—start them when needed, stop them when n
 **AWS Acount**
 
 ## Steps to Launch an Ec2 Instance
-**Step-1 :** Go to the AWS console and sign into your account.
+**Step 1: :** Go to the AWS console and sign into your account.
  
-**Step-2 :** After logging into the Amazon Management Console, navigate to the EC2 Dashboard.
+**Step 2: :** After logging into the Amazon Management Console, navigate to the EC2 Dashboard.
 ![Screenshot from 2024-10-11 19-06-45](https://github.com/user-attachments/assets/3f039af3-26d2-4803-b9d0-ace35254443e)
 
-**Step-3 :** Choose `Launch Instance` from the panel.
+**Step 3:** Choose `Launch Instance` , and give prefered name.
+![Screenshot from 2024-10-12 15-02-33](https://github.com/user-attachments/assets/2a1babff-1ba8-4944-8b43-ea604042179f)
+
+**Step 4:** Choose Ubuntu AMI, Select the instance type as t2-micro, Generate a key pair with an appropriate name.
+![Screenshot from 2024-10-12 15-08-20](https://github.com/user-attachments/assets/4ffd7abe-7763-4610-9de7-d2178f47c454)
+
+**Step 5:** In The Network Setting choose a VPC; eg, OTMS-Dev. Choose a subnet & Disable auto-assign IP
+![Screenshot from 2024-10-12 15-12-59](https://github.com/user-attachments/assets/453e95e1-74a7-40f9-a4b2-8cce9d26a412)
+
+**Step 6:** Choose your security group, eg OTMS-Frontend-Dev, Don't change any setting for now & Launch the Instance.
+![Screenshot from 2024-10-12 15-17-51](https://github.com/user-attachments/assets/5f1895c6-0352-4a6e-a337-6df5be70dc1f)
+
+![Screenshot from 2024-10-12 15-18-58](https://github.com/user-attachments/assets/7da69dd6-f2ef-420e-a17b-73ff966a02af)
+
+
+
+
+
+
 
 
 
