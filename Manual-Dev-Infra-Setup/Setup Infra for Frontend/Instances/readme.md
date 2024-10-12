@@ -65,6 +65,8 @@ You can easily manage these instances—start them when needed, stop them when n
 
 ![Screenshot from 2024-10-12 15-18-58](https://github.com/user-attachments/assets/7da69dd6-f2ef-420e-a17b-73ff966a02af)
 
+- After successfully launching the instance follow this [**Link**](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/OT%20MS%20Understanding/Frontend/Setup%20and%20run%20the%20App%20for%20POC%20) for setting up Frontend-API.
+
 
 
 
