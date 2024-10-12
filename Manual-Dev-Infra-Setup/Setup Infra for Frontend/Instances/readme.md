@@ -67,6 +67,20 @@ You can easily manage these instances—start them when needed, stop them when n
 
 - After successfully launching the instance follow this [**Link**](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/OT%20MS%20Understanding/Frontend/Setup%20and%20run%20the%20App%20for%20POC%20) for setting up Frontend-API.
 
+## Conclusion
+
+Amazon EC2 provides virtual servers (called instances) in the cloud that can be customized to meet your needs. You can choose the amount of resources like CPU, memory, and storage, and pick from different instance types that are designed for specific tasks. Key features include support for different operating systems, flexible storage, elastic IP addresses, monitoring with CloudWatch, bare-metal options for more control, and the ability to pause and resume instances. EC2 makes it easy to scale, reliable, and cost-effective to run your applications and services on AWS.
+
+## Contact Information
+| Name | Email address |
+| ---- | ------------- |
+| Aayush Gaur | aayush.gaur.snaatak@mygurukulam.co |
+***
+## Resources and References
+|  **Description** |   **Source** |
+| ---------------- | ------------ |
+| For Instance | [Link](https://aws.amazon.com/what-is/cloud-instances/#:~:text=You%20can%20run%20multiple%20virtual,of%20sharing%20and%20scaling%20resources.) |
+| Poc Document | [Link](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/OT%20MS%20Understanding/Frontend/Setup%20and%20run%20the%20App%20for%20POC%20) | 
 
 
 
