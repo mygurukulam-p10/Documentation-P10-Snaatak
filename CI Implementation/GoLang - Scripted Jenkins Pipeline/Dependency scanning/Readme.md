@@ -20,15 +20,6 @@
 ## ⭐ Introduction 
 This document provides an overview of implementing dependency scanning in a project using OWASP Dependency-Check in a Jenkins scripted pipeline.
 
-## ⚙️ Pre-requisites
-
-| Requirement          | Description                                                                 |
-|----------------------|-----------------------------------------------------------------------------|
-| **✔️ Jenkins**          | Jenkins installed and configured for CI/CD processes.                       |
-| **✔️ OWASP Dependency-Check** | OWASP Dependency-Check must be installed on the Jenkins server.        |
-| **✔️ Java**              | Java Development Kit (JDK) must be installed on the Jenkins server.       |
-| **✔️ Git**              | Git must be installed on the Jenkins server for repository checkout.        |
-| **✔️ Git Credentials**  | Add your GitHub credentials (e.g., `git-token`) in Jenkins for repository access. |
 
 ---
 
@@ -43,28 +34,55 @@ This document provides an overview of implementing dependency scanning in a proj
 | **Storage**          | Minimum 20 GB|
 | **Operating System** | Ubuntu 22.04       |
 
+
+# Snyk Plugin Installation and Configuration for Jenkins
+
+## Steps to Install and Configure the Snyk Plugin
+
+### 1. Install the Snyk Plugin:
+- Navigate to **Jenkins Dashboard > Manage Jenkins > Manage Plugins**.
+- Under the **Available** tab, search for **Snyk Security**.
+- Install the **Snyk Security** plugin.
+![Screenshot from 2024-10-12 01-58-44](https://github.com/user-attachments/assets/76ff563d-ec51-45c7-bf59-b87bb2534d48)
+
+
+### 2. Configure the Snyk Plugin:
+- After installing the plugin, go to **Jenkins Dashboard > Manage Jenkins > Configure System**.
+- Scroll down to the **Snyk** section.
+- Enter your **Snyk API Token** (you can generate it from your Snyk account under **Account Settings**).
+- Click **Save** to apply the changes.
+
+- ![Screenshot from 2024-10-12 02-36-07](https://github.com/user-attachments/assets/95268ff4-1a89-4773-b3a7-11104847f05e)
+
 # Steps to Configuration Dependency Scanning
 ### 1. 🚀 Open your Jenkins Dashboard.
 
 ### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `Dependency Scanning`).
 
+![Screenshot from 2024-10-11 20-41-10](https://github.com/user-attachments/assets/664e5b1c-81ea-47dc-a7f3-44880f853b40)
+
 
 ### 3. 🚀 Provide a description for the pipeline in detail about what it will perform.
-
+![Screenshot from 2024-10-11 20-41-28](https://github.com/user-attachments/assets/d35d2e13-a140-46e2-bb24-ae3a2268def2)
 ### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for dependency scanning in the pipeline configuration...>Click on Save to store the configuration.
 
 
 ### 5. 🚀 Then Click on build to run the pipeline to perform dependency scanning.
+![Screenshot from 2024-10-12 10-38-20](https://github.com/user-attachments/assets/8955da9b-ed8d-4a08-a7a8-6f1f487cecc3)
 
 
 ### 6. 🚀 Now we are able to see build complete.
+![Screenshot from 2024-10-12 11-32-05](https://github.com/user-attachments/assets/bd6d95a5-ea96-497e-9da4-7b6cbfd12283)
 
 ### 7. 🚀 Click on Console Output to see the complete build.
+![Screenshot from 2024-10-12 11-43-53](https://github.com/user-attachments/assets/b8f4fc28-b689-4417-8abb-12bfddf9c2b5)
 
 
+![Screenshot from 2024-10-12 11-44-02](https://github.com/user-attachments/assets/cd011db4-0f44-4d9f-a0c3-a509a85d982f)
 
 
 ### 8. 🚀 Review the results of the dependency scanning in the console output.
+![Screenshot from 2024-10-12 11-32-17](https://github.com/user-attachments/assets/a654dad5-91c5-41f2-9586-d26f8fee96f6)
 
 # Pipeline
 
