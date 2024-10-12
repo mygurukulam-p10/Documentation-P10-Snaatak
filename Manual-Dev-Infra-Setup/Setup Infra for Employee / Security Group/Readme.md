@@ -41,8 +41,8 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 
 | Security Group Name | Port  | Source                |
 |---------------------|-------|-----------------------|
-| Salary-Non-Prod-Dev-SG	      | 22    |       Open-VPN-Dev-SG|
-| Salary-Non-Prod-Dev-SG        | 8080  | OTMS-Dev-SG-Employee-ALB        |
+| 	OTMS-Dev-SG-Employee-api      | 22    |       Open-VPN-Dev-SG|
+| OTMS-Dev-SG-Employee-api        | 8080  | OTMS-Dev-SG-Employee-ALB        |
 
 ### Outbound Rules
 
