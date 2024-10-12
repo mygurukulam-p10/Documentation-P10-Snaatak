@@ -8,9 +8,9 @@
 This document outlines how to set up a Declarative Jenkins Pipeline specifically for Go-Lang Bugs analysis. Jenkins, as a popular automation server, supports a variety of build configurations.
 
 ## Pre-requisites
-Jenkins: Ensure you have a Jenkins instance running.
-golang: Make sure GoLang is installed on the machine where Jenkins agents are running.
-golangCI-lint: Install a GoLang bug analysis tool like golangci-lint
+- Jenkins: Ensure you have a Jenkins instance running.
+- golang: Make sure GoLang is installed on the machine where Jenkins agents are running.
+- golangCI-lint: Install a GoLang bug analysis tool like golangci-lint
 
 ## Step to Setup
 ### Step 1: Create a New Pipeline Job:
