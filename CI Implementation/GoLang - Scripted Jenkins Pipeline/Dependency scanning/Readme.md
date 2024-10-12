@@ -12,7 +12,7 @@
 2. [⚙️ Pre-requisites](#-pre-requisites)
 3. [🔍 System Requirements](#-system-requirements)
 4. [💥 Steps to Configuration Dependency Scanning](#-steps-to-configuration-dependency-scanning)
-5. 
+5. [Jenkinsfile](#Jenkinsfile)
 6. [📛 Conclusion](#-conclusion)
 7. [📧 Contact Information](#-contact-information)
 8. [📚 References](#-references)
@@ -76,7 +76,9 @@ This document provides an overview of implementing dependency scanning in a proj
 ### 3. 🚀 Provide a description for the pipeline in detail about what it will perform.
 ![Screenshot from 2024-10-11 20-41-28](https://github.com/user-attachments/assets/d35d2e13-a140-46e2-bb24-ae3a2268def2)
 ### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for dependency scanning in the pipeline configuration...>Click on Save to store the configuration.
+![Screenshot from 2024-10-12 11-53-58](https://github.com/user-attachments/assets/0602c080-537d-4675-81c7-5cc9c24f4f86)
 
+![Screenshot from 2024-10-12 11-54-03](https://github.com/user-attachments/assets/8c724263-7ad3-4d78-ae9b-9f6461d74a64)
 
 ### 5. 🚀 Then Click on build to run the pipeline to perform dependency scanning.
 ![Screenshot from 2024-10-12 10-38-20](https://github.com/user-attachments/assets/8955da9b-ed8d-4a08-a7a8-6f1f487cecc3)
