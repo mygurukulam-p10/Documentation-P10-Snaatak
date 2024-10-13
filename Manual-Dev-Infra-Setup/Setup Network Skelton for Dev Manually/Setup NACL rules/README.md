@@ -68,6 +68,56 @@ This documentation provides guidelines for setting up **Network Access Control L
    - **Port Range**: Specify the range to control outbound traffic.
    - **Allow/Deny**: Select whether to **allow** or **deny** the traffic.
 
+
+### Public-NACL
+#### Inbound Rules
+![image](https://github.com/user-attachments/assets/c48df4e1-0ae7-4911-a90d-96239694d03e)
+
+#### OutBound Rules
+![image](https://github.com/user-attachments/assets/5f421b33-b0bb-48e5-be9b-c1b4c2fc280b)
+
+#### Subnet Association
+![image](https://github.com/user-attachments/assets/78f90579-0fe3-40b0-839a-ba2c7b07468c)
+
+### Frontend-NACL
+![image](https://github.com/user-attachments/assets/f4784c04-4511-4593-8b88-c5444b775949)
+
+#### Inbound Rules
+![image](https://github.com/user-attachments/assets/ee3a7fc0-d4fe-4bd5-a754-409f36e5bedf)
+
+#### OutBound Rules
+![image](https://github.com/user-attachments/assets/92e82b0a-ea63-43e3-9d84-b0234e987730)
+
+
+#### Subnet Association
+![image](https://github.com/user-attachments/assets/f235699b-cde6-4c8b-89d0-248b3bcf19c3)
+
+
+### Application NACL
+![image](https://github.com/user-attachments/assets/72f59e04-f74c-4f9b-8c3c-53ec6ddec4f0)
+
+#### Inbound Rules
+![image](https://github.com/user-attachments/assets/f963b66e-14c9-4ea8-9d3e-6baddf64cde0)
+
+#### OutBound Rules
+![image](https://github.com/user-attachments/assets/dd0f90f5-fc57-46f1-b00a-15ce2c6d2af6)
+
+#### Subnet Association
+![image](https://github.com/user-attachments/assets/f1690798-189d-401c-8b2c-0bd866b29175)
+
+### Database NACL
+![image](https://github.com/user-attachments/assets/0c76161b-2e03-4805-adb8-de5c0217db86)
+
+#### Inbound Rules
+![image](https://github.com/user-attachments/assets/cab92a9d-a29b-46f6-b212-f5afcfe8f1a2)
+
+#### OutBound Rules
+![image](https://github.com/user-attachments/assets/5a91543f-5e54-45df-b7db-70ae92713ceb)
+
+#### Subnet Association
+![image](https://github.com/user-attachments/assets/92e1aedf-f590-477a-844c-1c0719cbeeb3)
+
+
 ---
 
 ## 🔚 Conclusion
