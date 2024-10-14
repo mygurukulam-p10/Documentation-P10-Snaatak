@@ -153,6 +153,14 @@ Go to Assign Roles > Add User > Select the roles.
 Now, you can log out or use another browser to log in with the created users. In my case, you can observe the different access permissions.
 
 ---
+## 📧 Contact Information
+
+For any queries or further information, feel free to contact:
+
+| 📛 Name       | ✉️ Email Address                    |
+|---------------|-------------------------------------|
+| **Brij Singh**| brij.singh.snaatak@mygurukulam.co   |
+
 
 ## ✅ Conclusion
 
