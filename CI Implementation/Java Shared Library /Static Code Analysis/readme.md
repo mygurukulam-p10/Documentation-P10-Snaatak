@@ -9,7 +9,7 @@
 ## Table of Contents
 1. [💥 Introduction](#-introduction)
 2. [⚙️ Pre-requisites](#-pre-requisites)
-3. [💥 Steps to Configuration Static Code Analysis](#-steps-to-conguration-static-code-analysis)
+3. [💥 Steps to Configuration to Static Code Analysis](#-steps-to-configuration-to-static-code-analysis)
 4. [📛 Conclusion](#-conclusion)
 5. [📧 Contact Information](#-contact-information)
 6. [📚 References](#-references)
@@ -40,9 +40,11 @@ This document outlines how to set up a Shared Library for Bugs analysis in Java.
 ![1](https://github.com/user-attachments/assets/59bb5e6e-68e1-4d41-8147-cd7acceeb2d8)
 
 ### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `Static Code Analysis`).
+![image](https://github.com/user-attachments/assets/00daf044-f056-4c4c-8464-0d62828ea964)
 
 
 ### 3. 🚀 Provide a description for the pipeline in detail what will perform.
+![image](https://github.com/user-attachments/assets/abb8011a-de5d-41ec-a64c-467f3baa768f)
 
 
 
@@ -54,6 +56,7 @@ This document outlines how to set up a Shared Library for Bugs analysis in Java.
 
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Static Code Analysis in the pipeline script ...> add repo link & credintial, file path.
+![image](https://github.com/user-attachments/assets/fa17d726-f6c4-44c1-afba-58b8fd119fa6)
 
 
 
@@ -66,9 +69,12 @@ This document outlines how to set up a Shared Library for Bugs analysis in Java.
 
 
 ### 8.🚀 Click on Console Output to see the complete build.
+![image](https://github.com/user-attachments/assets/02e0eda4-926a-4604-9f07-cff01185f2ad)
+![image](https://github.com/user-attachments/assets/bc844fd4-5d29-4c18-8d6b-e9e165124407)
 
 
 ### 9.🚀 Review the stages of the build process in the console output.
+![image](https://github.com/user-attachments/assets/f338ae55-f6a7-489b-bf28-d7a7d01f2a68)
 
 
 
