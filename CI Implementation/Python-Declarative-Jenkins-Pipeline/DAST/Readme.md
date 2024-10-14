@@ -3,7 +3,7 @@
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-| Megha Tyagi | 06-10-2024  | Version 1  | Megha Tyagi     | 06-10-2024     |
+| Megha Tyagi | 14-10-2024  | Version 1  | Megha Tyagi     | 14-10-2024     |
 
 ---
 ## Table of Contents
@@ -17,21 +17,20 @@
 
 ---
 ### 💥 Introduction
-This document provides an overview of implementing code coverage in a Python project using a Jenkins declarative pipeline. Code coverage is a metric that measures how much of the source code is executed while running automated tests. By integrating code coverage tools such as pytest-cov, we can ensure that their test suite effectively covers critical parts of the codebase, leading to better software quality and reliability. The steps outlined in this pipeline automate the testing and code coverage reporting process.
+This document outlines how to set up a Declarative Jenkins Pipeline for DAST using OWASP ZAP, an open-source security tool. This Proof of Concept (PoC) will demonstrate how DAST can help detect and fix security issues to make web application more secure before it's launched.
 
 ---
 
 ## ⚙️ Pre-requisites
 
-| Requirement         | Description                                                                 |
-|---------------------|-----------------------------------------------------------------------------|
-| **Python Version**   | Python 3.10 or later.                                                       |
-| **Jenkins**          | Jenkins installed and configured.                                           |
-| **Git**              | Git must be installed on the Jenkins server for repository checkout.        |
-| **Python3-venv**     | Install the `python3-venv` package on the Jenkins server for virtualenv setup.|
-| **pip**              | Python package installer (pip) must be available to install dependencies.   |
-| **pytest**           | pytest and pytest-cov packages must be installed for testing and coverage.  |
-| **Git Credentials**  | Add your GitHub credentials (e.g., `git-token`) in Jenkins for repository access.|
+| **Prerequisite**       | **Description**                                                                                              |
+|------------------------|--------------------------------------------------------------------------------------------------------------|
+| **Python**             | Ensure Python (>= 3.6) is installed. Download it from [python.org](https://www.python.org/).                  |
+| **OWASP ZAP**          | Install OWASP ZAP, which is available as a standalone package. You can also use [ZAP Docker Image](https://www.zaproxy.org/docs/docker/) for headless scans. |
+| **Python ZAP Library** | Install the `python-owasp-zap-v2.4` library using `pip install python-owasp-zap-v2.4` for integration with Python. |
+| **Target Application** | Attendance API to be tested must be accessible (either locally or remotely).                        |
+| **Network Access**     | Ensure network access to the web app and allow ZAP's default API and scanning ports (usually 8090).           |
+
 
 ---
 
@@ -39,54 +38,61 @@ This document provides an overview of implementing code coverage in a Python pro
 
 ## Hardware System Requirements
 
-| Requirement          | Specification                                                     |
-|----------------------|-------------------------------------------------------------------|
-| **Processor**        | Minimum 2-core CPU (4-core recommended)                           |
-| **Memory (RAM)**     | Minimum 4 GB (8 GB recommended)                                   |
-| **Storage**          | Minimum 20 GB of free disk space (SSD recommended for performance)|
-| **Operating System** | Ubuntu 20.04 or later (or any compatible Linux distribution)      |
+| Hardware Specifications | Minimum Requirement  |
+|-------------------|---------------------------|
+| **Processor**     | Dual-core CPU             | 
+| **Memory**        | 2 GB RAM                  | 
+| **Disk Space**    | 10 GB                      | 
+| **OS**            |Ubuntu 22.04 LTS           |
 
 ---
 
-## 💥 Steps to Configuration Static Code Analysis
+## 💥 Steps to Configuration Declarative pipelines for DAST
+### Understand Declarative Pipeline syntax [here](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/CI%20Implementation/Python%20-%20Declarative%20Jenkins%20Pipeline/Code%20compilation/readme.md#understand-declarative-pipeline-syntax)
 
 ### 1. 🚀 Open your Jenkins Dashboard.
-<img width="944" alt="Dashboard" src="https://github.com/user-attachments/assets/32ea261e-9e15-4dc4-9dfe-237965e974be">
+![1](https://github.com/user-attachments/assets/59bb5e6e-68e1-4d41-8147-cd7acceeb2d8)
 
-### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `Code Coverage`).
-<img width="942" alt="item" src="https://github.com/user-attachments/assets/f6ace938-8206-4294-a6ee-88742d4d7851">
-
-
-### 3. 🚀 Provide a description for the pipeline in detail what will perform.
-<img width="946" alt="description" src="https://github.com/user-attachments/assets/337ceba5-2491-4f45-9283-07a841e989b0">
+### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `DAST`).
+![Screenshot 2024-10-14 120016](https://github.com/user-attachments/assets/d23f9730-7dc5-4026-b062-f33d626ea564)
 
 
-### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for code coverage in the pipeline configuration...>Click on Save to store the configuration.
-<img width="927" alt="script" src="https://github.com/user-attachments/assets/a0ee88c3-1ed4-4e05-832b-a69ff1d42057">
+### 3. 🚀 Provide a description for the pipeline that performs DAST.
+![Screenshot 2024-10-14 120056](https://github.com/user-attachments/assets/a6a2a85d-0528-4bbc-86f5-261f39048b8d)
+
+### 4. Create the repo for add jenkinsfile which will be using in pipeline script for SCM
+![Screenshot 2024-10-14 182309](https://github.com/user-attachments/assets/f6f65210-a2ad-4651-8009-0a215ab07a3e)
+![Screenshot 2024-10-14 182255](https://github.com/user-attachments/assets/ebfb8685-7d0b-41fe-8fec-e8f81676844f)
 
 
-### 5. 🚀 Then Click on build to run the pipeline to perform
-<img width="952" alt="build" src="https://github.com/user-attachments/assets/c82d9cba-0169-4495-8193-2cadac88f833">
+
+### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for DAST in the pipeline script for SCM ...> add repo link & credintial, file path.
+![Screenshot 2024-10-14 182213](https://github.com/user-attachments/assets/40294155-2c4a-4a45-9044-9b5a7bc8cf5b)
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/49ebd02b-9061-4c9f-92ea-ac71e1515d7d">
 
 
-### 6.🚀 Now we are able to see build complete-
-<img width="947" alt="build status" src="https://github.com/user-attachments/assets/eb81d3ce-1226-4395-8537-aa851b3ab6d1">
+
+### 6. 🚀 Then Click on build to run the pipeline to perform
+<img width="952" alt="build" src="https://github.com/user-attachments/assets/8e0b140e-3cb9-4b40-babd-75fb6963a653">
+
+### 7.🚀 Now we are able to see build complete-
+![Screenshot 2024-10-14 182153](https://github.com/user-attachments/assets/4ed7c203-d400-4781-b13b-439f62cb8f1d)
 
 
-### 7.🚀 Click on Console Output to see the complete build.
-<img width="947" alt="console output -1" src="https://github.com/user-attachments/assets/c825e840-5480-48f3-a550-1b627f5da9aa">
-<img width="940" alt="console output -2" src="https://github.com/user-attachments/assets/5cc5c207-ce1c-4c87-a3e0-f19caa6acd11">
-<img width="931" alt="console output -3" src="https://github.com/user-attachments/assets/f3a60b55-6aa5-46e0-870c-65181007b46c">
+
+### 8.🚀 Click on Console Output to see the complete build.
+![Screenshot 2024-10-14 182054](https://github.com/user-attachments/assets/08855a06-f66d-4b4b-80ad-8f7bcdd09932)
+![Screenshot 2024-10-14 182122](https://github.com/user-attachments/assets/fd465607-b191-431a-9d6e-b51318fe3e0a)
+![Screenshot 2024-10-14 182237](https://github.com/user-attachments/assets/0ed6c623-ab34-4d94-bcf5-2fc5e7d92611)
 
 
-### 8.🚀 Review the stages of the build process in the console output.
-<img width="959" alt="build steps status" src="https://github.com/user-attachments/assets/33548ca1-b66b-4132-a6ae-0126cb254872">
+### 9.🚀 Review the stages of the build process in the console output.
+![Screenshot 2024-10-14 182034](https://github.com/user-attachments/assets/1f375a06-b006-47f6-a093-6fc94b193426)
 
----
+
 
 ## 📛 Conclusion
-In summary, implementing code coverage in your project is essential for ensuring code quality and reliability. By utilizing tools like `pytest` and `pytest-cov`, you can systematically evaluate how well your tests cover your codebase. This practice not only helps identify untested areas but also encourages writing comprehensive test cases, ultimately leading to more robust and maintainable code. Regularly monitoring code coverage will enhance your development workflow, foster collaboration among team members, and contribute to the overall success of your software projects.
-
+In this Proof of Concept (PoC), OWASP ZAP was used to perform Dynamic Application Security Testing (DAST) on the attendance-api application. The testing revealed several security issues, including the absence of a Content Security Policy (CSP) header. CSP helps protect the application against Cross-Site Scripting (XSS) and data injection attacks by allowing developers to specify which sources of content are safe to load.
 
 ##  📧 Contact Information
 For more information, feedback, or assistance, feel free to contact us:
@@ -96,11 +102,11 @@ For more information, feedback, or assistance, feel free to contact us:
 
 ---
 ## 📚 References
-| Links                                             | Descriptions                                                    |
-|---------------------------------------------------|-----------------------------------------------------------------|
-|https://medium.com/@ganesharavind124/building-a-jenkins-pipeline-for-code-quality-and-continuous-integration-4c57f0365838| **Medium** |
-|https://reddeppa-s.medium.com/jenkins-pipeline-as-code-21b71d8f823a| **Medium** |
 
+| Links | Descriptions|
+|------|---------------------|
+|https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/Application%20CI%20Design/Python%20CI%20Checks/DAST%20POC|(POC): DAST|
+|https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/Application%20CI%20Design/Python%20CI%20Checks/DAST%20Doc|(DOC): DAST|
 
 
 
