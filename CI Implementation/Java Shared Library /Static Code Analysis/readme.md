@@ -47,6 +47,9 @@ This document outlines how to set up a Shared Library for Bugs analysis in Java.
 
 
 ### 4. 🚀 Create the repo for add src & vars file which will be using in pipeline script.
+![image](https://github.com/user-attachments/assets/295fd8fb-899b-4faa-9d23-59770b1aff34)
+![image](https://github.com/user-attachments/assets/581b80b8-317e-42bc-8aac-d4a371e36c4a)
+![image](https://github.com/user-attachments/assets/100a6dbb-73d4-4328-b200-e66f214f5871)
 
 
 
@@ -59,6 +62,7 @@ This document outlines how to set up a Shared Library for Bugs analysis in Java.
 
 
 ### 7.🚀 Now we are able to see build complete-
+![image](https://github.com/user-attachments/assets/94235b45-db66-400e-9e1e-df60b74b37ab)
 
 
 ### 8.🚀 Click on Console Output to see the complete build.
@@ -69,7 +73,7 @@ This document outlines how to set up a Shared Library for Bugs analysis in Java.
 
 
 ## 📛 Conclusion
-
+We run Checkstyle command and found 88 code violations. This means there are parts of the code that don't follow our coding standards. These issues can make the code harder to read and maintain.
 
 ##  📧 Contact Information
 For more information, feedback, or assistance, feel free to contact us:
@@ -81,4 +85,6 @@ For more information, feedback, or assistance, feel free to contact us:
 ## 📚 References
 | Links | Descriptions|
 |------|---------------------|
+|https://maven.apache.org/plugins/maven-checkstyle-plugin/|Apache Maven Checkstyle Plugin|
+|https://tinyurl.com/mrxmx9wy|(POC): Static Code Analysis|
 
