@@ -37,6 +37,7 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 ![image](https://github.com/user-attachments/assets/dc89a11e-c25f-4ad5-8221-9f9c7b442682)
 
 ## 💥 Steps to Configuration Declarative pipelines for Unit Testing
+### Understand Declarative Pipeline syntax [here](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/CI%20Implementation/Java%20-%20Declarative%20Jenkins%20Pipeline/Code%20compilation/readme.md#understand-declarative-pipeline-syntax)
 
 ### Add the JUnit Dependency to pom.xml
 ```
