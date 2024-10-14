@@ -47,6 +47,7 @@ overall security of applications that rely on this library. Regular checks help 
 <img width="944" alt="Dashboard" src="https://github.com/user-attachments/assets/32ea261e-9e15-4dc4-9dfe-237965e974be">
 
 ### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `Dependency Scanning`).
+
 ![Screenshot 2024-10-12 023632](https://github.com/user-attachments/assets/5a97a7ed-e04d-4124-a715-281bc3df7e80)
 
 
