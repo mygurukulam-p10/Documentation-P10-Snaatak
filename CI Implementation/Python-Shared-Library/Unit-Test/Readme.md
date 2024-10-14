@@ -9,10 +9,11 @@
 ## Table of Contents
 1. [💥 Introduction](#-introduction)
 2. [⚙️ Pre-requisites](#-pre-requisites)
-3. [💥 Steps to Configuration Unit Testing](#-steps-to-conguration-unit-testing)
-4. [📛 Conclusion](#-conclusion)
-5. [📧 Contact Information](#-contact-information)
-6. [📚 References](#-references)
+3. [🚀 Global Configurations](-global-configuration)
+4. [💥 Steps to Configuration Unit Testing](#-steps-to-conguration-unit-testing)
+5. [📛 Conclusion](#-conclusion)
+6. [📧 Contact Information](#-contact-information)
+7. [📚 References](#-references)
 
 ---
 ### 💥 Introduction
@@ -30,6 +31,13 @@ This project provides a Shared Library for unit testing in Python using Pytest. 
 
 
 ---
+## 🚀 Global Configuration
+here we do global configuration for shared library, go to manage jenkins.....> system......> Global Trusted Pipeline Libraries & provide the required details as you can see in images-
+![Screenshot 2024-10-14 150428](https://github.com/user-attachments/assets/f88f3a86-1823-4f72-ad64-0adfd641a988)
+![Screenshot 2024-10-14 150516](https://github.com/user-attachments/assets/8fbb331d-41fd-4a9f-8eea-8838d370eab1)
+
+---
+
 
 ## 💥 Steps to Configuration to Unit Testing
 ### 1. 🚀 Open your Jenkins Dashboard.
