@@ -54,7 +54,7 @@ This document outlines the process for setting up **Trivy** to perform license s
 
 
 ### 4. Create the repo for add jenkinsfile which will be using in pipeline script for SCM.
-![image](https://github.com/user-attachments/assets/5932baee-8d4a-408a-ad12-01de2c3de8df)
+![image](https://github.com/user-attachments/assets/8920b51a-80fc-40ca-b662-aa698fdfc7a1)
 
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for License scanning in the pipeline script for SCM ...> add repo link & credintial, file path.
