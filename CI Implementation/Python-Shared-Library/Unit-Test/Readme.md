@@ -52,7 +52,8 @@ This document provides a comprehensive guide for setting up unit testing using p
 
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Unit Testing analysis in the pipeline script ...> add repo link & credintial, file path.
-![Screenshot 2024-10-07 181703](https://github.com/user-attachments/assets/729ad404-7933-45c3-81b0-10ba17681784)
+![Screenshot 2024-10-14 073855](https://github.com/user-attachments/assets/b69f64ae-db35-4358-b0aa-e800770216fb)
+
 
 
 ### 6. 🚀 Then Click on build to run the pipeline to perform
@@ -60,18 +61,17 @@ This document provides a comprehensive guide for setting up unit testing using p
 
 
 ### 7.🚀 Now we are able to see build complete-
-![Screenshot 2024-10-07 181737](https://github.com/user-attachments/assets/e01b2430-0993-4a1f-9f28-f9e4708a9abc)
-
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/9e96fda8-7e40-47bf-90aa-b8ee42e4fbb9">
 
 
 ### 8.🚀 Click on Console Output to see the complete build.
-![Screenshot 2024-10-07 181852](https://github.com/user-attachments/assets/211e8220-2007-402d-ae8f-746abf963c4a)
-![Screenshot 2024-10-07 181912](https://github.com/user-attachments/assets/5b210680-516a-496a-abe4-8c926fe331f3)
-![Screenshot 2024-10-07 182007](https://github.com/user-attachments/assets/e5120475-3ad0-4826-88f4-01577b88df64)
+![Screenshot 2024-10-14 073752](https://github.com/user-attachments/assets/acedc3b2-d7a7-46b9-9d2a-c77959c3d9e5)
+![Screenshot 2024-10-14 073806](https://github.com/user-attachments/assets/b95c4217-99c7-47a9-926f-2c65257d7e6f)
+![Screenshot 2024-10-14 073826](https://github.com/user-attachments/assets/f493b3cc-2187-4fb1-88f0-b3d3aa079cfe)
 
 
 ### 9.🚀 Review the stages of the build process in the console output.
-![Screenshot 2024-10-07 181807](https://github.com/user-attachments/assets/85da86db-84d4-4dc4-945b-1c14019442be)
+<img width="844" alt="image" src="https://github.com/user-attachments/assets/50a9fbae-97e7-4ff0-8efc-b06bf8bba76f">
 
 ---
 
