@@ -88,6 +88,7 @@ For more information, feedback, or assistance, feel free to contact us:
 
 ---
 ## 📚 References
-| Links                                             | Descriptions                                                    |
-|---------------------------------------------------|-----------------------------------------------------------------|
-
+| Links | Descriptions|
+|------|---------------------|
+|https://tinyurl.com/66cr6xeh|SpotBugs Maven Plugin |
+|https://tinyurl.com/56k8jfwp|(POC): Bug Analysis|
