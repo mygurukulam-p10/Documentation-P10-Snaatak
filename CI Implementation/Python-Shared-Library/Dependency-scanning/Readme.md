@@ -48,11 +48,11 @@ overall security of applications that rely on this library. Regular checks help 
 
 ### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `Dependency Scanning`).
 
-![Screenshot 2024-10-12 023632](https://github.com/user-attachments/assets/5a97a7ed-e04d-4124-a715-281bc3df7e80)
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/5526340f-4125-4979-992b-e9ec7dc546fb">
 
 
 ### 3. 🚀 Provide a description for the pipeline in detail what will perform.
-![Uploading Screenshot 2024-10-12 023632.png…]()
+<img width="954" alt="image" src="https://github.com/user-attachments/assets/56dc24b9-4106-4e3b-afdc-32824aaf132e">
 
 
 ### 4. 🚀 Create the repo for add vars file which will be using in pipeline script.
