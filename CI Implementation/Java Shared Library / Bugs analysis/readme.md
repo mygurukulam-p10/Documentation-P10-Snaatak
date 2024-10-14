@@ -45,11 +45,16 @@ This document outlines how to set up a Shared Library for Bugs analysis in Java.
 
 
 
-### 4. 🚀 Create the repo for add jenkinSfile which will be using in pipeline script.
+### 4. 🚀 Create the repo for add src & vars file which will be using in pipeline script.
+![image](https://github.com/user-attachments/assets/5687c4ec-44ec-4b87-9b88-1afa15d9691b)
+![image](https://github.com/user-attachments/assets/9de4e8f9-addb-4805-ac35-18285c2dbe52)
+![image](https://github.com/user-attachments/assets/f262f59a-d5d4-42c5-b1c9-fa79fb664835)
+![image](https://github.com/user-attachments/assets/a7671642-cec1-46d9-ab49-e263ca98e44a)
 
 
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Unit Testing analysis in the pipeline script ...> add repo link & credintial, file path.
+![image](https://github.com/user-attachments/assets/ec5a8f0d-aecb-42d7-aaeb-801a7e37d218)
 
 
 
@@ -58,11 +63,16 @@ This document outlines how to set up a Shared Library for Bugs analysis in Java.
 
 
 ### 7.🚀 Now we are able to see build complete-
+![image](https://github.com/user-attachments/assets/450e4202-1ac3-4c3c-bbd8-036bc170785a)
 
 
 ### 8.🚀 Click on Console Output to see the complete build.
+![image](https://github.com/user-attachments/assets/6b9b1067-61e2-4a55-966c-00860639a822)
+![image](https://github.com/user-attachments/assets/27632d82-b371-4a5a-8bb9-aeac3ba3faf2)
+
 
 ### 9.🚀 Review the stages of the build process in the console output.
+![image](https://github.com/user-attachments/assets/68a24c88-e11d-429f-ba2b-f05906a92477) 
 
 
 
