@@ -16,18 +16,17 @@
 
 ---
 ### 💥 Introduction
-This document outlines how to set up a Shared Library for Bugs analysis in Java. Jenkins, as a popular automation server, supports a variety of build configurations. One of the critical aspects of Java CI checks is Bugs Analysis, which involves identifying, analyzing, and resolving bugs in the code to ensure software quality and reliability
+This document outlines how to set up a Shared Library for Bugs analysis in Java. Jenkins, as a popular automation server, supports a variety of build configurations. Static code analysis is the process of examining source code without executing it to identify potential issues, improve quality.
 
 
 ---
 
-## ⚙️ Pre-requisites
+## ⚙ Pre-requisites
+1. **Jenkins**: Ensure you have a Jenkins instance running.
+2. **Java**: Required to run the built Java application.
+3. **Maven**: Simplifies build management
+4. 4. **Tools for Static Code Analysis** [here](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/Application%20CI%20Design/Java%20CI%20checks/Static%20Code%20Analysis%20Doc).
 
-| **Requirement** | **Description**                                             |
-|------------------|------------------------------------------------------------|
-| **Jenkins**      | Ensure you have a Jenkins instance running.                |
-| **Java**         | Required to run the built Java application.                |
-| **Maven**        | Simplifies build management.                                |
 
 
 ---
