@@ -163,3 +163,5 @@ The **Role-Based Authorization Strategy** provides a secure and scalable way to 
 
 
 [plugin documentation](https://plugins.jenkins.io/role-strategy/)
+
+[Role-based Authorization Strategy in Jenkins](https://blog.devops.dev/jenkins-role-based-authorization-strategy-in-jenkins-2d5f63d74bf4)
