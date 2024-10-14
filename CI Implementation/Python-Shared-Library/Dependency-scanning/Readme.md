@@ -85,7 +85,7 @@ overall security of applications that rely on this library. Regular checks help 
 ---
 
 ## 📛 Conclusion
-Integrating dependency scanning into our Jenkins declarative pipeline is a vital step in safeguarding our shared library against security vulnerabilities in third-party 
+Integrating dependency scanning into our Jenkins pipeline is a vital step in safeguarding our shared library against security vulnerabilities in third-party 
 dependencies. This automated approach not only enhances software reliability but also enables early detection of potential security issues during development. 
 By proactively addressing these risks, we can maintain a secure and trustworthy foundation for all applications utilizing this library. Continuous vigilance
 in dependency management ensures that our software remains resilient against evolving security threats.
