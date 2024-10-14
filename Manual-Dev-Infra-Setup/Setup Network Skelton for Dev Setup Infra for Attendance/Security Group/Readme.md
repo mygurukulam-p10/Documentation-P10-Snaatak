@@ -37,12 +37,14 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 
 ### Inbound Rules
 
-| Security Group Name | Port  | Description                |
-|---------------------|-------|-----------------------|
-| Attendance-Non-Prod-Dev-SG  | 22    | To securely connect to a remote device  |
-| Attendance-Non-Prod-Dev-SG  | 8080  | End point|
-|Attendance-Non-Prod-Dev-SG   |6379| used by the Redis Database Server|
-|Attendance-Non-Prod-Dev-SG   |5432|used by the PostgreSQL Database Server|
+| **Security Group Name**           | **Port** | **Description**                                      | **Destination**                                      |
+|-----------------------------------|----------|------------------------------------------------------|------------------------------------------------------|
+| Attendance-Non-Prod-Dev-SG        | 22       | Allows secure SSH connections to remote devices       | Remote clients accessing the server via SSH          |
+| Attendance-Non-Prod-Dev-SG        | 8080     | Enables access to web services or application endpoints| Web servers and services interacting with the application |
+| Attendance-Non-Prod-Dev-SG        | 6379     | Facilitates communication with the Redis database     | Redis clients and applications that interact with Redis |
+| Attendance-Non-Prod-Dev-SG        | 5432     | Allows connections to the PostgreSQL database         | PostgreSQL clients connecting to the database         |
+
+
 
 ### Outbound Rules
 
@@ -81,13 +83,8 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 1. Click the **Inbound Rules** tab....> Click Edit Inbound Rules and add rules based on your requirements:
 
 Below is the list of security groups used for the Attendance-Non-Prod-Dev environment, along with their associated ports and descriptions.
+<img width="785" alt="image" src="https://github.com/user-attachments/assets/62b52f1e-d270-4cca-9d41-ed31c16b499e">
 
-| **Security Group Name**           | **Port** | **Description**                                      | **Destination**                                      |
-|-----------------------------------|----------|------------------------------------------------------|------------------------------------------------------|
-| Attendance-Non-Prod-Dev-SG        | 22       | Allows secure SSH connections to remote devices       | Remote clients accessing the server via SSH          |
-| Attendance-Non-Prod-Dev-SG        | 8080     | Enables access to web services or application endpoints| Web servers and services interacting with the application |
-| Attendance-Non-Prod-Dev-SG        | 6379     | Facilitates communication with the Redis database     | Redis clients and applications that interact with Redis |
-| Attendance-Non-Prod-Dev-SG        | 5432     | Allows connections to the PostgreSQL database         | PostgreSQL clients connecting to the database         |
 
 
 ### Step 6: Define Outbound Rules
