@@ -44,23 +44,26 @@ This project provides a Shared Library for unit testing in Python using Pytest. 
 
 
 
-### 4. 🚀 Create the repo for add jenkinfile which will be using in pipeline script.
-![Screenshot 2024-10-14 073934](https://github.com/user-attachments/assets/56850572-a364-4a04-adfc-a27e55c299d0)
-![Screenshot 2024-10-14 074113](https://github.com/user-attachments/assets/610f261b-9403-44f5-9abf-5d07a1884299)
-![Screenshot 2024-10-14 074129](https://github.com/user-attachments/assets/3b433527-20ed-471f-b115-d6cafa7bc836)
+### 4. 🚀 Create the repo for add src & vars file which will be using in pipeline script.
+![Screenshot 2024-10-14 091456](https://github.com/user-attachments/assets/5344b607-3b44-418c-91f9-7691c0bd2e69)
+
+![Screenshot 2024-10-14 091340](https://github.com/user-attachments/assets/910c8987-2917-46b3-b088-b1e350503593)
+
+![Screenshot 2024-10-14 082819](https://github.com/user-attachments/assets/3e6dd250-ad9a-4a31-a3ac-8996d837ee0d)
 
 
 
-### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Unit Testing analysis in the pipeline script ...> add repo link & credintial, file path.
+
+### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Unit Testing analysis in the pipeline script.
 ![Screenshot 2024-10-14 073855](https://github.com/user-attachments/assets/b69f64ae-db35-4358-b0aa-e800770216fb)
 
 
 
-### 6. 🚀 Then Click on build to run the pipeline to perform
+### 6. 🚀 Then Click on build to run the pipeline to perform.
 <img width="952" alt="build" src="https://github.com/user-attachments/assets/c82d9cba-0169-4495-8193-2cadac88f833">
 
 
-### 7.🚀 Now we are able to see build complete-
+### 7.🚀 Now we are able to see build complete.
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/9e96fda8-7e40-47bf-90aa-b8ee42e4fbb9">
 
 
