@@ -16,7 +16,7 @@
 
 ---
 ### 💥 Introduction
-This document provides a comprehensive guide for setting up unit testing using pytest within a Jenkins Shared Library. By integrating pytest into your CI/CD workflow, you can automate the testing process, enabling faster feedback and higher confidence in code changes. Follow the outlined steps to implement effective unit testing in your projects
+This project provides a Shared Library for unit testing in Python using Pytest. The library is designed to offer reusable and modular functions that simplify the process of testing various components of Python projects. By leveraging the Pytest framework, this shared library ensures consistency, ease of maintenance, and enhanced productivity in writing and managing unit tests across multiple projects.
 
 ---
 
@@ -76,13 +76,13 @@ This document provides a comprehensive guide for setting up unit testing using p
 ---
 
 ## 📛 Conclusion
-Implementing unit testing with pytest in a Jenkins pipeline significantly enhances the reliability and maintainability of your code. By automating test execution, you can quickly identify issues and validate functionality after each code change. 
+This shared library streamlines unit testing in Python by leveraging Pytest's powerful features, offering reusable and modular testing components. It promotes consistency, reduces redundant code, and simplifies the integration of automated testing in CI/CD pipelines like Jenkins. By adopting this library, teams can improve productivity and maintain high-quality code across multiple projects.
 
 ##  📧 Contact Information
 For more information, feedback, or assistance, feel free to contact us:
 | Name         | Email address          |
 |--------------|------------------------|
-| Megha Tyagi  | megha.tyagi.snaatak@mygurukulam.co  |
+| Megha Tyagi  | megha.tyagi.snaatak@mygurukulam.co|
 
 ---
 ## 📚 References
@@ -91,7 +91,4 @@ For more information, feedback, or assistance, feel free to contact us:
 |https://priscillastephan.medium.com/unit-testing-guidelines-what-to-test-and-what-not-to-test-9d4c384a142a| **Medium** |
 |https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/Application%20CI%20Design/Python%20CI%20Checks/Unit%20Testing%20Doc| **Documentation** |
 |https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/Application%20CI%20Design/Python%20CI%20Checks/Unit%20Testing%20POC|**Manual POC**|
-
-
-
-
+|https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/CI%20Implementation/Python-Declarative-Jenkins-Pipeline/Unit-Testing|**Declarative Jenkins Pipeline**|
