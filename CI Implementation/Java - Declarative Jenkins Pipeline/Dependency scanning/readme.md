@@ -38,6 +38,8 @@ This document outlines how to set up a Declarative Jenkins Pipeline for Dependen
 ![image](https://github.com/user-attachments/assets/eb91843f-c210-491f-8ba6-6ed7a61a4961)
 
 ## 💥 Steps to Configuration Declarative pipelines for Dependency scanning
+### Understand Declarative Pipeline syntax [here](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/CI%20Implementation/Java%20-%20Declarative%20Jenkins%20Pipeline/Code%20compilation/readme.md#understand-declarative-pipeline-syntax)
+
 ### To enable the OWASP Dependency-Check plugin in your Maven project, add the following configuration to your pom.xml file. Ensure this configuration is placed within the <build> section
 ```
             <!-- Add the OWASP Dependency-Check plugin -->
