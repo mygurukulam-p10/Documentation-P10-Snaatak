@@ -10,7 +10,7 @@
 1. [💥 Introduction](#-introduction)
 2. [⚙️ Pre-requisites](#-pre-requisites)
 3. [🚀 Global Configurations](-global-configuration)
-4. [💥 Steps to Configuration Bug Testing](#-steps-to-conguration-Bug-testing)
+4. [💥 Steps to Configuration Bug Analysis](#-steps-to-conguration-Bug-analysis)
 5. [📛 Conclusion](#-conclusion)
 6. [📧 Contact Information](#-contact-information)
 7. [📚 References](#-references)
@@ -39,7 +39,7 @@ This project aims to implement a robust code analysis tool using Flake8 to ensur
 ---
 
 
-## 💥 Steps to Configuration to Bug Testing
+## 💥 Steps to Configuration to Bug Analysis
 ### 1. 🚀 Open your Jenkins Dashboard.
 <img width="944" alt="Dashboard" src="https://github.com/user-attachments/assets/32ea261e-9e15-4dc4-9dfe-237965e974be">
 
