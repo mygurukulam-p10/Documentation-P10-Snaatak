@@ -77,10 +77,10 @@ overall security of applications that rely on this library. Regular checks help 
 <img width="943" alt="image" src="https://github.com/user-attachments/assets/b453f920-3e47-472d-add5-161b40c009e6">
 <img width="934" alt="image" src="https://github.com/user-attachments/assets/bedd0bfa-d580-4c2b-b329-161e6d072c54">
 <img width="944" alt="image" src="https://github.com/user-attachments/assets/8d622ab1-50a5-49ed-9b72-f79d249feb59">
+<img width="915" alt="image" src="https://github.com/user-attachments/assets/0a5d2000-d9a8-4917-8bdb-395ecf9494a4">
 
 
-### 9.🚀 Review the stages of the build process in the console output.
-<img width="951" alt="image" src="https://github.com/user-attachments/assets/4cc09d7b-adee-45ec-aacf-8668a390257b">
+
 
 ---
 
