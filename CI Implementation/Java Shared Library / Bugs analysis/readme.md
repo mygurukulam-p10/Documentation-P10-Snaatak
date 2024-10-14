@@ -33,6 +33,33 @@ This document outlines how to set up a Shared Library for Bugs analysis in Java.
 ---
 
 ## 💥 Steps to Configuration to Bug Analysis
+### Understand Shared Library Syntax
+```
+(root)
++- src                     # Groovy source files
+|   +- org
+|       +- foo
+|           +- Bar.groovy  # for org.foo.Bar class
++- vars
+|   +- foo.groovy          # for global 'foo' variable
++- resources               # resource files (external libraries only)
+|   +- org
+|       +- foo
+|           +- bar.json    # static helper data for org.foo.Bar
+```
+| Directory/File       | Description                                                   |
+|----------------------|---------------------------------------------------------------|
+| `src/`               | Contains Groovy source files, organized by packages.         |
+| `src/org/`          | Package directory for organizational structure.              |
+| `src/org/foo/`      | Sub-package for functionality related to `foo`.              |
+| `src/org/foo/Bar.groovy` | Defines the `org.foo.Bar` class.                         |
+| `vars/`              | Holds global variables and their documentation.              |
+| `vars/foo.groovy`    | Global variable or function named `foo`.                     |
+| `vars/foo.txt`       | Help documentation for the `foo` variable.                  |
+| `resources/`         | Contains non-code files (like JSON) that support functionality. |
+| `resources/org/`     | Package directory for resource organization.                 |
+| `resources/org/foo/` | Sub-package for resources related to `foo`.                  |
+| `resources/org/foo/bar.json` | Static helper data for the `org.foo.Bar` class.     |
 ### 1. 🚀 Open your Jenkins Dashboard.
 ![1](https://github.com/user-attachments/assets/59bb5e6e-68e1-4d41-8147-cd7acceeb2d8)
 
