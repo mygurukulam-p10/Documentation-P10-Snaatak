@@ -27,13 +27,13 @@ This document outlines how to set up a Shared Library for Bugs analysis in Java.
 3. **Maven**: Simplifies build management
 4. **Tools for Static Code Analysis** [here](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/Application%20CI%20Design/Java%20CI%20checks/Static%20Code%20Analysis%20Doc).
 
-## 🔍 System Requirements Here[https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/CI%20Implementation/Java%20-%20Declarative%20Jenkins%20Pipeline/Static%20code%20analysis/readme.md#-system-requirements]
+## 🔍 System Requirements [here](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/CI%20Implementation/Java%20-%20Declarative%20Jenkins%20Pipeline/Static%20code%20analysis/readme.md#-system-requirements)
 
 
 ---
 
 ## 💥 Steps to Configuration to Static Code Analysis
-### Understand Shared Library Syntax here[]
+### Understand Shared Library Syntax [here](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/CI%20Implementation/Java%20Shared%20Library%20/%20Bugs%20analysis#understand-shared-library-syntax)
 
 
 ### 1. 🚀 Open your Jenkins Dashboard.
