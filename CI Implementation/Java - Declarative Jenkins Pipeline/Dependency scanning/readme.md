@@ -35,6 +35,7 @@ This document outlines how to set up a Declarative Jenkins Pipeline for Dependen
 | **Disk Space**    | 10 GB                      | 
 | **OS**            |Ubuntu 22.04 LTS           |
 
+![image](https://github.com/user-attachments/assets/eb91843f-c210-491f-8ba6-6ed7a61a4961)
 
 ## 💥 Steps to Configuration Declarative pipelines for Dependency scanning
 ### To enable the OWASP Dependency-Check plugin in your Maven project, add the following configuration to your pom.xml file. Ensure this configuration is placed within the <build> section
