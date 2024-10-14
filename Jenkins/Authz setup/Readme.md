@@ -2,7 +2,7 @@
 
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
 |--------------------|------------|--------------|--------------------------------|
-| 10-10-2024         | 0.2        | Brij Singh   | Authentication in Jenkins   |
+| 14-10-2024         | 0.3       | Brij Singh   | Authentication in Jenkins   |
 
 ---
 
