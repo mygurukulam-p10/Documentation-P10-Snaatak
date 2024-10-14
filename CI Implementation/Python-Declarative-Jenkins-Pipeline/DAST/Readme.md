@@ -1,4 +1,4 @@
-# Dast- Declarative Jenkins Pipeline <img width="52" alt="image" src="https://github.com/user-attachments/assets/0c820c6d-f498-44f3-8d12-fc215c1268ea">
+# Dast(Python)- Declarative Jenkins Pipeline <img width="52" alt="image" src="https://github.com/user-attachments/assets/0c820c6d-f498-44f3-8d12-fc215c1268ea">
 ---  
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
