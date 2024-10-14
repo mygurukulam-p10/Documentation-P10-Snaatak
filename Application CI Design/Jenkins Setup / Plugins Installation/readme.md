@@ -12,7 +12,7 @@
 4. [Plugin Methods](#plugin-methods)
 5. [⚙ Pre-requisites](#-pre-requisites)
 6. [🔍 System Requirements](#-system-requirements)
-7. [💥 Steps to Configuration Declarative pipelines for Code Compilation](#-steps-to-configuration-declarative-pipelines-for-code-compilation)
+7. [💥 Steps to Setup Jenkins Plugin](#-steps-to-setup-jenkins-plugin)
 8. [Limitations](#limitations)
 9. [Best Practices](#best-practices)
 10. [📛 Conclusion](#-conclusion)
