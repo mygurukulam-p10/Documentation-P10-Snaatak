@@ -51,7 +51,7 @@ Jenkins plugins can be categorized into several methods based on their purpose, 
 | **Reporting & Visualization**| **Jenkins**           | CI/CD server for building and deploying applications.            | Configure pipelines in `Jenkinsfile`. |
 |                              | **JIRA**              | Project management tool for tracking issues and progress.        | Integrate with Git for issue tracking. |
 
-## ⚙️ Pre-requisites
+## ⚙ Pre-requisites
 
 | Requirement          | Description                                                                 |
 |----------------------|-----------------------------------------------------------------------------|
@@ -68,6 +68,10 @@ Jenkins plugins can be categorized into several methods based on their purpose, 
 | **Memory (RAM)**     | Minimum 4 GB                                                     |
 | **Storage**          | Minimum 10 GB                                                    |
 | **Operating System** | Ubuntu 22.04                                                    |
+
+
+## 💥 Steps to Setup Jenkins Plugin
+
 
 ## Limitations
 While plugins add valuable functionality, there are limitations to consider:
