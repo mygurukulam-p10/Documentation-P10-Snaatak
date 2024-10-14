@@ -6,7 +6,7 @@
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-| Vinay Bansal | 06-10-2024  | Version 1  | Vinay Bansal     | 06-10-2024     |
+| Vinay Bansal | 06-10-2024  | Version 1  | Vinay Bansal     | 10-10-2024     |
 
 ---
 ## Table of Contents
@@ -94,6 +94,5 @@ For more information, feedback, or assistance, feel free to contact us:
 ## 📚 References
 | Links                                             | Descriptions                                                    |
 |---------------------------------------------------|-----------------------------------------------------------------|
-|https://tinyurl.com/2nue65t2| **Medium** |
-|https://aquasecurity.github.io/trivy/v0.17.2/| **Trivy** |
-|https://dev.to/aws-builders/improving-your-cicd-pipeline-helm-charts-security-scanning-with-trivy-and-github-actions-3315|**Dev**|
+|https://aquasecurity.github.io/trivy/v0.18.3/installation/| **Installation** |
+|https://vijetareigns.medium.com/securing-container-image-using-trivy-in-cicd-pipeline-fe445e18fb9a|Trivy in CICD Pipeline|
