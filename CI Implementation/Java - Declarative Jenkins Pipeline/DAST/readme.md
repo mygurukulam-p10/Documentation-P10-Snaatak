@@ -38,6 +38,7 @@ This document outlines how to set up a Declarative Jenkins Pipeline for DAST usi
 
 
 ## 💥 Steps to Configuration Declarative pipelines for DAST
+### Understand Declarative Pipeline syntax [here](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/CI%20Implementation/Java%20-%20Declarative%20Jenkins%20Pipeline/Code%20compilation/readme.md#understand-declarative-pipeline-syntax)
 
 ### 1. 🚀 Open your Jenkins Dashboard.
 ![1](https://github.com/user-attachments/assets/59bb5e6e-68e1-4d41-8147-cd7acceeb2d8)
