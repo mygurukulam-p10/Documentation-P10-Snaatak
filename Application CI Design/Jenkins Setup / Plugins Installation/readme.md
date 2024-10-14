@@ -3,26 +3,22 @@
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-| Vinay Bansal | 12-10-2024  | Version 1  | Vinay Bansal    | 13-10-2024     |
+| Vinay Bansal | 12-10-2024  | Version 1  | Vinay Bansal    | 15-10-2024     |
 
 ## Table of Contents
 1. [💥 Introduction](#-introduction)
 2. [❓What is a Plugin in Jenkins?](#what-is-a-plugin-in-jenkins)
 3. [❓Why is a Plugin Important?](#why-is-a-plugin-important)
-4. [⚙ Pre-requisites](#-pre-requisites)
-5. [🔍 System Requirements](#-system-requirements)
-6. [💥 Steps to Configuration Declarative pipelines for Code Compilation](#-steps-to-configuration-declarative-pipelines-for-code-compilation)
-7. [📛 Conclusion](#-conclusion)
-8. [📧 Contact Information](#-contact-information)
-9. [📚 References](#-references)
-
-- 
-- 
-- [Plugin Methods](#plugin-methods)
-- [Limitations](#limitations)
-- [Best Practices](#best-practices)
-- [Types of Plugins in Jenkins](#types-of-plugins-in-jenkins)
-- [Conclusion](#conclusion)
+4. [Plugin Methods](#plugin-methods)
+5. [Limitations](#limitations)
+6. [Best Practices](#best-practices)
+7. [Types of Plugins in Jenkins](#types-of-plugins-in-jenkins)
+6. [⚙ Pre-requisites](#-pre-requisites)
+7. [🔍 System Requirements](#-system-requirements)
+8. [💥 Steps to Configuration Declarative pipelines for Code Compilation](#-steps-to-configuration-declarative-pipelines-for-code-compilation)
+9. [📛 Conclusion](#-conclusion)
+10. [📧 Contact Information](#-contact-information)
+11. [📚 References](#-references)
 
 ## 💥 Introduction
 Jenkins is a powerful automation server widely used for continuous integration and continuous delivery (CI/CD). One of its key strengths is its extensibility through plugins. This guide aims to provide an overview of Jenkins plugins, their importance, and best practices for their use.
@@ -44,6 +40,17 @@ Jenkins plugins can be categorized into several methods based on their purpose, 
 - Notification systems
 - Code quality checks
 - Reporting and visualization tools
+
+| Category                     | Tool/Technology       | Description                                                       | Configuration/Usage                   |
+|------------------------------|-----------------------|-------------------------------------------------------------------|--------------------------------------------------------------|
+| **Build Tools**              | **Maven**             | Build automation tool primarily for Java projects.               | `mvn clean install`                                          |
+|                              | **Gradle**            | Flexible build automation tool that supports multiple languages.  | `./gradlew build`                                           |
+| **Notification Systems**     | **Slack**             | Messaging platform for team notifications.                       | Use Incoming Webhooks for notifications.                     |
+|                              | **Email**             | Email notifications for build status and alerts.                | Configure SMTP settings in the CI/CD pipeline.              |
+| **Code Quality Checks**      | **SonarQube**         | Continuous inspection of code quality and security.              | Run analysis with `sonar-scanner` after build.              |
+|                              | **ESLint**            | Linter for JavaScript to identify and report on code quality.    | Run with `eslint .` to check code quality.                  |
+| **Reporting & Visualization**| **Jenkins**           | CI/CD server for building and deploying applications.            | Configure pipelines in `Jenkinsfile`. |
+|                              | **JIRA**              | Project management tool for tracking issues and progress.        | Integrate with Git for issue tracking. |
 
 ## Limitations
 While plugins add valuable functionality, there are limitations to consider:
