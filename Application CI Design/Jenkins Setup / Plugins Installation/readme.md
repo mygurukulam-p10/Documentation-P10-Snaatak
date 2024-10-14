@@ -10,15 +10,14 @@
 2. [❓What is a Plugin in Jenkins?](#what-is-a-plugin-in-jenkins)
 3. [❓Why is a Plugin Important?](#why-is-a-plugin-important)
 4. [Plugin Methods](#plugin-methods)
-5. [Limitations](#limitations)
-6. [Best Practices](#best-practices)
-7. [Types of Plugins in Jenkins](#types-of-plugins-in-jenkins)
-6. [⚙ Pre-requisites](#-pre-requisites)
-7. [🔍 System Requirements](#-system-requirements)
-8. [💥 Steps to Configuration Declarative pipelines for Code Compilation](#-steps-to-configuration-declarative-pipelines-for-code-compilation)
-9. [📛 Conclusion](#-conclusion)
-10. [📧 Contact Information](#-contact-information)
-11. [📚 References](#-references)
+5. [⚙ Pre-requisites](#-pre-requisites)
+6. [🔍 System Requirements](#-system-requirements)
+7. [💥 Steps to Configuration Declarative pipelines for Code Compilation](#-steps-to-configuration-declarative-pipelines-for-code-compilation)
+8. [Limitations](#limitations)
+9. [Best Practices](#best-practices)
+10. [📛 Conclusion](#-conclusion)
+11. [📧 Contact Information](#-contact-information)
+12. [📚 References](#-references)
 
 ## 💥 Introduction
 Jenkins is a powerful automation server widely used for continuous integration and continuous delivery (CI/CD). One of its key strengths is its extensibility through plugins. This guide aims to provide an overview of Jenkins plugins, their importance, and best practices for their use.
@@ -52,6 +51,24 @@ Jenkins plugins can be categorized into several methods based on their purpose, 
 | **Reporting & Visualization**| **Jenkins**           | CI/CD server for building and deploying applications.            | Configure pipelines in `Jenkinsfile`. |
 |                              | **JIRA**              | Project management tool for tracking issues and progress.        | Integrate with Git for issue tracking. |
 
+## ⚙️ Pre-requisites
+
+| Requirement          | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| **✔️ Jenkins**          | Jenkins installed and configured for CI/CD processes.                       |
+| **✔️ Java 17**               | Required for compiling Jenkins and Spring Boot projects            |
+
+## 🔍 System Requirements
+
+### Hardware System Requirements
+
+| Requirement          | Specification                                                     |
+|----------------------|-------------------------------------------------------------------|
+| **Processor**        | Minimum 2-core CPU                                               |
+| **Memory (RAM)**     | Minimum 4 GB                                                     |
+| **Storage**          | Minimum 10 GB                                                    |
+| **Operating System** | Ubuntu 22.04                                                    |
+
 ## Limitations
 While plugins add valuable functionality, there are limitations to consider:
 - Compatibility issues between plugins and Jenkins versions.
@@ -63,13 +80,6 @@ To effectively manage plugins in Jenkins:
 - Regularly update plugins to their latest versions.
 - Limit the number of plugins to those that are necessary.
 - Monitor plugin performance and remove unused ones.
-
-## Types of Plugins in Jenkins
-Plugins can be categorized into various types, including:
-- Source Code Management (SCM) plugins
-- Build Management plugins
-- Notification and Reporting plugins
-- User Interface plugins
 
 ## 📛 Conclusion
 Jenkins plugins are vital for extending the capabilities of the Jenkins server. Understanding their purpose, methods, limitations, and best practices can significantly enhance your CI/CD processes. By leveraging the right plugins, teams can optimize their workflows and improve productivity.
