@@ -167,7 +167,7 @@ For any queries or further information, feel free to contact:
 The **Role-Based Authorization Strategy** provides a secure and scalable way to manage permissions in Jenkins. By assigning roles and following best practices, Jenkins administrators can control access effectively and ensure a compliant CI/CD environment.
 
 ---
-
+## 📚 References
 
 
 [plugin documentation](https://plugins.jenkins.io/role-strategy/)
