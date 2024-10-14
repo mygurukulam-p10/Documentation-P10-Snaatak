@@ -36,14 +36,16 @@ This document outlines how to set up a Shared Library for Bugs analysis in Java.
 ### 1. 🚀 Open your Jenkins Dashboard.
 ![1](https://github.com/user-attachments/assets/59bb5e6e-68e1-4d41-8147-cd7acceeb2d8)
 
-### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `Bug Analysis`).
+### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `Bug-analysis-shared`).
+![image](https://github.com/user-attachments/assets/8ed91e15-f2a0-4db1-a9fa-5028e42168ac)
 
 
 ### 3. 🚀 Provide a description for the pipeline in detail what will perform.
+![image](https://github.com/user-attachments/assets/77b6469d-c1f6-48be-92c3-bb4a17aa4b7b)
 
 
 
-### 4. 🚀 Create the repo for add jenkinfile which will be using in pipeline script.
+### 4. 🚀 Create the repo for add jenkinSfile which will be using in pipeline script.
 
 
 
