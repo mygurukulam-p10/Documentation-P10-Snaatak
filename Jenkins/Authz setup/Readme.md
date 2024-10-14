@@ -148,6 +148,10 @@ I created two new roles for my users and attached the permissions for these role
 After creating the roles, assign them to users.
 Go to Assign Roles > Add User > Select the roles.
 
+![image](https://github.com/user-attachments/assets/75640c75-c260-4d7d-a272-bbc959f61ee3)
+
+Now, you can log out or use another browser to log in with the created users. In my case, you can observe the different access permissions.
+
 ---
 
 ## ✅ Conclusion
@@ -155,4 +159,7 @@ Go to Assign Roles > Add User > Select the roles.
 The **Role-Based Authorization Strategy** provides a secure and scalable way to manage permissions in Jenkins. By assigning roles and following best practices, Jenkins administrators can control access effectively and ensure a compliant CI/CD environment.
 
 ---
-##
+
+
+
+[plugin documentation](https://plugins.jenkins.io/role-strategy/)
