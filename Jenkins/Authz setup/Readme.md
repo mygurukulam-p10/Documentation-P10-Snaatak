@@ -134,16 +134,19 @@ Follow these steps to implement **Role-based Authorization** in Jenkins:
 
 4. **Manage and Assign Roles**:
    - Navigate to **Manage Jenkins > Manage and Assign Roles**.
+     
      ![image](https://github.com/user-attachments/assets/bbf9e5ec-fd78-43a6-83ad-27c6fe44a956)
 
+   This is the default view for Role-based Configuration settings.
+         
      ![image](https://github.com/user-attachments/assets/385d754a-fa39-475e-a9bb-0126b33672c2)
 
-   - Define global and item roles, such as "Test_DEVs" for specific projects.
-  
-   - 
+I created two new roles for my users and attached the permissions for these roles. don’t forget to Save and Apply.
 
-   ![image](https://github.com/user-attachments/assets/7b8e083f-7165-404a-9e16-f6f03dc1fbe9)
+![image](https://github.com/user-attachments/assets/5f30b74b-86ca-4526-adf9-029a1dfa1381)
 
+After creating the roles, assign them to users.
+Go to Assign Roles > Add User > Select the roles.
 
 ---
 
