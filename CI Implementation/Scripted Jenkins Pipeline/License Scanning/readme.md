@@ -37,7 +37,8 @@ This document outlines the process for setting up **Trivy** to perform license s
 | **Disk Space**    | 500 MB                    |
 | **Operating System** | Linux, macOS, or Windows | 
 
----
+![image](https://github.com/user-attachments/assets/eb91843f-c210-491f-8ba6-6ed7a61a4961)
+
 
 ## 💥 Steps to Configuration Scripted pipelines for License Scanning
 
