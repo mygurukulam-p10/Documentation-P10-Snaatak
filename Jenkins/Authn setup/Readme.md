@@ -50,13 +50,17 @@ Jenkins has several ways to handle user login:
 
 | Method                           | Description |
 |-----------------------------------|-------------|
-| **Jenkins Database**              | Users log in with a username and password stored in Jenkins. |
-| **LDAP (e.g., Active Directory)** | Uses existing company credentials to log in. |
-| **Single Sign-On (SSO)**          | Log in once for multiple services using SAML or OAuth. |
-| **API Token**                     | Users generate tokens for secure API access. |
-| **SSH Keys**                      | Log in using SSH keys, often used with Git. |
-| **OpenID Connect**                | Log in via third-party providers like Google. |
-| **Third-Party Plugins**           | More authentication options through plugins. |
+| **Jenkins Database**              |Jenkins manages usernames and passwords internally.
+Example: A user logs into Jenkins with credentials (username: "dev_user", password: "dev_pass") stored in Jenkins. |
+| **LDAP (e.g., Active Directory)** | Jenkins integrates with corporate LDAP, allowing employees to use their existing work credentials.
+Example: An employee logs into Jenkins with their company email and password (stored in the company’s Active Directory).|
+| **Single Sign-On (SSO)**          |Allows users to log in once and access multiple systems using SAML or OAuth.
+Example: A user logs into Jenkins via their Google Workspace account, which also grants them access to other company services.|
+| **API Token**                     |Jenkins users can generate API tokens for programmatic access, instead of using passwords.
+Example: A user creates an API token in Jenkins and uses it to trigger Jenkins builds via a script or command-line tool. |
+| **SSH Keys**                      | Used for secure logins, often with Git integration, bypassing passwords.
+Example: A developer configures Jenkins to log in using their public SSH key, which they also use for Git operations|
+
 
 ---
 
@@ -83,20 +87,6 @@ To keep Jenkins secure, follow these tips:
 | **Monitor User Activity**          | Keep an eye on logs for suspicious behavior. |
 | **Update Jenkins and Plugins**     | Regularly update Jenkins to keep it secure. |
 
----
-
-## 🔄 Types of Authentication in Jenkins
-
-Here are different ways to prove the concept of authentication in Jenkins:
-
-| Type                     | Description |
-|---------------------------|-------------|
-| **LDAP Authentication**    | Uses existing directory services like Active Directory. |
-| **GitHub Authentication**  | Log in using GitHub credentials (OAuth). |
-| **Google Authentication**  | Log in using Google credentials (OAuth). |
-| **SAML Authentication**    | Uses Single Sign-On (SSO) through SAML. |
-| **OpenID Connect**         | Log in using OpenID Connect providers. |
-| **Custom Authentication**  | Implement specific methods based on your organization's needs. |
 
 ---
 
