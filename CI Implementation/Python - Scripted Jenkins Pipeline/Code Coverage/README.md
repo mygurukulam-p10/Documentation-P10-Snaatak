@@ -1,4 +1,4 @@
-# Code Coverage - Scripted Jenkins Pipeline with Pytest
+![image](https://github.com/user-attachments/assets/462db75e-71d1-4047-aea1-0239e20d7e6e)# Code Coverage - Scripted Jenkins Pipeline with Pytest
 
 ---  
 | Author      | Created on | Version   | Last updated by | Last edited on | Reviewed By L0 | Reviewed By L1 | Reviewed By L2 |
@@ -58,10 +58,10 @@ This README provides a comprehensive guide to setting up code coverage analysis 
 
 
 ### 6. 🖥️ Click on **Build** to initiate the pipeline.
-![image](https://github.com/user-attachments/assets/e983e2c7-4cc8-4c16-ae6d-5b7d56a7dd6b)
+![image](https://github.com/user-attachments/assets/e2d572ad-75fd-45d3-a44f-94748ddf9d69)
 
 ### 7. 🖥️ Observe as the build completes.
-![image](https://github.com/user-attachments/assets/a3d65707-56ea-40fd-ae03-7255b6929993)
+![image](https://github.com/user-attachments/assets/63131878-ca7b-44fd-8163-b25f8e56151f)
 
 ### 8. 🖥️ Review the **Console Output** for build details.
 ![image](https://github.com/user-attachments/assets/bce9013b-b3ab-4798-834f-5e42744e09cb)
