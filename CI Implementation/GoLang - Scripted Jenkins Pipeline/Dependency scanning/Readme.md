@@ -18,7 +18,7 @@
 8. [📚 References](#-references)
 
 ## ⭐ Introduction 
-This document provides an overview of implementing dependency scanning in a project using OWASP Dependency-Check in a Jenkins scripted pipeline.
+This document provides an overview of implementing dependency scanning in a project using snyk in a Jenkins scripted pipeline.
 
 
 ---
