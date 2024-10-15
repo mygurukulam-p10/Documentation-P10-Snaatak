@@ -1,10 +1,10 @@
-# Dependency Scanning - Jenkins Pipeline
+# Dependency Scanning - Jenkins  Shared Pipeline
 
 ---
 
 | ✍ Author      | 📅 Created on  | 📌 Version    | 📝 Last updated by | 📅 Last edited on |
 |----------------|----------------|---------------|--------------------|-------------------|
-| Amit Nagar     | 05-10-2024     | Version 1     | Amit Nagar         | 05-10-2024        |
+| Amit Nagar     | 16-10-2024     | Version 1     | Amit Nagar         | 16-10-2024        |
 
 ---
 ## Table of Contents
