@@ -70,11 +70,12 @@ This section outlines the steps to configure a Jenkins job for bug analysis usin
 ![image](https://github.com/user-attachments/assets/49b8e0f2-c565-40f7-b2af-cbe70830692c)
 
 ### 6. 🖥️ Click on **Build** to initiate the pipeline.
-![image](https://github.com/user-attachments/assets/2c592001-9805-4559-9527-5fd94073b84f)
+![image](https://github.com/user-attachments/assets/d4435729-6859-4484-ac84-9ca11a5c5363)
 
 
 ### 7. 🖥️ Observe as the build completes.
-![image](https://github.com/user-attachments/assets/2c592001-9805-4559-9527-5fd94073b84f)
+![image](https://github.com/user-attachments/assets/a41f6e94-8944-4b30-9e2d-ad924e125586)
+
 
 ### 8. 🖥️ Review the **Console Output** for build details.
 ![image](https://github.com/user-attachments/assets/db907520-1973-4556-b91a-e540758bb300)
