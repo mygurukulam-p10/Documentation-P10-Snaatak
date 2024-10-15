@@ -73,11 +73,11 @@ This section outlines the steps to configure a Jenkins job for static code analy
 
 
 6. **Click on Build** to initiate the pipeline.
-![image](https://github.com/user-attachments/assets/3ea4c1fd-4b05-453a-8d73-5e9791b0640a)
+![image](https://github.com/user-attachments/assets/254f2dd3-7b5a-4f0e-9503-13cc8d9d1038)
 
 
 7. **Observe as the build completes.**
-![image](https://github.com/user-attachments/assets/c6bb0b28-0bb1-462d-bf82-8e497231381a)
+![image](https://github.com/user-attachments/assets/679c29e0-3bd5-4f56-a018-88765924ac15)
 
 8. **Review the Console Output** for build details.
 ![image](https://github.com/user-attachments/assets/f8dd442d-44b1-464e-91c7-edf8d9acc59f)
