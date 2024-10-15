@@ -1,4 +1,4 @@
-# Dependency Scanning - OWASP Dependency-Check Jenkins Pipeline
+# Dependency Scanning - Dependency-Check Jenkins Pipeline
 
 ---
 
