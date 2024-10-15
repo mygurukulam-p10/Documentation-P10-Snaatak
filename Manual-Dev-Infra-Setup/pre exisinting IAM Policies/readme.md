@@ -111,6 +111,6 @@ Identifying pre-existing IAM policies is a strategic approach to access manageme
 
 | Description                                   | References  
 | --------------------------------------------  | -------------------------------------------------|
-| Link |https://deliciousbrains.com/wp-offload-media/doc/custom-iam-policy-for-amazon-s3/|
-| Link | https://docs.aws.amazon.com/iam/ |
+| IAM Policiy |https://deliciousbrains.com/wp-offload-media/doc/custom-iam-policy-for-amazon-s3/|
+| IAM Policiy | https://docs.aws.amazon.com/iam/ |
 
