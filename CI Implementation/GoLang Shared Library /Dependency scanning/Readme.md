@@ -115,7 +115,8 @@ To configure the shared library in Jenkins globally, follow these steps:
 
 
 ### 6. 🚀 Now we are able to see build complete.
-![Screenshot from 2024-10-16 02-49-15](https://github.com/user-attachments/assets/da16c8ce-2bf9-4251-9dd4-fee8d9a80faf)
+![Screenshot from 2024-10-16 02-42-01](https://github.com/user-attachments/assets/8928530e-3184-4a7d-a1e9-19b83fe2bbb6)
+
 
 
 ### 7. 🚀 Click on Console Output to see the complete build.
@@ -124,30 +125,33 @@ To configure the shared library in Jenkins globally, follow these steps:
 
 
 ### 8. 🚀 Review the results of the dependency scanning in the console output.
-![Screenshot from 2024-10-12 11-32-17](https://github.com/user-attachments/assets/a654dad5-91c5-41f2-9586-d26f8fee96f6)
+![Screenshot from 2024-10-16 02-49-15](https://github.com/user-attachments/assets/da16c8ce-2bf9-4251-9dd4-fee8d9a80faf)
 
 # Jenkinsfile
 ```
 
+@Library("shared1") _  
 node {
-    // Set up Go and Snyk tool paths
-    def goTool = tool name: 'golang', type: 'go'
-    env.PATH = "${goTool}/bin:${env.PATH}"
+    try {
+        // Git Checkout
+        def branch = 'main'
+        def creds = 'amit_cred'
+        def url = 'git@github.com:mygurukulam-p10/employee-api.git'
+        echo "Starting Git checkout on branch: ${branch} from URL: ${url} using credentials ID: ${creds}"
+        gitCheckout(branch, creds, url)
+        echo "Git checkout completed successfully."
 
-    stage('Clone Repository') {
-        // Clone the specified repository from GitHub
-        git branch: 'main', url: 'git@github.com:mygurukulam-p10/employee-api.git', credentialsId: "amit_cred"
-    }
+        // Tool Installation
+        def toolName = 'golang'
+        goToolInstallation(toolName)  // Install Go tool
 
-    stage('Run Snyk Test') {
-        // Run Snyk test command to generate the report
-        script {
-            snykSecurity(
-          snykInstallation: 'snyk',
-          snykTokenId: 'snyk_token',
-    
-        )
-        }
+        // Snyk Test
+        echo "Starting dependency scanning with Snyk..."
+        GoDependencyScanning('snyk_token', 'snyk')  // Run Snyk dependency scanning
+        echo "Dependency scanning completed successfully."
+
+    } catch (Exception e) {
+        echo "An error occurred: ${e.message}"
     }
 }
 ```
