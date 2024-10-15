@@ -72,7 +72,7 @@ This document outlines how to set up a Shared Library for Bugs analysis in Java.
 
 
 
-### 4. 🚀 Create the repo for add src & vars file which will be using in pipeline script.
+### 4. 🚀 Create the repo for add vars file which will be using in pipeline script.
 ![image](https://github.com/user-attachments/assets/6ef8e548-2f8b-438d-afc4-82a9f5c538a9)
 
 
