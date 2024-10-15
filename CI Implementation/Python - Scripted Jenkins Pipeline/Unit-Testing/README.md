@@ -59,11 +59,10 @@ This document provides a comprehensive guide to setting up unit testing using **
 
 
 ### 6. 🖥️ Click on **Build** to initiate the pipeline.
-![image](https://github.com/user-attachments/assets/f436d184-85fb-4686-be77-5c3e4e98ee05)
-
+![image](https://github.com/user-attachments/assets/e5209bde-6ac2-4f99-b376-849730364076)
 
 ### 7. 🖥️ Observe as the build completes.
-![image](https://github.com/user-attachments/assets/7d4ce80d-f664-4c8c-8fd2-72755637d5e2)
+![image](https://github.com/user-attachments/assets/aafe9fb0-2755-4c51-9fd6-f27a62f062bc)
 
 ### 8. 🖥️ Review the **Console Output** for build details.
 ![image](https://github.com/user-attachments/assets/14d5e015-a3b6-40bb-b259-c02038f3060b)
