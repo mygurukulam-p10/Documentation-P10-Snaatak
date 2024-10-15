@@ -48,15 +48,12 @@ This document outlines how to set up a Shared Library for Bugs analysis in Java.
 
 
 
-### 4. 🚀 Create the repo for add src & vars file which will be using in pipeline script.
-![image](https://github.com/user-attachments/assets/295fd8fb-899b-4faa-9d23-59770b1aff34)
-![image](https://github.com/user-attachments/assets/581b80b8-317e-42bc-8aac-d4a371e36c4a)
-![image](https://github.com/user-attachments/assets/100a6dbb-73d4-4328-b200-e66f214f5871)
-
+### 4. 🚀 Create the repo for add vars file which will be using in pipeline script.
+![image](https://github.com/user-attachments/assets/aca5f653-d073-48ed-aebc-8b3a9cd5eb01)
 
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Static Code Analysis in the pipeline script ...> add repo link & credintial, file path.
-![image](https://github.com/user-attachments/assets/fa17d726-f6c4-44c1-afba-58b8fd119fa6)
+![image](https://github.com/user-attachments/assets/add97a5e-cfbc-4516-8dcc-08c80ef3a086)
 
 
 
@@ -65,7 +62,7 @@ This document outlines how to set up a Shared Library for Bugs analysis in Java.
 
 
 ### 7.🚀 Now we are able to see build complete-
-![image](https://github.com/user-attachments/assets/94235b45-db66-400e-9e1e-df60b74b37ab)
+![image](https://github.com/user-attachments/assets/fe36c3a2-4db3-4824-aea9-63819a16acc3)
 
 
 ### 8.🚀 Click on Console Output to see the complete build.
@@ -74,7 +71,7 @@ This document outlines how to set up a Shared Library for Bugs analysis in Java.
 
 
 ### 9.🚀 Review the stages of the build process in the console output.
-![image](https://github.com/user-attachments/assets/f338ae55-f6a7-489b-bf28-d7a7d01f2a68)
+![image](https://github.com/user-attachments/assets/fe672bae-2cdc-45f4-8f7c-ff106ae77e61)
 
 
 
