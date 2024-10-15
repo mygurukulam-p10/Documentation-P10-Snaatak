@@ -77,30 +77,50 @@ This document provides an overview of implementing dependency scanning in a proj
 # Steps to Configuration Dependency Scanning
 ### 1. 🚀 Open your Jenkins Dashboard.
 
-### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `Dependency Scanning`).
+## Step 1.1: Configure the Shared Library in Jenkins
 
-![Screenshot from 2024-10-11 20-41-10](https://github.com/user-attachments/assets/664e5b1c-81ea-47dc-a7f3-44880f853b40)
+To configure the shared library in Jenkins globally, follow these steps:
+
+1. Go to the **Jenkins Dashboard**.
+2. Click on **Manage Jenkins** → **Configure System**.
+3. Scroll down to **Global Pipeline Libraries** and click **Add**.
+4. Fill out the details:
+   - **Name**: Give your shared library a name (e.g., `shared-library`).
+   - **Default Version**: (Optional) Enter the branch, tag, or commit hash (e.g., `main`).
+   - **Retrieval Method**: Choose `Modern SCM` and select **Git**.
+   - **Repository URL**: Provide the URL to the shared library repository.
+   - **Credentials**: If your repository requires authentication, select or add the necessary credentials.
+   
+ ![Screenshot from 2024-10-16 02-47-49](https://github.com/user-attachments/assets/ae329def-ca32-4a85-bfb0-66bc24e38d54)
+
+
+5. Click **Save** to apply the configuration.
+
+
+### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `shared Dependency Scanning`).
+![Screenshot from 2024-10-16 01-53-54](https://github.com/user-attachments/assets/4e8fee46-b748-47da-aa5c-41547db097cb)
+
 
 
 ### 3. 🚀 Provide a description for the pipeline in detail about what it will perform.
-![Screenshot from 2024-10-11 20-41-28](https://github.com/user-attachments/assets/d35d2e13-a140-46e2-bb24-ae3a2268def2)
+![Screenshot from 2024-10-16 02-43-22](https://github.com/user-attachments/assets/1c7a51a3-f490-4cb1-907b-e5446c1e9007)
+
 ### 4. 🚀 Choose Pipeline as the job type-->Add your pipeline script for dependency scanning in the pipeline configuration...>Click on Save to store the configuration.
 ![Screenshot from 2024-10-12 11-53-58](https://github.com/user-attachments/assets/0602c080-537d-4675-81c7-5cc9c24f4f86)
 
-![Screenshot from 2024-10-12 11-54-03](https://github.com/user-attachments/assets/8c724263-7ad3-4d78-ae9b-9f6461d74a64)
+![Screenshot from 2024-10-16 02-50-57](https://github.com/user-attachments/assets/d7b9ecd4-4917-4a96-9b2e-88cb0e93a2fa)
 
 ### 5. 🚀 Then Click on build to run the pipeline to perform dependency scanning.
 ![Screenshot from 2024-10-12 10-38-20](https://github.com/user-attachments/assets/8955da9b-ed8d-4a08-a7a8-6f1f487cecc3)
 
 
 ### 6. 🚀 Now we are able to see build complete.
-![Screenshot from 2024-10-12 11-32-05](https://github.com/user-attachments/assets/bd6d95a5-ea96-497e-9da4-7b6cbfd12283)
+![Screenshot from 2024-10-16 02-49-15](https://github.com/user-attachments/assets/da16c8ce-2bf9-4251-9dd4-fee8d9a80faf)
+
 
 ### 7. 🚀 Click on Console Output to see the complete build.
-![Screenshot from 2024-10-12 11-43-53](https://github.com/user-attachments/assets/b8f4fc28-b689-4417-8abb-12bfddf9c2b5)
-
-
-![Screenshot from 2024-10-12 11-44-02](https://github.com/user-attachments/assets/cd011db4-0f44-4d9f-a0c3-a509a85d982f)
+![Screenshot from 2024-10-16 02-41-26](https://github.com/user-attachments/assets/866daa86-777f-468e-bfcb-d447013658bc)
+![Screenshot from 2024-10-16 02-41-32](https://github.com/user-attachments/assets/099c5b81-2df4-47f1-a838-b91ffcea3436)
 
 
 ### 8. 🚀 Review the results of the dependency scanning in the console output.
