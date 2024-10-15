@@ -48,10 +48,9 @@ Creating custom IAM policies allows you to have precise control over who can do 
 ##  Advantages of Custom IAM Policies
 | Advantages                       | Description                                                                                                                             |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| **Enhanced Security**         | Custom policies allow you to set specific conditions (like IP address or time), adding extra security and reducing the risk of breaches.|
+| **Enhanced Security**         | Custom policies allow you to set specific conditions (resources), adding extra security and reducing the risk of breaches.|
 | **Flexibility and Scalability**| As your business grows, custom policies can be easily adjusted to meet new needs and scale as your AWS resources expand.                |
 | **Least Privilege Principle** | Custom policies make sure users only get the permissions they really need, which improves security by minimizing unnecessary access.    |
-| **Tailored Access Control**   | You can create policies that fit your exact security and compliance needs, ensuring people only access what they should.                |
 | **Better Control and Management**| Custom policies provide better control, making it easier to manage and review access permissions regularly for optimal security.       |
 
 
@@ -121,4 +120,4 @@ Custom IAM policies allow organizations to manage access to AWS resources carefu
 
 | Description                                   | References  
 | --------------------------------------------  | -------------------------------------------------|
-| Link |https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html|
+| IAM Policies |https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html|
