@@ -71,10 +71,11 @@ This document outlines how to set up a Declarative Jenkins Pipeline for DAST usi
 ![image](https://github.com/user-attachments/assets/eeafc50c-0c03-4586-8fa1-dab035a97d91)
 ![image](https://github.com/user-attachments/assets/a29ac895-a618-4549-9d6c-eb07b1777886)
 
+### 9.🚀 Verify Report.
+![image](https://github.com/user-attachments/assets/9b2a454d-b4cc-45ac-af77-1d1ea69e2a8a)
 
 
-
-### 9.🚀 Review the stages of the build process in the console output.
+### 10.🚀 Review the stages of the build process in the console output.
 ![image](https://github.com/user-attachments/assets/5d678f5d-d0dd-4509-9ce4-275ff126b27d)
 
 
