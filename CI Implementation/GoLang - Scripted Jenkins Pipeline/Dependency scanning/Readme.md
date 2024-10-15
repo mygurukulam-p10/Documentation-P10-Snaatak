@@ -1,4 +1,4 @@
-# Dependency Scanning - Dependency-Check Jenkins Pipeline
+# Dependency Scanning - Jenkins Pipeline
 
 ---
 
