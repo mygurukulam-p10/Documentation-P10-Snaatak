@@ -127,6 +127,11 @@ To configure the shared library in Jenkins globally, follow these steps:
 ### 8. 🚀 Review the results of the dependency scanning in the console output.
 ![Screenshot from 2024-10-16 02-49-15](https://github.com/user-attachments/assets/da16c8ce-2bf9-4251-9dd4-fee8d9a80faf)
 
+
+### Shared Library structure
+
+https://github.com/mygurukulam-p10/jenkins-shared-library.git
+
 # Jenkinsfile
 ```
 
