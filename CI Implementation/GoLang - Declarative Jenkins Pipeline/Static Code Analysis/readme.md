@@ -46,14 +46,21 @@ This document provides an overview of implementing static code analysis in a Go 
 
 ### Step 2:  🚀 Click on **New Item
 **Enter a name for your job (e.g., GoLang Static Code Analysis) & Choose Pipeline**.
-![Screenshot from 2024-10-16 18-02-30](https://github.com/user-attachments/assets/60fd1474-9cd6-4d82-ad04-5af422590113)
+![Screenshot from 2024-10-16 18-14-20](https://github.com/user-attachments/assets/7886a7be-523c-4a9b-b94e-ef4b7344efd4)
+
 
 ### Step 3: 🚀 Provide a description for the pipeline detailing what it will perform.
-![Screenshot from 2024-10-16 18-04-22](https://github.com/user-attachments/assets/0e8fd60e-d555-4a3c-942f-368206ba837a)
+![Screenshot from 2024-10-16 18-15-02](https://github.com/user-attachments/assets/fefb4073-5e12-4bb6-9866-4378c198548f)
 
-### Step 4: Choose Pipeline as the job type
+### Step 4: 🚀 Choose Pipeline as the job type
 - **Add your pipeline script for static code analysis in the pipeline configuration**. 
 - **Click on Save to store the configuration**.
-![Screenshot from 2024-10-16 18-10-07](https://github.com/user-attachments/assets/940d88d2-e333-4a57-93f8-bf7a2d0c1fcc)
+![Screenshot from 2024-10-16 18-16-40](https://github.com/user-attachments/assets/9f37bf9d-7e2c-46ab-bdd6-c2e4742d4d4b)
+![Screenshot from 2024-10-16 18-17-08](https://github.com/user-attachments/assets/b66fe08a-49c3-43c3-85e4-31a6260a31e1)
+
+### Step 5: 🚀 Click on Build to run the pipeline for static code analysis.
+![Screenshot from 2024-10-16 18-18-54](https://github.com/user-attachments/assets/98fab5aa-9d06-4ed9-a299-de4ef52a8304)
+
+### Step 6: 🚀 Now, you should be able to see the build complete.
 
 
