@@ -12,10 +12,11 @@
 1. [Introduction](#Introduction)
 2. [Pre-requisites](#⚙-pre-requisites)
 3. [System Requirements](#🔍-system-requirements)
-4. [Steps to Install and Configure OpenVPN](#💥-steps-to-install-and-configure-openvpn)
-5. [Conclusion](#conclusion)
-6. [Contact Information](#-contact-information)
-7. [References](#references)
+4. [Flow Diagram](#Flow-Diagram)
+5. [Steps to Install and Configure OpenVPN](#💥-steps-to-install-and-configure-openvpn)
+6. [Conclusion](#conclusion)
+7. [Contact Information](#-contact-information)
+8. [References](#references)
 
 ## 📚 Introduction
 This document serves as a comprehensive guide for installing and configuring OpenVPN.
@@ -34,6 +35,11 @@ This document serves as a comprehensive guide for installing and configuring Ope
 
 
 ---
+
+
+## Flow Diagram
+
+![image](https://github.com/user-attachments/assets/ffa19ac7-7c61-4e6a-9514-1efd6adccb3f)
 
 ## 💥 Steps to Install and Configure OpenVPN
 
