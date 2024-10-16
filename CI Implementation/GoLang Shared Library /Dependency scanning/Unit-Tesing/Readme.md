@@ -63,14 +63,15 @@ This document provides an overview of implementing unit testing in a Go project 
 **-->** Click on **Save** to store the configuration.
 ![Screenshot from 2024-10-09 19-29-36](https://github.com/user-attachments/assets/798e66bc-7ab3-43ea-9eb4-562af49b46c2)
 
+![Screenshot from 2024-10-16 12-48-05](https://github.com/user-attachments/assets/38ee487a-f306-4d82-8606-49d8985596e2)
 
 
 ### 5. 🚀 Click on **Build** to run the pipeline for unit testing.
-![Screenshot from 2024-10-05 16-39-44](https://github.com/user-attachments/assets/f858f2c1-ad1d-4cae-931f-64341b956a87)
+
+
 
 ### 6. 🚀 Now, you should be able to see the build complete.
-![Screenshot from 2024-10-05 16-46-45](https://github.com/user-attachments/assets/56ead5a2-e956-4aba-8643-48c91018c420)
-
+![Screenshot from 2024-10-16 12-28-57](https://github.com/user-attachments/assets/3e0aa0fe-bbfa-4b4b-ad3a-8a66f64fbe54)
 ### 7. 🚀 Click on **Console Output** to see the complete build results.
 ![Screenshot from 2024-10-16 12-28-37](https://github.com/user-attachments/assets/0efa6d7b-054b-454f-80fa-8cc60c654658)
 
@@ -79,25 +80,71 @@ This document provides an overview of implementing unit testing in a Go project 
 
 
 ### 8. 🚀 Review the results of the unit testing process in the console output.
-![Screenshot from 2024-10-05 16-47-23](https://github.com/user-attachments/assets/bc3a7d99-0190-4390-8480-ce501a7fafc4)
+![Screenshot from 2024-10-16 12-29-30](https://github.com/user-attachments/assets/24a58f66-f013-409c-8e9c-a893819b43b7)
+
 
 # Jenskinfile
 
 ```groovy
+@Library("shared1") _  
 node {
-    def goTool = tool name: 'golang', type: 'go'
-    
-    // Set the PATH to include Go binary directory
-    env.PATH = "${goTool}/bin:${env.PATH}"
+    try {
+        // Git Checkout
+        def branch = 'main'
+        def creds = 'amit_cred'
+        def url = 'git@github.com:mygurukulam-p10/employee-api.git'
+        def toolName = 'golang'
+        echo "Starting Git checkout on branch: ${branch} from URL: ${url} using credentials ID: ${creds}"
+        gitCheckout(branch, creds, url)
+        echo "Git checkout completed successfully."
+         
+        // Tool Installation
+      
+        goToolInstallation(toolName)  // Install Go tool
+        goInstallDependency()
+        // golang unittesting
+        golangUnitTesing()
+        
 
-    stage("Checkout") {
-        git branch: 'main', url: 'git@github.com:mygurukulam-p10/employee-api.git', credentialsId: "amit_cred"
+    } catch (Exception e) {
+        echo "An error occurred: ${e.message}"
     }
+}
+```
 
+## var folder groovy files
+goInstallDependency.groovy
+
+```
+def call (){
     stage("Install Dependencies") {
+        // Use the Go tool to tidy dependencies
         sh "go mod tidy"
     }
+}
+```
 
+
+gitCheckout.groovy
+```
+def call (String branch, String creds, String url) {
+        stage('Checkout') {
+            // Perform the Git checkout
+            script{
+
+                git branch: "${branch}", url: "${url}", credentialsId: "${creds}"
+            }
+            
+        }
+        return "Checkout successful for branch: ${branch}"
+    }
+```
+
+
+golangUnitTesing.groovy
+
+```
+def call(){
     stage("Unit Testing") {
         script {
             sh '''
@@ -106,6 +153,24 @@ node {
             '''
         }
     }
+}
+
+```
+
+```
+def call(String  snykTokenId , String snykInstallation){
+
+        stage("Run snyk test"){
+           script{
+          snykSecurity(
+          snykInstallation: snykInstallation,
+          snykTokenId: snykTokenId)
+
+           }
+            
+        }
+
+        return "testing done"
 }
 
 ```
