@@ -1,4 +1,4 @@
-# Unit Testing - Scripted Jenkins Pipeline
+# Unit Testing - Shared Jenkins Pipeline
 
 ---
 
@@ -19,7 +19,7 @@
 8. [📚 References](#-references)
 
 ## ⭐ Introduction
-This document provides an overview of implementing unit testing in a Go project using a Jenkins scripted pipeline. The aim is to ensure that the Go code is tested effectively, helping to identify bugs and ensure code quality.
+This document provides an overview of implementing unit testing in a Go project using a Jenkins shared pipeline. The aim is to ensure that the Go code is tested effectively, helping to identify bugs and ensure code quality.
 
 ## ⚙️ Pre-requisites
 
