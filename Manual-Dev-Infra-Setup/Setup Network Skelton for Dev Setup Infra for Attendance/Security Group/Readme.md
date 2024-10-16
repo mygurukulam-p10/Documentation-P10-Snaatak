@@ -1,7 +1,7 @@
 # 🔒 Security Group Setup (Attendance API)
 
 
-| ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by    |📅 Last edited on   |   L0 Reviewer   |  L1 Reviewer| L2 Reviewer|
+| ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by    |📅 Last edited on   |  ✍️ L0 Reviewer   |  ✍️ L1 Reviewer|✍️ L2 Reviewer|
 |-------------|-------------|------------|-----------------|----------------|-------------------|-----------------|----------------|
 | Megha Tyagi | 08-10-2024  | Version 1.2  | Megha Tyagi     | 13-10-2024     |  Ayush Yadav                |   Deepak Nishad              |   Anjali Kaushal|
 
