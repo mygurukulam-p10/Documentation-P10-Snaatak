@@ -6,7 +6,7 @@
 
 | Author | Created on | Last updated by | Last edited on |
 |--------|------------|-----------------|----------------|
-|Aayush Gaur| 08-10-2024 | Aayush Gaur | 08-10-2024|
+|Aayush Gaur| 08-10-2024 | Aayush Gaur | 16-10-2024|
 
 ***
 ## Table of Contents
@@ -165,4 +165,4 @@ IAM users and groups are key parts of AWS security that help organizations contr
 
 | Description                                   | References  
 | --------------------------------------------  | -------------------------------------------------|
-| Link |https://dev.to/aws-builders/creating-your-first-iam-admin-user-and-user-group-in-your-aws-account-machine-learning-part-1-3cne|
+| User & groups |https://dev.to/aws-builders/creating-your-first-iam-admin-user-and-user-group-in-your-aws-account-machine-learning-part-1-3cne|
