@@ -1,9 +1,9 @@
 # Commit-Signed off- Declarative Jenkins Pipeline  
 ---  
 
-| ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
-|-------------|-------------|------------|-----------------|----------------|
-| Megha Tyagi | 10-10-2024  | Version 1  | Megha Tyagi     | 10-10-2024     |
+| ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by    |📅 Last edited on   |  ✍️ L0 Reviewer   | ✍️ L1 Reviewer|✍️ L2 Reviewer|
+|-------------|-------------|------------|-----------------|----------------|-------------------|-----------------|----------------|
+| Megha Tyagi | 10-10-2024  | Version 1.2  | Megha Tyagi     | 10-10-2024     |    Ayush Yadav              |   Deepak Nishad              |   Anjali Kaushal|
 
 ---
 ## Table of Contents
