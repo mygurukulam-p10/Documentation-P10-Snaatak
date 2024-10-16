@@ -79,6 +79,11 @@ Identifying and using pre-existing IAM policies in AWS helps organizations take 
 
 ***
 ### Step4: Now Login With This User To See The Policies were Successfilly Attached
+![Screenshot from 2024-10-16 16-32-06](https://github.com/user-attachments/assets/12777601-ef72-49d0-b1d7-df572b85c39f)
+
+### User Cannot Create IAM User As It Have Only Ec2 Access 
+![Screenshot from 2024-10-16 16-36-56](https://github.com/user-attachments/assets/5967b29c-2d46-4722-8147-21a3b03efafc)
+
 
 
 ## Best Practices
