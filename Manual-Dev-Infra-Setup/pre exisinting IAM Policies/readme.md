@@ -78,6 +78,8 @@ Identifying and using pre-existing IAM policies in AWS helps organizations take 
 ![Screenshot from 2024-10-08 06-26-49](https://github.com/user-attachments/assets/063f3ca1-c9fe-43e7-8889-bea3cd8a0a9b)
 
 ***
+### Step4: Now Login With This User To See The Policies were Successfilly Attached
+
 
 ## Best Practices
 | **IAM Policy**                           | **Description**                                                             | **Best Practices**                                                                                  |
