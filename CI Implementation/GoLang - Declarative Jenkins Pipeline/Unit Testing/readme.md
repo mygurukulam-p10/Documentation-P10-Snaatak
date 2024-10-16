@@ -38,11 +38,17 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 
 ### 2. 🚀 Click on **New Item**. 
  **Enter a name for your job (e.g., `Unit Testing`)**.
-![Uploading Screenshot from 2024-10-16 14-22-09.png…]()
-
+![Screenshot from 2024-10-16 14-22-09](https://github.com/user-attachments/assets/31d94ee8-a5cf-4cd2-99e8-d0a994ea7264)
 
 ### 3. 🚀 Provide a description for the pipeline detailing what it will perform.
+![Screenshot from 2024-10-16 14-23-26](https://github.com/user-attachments/assets/812973d8-a4e6-43b8-b3c6-9430f74c9cf5)
 
 ### 4. 🚀 Choose **Pipeline** as the job type. 
-**-->** Add your pipeline script for unit testing in the pipeline configuration... 
-**-->** Click on **Save** to store the configuration.
+**Add your pipeline script for unit testing in the pipeline configuration.** 
+**Click on **Save** to store the configuration.**
+![Screenshot from 2024-10-16 14-29-40](https://github.com/user-attachments/assets/52fafceb-8cca-4c2b-91d4-eac5fc82dcbd)
+![Screenshot from 2024-10-16 14-30-08](https://github.com/user-attachments/assets/478c998b-7703-4ffe-b41d-bf7ff878ef5a)
+
+### 5. 🚀 Click on Build to run the pipeline for unit testing.
+
+### 6. 🚀 Now, you should be able to see the build complete.
