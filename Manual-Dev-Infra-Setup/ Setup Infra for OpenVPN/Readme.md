@@ -39,7 +39,7 @@ This document serves as a comprehensive guide for installing and configuring Ope
 
 ## Flow Diagram
 
-![image](https://github.com/user-attachments/assets/f3a5a6a3-28b8-4419-a0f0-fa60b3e0d4cb)
+![image](https://github.com/user-attachments/assets/2d585e34-66fd-4c86-974a-2aac4d33d77b)
 
 
 ## 💥 Steps to Install and Configure OpenVPN
