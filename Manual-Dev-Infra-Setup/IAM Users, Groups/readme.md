@@ -89,7 +89,7 @@ Creating IAM users and groups is important for keeping AWS accounts secure. By g
 
 
  ***
- ## Navigate to Users and click 'Add permissions'
+ ### Navigate to Users and click 'Add permissions'
 ![Screenshot from 2024-10-08 04-55-05](https://github.com/user-attachments/assets/2943820d-d6a9-4f86-abfd-8b1d774aff4b)
 
 
@@ -98,7 +98,7 @@ Creating IAM users and groups is important for keeping AWS accounts secure. By g
 
 
  ***
- ## Create the group and add user in the group
+ ### Create the group and add user in the group
 **Name the group - Dev**
 
 **Add user in the group**
@@ -110,17 +110,23 @@ Creating IAM users and groups is important for keeping AWS accounts secure. By g
 
 
 ***
-## After creating the group, now you can see the group in 'Users group' section.
+### After creating the group, now you can see the group in 'Users group' section.
 ![Screenshot from 2024-10-08 05-06-01](https://github.com/user-attachments/assets/84036aaf-89ba-4f01-a3d6-f2550322dabd)
 
 
 
 ***
-## Under the Dev group 'User 1' is attached with Ec2 full access 
+### Under the Dev group 'User 1' is attached with Ec2 full access 
 ![Screenshot from 2024-10-08 05-24-19](https://github.com/user-attachments/assets/da4f2497-b7f1-4d8d-9091-2178424b6634)
 
-
 ***
+### Now Create a Group Named as Management & add user & attach policy
+![Screenshot from 2024-10-16 16-10-08](https://github.com/user-attachments/assets/221d5a8d-24d5-447a-b0f3-51454c02302c)
+![Screenshot from 2024-10-16 16-10-35](https://github.com/user-attachments/assets/6f5a784e-26c9-490d-8297-47f439648f1d)
+
+
+
+
 
 ## IAM Users and Groups best practices 
 | **Best Practice**                  | **Explanation**                                                                                          |
