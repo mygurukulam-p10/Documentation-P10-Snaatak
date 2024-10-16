@@ -26,11 +26,17 @@ Before starting, make sure you have the following tools:
 - In the Jenkins dashboard, click New Item.
 - Name your job (e.g., "GoLang Code Compilation").
 - Select Pipeline and click OK.
+![Screenshot from 2024-10-16 13-14-55](https://github.com/user-attachments/assets/178ffbf7-c36c-4fb8-8408-9c58e945ee44)
+
 
 ### Step 2: Configure the Pipeline Script
 - In the job configuration, scroll to the Pipeline section.
 - Choose Pipeline script from SCM.
 - Enter your GitHub repository URL and credentials.
+![Screenshot from 2024-10-16 13-15-57](https://github.com/user-attachments/assets/ddb2012d-a4a8-4310-add9-76dcd61cf3df)
+![Screenshot from 2024-10-16 13-16-17](https://github.com/user-attachments/assets/84c206d5-0296-4718-8fc8-b1e628353169)
+
+
 
 ### Step 3: Save the Configuration
 - Click Save to save the pipeline settings.
