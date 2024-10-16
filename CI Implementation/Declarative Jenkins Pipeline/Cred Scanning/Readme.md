@@ -1,9 +1,9 @@
 # Credential Scanning- Declarative Jenkins Pipeline  <img width="41" alt="Screenshot 2024-10-03 165327" src="https://github.com/user-attachments/assets/53e0a6de-677f-410c-9050-e942a917e6a2">
 ---  
 
-| ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
-|-------------|-------------|------------|-----------------|----------------|
-| Megha Tyagi | 03-10-2024  | Version 1.2  | Megha Tyagi     | 07-10-2024     |
+| ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by    |📅 Last edited on   |  ✍️ L0 Reviewer   | ✍️ L1 Reviewer|✍️ L2 Reviewer|
+|-------------|-------------|------------|-----------------|----------------|-------------------|-----------------|----------------|
+| Megha Tyagi | 03-10-2024  | Version 1  | Megha Tyagi     | 07-10-2024     |     Ayush Yadav             |    Rishabh             |   Anjali Kaushal|
 
 ---
 ## Table of Contents
