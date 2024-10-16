@@ -45,7 +45,7 @@ This document provides an overview of implementing static code analysis in a Go 
 ### Step 1: 🚀 Open your Jenkins Dashboard.
 
 ### Step 2:  🚀 Click on **New Item
-**Enter a name for your job (e.g., GoLang Static Code Analysis) & Choose Pipeline.
+**Enter a name for your job (e.g., GoLang Static Code Analysis) & Choose Pipeline**.
 ![Screenshot from 2024-10-16 18-02-30](https://github.com/user-attachments/assets/60fd1474-9cd6-4d82-ad04-5af422590113)
 
 ### Step 3: 🚀 Provide a description for the pipeline detailing what it will perform.
@@ -54,3 +54,6 @@ This document provides an overview of implementing static code analysis in a Go 
 ### Step 4: Choose Pipeline as the job type
 - **Add your pipeline script for static code analysis in the pipeline configuration**. 
 - **Click on Save to store the configuration**.
+![Screenshot from 2024-10-16 18-10-07](https://github.com/user-attachments/assets/940d88d2-e333-4a57-93f8-bf7a2d0c1fcc)
+
+
