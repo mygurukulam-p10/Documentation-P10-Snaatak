@@ -52,17 +52,18 @@ This document provides an overview of implementing unit testing in a Go project 
 
 ### 2. 🚀 Click on **New Item**. 
 **-->** Enter a name for your job (e.g., `Unit Testing`).
-![Screenshot from 2024-10-05 16-38-53](https://github.com/user-attachments/assets/1c1e543d-fe5d-40db-ac7e-b1efabf71c3b)
+
 
 ### 3. 🚀 Provide a description for the pipeline detailing what it will perform.
-![Screenshot from 2024-10-05 16-51-50](https://github.com/user-attachments/assets/7b04590f-5f0a-4886-8d46-62cfc2c2473a)
+![Screenshot from 2024-10-16 02-43-22](https://github.com/user-attachments/assets/fa9874ae-6fc4-431b-9eab-1144e1435cdf)
+
 
 ### 4. 🚀 Choose **Pipeline** as the job type. 
 **-->** Add your pipeline script for unit testing in the pipeline configuration... 
 **-->** Click on **Save** to store the configuration.
 ![Screenshot from 2024-10-09 19-29-36](https://github.com/user-attachments/assets/798e66bc-7ab3-43ea-9eb4-562af49b46c2)
 
-![Screenshot from 2024-10-09 19-43-33](https://github.com/user-attachments/assets/606a7046-1757-432a-b354-0159cfbe526a)
+
 
 ### 5. 🚀 Click on **Build** to run the pipeline for unit testing.
 ![Screenshot from 2024-10-05 16-39-44](https://github.com/user-attachments/assets/f858f2c1-ad1d-4cae-931f-64341b956a87)
@@ -71,8 +72,10 @@ This document provides an overview of implementing unit testing in a Go project 
 ![Screenshot from 2024-10-05 16-46-45](https://github.com/user-attachments/assets/56ead5a2-e956-4aba-8643-48c91018c420)
 
 ### 7. 🚀 Click on **Console Output** to see the complete build results.
-![Screenshot from 2024-10-05 16-45-58](https://github.com/user-attachments/assets/fba85534-e64b-4c33-bb79-7dc8223aeb25)
-![Screenshot from 2024-10-05 16-46-06](https://github.com/user-attachments/assets/beb22ec8-12ce-4a1b-a8f3-a55625faa6b1)
+![Screenshot from 2024-10-16 12-28-37](https://github.com/user-attachments/assets/0efa6d7b-054b-454f-80fa-8cc60c654658)
+
+![Screenshot from 2024-10-16 12-28-46](https://github.com/user-attachments/assets/5ccd25e2-9f07-47b8-a91d-865a4758aa6c)
+
 
 
 ### 8. 🚀 Review the results of the unit testing process in the console output.
