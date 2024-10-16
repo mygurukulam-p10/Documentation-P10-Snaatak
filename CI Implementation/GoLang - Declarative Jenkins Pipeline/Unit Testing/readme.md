@@ -33,3 +33,16 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 | **OS**            |Ubuntu 22.04 LTS           |
 
 ## 💥 Steps to Configuration Declarative pipelines for Unit Testing
+
+### 1. 🚀 Open your Jenkins Dashboard.
+
+### 2. 🚀 Click on **New Item**. 
+ **Enter a name for your job (e.g., `Unit Testing`)**.
+![Uploading Screenshot from 2024-10-16 14-22-09.png…]()
+
+
+### 3. 🚀 Provide a description for the pipeline detailing what it will perform.
+
+### 4. 🚀 Choose **Pipeline** as the job type. 
+**-->** Add your pipeline script for unit testing in the pipeline configuration... 
+**-->** Click on **Save** to store the configuration.
