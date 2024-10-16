@@ -1,9 +1,9 @@
 # Employee API Instance Setup 🚀
 
 
-| Author      | Created on   | Version | Last updated by | Last edited on  |
-|-------------|--------------|---------|-----------------|-----------------|
-| Amit Nagar  | 09-10-2024   | 2.0     | Amit Nagar      | 11-10-2024      |
+| ✍ Author      | 📅 Created on  | 📌 Version    | 📝 Last updated by | 📅 Last edited on  | Reviewer L0 | Reviewer L1 | Reviewer L2 |
+|---------------|----------------|---------------|--------------------|--------------------|-------------|-------------|-------------|
+| Amit Nagar    | 9-10-2024     | Version 1     | Amit Nagar         | 16-10-2024         |  Khushi           |             |             |
 
 
 ---
@@ -107,8 +107,8 @@ Amazon EC2 provides versatile, scalable, and cost-efficient instances, enabling 
 ---
 
 ## 📚 References
-| Topic                   | Reference Link                                                                                              |
-|-------------------------|-------------------------------------------------------------------------------------------------------------|
-| AWS EC2 Documentation    | [AWS EC2 Documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)          |
-| Cloud Infra Design      | [Cloud Infra Design](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/Cloud%20Infra%20Design/Cloud%20Infra%20Design%2030K%20feet/Readme.md) |
-
+| Topic                    | Reference Link                                                                                              |
+|--------------------------|-------------------------------------------------------------------------------------------------------------|
+| AWS EC2 Documentation     | [AWS EC2 Documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)          |
+| Cloud Infra Design       | [Cloud Infra Design](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/Cloud%20Infra%20Design/Cloud%20Infra%20Design%2030K%20feet/Readme.md) |
+| Employee SG Reference    | [Employee SG Reference](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/Manual-Dev-Infra-Setup/Setup%20Infra%20for%20Employee%20/%20Security%20Group) |
