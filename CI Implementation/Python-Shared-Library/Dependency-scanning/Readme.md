@@ -1,7 +1,7 @@
 # Dependency Scanning for Python- Shared Library 
 ---  
 
-| ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by    |📅 Last edited on   |   L0 Reviewer   |  L1 Reviewer| L2 Reviewer|
+| ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by    |📅 Last edited on   |   ✍️L0 Reviewer   | ✍️ L1 Reviewer|✍️ L2 Reviewer|
 |-------------|-------------|------------|-----------------|----------------|-------------------|-----------------|----------------|
 | Megha Tyagi | 14-10-2024  | Version 1  | Megha Tyagi     | 14-10-2024     |                  |                 |   Anjali Kaushal|
 
