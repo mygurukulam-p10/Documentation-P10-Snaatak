@@ -16,10 +16,15 @@
 ## 💥 Introduction
 Automating the process of building and deploying Go applications can be efficiently done using Continuous Integration (CI) pipelines. Declarative Pipelines in Jenkins allow for structured and readable automation scripts, making the entire Go code compilation process easier to manage and understand.
 
-## ⚙ Pre-requisites
-Before starting, make sure you have the following tools:
-1. **Jenkins**: Ensure you have a Jenkins instance running.
-2. **Go Plugin**: Ensure you have Go Plugin is configured.
+## ⚙️ Pre-requisites
+
+| Requirement          | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| **✔️ Jenkins**          | Jenkins installed and configured for CI/CD processes.                       |
+| **✔️ Go**               | Go programming language must be installed on the Jenkins.            |
+| **✔️ Git**              | Git must be installed on the Jenkins server for repository checkout.        |
+| **✔️ Git Credentials**  | Add your GitHub credentials (e.g., `git-token`) in Jenkins for repository access. |
+
 
 ## 🔍 System Requirements
 | Hardware Specifications | Specification                                                     |
