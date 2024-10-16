@@ -133,6 +133,56 @@ To configure the shared library in Jenkins globally, follow these steps:
 https://github.com/mygurukulam-p10/jenkins-shared-library.git
 
 # Jenkinsfile
+
+
+## var folder groovy files
+goInstallDependency.groovy
+
+```
+def call (){
+    stage("Install Dependencies") {
+        // Use the Go tool to tidy dependencies
+        sh "go mod tidy"
+    }
+}
+```
+
+
+gitCheckout.grrov
+```
+def call (String branch, String creds, String url) {
+        stage('Checkout') {
+            // Perform the Git checkout
+            script{
+
+                git branch: "${branch}", url: "${url}", credentialsId: "${creds}"
+            }
+            
+        }
+        return "Checkout successful for branch: ${branch}"
+    }
+```
+
+
+GoDependencyScanning.groovy
+
+```
+def call(String  snykTokenId , String snykInstallation){
+
+        stage("Run snyk test"){
+           script{
+          snykSecurity(
+          snykInstallation: snykInstallation,
+          snykTokenId: snykTokenId)
+
+           }
+            
+        }
+
+        return "testing done"
+}
+
+```
 ```
 
 @Library("shared1") _  
