@@ -116,13 +116,20 @@ Creating IAM users and groups is important for keeping AWS accounts secure. By g
 
 
 ***
-### Under the Dev group 'User 1' is attached with Ec2 full access 
+### Under the Dev group 'User 4' is attached with Ec2 full access 
 ![Screenshot from 2024-10-08 05-24-19](https://github.com/user-attachments/assets/da4f2497-b7f1-4d8d-9091-2178424b6634)
+![Screenshot from 2024-10-16 16-19-56](https://github.com/user-attachments/assets/eb71a218-1e23-458a-bf1c-ff817235cb34)
+
 
 ***
 ### Now Create a Group Named as Management & add user & attach policy
 ![Screenshot from 2024-10-16 16-10-08](https://github.com/user-attachments/assets/221d5a8d-24d5-447a-b0f3-51454c02302c)
 ![Screenshot from 2024-10-16 16-10-35](https://github.com/user-attachments/assets/6f5a784e-26c9-490d-8297-47f439648f1d)
+
+***
+### Under the  group 'User 4' is attached with Ec2 full access 
+![Screenshot from 2024-10-16 16-17-53](https://github.com/user-attachments/assets/7a5ce40f-2fe6-47de-b9e8-f979315b8932)
+
 
 
 
