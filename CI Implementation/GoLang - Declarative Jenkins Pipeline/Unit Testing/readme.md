@@ -21,16 +21,20 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 
 
 ## ⚙ Pre-requisites
-1. **Jenkins**: Ensure you have a Jenkins running.
-2. **golang**: Ensure you have go-lang 
+| Requirement          | Description                                                                 |
+|----------------------|-----------------------------------------------------------------------------|
+| **✔️ Jenkins**          | Jenkins installed and configured for CI/CD processes.                       |
+| **✔️ Go**               | Go programming language must be installed.          |
+| **✔️ Git**              | Git must be installed for repository checkout.        |
+| **✔️ Git Credentials**  | Add your GitHub credentials (e.g., `git-token`) in Jenkins for repository access. |
 
 ## 🔍 System Requirements
-| Hardware Specifications | Minimum Requirement  |
-|-------------------|---------------------------|
-| **Processor**     | Dual-core CPU             | 
-| **Memory**        | 2 GB RAM                  | 
-| **Disk Space**    | 10 GB                      | 
-| **OS**            |Ubuntu 22.04 LTS           |
+| Hardware Specifications | Specification                                                     |
+|----------------------|-------------------------------------------------------------------|
+| **Processor**        | Minimum 2-core CPU                          |
+| **Memory (RAM)**     | Minimum 4 GB                                   |
+| **Storage**          | Minimum 20 GB|
+| **Operating System** | Ubuntu 22.04       |
 
 ## 💥 Steps to Configuration Declarative pipelines for Unit Testing
 
@@ -50,5 +54,69 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 ![Screenshot from 2024-10-16 14-30-08](https://github.com/user-attachments/assets/478c998b-7703-4ffe-b41d-bf7ff878ef5a)
 
 ### 5. 🚀 Click on Build to run the pipeline for unit testing.
+![Screenshot from 2024-10-16 14-31-58](https://github.com/user-attachments/assets/9f752c6b-e02d-490d-a4d8-614108fc149e)
+
 
 ### 6. 🚀 Now, you should be able to see the build complete.
+![Screenshot from 2024-10-16 15-45-53](https://github.com/user-attachments/assets/dc22a66f-c3ac-4860-b0cc-fedeb3eaf9cf)
+
+### 7.🚀 Click on Console Output to see the complete build.
+![Screenshot from 2024-10-16 15-47-19](https://github.com/user-attachments/assets/30ace96a-faab-4359-ad6d-19ca0dcbf781)
+![Screenshot from 2024-10-16 15-48-11](https://github.com/user-attachments/assets/46259054-14ea-45f3-82f0-bd1f31f27b43)
+![Screenshot from 2024-10-16 15-48-33](https://github.com/user-attachments/assets/8dd8e210-f5a6-4aec-9aaf-683a931ff627)
+
+### 8.🚀 Review the stages of the build process in the console output.
+![Screenshot from 2024-10-16 15-49-57](https://github.com/user-attachments/assets/d366953f-f533-439d-a459-6bb56180a90f)
+
+## Jenkinsfile
+```
+pipeline {
+    agent any
+    stages {
+        stage('Clone Repository') {
+            steps {
+                git branch: 'main', url: 'https://github.com/mygurukulam-p10/employee-api.git', credentialsId: 'aayush_cred'
+            }
+        }
+        stage('Install Dependencies') {
+            steps {
+                // Install dependencies using Go modules
+                sh '/usr/local/go/bin/go mod tidy'
+            }
+        }
+        stage('Compile Code') {
+            steps {
+                // Compile the Go application
+                sh '/usr/local/go/bin/go build -v ./...'
+            }
+        }
+    }
+    post {
+        always {
+            // Clean up workspace after job completion
+            cleanWs()
+        }
+        success {
+            echo 'Pipeline completed successfully!'
+        }
+    }
+}
+```
+## 🏁 Conclusion
+The code compilation stage successfully transforms the Go source code into an executable binary, ensuring that the application is free from syntax errors and meets the necessary requirements.
+
+## 📞 Contact Information
+
+| Name       | Email address     |
+|------------|-------------------|
+| Aayush Gaur | aayush.gaur.snaatak@mygurukulam.com |
+
+## 📚 References
+
+| Topic                   | Reference Link                                           |
+|-------------------------|---------------------------------------------------------|
+| Go Build and Test       | [Go Build and Test Documentation](https://golang.org/doc/code.html)  |
+| Go Command              | [Go Command](https://golang.org/ref/go)                |
+| Jenkins Pipeline        | [Jenkins Pipeline](https://www.jenkins.io/doc/book/pipeline/) |
+| Go Testing              | [Go Testing](https://golang.org/pkg/testing/)          |
+
