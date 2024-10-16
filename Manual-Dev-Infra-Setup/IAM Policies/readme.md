@@ -63,8 +63,8 @@ Creating custom IAM policies allows you to have precise control over who can do 
 | **Increased Administrative Work** | Managing custom IAM policies can require a lot of extra work. This includes creating, testing, and updating policies regularly to keep up with changing security needs. |
 | **Complexity**                  | As the number of custom policies and resources increases, things can get complicated. It might be hard to keep track of everything and manage all the different policies. |
 | **Need for Expertise**          | Creating effective custom IAM policies requires knowledge of how IAM works, understanding the specific settings for the cloud platform, and knowing your organization's security needs. This might mean you need to train your team or hire skilled people to handle it. |
-| **Risk of Mistakes**            | If custom IAM policies are set up incorrectly, they can create security issues or block access to important resources. Errors can happen during policy creation or updates, which can lead to big problems. |
-| **Potential for Over-Restrictions** | Sometimes, custom policies can be too strict, preventing users from accessing the resources they need to do their jobs. This can slow down productivity and create frustration among team members. |
+
+
 
  ***
 
