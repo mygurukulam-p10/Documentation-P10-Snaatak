@@ -1,8 +1,8 @@
 # Code Compilation
 
-| 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
+| 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | Last Update                    |
 |--------------------|------------|--------------|--------------------------------|
-| 04-10-2024         | 1.0      | Aayush Gaur  | Code Compilation            |
+| 04-10-2024         | 1.0      | Aayush Gaur  | 16-10-2024           |
 
 
 ## Introduction
@@ -47,5 +47,18 @@ Before starting, make sure you have the following tools:
 ### Step 5: View Build Output
 - After starting the build, click on the build number to see the console output.
 - This will show you each step, including Go code checkout and compilation.
+
+### 5. 🚀 Click on Build to run the pipeline for Code Compilation.
+![Screenshot from 2024-10-16 14-31-58](https://github.com/user-attachments/assets/9f752c6b-e02d-490d-a4d8-614108fc149e)
+
+
+### 6. 🚀 Now, you should be able to see the build complete.
+![Screenshot from 2024-10-16 15-45-53](https://github.com/user-attachments/assets/dc22a66f-c3ac-4860-b0cc-fedeb3eaf9cf)
+
+### 7.🚀 Click on Console Output to see the complete build.
+![Screenshot from 2024-10-16 15-47-19](https://github.com/user-attachments/assets/30ace96a-faab-4359-ad6d-19ca0dcbf781)
+![Screenshot from 2024-10-16 15-48-11](https://github.com/user-attachments/assets/46259054-14ea-45f3-82f0-bd1f31f27b43)
+![Screenshot from 2024-10-16 15-48-33](https://github.com/user-attachments/assets/8dd8e210-f5a6-4aec-9aaf-683a931ff627)
+
 
 
