@@ -133,6 +133,33 @@ To configure the shared library in Jenkins globally, follow these steps:
 https://github.com/mygurukulam-p10/jenkins-shared-library.git
 
 # Jenkinsfile
+```
+
+@Library("shared1") _  
+node {
+    try {
+        // Git Checkout
+        def branch = 'main'
+        def creds = 'amit_cred'
+        def url = 'git@github.com:mygurukulam-p10/employee-api.git'
+        echo "Starting Git checkout on branch: ${branch} from URL: ${url} using credentials ID: ${creds}"
+        gitCheckout(branch, creds, url)
+        echo "Git checkout completed successfully."
+
+        // Tool Installation
+        def toolName = 'golang'
+        goToolInstallation(toolName)  // Install Go tool
+
+        // Snyk Test
+        echo "Starting dependency scanning with Snyk..."
+        GoDependencyScanning('snyk_token', 'snyk')  // Run Snyk dependency scanning
+        echo "Dependency scanning completed successfully."
+
+    } catch (Exception e) {
+        echo "An error occurred: ${e.message}"
+    }
+}
+```
 
 
 ## var folder groovy files
@@ -148,7 +175,7 @@ def call (){
 ```
 
 
-gitCheckout.grrov
+gitCheckout.groovy
 ```
 def call (String branch, String creds, String url) {
         stage('Checkout') {
@@ -182,33 +209,6 @@ def call(String  snykTokenId , String snykInstallation){
         return "testing done"
 }
 
-```
-```
-
-@Library("shared1") _  
-node {
-    try {
-        // Git Checkout
-        def branch = 'main'
-        def creds = 'amit_cred'
-        def url = 'git@github.com:mygurukulam-p10/employee-api.git'
-        echo "Starting Git checkout on branch: ${branch} from URL: ${url} using credentials ID: ${creds}"
-        gitCheckout(branch, creds, url)
-        echo "Git checkout completed successfully."
-
-        // Tool Installation
-        def toolName = 'golang'
-        goToolInstallation(toolName)  // Install Go tool
-
-        // Snyk Test
-        echo "Starting dependency scanning with Snyk..."
-        GoDependencyScanning('snyk_token', 'snyk')  // Run Snyk dependency scanning
-        echo "Dependency scanning completed successfully."
-
-    } catch (Exception e) {
-        echo "An error occurred: ${e.message}"
-    }
-}
 ```
 
 
