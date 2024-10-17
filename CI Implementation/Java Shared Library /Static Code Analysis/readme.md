@@ -79,7 +79,7 @@ This document outlines how to set up a Shared Library for Bugs analysis in Java.
 
 
 ## 📛 Conclusion
-We run Checkstyle command and found 88 code violations. This means there are parts of the code that don't follow our coding standards. These issues can make the code harder to read and maintain.
+We run Checkstyle command and found 88 Checkstyle violations. This means there are parts of the code that don't follow our coding standards. These issues can make the code harder to read and maintain.
 
 ##  📧 Contact Information
 For more information, feedback, or assistance, feel free to contact us:
