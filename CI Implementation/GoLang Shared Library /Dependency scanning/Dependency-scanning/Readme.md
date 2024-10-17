@@ -134,14 +134,25 @@ https://github.com/mygurukulam-p10/jenkins-shared-library.git
 
 # Jenkinsfile
 ```
-
 @Library("shared1") _  
+
+properties([
+    parameters([
+        string(name: 'BRANCH_NAME', defaultValue: 'main', description: 'Branch to build from'),
+        string(name: 'REPO_URL', defaultValue: 'git@github.com:mygurukulam-p10/employee-api.git', description: 'Git repository URL'),
+        string(name: 'CREDENTIALS_ID', defaultValue: 'amit_cred', description: 'Credentials ID for accessing the repository'),
+        string(name: 'SNYK_TOKEN', defaultValue: '', description: 'Snyk API token for authentication'),
+        string(name: 'REPORT_RECIPIENT', defaultValue: 'nagar.amit1999@gmail.com', description: 'Email address to send the build report')
+    ])
+])
+
 node {
+    def buildResult = 'SUCCESS' // Initialize build result variable
     try {
         // Git Checkout
-        def branch = 'main'
-        def creds = 'amit_cred'
-        def url = 'git@github.com:mygurukulam-p10/employee-api.git'
+        def branch = params.BRANCH_NAME
+        def creds = params.CREDENTIALS_ID
+        def url = params.REPO_URL
         echo "Starting Git checkout on branch: ${branch} from URL: ${url} using credentials ID: ${creds}"
         gitCheckout(branch, creds, url)
         echo "Git checkout completed successfully."
@@ -152,11 +163,24 @@ node {
 
         // Snyk Test
         echo "Starting dependency scanning with Snyk..."
-        GoDependencyScanning('snyk_token', 'snyk')  // Run Snyk dependency scanning
+        GoDependencyScanning(params.SNYK_TOKEN, 'snyk')  // Run Snyk dependency scanning
         echo "Dependency scanning completed successfully."
 
     } catch (Exception e) {
+        buildResult = 'FAILURE' // Update build result on failure
         echo "An error occurred: ${e.message}"
+    } finally {
+        // Send email notification
+        emailext(
+            to: params.REPORT_RECIPIENT,
+            subject: "Build Status: ${buildResult} - Job ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
+            body: """The current build result is: ${buildResult}
+
+                    Branch: ${params.BRANCH_NAME}
+                    Repository: ${params.REPO_URL}
+                    Build Number: ${env.BUILD_NUMBER}
+                    """
+        )
     }
 }
 ```
