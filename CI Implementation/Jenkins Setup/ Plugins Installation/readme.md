@@ -1,4 +1,6 @@
 # Setup Jenkins plugins installation
+![Uploading image.png…]()
+
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
