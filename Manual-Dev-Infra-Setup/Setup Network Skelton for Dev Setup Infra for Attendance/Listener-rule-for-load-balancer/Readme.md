@@ -1,9 +1,9 @@
 # **Setup Listener Rules for Load Balancer (Attendance API)**
 
 
-| ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
-|-------------|-------------|------------|-----------------|----------------|
-| Megha Tyagi | 08-10-2024  | Version 1.2  | Megha Tyagi     | 11-10-2024     |
+| ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by    |📅 Last edited on   |  ✍️ L0 Reviewer   | ✍️ L1 Reviewer|✍️ L2 Reviewer|
+|-------------|-------------|------------|-----------------|----------------|-------------------|-----------------|----------------|
+| Megha Tyagi | 09-10-2024  | Version 1  | Megha Tyagi     | 11-10-2024     |  Ayush Yadav                |     Deepak Nishad            |   Anjali Kaushal|
 
 ---
 ---
@@ -66,7 +66,9 @@
 
  
  2. .Choose the **Target Group** to forward the traffic to. Adjust the weights if using multiple target groups.
- ![Screenshot 2024-10-09 101304](https://github.com/user-attachments/assets/0dc3183e-1994-4d2b-83f9-061af19596d9)
+<img width="945" alt="image" src="https://github.com/user-attachments/assets/c3e4bc17-f144-4216-b6cb-bdc993316c1b">
+![Screenshot 2024-10-17 155016](https://github.com/user-attachments/assets/1ffb81ee-68ec-4c48-9f86-dad2e5be434c)
+
 
    
 3. Click on create LoadBalancer.
