@@ -55,7 +55,7 @@ This README provides a comprehensive guide to setting up dependency scanning wit
 
 ### 5. 🖥️ Choose Pipeline as the job type → Add your pipeline script for dependency scanning under the Pipeline section → Provide the repository link, credentials, and file path.
 ![image](https://github.com/user-attachments/assets/ebb21928-5b36-4801-962d-c5fd961b9868)
-![image](https://github.com/user-attachments/assets/f9263c52-c63b-4f47-9601-f4c7e79e5492)
+![image](https://github.com/user-attachments/assets/42816f79-cf20-451b-b575-b7b2f97ec22a)
 
 
 ### 6. 🖥️ Click on **Build** to initiate the pipeline.
