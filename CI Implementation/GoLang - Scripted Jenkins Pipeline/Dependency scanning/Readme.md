@@ -109,27 +109,61 @@ This document provides an overview of implementing dependency scanning in a proj
 # Jenkinsfile
 ```
 
+properties([
+    parameters([
+        string(name: 'BRANCH_NAME', defaultValue: 'main', description: 'Branch to build from'),
+        string(name: 'REPO_URL', defaultValue: 'git@github.com:mygurukulam-p10/employee-api.git', description: 'Git repository URL'),
+        string(name: 'CREDENTIALS_ID', defaultValue: 'amit_cred', description: 'Credentials ID for accessing the repository'),
+        string(name: 'SNYK_TOKEN', defaultValue: '', description: 'Snyk API token for authentication'),
+        string(name: 'REPORT_RECIPIENT', defaultValue: 'nagar.amit1999@gmail.com', description: 'Email address to send the build report')
+    ])
+])
+
 node {
     // Set up Go and Snyk tool paths
     def goTool = tool name: 'golang', type: 'go'
     env.PATH = "${goTool}/bin:${env.PATH}"
 
-    stage('Clone Repository') {
-        // Clone the specified repository from GitHub
-        git branch: 'main', url: 'git@github.com:mygurukulam-p10/employee-api.git', credentialsId: "amit_cred"
-    }
-
-    stage('Run Snyk Test') {
-        // Run Snyk test command to generate the report
-        script {
-            snykSecurity(
-          snykInstallation: 'snyk',
-          snykTokenId: 'snyk_token',
-    
-        )
+    try {
+        stage('Clone Repository') {
+            // Clone the specified repository from GitHub using parameters
+            git branch: params.BRANCH_NAME, url: params.REPO_URL, credentialsId: params.CREDENTIALS_ID
         }
+
+        stage('Run Snyk Test') {
+            // Run Snyk test command to generate the report
+            script {
+                snykSecurity(
+                    snykInstallation: 'snyk',
+                    snykTokenId: params.SNYK_TOKEN
+                )
+            }
+        }
+
+        // Mark the build as successful
+        currentBuild.result = 'SUCCESS'
+
+    } catch (Exception e) {
+        // Mark the build as failed if any exception occurs
+        currentBuild.result = 'FAILURE'
+        throw e
+    } finally {
+        // Send an email with the current build result and parameters
+        emailext(
+            to: params.REPORT_RECIPIENT,
+            subject: "Build Status: ${currentBuild.result} - Job ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
+            body: """The current build result is: ${currentBuild.result}
+
+                    Branch: ${params.BRANCH_NAME}
+                    Repository: ${params.REPO_URL}
+                    Credentials ID: ${params.CREDENTIALS_ID}
+                    Snyk Token: ${params.SNYK_TOKEN} (hidden in logs)
+                    Build Number: ${env.BUILD_NUMBER}
+                    """
+        )
     }
 }
+
 ```
 
 
