@@ -53,10 +53,9 @@ This Readme provides a Shared Library for unit testing in Python using Pytest. T
 
 
 
-### 4. 🚀 Create the repo for add src & vars file which will be using in pipeline script.
+### 4. 🚀 Create the repo for add vars file which will be using in pipeline script.
 ![Screenshot 2024-10-14 091456](https://github.com/user-attachments/assets/5344b607-3b44-418c-91f9-7691c0bd2e69)
 
-![Screenshot 2024-10-14 091340](https://github.com/user-attachments/assets/910c8987-2917-46b3-b088-b1e350503593)
 
 ![Screenshot 2024-10-14 082819](https://github.com/user-attachments/assets/3e6dd250-ad9a-4a31-a3ac-8996d837ee0d)
 
