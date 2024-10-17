@@ -30,23 +30,12 @@ This document provides a step-by-step guide to setting up a **Scripted Jenkins P
 
 Ensure that the following tools are installed before proceeding:
 
-- **Jenkins**: Jenkins instance must be running.
-- **Java**: Java Runtime Environment (JRE) for running Java applications.
-- **Maven**: To manage project builds.
-- **SpotBugs**: A tool to find bugs in Java code by analyzing the compiled bytecode.
-
+[Refernce](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/CI%20Implementation/Java%20-%20Declarative%20Jenkins%20Pipeline/Bugs%20analysis/readme.md)
 ---
 
 ## 🖥️ System Requirements
 
-Your system must meet these minimum requirements to run the Jenkins pipeline:
-
-| 🔧 **Hardware Component** | ⚙️ **Minimum Requirement** |
-|---------------------------|----------------------------|
-| 💻 **Processor**           | Dual-core CPU              |
-| 🧠 **Memory (RAM)**        | 2 GB                       |
-| 💾 **Disk Space**          | 10 GB                      |
-| 🖥️ **Operating System**    | Ubuntu 22.04 LTS           |
+[System Requirements Details](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/CI%20Implementation/Java%20-%20Declarative%20Jenkins%20Pipeline/Bugs%20analysis/readme.md)
 
 ---
 ![374439409-eb91843f-c210-491f-8ba6-6ed7a61a4961](https://github.com/user-attachments/assets/7479895e-037e-48de-a088-9dcf892c8437)
