@@ -72,7 +72,6 @@ This document outlines how to set up a Declarative Jenkins Pipeline for Dependen
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for DAST in the pipeline script for SCM ...> add repo link & credintial, file path.
 ![image](https://github.com/user-attachments/assets/38cf7790-6d5e-4988-a151-7a162b9a4356)
-![image](https://github.com/user-attachments/assets/981ccfc4-c80a-4fe0-8b2b-4a90a36d577c)
 
 
 ### 6. 🚀 Then Click on build to run the pipeline to perform
