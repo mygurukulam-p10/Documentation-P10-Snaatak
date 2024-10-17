@@ -139,7 +139,16 @@ sudo openvpn --config openvpn_otms.ovpn
 
 ![Screenshot from 2024-10-08 19-37-27](https://github.com/user-attachments/assets/1d64af76-57da-4d85-9180-af4182660e21)
 
-## 8. Verifying the OpenVPN Installation
+
+## 8. OpenVPN Security group rule
+### Inbound rules
+![Screenshot from 2024-10-17 23-02-22](https://github.com/user-attachments/assets/839b55f3-597e-4b1b-aac3-5ef1ca9ff3e4)
+
+### Outbound rules
+
+![Screenshot from 2024-10-17 23-02-36](https://github.com/user-attachments/assets/8aa22609-9dd2-464f-9cc8-d0d2d13cda84)
+
+## 9. Verifying the OpenVPN Installation
 
 To verify that the VPN is working correctly:
 
