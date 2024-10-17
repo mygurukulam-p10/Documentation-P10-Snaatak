@@ -11,10 +11,11 @@
 ## Table of Contents
 1. [💥 Introduction](#-introduction)
 2. [⚙️ Pre-requisites](#-pre-requisites)
-3. [💥 Steps to Configuration Unit Testing](#-steps-to-conguration-unit-testing)
-4. [📛 Conclusion](#-conclusion)
-5. [📧 Contact Information](#-contact-information)
-6. [📚 References](#-references)
+3. [🔍 System Requirements](#-system-requirements)
+4. [💥 Steps to Configuration to Bug Analysis](#-steps-to-configuration-to-buganalysis)
+5. [📛 Conclusion](#-conclusion)
+6. [📧 Contact Information](#-contact-information)
+7. [📚 References](#-references)
 
 ---
 ### 💥 Introduction
@@ -23,7 +24,7 @@ This document outlines how to set up a Shared Library for Bugs analysis in Java.
 
 ---
 
-## ⚙️ Pre-requisites
+## ⚙ Pre-requisites
 
 | **Requirement** | **Description**                                             |
 |------------------|------------------------------------------------------------|
@@ -32,8 +33,9 @@ This document outlines how to set up a Shared Library for Bugs analysis in Java.
 | **Maven**        | Simplifies build management.                                |
 | **SpotBugs**     | A static analysis tool that finds bugs in Java programs by analyzing bytecode. |
 
+## 🔍 System Requirements 
+[here](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/CI%20Implementation/Java%20-%20Declarative%20Jenkins%20Pipeline/Static%20code%20analysis/readme.md#-system-requirements)
 
----
 
 ## 💥 Steps to Configuration to Bug Analysis
 ### Understand Shared Library Syntax
