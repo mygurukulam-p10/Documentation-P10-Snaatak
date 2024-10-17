@@ -1,5 +1,5 @@
-![image](https://github.com/user-attachments/assets/462db75e-71d1-4047-aea1-0239e20d7e6e)# Code Coverage - Scripted Jenkins Pipeline with Pytest
 
+## Code Coverage - Scripted Jenkins Pipeline
 ---  
 | Author      | Created on | Version   | Last updated by | Last edited on | Reviewed By L0 | Reviewed By L1 | Reviewed By L2 |
 |-------------|------------|-----------|-----------------|----------------|----------------|----------------|----------------| 
@@ -54,20 +54,22 @@ This README provides a comprehensive guide to setting up code coverage analysis 
 
 ### 5. 🖥️ Choose Pipeline as the job type → Add your pipeline script for code coverage under the Pipeline section → Provide the repository link, credentials, and file path.
 ![image](https://github.com/user-attachments/assets/54b89f13-05f0-4b73-9228-c29fab3f59b2)
-![image](https://github.com/user-attachments/assets/fa12e088-175e-4f3a-b659-e4487008fbdd)
-
+![image](https://github.com/user-attachments/assets/11bd7e52-fad7-43b9-a942-8c3e5c6888e6)
 
 ### 6. 🖥️ Click on **Build** to initiate the pipeline.
-![image](https://github.com/user-attachments/assets/e2d572ad-75fd-45d3-a44f-94748ddf9d69)
+![image](https://github.com/user-attachments/assets/249072ae-8311-4800-b234-3793341c6c42)
 
 ### 7. 🖥️ Observe as the build completes.
-![image](https://github.com/user-attachments/assets/63131878-ca7b-44fd-8163-b25f8e56151f)
+![image](https://github.com/user-attachments/assets/5a9bf81e-f46b-4146-b5f6-c807fb6a7c3a)
 
 ### 8. 🖥️ Review the **Console Output** for build details.
-![image](https://github.com/user-attachments/assets/bce9013b-b3ab-4798-834f-5e42744e09cb)
+![image](https://github.com/user-attachments/assets/f3a516f6-b985-493f-a816-dbdeff12952d)
+![image](https://github.com/user-attachments/assets/79d5a667-08cc-4585-ba05-599f21750eda)
+![image](https://github.com/user-attachments/assets/be5af2a5-18e7-41d9-9eb0-6bc3eeda1219)
+
 
 ### 9. 🖥️ Check each stage in the console output for successful completion.
-![image](https://github.com/user-attachments/assets/2a081c4f-0f45-41be-b0b8-d4c00337f3bd)
+![image](https://github.com/user-attachments/assets/823140fb-67e1-4b2c-abaf-d62499047b4b)
 
 ### 10. 🖥️ Check the report of the coverage analysis.
 ![image](https://github.com/user-attachments/assets/e4db0490-d2c0-49a8-a7d8-ea2ef79e347b)
