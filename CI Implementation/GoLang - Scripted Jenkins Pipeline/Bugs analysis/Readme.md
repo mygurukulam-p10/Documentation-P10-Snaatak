@@ -84,35 +84,77 @@ This document provides an overview of implementing bug analysis in a Go project 
 ```
 
 
+properties([
+    parameters([
+        string(name: 'BRANCH_NAME', defaultValue: 'main', description: 'Branch to build from'),
+        string(name: 'REPO_URL', defaultValue: 'git@github.com:mygurukulam-p10/employee-api.git', description: 'Git repository URL'),
+        string(name: 'CREDENTIALS_ID', defaultValue: 'amit_cred', description: 'Credentials ID for accessing the repository'),
+        string(name: 'EMAIL_RECIPIENT', defaultValue: 'nagar.amit1999@gmail.com', description: 'Email recipient for build notifications')
+    ])
+])
+
 node {
     // Define the Go tool name
     def goTool = tool name: 'golang', type: 'go'
 
-    stage("Checkout") {
-        git branch: 'main', url: 'git@github.com:mygurukulam-p10/employee-api.git', credentialsId: "amit_cred"
-    }
+    try {
+        stage("Checkout") {
+            // Checkout the source code from the Git repository using parameters
+            git branch: params.BRANCH_NAME, url: params.REPO_URL, credentialsId: params.CREDENTIALS_ID
+        }
 
-    stage("Install Dependencies") {
+        stage("Install Dependencies") {
+            // Use the Go tool to tidy dependencies
+            sh "${goTool}/bin/go mod tidy"
+        }
 
-        sh "${goTool}/bin/go mod tidy"
-    }
- 
         stage("Linting") {
-        script {
-            // Set the PATH to include the Go tool directory
-            env.PATH = "${goTool}/bin:${env.PATH}"
+            script {
+                // Set the PATH to include the Go tool directory
+                env.PATH = "${goTool}/bin:${env.PATH}"
 
-            sh '''
-                echo "Running golangci-lint..."
-                golangci-lint run ./... || true
-            '''
+                sh '''
+                    echo "Running golangci-lint..."
+                    golangci-lint run ./... || true
+                '''
+            }
+        }
+
+        stage('Generate Report') {
+            // Generate an HTML report for golangci-lint
+            sh 'golangci-lint run ./... --out-format html > report.html || true'
+        }
+
+        // Mark the build as successful
+        currentBuild.result = 'SUCCESS'
+
+    } catch (Exception e) {
+        // Mark the build as failed if any exception occurs
+        currentBuild.result = 'FAILURE'
+        throw e
+    } finally {
+        // Send an email with the current build result and parameters
+        emailext(
+            to: params.EMAIL_RECIPIENT,
+            subject: 'Build Status - ${currentBuild.result}',
+            body: """The current build result is: ${currentBuild.result}
+
+                    Branch: ${params.BRANCH_NAME}
+                    Repository: ${params.REPO_URL}
+                    """
+        )
+        
+        // Attach the generated report if successful
+        if (currentBuild.result == 'SUCCESS') {
+            emailext(
+                to: params.EMAIL_RECIPIENT,
+                subject: 'Lint Report',
+                body: 'Please find the attached lint report.',
+                attachmentsPattern: 'report.html'
+            )
         }
     }
-
-    stage('genernate report'){
-        sh 'golangci-lint run ./...  --out-format html > report.html || true'
-
-    
+}
 
 }
 
