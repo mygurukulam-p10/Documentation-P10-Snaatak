@@ -63,7 +63,7 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 ### 8.🚀 Review the stages of the build process in the console output.
 
 
-```
+
 ## 🏁 Conclusion
 The code compilation stage successfully transforms the Go source code into an executable binary, ensuring that the application is free from syntax errors and meets the necessary requirements.
 
