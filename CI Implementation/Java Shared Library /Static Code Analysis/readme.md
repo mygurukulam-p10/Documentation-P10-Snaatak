@@ -11,10 +11,11 @@
 ## Table of Contents
 1. [💥 Introduction](#-introduction)
 2. [⚙️ Pre-requisites](#-pre-requisites)
-3. [💥 Steps to Configuration to Static Code Analysis](#-steps-to-configuration-to-static-code-analysis)
-4. [📛 Conclusion](#-conclusion)
-5. [📧 Contact Information](#-contact-information)
-6. [📚 References](#-references)
+3. [🔍 System Requirements](#-system-requirements)
+4. [💥 Steps to Configuration to Static Code Analysis](#-steps-to-configuration-to-static-code-analysis)
+5. [📛 Conclusion](#-conclusion)
+6. [📧 Contact Information](#-contact-information)
+7. [📚 References](#-references)
 
 ---
 ### 💥 Introduction
