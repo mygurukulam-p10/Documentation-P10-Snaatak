@@ -150,7 +150,7 @@ Go to Assign Roles > Add User > Select the roles.
 
 ![image](https://github.com/user-attachments/assets/75640c75-c260-4d7d-a272-bbc959f61ee3)
 
-Now, you can log out or use another browser to log in with the created users. In my case, you can observe the different access permissions.
+
 
 ---
 ## 📧 Contact Information
