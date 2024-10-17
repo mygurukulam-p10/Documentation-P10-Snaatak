@@ -66,7 +66,9 @@
 
  
  2. .Choose the **Target Group** to forward the traffic to. Adjust the weights if using multiple target groups.
+    
 <img width="945" alt="image" src="https://github.com/user-attachments/assets/c3e4bc17-f144-4216-b6cb-bdc993316c1b">
+
 ![Screenshot 2024-10-17 155016](https://github.com/user-attachments/assets/1ffb81ee-68ec-4c48-9f86-dad2e5be434c)
 
 
