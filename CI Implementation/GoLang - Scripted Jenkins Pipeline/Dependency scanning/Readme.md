@@ -156,8 +156,6 @@ node {
 
                     Branch: ${params.BRANCH_NAME}
                     Repository: ${params.REPO_URL}
-                    Credentials ID: ${params.CREDENTIALS_ID}
-                    Snyk Token: ${params.SNYK_TOKEN} (hidden in logs)
                     Build Number: ${env.BUILD_NUMBER}
                     """
         )
