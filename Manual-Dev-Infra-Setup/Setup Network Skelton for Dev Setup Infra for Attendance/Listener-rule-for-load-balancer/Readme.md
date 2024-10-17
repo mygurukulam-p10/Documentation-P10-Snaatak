@@ -82,7 +82,7 @@
 ## 📊 Output 
 After setting up the listener rules, the load balancer will correctly distribute traffic as per your rules. Use the DNS endpoint of the load balancer to test the Attendance API.
 
-![Screenshot 2024-10-09 171230](https://github.com/user-attachments/assets/70db2393-748f-4089-8a32-9970fa39c091)
+<img width="937" alt="image" src="https://github.com/user-attachments/assets/9a6fd0f6-72ee-416e-8e8d-f959c4cd8f56">
 
 
 
