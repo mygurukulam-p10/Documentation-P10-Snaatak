@@ -92,4 +92,3 @@ For more information, feedback, or assistance, feel free to contact us:
 | Links                                             | Descriptions                                                    |
 |---------------------------------------------------|-----------------------------------------------------------------|
 |https://stackoverflow.com/questions/69182492/you-only-have-one-commit-incorrectly-signed-off| **Stackoverflow** |
-|https://github.com/microsoft/vscode/issues/47395| **Repo-brettjacobson** |
