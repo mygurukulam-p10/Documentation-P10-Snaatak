@@ -43,8 +43,7 @@
 
 
 4. Enter a target group name (e.g., `OTMS-Dev-TG-Attendance) and choose the appropriate **VPC**.
-![Screenshot 2024-10-09 172010](https://github.com/user-attachments/assets/18190523-356a-428c-bab4-b24840d134f6)
-
+!![Uploading Screenshot 2024-10-17 154808.png…]()
 
 
 
