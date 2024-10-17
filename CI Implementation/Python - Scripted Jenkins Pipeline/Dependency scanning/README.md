@@ -59,17 +59,19 @@ This README provides a comprehensive guide to setting up dependency scanning wit
 
 
 ### 6. 🖥️ Click on **Build** to initiate the pipeline.
-![image](https://github.com/user-attachments/assets/5377695f-a505-4fb4-b6df-9e0aac650190)
+![image](https://github.com/user-attachments/assets/9053f760-3b8c-48fd-b851-8d5e7d9536da)
 
 ### 7. 🖥️ Observe as the build completes.
-![image](https://github.com/user-attachments/assets/0acefc56-0a6e-41e0-a3a1-3e255c9b598e)
+![image](https://github.com/user-attachments/assets/8df2d936-f7b6-4df1-82a7-b895352d3dd5)
 
 ### 8. 🖥️ Review the **Console Output** for build details.
-![image](https://github.com/user-attachments/assets/c0e18b7c-fb74-40df-8497-b820279f70a6)
+![image](https://github.com/user-attachments/assets/06430a8b-39bd-4d09-8e22-494d8240eaa0)
 
 ### 9. 🖥️ Check each stage in the console output for successful completion.
 
-![image](https://github.com/user-attachments/assets/eb64f276-1c15-47fa-a591-ff150c604030)
+![image](https://github.com/user-attachments/assets/27bf7992-43ce-4861-9573-7160fe9a7b6d)
+![image](https://github.com/user-attachments/assets/7c82b788-953f-4a08-9eb9-61f95a2f4e98)
+![image](https://github.com/user-attachments/assets/030d7da5-3b78-4aa3-b108-04483cd971bf)
 
 ### 10. 🖥️ Chek the report of the scan 
 ![image](https://github.com/user-attachments/assets/24d9ce3a-d70f-403f-a16d-a690c5079109)
