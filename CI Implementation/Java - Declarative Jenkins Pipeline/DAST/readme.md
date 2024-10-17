@@ -56,7 +56,6 @@ This document outlines how to set up a Declarative Jenkins Pipeline for DAST usi
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for DAST in the pipeline script for SCM ...> add repo link & credintial, file path.
 ![image](https://github.com/user-attachments/assets/821bbe42-63eb-4cbc-a8f1-cbddbce0e7bf)
-![image](https://github.com/user-attachments/assets/6e38e445-1c1c-45fb-9288-4e085e04baac)
 
 
 
