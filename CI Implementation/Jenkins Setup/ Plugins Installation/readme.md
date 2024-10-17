@@ -93,18 +93,23 @@ Jenkins plugins can be categorized into several methods based on their purpose, 
 ### 8. 🚀 Verify the Plugin is Installed
 ![8](https://github.com/user-attachments/assets/ca52905d-5826-46c3-82d3-943aeef82c2d)
 
+### NOTE **In a similar way, you can install multiple plugins by following the steps above**
+
 
 ## Limitations
-While plugins add valuable functionality, there are limitations to consider:
-- Compatibility issues between plugins and Jenkins versions.
-- Potential performance impacts when using multiple plugins.
-- Security vulnerabilities that may arise from third-party plugins.
+
+| Limitation                              | Description                                                                                   |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------|
+| Compatibility Issues                    | Some plugins may not be compatible with certain Jenkins versions, leading to potential errors. |
+| Security Vulnerabilities                 | Third-party plugins may introduce security risks if not properly maintained or audited.      |
+
 
 ## Best Practices
-To effectively manage plugins in Jenkins:
-- Regularly update plugins to their latest versions.
-- Limit the number of plugins to those that are necessary.
-- Monitor plugin performance and remove unused ones.
+| Practice                               | Description                                                                                   |
+|----------------------------------------|-----------------------------------------------------------------------------------------------|
+| Regular Updates                        | Regularly update plugins to their latest versions to ensure compatibility and security.       |
+| Limit Plugin Use                       | Limit the number of plugins to those that are necessary to reduce complexity and performance overhead. |
+| Monitor Performance                    | Monitor plugin performance and remove any that are no longer in use to maintain system efficiency. |
 
 ## 📛 Conclusion
 Jenkins plugins are vital for extending the capabilities of the Jenkins server. Understanding their purpose, methods, limitations, and best practices can significantly enhance your CI/CD processes. By leveraging the right plugins, teams can optimize their workflows and improve productivity.
