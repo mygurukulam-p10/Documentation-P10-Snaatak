@@ -33,18 +33,14 @@ This document provides an overview of implementing unit testing in a Go project 
 |**✔️ Maven(3.6.9)**|Handles build automation and dependency management|
 |**✔️ Junit (4.12)**|Facilitates Unit testing|
 
+[Java CI Checks: Unit Testing](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/Application%20CI%20Design/Java%20CI%20checks/Unit%20Testing/Detailed%20Doc/readme.md)
+
 ---
 
 ## 🔍 System Requirements
 
-### Hardware System Requirements
+### [Hardware System Requirements](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/CI%20Implementation/Java%20-%20Declarative%20Jenkins%20Pipeline/Unit%20Testing/readme.md)
 
-| Requirement          | Specification                                                     |
-|----------------------|-------------------------------------------------------------------|
-| **Processor**        | Minimum 2-core CPU                                               |
-| **Memory (RAM)**     | Minimum 4 GB                                                     |
-| **Storage**          | Minimum 20 GB                                                    |
-| **Operating System** | Ubuntu 22.04                                                    |
 
 ---
 
