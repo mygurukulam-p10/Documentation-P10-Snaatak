@@ -88,24 +88,56 @@ This document provides an overview of implementing code compilation in a Go proj
 # Jenkinsfile
 ```
 
+properties([
+    parameters([
+        string(name: 'BRANCH_NAME', defaultValue: 'main', description: 'Branch to build from'),
+        string(name: 'REPO_URL', defaultValue: 'git@github.com:mygurukulam-p10/employee-api.git', description: 'Git repository URL'),
+        string(name: 'CREDENTIALS_ID', defaultValue: 'amit_cred', description: 'Credentials ID for accessing the repository'),
+        string(name: 'REPORT_RECIPIENT', defaultValue: 'nagar.amit1999@gmail.com', description: 'Email address to send the build report')
+    ])
+])
+
 node {
     // Define the Go tool name
     def goTool = tool name: 'golang', type: 'go'
 
-    stage("Checkout") {
-        // Checkout the source code from the Git repository
-        git branch: 'main', url: 'git@github.com:mygurukulam-p10/employee-api.git', credentialsId: "amit_cred"
-    }
+    try {
+        stage("Checkout") {
+            // Checkout the source code from the Git repository using parameters
+            git branch: params.BRANCH_NAME, url: params.REPO_URL, credentialsId: params.CREDENTIALS_ID
+        }
 
-    stage("Install Dependencies") {
-        // Use the Go tool to tidy dependencies
-        sh "${goTool}/bin/go mod tidy"
+        stage("Install Dependencies") {
+            // Use the Go tool to tidy dependencies
+            sh "${goTool}/bin/go mod tidy"
+        }
+
+        stage("Code Compilation") {
+            // Compile the Go application
+            sh "${goTool}/bin/go build -o employee main.go"
+        }
+
+        // Mark the build as successful
+        currentBuild.result = 'SUCCESS'
+
+    } catch (Exception e) {
+        // Mark the build as failed if any exception occurs
+        currentBuild.result = 'FAILURE'
+        throw e
+    } finally {
+        // Send an email with the current build result and parameters
+        emailext(
+            to: params.REPORT_RECIPIENT,
+            subject: "Build Status: ${currentBuild.result} - Job ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
+            body: """The current build result is: ${currentBuild.result}
+
+                    Branch: ${params.BRANCH_NAME}
+                    Repository: ${params.REPO_URL}
+                    Credentials ID: ${params.CREDENTIALS_ID}
+                    Build Number: ${env.BUILD_NUMBER}
+                    """
+        )
     }
-   
-    stage("Code Compilation") {
-     // Compile the Go application
-    sh "${goTool}/bin/go build -o employee main.go"
-     }
 }
 
 ```
