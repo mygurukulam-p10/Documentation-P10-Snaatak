@@ -48,18 +48,17 @@ Authentication is about checking who a user is. In Jenkins, users must authentic
 
 Jenkins has several ways to handle user login:
 
-| Method                           | Description |
-|-----------------------------------|-------------|
-| **Jenkins Database**              |Jenkins manages usernames and passwords internally.
-Example: A user logs into Jenkins with credentials (username: "dev_user", password: "dev_pass") stored in Jenkins. |
-| **LDAP (e.g., Active Directory)** | Jenkins integrates with corporate LDAP, allowing employees to use their existing work credentials.
-Example: An employee logs into Jenkins with their company email and password (stored in the company’s Active Directory).|
-| **Single Sign-On (SSO)**          |Allows users to log in once and access multiple systems using SAML or OAuth.
-Example: A user logs into Jenkins via their Google Workspace account, which also grants them access to other company services.|
-| **API Token**                     |Jenkins users can generate API tokens for programmatic access, instead of using passwords.
-Example: A user creates an API token in Jenkins and uses it to trigger Jenkins builds via a script or command-line tool. |
-| **SSH Keys**                      | Used for secure logins, often with Git integration, bypassing passwords.
-Example: A developer configures Jenkins to log in using their public SSH key, which they also use for Git operations|
+| **Method**                         | **Description**                                                                                                                        |
+|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| **Jenkins Database**               | Jenkins manages usernames and passwords internally.                                                                                     |
+| **LDAP (e.g., Active Directory)**  | Jenkins integrates with corporate LDAP, allowing employees to use their existing work credentials.                                       |
+|                                    | *Example*: An employee logs into Jenkins with their company email and password (stored in the company’s Active Directory).               |
+| **Single Sign-On (SSO)**           | Allows users to log in once and access multiple systems using SAML or OAuth.                                                            |
+|                                    | *Example*: A user logs into Jenkins via their Google Workspace account, which also grants them access to other company services.         |
+| **API Token**                      | Jenkins users can generate API tokens for programmatic access, instead of using passwords.                                               |
+|                                    | *Example*: A user creates an API token in Jenkins and uses it to trigger Jenkins builds via a script or command-line tool.               |
+| **SSH Keys**                       | Used for secure logins, often with Git integration, bypassing passwords.                                                                |
+|                                    | *Example*: A developer configures Jenkins to log in using their public SSH key, which they also use for Git operations.                 |
 
 
 ---
