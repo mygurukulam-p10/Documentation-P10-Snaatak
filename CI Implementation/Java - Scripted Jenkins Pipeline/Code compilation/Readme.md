@@ -98,6 +98,11 @@ After the build is complete, check the console output for logs and any issues en
 ***📛 Conclusion***
 By following this guide, you've successfully created a Scripted Jenkins Pipeline for Java code compilation. Regular builds and testing using Maven ensures continuous integration, allowing early detection of issues. Integrate this scripted pipeline into your CI/CD workflow for optimal performance.
 
+## 📧 Contact Information
+
+| 👨‍💻 **Name**   | 📧 **Email Address**                                  |
+|-----------------|-------------------------------------------------------|
+| Brij Singh       | [Brij.singh.snaatak@mygurukulam.co](mailto:brij.singh.snaatak@mygurukulam.co) |
 
 
 ## 📚 References
