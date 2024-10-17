@@ -1,5 +1,6 @@
 # Setup Jenkins plugins installation
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/3f8fe71c-e807-4bef-be45-876f3edef880)
+
 
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
