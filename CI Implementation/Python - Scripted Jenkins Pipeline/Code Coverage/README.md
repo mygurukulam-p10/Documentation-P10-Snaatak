@@ -30,7 +30,6 @@ This README provides a comprehensive guide to setting up code coverage analysis 
 |-----------------|-----------|-----------------------------------------------------------------|
 | **Python3**     | >= 3.6    | Required for the Python environment and package installations.  |
 | **pip**         | Latest    | The Python package manager, needed for handling dependencies.   |
-| **pytest**      | Latest    | Framework for testing Python code.                              |
 | **pytest-cov**  | Latest    | Plugin for measuring code coverage in Python applications.      |
 
 ---
