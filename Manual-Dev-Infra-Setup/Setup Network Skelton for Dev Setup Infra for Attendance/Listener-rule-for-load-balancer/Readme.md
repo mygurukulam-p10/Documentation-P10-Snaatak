@@ -43,14 +43,15 @@
 
 
 4. Enter a target group name (e.g., `OTMS-Dev-TG-Attendance) and choose the appropriate **VPC**.
-!![Uploading Screenshot 2024-10-17 154808.png…]()
-
+ ![Screenshot 2024-10-17 154808](https://github.com/user-attachments/assets/08578b3d-d168-4efc-b36b-e0d2a203cb1a)
+  
 
 
   
-5. Configure the **Health Check** settings and register the targets. Ensure the port is set to `8080`.
+5. Configure the **Health Check** settings and register the targets. Ensure the port is set to `default`.
 
-![Screenshot 2024-10-09 172026](https://github.com/user-attachments/assets/e5260f21-1000-46a3-878c-7254d08b423f)
+![Screenshot 2024-10-17 154817](https://github.com/user-attachments/assets/f2b38985-8d02-4891-80d2-555257db7164)
+
 
 
 
