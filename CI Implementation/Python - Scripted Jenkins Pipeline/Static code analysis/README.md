@@ -69,21 +69,25 @@ This section outlines the steps to configure a Jenkins job for static code analy
 
 5. **Choose Pipeline as the job type** → Add your pipeline script for static code analysis under the Pipeline section → Provide the repository link, credentials, and file path.
 ![image](https://github.com/user-attachments/assets/796b803c-8155-4882-a2d7-8412f2cf498b)
-![image](https://github.com/user-attachments/assets/39571aff-688d-4d0c-b6b6-765657454b84)
+![image](https://github.com/user-attachments/assets/4c260df5-c490-413c-a478-285676d8b741)
 
 
 6. **Click on Build** to initiate the pipeline.
-![image](https://github.com/user-attachments/assets/254f2dd3-7b5a-4f0e-9503-13cc8d9d1038)
+![image](https://github.com/user-attachments/assets/436ccf6a-cb78-450b-9600-99767196eda8)
 
 
 7. **Observe as the build completes.**
-![image](https://github.com/user-attachments/assets/679c29e0-3bd5-4f56-a018-88765924ac15)
+![image](https://github.com/user-attachments/assets/f94636c1-e00d-4f72-9700-9eb1fe844dbe)
 
 8. **Review the Console Output** for build details.
-![image](https://github.com/user-attachments/assets/f8dd442d-44b1-464e-91c7-edf8d9acc59f)
+![image](https://github.com/user-attachments/assets/64b1b247-6df4-422a-8311-0906e8b2abe8)
+![image](https://github.com/user-attachments/assets/a5fa8132-a416-42bc-a922-706b55ac43ff)
+![image](https://github.com/user-attachments/assets/a0b6531f-ecf7-4cd6-8eda-0ea142d2e245)
+![image](https://github.com/user-attachments/assets/0613a293-aaa6-4e39-a0fb-23d32322af5f)
+
 
 9. **Check each stage in the console output for successful completion.**
-![image](https://github.com/user-attachments/assets/c05fccfd-d6fb-40e7-9b82-7820ac102c7b)
+![image](https://github.com/user-attachments/assets/f5f08da1-2c07-4818-9728-4778fd9b9a02)
 
 10. **Check the pylint report generated during the scan.**
 ![image](https://github.com/user-attachments/assets/f97a532c-cbc3-40ce-893c-4e76df69bf84)
