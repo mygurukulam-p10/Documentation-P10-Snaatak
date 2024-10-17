@@ -83,52 +83,5 @@ This pipeline does the following:
 2. Sends an email if commits are missing a sign-off.
 3. Allows the Git branch and recipient email to be parameterized.
 
-```groovy
-@Library("shared1") _
-pipeline {
-    agent any
 
-    parameters {
-        string(name: 'BRANCH_NAME', defaultValue: 'main', description: 'Branch to check for commit sign-off')
-        string(name: 'EMAIL_RECIPIENT', defaultValue: 'you@example.com', description: 'Email address for notifications')
-    }
-
-    stages {
-        stage('Git Checkout') {
-            steps {
-                script {
-                    def branch = params.BRANCH_NAME
-                    def creds = 'amit_cred'
-                    def url = 'git@github.com:mygurukulam-p10/employee-api.git'
-                    echo "Checking out branch: ${branch} from URL: ${url} using credentials ID: ${creds}"
-                    gitCheckout(branch, creds, url)
-                }
-            }
-        }
-
-        stage('Validate Commit Sign-Off') {
-            steps {
-                script {
-                    def result = sh(script: "git log --format='%H %s' | grep -v 'Signed-off-by'", returnStatus: true)
-                    if (result != 0) {
-                        echo "Some commits are missing 'Signed-off-by'. Sending email notification."
-                        currentBuild.result = 'FAILURE'
-                        sendFailureEmail(params.EMAIL_RECIPIENT)
-                        error "Commit sign-off validation failed. Check the commit messages."
-                    } else {
-                        echo "All commits are properly signed off."
-                    }
-                }
-            }
-        }
-    }
-
-    post {
-        failure {
-            script {
-                echo "Build failed due to commit sign-off issues."
-            }
-        }
-    }
-}
 
