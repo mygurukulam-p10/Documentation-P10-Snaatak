@@ -67,22 +67,25 @@ This section outlines the steps to configure a Jenkins job for bug analysis usin
 ### 5. 🖥️ Choose Pipeline as the job type → Add your pipeline script for dependency scanning under the Pipeline section → Provide the repository link, credentials, and file path.
 
 ![image](https://github.com/user-attachments/assets/7004a8a9-551d-4746-b992-bb6dacbb8579)
-![image](https://github.com/user-attachments/assets/49b8e0f2-c565-40f7-b2af-cbe70830692c)
+![image](https://github.com/user-attachments/assets/331c6d97-e9fb-46c9-8b1c-e8efa968ef31)
+
 
 ### 6. 🖥️ Click on **Build** to initiate the pipeline.
-![image](https://github.com/user-attachments/assets/d4435729-6859-4484-ac84-9ca11a5c5363)
+![image](https://github.com/user-attachments/assets/a952fa85-fd4e-452a-8e0e-2c43f4067c65)
 
 
 ### 7. 🖥️ Observe as the build completes.
-![image](https://github.com/user-attachments/assets/a41f6e94-8944-4b30-9e2d-ad924e125586)
+[image](https://github.com/user-attachments/assets/2d3408ac-4494-43b8-89f0-38900cd8df42)
 
 
 ### 8. 🖥️ Review the **Console Output** for build details.
-![image](https://github.com/user-attachments/assets/db907520-1973-4556-b91a-e540758bb300)
+![image](https://github.com/user-attachments/assets/de7733b5-3d28-48fc-8dc2-924a6b03669d)
+![image](https://github.com/user-attachments/assets/4098f73e-f2a5-449c-915e-52410a302f0d)
+
 
 ### 9. 🖥️ Check each stage in the console output for successful completion.
 
-![image](https://github.com/user-attachments/assets/80e482b2-99bc-4877-bc7e-31d8a3eab9ad)
+![image](https://github.com/user-attachments/assets/839e002d-dd4f-4b95-b8b8-e9eb1c3a71cc)
 
 ### 10. 🖥️ Chek the report of the scan 
 ![image](https://github.com/user-attachments/assets/f608d85f-a33a-4829-83f3-a33200191f94)
