@@ -29,7 +29,7 @@ This document gives an overview of how authentication works in Jenkins. Jenkins 
 ## ❓ What is Authentication in Jenkins?
 
 Authentication is about checking who a user is. In Jenkins, users must authenticate (prove who they are) to access or interact with the Jenkins server.
-[Authorization ](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/Jenkins/Jenkins%20authn%20%26%20authz/README.md)
+[Authorization for more deatils](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/Jenkins/Jenkins%20authn%20%26%20authz/README.md)
 
 ---
 
