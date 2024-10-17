@@ -49,6 +49,7 @@ it maintains accountability in the development workflow. This pipeline enhances 
 
 
 ### 4. Create the repo for add jenkinsfile which will be using in pipeline script for SCM
+![image](https://github.com/user-attachments/assets/05973f5e-ac65-4ff7-a35b-4c43bfadbf4a)
 
 
 
