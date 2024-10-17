@@ -84,8 +84,8 @@ This section outlines the steps to configure a Jenkins job for bug analysis usin
 
 
 ### 9. 🖥️ Check each stage in the console output for successful completion.
+![image](https://github.com/user-attachments/assets/4098f73e-f2a5-449c-915e-52410a302f0d)
 
-![image](https://github.com/user-attachments/assets/839e002d-dd4f-4b95-b8b8-e9eb1c3a71cc)
 
 ### 10. 🖥️ Chek the report of the scan 
 ![image](https://github.com/user-attachments/assets/f608d85f-a33a-4829-83f3-a33200191f94)
