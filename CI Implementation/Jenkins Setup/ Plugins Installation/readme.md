@@ -93,7 +93,8 @@ Jenkins plugins can be categorized into several methods based on their purpose, 
 ### 8. 🚀 Verify the Plugin is Installed
 ![8](https://github.com/user-attachments/assets/ca52905d-5826-46c3-82d3-943aeef82c2d)
 
-### NOTE **In a similar way, you can install multiple plugins by following the steps above**
+### NOTE 
+**In a similar way, you can install multiple plugins by following the steps above**
 
 
 ## Limitations
