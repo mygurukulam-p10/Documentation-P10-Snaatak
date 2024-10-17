@@ -133,7 +133,6 @@ node {
 
                     Branch: ${params.BRANCH_NAME}
                     Repository: ${params.REPO_URL}
-                    Credentials ID: ${params.CREDENTIALS_ID}
                     Build Number: ${env.BUILD_NUMBER}
                     """
         )
