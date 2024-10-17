@@ -69,8 +69,6 @@
     
 <img width="945" alt="image" src="https://github.com/user-attachments/assets/c3e4bc17-f144-4216-b6cb-bdc993316c1b">
 
-<img width="936" alt="image" src="https://github.com/user-attachments/assets/79c1de07-737c-4219-8750-20b766281292">
-
 
    
 3. Click on create LoadBalancer.
