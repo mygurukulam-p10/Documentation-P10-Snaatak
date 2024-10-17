@@ -49,13 +49,11 @@ it maintains accountability in the development workflow. This pipeline enhances 
 
 
 ### 4. Create the repo for add jenkinsfile which will be using in pipeline script for SCM
-![image](https://github.com/user-attachments/assets/23437c66-e475-417b-99b3-52463dff66ff)
 
 
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Commit-Signed off in the pipeline script for SCM ...> add repo link & credintial, file path.
 ![image](https://github.com/user-attachments/assets/a0255aaa-9d71-4871-ba34-3969dad5dd5a)
-![image](https://github.com/user-attachments/assets/7421ad27-7690-4bc6-b3f8-03e1747fef05)
 
 
 ### 6. 🚀 Then Click on build to run the pipeline to perform
