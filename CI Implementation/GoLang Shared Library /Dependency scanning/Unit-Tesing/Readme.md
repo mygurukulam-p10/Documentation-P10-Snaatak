@@ -87,27 +87,51 @@ This document provides an overview of implementing unit testing in a Go project 
 
 ```groovy
 @Library("shared1") _  
+
+properties([
+    parameters([
+        string(name: 'BRANCH_NAME', defaultValue: 'main', description: 'Branch to build from'),
+        string(name: 'REPO_URL', defaultValue: 'git@github.com:mygurukulam-p10/employee-api.git', description: 'Git repository URL'),
+        string(name: 'CREDENTIALS_ID', defaultValue: 'amit_cred', description: 'Credentials ID for accessing the repository'),
+        string(name: 'REPORT_RECIPIENT', defaultValue: 'nagar.amit1999@gmail.com', description: 'Email address to send the build report')
+    ])
+])
+
 node {
+    def buildResult = 'SUCCESS' // Initialize build result variable
     try {
         // Git Checkout
-        def branch = 'main'
-        def creds = 'amit_cred'
-        def url = 'git@github.com:mygurukulam-p10/employee-api.git'
+        def branch = params.BRANCH_NAME
+        def creds = params.CREDENTIALS_ID
+        def url = params.REPO_URL
         def toolName = 'golang'
+        
         echo "Starting Git checkout on branch: ${branch} from URL: ${url} using credentials ID: ${creds}"
         gitCheckout(branch, creds, url)
         echo "Git checkout completed successfully."
-         
+
         // Tool Installation
-      
         goToolInstallation(toolName)  // Install Go tool
-        goInstallDependency()
-        // golang unittesting
-        golangUnitTesing()
+        goInstallDependency()          // Install Go dependencies
         
+        // Golang Unit Testing
+        golangUnitTesting()            // Run unit tests
 
     } catch (Exception e) {
+        buildResult = 'FAILURE' // Update build result on failure
         echo "An error occurred: ${e.message}"
+    } finally {
+        // Send email notification
+        emailext(
+            to: params.REPORT_RECIPIENT,
+            subject: "Build Status: ${buildResult} - Job ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
+            body: """The current build result is: ${buildResult}
+
+                    Branch: ${params.BRANCH_NAME}
+                    Repository: ${params.REPO_URL}
+                    Build Number: ${env.BUILD_NUMBER}
+                    """
+        )
     }
 }
 ```
