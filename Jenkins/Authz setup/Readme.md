@@ -1,8 +1,8 @@
 # 📚 Jenkins Authorization Documentation
 
-| 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
+| 📅 CREATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |/UPDATED |
 |--------------------|------------|--------------|--------------------------------|
-| 14-10-2024         | 0.3       | Brij Singh   | Authentication in Jenkins   |
+| 14-10-2024         | 0.3       | Brij Singh   | Authentication in Jenkins   | 18-10-2024 |
 
 ---
 
