@@ -21,6 +21,10 @@
 This document provides steps to configure a **Scripted Jenkins Pipeline** for Java code compilation. Scripted Pipelines, written in Groovy, offer more flexibility compared to Declarative Pipelines, enabling the creation of complex workflows.
 
 ---
+***Flow Diagram***
+
+![Untitled-2024-10-18-0211](https://github.com/user-attachments/assets/913c4ae5-8898-4a40-9f87-0f1b29a82f54)
+
 
 ## ⚙ Pre-requisites
 1. **Jenkins**: A Jenkins instance must be running.
