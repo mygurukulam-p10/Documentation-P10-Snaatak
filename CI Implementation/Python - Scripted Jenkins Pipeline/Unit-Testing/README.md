@@ -55,8 +55,7 @@ This document provides a comprehensive guide to setting up unit testing using **
 ### 5. 🖥️ Choose Pipeline as the job type → Add your pipeline script for unit testing under the Pipeline section → Provide the repository link, credentials, and file path.
 
 ![image](https://github.com/user-attachments/assets/f186bc32-017a-491d-a34e-c5a8d662f9c2)
-![image](https://github.com/user-attachments/assets/664292c5-d3cd-4aaa-a30a-a453fb35b7df)
-
+![image](https://github.com/user-attachments/assets/72cb49b6-2648-4360-a45d-1924e5655eb4)
 
 ### 6. 🖥️ Click on **Build** to initiate the pipeline.
 
