@@ -90,7 +90,7 @@ properties([
         string(name: 'CREDENTIALS_ID', defaultValue: 'amit_cred', description: 'Credentials ID for accessing the repository'),
         string(name: 'ZAP_URL', defaultValue: 'http://3.111.35.135:8080/swagger/index.html', description: 'URL to scan with ZAP'),
         string(name: 'ZAP_PORT', defaultValue: '8090', description: 'Port to run ZAP on'),
-        string(name: 'REPORT_RECIPIENT', defaultValue: 'nagar.amit1999@gmail.com', description: 'Email address to send the report')
+        string(name: 'REPORT_RECIPIENT', defaultValue: 'nagar.amit1999@gmail.com, second.email@example.com', description: 'Comma-separated email addresses to send the report')
     ])
 ])
 
@@ -142,15 +142,22 @@ node {
             // Archive the DAST report
             archiveArtifacts artifacts: 'ZAP/report1.html', allowEmptyArchive: false
         }
+        
+        // Mark the build as successful
+        currentBuild.result = 'SUCCESS'
+
     } catch (Exception e) {
         // Handle any errors that occur during the stages
         currentBuild.result = 'FAILURE'
         throw e
     } finally {
+        // Prepare email subject and body based on build result
+        def buildStatus = currentBuild.result ?: 'SUCCESS'
+        
         // Send email regardless of build success or failure
         emailext(
             to: params.REPORT_RECIPIENT,
-            subject: "DAST Report - Job ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
+            subject: "DAST Report - Job ${env.JOB_NAME} [${env.BUILD_NUMBER}] - Status: ${buildStatus}",
             body: """The DAST scan has completed.
 
             Branch: ${params.BRANCH_NAME}
@@ -159,12 +166,14 @@ node {
             ZAP URL: ${params.ZAP_URL}
             ZAP Port: ${params.ZAP_PORT}
             Build Number: ${env.BUILD_NUMBER}
+            Build Status: ${buildStatus}
             
             Please find the attached DAST report.
             """,
             attachmentsPattern: 'ZAP/report1.html'
         )
         
+        // Log the build result
         if (currentBuild.result == 'FAILURE') {
             echo 'Build failed.'
         } else {
@@ -172,6 +181,7 @@ node {
         }
     }
 }
+
 
 ```
 ## 📛 Conclusion
