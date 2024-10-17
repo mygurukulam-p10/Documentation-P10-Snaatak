@@ -12,7 +12,7 @@
 1. [💥 Introduction](#-introduction)
 2. [⚙️ Pre-requisites](#-pre-requisites)
 3. [🔍 System Requirements](#-system-requirements)
-4. [💥 Steps to Configuration to Bug Analysis](#-steps-to-configuration-to-buganalysis)
+4. [💥 Steps to Configuration to Bug Analysis](#-steps-to-configuration-to-bug-analysis)
 5. [📛 Conclusion](#-conclusion)
 6. [📧 Contact Information](#-contact-information)
 7. [📚 References](#-references)
