@@ -47,7 +47,6 @@ Jenkins plugins can be categorized into several methods based on their purpose, 
 | **Notification Systems**     | **Slack**             | Messaging platform for team notifications.                       | Use Incoming Webhooks for notifications.                     |
 |                              | **Email**             | Email notifications for build status and alerts.                | Configure SMTP settings in the CI/CD pipeline.              |
 | **Code Quality Checks**      | **SonarQube**         | Continuous inspection of code quality and security.              | Run analysis with `sonar-scanner` after build.              |
-|                              | **ESLint**            | Linter for JavaScript to identify and report on code quality.    | Run with `eslint .` to check code quality.                  |
 | **Reporting & Visualization**| **Jenkins**           | CI/CD server for building and deploying applications.            | Configure pipelines in `Jenkinsfile`. |
 |                              | **JIRA**              | Project management tool for tracking issues and progress.        | Integrate with Git for issue tracking. |
 
