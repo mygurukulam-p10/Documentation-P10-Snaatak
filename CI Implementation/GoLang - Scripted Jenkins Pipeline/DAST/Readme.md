@@ -82,47 +82,94 @@ This document provides an overview of integrating Dynamic Application Security T
 ## Jenkinsfile
 
 ```groovy
+// Define properties and parameters
+properties([
+    parameters([
+        string(name: 'BRANCH_NAME', defaultValue: 'main', description: 'Branch to build from'),
+        string(name: 'REPO_URL', defaultValue: 'git@github.com:mygurukulam-p10/employee-api.git', description: 'Git repository URL'),
+        string(name: 'CREDENTIALS_ID', defaultValue: 'amit_cred', description: 'Credentials ID for accessing the repository'),
+        string(name: 'ZAP_URL', defaultValue: 'http://3.111.35.135:8080/swagger/index.html', description: 'URL to scan with ZAP'),
+        string(name: 'ZAP_PORT', defaultValue: '8090', description: 'Port to run ZAP on'),
+        string(name: 'REPORT_RECIPIENT', defaultValue: 'nagar.amit1999@gmail.com', description: 'Email address to send the report')
+    ])
+])
+
 node {
     // Define the Go tool name
     def goTool = tool name: 'golang', type: 'go'
+    def zapPath = "${env.WORKSPACE}/ZAP/zap.sh"
 
-    stage("Checkout") {
-        git branch: 'main', url: 'git@github.com:mygurukulam-p10/employee-api.git', credentialsId: "amit_cred"
-    }
+    try {
+        stage("Checkout") {
+            // Checkout code from the repository
+            git branch: params.BRANCH_NAME, url: params.REPO_URL, credentialsId: params.CREDENTIALS_ID
+        }
 
-    stage("Install Dependencies") {
-        sh "${goTool}/bin/go mod tidy"
-    }
+        stage("Install Dependencies") {
+            // Install Go dependencies
+            sh "${goTool}/bin/go mod tidy"
+        }
 
-    stage("Install ZAP") {
-        sh 'wget https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Linux.tar.gz'
-        sh 'tar -xvf ZAP_2.15.0_Linux.tar.gz'
-    }
+        stage("Install ZAP") {
+            // Install ZAP
+            sh '''
+                wget https://github.com/zaproxy/zaproxy/releases/download/v2.15.0/ZAP_2.15.0_Linux.tar.gz
+                tar -xvf ZAP_2.15.0_Linux.tar.gz
+                rm -rf ZAP  # Remove the existing directory if it exists
+                mv ZAP_2.15.0 ZAP  # Move to desired directory
+            '''
+        }
 
-    stage('Run ZAP Scan') {
-       
-        def zapPath = "/var/lib/jenkins/workspace/${env.JOB_NAME}/ZAP_2.15.0/zap.sh"
+        stage("Run ZAP Scan") {
+            // Run ZAP scan
+            sh """
+                "${zapPath}" -cmd -port ${params.ZAP_PORT} -quickurl ${params.ZAP_URL} -quickprogress -quickout ./report1.html
+            """
+        }
 
-       
-        sh """
-            "${zapPath}" -cmd -port 8090 -quickurl http://3.111.35.135:8080/swagger/index.html -quickprogress -quickout ./report.html
-        """
-    }
+        stage("Publish DAST Report") {
+            // Publish the generated DAST report
+            publishHTML([
+                allowMissing: false, 
+                reportDir: "${env.WORKSPACE}/ZAP", 
+                reportFiles: 'report1.html', 
+                reportName: 'DAST Report', 
+                reportTitles: 'DAST'
+            ])
+        }
 
-    stage("Publish DAST Report") {
-        publishHTML([
-            allowMissing: false, 
-            reportDir: "/var/lib/jenkins/workspace/${env.JOB_NAME}/ZAP_2.15.0", 
-            reportFiles: 'report.html', 
-            reportName: 'DAST Report', 
-            reportTitles: 'DAST', 
-            useWrapperFileDirectly: true
-        ])
-    }
+        stage("Archive DAST Report") {
+            // Archive the DAST report
+            archiveArtifacts artifacts: 'ZAP/report1.html', allowEmptyArchive: false
+        }
+    } catch (Exception e) {
+        // Handle any errors that occur during the stages
+        currentBuild.result = 'FAILURE'
+        throw e
+    } finally {
+        // Send email regardless of build success or failure
+        emailext(
+            to: params.REPORT_RECIPIENT,
+            subject: "DAST Report - Job ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
+            body: """The DAST scan has completed.
 
-    stage("Archive DAST Report") {
-    // Archive the report as an artifact in Jenkins
-    archiveArtifacts artifacts: 'ZAP_2.15.0/report.html', allowEmptyArchive: false
+            Branch: ${params.BRANCH_NAME}
+            Repository: ${params.REPO_URL}
+            Credentials ID: ${params.CREDENTIALS_ID}
+            ZAP URL: ${params.ZAP_URL}
+            ZAP Port: ${params.ZAP_PORT}
+            Build Number: ${env.BUILD_NUMBER}
+            
+            Please find the attached DAST report.
+            """,
+            attachmentsPattern: 'ZAP/report1.html'
+        )
+        
+        if (currentBuild.result == 'FAILURE') {
+            echo 'Build failed.'
+        } else {
+            echo 'Build completed successfully.'
+        }
     }
 }
 
