@@ -2,7 +2,7 @@
 
 | Author      | Created on   | Version | Last updated by | Last edited on  |
 |-------------|--------------|---------|-----------------|-----------------|
-| Aayush Gaur  | -10-2024   | 1.0     | Aayush Gaur      | 18-10-2024      |
+| Aayush Gaur  | 18-10-2024   | 1.0     | Aayush Gaur      | 18-10-2024      |
 
 ***
 ## Table of Contents
@@ -13,7 +13,7 @@
 + [Steps to Create a Security Group](#Steps-to-Create-a-Security-Group)
 + [Conclusion](#Conclusion)
 + [Contact Information](#Contact-Information)
-+ [Resources and References](#Resources-and-References)
++ [References](#References)
   
 ***
 ## Introduction
@@ -73,6 +73,26 @@ Basic understanding of your application's
 
 ### Step 5: Define Inbound Rules
 - Click the Add Rule button and add the rule.
+![Screenshot from 2024-10-18 19-12-49](https://github.com/user-attachments/assets/29c96e33-7897-4f89-90b9-4f8b9a0b35cd)
+
+### Step 6: Define Outbound Rules
+- Click the Outbound Rules tab.
+
+- Click Edit Outbound Rules and set outbound traffic settings
+![Screenshot from 2024-10-18 19-14-17](https://github.com/user-attachments/assets/4833ae04-38b7-417b-81ab-33b01d1f66a6)
+
+## Contact Information
+
+| Name       | Email Address                              |
+|------------|--------------------------------------------|
+| Aayush Gaur | aayush.gaur.snaatak@mygurukulam.com       |
+
+## References
+
+| Description               | Link                                                                 |
+|---------------------------|----------------------------------------------------------------------|
+| Dev Infra Design           | [Cloud Infra Design]
+| Security Group Setup Guide | [AWS Security Groups](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html) |
 
 
 
