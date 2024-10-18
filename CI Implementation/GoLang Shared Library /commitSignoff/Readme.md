@@ -52,27 +52,7 @@ This document outlines how to configure a Jenkins shared pipeline that enforces 
 
 ## 💥 Steps to Configuration for Commit Sign-Off with Email Notification
 
-### 1. 🚀 Open your Jenkins Dashboard.
-
-### Step 1.1: Configure the Shared Library in Jenkins
-
-1. Go to the **Jenkins Dashboard**.
-2. Click on **Manage Jenkins** → **Configure System**.
-3. Scroll down to **Global Pipeline Libraries** and click **Add**.
-4. Fill out the details:
-   - **Name**: Give your shared library a name (e.g., `shared-library`).
-   - **Default Version**: (Optional) Enter the branch, tag, or commit hash (e.g., `main`).
-   - **Retrieval Method**: Choose `Modern SCM` and select **Git**.
-   - **Repository URL**: Provide the URL to the shared library repository.
-   - **Credentials**: Select or add the necessary credentials.
-
-5. Click **Save**.
-
-### 2. 🚀 Create a New Jenkins Job
-
-- Navigate to **New Item** and enter a name for your job (e.g., `Commit Sign-Off Pipeline with Email`).
-- Choose **Pipeline** as the job type.
-- Add the parameterized pipeline script (below) to check commit sign-off and send email notifications on failure.
+Reference link to follow steps (#https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/CI%20Implementation/GoLang%20Shared%20Library%20/Dependency%20scanning/Unit-Tesing)
 
 ---
 
