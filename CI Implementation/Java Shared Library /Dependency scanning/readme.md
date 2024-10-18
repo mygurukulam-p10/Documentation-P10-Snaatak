@@ -2,9 +2,9 @@ Dependency Scanning for Java - Shared Library
 
 ![image](https://github.com/user-attachments/assets/3a9fce15-13ae-46e2-bd1a-e2d2d9215688)
 
-| ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
-|-------------|-------------|------------|-----------------|----------------|
-| Vinay Bansal | 14-10-2024  | Version 1  | Vinay Bansal    | 15-10-2024     |
+| ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on | Reviewed By L0 | Reviewed By L1 | Reviewed By L2 |
+|-------------|-------------|------------|-----------------|----------------|------------|-----------------|----------------|
+| Vinay Bansal | 14-10-2024  | Version 1  | Vinay Bansal    | 17-10-2024     |Shikha Tripathi||
 
 ---
 ## Table of Contents
