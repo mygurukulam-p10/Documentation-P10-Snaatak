@@ -48,8 +48,8 @@ Here's a simplified breakdown of the process:
 ***
 
 ## Pre-requisites
-Access to the AWS Management Console or AWS CLI.
-Basic understanding of your application's
+- Access to the AWS Management Console or AWS CLI.
+- Basic understanding of your application's
 
 ***
 ## Steps to Create a Security Group 
