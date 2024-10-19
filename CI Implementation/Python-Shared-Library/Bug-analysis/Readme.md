@@ -54,8 +54,9 @@ This project aims to implement a robust code analysis tool using Flake8 to ensur
 
 ### 4. 🚀 Create the repo & vars file which will be using in pipeline script.
 ![Screenshot 2024-10-14 091456](https://github.com/user-attachments/assets/d7ecabe4-5a4f-4bde-bad2-a0e4db175888)
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/6ec39583-ba03-4df4-801d-52dda0245acd">
 
-![Screenshot 2024-10-14 233922](https://github.com/user-attachments/assets/3d1654c2-1fee-4f10-bab9-ceb2a69f8c35)
+
 
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Bug analysis in the pipeline script.
