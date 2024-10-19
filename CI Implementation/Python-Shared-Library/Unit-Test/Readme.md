@@ -57,7 +57,7 @@ This Readme provides a Shared Library for unit testing in Python using Pytest. T
 ![Screenshot 2024-10-14 091456](https://github.com/user-attachments/assets/5344b607-3b44-418c-91f9-7691c0bd2e69)
 
 
-![Screenshot 2024-10-14 082819](https://github.com/user-attachments/assets/3e6dd250-ad9a-4a31-a3ac-8996d837ee0d)
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/0a5c95ce-16ef-4fb7-acb5-b743621b2fd6">
 
 
 
