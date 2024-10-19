@@ -57,7 +57,7 @@ overall security of applications that rely on this library. Regular checks help 
 
 ### 4. 🚀 Create the repo for add vars file which will be using in pipeline script.
 ![Screenshot 2024-10-14 091456](https://github.com/user-attachments/assets/5344b607-3b44-418c-91f9-7691c0bd2e69)
-![Screenshot 2024-10-15 022206](https://github.com/user-attachments/assets/875576cb-813b-40ce-83b1-3d183c37cc35)
+<img width="937" alt="image" src="https://github.com/user-attachments/assets/2bead089-b4d4-415f-b998-edbfb03ea173">
 
 
 
