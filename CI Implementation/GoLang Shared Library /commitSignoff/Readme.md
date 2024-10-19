@@ -59,8 +59,9 @@ This document outlines how to configure a Jenkins shared pipeline that enforces 
 
 
 ### 3. 🚀 Choose Pipeline as the job type-->Add your pipeline script for  commit signoff in the pipeline configuration...>Click on Save to store the configuration.
+![Screenshot from 2024-10-20 02-38-54](https://github.com/user-attachments/assets/66fa2be5-3193-4384-b4ca-50098bd40b7f)
 
-![Screenshot from 2024-10-20 02-37-16](https://github.com/user-attachments/assets/6d7f5725-e6e0-447c-9bad-ee0a99607fda)
+![Screenshot from 2024-10-20 02-39-01](https://github.com/user-attachments/assets/5ee95dd0-bf7a-4b56-a63e-83b26e251da4)
 
 
 ### 4. 🚀 Then Click on build to run the pipeline to perform commit signoff
