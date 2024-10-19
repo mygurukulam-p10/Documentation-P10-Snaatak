@@ -37,3 +37,4 @@ Amazon EC2 Auto Scaling helps you make sure you have the right number of servers
 ---
 
 ## 🛠️ Steps to Setup Auto Scaling
+### Step 1: Create an AMI Image of the Frontend API Instance
