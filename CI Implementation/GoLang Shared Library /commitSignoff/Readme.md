@@ -128,5 +128,19 @@ def call(String recipientEmail, String repoURL, String branchName) {
 
 
 ```
+## 🏁 Conclusion
 
+The commit signoff process is crucial for maintaining code quality and accountability in software development. It ensures that contributors acknowledge the project's contribution guidelines and take responsibility for their changes. By including a "Signed-off-by" line in your commits, you facilitate a transparent development process and uphold the integrity of the codebase.
+
+## 📞 Contact Information
+
+| Name       | Email address                     |
+|------------|-----------------------------------|
+| Amit Nagar | amit.nagar.snaatak@mygurukulam.com |
+
+## 📚 References
+
+| Topic                   | Reference Link                                           |
+|-------------------------|---------------------------------------------------------|
+| Commit Signoff          | [How to Sign Off Commits](https://developercircle.dev/what-is-sign-off-on-git-commit/) |
 
