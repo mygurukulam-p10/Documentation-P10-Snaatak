@@ -76,8 +76,8 @@ This document outlines how to configure a Jenkins shared pipeline that enforces 
 
 ### 6. 🚀 Click on Console Output to see the complete build.
 ![Screenshot from 2024-10-20 02-39-57](https://github.com/user-attachments/assets/2e5065cf-55e5-4cde-b63f-c94c9d886739)
+![Screenshot from 2024-10-20 02-40-04](https://github.com/user-attachments/assets/296a9f32-0914-44ac-8cf2-a21912c75206)
 
-![Screenshot from 2024-10-20 02-39-01](https://github.com/user-attachments/assets/fa377e8d-5158-4eb9-9973-96ab8ecf4c53)
 
 
 
