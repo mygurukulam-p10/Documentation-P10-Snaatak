@@ -11,7 +11,6 @@
 - [What is Bugs Analysis?](#what-is-bugs-analysis)
 - [Why is Bugs Analysis Important?](#why-bugs-analysis-important)
 - [Different Tools for Bugs Analysis](#different-tools-for-bugs-analysis)
-- [Comparison of Different Tools](#comparison-of-different-tools)
 - [Advantages of Bugs Analysis](#advantages-of-bugs-analysis)
 - [Proof of Concept (POC)](#proof-of-concept-poc)
 - [Best Practices](#best-practices)
@@ -69,7 +68,9 @@ For POC you can refer this doc https://github.com/mygurukulam-p10/Documention/bl
 | Documentation               | Maintain comprehensive documentation for all CI processes.                  |
 
 ### Conclusion
-Implementing Java CI checks with a focus on bug analysis is crucial for maintaining high code quality and ensuring a smooth development process. By leveraging tools like GitHub Actions and SonarQube, the salary-api repository can benefit from automated testing, continuous feedback, and improved collaboration. Adopting these practices will lead to more robust and maintainable software.
+Implementing Java CI checks with a focus on bug analysis is crucial for maintaining high code quality and ensuring a smooth development process. In the case of the salary-api repository, we utilized SpotBugs for static code analysis. SpotBugs was chosen for its simplicity and effectiveness in identifying potential bugs, performance issues, and security vulnerabilities in Java code by analyzing the bytecode.
+- Automatically detect bugs early in the development cycle, reducing the cost and effort of fixing them later.
+- Benefit from its seamless integration with Maven and Jenkins, making it a natural fit for our project setup.
 
 ### Contact Information 
 |Name|Email Address|
