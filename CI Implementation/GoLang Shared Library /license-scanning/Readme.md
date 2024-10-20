@@ -40,26 +40,165 @@ License scanning is crucial for identifying the licenses of third-party librarie
 
 ### 3. 🚀 Provide a description for the pipeline detailing what it will perform.
 
-
 ### 4. 🚀 Create the repository to add a vars file which will be used in the pipeline script.
 
-
 ### 5. 🚀 Choose Pipeline as the job type --> Add your pipeline script for License Scanning analysis in the pipeline script.
+![Screenshot from 2024-10-21 02-49-06](https://github.com/user-attachments/assets/321766a3-b5c8-4b42-971c-bc479e12bde1)
 
 
 ### 6. 🚀 Then Click on build to run the pipeline.
 
 
 ### 7. 🚀 Now we are able to see the build complete.
+![Screenshot from 2024-10-21 02-45-55](https://github.com/user-attachments/assets/283f74ff-8049-4c11-90e1-2fc5b5b4da6f)
+![Screenshot from 2024-10-21 02-49-21](https://github.com/user-attachments/assets/287c6516-2861-4235-9d23-ad0bdd362587)
 
 
 ### 8. 🚀 Click on Console Output to see the complete build.
+![Screenshot from 2024-10-20 02-39-57](https://github.com/user-attachments/assets/1fb0d806-1fe4-4aae-b174-0f9abffd456e)
+![Screenshot from 2024-10-20 02-40-04](https://github.com/user-attachments/assets/10372db5-7d79-4612-a374-bafb2588662d)
 
 
 Jenkinsfile
 ```
+@Library('shared1') _  // Load the shared library
+
+pipeline {
+    agent any
+
+    parameters {
+        string(name: 'BRANCH_NAME', defaultValue: 'main', description: 'Branch to build from')
+        string(name: 'REPO_URL', defaultValue: 'git@github.com:mygurukulam-p10/employee-api.git', description: 'Git repository URL')
+        string(name: 'CREDENTIALS_ID', defaultValue: 'amit_cred', description: 'Credentials ID for accessing the repository')
+        string(name: 'REPORT_RECIPIENT', defaultValue: 'nagar.amit1999@gmail.com', description: 'Email address to send the build report')
+        string(name: 'OUTPUT_REPORT_FILE', defaultValue: 'trivy-license-report.json', description: 'Trivy output report file name')
+    }
+
+    stages {
+        stage('Checkout Code') {
+            steps {
+                script {
+                    // Directly call the gitCheckout function
+                    gitCheckout(params.BRANCH_NAME, params.CREDENTIALS_ID, params.REPO_URL)
+                }
+            }
+        }
+
+        stage('Download and Install Trivy') {
+            steps {
+                script {
+                    // Directly call the installTrivy function
+                    installTrivy('0.51.4')
+                }
+            }
+        }
+
+        stage('Run Trivy License Scan') {
+            steps {
+                script {
+                    // Directly call the runLicenseScan function
+                    runLicenseScan(params.OUTPUT_REPORT_FILE)
+                }
+            }
+        }
+
+        stage('Archive Trivy Report') {
+            steps {
+                script {
+                    // Directly call the archiveReport function
+                    archiveReport(params.OUTPUT_REPORT_FILE)
+                }
+            }
+        }
+    }
+
+    post {
+        success {
+            script {
+                String successSubject = "Trivy License Scan Successful - Build #${env.BUILD_NUMBER}"
+                String successBody = """
+                The Trivy License Scan has completed successfully.
+
+                Details:
+                - Branch: ${params.BRANCH_NAME}
+                - Repository: ${params.REPO_URL}
+                - Build Number: ${env.BUILD_NUMBER}
+
+                Please find the attached Trivy License Report.
+                """
+                email(successSubject, successBody, params.REPORT_RECIPIENT, params.OUTPUT_REPORT_FILE)
+            }
+        }
+        failure {
+            script {
+                String failureSubject = "Trivy License Scan Failed - Build #${env.BUILD_NUMBER}"
+                String failureBody = """
+                The Trivy License Scan has failed.
+
+                Details:
+                - Branch: ${params.BRANCH_NAME}
+                - Repository: ${params.REPO_URL}
+                - Build Number: ${env.BUILD_NUMBER}
+
+                Please check the logs for more details.
+                """
+                email(failureSubject, failureBody, params.REPORT_RECIPIENT, params.OUTPUT_REPORT_FILE)
+            }
+        }
+        always {
+            script {
+                echo "Pipeline execution finished."
+            }
+        }
+    }
+}
 
 
+```
+
+installTrivy.groovy
+
+```
+def call(version) {
+    // Check if Trivy is installed, and only install if not present
+    if (sh(script: 'command -v trivy', returnStatus: true) != 0) {
+        echo "Trivy not found, installing version ${version}..."
+        sh """
+        wget https://github.com/aquasecurity/trivy/releases/download/v${version}/trivy_${version}_Linux-64bit.deb
+        sudo dpkg -i trivy_${version}_Linux-64bit.deb
+        """
+    } else {
+        echo "Trivy is already installed, skipping installation."
+    }
+}
+
+```
+email.groovy
+
+```
+def call(String subject, String body, String recipient, String attachmentsPattern = '') {
+    emailext(
+        subject: subject,
+        body: body,
+        to: recipient,
+        attachmentsPattern: attachmentsPattern
+    )
+}
+
+
+```
+archiveReport.groovy
+```
+def call(reportFile) {
+    archiveArtifacts artifacts: reportFile, allowEmptyArchive: true
+}
+
+```
+runLicenseScan.groovy
+```
+def call(String outputFile = 'trivy-license-report.json') {
+    sh "trivy repo --scanners license --format json --output ${outputFile} ."
+}
 ```
 ---
 
