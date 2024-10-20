@@ -162,9 +162,6 @@ node {
 
             Branch: ${params.BRANCH_NAME}
             Repository: ${params.REPO_URL}
-            Credentials ID: ${params.CREDENTIALS_ID}
-            ZAP URL: ${params.ZAP_URL}
-            ZAP Port: ${params.ZAP_PORT}
             Build Number: ${env.BUILD_NUMBER}
             Build Status: ${buildStatus}
             
