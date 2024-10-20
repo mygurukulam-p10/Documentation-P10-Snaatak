@@ -76,8 +76,9 @@ This document provides an overview of implementing unit testing in a Go project 
 ![Screenshot from 2024-10-05 16-46-45](https://github.com/user-attachments/assets/56ead5a2-e956-4aba-8643-48c91018c420)
 
 ### 7. 🚀 Click on **Console Output** to see the complete build results.
-![Screenshot from 2024-10-05 16-45-58](https://github.com/user-attachments/assets/fba85534-e64b-4c33-bb79-7dc8223aeb25)
-![Screenshot from 2024-10-05 16-46-06](https://github.com/user-attachments/assets/beb22ec8-12ce-4a1b-a8f3-a55625faa6b1)
+![image](https://github.com/user-attachments/assets/d3cdeae2-1ae1-4f2f-9f02-17d0d75378fb)
+![image](https://github.com/user-attachments/assets/711ffc99-b1e5-4b92-8763-57020abe64f8)
+
 
 
 ### 8. 🚀 Review the results of the unit testing process in the console output.
