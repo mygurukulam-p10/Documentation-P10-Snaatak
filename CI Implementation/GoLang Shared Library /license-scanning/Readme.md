@@ -30,8 +30,6 @@ License scanning is crucial for identifying the licenses of third-party librarie
 ---
 ## 🚀 Global Configuration
 **Here we do global configuration for shared library, go to manage Jenkins.....> system......> Global Trusted Pipeline Libraries & provide the required details as you can see in images-**
-![Screenshot 2024-10-14 150428](https://github.com/user-attachments/assets/f88f3a86-1823-4f72-ad64-0adfd641a988)
-![Screenshot 2024-10-14 150516](https://github.com/user-attachments/assets/8fbb331d-41fd-4a9f-8eea-8838d370eab1)
 
 ---
 
