@@ -76,6 +76,8 @@ This function can be called in any pipeline to notify users of build status (pas
 ![Screenshot 2024-10-18 104425](https://github.com/user-attachments/assets/6170a5c1-b552-447f-8c43-0aa38fb7ba3e)
 ![Screenshot 2024-10-18 104437](https://github.com/user-attachments/assets/6f6ea12e-078b-4d21-98a8-e3b8496ab1f3)
 ![Screenshot 2024-10-18 104455](https://github.com/user-attachments/assets/e5fffdae-998c-4998-b68e-99159cb1a63f)
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/521705aa-0bea-499a-b8f2-166006bd7cad">
+
 
 
 ### 9. Here is the email notification for the status of build.
