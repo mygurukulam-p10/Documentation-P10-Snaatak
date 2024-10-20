@@ -3,6 +3,7 @@
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | 📝 COMMENT                     |
 |--------------------|------------|--------------|--------------------------------|
 | 22-09-2024         | 0.1       | Aayush Gaur  | Bugs Analysis              |
+| 21-10-2024         | 1.1       | Aayush Gaur  | Bugs Analysis              |
 
 
 ### Table of Contents
