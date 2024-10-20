@@ -1,8 +1,8 @@
 # ☕ Java Code Compilation with Scripted Jenkins Pipeline
 
-| ✍️ Author      | 📅 Created on  | 📌 Version  | 📝 Last updated by | 📅 Last edited on  |
-|----------------|----------------|------------|--------------------|--------------------|
-|Brij Singh   | 10-10-2024     | Version 2  | Brij Singh       | 09-10-2024         |
+| ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by    |📅 Last edited on   |  ✍️ L0 Reviewer   | ✍️ L1 Reviewer|✍️ L2 Reviewer|
+|-------------|-------------|------------|-----------------|----------------|-------------------|-----------------|----------------|
+| Brij Singh     | 09-10-2024  | Version 1.2  | Brij Singh          | 15-10-2024     |      Shikha Tripathi / Aakash Tripathi	 /Shreya Jaiswal	         |  Pramod Rajput / Shashi              |  Ashwani |
 
 ---
 
