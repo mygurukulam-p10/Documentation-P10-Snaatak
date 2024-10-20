@@ -4,7 +4,7 @@
 ***
 | Author | Created on | Last updated by | Last edited on |
 |--------|------------|-----------------|----------------|
-|Aayush Gaur| 09-10-2024 | Aayush Gaur| 09-10-2024|
+|Aayush Gaur| 09-10-2024 | Aayush Gaur| 21-10-2024|
 
 ***
 ## Table of Contents
@@ -78,16 +78,17 @@ Click on create policy
 ![Screenshot from 2024-10-09 18-48-43](https://github.com/user-attachments/assets/a892c057-c973-4054-a3ef-e7dbc6197f77)
 
 ***
-### Step 2: Select a Policy Creation Method & Define Permissions
-![Screenshot from 2024-10-09 18-51-13](https://github.com/user-attachments/assets/81a490be-4d35-4203-a4c7-32cff2f54c96)
+### Step 2: Choose the JSON Tab & Write you Policy.
+![Screenshot from 2024-10-21 03-11-01](https://github.com/user-attachments/assets/8f690fd5-27de-422f-a93e-92732bfb1564)
+
 
 ***
-### Step 3: Review the Policy
-![Screenshot from 2024-10-09 18-53-01](https://github.com/user-attachments/assets/e3a2809d-3c1d-4114-b339-e03a36bcafd6)
+### Step 3: Review, provide a name for the policy(eg, My-custom-policy)
+![Screenshot from 2024-10-21 03-13-23](https://github.com/user-attachments/assets/3365b685-0fc8-413a-a6cc-8a55d7c73dac)
 
 ***
 ### Step 4: Create Successfully
-![Screenshot from 2024-10-09 18-55-21](https://github.com/user-attachments/assets/e49fd178-2f1e-4b6a-a760-170c2e30758b)
+![Screenshot from 2024-10-21 03-14-31](https://github.com/user-attachments/assets/74da84e9-5d89-4eaa-a695-a96278bfd9c5)
 
 *** 
 ## Best Practices for Custom IAM Policies
