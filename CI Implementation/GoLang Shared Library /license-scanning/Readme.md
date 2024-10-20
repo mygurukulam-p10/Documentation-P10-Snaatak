@@ -16,7 +16,7 @@
 
 ---
 ### 💥 Introduction
-License scanning is crucial for identifying the licenses of third-party libraries utilized by this shared library. By integrating license scanning into the CI/CD pipeline, we ensure compliance with licensing requirements, mitigating legal risks. This proactive approach is vital for maintaining the overall integrity of applications that depend on this library. Regular checks help in adhering to licensing obligations.
+License scanning is crucial for identifying the licenses of third-party libraries utilized by this shared library. By integrating license scanning into the CI/CD pipeline, we ensure compliance with licensing requirements, mitigating legal risks.
 
 ---
 
@@ -205,7 +205,7 @@ def call(String outputFile = 'trivy-license-report.json') {
 ---
 
 ## 📛 Conclusion
-Integrating license scanning into our Jenkins pipeline is a crucial step in ensuring that our shared library complies with licensing requirements for third-party dependencies. This automated approach not only enhances legal compliance but also enables early detection of potential licensing issues during development. By proactively managing these risks, we can maintain a secure and trustworthy foundation for all applications utilizing this library. Continuous vigilance in license management ensures that our software remains compliant and resilient against legal challenges.
+Integrating license scanning into our Jenkins pipeline is a crucial step in ensuring that our shared library complies with licensing requirements for third-party dependencies. This automated approach not only enhances legal compliance but also enables early detection of potential licensing issues during development.
 
 ---
 ## 📞 Contact Information
