@@ -44,4 +44,23 @@ Amazon EC2 Auto Scaling helps you make sure you have the right number of servers
 ![Screenshot from 2024-10-21 04-07-33](https://github.com/user-attachments/assets/891e792d-1263-4ea7-b49f-ff5b3f88293b)
 4. Click Create image.
 ![Screenshot from 2024-10-21 04-09-28](https://github.com/user-attachments/assets/06710e6e-11b0-48d7-8397-af0df02d351b)
+5.The AMI will appear under the AMIs section after creation.
+![Screenshot from 2024-10-21 04-12-39](https://github.com/user-attachments/assets/89766762-ad81-4bfb-b1dd-bf17816818a5)
+
+### Step 2: Create a Launch Template.
+1. In the EC2 console, go to Launch Templates and click Create launch template.
+- Give the template a name and description(Optional).
+![Screenshot from 2024-10-21 04-15-42](https://github.com/user-attachments/assets/75f9f3b7-91a1-4202-b5f3-0b3846b42d60)
+
+2. Select the previously created AMI for Frontend.
+![Screenshot from 2024-10-21 04-18-00](https://github.com/user-attachments/assets/ce7bbff2-7986-4ff6-b798-5823f42a849c)
+
+3. Choose the instance type and key pair.
+![Screenshot from 2024-10-21 04-21-54](https://github.com/user-attachments/assets/4adf5fb7-279b-40b1-abcf-4cc568e8ae14)
+
+4. Configure network settings as needed & Click Create launch template.
+![Screenshot from 2024-10-21 04-24-46](https://github.com/user-attachments/assets/37dfa8a5-3709-4f30-ba3a-9b6125b0a0ce)
+
+
+
 
