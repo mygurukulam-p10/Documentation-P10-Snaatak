@@ -75,7 +75,7 @@ This document outlines the process for setting up **Trivy** to perform license s
 
 
 ### 9.🚀 Review the stages of the build process in the console output.
-![9](https://github.com/user-attachments/assets/d8583d81-5970-4df8-97d4-865745b3ebe4)
+![image](https://github.com/user-attachments/assets/14a09792-5e71-4c76-86f1-e419d4c228a3)
 
 
 ---
