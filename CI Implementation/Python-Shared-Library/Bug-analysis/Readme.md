@@ -3,7 +3,7 @@
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by    |📅 Last edited on   |  ✍️ L0 Reviewer   | ✍️ L1 Reviewer|✍️ L2 Reviewer|
 |-------------|-------------|------------|-----------------|----------------|-------------------|-----------------|----------------|
-| Megha Tyagi | 14-10-2024  | Version 1  | Megha Tyagi     | 14-10-2024     |                  |                 |   Anjali Kaushal|
+| Megha Tyagi | 14-10-2024  | Version 1  | Megha Tyagi     | 20-10-2024     |     Aayush             |        Deepak         |   Anjali Kaushal|
 
 ---
 ## Table of Contents
@@ -54,13 +54,15 @@ This project aims to implement a robust code analysis tool using Flake8 to ensur
 
 ### 4. 🚀 Create the repo & vars file which will be using in pipeline script.
 ![Screenshot 2024-10-14 091456](https://github.com/user-attachments/assets/d7ecabe4-5a4f-4bde-bad2-a0e4db175888)
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/6ec39583-ba03-4df4-801d-52dda0245acd">
+![Screenshot 2024-10-20 101710](https://github.com/user-attachments/assets/ad6f3f98-3f08-4610-b8e0-9778dbbdc0dd)
+
 
 
 
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Bug analysis in the pipeline script.
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/1d070785-f79b-4199-8aec-c138ee6c2cf6">
+
+![Screenshot 2024-10-20 101701](https://github.com/user-attachments/assets/7b06e990-73e7-4509-bd13-9234ae983a9b)
 
 
 
@@ -70,7 +72,7 @@ This project aims to implement a robust code analysis tool using Flake8 to ensur
 
 
 ### 7.🚀 Now we are able to see build complete.
-![Screenshot 2024-10-14 234052](https://github.com/user-attachments/assets/30ba7c80-5859-44fe-a209-9fd32542b112)
+
 
 
 
