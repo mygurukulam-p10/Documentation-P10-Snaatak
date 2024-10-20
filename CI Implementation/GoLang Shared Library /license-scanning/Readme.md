@@ -24,8 +24,10 @@ License scanning is crucial for identifying the licenses of third-party librarie
 
 | Dependency      | Version   | Description                                                     |
 |-----------------|-----------|-----------------------------------------------------------------|
-| **Build Tool**   | Latest    | Required for building and managing project dependencies. |
-| **License Scanning Tool** | Latest    | A tool to check for licenses and compliance of dependencies. |
+| **Jenkins**      | Latest    | A continuous integration server to run the Trivy scans.       |
+| **Trivy**        | Latest    | A tool for scanning container images and checking for vulnerabilities and licenses. |
+| **Git**          | Latest    | Required for version control and fetching project dependencies. |
+
 
 ---
 ## 🚀 Global Configuration
