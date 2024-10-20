@@ -110,3 +110,4 @@ By following this guide, you've successfully created a Scripted Jenkins Pipeline
 |------|---------------------|
 |https://www.jenkins.io/doc/tutorials/build-a-java-app-with-maven/|Build a Java app with Maven |
 |https://tinyurl.com/su8ennjz|(POC): code-compilation |
+|[Code compilation](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/CI%20Implementation/Java%20-%20Declarative%20Jenkins%20Pipeline/Code%20compilation/readme.md)| Declarative Jenkins Pipeline
