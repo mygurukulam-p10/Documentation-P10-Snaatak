@@ -65,16 +65,16 @@ This document outlines how to set up a Shared Library for Bugs analysis in Java.
 
 
 ### 7.🚀 Now we are able to see build complete-
-![image](https://github.com/user-attachments/assets/fe36c3a2-4db3-4824-aea9-63819a16acc3)
+![image](https://github.com/user-attachments/assets/1af90799-37be-44ed-a2c0-62452357922b)
 
 
 ### 8.🚀 Click on Console Output to see the complete build.
-![image](https://github.com/user-attachments/assets/02e0eda4-926a-4604-9f07-cff01185f2ad)
-![image](https://github.com/user-attachments/assets/bc844fd4-5d29-4c18-8d6b-e9e165124407)
+![image](https://github.com/user-attachments/assets/520ffc07-2e69-4d07-be17-ef365ecad184)
+![image](https://github.com/user-attachments/assets/ade662d5-fd89-4cb2-9ba9-b845bfb66c4b)
 
 
 ### 9.🚀 Review the stages of the build process in the console output.
-![image](https://github.com/user-attachments/assets/fe672bae-2cdc-45f4-8f7c-ff106ae77e61)
+![image](https://github.com/user-attachments/assets/6c754eba-4299-4c8f-8b92-4b3e904e900b)
 
 
 
