@@ -34,12 +34,8 @@ This document provides steps to configure a **Scripted Jenkins Pipeline** for Ja
 ---
 
 ## 🔍 System Requirements
-| 🖥️ Hardware Specifications | ⚙️ Minimum Requirement |
-|----------------------------|------------------------|
-| **Processor**               | Dual-core CPU          |
-| **Memory**                  | 2 GB RAM               |
-| **Disk Space**              | 10 GB                  |
-| **Operating System**        | Ubuntu 22.04 LTS       |
+
+[Hardware Specifications](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/CI%20Implementation/Java%20-%20Declarative%20Jenkins%20Pipeline/Code%20compilation/readme.md)
 
 ---
 
