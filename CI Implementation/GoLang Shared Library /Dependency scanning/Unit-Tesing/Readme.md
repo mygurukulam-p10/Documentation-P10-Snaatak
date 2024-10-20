@@ -181,23 +181,7 @@ def call(){
 
 ```
 
-```
-def call(String  snykTokenId , String snykInstallation){
 
-        stage("Run snyk test"){
-           script{
-          snykSecurity(
-          snykInstallation: snykInstallation,
-          snykTokenId: snykTokenId)
-
-           }
-            
-        }
-
-        return "testing done"
-}
-
-```
 
 ## 📛 Conclusion
 The unit testing stage successfully executes the Go tests, helping to ensure that the code behaves as expected and identifying any issues before deployment. This integration within the Jenkins pipeline enhances the overall development workflow, ensuring quality and reliability in the codebase.
