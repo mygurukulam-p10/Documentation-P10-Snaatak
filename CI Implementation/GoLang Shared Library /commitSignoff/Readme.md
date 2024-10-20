@@ -93,43 +93,66 @@ https://github.com/mygurukulam-p10/jenkins-shared-library.git
 
 ## Jenkinsfile
 ```
-def call(String recipientEmail, String repoURL, String branchName) {
-    try {
-        // Get the last commit message
-        def lastCommitMessage = sh(script: 'git log -1 --pretty=%B', returnStdout: true).trim()
+@Library("shared1") _
 
-        // Check if the commit contains "Signed-off-by:"
-        if (!lastCommitMessage.contains("Signed-off-by:")) {
-            currentBuild.result = 'FAILURE'
-            error("Commit is not signed off. Please sign off your commit.")
-        } else {
-            echo "Commit is signed off."
+pipeline {
+    agent any
+
+    parameters {
+        string(name: 'BRANCH_NAME', defaultValue: 'main', description: 'Branch to build from')
+        string(name: 'REPO_URL', defaultValue: 'git@github.com:mygurukulam-p10/employee-api.git', description: 'Git repository URL')
+        string(name: 'CREDENTIALS_ID', defaultValue: 'amit_cred', description: 'Credentials ID for accessing the repository')
+        string(name: 'REPORT_RECIPIENT', defaultValue: 'nagar.amit1999@gmail.com', description: 'Email address to send the build report')
+    }
+
+    stages {
+        stage('Check Signed-off Commit') {
+            steps {
+                script {
+                    // Invoke shared library function to check commit signoff
+                    commitSignoff(params.REPO_URL, params.BRANCH_NAME)
+                }
+            }
         }
-    } catch (Exception e) {
-        // Mark build as failure in case of any exception
-        currentBuild.result = 'FAILURE'
-        echo "An error occurred: ${e.message}"
-    } finally {
-        // Prepare email subject based on build result
-        def emailSubject = "Build Status: ${currentBuild.result} - Job ${env.JOB_NAME} [${env.BUILD_NUMBER}]"
-        
-        // Prepare email body with dynamic content
-        def emailBody = """The current build result is: ${currentBuild.result}
-                        Branch: ${branchName}
-                        Repository: ${repoURL}
-                        Build Number: ${env.BUILD_NUMBER}
-                        ${currentBuild.result == 'FAILURE' ? "Error Message: ${e?.message ?: 'N/A'}" : "Build was successful!"}"""
+    }
+    
+    post {
+        always {
+            script {
+                def emailSubject = "Build Status: ${currentBuild.result} - Job ${env.JOB_NAME} [${env.BUILD_NUMBER}]"
+                def emailBody = """The current build result is: ${currentBuild.result}
+                                Branch: ${params.BRANCH_NAME}
+                                Repository: ${params.REPO_URL}
+                                Build Number: ${env.BUILD_NUMBER}
+                                ${currentBuild.result == 'FAILURE' ? "Error Message: ${currentBuild.description ?: 'N/A'}" : "Build was successful!"}"""
 
-        // Send email notification
-        emailext(
-            to: recipientEmail,
-            subject: emailSubject,
-            body: emailBody
-        )
+                // Send the build report email
+                emailext(
+                    to: params.REPORT_RECIPIENT,
+                    subject: emailSubject,
+                    body: emailBody
+                )
+            }
+        }
     }
 }
 
+```
 
+commitSignoff.groovy
+```
+def call(String repoURL, String branchName) {
+    // Get the last commit message
+    def lastCommitMessage = sh(script: 'git log -1 --pretty=%B', returnStdout: true).trim()
+
+    // Check if the commit contains "Signed-off-by:"
+    if (!lastCommitMessage.contains("Signed-off-by:")) {
+        currentBuild.result = 'FAILURE'
+        error("Commit is not signed off. Please sign off your commit.")
+    } else {
+        echo "Commit is signed off."
+    }
+}
 ```
 ## 🏁 Conclusion
 
