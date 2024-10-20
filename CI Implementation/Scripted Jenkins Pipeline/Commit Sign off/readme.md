@@ -55,6 +55,7 @@ it maintains accountability in the development workflow. This pipeline enhances 
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Commit-Signed off in the pipeline script for SCM ...> add repo link & credintial, file path.
 ![image](https://github.com/user-attachments/assets/a0255aaa-9d71-4871-ba34-3969dad5dd5a)
+![image](https://github.com/user-attachments/assets/e351a5e7-7be0-49c1-99c3-1b18b2ee831f)
 
 
 ### 6. 🚀 Then Click on build to run the pipeline to perform
@@ -66,7 +67,7 @@ it maintains accountability in the development workflow. This pipeline enhances 
 
 ### 8.🚀 Click on Console Output to see the complete build.
 ![image](https://github.com/user-attachments/assets/fe73aea4-7697-4098-aa01-f5ff8f779572)
-![image](https://github.com/user-attachments/assets/c60289ad-7481-41e8-b09f-f45de86c68e3)
+![image](https://github.com/user-attachments/assets/e2b97061-d15f-4176-b74f-0285ae95fd2a)
 
 ### 9.🚀 Review the stages of the build process in the console output.
 ![image](https://github.com/user-attachments/assets/aee537c3-7b1c-42b2-a9fd-3002bc18b89f)
