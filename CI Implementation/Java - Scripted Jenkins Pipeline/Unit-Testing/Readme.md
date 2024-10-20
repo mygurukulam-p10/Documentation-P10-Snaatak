@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9913e359-445c-4547-8ba7-f4cc2fa89eaf)
+
 # Scripted Pipeline For Java Unit Testing
 
 ---
