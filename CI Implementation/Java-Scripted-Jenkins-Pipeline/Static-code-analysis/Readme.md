@@ -2,10 +2,9 @@
 # Java - Scripted Jenkins Pipeline | Static code analysis 
 
 
-| ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
-|-------------|-------------|------------|-----------------|----------------|
-| Brij Singh | 12-10-2024  | Version 1  | Brij Singh    | 12-10-2024     |
-
+| ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by    |📅 Last edited on   |  ✍️ L0 Reviewer   | ✍️ L1 Reviewer|✍️ L2 Reviewer|
+|-------------|-------------|------------|-----------------|----------------|-------------------|-----------------|----------------|
+| Brij Singh     | 09-10-2024  | Version 1.2  | Brij Singh          | 15-10-2024     |      Shikha Tripathi / Aakash Tripathi	 /Shreya Jaiswal	         |  Pramod Rajput / Shashi              |  Ashwani |
 ---
 ## Table of Contents
 1. [💥 Introduction](#-introduction)
@@ -28,12 +27,9 @@ This document outlines how to set up a Declarative Jenkins Pipeline specifically
 4. **Tools for Static Code Analysis** [here](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/Application%20CI%20Design/Java%20CI%20checks/Static%20Code%20Analysis%20Doc).
 
 ## 🔍 System Requirements
-| Hardware Specifications | Minimum Requirement  |
-|-------------------|---------------------------|
-| **Processor**     | Dual-core CPU             | 
-| **Memory**        | 2 GB RAM                  | 
-| **Disk Space**    | 10 GB                      | 
-| **OS**            |Ubuntu 22.04 LTS           |
+
+[**Hardware Specifications**](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/CI%20Implementation/Java%20-%20Declarative%20Jenkins%20Pipeline/Static%20code%20analysis/readme.md)
+
 
 ![image](https://github.com/user-attachments/assets/5cf827f1-be38-4711-95ca-ffbe432b80cd)
 
