@@ -110,7 +110,7 @@ pipeline {
             steps {
                 script {
                     // Invoke shared library function to check commit signoff
-                    commitSignoff(params.REPO_URL, params.BRANCH_NAME)
+                    commitSignoff()
                 }
             }
         }
@@ -141,7 +141,7 @@ pipeline {
 
 commitSignoff.groovy
 ```
-def call(String repoURL, String branchName) {
+def call() {
     // Get the last commit message
     def lastCommitMessage = sh(script: 'git log -1 --pretty=%B', returnStdout: true).trim()
 
