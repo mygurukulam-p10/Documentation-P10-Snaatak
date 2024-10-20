@@ -71,20 +71,16 @@ This project aims to implement a robust code analysis tool using Flake8 to ensur
 <img width="952" alt="build" src="https://github.com/user-attachments/assets/c82d9cba-0169-4495-8193-2cadac88f833">
 
 
-### 7.🚀 Now we are able to see build complete.
+
+### 7.🚀 Click on Console Output to see the complete build.
+![Screenshot 2024-10-20 101603](https://github.com/user-attachments/assets/8ed1300f-37ef-4fa3-b3b8-be6940a71f01)
+![Screenshot 2024-10-20 101615](https://github.com/user-attachments/assets/41b1b159-dd7c-4e79-9759-83284d0e968d)
 
 
 
+### 8.🚀 Review the stages of the build process in the console output.
+![Screenshot 2024-10-20 101635](https://github.com/user-attachments/assets/d5eb52e6-a27b-4017-94ce-16270db84b93)
 
-### 8.🚀 Click on Console Output to see the complete build.
-![Screenshot 2024-10-14 234010](https://github.com/user-attachments/assets/2951340f-3fa2-4db2-a985-e27891f55667)
-
-![Screenshot 2024-10-14 234024](https://github.com/user-attachments/assets/1f38e923-c01c-4b04-9f36-46964481b397)
-![Screenshot 2024-10-14 234038](https://github.com/user-attachments/assets/1e8d829f-5b68-4dc7-9fd3-9019d6bc4027)
-
-
-### 9.🚀 Review the stages of the build process in the console output.
-<img width="935" alt="image" src="https://github.com/user-attachments/assets/ebe5771a-0a40-44a7-9f64-e995a2c8d9ab">
 
 
 ---
