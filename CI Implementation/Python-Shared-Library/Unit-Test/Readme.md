@@ -57,13 +57,15 @@ This Readme provides a Shared Library for unit testing in Python using Pytest. T
 ![Screenshot 2024-10-14 091456](https://github.com/user-attachments/assets/5344b607-3b44-418c-91f9-7691c0bd2e69)
 
 
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/0a5c95ce-16ef-4fb7-acb5-b743621b2fd6">
+![Screenshot 2024-10-20 094716](https://github.com/user-attachments/assets/3b9a7cb4-3a49-48ad-b3ce-cfd22279355a)
+
 
 
 
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Unit Testing analysis in the pipeline script.
-![Screenshot 2024-10-14 073855](https://github.com/user-attachments/assets/b69f64ae-db35-4358-b0aa-e800770216fb)
+![Screenshot 2024-10-20 094745](https://github.com/user-attachments/assets/d518485b-e226-4a40-a712-f6b704cdf226)
+
 
 
 
@@ -77,8 +79,8 @@ This Readme provides a Shared Library for unit testing in Python using Pytest. T
 
 ### 8.🚀 Click on Console Output to see the complete build.
 ![Screenshot 2024-10-14 073752](https://github.com/user-attachments/assets/acedc3b2-d7a7-46b9-9d2a-c77959c3d9e5)
-![Screenshot 2024-10-14 073806](https://github.com/user-attachments/assets/b95c4217-99c7-47a9-926f-2c65257d7e6f)
-![Screenshot 2024-10-14 073826](https://github.com/user-attachments/assets/f493b3cc-2187-4fb1-88f0-b3d3aa079cfe)
+![Screenshot 2024-10-20 094647](https://github.com/user-attachments/assets/730a0b62-ce97-44ec-9f99-3586409e3d7f)
+![Screenshot 2024-10-20 094701](https://github.com/user-attachments/assets/79c0d2c7-ed51-4e96-9676-c791728c2211)
 
 
 ### 9.🚀 Review the stages of the build process in the console output.
