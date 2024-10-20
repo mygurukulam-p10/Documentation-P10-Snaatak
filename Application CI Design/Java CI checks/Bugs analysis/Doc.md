@@ -33,17 +33,8 @@ Bugs analysis in CI is the process of automatically detecting code defects (bugs
 | Continuous Feedback         | Providing developers with immediate feedback on their code changes.             |
 | Reduced Integration Problems| Minimizing conflicts and integration issues by frequently merging changes.       |
 
+
 ### Different Tools for Bugs Analysis
-| **Tool**         | **Description**                                                                                      |
-|------------------|------------------------------------------------------------------------------------------------------|
-| Jenkins          | An open-source automation server that supports building, deploying, and automating any project.       |
-| Travis CI        | A hosted continuous integration service used to build and test software projects hosted on GitHub.    |
-| CircleCI         | A CI/CD tool that automates the software development process using continuous integration and continuous delivery. |
-| GitHub Actions   | Integrated with GitHub, it allows you to automate workflows directly from your repository.            |
-| SonarQube        | A tool for continuous inspection of code quality to perform automatic reviews with static analysis of code to detect bugs, code smells, and security vulnerabilities. |
-
-
-### Comparison of Different Tools
 | **Tool**        | **Description**                                                                                                                                      | **Pros**                                                                                                 | **Cons**                                                                                                     |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
 | **SpotBugs**    | A static analysis tool that detects bugs in Java code by analyzing bytecode. It helps find potential errors or performance issues.                    | - Simple and effective for Java bug detection.<br>- Integrates with Maven/Gradle.                         | - Limited to Java and JVM-based languages.                                                                    |
@@ -51,7 +42,6 @@ Bugs analysis in CI is the process of automatically detecting code defects (bugs
 | **Checkstyle**  | A development tool that enforces coding standards by checking Java code for style issues and potential errors.                                        | - Helps maintain code consistency.<br>- Highly configurable for custom coding standards.                  | - Focuses on style and convention rather than deep bug detection.                                             |
 | **PMD**         | A static code analysis tool that identifies potential bugs in Java code by checking for problematic patterns.                                         | - Detects inefficient code and possible bugs.<br>- Lightweight and easy to set up.                        | - Limited coverage of complex bugs and security vulnerabilities.                                              |
 | **FindBugs**    | The predecessor to SpotBugs, this tool analyzes Java bytecode to detect common bugs such as null pointer dereferences and thread synchronization issues. | - Simple and focused on bug detection.<br>- Well-suited for older Java projects.                         | - No longer actively maintained, replaced by SpotBugs.                                                        |
-| **Infer**       | A static analysis tool that finds bugs in Java (and other languages). It is developed by Facebook and detects null pointer exceptions, memory leaks, etc. | - Effective for finding critical bugs like null pointer exceptions.<br>- Free and open-source.            | - Fewer features compared to SonarQube or SpotBugs.                                                          |
 
 
 
