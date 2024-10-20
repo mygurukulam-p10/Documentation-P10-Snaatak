@@ -38,3 +38,10 @@ Amazon EC2 Auto Scaling helps you make sure you have the right number of servers
 
 ## 🛠️ Steps to Setup Auto Scaling
 ### Step 1: Create an AMI Image of the Frontend API Instance
+1.  Go to the Amazon EC2 console.
+2. Select the Dev-OTMS-Frontend instance, Choose ```Actions```, Then ```Image and templates```, & ```Create Image```
+3. Name your AMI and add a description(Optional).
+![Screenshot from 2024-10-21 04-07-33](https://github.com/user-attachments/assets/891e792d-1263-4ea7-b49f-ff5b3f88293b)
+4. Click Create image.
+![Screenshot from 2024-10-21 04-09-28](https://github.com/user-attachments/assets/06710e6e-11b0-48d7-8397-af0df02d351b)
+
