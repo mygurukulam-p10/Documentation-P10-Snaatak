@@ -3,7 +3,7 @@
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by    |📅 Last edited on   |   ✍️L0 Reviewer   | ✍️ L1 Reviewer|✍️ L2 Reviewer|
 |-------------|-------------|------------|-----------------|----------------|-------------------|-----------------|----------------|
-| Megha Tyagi | 14-10-2024  | Version 1  | Megha Tyagi     | 14-10-2024     |                  |                 |   Anjali Kaushal|
+| Megha Tyagi | 14-10-2024  | Version 1  | Megha Tyagi     | 20-10-2024     |     Aayush             |           Deepak      |   Anjali Kaushal|
 
 ---
 ## Table of Contents
@@ -57,12 +57,14 @@ overall security of applications that rely on this library. Regular checks help 
 
 ### 4. 🚀 Create the repo for add vars file which will be using in pipeline script.
 ![Screenshot 2024-10-14 091456](https://github.com/user-attachments/assets/5344b607-3b44-418c-91f9-7691c0bd2e69)
-<img width="937" alt="image" src="https://github.com/user-attachments/assets/2bead089-b4d4-415f-b998-edbfb03ea173">
+![Screenshot 2024-10-20 110530](https://github.com/user-attachments/assets/668b8997-d8e1-4cb5-af74-0df975b119b7)
+![Screenshot 2024-10-20 110540](https://github.com/user-attachments/assets/5dec564e-f3fd-46ef-a7f3-52e56f7bd646)
 
 
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Dependency Scanning analysis in the pipeline script.
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/170e3879-7b80-4111-84c0-799afe5a4edc">
+![Screenshot 2024-10-20 110517](https://github.com/user-attachments/assets/8e27b451-92f2-48a4-be1b-fd9017938a8c)
+
 
 
 ### 6. 🚀 Then Click on build to run the pipeline to perform.
@@ -70,14 +72,14 @@ overall security of applications that rely on this library. Regular checks help 
 
 
 ### 7.🚀 Now we are able to see build complete.
-<img width="950" alt="image" src="https://github.com/user-attachments/assets/6ead960b-7b8c-4378-a24d-8fe0ad95478c">
+![Screenshot 2024-10-20 110453](https://github.com/user-attachments/assets/46df56e0-60a1-40e0-8e26-cf2ab795ad56)
+
 
 
 ### 8.🚀 Click on Console Output to see the complete build.
-<img width="943" alt="image" src="https://github.com/user-attachments/assets/b453f920-3e47-472d-add5-161b40c009e6">
-<img width="934" alt="image" src="https://github.com/user-attachments/assets/bedd0bfa-d580-4c2b-b329-161e6d072c54">
-<img width="944" alt="image" src="https://github.com/user-attachments/assets/8d622ab1-50a5-49ed-9b72-f79d249feb59">
-<img width="915" alt="image" src="https://github.com/user-attachments/assets/0a5d2000-d9a8-4917-8bdb-395ecf9494a4">
+![Screenshot 2024-10-20 110354](https://github.com/user-attachments/assets/79d85948-cd1c-4c89-9936-c7f4fdd90b16)
+![Screenshot 2024-10-20 110406](https://github.com/user-attachments/assets/d2aaa190-48d8-4818-ab90-b1e1ab6b3946)
+![Screenshot 2024-10-20 110426](https://github.com/user-attachments/assets/cfd41a91-e344-414f-b668-000b8faec083)
 
 
 
