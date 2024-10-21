@@ -53,7 +53,7 @@ This function can be called in any pipeline to notify users of build status (pas
 
 
 ### 4. 🚀 Create the repo & vars file which will be using in pipeline script.
-![Screenshot 2024-10-18 105812](https://github.com/user-attachments/assets/274d0dd5-cd6e-40f1-831c-955453fe03ed)
+
 ![Screenshot 2024-10-21 102355](https://github.com/user-attachments/assets/d44e9ad6-7f7f-4e56-834f-1f0e76295827)
 
 
