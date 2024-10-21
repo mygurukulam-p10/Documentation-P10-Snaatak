@@ -5,7 +5,7 @@
 
 | ✍ Author      | 📅 Created on  | 📌 Version    | 📝 Last updated by | 📅 Last edited on |
 |---------------|----------------|---------------|-------------------|-------------------|
-| Amit Nagar     | 05-10-2024     | Version 1     | Amit Nagar        | 05-10-2024        |
+| Amit Nagar     | 05-10-2024     | Version 1     | Amit Nagar        | 21-10-2024        |
 
 ---
 
