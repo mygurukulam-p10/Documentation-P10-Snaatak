@@ -2,7 +2,7 @@
 
 | Author      | Created on | Version   | Last updated by | Last edited on | Reviewed By L0 | Reviewed By L1 | Reviewed By L2 |
 |-------------|------------|-----------|-----------------|----------------|----------------|----------------|----------------| 
-| Komal       | 03-10-24   | Version 1 | Komal Jaiswal   | 12-10-24       |                |                |                |
+| Komal       | 03-10-24   | Version 1 | Komal Jaiswal   | 21-10-24       |                |                |                |
 
 ---
 
@@ -100,6 +100,7 @@ This document provides guidance on setting up **AWS Load Balancers** to distribu
 ![image](https://github.com/user-attachments/assets/d00bbc7d-57f8-4fd3-ba10-9d2e9559555c)
 ![image](https://github.com/user-attachments/assets/c57214ac-829e-48b7-bceb-538d179c387b)
 ![image](https://github.com/user-attachments/assets/09bc526d-6794-40b8-917f-eb8268dab91e)
+![image](https://github.com/user-attachments/assets/578f398c-946e-44c1-ad79-7f48ea0e6c32)
 
 
 ---
