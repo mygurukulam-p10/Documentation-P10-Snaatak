@@ -52,6 +52,23 @@ Here's a simplified breakdown of the process:
 - Basic understanding of your application's
 
 ***
+## 🔑 Important Ports
+
+### Inbound Rules
+
+| Security Group Name | Port  | Source                |
+|---------------------|-------|-----------------------|
+| 	Dev-OTMS-Frontend | 22    |  Dev-OTMS-OpenVPN-Non-Prod |
+| Dev-OTMS-Frontend        | 3000 | Dev-OTMS-ALB-Non-Prod        |
+
+### Outbound Rules
+
+| Security Group Name | Port         | Protocol  | Destination  |
+|---------------------|--------------|-----------|--------------|
+| *                   | All Traffic  | All       | 0.0.0.0/0    |
+
+*** 
+
 ## Steps to Create a Security Group 
 
 ### Step 1: Access AWS Management Console
