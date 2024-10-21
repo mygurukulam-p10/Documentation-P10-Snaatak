@@ -1,2 +1,2 @@
-![sonar 1](https://github.com/user-attachments/assets/4aee9e78-a035-4aaa-9392-e37e8f1854f2)
+![Sonarqube infra updated](https://github.com/user-attachments/assets/c5d8c184-2ae2-4817-accb-a50701bfe4e6)
 
