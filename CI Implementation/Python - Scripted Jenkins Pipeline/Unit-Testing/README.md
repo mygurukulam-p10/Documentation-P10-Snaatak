@@ -4,7 +4,7 @@
 
 | Author      | Created on | Version   | Last updated by | Last edited on | Reviewed By L0 | Reviewed By L1 | Reviewed By L2 |
 |-------------|------------|-----------|-----------------|----------------|----------------|----------------|----------------| 
-| Komal       | 10-10-24   | Version 1 | Komal Jaiswal   | 11-10-24       |                |                |                |
+| Komal       | 10-10-24   | Version 1 | Komal Jaiswal   | 11-10-24       | Ayush Yadav    | Deepak Nishad  | Anjali Kaushal |
 
 ---
 
@@ -19,7 +19,7 @@
 ---
 
 ### 🔍 Overview
-This document provides a comprehensive guide to setting up unit testing using **unittest** within a Jenkins pipeline specifically for the Attendance API microservice. **Unittest**, the built-in Python testing framework, supports structured and repeatable testing for every function, class, or module, ensuring that each component of the code behaves as expected. Integrating unit testing into Jenkins allows for continuous validation, supporting robust code quality management.
+This document provides a comprehensive guide to setting up unit testing using **pytesttest** within a Jenkins pipeline specifically for the Attendance API microservice. **pytest**,  Python testing framework, supports structured and repeatable testing for every function, class, or module, ensuring that each component of the code behaves as expected. Integrating unit testing into Jenkins allows for continuous validation, supporting robust code quality management.
 
 ---
 
@@ -31,7 +31,7 @@ This document provides a comprehensive guide to setting up unit testing using **
 |-----------------|-----------|-------------------------------------------------------------------|
 | **Python3**     | >= 3.6    | Required for running the Python environment and unit tests.      |
 | **pip**         | Latest    | Python package manager, for handling dependencies.               |
-| **unittest**    | Built-in  | Built-in Python library for unit testing.                        |
+| **Pytest**      | Latest    | Python test for unit testing.                                    |
 
 ---
 
