@@ -10,14 +10,15 @@
 
 ## Table of Contents
 
-1. [💥 Introduction](#-introduction)
-2. [⚙️ Prerequisites](#-prerequisites)
-3. [🔍 System Requirements](#-system-requirements)
-4. [💥 Steps to Configuration for Commit Sign-Off with Email Notification](#-steps-to-configuration-for-commit-sign-off-with-email-notification)
-5. [Jenkinsfile](#jenkinsfile)
-6. [📛 Conclusion](#-conclusion)
-7. [📧 Contact Information](#-contact-information)
-8. [📚 References](#-references)
+1. 💥 [Introduction](#-introduction)
+2. ⚙️ [Prerequisites](#-prerequisites)
+3. 🔍 [System Requirements](#-system-requirements)
+4. 💥 [Steps to Configuration for Commit Sign-Off with Email Notification](#-steps-to-configuration-for-commit-sign-off-with-email-notification)
+5. 📄 [Jenkinsfile](#jenkinsfile)
+6. 📛 [Conclusion](#-conclusion)
+7. 📧 [Contact Information](#-contact-information)
+8. 📚 [References](#-references)
+
 
 ---
 
