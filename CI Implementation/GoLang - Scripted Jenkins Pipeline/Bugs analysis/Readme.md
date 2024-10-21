@@ -91,8 +91,7 @@ In the console output, carefully review the stages of the bug analysis process. 
 
 ### 9. 🚀 Email Notification
 Once the bug analysis is complete, an email notification will be sent to the specified recipient with the build results. This can be configured in your Jenkins pipeline to include details such as build status, branch name, and any relevant information.
-
-> **Note:** Ensure that the email extension plugin is installed and configured in Jenkins for this feature to work properly.
+![Screenshot from 2024-10-21 17-56-31](https://github.com/user-attachments/assets/f3d849c3-46bb-41d5-98b7-0cf16782cb49)
 
 
 
@@ -136,9 +135,14 @@ node {
             }
         }
 
-        stage('Generate Report') {
-            // Generate an HTML report for golangci-lint
-            sh 'golangci-lint run ./... --out-format html > report.html || true'
+        stage("Static Code Analysis") {
+            script {
+                env.PATH = "${goTool}/bin:${env.PATH}"
+                sh '''
+                    echo "Running golangci-lint..."
+                    golangci-lint run ./... --out-format html > report.html || true
+                '''
+            }
         }
 
         // Mark the build as successful
@@ -152,19 +156,19 @@ node {
         // Send an email with the current build result and parameters
         emailext(
             to: params.EMAIL_RECIPIENT,
-            subject: 'Build Status - ${currentBuild.result}',
+            subject: "Build Status - ${currentBuild.result}",
             body: """The current build result is: ${currentBuild.result}
 
                     Branch: ${params.BRANCH_NAME}
                     Repository: ${params.REPO_URL}
                     """
         )
-        
-        // Attach the generated report if successful
+
+        // Attach the generated report if the build is successful
         if (currentBuild.result == 'SUCCESS') {
             emailext(
                 to: params.EMAIL_RECIPIENT,
-                subject: 'Lint Report',
+                subject: 'Lint Report - Build Successful',
                 body: 'Please find the attached lint report.',
                 attachmentsPattern: 'report.html'
             )
@@ -172,8 +176,7 @@ node {
     }
 }
 
-}
-
+**Note:** You can find this Jenkinsfile at the following URL: [Jenkinsfile for Bugs Analysis](https://github.com/mygurukulam-p10/jenkins-pipelines/blob/main/Golang-scripted-pipeline/Bugs-analysis/Jenkinsfile)
 
 ```
 ## 📛 Conclusion
