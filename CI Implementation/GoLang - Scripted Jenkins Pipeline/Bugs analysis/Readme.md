@@ -176,9 +176,12 @@ node {
     }
 }
 
-**Note:** You can find this Jenkinsfile at the following URL: [Jenkinsfile for Bugs Analysis](https://github.com/mygurukulam-p10/jenkins-pipelines/blob/main/Golang-scripted-pipeline/Bugs-analysis/Jenkinsfile)
+
 
 ```
+
+**Note:** You can find this Jenkinsfile at the following URL: [Jenkinsfile for Bugs Analysis](https://github.com/mygurukulam-p10/jenkins-pipelines/blob/main/Golang-scripted-pipeline/Bugs-analysis/Jenkinsfile)
+
 ## 📛 Conclusion
 Effective bug analysis  helps developers identify and fix issues quickly, ensuring the reliability of their Go applications. By leveraging Golang's debugging and testing features, the development workflow becomes more efficient, ultimately enhancing code quality.
 
