@@ -172,17 +172,18 @@ def call (String branch, String creds, String url) {
 golangUnitTesing.groovy
 
 ```
-def call(){
+def call() {
     stage("Unit Testing") {
         script {
             sh '''
                 echo "Running unit tests..."
                 go test ./... -coverprofile=coverage.out || true
+                go tool cover -html=coverage.out -o coverage.html || true
             '''
+           
         }
     }
 }
-
 ```
 [GoLang Shared Library Jenkinsfile](https://github.com/mygurukulam-p10/jenkins-pipelines/blob/main/GoLang-Shared-Library/Unit-Tesing/Jenkinsfile)
 
