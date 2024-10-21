@@ -209,5 +209,6 @@ In conclusion, the successful installation and configuration of ScyllaDB enable 
 | [📘 ScyllaDB Documentation](https://docs.scylladb.com/)                                         | Official ScyllaDB documentation                        |
 | [🔧 ScyllaDB Installation Guide](https://docs.scylladb.com/stable/operating-scylla/procedures/install/install-ubuntu.html) | Official installation guide for Ubuntu                 |
 | [🎓 ScyllaDB University](https://university.scylladb.com/)                                      | Free online courses to get started with ScyllaDB       |
-| ScyllaDB-Sg                                                                                      |    https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/Manual-Dev-Infra-Setup/%20Setup%20syclladb%20manually/Security%20Group                                                   |
+[ScyllaDB-SG](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/Manual-Dev-Infra-Setup/Setup%20syclladb%20manually/Security%20Group)
+
 
