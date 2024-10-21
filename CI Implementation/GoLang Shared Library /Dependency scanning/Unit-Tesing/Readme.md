@@ -82,6 +82,10 @@ This document provides an overview of implementing unit testing in a Go project 
 ### 8. 🚀 Review the results of the unit testing process in the console output.
 ![Screenshot from 2024-10-16 12-29-30](https://github.com/user-attachments/assets/24a58f66-f013-409c-8e9c-a893819b43b7)
 
+### Email Notification
+An email notification has been sent to the specified recipient, informing them of the build status and test results.
+
+![Uploading Screenshot from 2024-10-22 00-58-11.png…]()
 
 # Jenskinfile
 
