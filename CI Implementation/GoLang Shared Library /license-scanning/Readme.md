@@ -30,35 +30,44 @@ License scanning is crucial for identifying the licenses of third-party librarie
 
 
 ---
-## 🚀 Global Configuration
-**Here we do global configuration for shared library, go to manage Jenkins.....> system......> Global Trusted Pipeline Libraries & provide the required details as you can see in images-**
+# 💥 Steps to Configure License Scanning in Jenkins
 
----
+### 1. 🚀 **Open Jenkins Dashboard**
+   - Access your Jenkins server through your browser and log in to your dashboard.
 
-## 💥 Steps to Configuration for License Scanning
-### 1. 🚀 Open your Jenkins Dashboard.
+### 2. 🚀 **Create a New Job**
+   - Click on **New Item** in the Jenkins dashboard.
+   - **Enter a name** for your job, for example, `License Scanning`.
+   - Choose **Pipeline** as the job type and click **OK**.
 
-### 2. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `License Scanning`).
+### 3. 🚀 **Provide a Job Description**
+   - In the **Description** section, write a brief description of what this pipeline does, such as "This pipeline performs license scanning to ensure all dependencies are compliant."
 
-### 3. 🚀 Provide a description for the pipeline detailing what it will perform.
+### 4. 🚀 **Create a Repository and Add Vars File**
+   - Set up a repository that contains a `vars` file. This file will store configurations or reusable functions to be used within your pipeline script.
+   - Ensure that the repository is accessible and integrated with Jenkins.
 
-### 4. 🚀 Create the repository to add a vars file which will be used in the pipeline script.
+### 5. 🚀 **Configure Pipeline Script**
+ 
+   ![Pipeline Configuration](https://github.com/user-attachments/assets/321766a3-b5c8-4b42-971c-bc479e12bde1)
 
-### 5. 🚀 Choose Pipeline as the job type --> Add your pipeline script for License Scanning analysis in the pipeline script.
-![Screenshot from 2024-10-21 02-49-06](https://github.com/user-attachments/assets/321766a3-b5c8-4b42-971c-bc479e12bde1)
+### 6. 🚀 **Run the Pipeline**
+   - Click on **Build Now** to trigger the pipeline.
 
+### 7. 🚀 **Check the Build Status**
+   - Once the pipeline is complete, you will see the status of the build in the Jenkins dashboard.
+   
+   ![Build Complete Screenshot](https://github.com/user-attachments/assets/283f74ff-8049-4c11-90e1-2fc5b5b4da6f)
+   ![Build Success Screenshot](https://github.com/user-attachments/assets/287c6516-2861-4235-9d23-ad0bdd362587)
 
-### 6. 🚀 Then Click on build to run the pipeline.
+### 8. 🚀 **View Console Output**
+   - Click on **Console Output** in the left-hand menu to view the detailed logs of the build process, including any issues or successes related to the License Scanning.
 
-
-### 7. 🚀 Now we are able to see the build complete.
-![Screenshot from 2024-10-21 02-45-55](https://github.com/user-attachments/assets/283f74ff-8049-4c11-90e1-2fc5b5b4da6f)
-![Screenshot from 2024-10-21 02-49-21](https://github.com/user-attachments/assets/287c6516-2861-4235-9d23-ad0bdd362587)
-
-
-### 8. 🚀 Click on Console Output to see the complete build.
-![Screenshot from 2024-10-20 02-39-57](https://github.com/user-attachments/assets/1fb0d806-1fe4-4aae-b174-0f9abffd456e)
-![Screenshot from 2024-10-20 02-40-04](https://github.com/user-attachments/assets/10372db5-7d79-4612-a374-bafb2588662d)
+   ![Console Output Screenshot 1](https://github.com/user-attachments/assets/1fb0d806-1fe4-4aae-b174-0f9abffd456e)
+   ![Console Output Screenshot 2](https://github.com/user-attachments/assets/10372db5-7d79-4612-a374-bafb2588662d)
+   
+### 9. 🚀 **Set Up Email Notifications**
+![Screenshot from 2024-10-21 18-31-35](https://github.com/user-attachments/assets/f1f77a2e-e55c-4a55-9a47-ebe814e3470b)
 
 
 Jenkinsfile
@@ -202,6 +211,10 @@ def call(String outputFile = 'trivy-license-report.json') {
     sh "trivy repo --scanners license --format json --output ${outputFile} ."
 }
 ```
+
+[GoLang Shared Library Jenkinsfile](https://github.com/mygurukulam-p10/jenkins-pipelines/blob/main/GoLang-Shared-Library/license-scaning/Jenkinsfile)
+[GoLang Shared Library Repository](https://github.com/mygurukulam-p10/jenkins-shared-library)
+
 ---
 
 ## 📛 Conclusion
