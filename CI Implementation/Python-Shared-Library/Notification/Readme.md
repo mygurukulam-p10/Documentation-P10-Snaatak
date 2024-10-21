@@ -26,10 +26,6 @@ This function can be called in any pipeline to notify users of build status (pas
 
 | Requirement            | Description                                         |
 |------------------------|-----------------------------------------------------|
-| Python                 | Ensure Python is installed on your system.         |
-| Pip                    | Python package installer, should be installed.     |
-| Virtual Environment     | Use a virtual environment to avoid dependency conflicts. |
-| Flake8                 | Install Flake8 for linting and Notification.       |
 |Notification            |Email-Should be configured in jenkins|
 
 ---
