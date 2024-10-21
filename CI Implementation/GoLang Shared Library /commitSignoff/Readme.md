@@ -88,9 +88,6 @@ This document outlines how to configure a Jenkins shared pipeline that enforces 
 
 
 
-### Shared Library structure
-
-https://github.com/mygurukulam-p10/jenkins-shared-library.git
 
 ---
 
