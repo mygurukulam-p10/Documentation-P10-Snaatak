@@ -27,9 +27,7 @@ You can easily manage these instances—start them when needed, stop them when n
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Operating System**     | Supports a wide range of operating systems, such as Linux, Windows Server, CentOS, and Debian, allowing flexibility for various application needs.                          |
 | **Persistent Storage**   | Use Amazon EBS (Elastic Block Store) to attach storage to instances, which can be resized as needed and even attached to multiple instances at the same time.               |
-| **Elastic IP Addresses** | Easily move static IP addresses between instances without involving network admins, perfect for scenarios like failover clusters or load balancing.                         |
 | **Amazon CloudWatch**    | A monitoring tool that helps you track performance data for your applications and AWS resources, making it easier to manage costs and optimize resources based on usage.     |
-| **Bare-metal Instances** | Provides direct access to the underlying hardware without virtualization, giving you more control, enhanced security, and higher processing power when needed.               |
 | **Pause and Resume**     | Temporarily pause an instance and resume it later from the same state, helping save resources and reduce costs during periods of inactivity.                                  |
 ## EC2 instance types
 | Instance Type            | Description                                                                                                                                                 |
