@@ -152,6 +152,8 @@ node {
         )
     }
 }
+## Jenkinsfile
+You can find the Jenkinsfile for the static code analysis in the following GitHub repository: [Jenkinsfile Link](https://github.com/mygurukulam-p10/jenkins-pipelines/blob/main/Golang-scripted-pipeline/Static-code-analysis/Jenkinsfile).
 
 ```
 ## 📛 Conclusion
