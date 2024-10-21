@@ -46,38 +46,54 @@ This document provides an overview of implementing bug analysis in a Go project 
 
 ---
 
-## 💥 Steps to Configuration for Bug Analysis
+## 💥 Steps to Configure Bug Analysis
 
-### 1. 🚀 Open your Jenkins Dashboard.
+### 1. 🚀 Open Your Jenkins Dashboard
+Begin by navigating to your Jenkins dashboard. This is the main interface where you can manage all your jobs and configurations.
 
-### 2. 🚀 Click on **New Item**. 
-**-->** Enter a name for your job (e.g., `Bug Analysis`).
-![Screenshot from 2024-10-05 17-53-20](https://github.com/user-attachments/assets/c5005c0d-6a5b-4420-9095-774dc3269006)
+### 2. 🚀 Create a New Item
+- Click on **New Item**.
+- Enter a name for your job (e.g., `Bug Analysis`).
 
-### 3. 🚀 Provide a description for the pipeline detailing what it will perform.
-![Screenshot from 2024-10-05 17-53-38](https://github.com/user-attachments/assets/ed9a7530-b788-46ac-9a27-8b8962e68460)
+![New Item Screenshot](https://github.com/user-attachments/assets/c5005c0d-6a5b-4420-9095-774dc3269006)
 
-### 4. 🚀 Choose **Pipeline** as the job type. 
-**-->** Add your pipeline script for bug analysis in the pipeline configuration... 
-**-->** Click on **Save** to store the configuration.
-![Screenshot from 2024-10-09 19-20-56](https://github.com/user-attachments/assets/a1f2fd1e-5686-424b-b2f1-f6ba9f5965dd)
-![Screenshot from 2024-10-09 19-21-15](https://github.com/user-attachments/assets/a5be010c-8306-415e-9b6a-b0ef69bf7a35)
+### 3. 🚀 Provide a Job Description
+- In the description field, provide details about what the pipeline will perform. This helps others understand the purpose of the job.
 
+![Job Description Screenshot](https://github.com/user-attachments/assets/ed9a7530-b788-46ac-9a27-8b8962e68460)
 
-### 5. 🚀 Click on **Build** to run the pipeline for static code analysis.
-![Screenshot from 2024-10-05 17-53-55](https://github.com/user-attachments/assets/505b5117-910b-4e44-93e9-6a19aa6bf0da)
+### 4. 🚀 Select Job Type
+- Choose **Pipeline** as the job type.
+- Add your pipeline script for bug analysis in the pipeline configuration box.
+- Click on **Save** to store the configuration.
 
-### 6. 🚀 Now, you should be able to see the build complete.
-![Screenshot from 2024-10-05 18-12-31](https://github.com/user-attachments/assets/e44e97f3-3c40-4a78-a8c8-6fc2ff6f601f)
+![Choose Pipeline Screenshot](https://github.com/user-attachments/assets/a1f2fd1e-5686-424b-b2f1-f6ba9f5965dd)
+![Save Configuration Screenshot](https://github.com/user-attachments/assets/a5be010c-8306-415e-9b6a-b0ef69bf7a35)
 
+### 5. 🚀 Run the Pipeline
+- Click on **Build** to execute the pipeline for bug analysis.
 
-### 7. 🚀 Click on **Console Output** to see the complete build results.
-![Screenshot from 2024-10-05 18-13-20](https://github.com/user-attachments/assets/88ac7059-2000-4b54-a214-0e4675d3619c)
-![Screenshot from 2024-10-05 18-13-28](https://github.com/user-attachments/assets/59c7a636-42e0-495c-aa12-ad721d360fce)
+![Build Screenshot](https://github.com/user-attachments/assets/505b5117-910b-4e44-93e9-6a19aa6bf0da)
 
+### 6. 🚀 Verify Build Completion
+After the build process finishes, you should see a notification indicating the build is complete.
 
-### 8. 🚀 Review the stages of the static code analysis process in the console output.
-![Screenshot from 2024-10-05 16-47-23](https://github.com/user-attachments/assets/dee17a65-0725-452c-bb9b-2ed12b378663)
+![Build Complete Screenshot](https://github.com/user-attachments/assets/e44e97f3-3c40-4a78-a8c8-6fc2ff6f601f)
+
+### 7. 🚀 Access Console Output
+- Click on **Console Output** to view detailed results of the build process. This will provide insight into any errors or warnings that occurred during the execution.
+
+![Console Output Screenshot](https://github.com/user-attachments/assets/88ac7059-2000-4b54-a214-0e4675d3619c)
+![Console Output Detail Screenshot](https://github.com/user-attachments/assets/59c7a636-42e0-495c-aa12-ad721d360fce)
+
+### 8. 🚀 Review Bug Analysis Results
+In the console output, carefully review the stages of the bug analysis process. This will help you identify any issues that need to be addressed in your code.
+
+### 9. 🚀 Email Notification
+Once the bug analysis is complete, an email notification will be sent to the specified recipient with the build results. This can be configured in your Jenkins pipeline to include details such as build status, branch name, and any relevant information.
+
+> **Note:** Ensure that the email extension plugin is installed and configured in Jenkins for this feature to work properly.
+
 
 
 ## Jenkinsfile
