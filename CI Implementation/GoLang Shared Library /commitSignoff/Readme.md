@@ -50,39 +50,41 @@ This document outlines how to configure a Jenkins shared pipeline that enforces 
 | **Operating System** | Ubuntu 22.04                                                      |
 
 ---
+## 💥 Steps to Configure Commit Sign-Off with Email Notification
 
-## 💥 Steps to Configuration for Commit Sign-Off with Email Notification
+### 1. 🚀 Create a New Job
+- Click on **New Item**.
+- Enter a name for your job (e.g., `commit signoff`).
 
-### 1. 🚀 Click on **New Item**.** ---> **Enter a name for your job (e.g., `commit signoff`).
+### 2. 🚀 Provide Job Description
+- Add a detailed description of what the pipeline will perform.
+![Job Description Screenshot](https://github.com/user-attachments/assets/7bd7d526-e38f-4831-953e-69aebd22e4ec)
 
-### 2. 🚀 Provide a description for the pipeline in detail about what it will perform.
-![Screenshot from 2024-10-20 02-37-16](https://github.com/user-attachments/assets/7bd7d526-e38f-4831-953e-69aebd22e4ec)
+### 3. 🚀 Configure Pipeline Job
+- Choose **Pipeline** as the job type.
+- Add your pipeline script for commit signoff in the pipeline configuration.
+- Click **Save** to store the configuration.
 
+  
+![Pipeline Configuration Screenshot 1](https://github.com/user-attachments/assets/66fa2be5-3193-4384-b4ca-50098bd40b7f)
+![Pipeline Configuration Screenshot 2](https://github.com/user-attachments/assets/5ee95dd0-bf7a-4b56-a63e-83b26e251da4)
 
-### 3. 🚀 Choose Pipeline as the job type-->Add your pipeline script for  commit signoff in the pipeline configuration...>Click on Save to store the configuration.
-![Screenshot from 2024-10-20 02-38-54](https://github.com/user-attachments/assets/66fa2be5-3193-4384-b4ca-50098bd40b7f)
+### 4. 🚀 Run the Pipeline
+- Click on **Build** to execute the pipeline for commit signoff.
 
-![Screenshot from 2024-10-20 02-39-01](https://github.com/user-attachments/assets/5ee95dd0-bf7a-4b56-a63e-83b26e251da4)
+### 5. 🚀 View Build Completion
+- You should see a message indicating that the build has completed successfully.
+![Build Completion Screenshot](https://github.com/user-attachments/assets/c46f27bc-c391-480d-9943-3e2970bdfb5e)
 
+### 6. 🚀 Access Console Output
+- Click on **Console Output** to view the detailed build logs.
+![Console Output Screenshot 1](https://github.com/user-attachments/assets/2e5065cf-55e5-4cde-b63f-c94c9d886739)
+![Console Output Screenshot 2](https://github.com/user-attachments/assets/296a9f32-0914-44ac-8cf2-a21912c75206)
 
-### 4. 🚀 Then Click on build to run the pipeline to perform commit signoff
-
-
-
-### 5. 🚀 Now we are able to see build complete.
-![Screenshot from 2024-10-20 02-39-18](https://github.com/user-attachments/assets/c46f27bc-c391-480d-9943-3e2970bdfb5e)
-
-
-
-
-### 6. 🚀 Click on Console Output to see the complete build.
-![Screenshot from 2024-10-20 02-39-57](https://github.com/user-attachments/assets/2e5065cf-55e5-4cde-b63f-c94c9d886739)
-![Screenshot from 2024-10-20 02-40-04](https://github.com/user-attachments/assets/296a9f32-0914-44ac-8cf2-a21912c75206)
-
-
-
-
-### 7. 🚀 Review the results of the dependency scanning in the console output.
+### 7. 🚀 Review Dependency Scanning Results
+- Examine the console output to review the results of the dependency scanning.  
+- Confirm that the email notification has been sent to the specified recipient with the build results.
+![Screenshot from 2024-10-22 02-09-32](https://github.com/user-attachments/assets/bfd8591a-fbb6-40f7-ba7c-1c6ca63fb2d6)
 
 
 
@@ -94,6 +96,8 @@ https://github.com/mygurukulam-p10/jenkins-shared-library.git
 
 ## Jenkinsfile
 ```
+@Library("shared1") _
+
 @Library("shared1") _
 
 pipeline {
@@ -116,23 +120,20 @@ pipeline {
             }
         }
     }
-    
+
     post {
         always {
             script {
+                // Construct email subject and body
                 def emailSubject = "Build Status: ${currentBuild.result} - Job ${env.JOB_NAME} [${env.BUILD_NUMBER}]"
                 def emailBody = """The current build result is: ${currentBuild.result}
                                 Branch: ${params.BRANCH_NAME}
                                 Repository: ${params.REPO_URL}
                                 Build Number: ${env.BUILD_NUMBER}
                                 ${currentBuild.result == 'FAILURE' ? "Error Message: ${currentBuild.description ?: 'N/A'}" : "Build was successful!"}"""
-
-                // Send the build report email
-                emailext(
-                    to: params.REPORT_RECIPIENT,
-                    subject: emailSubject,
-                    body: emailBody
-                )
+                
+                // Call the shared email function
+                email(emailSubject, emailBody, params.REPORT_RECIPIENT)
             }
         }
     }
@@ -155,6 +156,11 @@ def call() {
     }
 }
 ```
+- [GoLang Shared Library Jenkinsfile](https://github.com/mygurukulam-p10/jenkins-pipelines/blob/main/GoLang-Shared-Library/CommitSignoff/Jenkinsfile)
+
+- [Jenkins Shared Library Vars](https://github.com/mygurukulam-p10/jenkins-shared-library/tree/main/vars)
+
+
 ## 🏁 Conclusion
 
 The commit signoff process is crucial for maintaining code quality and accountability in software development. It ensures that contributors acknowledge the project's contribution guidelines and take responsibility for their changes. By including a "Signed-off-by" line in your commits, you facilitate a transparent development process and uphold the integrity of the codebase.
