@@ -72,7 +72,7 @@ Automating the process of building and deploying Go applications can be efficien
 ### Step 6:🚀 Review the stages of the build process in the console output.
 ![Screenshot from 2024-10-16 15-49-57](https://github.com/user-attachments/assets/d366953f-f533-439d-a459-6bb56180a90f)
 
-## Jenkinsfile
+## Jenkinsfile [Pipeline](https://github.com/mygurukulam-p10/jenkins-pipelines/blob/main/Go-Declerative-pipeline/Code%20Compilation/jenkinsfile)
 ```
 pipeline {
     agent any
@@ -95,11 +95,6 @@ pipeline {
             }
         }
     }
-    post {
-        always {
-            // Clean up workspace after job completion
-            cleanWs()
-        }
         success {
             echo 'Pipeline completed successfully!'
         }
