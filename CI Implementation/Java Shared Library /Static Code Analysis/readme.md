@@ -52,7 +52,7 @@ This document outlines how to set up a Shared Library for Bugs analysis in Java.
 
 
 ### 4. 🚀 Create the repo for add vars file which will be using in pipeline script.
-![image](https://github.com/user-attachments/assets/aca5f653-d073-48ed-aebc-8b3a9cd5eb01)
+![image](https://github.com/user-attachments/assets/de2739af-491a-4d4a-bf1e-8755852635f1)
 
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Static Code Analysis in the pipeline script ...> add repo link & credintial, file path.
