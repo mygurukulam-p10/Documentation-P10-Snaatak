@@ -106,7 +106,7 @@ IAM roles are important for securely managing access to AWS resources. They prov
 
 | Description | References  
 | ------------|-----------|
-| Link |[https://www.knowledgehut.com/tutorials/aws/iam-roles](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html)|
-| Link | https://www.knowledgehut.com/tutorials/aws/iam-roles |
+| Iam Roles |[https://www.knowledgehut.com/tutorials/aws/iam-roles](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html)|
+| Iam Role | https://www.knowledgehut.com/tutorials/aws/iam-roles |
 
 
