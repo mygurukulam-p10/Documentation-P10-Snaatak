@@ -61,6 +61,16 @@ Amazon EC2 Auto Scaling helps you make sure you have the right number of servers
 4. Configure network settings as needed & Click Create launch template.
 ![Screenshot from 2024-10-21 04-24-46](https://github.com/user-attachments/assets/37dfa8a5-3709-4f30-ba3a-9b6125b0a0ce)
 
+### Step 3: Create an Auto Scaling Group
+1. Open Auto Scaling Groups in the EC2 console.
+2. Click Create Auto Scaling group and give preffered name.
+![Screenshot from 2024-10-21 05-02-53](https://github.com/user-attachments/assets/60612ac9-4d81-48c0-aee5-5f11a276c5ad)
+3. Select your launch template & Click next.
+![Screenshot from 2024-10-21 05-03-41](https://github.com/user-attachments/assets/4c075dec-5ff0-4ad0-b971-5a11087f79d9)
+4. Choose Your VPC & Subnet
+![Screenshot from 2024-10-21 05-05-11](https://github.com/user-attachments/assets/c57d4e2f-aaf5-4021-b0a1-7d425e571cde)
+
+
 
 
 
