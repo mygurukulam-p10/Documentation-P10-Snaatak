@@ -67,12 +67,12 @@ In this section, we create a development environment infrastructure with two pub
 
 1. **Public Subnet 1**  
    - **Purpose**: Used for internet-facing resources such as load balancers and NAT gateways.
-   - **CIDR**: 10.0.1.0/27
+   - **CIDR**: 10.0.0.0/27
    - **Route Table**: Associated with a route table that directs traffic to the internet gateway.
 
-![image](https://github.com/user-attachments/assets/2c61e6c7-9bec-4fdd-b7a6-984ce1b01d6b)
+![image](https://github.com/user-attachments/assets/1d78a576-aa03-4643-aff0-2b569f0912d8)
 
-2. **Public Subnet 1**  
+2. **Public Subnet 2**  
    - **Purpose**: Used for internet-facing resources such as load balancers and NAT gateways.
    - **CIDR**: 10.0.0.32/27
    - **Route Table**: Associated with a route table that directs traffic to the internet gateway.
