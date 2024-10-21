@@ -20,7 +20,7 @@
 8. [📚 References](#-references)
 
 ## ⭐ Introduction
-This document provides an overview of implementing bug analysis in a Go project using GoLand. The aim is to help identify and fix bugs effectively, ensuring code quality and reliability.
+This document provides an overview of implementing bug analysis in a Go project using Golang. The aim is to help identify and fix bugs effectively, ensuring code quality and reliability.
 
 ## ⚙️ Pre-requisites
 
@@ -161,7 +161,7 @@ node {
 
 ```
 ## 📛 Conclusion
-Effective bug analysis  helps developers identify and fix issues quickly, ensuring the reliability of their Go applications. By leveraging GoLand's debugging and testing features, the development workflow becomes more efficient, ultimately enhancing code quality.
+Effective bug analysis  helps developers identify and fix issues quickly, ensuring the reliability of their Go applications. By leveraging Golang's debugging and testing features, the development workflow becomes more efficient, ultimately enhancing code quality.
 
 ## 📧 Contact Information
 
