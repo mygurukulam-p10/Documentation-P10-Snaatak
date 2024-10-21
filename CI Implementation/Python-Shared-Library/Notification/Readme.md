@@ -58,12 +58,12 @@ This function can be called in any pipeline to notify users of build status (pas
 
 ### 4. 🚀 Create the repo & vars file which will be using in pipeline script.
 ![Screenshot 2024-10-18 105812](https://github.com/user-attachments/assets/274d0dd5-cd6e-40f1-831c-955453fe03ed)
-![Screenshot 2024-10-18 105820](https://github.com/user-attachments/assets/13da0081-d167-490a-87ce-2088257504cb)
+![Screenshot 2024-10-21 102355](https://github.com/user-attachments/assets/d44e9ad6-7f7f-4e56-834f-1f0e76295827)
 
 
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Notification in the pipeline script.
-![Screenshot 2024-10-18 105758](https://github.com/user-attachments/assets/d8a7b62b-63ec-4683-a6b9-aeb11f10ea41)
+![Screenshot 2024-10-21 102346](https://github.com/user-attachments/assets/2d6d6dcc-ac97-48d4-a73a-62f318682545)
 
 
 
@@ -73,15 +73,15 @@ This function can be called in any pipeline to notify users of build status (pas
 
 
 ### 7.🚀 Click on Console Output to see the complete build.
-![Screenshot 2024-10-18 104425](https://github.com/user-attachments/assets/6170a5c1-b552-447f-8c43-0aa38fb7ba3e)
-![Screenshot 2024-10-18 104437](https://github.com/user-attachments/assets/6f6ea12e-078b-4d21-98a8-e3b8496ab1f3)
-![Screenshot 2024-10-18 104455](https://github.com/user-attachments/assets/e5fffdae-998c-4998-b68e-99159cb1a63f)
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/521705aa-0bea-499a-b8f2-166006bd7cad">
+![Screenshot 2024-10-21 102306](https://github.com/user-attachments/assets/3e97cb35-92d1-412a-8db7-ca3dbfae405d)
+
+![Screenshot 2024-10-21 102323](https://github.com/user-attachments/assets/dcc3b776-e14e-410b-9e10-301f48d926ae)
+![Screenshot 2024-10-21 102250](https://github.com/user-attachments/assets/05bfd0ae-e61c-4f96-b7a9-88aba910f7b1)
 
 
 
-### 9. Here is the email notification for the status of build.
-![Screenshot 2024-10-18 104403](https://github.com/user-attachments/assets/84067b9a-725c-4e23-b0a8-838ca0a20437)
+### 8. Here is the email notification for the status of build.
+<img width="786" alt="image" src="https://github.com/user-attachments/assets/a261012a-5b9a-41a2-ba5a-6b201ee72179">
 
 
 ---
