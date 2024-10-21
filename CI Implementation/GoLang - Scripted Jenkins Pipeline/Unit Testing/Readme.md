@@ -82,14 +82,6 @@ This document provides an overview of implementing unit testing in a Go project 
 
 **After the build process, an email will be sent to the specified recipient, containing:**
 - The current build result (Success or Failure).
-- The branch from which the build was triggered.
-- The repository URL.
-- The Credentials ID used for accessing the repository.
-- The build number.
-- The coverage report attached for review.
-
-**Email recipient:** `nagar.amit1999@gmail.com`
-
 ![Screenshot from 2024-10-21 18-04-17](https://github.com/user-attachments/assets/c43a983e-8107-4c2a-961f-a64402353472)
 
 
