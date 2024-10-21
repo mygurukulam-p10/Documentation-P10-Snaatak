@@ -78,30 +78,81 @@ This document provides an overview of implementing unit testing in a Go project 
 ### 8. 🚀 Review the results of the unit testing process in the console output.
 ![Screenshot from 2024-10-05 16-47-23](https://github.com/user-attachments/assets/bc3a7d99-0190-4390-8480-ce501a7fafc4)
 
+### 9. 🚀 Email Notification
+
+**After the build process, an email will be sent to the specified recipient, containing:**
+- The current build result (Success or Failure).
+- The branch from which the build was triggered.
+- The repository URL.
+- The Credentials ID used for accessing the repository.
+- The build number.
+- The coverage report attached for review.
+
+**Email recipient:** `nagar.amit1999@gmail.com`
+
+![Screenshot from 2024-10-21 18-04-17](https://github.com/user-attachments/assets/c43a983e-8107-4c2a-961f-a64402353472)
+
+
 # Jenskinfile
 
 ```groovy
+properties([
+    parameters([
+        string(name: 'BRANCH_NAME', defaultValue: 'main', description: 'Branch to build from'),
+        string(name: 'REPO_URL', defaultValue: 'git@github.com:mygurukulam-p10/employee-api.git', description: 'Git repository URL'),
+        string(name: 'CREDENTIALS_ID', defaultValue: 'amit_cred', description: 'Credentials ID for accessing the repository'),
+        string(name: 'REPORT_RECIPIENT', defaultValue: 'nagar.amit1999@gmail.com', description: 'Email address to send the build report')
+    ])
+])
+
 node {
     def goTool = tool name: 'golang', type: 'go'
     
     // Set the PATH to include Go binary directory
     env.PATH = "${goTool}/bin:${env.PATH}"
 
-    stage("Checkout") {
-        git branch: 'main', url: 'git@github.com:mygurukulam-p10/employee-api.git', credentialsId: "amit_cred"
-    }
-
-    stage("Install Dependencies") {
-        sh "go mod tidy"
-    }
-
-    stage("Unit Testing") {
-        script {
-            sh '''
-                echo "Running unit tests..."
-                go test ./... -coverprofile=coverage.out || true
-            '''
+    try {
+        stage("Checkout") {
+            // Checkout the source code from the Git repository using parameters
+            git branch: params.BRANCH_NAME, url: params.REPO_URL, credentialsId: params.CREDENTIALS_ID
         }
+
+        stage("Install Dependencies") {
+            // Use the Go tool to tidy dependencies
+            sh "go mod tidy"
+        }
+
+        stage("Unit Testing") {
+            script {
+                // Run unit tests and generate a coverage report
+                sh '''
+                    echo "Running unit tests..."
+                    go test ./... -coverprofile=coverage.out
+                '''
+            }
+        }
+
+        // Mark the build as successful
+        currentBuild.result = 'SUCCESS'
+
+    } catch (Exception e) {
+        // Mark the build as failed if any exception occurs
+        currentBuild.result = 'FAILURE'
+        throw e
+    } finally {
+        // Send an email with the current build result and parameters
+        emailext(
+            to: params.REPORT_RECIPIENT,
+            subject: "Build Status: ${currentBuild.result} - Job ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
+            body: """The current build result is: ${currentBuild.result}
+
+                    Branch: ${params.BRANCH_NAME}
+                    Repository: ${params.REPO_URL}
+                    Credentials ID: ${params.CREDENTIALS_ID}
+                    Build Number: ${env.BUILD_NUMBER}
+                    """,
+            attachmentsPattern: 'coverage.out' // Attach the coverage report
+        )
     }
 }
 
