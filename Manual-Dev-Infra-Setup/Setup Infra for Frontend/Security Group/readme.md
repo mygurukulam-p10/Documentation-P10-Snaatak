@@ -58,8 +58,8 @@ Here's a simplified breakdown of the process:
 
 | Security Group Name | Port  | Source                |
 |---------------------|-------|-----------------------|
-| 	Dev-OTMS-Frontend | 22    |  Dev-OTMS-OpenVPN-Non-Prod |
-| Dev-OTMS-Frontend        | 3000 | Dev-OTMS-ALB-Non-Prod        |
+| OTMS-Dev-SG-Frontend | 22    |  Dev-OTMS-OpenVPN-Non-Prod |
+| OTMS-Dev-SG-Frontend        | 3000 | Dev-OTMS-ALB-Non-Prod        |
 
 ### Outbound Rules
 
