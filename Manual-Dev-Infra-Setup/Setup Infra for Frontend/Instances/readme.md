@@ -1,8 +1,8 @@
 # Setup Instances for Frontend API
 
  
-|   Author        |  Created on   |  Version   | Last updated by  | Last edited on |
-| --------------- | --------------| -----------|----------------- | -------------- |
+|   Author        |  Created on   |  Version   | Last updated on  | 
+| --------------- | --------------| -----------|----------------- | 
 | Aayush Gaur |  11-10-2024  | 1.0 | Aayush Gaur  | 21-10-2024    |
 
 
@@ -58,7 +58,7 @@ You can easily manage these instances—start them when needed, stop them when n
 **Step 5:** In The Network Setting choose a VPC; eg, OTMS-Dev. Choose a subnet & Disable auto-assign IP
 ![Screenshot from 2024-10-12 15-12-59](https://github.com/user-attachments/assets/453e95e1-74a7-40f9-a4b2-8cce9d26a412)
 
-**Step 6:** Choose your security group, eg OTMS-Frontend-Dev, Don't change any setting for now & Launch the Instance.
+**Step 6:** Choose your security group, eg OTMS-Frontend-Dev,[Link](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/blob/main/Manual-Dev-Infra-Setup/Setup%20Infra%20for%20Frontend/Security%20Group/readme.md) Don't change any setting for now & Launch the Instance.
 ![Screenshot from 2024-10-12 15-17-51](https://github.com/user-attachments/assets/5f1895c6-0352-4a6e-a337-6df5be70dc1f)
 
 ![Screenshot from 2024-10-12 15-18-58](https://github.com/user-attachments/assets/7da69dd6-f2ef-420e-a17b-73ff966a02af)
