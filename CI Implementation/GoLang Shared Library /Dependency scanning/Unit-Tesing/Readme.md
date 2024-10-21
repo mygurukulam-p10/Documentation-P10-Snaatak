@@ -45,47 +45,42 @@ This document provides an overview of implementing unit testing in a Go project 
 | **Operating System** | Ubuntu 22.04                                                    |
 
 ---
+## 💥 Steps to Configure Unit Testing
 
-## 💥 Steps to Configuration for Unit Testing
+### 1. 🚀 Open Your Jenkins Dashboard.
 
-### 1. 🚀 Open your Jenkins Dashboard.
+### 2. 🚀 Click on **New Item**.
+**→** Enter a name for your job (e.g., `Unit Testing`).
 
-### 2. 🚀 Click on **New Item**. 
-**-->** Enter a name for your job (e.g., `Unit Testing`).
+### 3. 🚀 Provide a Description for the Pipeline.
+Detail what the pipeline will perform.
+![Job Description Screenshot](https://github.com/user-attachments/assets/fa9874ae-6fc4-431b-9eab-1144e1435cdf)
 
+### 4. 🚀 Choose **Pipeline** as the Job Type.
+**→** Add your pipeline script for unit testing in the pipeline configuration.  
+**→** Click on **Save** to store the configuration.
+![Pipeline Job Type Screenshot](https://github.com/user-attachments/assets/798e66bc-7ab3-43ea-9eb4-562af49b46c2)
+![Pipeline Configuration Screenshot](https://github.com/user-attachments/assets/38ee487a-f306-4d82-8606-49d8985596e2)
 
-### 3. 🚀 Provide a description for the pipeline detailing what it will perform.
-![Screenshot from 2024-10-16 02-43-22](https://github.com/user-attachments/assets/fa9874ae-6fc4-431b-9eab-1144e1435cdf)
+### 5. 🚀 Click on **Build** to Run the Pipeline for Unit Testing.
 
+### 6. 🚀 Check the Build Status.
+You should see the build complete.
+![Build Completion Screenshot](https://github.com/user-attachments/assets/3e0aa0fe-bbfa-4b4b-ad3a-8a66f64fbe54)
 
-### 4. 🚀 Choose **Pipeline** as the job type. 
-**-->** Add your pipeline script for unit testing in the pipeline configuration... 
-**-->** Click on **Save** to store the configuration.
-![Screenshot from 2024-10-09 19-29-36](https://github.com/user-attachments/assets/798e66bc-7ab3-43ea-9eb4-562af49b46c2)
+### 7. 🚀 View the **Console Output**.
+Click on **Console Output** to see the complete build results.
+![Console Output Screenshot 1](https://github.com/user-attachments/assets/0efa6d7b-054b-454f-80fa-8cc60c654658)
+![Console Output Screenshot 2](https://github.com/user-attachments/assets/5ccd25e2-9f07-47b8-a91d-865a4758aa6c)
 
-![Screenshot from 2024-10-16 12-48-05](https://github.com/user-attachments/assets/38ee487a-f306-4d82-8606-49d8985596e2)
+### 8. 🚀 Review the Unit Testing Results.
+Check the console output for the results of the unit testing process.
+![Unit Testing Results Screenshot](https://github.com/user-attachments/assets/24a58f66-f013-409c-8e9c-a893819b43b7)
 
-
-### 5. 🚀 Click on **Build** to run the pipeline for unit testing.
-
-
-
-### 6. 🚀 Now, you should be able to see the build complete.
-![Screenshot from 2024-10-16 12-28-57](https://github.com/user-attachments/assets/3e0aa0fe-bbfa-4b4b-ad3a-8a66f64fbe54)
-### 7. 🚀 Click on **Console Output** to see the complete build results.
-![Screenshot from 2024-10-16 12-28-37](https://github.com/user-attachments/assets/0efa6d7b-054b-454f-80fa-8cc60c654658)
-
-![Screenshot from 2024-10-16 12-28-46](https://github.com/user-attachments/assets/5ccd25e2-9f07-47b8-a91d-865a4758aa6c)
-
-
-
-### 8. 🚀 Review the results of the unit testing process in the console output.
-![Screenshot from 2024-10-16 12-29-30](https://github.com/user-attachments/assets/24a58f66-f013-409c-8e9c-a893819b43b7)
-
-### Email Notification
+### 9. 📧 Email Notification
 An email notification has been sent to the specified recipient, informing them of the build status and test results.
+![Screenshot from 2024-10-22 00-58-11](https://github.com/user-attachments/assets/6bd2b65c-0750-4664-8248-250d2bb72a0c)
 
-![Uploading Screenshot from 2024-10-22 00-58-11.png…]()
 
 # Jenskinfile
 
