@@ -79,6 +79,13 @@ This document provides an overview of integrating Dynamic Application Security T
 
 ![Screenshot from 2024-10-07 01-32-13](https://github.com/user-attachments/assets/1bd4ea88-5ab6-4762-87a7-5b4454f0ad42)
 
+
+### 📧 Email Notification
+
+- An email will be sent to the following address after the build completes: `nagar.amit1999@gmail.com`.
+![Screenshot from 2024-10-21 18-10-36](https://github.com/user-attachments/assets/ae360edc-e0fb-46aa-85ea-8b4c61e038d7)
+
+
 ## Jenkinsfile
 
 ```groovy
@@ -181,6 +188,9 @@ node {
 
 
 ```
+
+- [Jenkinsfile for DAST](https://github.com/mygurukulam-p10/jenkins-pipelines/edit/main/Golang-scripted-pipeline/DAST/Jenkinsfile)
+
 ## 📛 Conclusion
 
 The DAST integration using OWASP ZAP ensures that the application undergoes comprehensive security testing during the build process. By incorporating this step into the CI/CD pipeline, teams can identify and remediate vulnerabilities before the application is deployed.
