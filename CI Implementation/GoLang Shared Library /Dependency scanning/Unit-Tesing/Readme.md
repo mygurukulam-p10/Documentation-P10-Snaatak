@@ -115,22 +115,26 @@ node {
         goInstallDependency()          // Install Go dependencies
         
         // Golang Unit Testing
-        golangUnitTesting()            // Run unit tests
+        golangUnitTesing()    // Run unit tests
+        
+        // Archive reports using the archiveReport function from archiveReport.groovy
+        archiveReport('coverage.html') // Specify the report files to archive
 
     } catch (Exception e) {
         buildResult = 'FAILURE' // Update build result on failure
         echo "An error occurred: ${e.message}"
     } finally {
-        // Send email notification
-        emailext(
-            to: params.REPORT_RECIPIENT,
-            subject: "Build Status: ${buildResult} - Job ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
-            body: """The current build result is: ${buildResult}
+        // Send email notification using the custom email function
+        email(
+            "Build Status: ${buildResult} - Job ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
+            """The current build result is: ${buildResult}
 
                     Branch: ${params.BRANCH_NAME}
                     Repository: ${params.REPO_URL}
                     Build Number: ${env.BUILD_NUMBER}
-                    """
+            """,
+            params.REPORT_RECIPIENT,
+            'coverage.html' // Attachments
         )
     }
 }
