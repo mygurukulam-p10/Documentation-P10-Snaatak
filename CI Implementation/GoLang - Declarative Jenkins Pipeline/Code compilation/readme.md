@@ -62,12 +62,13 @@ Automating the process of building and deploying Go applications can be efficien
 
 
 ### Step 4:🚀 Now, you should be able to see the build complete.
-![Screenshot from 2024-10-16 15-45-53](https://github.com/user-attachments/assets/dc22a66f-c3ac-4860-b0cc-fedeb3eaf9cf)
+![Screenshot from 2024-10-22 11-34-38](https://github.com/user-attachments/assets/c7e5f0b4-6700-4137-a5b7-0d2d653232e7)
 
 ### Step 5:🚀 Click on Console Output to see the complete build.
-![Screenshot from 2024-10-16 15-47-19](https://github.com/user-attachments/assets/30ace96a-faab-4359-ad6d-19ca0dcbf781)
-![Screenshot from 2024-10-16 15-48-11](https://github.com/user-attachments/assets/46259054-14ea-45f3-82f0-bd1f31f27b43)
-![Screenshot from 2024-10-16 15-48-33](https://github.com/user-attachments/assets/8dd8e210-f5a6-4aec-9aaf-683a931ff627)
+![Screenshot from 2024-10-22 11-35-40](https://github.com/user-attachments/assets/478b947b-4110-4cff-b2af-e06ef411ffb4)
+![Screenshot from 2024-10-22 11-35-47](https://github.com/user-attachments/assets/7b876c20-5ba6-404a-85c5-c47534371d99)
+![Screenshot from 2024-10-22 11-35-51](https://github.com/user-attachments/assets/7d44be09-7b71-4355-aea9-003439bac0eb)
+
 
 ### Step 6:🚀 Review the stages of the build process in the console output.
 ![Screenshot from 2024-10-16 15-49-57](https://github.com/user-attachments/assets/d366953f-f533-439d-a459-6bb56180a90f)
@@ -95,8 +96,12 @@ pipeline {
             }
         }
     }
+    post {
         success {
             echo 'Pipeline completed successfully!'
+        }
+        failure {
+            echo 'Pipeline failed!'
         }
     }
 }
