@@ -2,7 +2,7 @@
 
 | 📅 CREATED/UPDATED | 📌 VERSION | ✍️ AUTHOR    | Last Update                    |
 |--------------------|------------|--------------|--------------------------------|
-| 04-10-2024         | 1.0      | Aayush Gaur  | 16-10-2024           |
+| 04-10-2024         | 1.0      | Aayush Gaur  | 22-10-2024           |
 
 ## Table of Contents
 1. [💥 Introduction](#-introduction)
