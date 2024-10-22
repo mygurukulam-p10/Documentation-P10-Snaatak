@@ -20,7 +20,7 @@
 8. [📚 References](#-references)
 
 ## ⭐ Introduction 
-This document provides an overview of integrating Dynamic Application Security Testing (DAST) in a Jenkins scripted pipeline using OWASP ZAP.
+This document provides an overview of integrating Dynamic Application Security Testing (DAST) in a Jenkins shared pipeline using OWASP ZAP.
 
 ## ⚙️ Pre-requisites
 
