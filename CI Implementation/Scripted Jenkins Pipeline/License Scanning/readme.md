@@ -6,7 +6,7 @@
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-| Vinay Bansal | 06-10-2024  | Version 1  | Vinay Bansal     | 10-10-2024     |
+| Vinay Bansal | 06-10-2024  | Version 3  | Vinay Bansal     | 22-10-2024     |
 
 ---
 ## Table of Contents
