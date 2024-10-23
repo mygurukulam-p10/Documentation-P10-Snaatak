@@ -3,7 +3,7 @@
 
 | ✍ Author      | 📅 Created on  | 📌 Version    | 📝 Last updated by | 📅 Last edited on  | Reviewer L0 | Reviewer L1 | Reviewer L2 |
 |---------------|----------------|--------------|--------------------|-------------------|-------------|-------------|-------------|
-| Amit Nagar    | 20-10-2024      | Version 1    | Amit Nagar         | 20-10-2024        |             |             |             |
+| Amit Nagar    | 20-10-2024      | Version 1    | Amit Nagar         | 23-10-2024        |             |             |             |
 
 ---
 
