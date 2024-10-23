@@ -162,8 +162,9 @@ pipeline {
 
 ## 📚 References
 
-| Links                                             | Descriptions                                                    |
-|---------------------------------------------------|-----------------------------------------------------------------|
-| [SPDX - Software Package Data Exchange](https://spdx.dev/) | **SPDX - Software Package Data Exchange** |
-| [Open Source Licenses](https://opensource.org/licenses)                   | **Open Source Licenses** |
-| [Manual POC](https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/Application%20CI%20Design/License-Scanning-POC)|**Manual POC**|
+ Tool        | Link                                                                   |
+|-------------|------------------------------------------------------------------------|
+| FOSSA       | [https://fossa.com](https://fossa.com)                                 |
+| Black Duck  | [https://www.blackducksoftware.com](https://www.blackducksoftware.com) |
+| Snyk        | [https://snyk.io](https://snyk.io)                                     |
+| WhiteSource | [https://www.whitesourcesoftware.com](https://www.whitesourcesoftware.com) |
