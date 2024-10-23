@@ -58,6 +58,8 @@ License scanning is crucial for identifying the licenses of third-party librarie
 
 ### 7. 🚀 **View Console Output**
    - Click on **Console Output** in the left-hand menu to view the detailed logs of the build process, including any issues or successes related to the License Scanning.
+![Screenshot from 2024-10-23 19-08-01](https://github.com/user-attachments/assets/1270961d-7110-44f2-82a5-cf76a7040c69)
+![Screenshot from 2024-10-23 19-08-10](https://github.com/user-attachments/assets/588614d2-0818-432a-9654-1199542565b0)
 
 
 ### 8. 🚀 **Email Notifications**
