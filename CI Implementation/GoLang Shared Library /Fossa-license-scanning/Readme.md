@@ -45,16 +45,21 @@ License scanning is crucial for identifying the licenses of third-party librarie
 
 ### 3. 🚀 **Provide a Job Description**
    - In the **Description** section, write a brief description of what this pipeline does, such as "This pipeline performs license scanning to ensure all dependencies are compliant."
+![Screenshot from 2024-10-24 00-15-04](https://github.com/user-attachments/assets/0e0737af-2ec7-4365-b3d2-03ce51a784b6)
 
 ### 4. 🚀 **Configure Pipeline Script**
 
+![Screenshot from 2024-10-24 00-14-06](https://github.com/user-attachments/assets/ad08acee-603b-41b5-9849-1e5af91174cb)
+
+![Screenshot from 2024-10-24 00-14-10](https://github.com/user-attachments/assets/f86eb641-cd4d-43c2-816c-7fcf0eccd109)
 
 ### 5. 🚀 **Run the Pipeline**
    - Click on **Build Now** to trigger the pipeline.
 
 ### 6. 🚀 **Check the Build Status**
    - Once the pipeline is complete, you will see the status of the build in the Jenkins dashboard.
-  
+  ![Screenshot from 2024-10-23 19-07-36](https://github.com/user-attachments/assets/5f182af0-8cf8-4774-a266-6f0a7440af3e)
+
 
 ### 7. 🚀 **View Console Output**
    - Click on **Console Output** in the left-hand menu to view the detailed logs of the build process, including any issues or successes related to the License Scanning.
@@ -63,7 +68,8 @@ License scanning is crucial for identifying the licenses of third-party librarie
 
 
 ### 8. 🚀 **Email Notifications**
-![Uploading Screenshot from 2024-10-23 18-39-41.png…]()
+![Screenshot from 2024-10-23 18-39-41](https://github.com/user-attachments/assets/ce5c24c4-0b16-4292-b3bf-b8cad543588a)
+
 
 
 ### Jenkinsfile
