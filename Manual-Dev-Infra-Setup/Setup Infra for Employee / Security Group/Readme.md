@@ -48,7 +48,7 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 
 | Security Group Name | Port         | Protocol  | Destination  |
 |---------------------|--------------|-----------|--------------|
-| *                   | All Traffic  | All       | 0.0.0.0/0    |
+|  OTMS-Dev-SG-Employee-api                     | All Traffic  | All       | 0.0.0.0/0    |
 
 ---
 
