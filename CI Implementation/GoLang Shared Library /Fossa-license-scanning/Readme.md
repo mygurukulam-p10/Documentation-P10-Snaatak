@@ -157,6 +157,9 @@ pipeline {
     }
 }
 
+- [Jenkins Pipelines](https://github.com/mygurukulam-p10/jenkins-pipelines)
+- [Jenkins Shared Library](https://github.com/mygurukulam-p10/jenkins-shared-library)
+
 ```
 
 ## 📞 Contact Information
