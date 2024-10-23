@@ -63,6 +63,7 @@ License scanning is crucial for identifying the licenses of third-party librarie
 
 
 ### 8. 🚀 **Email Notifications**
+![Uploading Screenshot from 2024-10-23 18-39-41.png…]()
 
 
 ### Jenkinsfile
