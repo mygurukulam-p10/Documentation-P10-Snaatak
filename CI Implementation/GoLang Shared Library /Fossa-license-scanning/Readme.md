@@ -75,7 +75,7 @@ pipeline {
         string(name: 'REPO_URL', defaultValue: 'git@github.com:mygurukulam-p10/employee-api.git', description: 'Git repository URL')
         string(name: 'CREDENTIALS_ID', defaultValue: 'amit_cred', description: 'Credentials ID for accessing the repository')
         string(name: 'REPORT_RECIPIENT', defaultValue: 'nagar.amit1999@gmail.com', description: 'Email address to send the build report')
-        string(name: 'OUTPUT_REPORT_FILE', defaultValue: 'fossa-license-report.json', description: 'FOSSA output report file name')
+        string(name: 'OUTPUT_REPORT_FILE', defaultValue: 'fossa-license-report.html', description: 'FOSSA output report file name')
     }
 
     stages {
