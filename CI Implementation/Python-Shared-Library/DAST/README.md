@@ -53,11 +53,11 @@ This section outlines the steps to configure a Jenkins job for dynamic applicati
    ![image](https://github.com/user-attachments/assets/cc9cadcd-722f-4064-87c8-3356a2b8bb21)
 
    - Name the job (e.g., `OWASP-ZAP-Dynamic-Analysis`) and select **Pipeline** as the job type.
-   ![image](https://github.com/user-attachments/assets/d4200710-fdc9-461b-841d-18e5a90d95e2)
+   ![image](https://github.com/user-attachments/assets/602d1813-49bb-4a6d-8cbb-93287543eb3e)
 
 3. **Add Description:**  
    - Include a detailed job description.
-   ![image](https://github.com/user-attachments/assets/078ccd3d-832e-4605-83a2-34ccd8a2133e)
+ ![image](https://github.com/user-attachments/assets/8a6906ce-fe93-4218-b70a-316198e8699a)
 
 4. **Source Control Setup:**  
    - Link the job to your source control repository containing the Jenkinsfile that uses the shared library for pipeline configuration.
