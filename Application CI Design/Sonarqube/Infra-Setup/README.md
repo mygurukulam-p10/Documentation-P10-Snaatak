@@ -1,2 +1,3 @@
-![Sonarqube infra updated](https://github.com/user-attachments/assets/c5d8c184-2ae2-4817-accb-a50701bfe4e6)
+![SonarQube new](https://github.com/user-attachments/assets/cc8914ef-cb7d-4869-8150-34dd7bc620cc)
+
 
