@@ -74,6 +74,7 @@ This section outlines the steps to configure a Jenkins job for dynamic applicati
    ![image](https://github.com/user-attachments/assets/3523374b-3c98-4a14-a1ab-79b7b34ff19c)
 
 7. **Observe as the build completes and review the console output for any issues.**
+   ![image](https://github.com/user-attachments/assets/45b07450-a5f9-478e-a7fc-9fa0207e00a2)
    ![image](https://github.com/user-attachments/assets/4e25003b-980d-4de8-911b-5c9c9b4f15e5)
    ![image](https://github.com/user-attachments/assets/b8485bd9-90e1-401e-b2eb-d0681d94e5a1)
 
