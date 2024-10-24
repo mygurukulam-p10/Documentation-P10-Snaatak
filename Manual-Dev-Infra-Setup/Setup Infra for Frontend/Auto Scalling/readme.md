@@ -69,6 +69,7 @@ Amazon EC2 Auto Scaling helps you make sure you have the right number of servers
 ![Screenshot from 2024-10-21 05-03-41](https://github.com/user-attachments/assets/4c075dec-5ff0-4ad0-b971-5a11087f79d9)
 4. Choose Your VPC & Subnet
 ![Screenshot from 2024-10-21 05-05-11](https://github.com/user-attachments/assets/c57d4e2f-aaf5-4021-b0a1-7d425e571cde)
+5. Optionally, link your Auto Scaling group to a Load Balancer.
 
 
 
