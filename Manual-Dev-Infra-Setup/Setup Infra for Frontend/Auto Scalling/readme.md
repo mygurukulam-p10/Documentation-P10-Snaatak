@@ -71,6 +71,31 @@ Amazon EC2 Auto Scaling helps you make sure you have the right number of servers
 ![Screenshot from 2024-10-21 05-05-11](https://github.com/user-attachments/assets/c57d4e2f-aaf5-4021-b0a1-7d425e571cde)
 5. Optionally, link your Auto Scaling group to a Load Balancer.
 
+6. Define the group size, scaling policies, and desired instance count.
+![Screenshot from 2024-10-24 07-45-55](https://github.com/user-attachments/assets/44715160-7f75-4855-9e1c-16087f0aac5c)
+7. Review and create your Auto Scaling group.
+
+### Once the Auto Scaling group is created, EC2 instances will automatically scale based on demand
+![Screenshot from 2024-10-24 07-47-34](https://github.com/user-attachments/assets/adaa45c0-e89f-491e-829e-eb54e486cba6)
+
+## 🎯 Conclusion
+Amazon EC2 Auto Scaling ensures that your application is always running the right number of instances. It handles demand fluctuations, optimizes performance, and minimizes costs with simple configuration steps.
+
+## 📧 Contact Information
+
+| Name       | Email Address                              |
+|------------|--------------------------------------------|
+| Aayush Gaur | aayush.gaur.snaatak@mygurukulam.com       |
+
+
+## 🔗 References
+
+| Description                               | Link                                                                                                  |
+| ----------------------------------------- | --------------------------------------------------------------------------------
+| Create Launch Template                    | [AWS Docs](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/create-launch-template.html) |
+| Create Auto Scaling Group                 | [AWS Docs](https://k21academy.com/amazon-web-services/aws-solutions-architect/aws-auto-scaling/) |
+
+
 
 
 
