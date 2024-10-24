@@ -62,13 +62,15 @@ This README provides a comprehensive guide to setting up Dynamic Application Sec
 ![image](https://github.com/user-attachments/assets/52d13d5f-3193-4c5b-925e-0cfe9d0522ba)
 
 ### 8. 🖥️ Review the **Console Output** for build details.
-![image](https://github.com/user-attachments/assets/bce9013b-b3ab-4798-834f-5e42744e09cb)
+![image](https://github.com/user-attachments/assets/b1524ae4-d55e-4a04-bb14-4c41a96c063c)
+
 
 ### 9. 🖥️ Check each stage in the console output for successful completion.
-![image](https://github.com/user-attachments/assets/29c12bb5-95e2-404d-9a70-21fa942ec17a)
+![image](https://github.com/user-attachments/assets/dd7504c9-8ce3-4a8f-b860-63442a0349ca)
 
 ### 10. 🖥️ Check the report of the security analysis.
-![image](https://github.com/user-attachments/assets/e4db0490-d2c0-49a8-a7d8-ea2ef79e347b)
+![image](https://github.com/user-attachments/assets/d24cb137-656c-4e99-aa7e-35e19825fe31)
+
 
 #### Report
 ![image](https://github.com/user-attachments/assets/cc18d77f-b269-4ce4-8ff7-adf93c65ff84)
