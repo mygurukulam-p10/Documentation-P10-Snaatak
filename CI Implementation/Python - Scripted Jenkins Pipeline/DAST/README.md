@@ -46,14 +46,20 @@ This README provides a comprehensive guide to setting up Dynamic Application Sec
 ![image](https://github.com/user-attachments/assets/f758e119-0c51-4f2d-90d6-6c21321d2195)
 
 ### 4. 🖥️ Create a repository to add the `Jenkinsfile` that will contain the pipeline script.
-![image](https://github.com/user-attachments/assets/636e7e85-40bb-40ae-90a3-035b1030d951)
+![image](https://github.com/user-attachments/assets/2cc72c49-88f2-4989-a40c-85fa79496102)
+
 
 ### 5. 🖥️ Choose Pipeline as the job type → Add your pipeline script for DAST under the Pipeline section → Provide the repository link, credentials, and file path.
+![image](https://github.com/user-attachments/assets/e910bb31-9dca-4705-a9bf-de081847bcc8)
+![image](https://github.com/user-attachments/assets/7a2636f6-8ee7-4ce2-8826-1adff4e9c518)
+
 
 ### 6. 🖥️ Click on **Build** to initiate the pipeline.
+![image](https://github.com/user-attachments/assets/d0eec085-3b44-467e-ab2f-0f0f353bb7a5)
+
 
 ### 7. 🖥️ Observe as the build completes.
-![image](https://github.com/user-attachments/assets/64906f37-7281-4c33-b7a1-24b1e5c882ce)
+![image](https://github.com/user-attachments/assets/52d13d5f-3193-4c5b-925e-0cfe9d0522ba)
 
 ### 8. 🖥️ Review the **Console Output** for build details.
 ![image](https://github.com/user-attachments/assets/bce9013b-b3ab-4798-834f-5e42744e09cb)
@@ -65,8 +71,11 @@ This README provides a comprehensive guide to setting up Dynamic Application Sec
 ![image](https://github.com/user-attachments/assets/e4db0490-d2c0-49a8-a7d8-ea2ef79e347b)
 
 #### Report
-![image](https://github.com/user-attachments/assets/74d8e637-3e03-48f2-8ad6-96e470c09d87)
-![image](https://github.com/user-attachments/assets/7056af6f-7427-492d-9c36-75b7ce242548)
+![image](https://github.com/user-attachments/assets/cc18d77f-b269-4ce4-8ff7-adf93c65ff84)
+![image](https://github.com/user-attachments/assets/dc02ef6d-ceb8-46e8-941d-e371e6beaa53)
+![image](https://github.com/user-attachments/assets/de7d7386-405b-48ca-bb97-6ab3d91e2240)
+![image](https://github.com/user-attachments/assets/f3af8233-9340-4e21-8cd9-692d0ddf9bb2)
+
 
 ---
 
