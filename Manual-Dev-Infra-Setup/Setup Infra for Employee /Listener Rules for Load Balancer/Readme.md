@@ -13,10 +13,9 @@
 1. [Introduction](#Introduction)
 2. [Pre-requisites](#Pre-requisites)
 3. [Steps to Setup Listener Rules for Load Balancer](#Steps-to-setup-Listener-Rules-for-Load-Balancer)
-4. [Output](#Output)
-5. [Conclusion](#Conclusion)
-6. [Contact Information](#Contact-Information)
-7. [References](#References)
+4. [Conclusion](#Conclusion)
+5. [Contact Information](#Contact-Information)
+6. [References](#References)
 
 ---
 
@@ -48,8 +47,8 @@
 
   
 5. Configure the **Health Check** settings and register the targets. Ensure the port is set to `8080`.
+![Screenshot from 2024-10-24 13-02-44](https://github.com/user-attachments/assets/24f20315-8154-46d3-a740-57fd3d43f389)
 
-![Screenshot from 2024-10-09 19-03-22](https://github.com/user-attachments/assets/ddba9aed-6ac2-4c9e-96ec-95f10df44a32)
 
 
 
@@ -57,24 +56,23 @@
 6. Review the configuration and click **Create Target Group**.
 
 ### **Step 2: Add Listener Rules to Load Balancer** 🔄
-1. Go to the **Load Balancers** section in the EC2 console and select your load balancer (`OTMS-Dev-ALB-Employee`).
-![image](https://github.com/user-attachments/assets/93401816-7bbb-41a2-9dc0-5bff7fe272db)
+1. Go to the **Load Balancers** section in the EC2 console and select your load balancer (`Dev-ALB`).
+2. Click on Add rule
+![Screenshot from 2024-10-24 13-38-03](https://github.com/user-attachments/assets/0176f6f5-a9e1-4db9-866c-8660acad1dbc)
 
+![Screenshot from 2024-10-24 12-57-46](https://github.com/user-attachments/assets/4dbebc6a-a14d-4aca-be62-0c1986dcf287)
 
-![Screenshot from 2024-10-09 14-09-57](https://github.com/user-attachments/assets/6e33ea5b-8f99-49c6-bc98-f00626309e0e)
+![Screenshot from 2024-10-24 12-57-53](https://github.com/user-attachments/assets/43cd24ba-4fb0-4754-b423-e4d42cf7d61d)
 
  
  2. .Choose the **Target Group** to forward the traffic to. Adjust the weights if using multiple target groups.
    ![Screenshot from 2024-10-09 16-50-31](https://github.com/user-attachments/assets/21117ca3-163a-4ed9-8d06-e7447d1f3833)
 
-   
-3. Click on create LoadBalancer.
----
+   ![Screenshot from 2024-10-24 12-58-07](https://github.com/user-attachments/assets/f89c2981-c527-4be1-a959-4fdf023a0769)
 
-## **Output** 📊
-After setting up the listener rules, the load balancer will correctly distribute traffic as per your rules. Use the DNS endpoint of the load balancer to test the Salary API.
+![Screenshot from 2024-10-24 12-58-33](https://github.com/user-attachments/assets/ccb40546-fd49-467f-b1e7-8c32d121c15b)
 
-![Screenshot from 2024-10-09 16-56-20](https://github.com/user-attachments/assets/3719ef82-7494-40c0-a205-af12855005ff)
+![Screenshot from 2024-10-24 12-58-47](https://github.com/user-attachments/assets/c1883e6d-bc2c-4d38-934c-484d7331045d)
 
 
 ---
