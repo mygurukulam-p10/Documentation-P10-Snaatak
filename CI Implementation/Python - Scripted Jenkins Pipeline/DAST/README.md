@@ -72,6 +72,11 @@ This README provides a comprehensive guide to setting up Dynamic Application Sec
 ![image](https://github.com/user-attachments/assets/d24cb137-656c-4e99-aa7e-35e19825fe31)
 
 
+Application is up and Running 
+
+![image](https://github.com/user-attachments/assets/1b13701a-dbc5-43d5-af2d-029ce5e2f166)
+
+
 #### Report
 ![image](https://github.com/user-attachments/assets/cc18d77f-b269-4ce4-8ff7-adf93c65ff84)
 ![image](https://github.com/user-attachments/assets/dc02ef6d-ceb8-46e8-941d-e371e6beaa53)
