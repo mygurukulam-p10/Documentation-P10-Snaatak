@@ -40,7 +40,7 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 ### Inbound Rules
 | Security Group Name | Port  | Source                |
 |---------------------|-------|-----------------------|
-| 	OTMS-Dev-SGFronyend-api      | 22    |       Open-VPN-Dev-SG|
+| 	OTMS-Dev-SG-Frontend-api      | 22    |       Open-VPN-Dev-SG|
 | OTMS-Dev-SG-Employee-api        | 8080  | OTMS-Dev-SG-Employee-ALB        |
 
 
@@ -112,8 +112,12 @@ A **security group** acts as a virtual firewall for your EC2 instances to contro
 
 | Description               | Link                                                                 |
 |---------------------------|----------------------------------------------------------------------|
-| Documentation Template     | [Application Template] |
-| Dev Infra Design           | [Cloud Infra Design]
-| Security Group Setup Guide | [AWS Security Groups](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html) |
+| Security Group Setup Guide 1 | [AWS Security Groups Overview](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html)  |
+| Security Group Setup Guide 2 | [Managing Security Groups](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-security-groups.html)    |
+| Security Group Setup Guide 3 | [Security Groups Rules](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroupRules.html)    |
+
+
+
+
 
 
