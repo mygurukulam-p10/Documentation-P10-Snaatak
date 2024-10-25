@@ -4,7 +4,7 @@
 
 | ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
 |-------------|-------------|------------|-----------------|----------------|
-| Vinay Bansal| 11-10-2024  | Version 1  | Vinay Bansal    | 12-10-2024     |
+| Vinay Bansal| 11-10-2024  | Version 3  | Vinay Bansal    | 25-10-2024     |
 
 ---
 ## Table of Contents
