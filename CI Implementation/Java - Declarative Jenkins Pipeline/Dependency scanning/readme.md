@@ -182,7 +182,7 @@ pipeline {
 ![image](https://github.com/user-attachments/assets/7679e89a-5978-4c84-827b-617de10d4e86)
 
 ### 10.🚀 Verification Email.
-![image](https://github.com/user-attachments/assets/c1b7447a-f9ac-4969-b7cd-2bfaefdcb84e)
+![image](https://github.com/user-attachments/assets/2b729c4b-5459-4b70-891c-79a7dba45381)
 
 
 ## 📛 Conclusion
