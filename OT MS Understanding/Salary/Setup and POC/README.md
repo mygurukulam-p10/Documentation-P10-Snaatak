@@ -170,9 +170,9 @@ redis-cli
 
 #### 1️⃣ Install and Check Version
 ```
-curl -L https://github.com/golang-migrate/migrate/releases/download/v4.15.2/migrate.linux-amd64.tar.gz -o migrate.tar.gz
+curl -L https://github.com/golang-migrate/migrate/releases/download/v4.17.1/migrate.linux-amd64.tar.gz -o migrate.tar.gz
 tar -xvzf migrate.tar.gz
-sudo mv migrate.linux-amd64 /usr/local/bin/migrate
+sudo mv migrate /usr/local/bin/migrate
 sudo chmod +x /usr/local/bin/migrate
 migrate -version
 Relogin the instance and check version
