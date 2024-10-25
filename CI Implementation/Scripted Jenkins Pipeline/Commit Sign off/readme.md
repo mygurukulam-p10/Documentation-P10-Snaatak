@@ -49,13 +49,81 @@ it maintains accountability in the development workflow. This pipeline enhances 
 
 
 ### 4. Create the repo for add jenkinsfile which will be using in pipeline script for SCM
-![image](https://github.com/user-attachments/assets/df7d0e73-c1ad-4045-a9e3-a4df3ab2e29f)
+```
+node {
+    // Define Git user information
+    def GIT_USER_NAME = 'Vinay Bansal'
+    def GIT_USER_EMAIL = 'vinay.bansal.snaatak@mygurukulam.co'
+    
+    // Specify the recipient email for notifications
+    def recipientEmail = GIT_USER_EMAIL
+
+    // Capture current build status
+    String buildStatus = currentBuild.currentResult ?: 'SUCCESS' 
+    String authorName = '' // Variable to store the author's name
+
+    try {
+        stage('Checkout') {
+            checkout scm
+        }
+
+        stage('Set Git Identity') {
+            // Set the user name and email for Git
+            sh "git config --global user.email '${GIT_USER_EMAIL}'"
+            sh "git config --global user.name '${GIT_USER_NAME}'"
+        }
+
+        stage('Verify and Sign-off Latest Commit') {
+            // Get the latest commit hash
+            def commit = sh(script: "git rev-parse HEAD", returnStdout: true).trim()
+            // Get the author name of the latest commit
+            authorName = sh(script: "git log -1 --pretty=format:'%an'", returnStdout: true).trim()
+            // Check for Signed-off-by in the latest commit message
+            def signoff = sh(script: "git show --format='%B' ${commit} | grep -q 'Signed-off-by'", returnStatus: true)
+
+            if (signoff != 0) {
+                // Amend the latest commit to add the Signed-off-by line
+                sh """
+                git commit --amend --no-edit --signoff -m "\$(git log -1 --pretty=%B) Signed-off-by: ${GIT_USER_NAME} <${GIT_USER_EMAIL}>"
+                """
+            } else {
+                echo "Latest commit ${commit} by ${authorName} already has a valid Signed-off-by by ${GIT_USER_NAME}."
+            }
+        }
+    } catch (Exception e) {
+        echo "Pipeline failed: ${e.message}"
+        echo "Stacktrace: ${e.getStackTrace().toString()}"
+        currentBuild.result = 'FAILURE'
+    } finally {
+        echo 'Pipeline completed.'
+        if (currentBuild.result == 'SUCCESS') {
+            echo "Pipeline succeeded. Verified by: ${GIT_USER_NAME}"
+        }
+
+        // Send email notification with author name included
+        emailext(
+            to: recipientEmail,
+            subject: "Jenkins Build ${buildStatus}: ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
+            body: """
+                Build Result: ${buildStatus}
+                Job Name: ${env.JOB_NAME}
+                Build Number: ${env.BUILD_NUMBER}
+                Author of the Latest Commit: ${authorName}
+            """,
+            attachLog: true
+        )
+
+        echo "Notification sent to ${recipientEmail} for build status: ${buildStatus}"
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/d7b888e7-4780-4b4c-8f19-004161e378d6)
 
 
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Commit-Signed off in the pipeline script for SCM ...> add repo link & credintial, file path.
 ![image](https://github.com/user-attachments/assets/a0255aaa-9d71-4871-ba34-3969dad5dd5a)
-![image](https://github.com/user-attachments/assets/e351a5e7-7be0-49c1-99c3-1b18b2ee831f)
+![image](https://github.com/user-attachments/assets/0b59f58e-d29f-43c5-8c31-17cd59bbb918)
 
 
 ### 6. 🚀 Then Click on build to run the pipeline to perform
@@ -72,6 +140,8 @@ it maintains accountability in the development workflow. This pipeline enhances 
 ### 9.🚀 Review the stages of the build process in the console output.
 ![image](https://github.com/user-attachments/assets/aee537c3-7b1c-42b2-a9fd-3002bc18b89f)
 
+### 9.🚀 Email Verify
+![image](https://github.com/user-attachments/assets/9ab4aad8-40d6-4da8-ab73-5467778f10ee)
 
 ---
 
