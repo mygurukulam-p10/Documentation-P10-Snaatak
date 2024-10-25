@@ -3,7 +3,7 @@
 
 | Author      | Created on   | Version | Last updated by | Last edited on  |
 |-------------|--------------|---------|-----------------|-----------------|
-| Amit Nagar  | 09-10-2024   | 1.0     | Amit Nagar      | 24-10-2024      |
+| Amit Nagar  | 09-10-2024   | 1.0     | Amit Nagar      | 25-10-2024      |
 
 ---
 
@@ -86,10 +86,11 @@ Outbound rules define the traffic allowed to leave the ScyllaDB instances.
    - Add rules based on your requirements:
      - **Type**: Custom TCP Rule
      - **Protocol**: TCP
-     - **Port Range**: 9042 (for ScyllaDB)
-     - **Source**: Specify the security group  of the employee app , salary app and open-vpn security group.
+     - **Port Range**: 9042 (for ScyllaDB) 22(for ssh)
+     - **Source**: Specify the security group  of the employee app , salary app 
    - Click on **Save rules**.
-![Screenshot from 2024-10-24 12-18-48](https://github.com/user-attachments/assets/d59d426f-ddfc-4f17-9264-235d73b0269b)
+![image](https://github.com/user-attachments/assets/73d80f2c-4456-4709-a904-5c59b1ee21e9)
+
 6. **Set Outbound Rules**
    - Click on the **Outbound rules** tab (defaults allow all traffic).
    - Optionally modify outbound rules as needed.
