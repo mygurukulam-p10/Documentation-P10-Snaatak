@@ -154,6 +154,6 @@ For more information, feedback, or assistance, feel free to contact us:
 ## 📚 References
 | Links | Descriptions|
 |------|---------------------|
-|https://maven.apache.org/plugins/maven-checkstyle-plugin/|Apache Maven Checkstyle Plugin|
+|https://github.com/mygurukulam-p10/Documentation-P10-Snaatak/tree/main/Application%20CI%20Design/Java%20CI%20checks/Static%20Code%20Analysis%20Doc|DOC|
 |https://tinyurl.com/mrxmx9wy|(POC): Static Code Analysis|
 
