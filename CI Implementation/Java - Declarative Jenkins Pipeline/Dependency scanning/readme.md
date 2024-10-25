@@ -67,6 +67,86 @@ This document outlines how to set up a Declarative Jenkins Pipeline for Dependen
 ![3](https://github.com/user-attachments/assets/81e1e782-18f7-45e2-a440-822cd273b048)
 
 ### 4. Create the repo for add jenkinsfile which will be using in pipeline script for SCM
+```
+pipeline {
+    agent any
+    environment {
+        recipientEmail = 'vinay.bansal.snaatak@mygurukulam.co' // Set the recipient email as an environment variable
+    }
+    stages {
+        stage('Clone Repository') {
+            steps {
+                git branch: 'main', url: 'git@github.com:mygurukulam-p10/salary-api.git', credentialsId: 'new-key'
+            }
+        }
+        stage('Build and Run Tests') {
+            steps {
+                dir('/var/lib/jenkins/workspace/Dependency-scanning') {
+                    // List files for debugging
+                    sh 'ls -R'
+                }
+            }
+        }
+        stage('OWASP Dependency Check') {
+            steps {
+                script {
+                    try {
+                        // Log the contents of the target directory
+                        dir('/var/lib/jenkins/workspace/Dependency-scanning/target') {
+                            sh 'ls -R'
+                        }
+
+                        // Run the Dependency Check
+                        sh 'mvn dependency-check:check -Dproject.build.directory=/var/lib/jenkins/workspace/Dependency-scanning/target -Dformat=ALL'
+                    } catch (Exception e) {
+                        echo 'DP check Failed!'
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            // Archive the dependency check report
+            archiveArtifacts artifacts: '**/dependency-check-report.html'
+            sh "ls ${WORKSPACE}"
+            echo 'DP check completed!'
+            sh 'tree ${WORKSPACE}'
+        }
+        success {
+            // Send email notification for success with attachment
+            emailext(
+                to: recipientEmail,
+                subject: "Jenkins Build Success: ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
+                body: """
+                    Build Result: SUCCESS
+                    Job Name: ${env.JOB_NAME}
+                    Build Number: ${env.BUILD_NUMBER}
+                """,
+                attachLog: true,
+                attachmentsPattern: '**/dependency-check-report.html'
+            )
+            echo "Notification sent to ${recipientEmail} for build status: SUCCESS"
+        }
+        failure {
+            // Send email notification for failure with attachment
+            emailext(
+                to: recipientEmail,
+                subject: "Jenkins Build Failure: ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
+                body: """
+                    Build Result: FAILURE
+                    Job Name: ${env.JOB_NAME}
+                    Build Number: ${env.BUILD_NUMBER}
+                """,
+                attachLog: true,
+                attachmentsPattern: '**/dependency-check-report.html'
+            )
+            echo "Notification sent to ${recipientEmail} for build status: FAILURE"
+        }
+    }
+}
+```
 ![image](https://github.com/user-attachments/assets/85407827-2ab0-40cc-a1df-ead7595d0778)
 
 
