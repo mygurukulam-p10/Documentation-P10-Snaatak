@@ -179,10 +179,10 @@ pipeline {
 ![image](https://github.com/user-attachments/assets/44ff86fa-a711-403f-b7e5-d00bdbf8604f)
 
 ### 10.🚀 Verification Report.
-![image](https://github.com/user-attachments/assets/7679e89a-5978-4c84-827b-617de10d4e86)
+![image](https://github.com/user-attachments/assets/c26db2a4-2743-4fae-818a-275a2beb93b3)
 
 ### 10.🚀 Verification Email.
-![image](https://github.com/user-attachments/assets/2b729c4b-5459-4b70-891c-79a7dba45381)
+![image](https://github.com/user-attachments/assets/b224bb54-3d35-4ecb-89d2-8a47f127a34e)
 
 
 ## 📛 Conclusion
