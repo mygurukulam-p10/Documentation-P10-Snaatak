@@ -175,6 +175,7 @@ tar -xvzf migrate.tar.gz
 sudo mv migrate.linux-amd64 /usr/local/bin/migrate
 sudo chmod +x /usr/local/bin/migrate
 migrate -version
+Relogin the instance and check version
 ```
 ![Screenshot from 2024-09-07 15-58-08](https://github.com/user-attachments/assets/84905d23-6619-4065-a85f-075ceac2debf)
 
