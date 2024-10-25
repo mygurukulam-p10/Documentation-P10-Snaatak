@@ -147,7 +147,7 @@ pipeline {
     }
 }
 ```
-![image](https://github.com/user-attachments/assets/85407827-2ab0-40cc-a1df-ead7595d0778)
+![image](https://github.com/user-attachments/assets/d5682ace-a06a-43d6-81af-9535477a4293)
 
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for DAST in the pipeline script for SCM ...> add repo link & credintial, file path.
