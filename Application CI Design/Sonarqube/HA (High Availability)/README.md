@@ -61,6 +61,9 @@ High Availability (HA) in SonarQube ensures continuous service operation through
 
 ### High Availability Architecture Diagram
 
+![image](https://github.com/user-attachments/assets/bc655d40-81ea-403a-8d50-6093774bd3d7)
+
+
 graph TD
     LB[Load Balancer] --> SQ1[SonarQube Node 1]
     LB --> SQ2[SonarQube Node 2]
