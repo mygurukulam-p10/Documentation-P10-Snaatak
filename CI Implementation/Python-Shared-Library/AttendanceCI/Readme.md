@@ -1,4 +1,4 @@
-# AttendanceCI Golang Application CI/CD Pipeline
+# AttendanceCI Python Application CI/CD Pipeline
 
 ---
 
@@ -26,7 +26,7 @@ This document provides an overview of integrating Continuous Integration (CI) fo
 | Requirement          | Description                                                                 |
 |----------------------|-----------------------------------------------------------------------------|
 | **✔️ Jenkins**          | Jenkins installed and configured for CI/CD processes.                       |
-| **✔️ Golang**           | Golang must be installed on the Jenkins server for building the application. |
+| **✔️ Python**           | Python must be installed on the Jenkins server for building the application. |
 | **✔️ Git**              | Git must be installed on the Jenkins server for repository checkout.        |
 | **✔️ Git Credentials**  | Add your GitHub credentials (e.g., `git-token`) in Jenkins for repository access. |
 
@@ -48,7 +48,7 @@ This document provides an overview of integrating Continuous Integration (CI) fo
 ### 1. 🚀 Open your Jenkins Dashboard.
 
 ### 2. 🚀 Click on **New Item**.  
-**--> Enter a name for your job (e.g., `AttendanceCI Golang Pipeline`).**  
+**--> Enter a name for your job (e.g., `AttendanceCI Python Pipeline`).**  
 
 
 ### 3. 🚀 Provide a description for the pipeline detailing what it will perform.  
