@@ -51,6 +51,67 @@ This document outlines how to set up a Declarative Jenkins Pipeline for DAST usi
 ![3](https://github.com/user-attachments/assets/de0685e5-2982-4653-8e94-c76dc8ca765a)
 
 ### 4. Create the repo for add jenkinsfile which will be using in pipeline script for SCM
+```
+pipeline {
+    agent any
+    // Define the zapVersion variable at the top level
+    environment {
+        ZAP_VERSION = '2.15.0'
+    }
+
+    stages {
+        stage('Clone Repository') {
+            steps {
+                git branch: 'main', url: 'git@github.com:mygurukulam-p10/salary-api.git', credentialsId: 'new-key'
+            }
+        }
+        stage('Build and Run Tests') {
+            steps {
+                script {
+                    // Navigate to the root directory where the pom.xml file is located
+                    dir("/var/lib/jenkins/workspace/DAST") {
+                        // List files for debugging
+                        sh 'ls -R'
+                    } 
+                }
+            }
+        }
+        stage('Download and Run ZAP') {
+            steps {
+                script {
+                    // Define ZAP directory
+                    def zapDir = "/var/lib/jenkins/workspace/DAST/ZAP_${ZAP_VERSION}"
+                    def reportFile = "${zapDir}/dast-report.html"
+
+                    // Check if ZAP directory exists, if not, download and extract ZAP
+                    if (!fileExists(zapDir)) {
+                        sh "wget -q https://github.com/zaproxy/zaproxy/releases/download/v${ZAP_VERSION}/ZAP_${ZAP_VERSION}_Linux.tar.gz"
+                        sh "tar -xf ZAP_${ZAP_VERSION}_Linux.tar.gz"
+                    }
+
+                    // Navigate to the ZAP directory and run ZAP
+                    dir(zapDir) {
+                        // Check if zap.sh exists before executing
+                        if (fileExists('zap.sh')) {
+                            // Run ZAP and redirect output to a writable location
+                            sh "./zap.sh -cmd -port 8090 -quickurl http://localhost:8080/salary-documentation -quickprogress -quickout ${reportFile}"
+
+                            // Ensure the report was generated
+                            if (fileExists(reportFile)) {
+                                archiveArtifacts artifacts: 'dast-report.html'
+                            } else {
+                                error 'dast-report.html not found!'
+                            }
+                        } else {
+                            error 'zap.sh not found!'
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+```
 ![image](https://github.com/user-attachments/assets/91a3c958-0885-4cbd-be06-039be81a2ebd)
 
 
