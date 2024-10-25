@@ -135,8 +135,10 @@ def call() {
 ![image](https://github.com/user-attachments/assets/2389b841-b24f-4880-8fa6-39c302aa7aff)
 
 ### 10.🚀 Verify Report.
+![image](https://github.com/user-attachments/assets/47b1aade-6af7-47c9-84b3-6ee74055f9d4)
 
 ### 9.🚀 Verify Email.
+![image](https://github.com/user-attachments/assets/08a49ef2-e73f-49ad-859e-b26c5d4b345c)
 
 
 ## 📛 Conclusion
