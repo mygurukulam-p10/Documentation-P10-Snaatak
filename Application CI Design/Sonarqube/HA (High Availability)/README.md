@@ -105,7 +105,7 @@ ALTER SYSTEM SET max_replication_slots = 10;
 
 ### Step 2: Application Node Configuration
 
-# sonar.properties
+#### sonar.properties
 sonar.cluster.enabled=true
 sonar.cluster.node.type=application
 sonar.cluster.node.host=<node_ip>
@@ -115,9 +115,9 @@ sonar.cluster.search.hosts=<es_node1>,<es_node2>
 
 ### Step 3: Load Balancer Configuration
 
-# NGINX configuration
+#### NGINX configuration
 
-upstream sonarqube {
+ upstream sonarqube {
     server sonar1.example.com:9000;
     server sonar2.example.com:9000;
     server sonar3.example.com:9000;
@@ -161,12 +161,12 @@ scrape_configs:
     "id": null,
     "title": "SonarQube Metrics",
     "panels": [
-      {
-        "title": "Response Time",
-        "type": "graph",
-        "datasource": "Prometheus"
-      }
-    ]
+ {
+ "title": "Response Time",
+ "type": "graph",
+ "datasource": "Prometheus"
+}
+]
   }
 }
 
