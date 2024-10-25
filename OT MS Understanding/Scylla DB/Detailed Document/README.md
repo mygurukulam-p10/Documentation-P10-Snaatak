@@ -22,7 +22,8 @@ The purpose of this document is to provide a comprehensive overview of ScyllaDB,
 
 ScyllaDB follows a distributed architecture where data is automatically replicated across multiple nodes for fault tolerance and high availability.
 
-![image](https://github.com/user-attachments/assets/08430655-658f-4ed0-9e57-c5253d346c38)
+![image](https://github.com/user-attachments/assets/e150991e-c698-4d84-80e4-c5e300e585b1)
+
 
 
 # Features
