@@ -30,7 +30,6 @@ it maintains accountability in the development workflow. This pipeline enhances 
 | Jenkins             | Set up Jenkins for CI/CD integration.                     |
 | GitHub Repository    | Access to a GitHub repository for version control.        |
 | User Credentials    | Git user name and email should be configured globally.    |
-|AWS Credentials |Access key ID and Secret access key|
 
 
 ---
