@@ -3,9 +3,9 @@
 ![image](https://github.com/user-attachments/assets/2093140b-3a93-4fc7-a620-e3ef6855b672)
 
 
-| ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |
-|-------------|-------------|------------|-----------------|----------------|
-| Vinay Bansal | 14-10-2024  | Version 1  | Vinay Bansal    | 14-10-2024     |
+| ✍️Author      | 📅Created on  |📌 Version    | 📝Last updated by |📅 Last edited on |Reviewed By L0 | Reviewed By L1 | Reviewed By L2 |
+|-------------|-------------|------------|-----------------|----------------|------------|-----------------|----------------|
+| Vinay Bansal| 14-10-2024  | Version 4  | Vinay Bansal    | 25-10-2024     |Shreya Jaiswal|||
 
 ---
 ## Table of Contents
@@ -52,7 +52,64 @@ This document outlines how to set up a Shared Library for Bugs analysis in Java.
 
 
 ### 4. 🚀 Create the repo for add vars file which will be using in pipeline script.
-![image](https://github.com/user-attachments/assets/de2739af-491a-4d4a-bf1e-8755852635f1)
+```
+def call() {
+    // Set environment variables at the top level
+    environment {
+        JAVA_HOME = '/usr/lib/jvm/java-11-openjdk-amd64'
+        PATH = "${JAVA_HOME}/bin:${PATH}"
+    }
+
+    def GIT_USER_EMAIL = 'vinay.bansal.snaatak@mygurukulam.co'
+    def recipientEmail = GIT_USER_EMAIL
+    def buildStatus = currentBuild.result ?: 'SUCCESS' // Default to SUCCESS if not set
+    def checkstyleReportFile = 'checkstyle-report.html' // File to store Checkstyle output
+
+    stage('Set Environment Variables') {
+        // Validate JAVA_HOME is set correctly
+        sh 'echo $JAVA_HOME'
+        sh 'java -version'
+    }
+
+    stage('Clone Repository') {
+        // Clone the Git repository using SSH key
+        git branch: 'main', 
+            url: 'git@github.com:mygurukulam-p10/salary-api.git', 
+            credentialsId: 'new-key'
+    }     
+
+    stage('Analyze Code') {
+        // Navigate to the directory where pom.xml is located
+        dir('/var/lib/jenkins/workspace/Java_staticCode') {
+            // List files for debugging purposes
+            sh 'ls -R'
+
+            // Run Maven checkstyle to analyze code and capture output
+            sh 'mvn checkstyle:checkstyle -Dproject.build.directory=/var/lib/jenkins/workspace/Java_staticCode/target -Dformat=ALL'
+            archiveArtifacts artifacts: "**/${checkstyleReportFile}", allowEmptyArchive: true
+        }
+    }
+
+    stage('Notify') {
+        // Send email notification
+        emailext(
+            to: recipientEmail,
+            subject: "Jenkins Build ${buildStatus}: ${env.JOB_NAME} [${env.BUILD_NUMBER}]",
+            body: """
+                Build Result: ${buildStatus}
+                Job Name: ${env.JOB_NAME}
+                Build Number: ${env.BUILD_NUMBER}
+                Checkstyle Report: ${checkstyleReportFile}
+            """,
+            attachLog: true,
+            attachmentsPattern: "**/${checkstyleReportFile}"
+        )
+        
+        echo "Notification sent to ${recipientEmail} for build status: ${buildStatus}"
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/51dec8aa-f7d0-444a-8189-f5c390e71388)
 
 
 ### 5. 🚀 Choose Pipeline as the job type-->Add your pipeline script for Static Code Analysis in the pipeline script ...> add repo link & credintial, file path.
@@ -65,17 +122,21 @@ This document outlines how to set up a Shared Library for Bugs analysis in Java.
 
 
 ### 7.🚀 Now we are able to see build complete-
-![image](https://github.com/user-attachments/assets/1af90799-37be-44ed-a2c0-62452357922b)
+![image](https://github.com/user-attachments/assets/ade343d1-6ace-4c3c-b961-e1f411bffc13)
 
 
 ### 8.🚀 Click on Console Output to see the complete build.
-![image](https://github.com/user-attachments/assets/520ffc07-2e69-4d07-be17-ef365ecad184)
-![image](https://github.com/user-attachments/assets/ade662d5-fd89-4cb2-9ba9-b845bfb66c4b)
+![image](https://github.com/user-attachments/assets/98bd7d8c-99f9-41e6-8344-87fe8a4b45da)
+
+![image](https://github.com/user-attachments/assets/05ffdfee-da3a-49b3-94b8-c32a899f6cac)
 
 
 ### 9.🚀 Review the stages of the build process in the console output.
-![image](https://github.com/user-attachments/assets/6c754eba-4299-4c8f-8b92-4b3e904e900b)
+![image](https://github.com/user-attachments/assets/2389b841-b24f-4880-8fa6-39c302aa7aff)
 
+### 10.🚀 Verify Report.
+
+### 9.🚀 Verify Email.
 
 
 ## 📛 Conclusion
