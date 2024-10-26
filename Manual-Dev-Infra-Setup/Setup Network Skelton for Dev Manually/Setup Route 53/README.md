@@ -2,7 +2,7 @@
 
 | Author      | Created on | Version   | Last updated by | Last edited on | Reviewed By L0 | Reviewed By L1 | Reviewed By L2 |
 |-------------|------------|-----------|-----------------|----------------|----------------|----------------|----------------| 
-| Komal       | 03-10-24   | Version 1 | Komal Jaiswal   | 12-10-24       |                |                |                |
+| Komal       | 26-10-24   | Version 1 | Komal Jaiswal   | 26-10-24       |                |                |                |
 
 ---
 
@@ -71,16 +71,13 @@ This document provides a guide for setting up and configuring **AWS Route 53** t
 3. Attach these records to Route 53 DNS to route traffic to appropriate EC2 instances or Load Balancers.
 
 #### Route 53 Setup
-![image](https://github.com/user-attachments/assets/d0f52d6c-5bd7-4474-b9c5-1fbc1e9066af)
-![image](https://github.com/user-attachments/assets/043ce987-40e7-4573-a46e-fbe65fbdd060)
+![image](https://github.com/user-attachments/assets/25fb1c1d-a3ef-409e-99dd-ac47731c8d5b)
+![image](https://github.com/user-attachments/assets/bf7ef1d1-5c7d-4928-83a1-d75d5f8f5b81)
 
-#### Health Check
-![image](https://github.com/user-attachments/assets/8fd53e57-e4de-4d2d-a480-8a5aa26003ae)
-![image](https://github.com/user-attachments/assets/763a0001-0f95-460b-8b54-dd821c9b6952)
+![image](https://github.com/user-attachments/assets/48ae8b3d-37d6-4af4-8e24-fed2fe3a5a2d)
+![image](https://github.com/user-attachments/assets/5e972d57-b964-480f-baa2-47942d9e5fed)
+![image](https://github.com/user-attachments/assets/02872825-11a1-4db0-9e56-f2e73236f3e6)
 
-#### Traffic Policies
-![image](https://github.com/user-attachments/assets/6fa23dc4-1ab7-4440-a78b-0cc988b15845)
-![image](https://github.com/user-attachments/assets/1b4eaccb-8347-445b-9761-3c38aff0857d)
 
 ---
 
