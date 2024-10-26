@@ -82,8 +82,8 @@ This document provides guidance on setting up **AWS Load Balancers** to distribu
 ![image](https://github.com/user-attachments/assets/d4fc8155-6baf-4994-8234-627cf52b62f5)
 ![image](https://github.com/user-attachments/assets/d00bbc7d-57f8-4fd3-ba10-9d2e9559555c)
 ![image](https://github.com/user-attachments/assets/c57214ac-829e-48b7-bceb-538d179c387b)
-![image](https://github.com/user-attachments/assets/09bc526d-6794-40b8-917f-eb8268dab91e)
-![image](https://github.com/user-attachments/assets/578f398c-946e-44c1-ad79-7f48ea0e6c32)
+![image](https://github.com/user-attachments/assets/9e79813b-319b-4b59-9a44-088b16ac0930)
+
 
 
 ---
