@@ -76,23 +76,6 @@ This document provides guidance on setting up **AWS Load Balancers** to distribu
 
 
 
-### Internal Load Balancer
-1. From the **Load Balancers** section, create another **Application Load Balancer**.
-![image](https://github.com/user-attachments/assets/78aeade0-8f25-4892-ad0c-20b8159e73b0)
-
-2. Choose **Scheme** as **Internal** for routing traffic between applications within the VPC.
-![image](https://github.com/user-attachments/assets/f201504b-89f0-4413-bb66-72b5a1e503c4)
-
-3. Attach to the VPC and select private subnets for internal communication.
-![image](https://github.com/user-attachments/assets/74dd09b9-a2ec-4c7c-b184-c8d6373278df)
-
-4. Configure **Listeners**:
-   - For example, configure HTTP (port 80) and HTTPS (port 443) listeners as needed for internal routing.
-![image](https://github.com/user-attachments/assets/47fcc4a3-c143-4eb9-811e-8d20235b2fa1)
-
-![image](https://github.com/user-attachments/assets/8eff28b1-bbdf-4a89-9000-cf2925606c09)
-
-
 ### Attachment to Resources
 1. **Register Targets**: Under **Target Groups**, create and register EC2 instances for each application (Attendance, Employee, Salary APIs) and Frontend.
 ![image](https://github.com/user-attachments/assets/82340b01-c187-46cb-a3d7-135318273ce0)
