@@ -70,21 +70,16 @@ This document provides guidance on setting up **AWS Load Balancers** to distribu
 
 5. Configure **Listeners**:
    - Set up HTTP (port 80) and HTTPS (port 443) listeners to direct traffic to the **Frontend**, **Attendance**, **Employee**, and **Salary APIs**.
-![image](https://github.com/user-attachments/assets/6b3507d6-cda5-4e49-a720-d0bdcb2fb836)
-![image](https://github.com/user-attachments/assets/4f4974da-950d-41aa-a552-474a622dfc39)
-![image](https://github.com/user-attachments/assets/120834ea-ee13-481e-98a3-65092d995995)
-
+![image](https://github.com/user-attachments/assets/9e79813b-319b-4b59-9a44-088b16ac0930)
 
 
 ### Attachment to Resources
 1. **Register Targets**: Under **Target Groups**, create and register EC2 instances for each application (Attendance, Employee, Salary APIs) and Frontend.
 ![image](https://github.com/user-attachments/assets/82340b01-c187-46cb-a3d7-135318273ce0)
 ![image](https://github.com/user-attachments/assets/d4fc8155-6baf-4994-8234-627cf52b62f5)
-![image](https://github.com/user-attachments/assets/d00bbc7d-57f8-4fd3-ba10-9d2e9559555c)
+![image](https://github.com/user-attachments/assets/d5539cd2-ec1b-44c0-9703-94d69bd3dc3a)
+![image](https://github.com/user-attachments/assets/d754f1c1-3e4c-4468-b6c0-2e24310c2e1b)
 ![image](https://github.com/user-attachments/assets/c57214ac-829e-48b7-bceb-538d179c387b)
-![image](https://github.com/user-attachments/assets/9e79813b-319b-4b59-9a44-088b16ac0930)
-
-
 
 ---
 
