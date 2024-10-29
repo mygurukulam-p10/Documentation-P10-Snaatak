@@ -1,5 +1,6 @@
 # Terraform Module CI/CD Documentation 🚀📦
 
+https://miro.medium.com/v2/resize:fit:1400/1*WZNLIPpfbnk_y1C6H51Gkw.gif
 ---
 
 | Author      | Created on | Version   | Last updated by | Last edited on | Reviewed By L0 | Reviewed By L1 | Reviewed By L2 |
@@ -8,60 +9,81 @@
 
 ---
 
-
 ## Table of Contents 📑
 1. [Overview](#overview)
-2. [Architecture Diagram](#architecture-diagram)
-3. [Module Components](#module-components)
-4. [Input Parameters](#input-parameters)
-5. [Configuration & Setup](#configuration--setup)
-6. [Pipeline Stages](#pipeline-stages)
-7. [Advantages & Disadvantages ✅❌](#advantages--disadvantages)
-8. [Usage Example](#usage-example)
-9. [References 📚](#references)
-10. [Contact Information 📞](#contact-information)
-
+2. [What is CI/CD?](#what-is-ci-cd)
+3. [What are Terraform Modules?](#what-are-terraform-modules)
+4. [Architecture Diagram](#architecture-diagram)
+5. [Module Components](#module-components)
+6. [Input Parameters](#input-parameters)
+7. [Configuration & Setup](#configuration--setup)
+8. [Pipeline Stages](#pipeline-stages)
+9. [Advantages & Disadvantages ✅❌](#advantages--disadvantages)
+10. [Usage Example](#usage-example)
+11. [References 📚](#references)
+12. [Contact Information 📞](#contact-information)
 
 ---
 
 ### 1. Overview <a name="overview"></a>
 
-This Terraform CI/CD module streamlines the provisioning, testing, and deployment of infrastructure as code (IaC) using Terraform. By leveraging a CI/CD pipeline, this module automates tasks like plan generation, security scanning, and deployment, ensuring efficient infrastructure management across environments. 
+This Terraform CI/CD module streamlines the provisioning, testing, and deployment of infrastructure as code (IaC) using Terraform. By leveraging a CI/CD pipeline, this module automates tasks like plan generation, security scanning, and deployment, ensuring efficient infrastructure management across environments.
 
 ---
 
-### 2. Architecture Diagram 🏗️ <a name="architecture-diagram"></a>
+### 2. What is CI/CD? 🔄 <a name="what-is-ci-cd"></a>
+
+**CI/CD** stands for **Continuous Integration (CI)** and **Continuous Deployment (CD)**:
+- **Continuous Integration (CI)**: CI is the process of automating code integration from multiple contributors into a shared repository. Each integration triggers automated tests to identify any errors early in the development cycle.
+- **Continuous Deployment (CD)**: CD goes beyond Continuous Delivery, where code is automatically tested and then deployed directly to production environments without manual intervention. In Terraform, CD involves automatically provisioning or updating infrastructure once changes pass the CI pipeline.
+
+**CD Artifacts** are the final products of the CI/CD pipeline, typically Terraform `.tfplan` files and logs, which contain the details of the infrastructure changes. These artifacts help to ensure that every deployment is consistent, traceable, and manageable.
+
+---
+
+### 3. What are Terraform Modules? 📦 <a name="what-are-terraform-modules"></a>
+
+**Terraform Modules** are reusable components for defining infrastructure in a standardized way. A module is essentially a collection of Terraform files organized to encapsulate a specific set of resources, like an AWS VPC or an S3 bucket.
+
+Modules help:
+- **Promote reusability** by allowing the same configuration to be used across different environments.
+- **Simplify code management** by organizing and encapsulating complex infrastructure logic.
+- **Improve consistency** across deployments by using a single source of truth for infrastructure definitions.
+
+--- 
+
+### 4. Architecture Diagram 🏗️ <a name="architecture-diagram"></a>
 
 > **Diagram**: [A diagram can be inserted here illustrating the CI/CD pipeline stages, such as `Code Commit -> Plan -> Scan -> Apply -> Monitor` and showing integrations with tools like GitHub, Jenkins, or GitLab, Terraform Cloud, and AWS/GCP/Azure.]
 
 ---
 
-### 3. Module Components 🧩 <a name="module-components"></a>
+### 5. Module Components 🧩 <a name="module-components"></a>
 
-This CI/CD module is composed of the following core components:
+This CI/CD module includes several core components:
 
-- **Version Control Integration**: Supports GitHub/GitLab repositories for version control.
-- **Terraform Plan**: Generates and reviews infrastructure changes.
-- **Security Scanning**: Uses tools like `tfsec` or `Checkov` for security compliance.
-- **Terraform Apply**: Deploys infrastructure to specified environments.
-- **Notifications**: Optional integration with Slack or email notifications for pipeline status.
+- **Version Control Integration**: Supports GitHub/GitLab repositories for version control and collaboration.
+- **Terraform Plan**: Generates and reviews infrastructure changes before deployment.
+- **Security Scanning**: Uses tools like `tfsec` or `Checkov` to ensure security compliance and prevent configuration vulnerabilities.
+- **Terraform Apply**: Deploys approved infrastructure changes to the specified environment, such as AWS or Azure.
+- **Notifications**: Optional integration with Slack or email for pipeline status alerts.
 
 ---
 
-### 4. Input Parameters <a name="input-parameters"></a>
+### 6. Input Parameters <a name="input-parameters"></a>
 
 | Parameter                | Type     | Description                                         | Example                    |
 |--------------------------|----------|-----------------------------------------------------|----------------------------|
 | `repo_url`               | string   | URL of the Git repository containing Terraform code | `https://github.com/user/repo` |
 | `aws_region`             | string   | AWS region for infrastructure deployment            | `us-east-1`                |
 | `env`                    | string   | Deployment environment (e.g., dev, prod)            | `dev`                      |
-| `Email_url`              | string   | Email URL for Email notifications                   | `https://gmail.com/...` |
+| `Email_url`              | string   | Email URL for email notifications                   | `https://gmail.com/...`    |
 | `tf_version`             | string   | Terraform version to use                            | `1.4.0`                    |
 | `plan_file`              | string   | Path to save the generated plan file                | `terraform.tfplan`         |
 
 ---
 
-### 5. Configuration & Setup ⚙️ <a name="configuration--setup"></a>
+### 7. Configuration & Setup ⚙️ <a name="configuration--setup"></a>
 
 To configure the CI/CD pipeline with this module, follow these steps:
 
@@ -80,7 +102,7 @@ To configure the CI/CD pipeline with this module, follow these steps:
 
 ---
 
-### 6. Pipeline Stages ⏩ <a name="pipeline-stages"></a>
+### 8. Pipeline Stages ⏩ <a name="pipeline-stages"></a>
 
 This module includes the following CI/CD pipeline stages:
 
@@ -92,7 +114,7 @@ This module includes the following CI/CD pipeline stages:
 
 ---
 
-### 7. Advantages & Disadvantages ✅❌ <a name="advantages--disadvantages"></a>
+### 9. Advantages & Disadvantages ✅❌ <a name="advantages--disadvantages"></a>
 
 | Advantages 😊                                      | Disadvantages 😕                                      |
 |---------------------------------------------------|-------------------------------------------------------|
@@ -103,7 +125,7 @@ This module includes the following CI/CD pipeline stages:
 
 ---
 
-### 8. Usage Example <a name="usage-example"></a>
+### 10. Usage Example <a name="usage-example"></a>
 
 Here's a sample `Jenkinsfile` for using the Terraform CI/CD module:
 
@@ -152,19 +174,22 @@ pipeline {
 
 ---
 
-### 9. References 📚 <a name="references"></a>
+### 11. References 📚 <a name="references"></a>
 
-- [Terraform Documentation](https://www.terraform.io/docs/index.html)
-- [Jenkins Documentation](https://www.jenkins.io/doc/)
-- [GitLab CI/CD Documentation](https://docs.gitlab.com/ee/ci/)
-- [AWS IAM Documentation](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)
+| Resource                   | Description                                               | Link                                                         |
+|----------------------------|-----------------------------------------------------------|--------------------------------------------------------------|
+| Terraform Documentation    | Official Terraform documentation for all configurations.  | [Terraform Docs](https://www.terraform.io/docs/index.html)   |
+| Jenkins Documentation      | Information on Jenkins setup and pipeline management.     | [Jenkins Docs](https://www.jenkins.io/doc/)                  |
+| GitLab CI/CD Documentation | Guide for setting up GitLab CI/CD pipelines.              | [GitLab CI/CD](https://docs.gitlab.com/ee/ci/)               |
+| AWS IAM Documentation      | Best practices for managing AWS IAM roles and policies.   | [AWS IAM Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html) |
 
 ---
 
-### 10. Contact Information 📞 <a name="contact-information"></a>
+### 12. Contact Information 📞 <a name="contact-information"></a>
 
 For questions, feedback, or further assistance, reach out to:
 
 | Name          | Email address                        |
 |---------------|-------------------------------------|
 | Komal Jaiswal | komal.jaiswal.snaatak@mygurukulam.co |
+
