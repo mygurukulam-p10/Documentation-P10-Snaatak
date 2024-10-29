@@ -2,9 +2,10 @@
 # Static Code Analysis - Scripted Jenkins Pipeline <img width="51" alt="image" src="https://github.com/user-attachments/assets/ce666869-4766-4f9d-9bfa-3627a76843f0">
 
 ---
+
 | ✍ Author      | 📅 Created on  | 📌 Version    | 📝 Last updated by | 📅 Last edited on  | Reviewer L0 | Reviewer L1 | Reviewer L2 |
 |---------------|----------------|---------------|--------------------|--------------------|-------------|-------------|-------------|
-| Amit Nagar    | 16-10-2024     | Version 1     | Amit Nagar         | 28-10-2024         |     Tapan        |     Aksay jain        |             |
+| Amit Nagar    | 16-10-2024     | Version 1     | Amit Nagar         | 28-10-2024         |     Tapan       |     Akshay Jain        |         
 
 
 ---
