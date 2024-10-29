@@ -1,9 +1,11 @@
 # **Setup Listener Rules for Load Balancer (Employee API)**
 
 
-| Author      | Created on   | Version | Last updated by | Last edited on  |
-|-------------|--------------|---------|-----------------|-----------------|
-| Amit Nagar  | 09-10-2024   | 1.0     | Amit Nagar      | 24-10-2024      |
+
+| ✍ Author      | 📅 Created on  | 📌 Version    | 📝 Last updated by | 📅 Last edited on  | Reviewer L0 | Reviewer L1 | Reviewer L2 |
+|---------------|----------------|---------------|--------------------|--------------------|-------------|-------------|-------------|
+| Amit Nagar    | 16-10-2024     | Version 1     | Amit Nagar         | 28-10-2024         |     khushi        |     Akshay jain        |             
+
 
 
 
