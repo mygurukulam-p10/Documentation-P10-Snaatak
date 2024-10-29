@@ -4,7 +4,7 @@
 
 | Author      | Created on | Version   | Last updated by | Last edited on | Reviewed By L0 | Reviewed By L1 | Reviewed By L2 |
 |-------------|------------|-----------|-----------------|----------------|----------------|----------------|----------------| 
-| Komal       | 10-10-24   | Version 1 | Komal Jaiswal   | 11-10-24       | Ayush Yadav    | Deepak Nishad  | Anjali Kaushal |
+| Komal       | 29-10-24   | Version 1 | Komal Jaiswal   | 29-10-24       |                |                |                |
 
 ---
 
@@ -55,7 +55,7 @@ This CI/CD module is composed of the following core components:
 | `repo_url`               | string   | URL of the Git repository containing Terraform code | `https://github.com/user/repo` |
 | `aws_region`             | string   | AWS region for infrastructure deployment            | `us-east-1`                |
 | `env`                    | string   | Deployment environment (e.g., dev, prod)            | `dev`                      |
-| `slack_webhook_url`      | string   | Webhook URL for Slack notifications                 | `https://hooks.slack.com/...` |
+| `Email_url`              | string   | Email URL for Email notifications                   | `https://gmail.com/...` |
 | `tf_version`             | string   | Terraform version to use                            | `1.4.0`                    |
 | `plan_file`              | string   | Path to save the generated plan file                | `terraform.tfplan`         |
 
@@ -76,7 +76,7 @@ To configure the CI/CD pipeline with this module, follow these steps:
    - Add environment secrets for `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, and any other sensitive credentials in your CI/CD tool.
 
 4. **Notifications Setup**:
-   - Add `slack_webhook_url` or equivalent for pipeline notifications.
+   - Add `Email_url` or equivalent for pipeline notifications.
 
 ---
 
@@ -143,7 +143,7 @@ pipeline {
         }
         stage('Notify') {
             steps {
-                slackSend(color: 'good', message: "Terraform apply successful.")
+                EmailSend(color: 'good', message: "Terraform apply successful.")
             }
         }
     }
