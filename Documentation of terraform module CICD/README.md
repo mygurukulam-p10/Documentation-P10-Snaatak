@@ -1,6 +1,7 @@
 # Terraform Module CI/CD Documentation 🚀📦
 
-https://miro.medium.com/v2/resize:fit:1400/1*WZNLIPpfbnk_y1C6H51Gkw.gif
+![terraform](https://github.com/user-attachments/assets/4284283c-f62e-4711-9028-b56a8db3d152)
+
 ---
 
 | Author      | Created on | Version   | Last updated by | Last edited on | Reviewed By L0 | Reviewed By L1 | Reviewed By L2 |
