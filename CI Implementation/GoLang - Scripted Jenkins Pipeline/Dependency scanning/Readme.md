@@ -2,10 +2,10 @@
 
 ---
 
-| ✍ Author      | 📅 Created on  | 📌 Version    | 📝 Last updated by | 📅 Last edited on |
-|----------------|----------------|---------------|--------------------|-------------------|
-| Amit Nagar     | 05-10-2024     | Version 1     | Amit Nagar         | 21-10-2024        |
 
+| ✍ Author      | 📅 Created on  | 📌 Version    | 📝 Last updated by | 📅 Last edited on  | Reviewer L0 | Reviewer L1 | Reviewer L2 |
+|---------------|----------------|---------------|--------------------|--------------------|-------------|-------------|-------------|
+| Amit Nagar    | 16-10-2024     | Version 1     | Amit Nagar         | 28-10-2024         |     Tapan       |     Akshay Jain        |         
 ---
 ## Table of Contents
 1. [💥 Introduction](#-introduction)
