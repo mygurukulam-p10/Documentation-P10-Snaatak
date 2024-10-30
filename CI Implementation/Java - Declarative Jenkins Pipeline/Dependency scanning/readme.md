@@ -22,10 +22,13 @@ This document outlines how to set up a Declarative Jenkins Pipeline for Dependen
 
 
 ## ⚙ Pre-requisites
-1. **Jenkins**: Ensure you have a Jenkins instance running.
-2. **Java**: Required to run the built Java application.
-3. **Maven**: Simplifies build management
-4. **OWASP Dependency-Check**:	A software composition analysis tool that identifies project dependencies and checks for known vulnerabilities.
+| Tool                       | Description                                               |
+|----------------------------|-----------------------------------------------------------|
+| **Jenkins**                | Ensure you have a Jenkins instance running.               |
+| **Java**                   | Required to run the built Java application.               |
+| **Maven**                  | Simplifies build management.                              |
+| **OWASP Dependency-Check** | A software composition analysis tool that identifies project dependencies and checks for known vulnerabilities. |
+
 
 ## 🔍 System Requirements
 | Hardware Specifications | Minimum Requirement  |
