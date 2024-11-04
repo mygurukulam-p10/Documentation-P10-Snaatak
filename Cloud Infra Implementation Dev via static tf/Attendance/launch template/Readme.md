@@ -47,3 +47,43 @@ The Launch Template setup is a critical part of the infrastructure configuration
 | **Enhanced Security** | Improved security through controlled access configurations and settings.    |
 
 ---
+
+### 🛠 Steps for Launch Template Setup
+
+#### Step 1: Format the Terraform Code
+Use `terraform fmt` to format the code for consistency.
+
+#### Step 2: Validate the Configuration
+Run `terraform validate` to check for syntax errors in your Terraform configuration.
+
+#### Step 3: Preview Infrastructure Changes
+Execute `terraform plan` to review the proposed changes and ensure everything is set up correctly.
+
+#### Step 4: Apply the Configuration
+Run `terraform apply` to create the Launch Template in AWS, enabling efficient provisioning of EC2 instances.
+
+---
+
+### 🔚 Conclusion
+This guide outlines the steps necessary for setting up a Launch Template for the Attendance App in a development environment using Terraform. By utilizing a Launch Template, you can ensure that EC2 instances are launched with consistent configurations, facilitating easier management and scaling.
+
+---
+
+### 🔗 References
+
+| **Reference**                         | **Link**                                                                                                 |
+|---------------------------------------|----------------------------------------------------------------------------------------------------------|
+| Terraform AWS Provider Documentation  | [Terraform AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs)              |
+| AWS Launch Template Documentation     | [AWS Launch Template Documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/launch-templates.html) |
+| Attendance App Infra Repo             | [Infrastructure Repository](https://github.com/mygurukulam-p10/infrastructure-repo)                      |
+
+---
+
+### 📞 Contact Information
+
+| **Name**       | **Email**                                      |
+|----------------|------------------------------------------------|
+| Amit Nagar     | [amit.nagar@mygurukulam.co](mailto:amit.nagar@mygurukulam.co) |
+
+---
+
