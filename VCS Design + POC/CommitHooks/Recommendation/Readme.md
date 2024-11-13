@@ -1,9 +1,9 @@
 # Recommendations of Commit Hooks 
 ![git-commit 256x121](https://github.com/user-attachments/assets/b492d131-d46d-471d-8ab2-32de5dea75f1)
 
-  | Author        | Created on | Version | Last updated by | Last edited on |
-  |-------------|---------|-------------|-------------|---------|
-  | Megha Tyagi | 12-09-24 | version 1 | Megha Tyagi | 13-09-24 |
+| Author      | Created on | Version   | Last updated by | Last edited on | Reviewed By L0 | Reviewed By L1 | Reviewed By L2 |
+|-------------|------------|-----------|-----------------|----------------|----------------|----------------|----------------|
+| Komal       | 13-10-24   | Version 1 | Komal Jaiswal   | 13-10-24       |                |                |                |
 
 ## Purpose 
 This document aims to provide a comprehensive discussion on various types of commit hooks, highlighting their differences and recommending specific hooks based on their effectiveness and use cases. By understanding the unique purposes and functionalities of each commit hook, readers will gain insights into why certain hooks are recommended over others, ultimately aiding in the selection of the most suitable commit hooks for their development workflows.
